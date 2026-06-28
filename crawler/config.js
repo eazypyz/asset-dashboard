@@ -10,7 +10,10 @@ export const config = {
     .filter(Boolean)
     .concat([
       // ← Add your domains here
-      "epicgames.com"
+      "permatabank.com",
+      "kredivo.com",
+      "bochk.com",
+      "chess.com"
     ])
     .filter((v, i, a) => a.indexOf(v) === i), // deduplicate
 
