@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<!-- TEST 123 -->
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height">
+    <title>Chess.com — Magnified</title>
+
+    <!-- Font preloading -->
+    <link rel="preload" href="/fonts/ChessSansVF.ttf?v=9" as="font" type="font/ttf" crossorigin="anonymous">
+    
+    <!-- SEO -->
+    <meta name="description" content="37,845 unique people replied to our tweet, earning their place in our header with one immortal message: Chess.">
+    <meta name="keywords" content="chess, chess.com, chessboard, banner, interactive, magnifier">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://twitterbanner.chess.com/">
+    
+    <!-- Mobile optimization -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Chess.com Banner">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://twitterbanner.chess.com/">
+    <meta property="og:title" content="Chess.com — Magnified">
+    <meta property="og:description" content="37,845 unique people replied to our tweet, earning their place in our header with one immortal message: Chess.">
+    <meta property="og:image" content="https://twitterbanner.chess.com/img/opengraph.jpg">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@chesscom">
+    <meta name="twitter:creator" content="@chesscom">
+    <meta name="twitter:domain" content="twitterbanner.chess.com">
+    <meta name="twitter:url" content="https://twitterbanner.chess.com/">
+    <meta name="twitter:title" content="Chess.com — Magnified">
+    <meta name="twitter:description" content="37,845 unique people replied to our tweet, earning their place in our header with one immortal message: Chess.">
+    <meta name="twitter:image" content="https://twitterbanner.chess.com/img/opengraph.jpg">
+    
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
+    <link rel="manifest" href="/favicons/site.webmanifest">
+    <link rel="mask-icon" href="/favicons/safari-pinned-tab.svg" color="#769656">
+    <meta name="msapplication-TileColor" content="#769656">
+    <meta name="msapplication-config" content="/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#769656">
+    
+
+    <link rel="stylesheet" href="/css/main.css?v=4">
+</head>
+<body>
+    <img src="/img/chesscom-logo-mini.svg" alt="Chess.com" id="chesscom-logo">
+
+    <div id="grid-container">
+        <div id="grid-content">
+            <div class="move-indicator move-from"></div>
+            <div class="move-indicator move-to"></div>
+            <div class="hover-indicator"></div>
+            <!-- Lock indicator: red background -->
+            <div class="lock-indicator"></div>
+            <!-- Blocked flash indicator: flash red on illegal move -->
+            <div class="blocked-flash-indicator"></div>
+            <!-- Lock pawn: animated separately -->
+            <div class="lock-pawn"></div>
+            <!-- Legal move markers container -->
+            <div id="legal-move-markers"></div>
+        </div>
+    </div>
+    
+    <div id="magnifier-wrapper">
+        	<div id="magnifier-ring">
+        	</div>
+            <div class="coordinate-wrapper">
+                <div class="coordinate">
+                    <span class="coordinate-text"></span>
+                    <!-- Lock icons from brandguide/source/glyphs/svg-24/ -->
+                    <svg class="lock-icon unlocked-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M17.33,22 l-10.77,0 c-1.93,0,-2.57,-0.67,-2.57,-2.67 l0,-6.77 c0,-1.93,0.67,-2.57,2.67,-2.57 l10.77,0 c1.93,0,2.57,0.67,2.57,2.67 l0,6.77 c0,1.93,-0.67,2.57,-2.67,2.57 Z M10.97,15.93 l0,3.13 c0,0.6,0.33,0.93,0.93,0.93 l0.13,0 c0.6,0,0.93,-0.33,0.93,-0.93 l0,-3.13 c0,-0.6,-0.33,-0.93,-0.93,-0.93 l-0.13,0 c-0.6,0,-0.93,0.33,-0.93,0.93 Z M15.0,10.67 l0.0,-5.6 c0.0,-2.12,-1.16,-3.07,-3.0,-3.07 c-1.84,-0.0,-3.0,0.94,-3.0,3.07 l0.0,1 l-2,0 l0.0,-1 c0.0,-3.08,2.44,-5.07,5.0,-5.07 c2.56,0.0,5.0,1.99,5.0,5.07 l0.0,5.6 Z M15.0,10.67" />
+                    </svg>
+                    <svg class="lock-icon locked-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M17.33,22 l-10.77,0 c-1.93,0,-2.57,-0.67,-2.57,-2.67 l0,-6.77 c0,-1.93,0.67,-2.57,2.67,-2.57 l0.33,0 l0,-3 c0,-3.2,2.3,-5.07,5,-5.07 c2.7,0,5,1.87,5,5.07 l0,3 l0.43,0 c1.93,0,2.57,0.67,2.57,2.67 l0,6.77 c0,1.93,-0.67,2.57,-2.67,2.57 Z M10.97,15.93 l0,3.13 c0,0.6,0.33,0.93,0.93,0.93 l0.13,0 c0.6,0,0.93,-0.33,0.93,-0.93 l0,-3.13 c0,-0.6,-0.33,-0.93,-0.93,-0.93 l-0.13,0 c-0.6,0,-0.93,0.33,-0.93,0.93 Z M9,7 l0,3 l6,0 l0,-3 c0,-2,-1.3,-3.07,-3,-3.07 c-1.7,0,-3,1.07,-3,3.07 Z M9,7" />
+                    </svg>
+                </div>
+            </div>
+            <div id="magnifier">
+                <div class="mini-grid">
+                    <div class="mini-tile"><span class="mini-username"></span></div>
+                    <div class="mini-tile"><span class="mini-username"></span></div>
+                    <div class="mini-tile"><span class="mini-username"></span></div>
+                    <div class="mini-tile"><span class="mini-username"></span></div>
+                    <div class="mini-tile"><span class="mini-username"></span></div>
+                    <div class="mini-tile"><span class="mini-username"></span></div>
+                    <div class="mini-tile"><span class="mini-username"></span></div>
+                    <div class="mini-tile"><span class="mini-username"></span></div>
+                    <div class="mini-tile"><span class="mini-username"></span></div>
+                    <div class="mini-tile"><span class="mini-username"></span></div>
+                    <div class="mini-tile"><span class="mini-username"></span></div>
+                    <div class="mini-tile"><span class="mini-username"></span></div>
+                    <div class="mini-tile"><span class="mini-username"></span></div>
+                    <div class="mini-tile"><span class="mini-username"></span></div>
+                    <div class="mini-tile"><span class="mini-username"></span></div>
+                    <div class="mini-tile"><span class="mini-username"></span></div>
+                    <div class="mini-tile"><span class="mini-username"></span></div>
+                    <div class="mini-tile"><span class="mini-username"></span></div>
+                    <div class="mini-tile"><span class="mini-username"></span></div>
+                    <div class="mini-tile"><span class="mini-username"></span></div>
+                    <div class="mini-tile"><span class="mini-username"></span></div>
+                    <div class="mini-tile"><span class="mini-username"></span></div>
+                    <div class="mini-tile"><span class="mini-username"></span></div>
+                    <div class="mini-tile"><span class="mini-username"></span></div>
+                    <div class="mini-tile"><span class="mini-username"></span></div>
+                </div>
+            </div>
+        </div>
+            <div class="welcome-morph-container">
+                <!-- Search icon (visible when collapsed to button) -->
+                <svg class="welcome-morph-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path d="M11.25,16.75 c3.11,-0.0,5.5,-2.39,5.5,-5.5 c0.0,-3.11,-2.39,-5.5,-5.5,-5.5 c-3.11,-0.0,-5.5,2.39,-5.5,5.5 c0.0,3.11,2.39,5.5,5.5,5.5 Z M11.25,19 c-4.34,0.0,-7.75,-3.41,-7.75,-7.75 c0.0,-4.34,3.41,-7.75,7.75,-7.75 c4.34,0,7.75,3.41,7.75,7.75 c-0.0,4.34,-3.41,7.75,-7.75,7.75 Z M19.25,20.68 c-0.4,0,-0.77,-0.15,-1.35,-0.8 l-2.62,-2.75 l1.85,-1.85 l2.7,2.57 c0.7,0.6,0.85,1,0.85,1.4 c0,0.77,-0.65,1.43,-1.43,1.43 Z M19.25,20.68" />
+                </svg>
+            
+                <!-- Content wrapper with overflow hidden -->
+                <div class="welcome-content-wrapper">
+                    <div id="welcome-card" class="welcome-card">
+                        <button class="welcome-close-btn" id="welcome-close-btn" title="Close">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path d="M7.57,18.58 c-0.85,0.85,-1.2,0.85,-2.05,0 l-0.1,-0.1 c-0.85,-0.85,-0.85,-1.2,0,-2.05 l4.48,-4.42 l-4.48,-4.5 c-0.85,-0.85,-0.85,-1.2,0,-2.05 l0.1,-0.07 c0.85,-0.85,1.2,-0.85,2.05,0 l4.45,4.5 l4.45,-4.48 c0.85,-0.85,1.2,-0.85,2.05,0 l0.1,0.1 c0.85,0.85,0.85,1.2,0,2.05 l-4.48,4.45 l4.35,4.42 c0.85,0.85,0.85,1.2,0,2.05 l-0.07,0.1 c-0.85,0.85,-1.2,0.85,-2.05,0 l-4.35,-4.45 Z M7.57,18.58" />
+                            </svg>
+                        </button>
+                        <div class="welcome-header">
+                            <h1>Yes, we actually made the banner.</h1>
+                            <p>37,845 unique people replied to <a href="https://x.com/chesscom/status/1999176613842284748">our tweet</a>, earning their place in our header with one immortal message: Chess.</p>
+                        </div>
+            
+                        <div class="welcome-results" id="welcome-search-results">
+                            <!-- Loading spinner (shown during data load) -->
+                            <div class="sidebar-loader-wrapper">
+                                <div class="g-loader spinner variant-green size-l"></div>
+                            </div>
+                            <div class="search-empty-state hidden">
+                                <img src="/img/magnifier-surprise.svg" alt="" class="empty-icon">
+                                <div class="empty-text-wrapper">
+                                    <div class="empty-text">Couldn't find <span class="search-query"></span></div>
+                                    <div class="empty-subtext">Check the spelling maybe?</div>
+                                </div>
+                            </div>
+                        </div>
+            
+                        <div class="welcome-search-wrapper">
+                            <input type="text" id="welcome-search-input" placeholder="Find your square..." autocomplete="off">
+                            <svg class="welcome-search-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path d="M11.25,16.75 c3.11,-0.0,5.5,-2.39,5.5,-5.5 c0.0,-3.11,-2.39,-5.5,-5.5,-5.5 c-3.11,-0.0,-5.5,2.39,-5.5,5.5 c0.0,3.11,2.39,5.5,5.5,5.5 Z M11.25,19 c-4.34,0.0,-7.75,-3.41,-7.75,-7.75 c0.0,-4.34,3.41,-7.75,7.75,-7.75 c4.34,0,7.75,3.41,7.75,7.75 c-0.0,4.34,-3.41,7.75,-7.75,7.75 Z M19.25,20.68 c-0.4,0,-0.77,-0.15,-1.35,-0.8 l-2.62,-2.75 l1.85,-1.85 l2.7,2.57 c0.7,0.6,0.85,1,0.85,1.4 c0,0.77,-0.65,1.43,-1.43,1.43 Z M19.25,20.68" />
+                            </svg>
+                            <svg class="welcome-clear-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path d="M7.57,18.58 c-0.85,0.85,-1.2,0.85,-2.05,0 l-0.1,-0.1 c-0.85,-0.85,-0.85,-1.2,0,-2.05 l4.48,-4.42 l-4.48,-4.5 c-0.85,-0.85,-0.85,-1.2,0,-2.05 l0.1,-0.07 c0.85,-0.85,1.2,-0.85,2.05,0 l4.45,4.5 l4.45,-4.48 c0.85,-0.85,1.2,-0.85,2.05,0 l0.1,0.1 c0.85,0.85,0.85,1.2,0,2.05 l-4.48,4.45 l4.35,4.42 c0.85,0.85,0.85,1.2,0,2.05 l-0.07,0.1 c-0.85,0.85,-1.2,0.85,-2.05,0 l-4.35,-4.45 Z M7.57,18.58" />
+                            </svg>
+                        </div>
+            
+                    </div>
+                </div>
+            </div>
+            
+        
+        
+	<div class="welcome-morph-container">
+        	    <!-- Search icon (visible when collapsed to button) -->
+        	    <svg class="welcome-morph-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        	        <path d="M11.25,16.75 c3.11,-0.0,5.5,-2.39,5.5,-5.5 c0.0,-3.11,-2.39,-5.5,-5.5,-5.5 c-3.11,-0.0,-5.5,2.39,-5.5,5.5 c0.0,3.11,2.39,5.5,5.5,5.5 Z M11.25,19 c-4.34,0.0,-7.75,-3.41,-7.75,-7.75 c0.0,-4.34,3.41,-7.75,7.75,-7.75 c4.34,0,7.75,3.41,7.75,7.75 c-0.0,4.34,-3.41,7.75,-7.75,7.75 Z M19.25,20.68 c-0.4,0,-0.77,-0.15,-1.35,-0.8 l-2.62,-2.75 l1.85,-1.85 l2.7,2.57 c0.7,0.6,0.85,1,0.85,1.4 c0,0.77,-0.65,1.43,-1.43,1.43 Z M19.25,20.68" />
+        	    </svg>
+        	
+        	    <!-- Content wrapper with overflow hidden -->
+        	    <div class="welcome-content-wrapper">
+        	        <div id="welcome-card" class="welcome-card">
+        	            <button class="welcome-close-btn" id="welcome-close-btn" title="Close">
+        	                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        	                    <path d="M7.57,18.58 c-0.85,0.85,-1.2,0.85,-2.05,0 l-0.1,-0.1 c-0.85,-0.85,-0.85,-1.2,0,-2.05 l4.48,-4.42 l-4.48,-4.5 c-0.85,-0.85,-0.85,-1.2,0,-2.05 l0.1,-0.07 c0.85,-0.85,1.2,-0.85,2.05,0 l4.45,4.5 l4.45,-4.48 c0.85,-0.85,1.2,-0.85,2.05,0 l0.1,0.1 c0.85,0.85,0.85,1.2,0,2.05 l-4.48,4.45 l4.35,4.42 c0.85,0.85,0.85,1.2,0,2.05 l-0.07,0.1 c-0.85,0.85,-1.2,0.85,-2.05,0 l-4.35,-4.45 Z M7.57,18.58" />
+        	                </svg>
+        	            </button>
+        	            <div class="welcome-header">
+        	                <h1>Yes, we actually made the banner.</h1>
+        	                <p>37,845 unique people replied to <a href="https://x.com/chesscom/status/1999176613842284748">our tweet</a>, earning their place in our header with one immortal message: Chess.</p>
+        	            </div>
+        	
+        	            <div class="welcome-results" id="welcome-search-results">
+        	                <!-- Loading spinner (shown during data load) -->
+        	                <div class="sidebar-loader-wrapper">
+        	                    <div class="g-loader spinner variant-green size-l"></div>
+        	                </div>
+        	                <div class="search-empty-state hidden">
+        	                    <img src="/img/magnifier-surprise.svg" alt="" class="empty-icon">
+        	                    <div class="empty-text-wrapper">
+        	                        <div class="empty-text">Couldn't find <span class="search-query"></span></div>
+        	                        <div class="empty-subtext">Check the spelling maybe?</div>
+        	                    </div>
+        	                </div>
+        	            </div>
+        	
+        	            <div class="welcome-search-wrapper">
+        	                <input type="text" id="welcome-search-input" placeholder="Find your square..." autocomplete="off">
+        	                <svg class="welcome-search-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        	                    <path d="M11.25,16.75 c3.11,-0.0,5.5,-2.39,5.5,-5.5 c0.0,-3.11,-2.39,-5.5,-5.5,-5.5 c-3.11,-0.0,-5.5,2.39,-5.5,5.5 c0.0,3.11,2.39,5.5,5.5,5.5 Z M11.25,19 c-4.34,0.0,-7.75,-3.41,-7.75,-7.75 c0.0,-4.34,3.41,-7.75,7.75,-7.75 c4.34,0,7.75,3.41,7.75,7.75 c-0.0,4.34,-3.41,7.75,-7.75,7.75 Z M19.25,20.68 c-0.4,0,-0.77,-0.15,-1.35,-0.8 l-2.62,-2.75 l1.85,-1.85 l2.7,2.57 c0.7,0.6,0.85,1,0.85,1.4 c0,0.77,-0.65,1.43,-1.43,1.43 Z M19.25,20.68" />
+        	                </svg>
+        	                <svg class="welcome-clear-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        	                    <path d="M7.57,18.58 c-0.85,0.85,-1.2,0.85,-2.05,0 l-0.1,-0.1 c-0.85,-0.85,-0.85,-1.2,0,-2.05 l4.48,-4.42 l-4.48,-4.5 c-0.85,-0.85,-0.85,-1.2,0,-2.05 l0.1,-0.07 c0.85,-0.85,1.2,-0.85,2.05,0 l4.45,4.5 l4.45,-4.48 c0.85,-0.85,1.2,-0.85,2.05,0 l0.1,0.1 c0.85,0.85,0.85,1.2,0,2.05 l-4.48,4.45 l4.35,4.42 c0.85,0.85,0.85,1.2,0,2.05 l-0.07,0.1 c-0.85,0.85,-1.2,0.85,-2.05,0 l-4.35,-4.45 Z M7.57,18.58" />
+        	                </svg>
+        	            </div>
+        	
+        	        </div>
+        	    </div>
+        	</div>
+        	
+    <!-- Minimap: Shows viewport position relative to full grid -->
+        	    <div id="minimap">
+        	        <div id="minimap-viewport"></div>
+        	    </div>
+        	    
+
+    <!-- Point counter: Shows cumulative blunder / brilliant count in snake mode -->
+    <div id="point-counter" class="inactive">
+        <div class="brilliant-counter-content">
+            <img src="/img/move-classifications/classification-brilliant.svg" alt="Briliant" class="point-icon brilliant-icon">
+            <span class="point-count brilliant-count">0</span>
+        </div>
+
+
+        <div class="blunder-counter-content">
+            <img src="/img/move-classifications/classification-blunder.svg" alt="Blunder" class="point-icon blunder-icon">
+            <span class="point-count blunder-count">0</span>
+        </div>
+    </div>
+
+    <script src="/js/audio.js"></script>
+    <!-- Inline top 30 users for instant sidebar render -->
+    <script>
+    window.TOP_30_USERS = [
+		  {
+		    "username": "Innocentmagara4",
+		    "tweetId": "1999176682511454696"
+		  },
+		  {
+		    "username": "anishgiri",
+		    "tweetId": "1999176698127089819"
+		  },
+		  {
+		    "username": "jay__ded",
+		    "tweetId": "1999176775524581624"
+		  },
+		  {
+		    "username": "Its_SakshamR",
+		    "tweetId": "1999176778867441810"
+		  },
+		  {
+		    "username": "lossless_nerd",
+		    "tweetId": "1999176784726593823"
+		  },
+		  {
+		    "username": "chessmonitor",
+		    "tweetId": "1999176830188961855"
+		  },
+		  {
+		    "username": "Rickingbogg",
+		    "tweetId": "1999176862874980630"
+		  },
+		  {
+		    "username": "GiuliaGrit7751",
+		    "tweetId": "1999176928419545183"
+		  },
+		  {
+		    "username": "ThorXervia",
+		    "tweetId": "1999176932563517684"
+		  },
+		  {
+		    "username": "aRrJayZee3",
+		    "tweetId": "1999177080114937932"
+		  },
+		  {
+		    "username": "figomarsa",
+		    "tweetId": "1999177155360752003"
+		  },
+		  {
+		    "username": "jammslol",
+		    "tweetId": "1999177173115240575"
+		  },
+		  {
+		    "username": "fs_tech_",
+		    "tweetId": "1999177218530980121"
+		  },
+		  {
+		    "username": "taylormcintire",
+		    "tweetId": "1999177303574638932"
+		  },
+		  {
+		    "username": "FisayomiStanley",
+		    "tweetId": "1999177314752671848"
+		  },
+		  {
+		    "username": "Jabu04913216",
+		    "tweetId": "1999177322822246744"
+		  },
+		  {
+		    "username": "7LeandroBFR",
+		    "tweetId": "1999177361166619093"
+		  },
+		  {
+		    "username": "3000Senku",
+		    "tweetId": "1999177409325858852"
+		  },
+		  {
+		    "username": "mechanicalfl1ux",
+		    "tweetId": "1999177424022769781"
+		  },
+		  {
+		    "username": "Wallyxiii",
+		    "tweetId": "1999177522450432271"
+		  },
+		  {
+		    "username": "DarianTrinity",
+		    "tweetId": "1999177582785572967"
+		  },
+		  {
+		    "username": "AyuyadoPorDios",
+		    "tweetId": "1999177611138773142"
+		  },
+		  {
+		    "username": "Firew413236",
+		    "tweetId": "1999177819503423491"
+		  },
+		  {
+		    "username": "hfth_zameer",
+		    "tweetId": "1999177860053967126"
+		  },
+		  {
+		    "username": "Mordecai_15TM",
+		    "tweetId": "1999178012353290613"
+		  },
+		  {
+		    "username": "drmanhattan_of",
+		    "tweetId": "1999178023774437678"
+		  },
+		  {
+		    "username": "narvuzzz",
+		    "tweetId": "1999178050143994244"
+		  },
+		  {
+		    "username": "Vedbhanushxli",
+		    "tweetId": "1999178074861240572"
+		  },
+		  {
+		    "username": "ebukagaus",
+		    "tweetId": "1999178129554723310"
+		  },
+		  {
+		    "username": "EventideGuild",
+		    "tweetId": "1999178132981489982"
+		  }
+		];
+    </script>
+    <script src="/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+<meta http-equiv="X-UA-COMPATIBLE" content="IE=edge">
+
+<html>
+
+<head>
+
+    <title>BOCHK EIM Installation</title>
+    <style>
+        body {
+            padding: 50px;
+        }
+
+        .logo {
+            max-width: 80%;
+            border: none;
+        }
+    </style>
+
+
+
+    <!-- social media tags -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body>
+    <center><img class="logo" src="install_logo.jpg" /><br /><br /><br />
+        BOCHK EIM is being installed. Please close this browser. You can find a latest App in your mobile.
+    </center>
+
+
+
+    <script>
+
+        function detectmob() {
+
+            if (navigator.userAgent.match(/iPhone/i)
+
+                || navigator.userAgent.match(/iPad/i)
+
+                || navigator.userAgent.match(/iPod/i)
+
+            ) {
+
+                location.href = 'itms-services://?action=download-manifest&url=https://eim.bochk.com/pilot/Manifest.plist%3F' + new Date().getTime();
+
+            }
+
+            else if (navigator.userAgent.match(/Android/i)) {
+
+                location.href = 'https://eim.bochk.com/pilot/app-boc-release-4.1.533.apk';
+
+            }
+
+        }
+
+
+
+
+        detectmob();
+
+    </script>
+
+</body>

@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>404</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              white: '#fff',
+              gray: {
+                900: "#111827",
+                400: "#9CA3AF",
+                100: "#F3F4F6",
+                50: "#F9FAFB",
+              },
+              primary: {
+                300: '#F5F8FD',
+                500: '#239CEC',
+                600: '#239CEC',
+                800: '#0064D2',
+                900: '#0064D2',
+              },
+              secondary: '#FC843C',
+            }
+          }
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <section class="bg-gray-50 dark:bg-gray-900 h-screen">
+      <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
+          <div class="mx-auto max-w-screen-sm text-center">
+            <div class="flex justify-center">
+              <div 
+                class="mb-4 text-7xl tracking-tight font-extrabold lg:text-9xl text-primary-600 dark:text-primary-500 w-full h-auto lg:w-[256px] lg:h-[256px]"
+              >
+                <dotlottie-player 
+                  src="https://lottie.host/7260d0be-2c12-40eb-9d55-d8a50791f647/NI6tJAHT9E.lottie" 
+                  background="transparent" 
+                  speed="1" 
+                  style="width: 256px; height: 256px" 
+                  loop 
+                  autoplay>
+                </dotlottie-player>
+              </div>
+            </div>
+            <p class="mb-4 text-3xl tracking-tight font-bold text-gray-900 md:text-4xl dark:text-white">404 - Not Found</p>
+            <p class="mb-4 text-lg font-light text-gray-500 dark:text-gray-400">Link anda telah expired atau tidak ditemukan</p>
+          </div>   
+      </div>
+    </section>
+  </body>
+</html>

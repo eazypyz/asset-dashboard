@@ -1,0 +1,983 @@
+{
+  "domain": "permatabank.com",
+  "last_update": "2026-06-28T14:54:40.588Z",
+  "stats": {
+    "total": 57,
+    "dns_resolved": 20,
+    "alive": 12,
+    "has_robots": 2,
+    "has_security": 4,
+    "has_sitemap": 4
+  },
+  "subdomains": [
+    {
+      "host": "3dsecure.permatabank.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-06-28T14:54:40.582Z",
+      "last_seen": "2026-06-28T14:54:40.582Z"
+    },
+    {
+      "host": "3dsecure2.permatabank.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-06-28T14:54:40.582Z",
+      "last_seen": "2026-06-28T14:54:40.582Z"
+    },
+    {
+      "host": "3dsecureuat.permatabank.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-06-28T14:54:40.582Z",
+      "last_seen": "2026-06-28T14:54:40.582Z"
+    },
+    {
+      "host": "api.permatabank.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-06-28T14:54:40.582Z",
+      "last_seen": "2026-06-28T14:54:40.582Z"
+    },
+    {
+      "host": "app.permatabank.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-06-28T14:54:40.582Z",
+      "last_seen": "2026-06-28T14:54:40.582Z"
+    },
+    {
+      "host": "appraisalnet.permatabank.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-06-28T14:54:40.582Z",
+      "last_seen": "2026-06-28T14:54:40.582Z"
+    },
+    {
+      "host": "autodiscover.permatabank.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-06-28T14:54:40.582Z",
+      "last_seen": "2026-06-28T14:54:40.582Z"
+    },
+    {
+      "host": "btr-08-asa5555-t-01.permatabank.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-06-28T14:54:40.582Z",
+      "last_seen": "2026-06-28T14:54:40.582Z"
+    },
+    {
+      "host": "dns.permatabank.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-06-28T14:54:40.582Z",
+      "last_seen": "2026-06-28T14:54:40.582Z"
+    },
+    {
+      "host": "eform.permatabank.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-06-28T14:54:40.582Z",
+      "last_seen": "2026-06-28T14:54:40.582Z"
+    },
+    {
+      "host": "eum.permatabank.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-06-28T14:54:40.582Z",
+      "last_seen": "2026-06-28T14:54:40.582Z"
+    },
+    {
+      "host": "extfile-cloud.permatabank.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-06-28T14:54:40.582Z",
+      "last_seen": "2026-06-28T14:54:40.582Z"
+    },
+    {
+      "host": "filetransfer.permatabank.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-06-28T14:54:40.582Z",
+      "last_seen": "2026-06-28T14:54:40.582Z"
+    },
+    {
+      "host": "hybrid.permatabank.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-06-28T14:54:40.582Z",
+      "last_seen": "2026-06-28T14:54:40.582Z"
+    },
+    {
+      "host": "imap.permatabank.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-06-28T14:54:40.582Z",
+      "last_seen": "2026-06-28T14:54:40.582Z"
+    },
+    {
+      "host": "imapbtr.permatabank.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-06-28T14:54:40.582Z",
+      "last_seen": "2026-06-28T14:54:40.582Z"
+    },
+    {
+      "host": "intgate.permatabank.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "",
+      "security_hash": "4f2d1d088077ae49f6252139bcfce8f741470e3370531e96daf899c01e2f54b4",
+      "sitemap_hash": "3ca8d20ce414cf1faca6fb252ec68039ae0725e6ea964ad8bc69a6711069661d",
+      "first_seen": "2026-06-28T14:54:40.582Z",
+      "last_seen": "2026-06-28T14:54:40.582Z"
+    },
+    {
+      "host": "mail.permatabank.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-06-28T14:54:40.582Z",
+      "last_seen": "2026-06-28T14:54:40.582Z"
+    },
+    {
+      "host": "mailbtr.permatabank.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-06-28T14:54:40.582Z",
+      "last_seen": "2026-06-28T14:54:40.582Z"
+    },
+    {
+      "host": "mdmcore01.permatabank.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-06-28T14:54:40.582Z",
+      "last_seen": "2026-06-28T14:54:40.582Z"
+    },
+    {
+      "host": "mdmcore02.permatabank.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-06-28T14:54:40.582Z",
+      "last_seen": "2026-06-28T14:54:40.582Z"
+    },
+    {
+      "host": "mdmsentry01.permatabank.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-06-28T14:54:40.582Z",
+      "last_seen": "2026-06-28T14:54:40.582Z"
+    },
+    {
+      "host": "mdmsentry02.permatabank.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-06-28T14:54:40.582Z",
+      "last_seen": "2026-06-28T14:54:40.582Z"
+    },
+    {
+      "host": "mft.permatabank.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-06-28T14:54:40.582Z",
+      "last_seen": "2026-06-28T14:54:40.582Z"
+    },
+    {
+      "host": "ns1.permatabank.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-06-28T14:54:40.582Z",
+      "last_seen": "2026-06-28T14:54:40.582Z"
+    },
+    {
+      "host": "ns2.permatabank.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-06-28T14:54:40.582Z",
+      "last_seen": "2026-06-28T14:54:40.582Z"
+    },
+    {
+      "host": "pbpp.permatabank.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-06-28T14:54:40.582Z",
+      "last_seen": "2026-06-28T14:54:40.582Z"
+    },
+    {
+      "host": "petruk.permatabank.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-06-28T14:54:40.582Z",
+      "last_seen": "2026-06-28T14:54:40.582Z"
+    },
+    {
+      "host": "pmx.permatabank.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-06-28T14:54:40.582Z",
+      "last_seen": "2026-06-28T14:54:40.582Z"
+    },
+    {
+      "host": "pop.permatabank.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-06-28T14:54:40.582Z",
+      "last_seen": "2026-06-28T14:54:40.582Z"
+    },
+    {
+      "host": "popbtr.permatabank.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-06-28T14:54:40.582Z",
+      "last_seen": "2026-06-28T14:54:40.582Z"
+    },
+    {
+      "host": "product.permatabank.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-06-28T14:54:40.582Z",
+      "last_seen": "2026-06-28T14:54:40.582Z"
+    },
+    {
+      "host": "qr.permatabank.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-06-28T14:54:40.582Z",
+      "last_seen": "2026-06-28T14:54:40.582Z"
+    },
+    {
+      "host": "semar.permatabank.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-06-28T14:54:40.582Z",
+      "last_seen": "2026-06-28T14:54:40.582Z"
+    },
+    {
+      "host": "sentry.permatabank.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-06-28T14:54:40.582Z",
+      "last_seen": "2026-06-28T14:54:40.582Z"
+    },
+    {
+      "host": "sfda.permatabank.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-06-28T14:54:40.582Z",
+      "last_seen": "2026-06-28T14:54:40.582Z"
+    },
+    {
+      "host": "sse.permatabank.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "security_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sitemap_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "first_seen": "2026-06-28T14:54:40.582Z",
+      "last_seen": "2026-06-28T14:54:40.582Z"
+    },
+    {
+      "host": "syariah.permatabank.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-06-28T14:54:40.582Z",
+      "last_seen": "2026-06-28T14:54:40.582Z"
+    },
+    {
+      "host": "test.permatabank.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-06-28T14:54:40.582Z",
+      "last_seen": "2026-06-28T14:54:40.582Z"
+    },
+    {
+      "host": "tw2-casht-p01.permatabank.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-06-28T14:54:40.582Z",
+      "last_seen": "2026-06-28T14:54:40.582Z"
+    },
+    {
+      "host": "tw2-casht-p02.permatabank.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-06-28T14:54:40.582Z",
+      "last_seen": "2026-06-28T14:54:40.582Z"
+    },
+    {
+      "host": "tw2-casht-p51.permatabank.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-06-28T14:54:40.582Z",
+      "last_seen": "2026-06-28T14:54:40.582Z"
+    },
+    {
+      "host": "tw2-ex2010-p51.permatabank.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-06-28T14:54:40.582Z",
+      "last_seen": "2026-06-28T14:54:40.582Z"
+    },
+    {
+      "host": "tw3-casht-p01.permatabank.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-06-28T14:54:40.582Z",
+      "last_seen": "2026-06-28T14:54:40.582Z"
+    },
+    {
+      "host": "tw3-casht-p02.permatabank.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-06-28T14:54:40.582Z",
+      "last_seen": "2026-06-28T14:54:40.582Z"
+    },
+    {
+      "host": "tw3-casht-p51.permatabank.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-06-28T14:54:40.582Z",
+      "last_seen": "2026-06-28T14:54:40.582Z"
+    },
+    {
+      "host": "voip.permatabank.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-06-28T14:54:40.582Z",
+      "last_seen": "2026-06-28T14:54:40.582Z"
+    },
+    {
+      "host": "voipcc.permatabank.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-06-28T14:54:40.582Z",
+      "last_seen": "2026-06-28T14:54:40.582Z"
+    },
+    {
+      "host": "vpn.permatabank.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-06-28T14:54:40.582Z",
+      "last_seen": "2026-06-28T14:54:40.582Z"
+    },
+    {
+      "host": "vpn1.permatabank.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "",
+      "security_hash": "629f89000d375ba534170b181abd3dbde76332ad2ec5227a496351bbc7aadad9",
+      "sitemap_hash": "629f89000d375ba534170b181abd3dbde76332ad2ec5227a496351bbc7aadad9",
+      "first_seen": "2026-06-28T14:54:40.582Z",
+      "last_seen": "2026-06-28T14:54:40.582Z"
+    },
+    {
+      "host": "vpn11.permatabank.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-06-28T14:54:40.582Z",
+      "last_seen": "2026-06-28T14:54:40.582Z"
+    },
+    {
+      "host": "webaps1.permatabank.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-06-28T14:54:40.582Z",
+      "last_seen": "2026-06-28T14:54:40.582Z"
+    },
+    {
+      "host": "webmail.permatabank.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-06-28T14:54:40.582Z",
+      "last_seen": "2026-06-28T14:54:40.582Z"
+    },
+    {
+      "host": "webmailbtr.permatabank.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-06-28T14:54:40.582Z",
+      "last_seen": "2026-06-28T14:54:40.582Z"
+    },
+    {
+      "host": "www.permatabank.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "3200f655bd0e859a4fb1a7237cc64d4cec38824f6f5ee914c37d0b9de0f9c554",
+      "security_hash": "69cf8b0c7e0d0cbb2fca495db1bd9865aadf68ffb154380e548b79dc5f62e201",
+      "sitemap_hash": "76783dcc3fcf1ba68c4d302d32fd7bc0f9ae2928f01f43e52fa4c27758de5a17",
+      "first_seen": "2026-06-28T14:54:40.582Z",
+      "last_seen": "2026-06-28T14:54:40.582Z"
+    },
+    {
+      "host": "www.qr.permatabank.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-06-28T14:54:40.582Z",
+      "last_seen": "2026-06-28T14:54:40.582Z"
+    },
+    {
+      "host": "xnet.permatabank.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-06-28T14:54:40.582Z",
+      "last_seen": "2026-06-28T14:54:40.582Z"
+    }
+  ]
+}

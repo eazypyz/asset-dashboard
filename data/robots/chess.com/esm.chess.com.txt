@@ -1,0 +1,5 @@
+/* esm.sh - robots.txt@1.1.0 */
+import "/node/crypto.mjs";
+import "/node/fs.mjs";
+export * from "/robots.txt@1.1.0/esnext/robots.txt.mjs";
+export { default } from "/robots.txt@1.1.0/esnext/robots.txt.mjs";

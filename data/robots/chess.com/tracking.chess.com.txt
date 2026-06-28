@@ -1,0 +1,13 @@
+# robotstxt.org/
+
+User-agent: *
+Disallow: /a/
+Disallow: /e/
+Disallow: /u/
+Disallow: /ep?
+Disallow: /p?
+Noindex: /a/
+Noindex: /e/
+Noindex: /u/
+Noindex: /ep?
+Noindex: /p?

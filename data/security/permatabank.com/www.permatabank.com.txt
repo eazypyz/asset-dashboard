@@ -1,0 +1,72 @@
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <link rel="icon" type="image/x-icon" href="https://www.permatabank.com/Resources/images/favicon.ico">
+  <title>PermataNet</title>
+  <style type="text/css">
+    a:link {
+      color: green;
+    }
+    a:hover {
+      color: white;
+    }
+    a:active {
+      color: red;
+    }
+   
+  </style>
+  		
+</head>
+<body topmargin="0" leftmargin="0"  style="font-family: Lato,sans-serif ; background-color:#16263e; ">
+  <table cellpadding="0" cellspacing="0" width="100%" height="60%" align="center" valign="center" >
+    <tr>
+      <td align="center" valign="middle" colspan="2">
+        <table>
+		<tr>
+		<td class="tdcontent" colspan="2"> <img src="https://www.permatabank.com/themes/permataweb/logo.svg" width="160" height="42"/>
+		</td>
+		</tr>
+          <tr>
+            <td class="tdcontent" colspan="2" style="color: #fff; font-weight: 300; letter-spacing: normal;line-height: 1.4"><br>
+				<p>Maaf, kami tidak dapat menjalankan permintaan Anda saat ini. Silakan hubungi PermataTel 1500111. <br />
+				Gunakan Support ID ini untuk melaporkan kondisi yang Anda alami : <b>
+        <script>
+          function cc_format(value) {
+            var v = value.replace(/\s+/g, '').replace(/[^0-9]/gi, '')
+            var matches = v.match(/\d{4,21}/g);
+            var match = matches && matches[0] || ''
+            var parts = []
+
+            for (i=0, len=match.length; i<len; i+=4) {
+              parts.push(match.substring(i, i+4))
+            }
+
+            if (parts.length) {
+              return parts.join('-')
+            } else {
+              return value
+            }
+          }
+          
+          var num = '12337671394799658070';
+          document.write(cc_format(num).toString());
+
+        </script></b> <br /> </p>
+				<p>Kami mohon maaf atas ketidaknyamanannya. <a href='https://www.permatabank.com'>[Kembali ke Halaman Login]</a></p>
+				<hr />
+				<p>Sorry, we are unable to execute your request at the moment. Please, call PermataTel 1500111.<br />
+				Use this Support ID to tell us about the condition you have : <b>12337671394799658070</b> </p>
+				<p>We apologize for any inconvenience. <a href='https://www.permatabank.com'>[Go Back to Login Page]</a></p>
+            </td>
+          </tr>
+
+		  <tr>
+		  <td><p style="color: #999;  font-size: 14px;"><br>© PermataBank. All rights reserved</p></td>
+		  </tr>
+        </table>
+
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
