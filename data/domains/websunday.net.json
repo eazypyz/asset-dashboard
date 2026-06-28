@@ -1,0 +1,99 @@
+{
+  "domain": "websunday.net",
+  "last_update": "2026-06-28T07:02:12.144Z",
+  "stats": {
+    "total": 5,
+    "dns_resolved": 4,
+    "alive": 2,
+    "has_robots": 2,
+    "has_security": 0,
+    "has_sitemap": 1
+  },
+  "subdomains": [
+    {
+      "host": "cdn.websunday.net",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-06-28T07:02:12.141Z",
+      "last_seen": "2026-06-28T07:02:12.141Z"
+    },
+    {
+      "host": "dev.websunday.net",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-06-28T07:02:12.141Z",
+      "last_seen": "2026-06-28T07:02:12.141Z"
+    },
+    {
+      "host": "i.websunday.net",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-06-28T07:02:12.141Z",
+      "last_seen": "2026-06-28T07:02:12.141Z"
+    },
+    {
+      "host": "test.websunday.net",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "9311bab30d8b5d05f5fa5563a251b8c96b8470873bb77c62d3d17c146d7acab7",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-06-28T07:02:12.141Z",
+      "last_seen": "2026-06-28T07:02:12.141Z"
+    },
+    {
+      "host": "www.websunday.net",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": true,
+      "robots_hash": "6e0ef1896a0bee19616519ba8212a7b6a948a65a691ed9b923fc3ba951160d98",
+      "security_hash": "",
+      "sitemap_hash": "b2b6a91d353d119c13c09c60a9efdeff9d830bc096e05009d0def920b6b2f03b",
+      "first_seen": "2026-06-28T07:02:12.141Z",
+      "last_seen": "2026-06-28T07:02:12.141Z"
+    }
+  ]
+}
