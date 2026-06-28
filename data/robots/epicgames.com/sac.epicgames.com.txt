@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /dashboard
+Disallow: /settings
+Disallow: /signup
+Disallow: /auth_callback
+Disallow: /api/
+Sitemap: https://sac.epicgames.com/sitemap.xml
