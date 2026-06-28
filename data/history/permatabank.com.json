@@ -283,5 +283,26 @@
     "type": "new_subdomain",
     "host": "xnet.permatabank.com",
     "timestamp": "2026-06-28T14:54:40.582Z"
+  },
+  {
+    "type": "security_txt_changed",
+    "host": "intgate.permatabank.com",
+    "timestamp": "2026-06-28T16:03:46.166Z",
+    "previous": "4f2d1d088077ae49f6252139bcfce8f741470e3370531e96daf899c01e2f54b4",
+    "current": "d54bf6598ef7ee8e3bbe8be6b07dd96fd09f9dda030daf471d1d241d7f0f2255"
+  },
+  {
+    "type": "sitemap_changed",
+    "host": "intgate.permatabank.com",
+    "timestamp": "2026-06-28T16:03:46.166Z",
+    "previous": "3ca8d20ce414cf1faca6fb252ec68039ae0725e6ea964ad8bc69a6711069661d",
+    "current": "db2f540e220a87dbc1c89cebab538ddac781b9064e70fad37dc71450925fbf0c"
+  },
+  {
+    "type": "security_txt_changed",
+    "host": "www.permatabank.com",
+    "timestamp": "2026-06-28T16:03:46.166Z",
+    "previous": "69cf8b0c7e0d0cbb2fca495db1bd9865aadf68ffb154380e548b79dc5f62e201",
+    "current": "73b24a23e038bb7cc27f77824759bf2bc11dc06929780adbf1898cdbb1464b35"
   }
 ]
