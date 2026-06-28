@@ -40,7 +40,7 @@ jobs:
 
       - name: Install crawler dependencies
         working-directory: crawler
-        run: npm ci --prefer-offline
+        run: npm install --prefer-offline
 
       - name: Run asset collector
         working-directory: crawler
