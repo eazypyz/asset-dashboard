@@ -9,8 +9,7 @@ import { config } from "../config.js";
 // Repo root = one level up from crawler/
 const REPO_ROOT = process.env.GITHUB_WORKSPACE
   ? process.env.GITHUB_WORKSPACE
-  : const __dirname = path.dirname(fileURLToPath(import.meta.url));
-path.resolve(__dirname, "../");
+  : path.resolve(import.meta.dirname, "../");
 
 const abs = (rel) => path.resolve(REPO_ROOT, rel);
 
