@@ -1,0 +1,80 @@
+name: Asset Collection
+
+on:
+  schedule:
+    - cron: "0 * * * *"   # every hour
+  workflow_dispatch:        # allow manual trigger
+    inputs:
+      domains:
+        description: "Comma-separated domains to scan (leave empty to use config)"
+        required: false
+        default: ""
+      force:
+        description: "Force commit even if no changes detected"
+        required: false
+        default: "false"
+
+permissions:
+  contents: write
+
+env:
+  NODE_VERSION: "20"
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 55      # stay within 60-min limit
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1     # we only need HEAD; history lives in data/history/
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: "npm"
+          cache-dependency-path: crawler/package.json
+
+      - name: Install crawler dependencies
+        working-directory: crawler
+        run: npm ci --prefer-offline
+
+      - name: Run asset collector
+        working-directory: crawler
+        env:
+          SECURITYTRAILS_API_KEY: ${{ secrets.SECURITYTRAILS_API_KEY }}
+          SCAN_DOMAINS: ${{ github.event.inputs.domains }}
+          FORCE_COMMIT: ${{ github.event.inputs.force }}
+          GITHUB_WORKSPACE: ${{ github.workspace }}
+        run: node main.js
+
+      - name: Check for data changes
+        id: changes
+        run: |
+          git add data/
+          if git diff --cached --quiet; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+            STATS=$(git diff --cached --stat | tail -1)
+            echo "stats=$STATS" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit updated data
+        if: steps.changes.outputs.changed == 'true' || github.event.inputs.force == 'true'
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          TIMESTAMP=$(date -u '+%Y-%m-%d %H:%M UTC')
+          git commit -m "chore(data): update scan results [${TIMESTAMP}]" \
+            -m "${{ steps.changes.outputs.stats }}" \
+            --allow-empty  # only reached when force=true
+          git push
+
+      - name: No-change summary
+        if: steps.changes.outputs.changed == 'false' && github.event.inputs.force != 'true'
+        run: echo "✅ Scan complete — no data changes detected, skipping commit."
