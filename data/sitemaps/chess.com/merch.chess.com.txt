@@ -115,7 +115,7 @@ Shopify.SignInWithShop.User.recognized = false;</script>
     window.addEventListener('load', asyncLoad, false);
   }
 })();</script>
-<script id="__st">var __st={"a":63128535224,"offset":-25200,"reqid":"7e5b69f1-cabf-4b52-87e7-b7923f6f17e6-1782682326","pageurl":"chesscom.shop\/","u":"4b4c47c18054","p":"home"};</script>
+<script id="__st">var __st={"a":63128535224,"offset":-25200,"reqid":"51b8b6a8-56ce-4987-b886-e142508582df-1782688056","pageurl":"chesscom.shop\/","u":"516f6b0a46cd","p":"home"};</script>
 <script>window.ShopifyPaypalV4VisibilityTracking = true;</script>
 <script id="captcha-bootstrap">!function(){'use strict';const t='contact',e='account',n='new_comment',o=[[t,t],['blogs',n],['comments',n],[t,'customer']],c=[[e,'customer_login'],[e,'guest_login'],[e,'recover_customer_password'],[e,'create_customer']],r=t=>t.map((([t,e])=>`form[action*='/${t}']:not([data-nocaptcha='true']) input[name='form_type'][value='${e}']`)).join(','),a=t=>()=>t?[...document.querySelectorAll(t)].map((t=>t.form)):[];function s(){const t=[...o],e=r(t);return a(e)}const i='password',u='form_key',d=['recaptcha-v3-token','g-recaptcha-response','h-captcha-response',i],f=()=>{try{return window.sessionStorage}catch{return}},m='__shopify_v',_=t=>t.elements[u];function p(t,e,n=!1){try{const o=window.sessionStorage,c=JSON.parse(o.getItem(e)),{data:r}=function(t){const{data:e,action:n}=t;return t[m]||n?{data:e,action:n}:{data:t,action:n}}(c);for(const[e,n]of Object.entries(r))t.elements[e]&&(t.elements[e].value=n);n&&o.removeItem(e)}catch(o){console.error('form repopulation failed',{error:o})}}const l='form_type',E='cptcha';function T(t){t.dataset[E]=!0}const w=window,h=w.document,L='Shopify',v='ce_forms',y='captcha';let A=!1;((t,e)=>{const n=(g='f06e6c50-85a8-45c8-87d0-21a2b65856fe',I='https://cdn.shopify.com/shopifycloud/storefront-forms-hcaptcha/ce_storefront_forms_captcha_hcaptcha.v1.5.2.iife.js',D={infoText:'Protected by hCaptcha',privacyText:'Privacy',termsText:'Terms'},(t,e,n)=>{const o=w[L][v],c=o.bindForm;if(c)return c(t,g,e,D).then(n);var r;o.q.push([[t,g,e,D],n]),r=I,A||(h.body.append(Object.assign(h.createElement('script'),{id:'captcha-provider',async:!0,src:r})),A=!0)});var g,I,D;w[L]=w[L]||{},w[L][v]=w[L][v]||{},w[L][v].q=[],w[L][y]=w[L][y]||{},w[L][y].protect=function(t,e){n(t,void 0,e),T(t)},Object.freeze(w[L][y]),function(t,e,n,w,h,L){const[v,y,A,g]=function(t,e,n){const i=e?o:[],u=t?c:[],d=[...i,...u],f=r(d),m=r(i),_=r(d.filter((([t,e])=>n.includes(e))));return[a(f),a(m),a(_),s()]}(w,h,L),I=t=>{const e=t.target;return e instanceof HTMLFormElement?e:e&&e.form},D=t=>v().includes(t);t.addEventListener('submit',(t=>{const e=I(t);if(!e)return;const n=D(e)&&!e.dataset.hcaptchaBound&&!e.dataset.recaptchaBound,o=_(e),c=g().includes(e)&&(!o||!o.value);(n||c)&&t.preventDefault(),c&&!n&&(function(t){try{if(!f())return;!function(t){const e=f();if(!e)return;const n=_(t);if(!n)return;const o=n.value;o&&e.removeItem(o)}(t);const e=Array.from(Array(32),(()=>Math.random().toString(36)[2])).join('');!function(t,e){_(t)||t.append(Object.assign(document.createElement('input'),{type:'hidden',name:u})),t.elements[u].value=e}(t,e),function(t,e){const n=f();if(!n)return;const o=[...t.querySelectorAll(`input[type='${i}']`)].map((({name:t})=>t)),c=[...d,...o],r={};for(const[a,s]of new FormData(t).entries())c.includes(a)||(r[a]=s);n.setItem(e,JSON.stringify({[m]:1,action:t.action,data:r}))}(t,e)}catch(e){console.error('failed to persist form',e)}}(e),e.submit())}));const S=(t,e)=>{t&&!t.dataset[E]&&(n(t,e.some((e=>e===t))),T(t))};for(const o of['focusin','change'])t.addEventListener(o,(t=>{const e=I(t);D(e)&&S(e,y())}));const B=e.get('form_key'),M=e.get(l),P=B&&M;t.addEventListener('DOMContentLoaded',(()=>{const t=y();if(P)for(const e of t)e.elements[l].value===M&&p(e,B);[...new Set([...A(),...v().filter((t=>'true'===t.dataset.shopifyCaptcha))])].forEach((e=>S(e,t)))}))}(h,new URLSearchParams(w.location.search),n,t,e,['guest_login'])})(!0,!0)}();</script>
 <script integrity="sha256-JjoPp5ZfB1sSAs5SQaol1x1GgvveM+BgmRzyDexInEQ=" data-source-attribution="shopify.loadfeatures" defer="defer" src="//chesscom.shop/cdn/shopifycloud/storefront/assets/storefront/load_feature-1bd60354.js" crossorigin="anonymous"></script>
@@ -2696,7 +2696,7 @@ Shopify.SignInWithShop.User.recognized = false;</script>
   window.ShopifyAnalytics = window.ShopifyAnalytics || {};
   window.ShopifyAnalytics.meta = window.ShopifyAnalytics.meta || {};
   window.ShopifyAnalytics.meta.currency = 'USD';
-  var meta = {"page":{"pageType":"home","requestId":"7e5b69f1-cabf-4b52-87e7-b7923f6f17e6-1782682326"}};
+  var meta = {"page":{"pageType":"home","requestId":"51b8b6a8-56ce-4987-b886-e142508582df-1782688056"}};
   for (var attr in meta) {
     window.ShopifyAnalytics.meta[attr] = meta[attr];
   }
@@ -2840,7 +2840,7 @@ first.parentNode.insertBefore(script, first);
 
     };
     trekkie.load(
-      {"Trekkie":{"appName":"storefront","development":false,"defaultAttributes":{"shopId":63128535224,"isMerchantRequest":null,"themeId":181163655352,"themeCityHash":"10100034718349094000","contentLanguage":"en","currency":"USD","eventMetadataId":"7f18c3ff-5582-428c-9f90-19f01d6f6591"},"isServerSideCookieWritingEnabled":true,"monorailRegion":"shop_domain","enabledBetaFlags":["b5387b81","d5bdd5d0"]},"Session Attribution":{},"S2S":{"facebookCapiEnabled":true,"source":"trekkie-storefront-renderer","apiClientId":580111}}
+      {"Trekkie":{"appName":"storefront","development":false,"defaultAttributes":{"shopId":63128535224,"isMerchantRequest":null,"themeId":181163655352,"themeCityHash":"10100034718349094000","contentLanguage":"en","currency":"USD","eventMetadataId":"2b2e8800-aea5-4721-a291-9db6cb5b9742"},"isServerSideCookieWritingEnabled":true,"monorailRegion":"shop_domain","enabledBetaFlags":["b5387b81","d5bdd5d0"]},"Session Attribution":{},"S2S":{"facebookCapiEnabled":true,"source":"trekkie-storefront-renderer","apiClientId":580111}}
     );
 
     var loaded = false;
@@ -2855,7 +2855,7 @@ first.parentNode.insertBefore(script, first);
       try { window.ShopifyAnalytics.merchantGoogleAnalytics.call(this); } catch(error) {};
       document.write = originalDocumentWrite;
 
-      window.ShopifyAnalytics.lib.page(null,{"pageType":"home","requestId":"7e5b69f1-cabf-4b52-87e7-b7923f6f17e6-1782682326","shopifyEmitted":true});
+      window.ShopifyAnalytics.lib.page(null,{"pageType":"home","requestId":"51b8b6a8-56ce-4987-b886-e142508582df-1782688056","shopifyEmitted":true});
 
       var match = window.location.pathname.match(/checkouts\/(.+)\/(thank_you|post_purchase)/)
       var token = match? match[1]: undefined;
@@ -3225,7 +3225,7 @@ first.parentNode.insertBefore(script, first);
 														</a>
 														<div class="menu-drawer__account-register">
 															<span>No account yet?</span>
-															<a href="https://shopify.com/63128535224/account?locale=en&region_country=US&buyer_flags=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIwMjVlNmUtMy5teXNob3BpZnkuY29tIiwiZmxhZ3MiOltdLCJleHAiOjE3ODMyODcxMjYsIm5iZiI6MTc4MjY4MjMyNn0.xo5prxwDhEMKzNpVIONnGIQv-8JYhgBFsUL2DKFt2Lk" class="button button--simple">
+															<a href="https://shopify.com/63128535224/account?locale=en&buyer_flags=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIwMjVlNmUtMy5teXNob3BpZnkuY29tIiwiZmxhZ3MiOltdLCJleHAiOjE3ODMyOTI4NTcsIm5iZiI6MTc4MjY4ODA1N30.QE6-KLAnGPiT0pqNdcOVwMNv0JHkeuOl9L4uWYg3N1U" class="button button--simple">
 																<span class="button-label">Create Account</span>
 																<span class="button-icon">
 																<svg
@@ -3293,7 +3293,7 @@ first.parentNode.insertBefore(script, first);
 										<div class="header__account-modal modal__toggle" role="dialog" aria-modal="true"><a href="https://chesscom.shop/customer_authentication/redirect?locale=en&region_country=US" class="button button--primary header__account__login focus-inset">
 													<span class="button-label">Log in</span>
 												</a>
-												<a class="header__account__register button button--simple" href="https://shopify.com/63128535224/account?locale=en&region_country=US&buyer_flags=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIwMjVlNmUtMy5teXNob3BpZnkuY29tIiwiZmxhZ3MiOltdLCJleHAiOjE3ODMyODcxMjYsIm5iZiI6MTc4MjY4MjMyNn0.xo5prxwDhEMKzNpVIONnGIQv-8JYhgBFsUL2DKFt2Lk">
+												<a class="header__account__register button button--simple" href="https://shopify.com/63128535224/account?locale=en&buyer_flags=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIwMjVlNmUtMy5teXNob3BpZnkuY29tIiwiZmxhZ3MiOltdLCJleHAiOjE3ODMyOTI4NTcsIm5iZiI6MTc4MjY4ODA1N30.QE6-KLAnGPiT0pqNdcOVwMNv0JHkeuOl9L4uWYg3N1U">
 													<span class="button-label">Create Account</span>
 													<span class="button-icon">
 													<svg
