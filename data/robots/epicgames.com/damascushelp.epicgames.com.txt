@@ -1,0 +1,22 @@
+#
+# default robots.txt for sfdc communities sites
+#
+# For use by salesforce.com
+#
+User-agent: *    # applies to all robots
+Allow: /      # allow all
+Disallow: */secur/forgotpassword.jsp?*
+
+Sitemap: https://epicgames.my.site.com/ESWPXMIAWChatWeb1706725137526/sitemap.xml
+Sitemap: https://epicgames.my.site.com/EpicUXResearch/s/sitemap.xml
+Sitemap: https://support.fab.com/s/sitemap.xml
+Sitemap: https://epicgames.my.site.com/TrainingPartnerPortal/s/sitemap.xml
+Sitemap: https://forms.unrealengine.com/s/sitemap.xml
+Sitemap: https://partners.unrealengine.com/s/sitemap.xml
+Sitemap: https://creative.fortnite.com/s/sitemap.xml
+Sitemap: https://communityportal.epicgames.com/s/sitemap.xml
+Sitemap: https://eoshelp.epicgames.com/s/sitemap.xml
+Sitemap: https://support.harmonixmusic.com/s/sitemap.xml
+Sitemap: https://marketplacehelp.epicgames.com/s/sitemap.xml
+Sitemap: https://twinmotionhelp.epicgames.com/s/sitemap.xml
+Sitemap: https://epicprosupport.epicgames.com/s/sitemap.xml
