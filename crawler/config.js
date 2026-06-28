@@ -10,7 +10,7 @@ export const config = {
     .filter(Boolean)
     .concat([
       // ← Add your domains here
-      "websunday.net"
+      "epicgames.com"
     ])
     .filter((v, i, a) => a.indexOf(v) === i), // deduplicate
 
