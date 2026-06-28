@@ -1,0 +1,23 @@
+{
+  "name": "asset-collection-crawler",
+  "version": "1.0.0",
+  "description": "Subdomain discovery and asset monitoring crawler",
+  "type": "module",
+  "main": "main.js",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "start": "node main.js",
+    "test": "node --experimental-vm-modules node_modules/.bin/jest"
+  },
+  "dependencies": {
+    "dns": "^0.2.2",
+    "node-fetch": "^3.3.2",
+    "p-limit": "^5.0.0",
+    "p-retry": "^6.2.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
