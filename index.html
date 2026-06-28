@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Asset Collection Dashboard — subdomain discovery and monitoring on GitHub Pages" />
+  <title>Asset Collection Dashboard</title>
+
+  <!-- Preconnect for Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <link rel="stylesheet" href="./assets/css/main.css" />
+
+  <!-- Favicon — inline SVG data URI, no external file needed -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%230d1117'/><text x='5' y='24' font-size='22' fill='%2300d4ff'>⬡</text></svg>" />
+</head>
+
+<body>
+  <!-- ── Loading state ──────────────────────────────────────────────────────── -->
+  <div id="loading" class="loading-screen" role="status" aria-live="polite">
+    <div class="spinner" aria-hidden="true"></div>
+    <p class="loading-text">Fetching asset data…</p>
+  </div>
+
+  <!-- ── Application shell ─────────────────────────────────────────────────── -->
+  <div id="app" class="shell hidden">
+
+    <!-- ── Topbar ─────────────────────────────────────────────────────────── -->
+    <header class="topbar" role="banner">
+      <button class="menu-toggle" id="menu-toggle" aria-label="Toggle sidebar" aria-expanded="false">☰</button>
+
+      <div class="topbar-logo">
+        <span class="logo-accent">⬡</span>
+        <span>Asset<span class="logo-accent">Scout</span></span>
+      </div>
+
+      <div class="topbar-search">
+        <div class="search-wrap">
+          <input
+            type="search"
+            id="search-input"
+            class="search-input"
+            placeholder="Search subdomains…"
+            aria-label="Search subdomains"
+            autocomplete="off"
+            spellcheck="false"
+          />
+        </div>
+      </div>
+
+      <div class="topbar-right">
+        <span id="last-updated" class="last-updated"></span>
+        <button id="export-btn" class="btn" title="Export visible rows as CSV">⬇ Export</button>
+        <button id="theme-toggle" class="btn" aria-label="Toggle colour theme">☾ Dark</button>
+      </div>
+    </header>
+
+    <!-- ── Sidebar ────────────────────────────────────────────────────────── -->
+    <aside class="sidebar" id="sidebar" aria-label="Filters">
+
+      <!-- Domain selector -->
+      <div class="sidebar-section">
+        <div class="sidebar-label">Domain</div>
+        <select id="domain-select" class="filter-select" aria-label="Select domain">
+          <option value="all">All Domains</option>
+        </select>
+      </div>
+
+      <!-- Quick filters -->
+      <div class="sidebar-section">
+        <div class="sidebar-label">Status</div>
+        <select id="filter-status" class="filter-select" aria-label="Filter by HTTP status">
+          <option value="all">All</option>
+          <option value="alive">Alive only</option>
+          <option value="dead">Dead only</option>
+        </select>
+
+        <div class="sidebar-label" style="margin-top:12px">DNS</div>
+        <select id="filter-dns" class="filter-select" aria-label="Filter by DNS resolution">
+          <option value="all">All</option>
+          <option value="resolved">Resolved</option>
+          <option value="unresolved">Unresolved</option>
+        </select>
+      </div>
+
+      <!-- File presence filters -->
+      <div class="sidebar-section">
+        <div class="sidebar-label">robots.txt</div>
+        <select id="filter-robots" class="filter-select" aria-label="Filter by robots.txt">
+          <option value="all">All</option>
+          <option value="yes">Present</option>
+          <option value="no">Absent</option>
+        </select>
+
+        <div class="sidebar-label" style="margin-top:12px">security.txt</div>
+        <select id="filter-security" class="filter-select" aria-label="Filter by security.txt">
+          <option value="all">All</option>
+          <option value="yes">Present</option>
+          <option value="no">Absent</option>
+        </select>
+
+        <div class="sidebar-label" style="margin-top:12px">sitemap.xml</div>
+        <select id="filter-sitemap" class="filter-select" aria-label="Filter by sitemap">
+          <option value="all">All</option>
+          <option value="yes">Present</option>
+          <option value="no">Absent</option>
+        </select>
+      </div>
+
+      <!-- Source filter -->
+      <div class="sidebar-section">
+        <div class="sidebar-label">Sources</div>
+        <div id="source-filter-list" role="group" aria-label="Filter by data source"></div>
+      </div>
+
+      <!-- Clear -->
+      <div class="sidebar-section">
+        <button id="clear-filters" class="btn" style="width:100%">✕ Clear all filters</button>
+      </div>
+
+      <!-- Charts -->
+      <div class="sidebar-section">
+        <div class="sidebar-label">Overview</div>
+        <div class="chart-wrap">
+          <canvas id="chart-donut" aria-label="Alive vs dead donut chart"></canvas>
+          <canvas id="chart-bar"   aria-label="File presence bar chart"></canvas>
+        </div>
+      </div>
+
+    </aside>
+
+    <!-- ── Main content ────────────────────────────────────────────────────── -->
+    <main class="main" id="main-content" role="main">
+
+      <!-- Stat cards row -->
+      <div id="stats-grid" class="stats-grid" aria-label="Summary statistics"></div>
+
+      <!-- Subdomain table -->
+      <div class="table-card">
+        <div class="table-toolbar">
+          <span class="sidebar-label" style="margin:0">Subdomains</span>
+          <span id="result-count" class="result-count" aria-live="polite"></span>
+        </div>
+        <div class="table-scroll" role="region" aria-label="Subdomain table" tabindex="0">
+          <table aria-label="Subdomain results">
+            <thead id="table-head"></thead>
+            <tbody id="table-body"></tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- Change history (shown when a single domain is selected) -->
+      <section class="history-panel hidden" id="history-panel" aria-label="Change history">
+        <div class="panel-header">Change History</div>
+        <div class="history-list" id="history-list" role="log" aria-live="polite"></div>
+      </section>
+
+    </main>
+  </div>
+
+  <!-- ── Toast ──────────────────────────────────────────────────────────────── -->
+  <div id="toast" class="toast" role="alert" aria-live="assertive"></div>
+
+  <!-- ── App bootstrap ──────────────────────────────────────────────────────── -->
+  <script type="module">
+    import { init } from "./js/app.js";
+
+    // Mobile sidebar toggle
+    const toggle  = document.getElementById("menu-toggle");
+    const sidebar = document.getElementById("sidebar");
+    toggle?.addEventListener("click", () => {
+      const open = sidebar.classList.toggle("open");
+      toggle.setAttribute("aria-expanded", String(open));
+    });
+
+    // Boot
+    document.addEventListener("DOMContentLoaded", init);
+  </script>
+</body>
+</html>
