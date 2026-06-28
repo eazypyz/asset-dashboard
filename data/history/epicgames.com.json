@@ -9998,5 +9998,57 @@
     "type": "new_subdomain",
     "host": "weighted-catalog-public-service-prod.ak.epicgames.com",
     "timestamp": "2026-06-28T07:59:39.531Z"
+  },
+  {
+    "type": "new_subdomain",
+    "host": "ec2c97be-7b3a-4ccf-f72d-912d0aec0ac6-ap-southeast-2.rtcp.on.epicgames.com",
+    "timestamp": "2026-06-28T08:38:48.161Z"
+  },
+  {
+    "type": "subdomain_disappeared",
+    "host": "fn-cod.dev.qstv.on.epicgames.com",
+    "timestamp": "2026-06-28T08:38:48.161Z"
+  },
+  {
+    "type": "robots_changed",
+    "host": "prod-test.safety.epicgames.com",
+    "timestamp": "2026-06-28T08:38:48.161Z",
+    "previous": "85780f70df5e16c649c9aa896c51b6f5127693cd4bf1d8de81f0eb762e1907d7",
+    "current": "5feb9c43ac7b4346286229630ba1db5370944360638237ae49c7bbf5a092867b"
+  },
+  {
+    "type": "security_txt_changed",
+    "host": "prod-test.safety.epicgames.com",
+    "timestamp": "2026-06-28T08:38:48.161Z",
+    "previous": "4bd7d03a557465f15900901ffddae5c4a3fca9fd261c56c9fe1f640e49fe7b2c",
+    "current": "0e9f5b59406043bc0dde9d9b5ce7bb2fe3a5a8d1fb242a2e32e4d5dbc1b7ba4a"
+  },
+  {
+    "type": "sitemap_changed",
+    "host": "prod-test.safety.epicgames.com",
+    "timestamp": "2026-06-28T08:38:48.161Z",
+    "previous": "57a4863fabcfc500552e6e752982eb9c8c0575c8ccd5baae769c5e8d6a1b2fcd",
+    "current": "991821a4467a2b461c7b4c5d87e5cc5a3199d649108684e0aa75d4a43e28de4b"
+  },
+  {
+    "type": "robots_changed",
+    "host": "unrealbugsubmissions.epicgames.com",
+    "timestamp": "2026-06-28T08:38:48.161Z",
+    "previous": "2b7f81521a3cb76ce6fa983fb043e7da74ab5dd12386c05eb83112672bf8defa",
+    "current": "9537ce39e63ea4f6d248823269df57d423b3f6e244e1c3ab11ca7883867ea84c"
+  },
+  {
+    "type": "security_txt_changed",
+    "host": "unrealbugsubmissions.epicgames.com",
+    "timestamp": "2026-06-28T08:38:48.161Z",
+    "previous": "c8e748d7fa9a692ce704064c541b4d86cd1e27aa612ed065936a8cca8538683b",
+    "current": "81a0e4361db2147b4607a293368dcfaff74a052dac73c75cc7a1051b48e1b06c"
+  },
+  {
+    "type": "sitemap_changed",
+    "host": "unrealbugsubmissions.epicgames.com",
+    "timestamp": "2026-06-28T08:38:48.161Z",
+    "previous": "a342d3665b2757a42663b3ac2b29b0f276c2a8bf2138b23e1c1c82adf9c7a7de",
+    "current": "284f4ee42552214f46d2be85c7439265bb3439c8bab34314f459e7c84226efcc"
   }
 ]
