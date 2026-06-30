@@ -1,6 +1,13 @@
-// crawler/config.js
-// Central configuration — all tuneable values live here.
-// Add domains here or pass SCAN_DOMAINS env var (comma-separated) at runtime.
+/ Add domains here or pass SCAN_DOMAINS env var (comma-separated) at runtime.
+
+// ── Provider selection ─────────────────────────────────────────────────────────
+// SCAN_PROVIDER can be: "crtsh" | "securitytrails" | "both"
+// Defaults to "crtsh" to avoid burning SecurityTrails API quota unintentionally.
+// Set via GitHub Actions workflow_dispatch dropdown, or env var locally.
+const SCAN_PROVIDER = (process.env.SCAN_PROVIDER || "crtsh").toLowerCase();
+
+const isProviderSelected = (id) =>
+  SCAN_PROVIDER === "both" || SCAN_PROVIDER === id;
 
 export const config = {
   // ── Target domains ─────────────────────────────────────────────────────────
@@ -10,18 +17,24 @@ export const config = {
     .filter(Boolean)
     .concat([
       // ← Add your domains here
-      "nvidia.com",
-      "googlesource.com",
-      "fintual.cl",
-      "grokipedia.com"
+      "example.com",
     ])
     .filter((v, i, a) => a.indexOf(v) === i), // deduplicate
 
-  // ── Provider toggles ────────────────────────────────────────────────────────
+  // ── Provider selection + toggles ─────────────────────────────────────────────
+  // A provider runs only if BOTH conditions are true:
+  //   1. it is selected (via SCAN_PROVIDER, default "both")
+  //   2. it has what it needs to run (e.g. an API key)
+  selectedProvider: SCAN_PROVIDER,
+
   providers: {
-    crtsh: { enabled: true },
+    crtsh: {
+      enabled: isProviderSelected("crtsh"),
+    },
     securitytrails: {
-      enabled: Boolean(process.env.SECURITYTRAILS_API_KEY),
+      enabled:
+        isProviderSelected("securitytrails") &&
+        Boolean(process.env.SECURITYTRAILS_API_KEY),
       apiKey: process.env.SECURITYTRAILS_API_KEY || "",
     },
   },
