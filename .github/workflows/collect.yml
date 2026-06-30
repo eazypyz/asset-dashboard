@@ -5,6 +5,15 @@ on:
     - cron: "0 * * * *"   # every hour
   workflow_dispatch:        # allow manual trigger
     inputs:
+      provider:
+        description: "Which subdomain provider to use"
+        required: false
+        type: choice
+        default: "crtsh"
+        options:
+          - crtsh
+          - securitytrails
+          - both
       domains:
         description: "Comma-separated domains to scan (leave empty to use config)"
         required: false
@@ -40,16 +49,24 @@ jobs:
 
       - name: Install crawler dependencies
         working-directory: crawler
-        run: npm install --prefer-offline
+        run: npm ci --prefer-offline
 
       - name: Run asset collector
         working-directory: crawler
         env:
           SECURITYTRAILS_API_KEY: ${{ secrets.SECURITYTRAILS_API_KEY }}
+          SCAN_PROVIDER: ${{ github.event.inputs.provider || 'crtsh' }}
           SCAN_DOMAINS: ${{ github.event.inputs.domains }}
           FORCE_COMMIT: ${{ github.event.inputs.force }}
           GITHUB_WORKSPACE: ${{ github.workspace }}
         run: node main.js
+
+      - name: Job summary
+        if: always()
+        run: |
+          echo "### Asset Collection Summary" >> $GITHUB_STEP_SUMMARY
+          echo "- **Provider:** ${{ github.event.inputs.provider || 'crtsh' }}" >> $GITHUB_STEP_SUMMARY
+          echo "- **Domains override:** ${{ github.event.inputs.domains || '(using config.js)' }}" >> $GITHUB_STEP_SUMMARY
 
       - name: Check for data changes
         id: changes
