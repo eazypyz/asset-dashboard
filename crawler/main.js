@@ -27,9 +27,17 @@ async function main() {
 
   const providers = buildProviders();
   if (!providers.length) {
-    console.error("No providers enabled — nothing to do.");
+    console.error(
+      `No providers enabled for selection "${config.selectedProvider}".`,
+    );
+    if (config.selectedProvider === "securitytrails") {
+      console.error(
+        "Reason: SECURITYTRAILS_API_KEY secret is missing or empty.",
+      );
+    }
     process.exit(1);
   }
+  console.log(`Active provider(s): ${providers.map((p) => p.name).join(", ")}`);
 
   const processedDomains = [];
 
