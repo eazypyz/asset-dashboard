@@ -1,4 +1,4 @@
-/ Add domains here or pass SCAN_DOMAINS env var (comma-separated) at runtime.
+// Add domains here or pass SCAN_DOMAINS env var (comma-separated) at runtime.
 
 // ── Provider selection ─────────────────────────────────────────────────────────
 // SCAN_PROVIDER can be: "crtsh" | "securitytrails" | "both"
