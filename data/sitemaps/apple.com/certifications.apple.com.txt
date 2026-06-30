@@ -1,0 +1,352 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr" class="">
+
+
+    
+
+
+
+    
+
+
+<head>
+    <meta charset="utf-8"/>
+    <meta name="robots" content="noindex">
+    <link rel="shortcut icon" href="https://appleid.cdn-apple.com/daw/IDMSWebAuth/static/30Jul2025/images/favicon.ico" type="image/X-icon"/>
+    <title>Sign In - Apple</title>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta name="Author" content="Apple Inc.">
+    <meta name="Description" content="Sign in to your Apple Account">
+    <meta name="Title" content="Sign in to your Apple Account">
+    
+
+
+
+
+
+
+
+
+    
+    
+      <link rel="stylesheet" type="text/css"
+<link rel="stylesheet" type="text/css"
+            href="https://www.apple.com/ac/globalfooter/7/en_US/styles/ac-globalfooter.built.css"/>
+    
+
+
+    
+    
+
+
+    <script type="text/javascript" src="https://appleid.cdn-apple.com/appleauth/static/jsapi/authService.latest.min.js"></script>
+    <script src="https://appleid.cdn-apple.com/daw/IDMSWebAuth/static/30Jul2025/views/static/js/retina.js" type="text/javascript"
+            charset="utf-8"></script>
+    <link rel="stylesheet" type="text/css"
+          href="https://appleid.cdn-apple.com/daw/IDMSWebAuth/static/30Jul2025/views/static/css/login/embedLogin.css"/>
+    
+    <link rel="alternate" hreflang='x-default' href=''/>
+    
+    
+</head>
+<body data-theme="gray" class="" style="background-color: #FFFFFF"  >
+
+<noscript>
+    <div class="noscript ltr">
+        <h1>Please enable JavaScript.</h1>
+        <p>Please turn on JavaScript to properly view this page.</p>
+    </div>
+</noscript>
+<main class="widget-v2  wrapper window " style="background-color: #FFFFFF" >
+    <div id="auth-container" class="si-frame">
+    </div>
+    
+    
+        
+    
+
+    
+
+    
+        
+
+    
+    
+
+    
+        
+
+    
+    
+        
+        
+            
+        
+        
+            
+        
+        
+    
+
+    <!-- If app team needs to set ap name and signin string(description) separatly, please refer widget.1879.* configuration -->
+    
+    
+    
+        
+    
+    
+    
+    
+        
+    
+
+    
+    
+
+
+
+	
+	
+
+    
+    <script type="application/json" id="embed_login_boot_args">
+        {"direct":{"signInRequestUrl":"https%3A%2F%2Fidmsa.apple.com%2Fsignin%3Flanguage%3DUS-EN%26rv%3D2%26appIdKey%3Dbfb0171cf5421a919189706e67780f9f127fed5d4feb2be5d622ef001c75c369","showGlobalFooter":true,"createLinkText":"","writeAlternateCookieForOAuth":"false","signInVersion":"2","appReturnUrl":"https%3A%2F%2Fcertifications.apple.com%2F","locale":"US-EN","authWidgetConfig":{"authWidgetURL":"https://idmsa.apple.com/appleauth","widgetKey":"92f19b477c5c9be6ab17f3ec2b1b2b7db4d00a9a8c973e3d6c90dac08b91de71","authServiceUrl":"https://appleid.cdn-apple.com/appleauth/static/jsapi/authService.latest.min.js","widgetBackgroundColor":{"defaultBackgroundColorForOAuthStandardLogin":"FFFFFF","defaultBackgroundColorForStandardLogin":"FFFFFF"},"skVersion":"7","oauthlogoUrlDomains":["https://is5-ssl.mzstatic.com","https://is2-ssl.mzstatic.com","https://is1-ssl.mzstatic.com"]},"appId":158,"appNameString":" ","enableTiburonInd":true,"dawAppData":"{\"appId\":158,\"appCustomAttributes\":{\"showAppleIDLogo\":false,\"widgetMode\":\"inline\",\"showRememberMe\":true,\"enableKeepMeSignedIn\":false,\"showCreateLink\":false,\"logoImage\":\"/images/AuthWidget/158/AppleLogo.png\",\"logoWidth\":\"auto\",\"showGlobalNav\":false,\"showGlobalFooter\":true,\"hideContrySelector\":false,\"openAppleIDLinksInNewWindow\":true,\"prePopulateAppleId\":false,\"myAccessCreateLink\":false,\"disableiForgotReturnUrl\":false,\"rememberMeChecked\":false,\"enableEyebrowTextbox\":true,\"showIForgotLink\":true,\"autoThemeAdjust\":false,\"autoFillAccountName\":true}}","hostUrl":"https://idmsa.apple.com","authUIMode":"window","signInString":"Sign in to Global Certifications Exchange","app":{"appIdKey":"bfb0171cf5421a919189706e67780f9f127fed5d4feb2be5d622ef001c75c369","returnUrlVersion":"2","language":"US-EN","accNameLocked":false,"requestUri":"/signin","backgroundColor":"FFFFFF","authResponseType":"COOKIE","accountInd":0,"oauthRequest":false},"signInStringDescription":"","signInDetailedDescription":"","iframeId":"daw-c131b1ac-b432-4ac1-8aa0-95a96b996e4d"}}
+    </script>
+    <script type="text/javascript" src="https://appleid.cdn-apple.com/daw/IDMSWebAuth/static/30Jul2025/views/static/js/boot/embedLoginBoot.js"></script>
+</main>
+
+<form id="callBackForm" name="form1" style="display:none" action="signin" method="post">
+    <input type="hidden" id="rememberMe" name="rememberMe" value="false"/>
+    <input type="hidden" id="grantCode" name="grantCode" value=""/>
+    <input type="hidden" id="iframeId" name="iframeId" value=""/>
+    
+        <input type="hidden" id="requestUri" name="requestUri" value="/signin"/>
+    
+    
+
+
+
+
+	<input type="hidden" id="appIdKey" name="appIdKey"
+		value="bfb0171cf5421a919189706e67780f9f127fed5d4feb2be5d622ef001c75c369" />
+
+
+<input type="hidden" id="language" name="language"
+	value="US-EN" />
+
+
+
+
+	<input type="hidden" id="rv" name="rv" value="2" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+<input type="hidden" id="scnt" name="scnt" value="AAAA-jVGQTJBNkJGRDg2Q0M2QUM1NzE3MTk2N0QyNzgxMDVEMTFEMTIxQzc5NjQzMTBBMjUyN0QwRTRGRjg4MERGRkU4MjIzNUVFM0Q5NDdBQUJCRDgxODgwRTUxMjQ2RTAxQkNCQTMzQjVDMUZEOEYwQzYxNkQ5NTJBNjgyMDY0NkM2NzlFNEYxRkY1MDRBRjk4RDNFMzJDOUIwNDIyM0ZFNzNCMjFFODc3NUVCQUU1QkM2Qzk2QTdBMjQ1QzQzMzYxQkNCOTJEODk5M0EzRkFFRjlBQUUxOEU0NEZFMjE3NEFEMzg2OTFDOEI1RDYzRjA1RHwxAAABnxaen3nqcDG9fROPkvBZgKrlW6Hg_iJjO5FUv2TL3mBBIAhvokNFRoJK526nABDRJLhv9iTVRCwt0dYuXEo2MjAgt81WJLvvd7o-KsazOK0woJkGow" />
+</form>
+
+</body>
+
+
+    <style>
+        @media only screen and (min-device-width: 481px) {
+            .wrapper {
+                margin-bottom: -70px;
+                padding-bottom: 70px;
+            }
+        }
+
+        @media only screen and (max-device-width: 480px) {
+            .wrapper {
+                margin-bottom: -122px;
+                padding-bottom: 122px;
+            }
+        }
+    </style>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+    
+
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+<!-- Support link - start -->
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+<!-- Support link - end -->
+
+
+
+
+    
+
+
+
+
+<footer lang="en-US" aria-labelledby="ac-gf-label" role="contentinfo" data-analytics-region="global footer"
+        class="js no-touch svg no-oldie no-ie standard-footer " id="ac-globalfooter">
+    <div class="ac-gf-content">
+        <section class="ac-gf-footer">
+            <h2 id="ac-gf-label" class="ac-gf-label">Apple Footer</h2>
+            <div class="ac-gf-footer-locale">
+                
+
+
+
+
+    
+    
+
+    
+        
+    
+
+    
+        
+    
+
+    
+        
+    
+
+    
+    
+    
+        
+    
+    
+    <a class="ac-gf-footer-locale-link" title="Choose your country or region"
+       href="https://appleid.apple.com/choose-country-region?returnURL=https%3A%2F%2Fidmsa.apple.com%2Fsignin%3Frv%3D2%26appIdKey%3Dbfb0171cf5421a919189706e67780f9f127fed5d4feb2be5d622ef001c75c369">
+        United States
+    </a>
+
+            </div>
+            <div class="ac-gf-footer-legal">
+                <div class="ac-gf-footer-legal-copyright">
+                    Copyright © 2026 Apple Inc. All rights reserved.
+                </div>
+                <div class="ac-gf-footer-legal-links">
+                    <a class="ac-gf-footer-legal-link"
+                       href="https://www.apple.com/privacy/privacy-policy/ "
+                       target="_blank">
+                        Privacy Policy
+                    </a>
+                    <a class="ac-gf-footer-legal-link" href="https://www.apple.com/legal/internet-services/terms/site.html" target="_blank">
+                        Terms of Use
+                    </a>
+                    
+                    
+                </div>
+            </div>
+        </section>
+    </div>
+</footer>
+
+
+
+
+</html>

@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>ATLAS</title>
+  <base href="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <script>
+    var cookies = document.cookie.split(";");
+    var authenticated = false;
+    var redirecturlCookie;
+
+    if (cookies) {
+      for (var i = 0; i < cookies.length; i++) {
+        var cookiePair = cookies[i];
+        if (cookiePair.includes('authenticated')) {
+          const [cookieName, cookieValue] = cookiePair.split('=');
+          if(cookieValue === "true") {
+            authenticated = true;
+            break;
+          }       
+        } else if (cookiePair.includes('redirecturl')) {
+          var redirecturl = cookiePair.replace("redirecturl=", "");
+          redirecturl = redirecturl.replace(/"/g, '');
+          redirecturlCookie = redirecturl;
+        }
+      }
+
+      console.log("authenticated", authenticated);
+      if (authenticated) {
+        var referrerurl = localStorage.getItem('referrerurl');
+        console.log("referrerurl", referrerurl);
+        if (referrerurl) {
+          window.location.href = referrerurl;
+          localStorage.removeItem('referrerurl');
+        }
+      } else {
+        if (redirecturlCookie) {
+          localStorage.removeItem("session-Id");
+          localStorage.setItem('referrerurl', window.location.href);
+          console.log("window.location.href" ,window.location.href);
+          window.location.href = redirecturlCookie;
+        }
+      }
+    }
+  </script>
+<link rel="stylesheet" href="styles.eb57860dd68359d9378f.css"></head>
+<noscript>
+  Javascript is disabled in Your browser.
+</noscript>
+
+<body>
+  <app-root></app-root>
+  <div role="status" aria-live="assertive" aria-atomic="true" id="loadingStatus" class="a11y"></div>
+<script src="runtime.4c16e5a55df42435ba6f.js" defer></script><script src="polyfills-es5.20f7a29a7b27276e29bc.js" nomodule defer></script><script src="polyfills.4890a3b75e35ab7af33c.js" defer></script><script src="scripts.ce18cbcc1d58431536d9.js" defer></script><script src="main.bfc5da91243ff7e80e8c.js" defer></script></body>
+
+</html>

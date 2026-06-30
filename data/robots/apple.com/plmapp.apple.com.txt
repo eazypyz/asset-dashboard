@@ -1,0 +1,213 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html lang="en" dir="ltr">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noindex">
+        <title>AppleConnect   Sign In</title>
+        <link rel="stylesheet" type="text/css"
+              href="/IDMSWebAuth/static/11Nov2025/views/static/css/acplugin/acplugin.css">
+        <link rel="stylesheet" type="text/css"
+              href="/IDMSWebAuth/static/11Nov2025/views/static/css/acplugin/acplugin-theme-dark.css">
+        
+            
+                
+
+
+
+      
+      
+      
+      
+      
+      
+      
+            <link rel="stylesheet" href="https://www.apple.com/wss/fonts?families=SF+Pro,v1|SF+Pro+Icons,v1"
+                  type="text/css"/>
+      
+
+
+
+            
+        
+        <link rel="stylesheet" type="text/css"
+              href="/IDMSWebAuth/static/11Nov2025/views/static/css/login/embedLogin.css"/>
+        <link rel="stylesheet"
+              type="text/css"
+              href="/IDMSWebAuth/static/11Nov2025/views/static/css/sass/daw.css"/>
+        <link rel="stylesheet" type="text/css"
+              href="/IDMSWebAuth/static/11Nov2025/views/static/css/login.css">
+        <script type="text/javascript"
+                src="/IDMSWebAuth/static/11Nov2025/views/static/js/acplugin/acClient.min.js"></script>
+        
+            
+            
+                <script type="text/javascript"
+                        src="/IDMSWebAuth/static/11Nov2025/views/static/js/acplugin/acplugin.js"></script>
+            
+        
+        
+            
+                <script type="text/javascript"
+                        src="/IDMSWebAuth/static/11Nov2025/views/static/js/acplugin/acpluginOnLoad.js"></script>
+            
+        
+        
+    </head>
+    <body dir="ltr" class="tk-body">
+        
+
+
+
+
+
+
+
+
+
+
+    
+
+
+        <noscript>
+            <br>
+            <h3 class="noscript">
+                Your Browser does not support JavaScript, or it is disabled.
+                <br>To use this application, you must enable JavaScript!!</h3>
+        </noscript>
+        <div id="wrapper">
+            <div role="main" class="signin-container">
+                <div id="plugin"></div>
+                <div id="initialSpinner" style="display: none;"></div>
+                <div id="singlesignon" style='
+                    
+                    display: block;'>
+                    <img class="appleconnect-gray-icon"
+                         src="/IDMSWebAuth/static/11Nov2025/images/acplugin/logo_blue_AppleConnect@2x.png" />
+                    <div class="tk-intro signin-text">Signing in with AppleConnect...</div>
+                    
+                    <div id="loader" class="loader"></div>
+                </div>
+                <div id="canceled-login" class="canceled-login" style="display: none;">
+                    <p id="error" class="error" style="display: none;"></p>
+                    <img class="appleconnect-gray-icon"
+                         src="/IDMSWebAuth/static/11Nov2025/images/acplugin/logo_blue_AppleConnect@2x.png" />
+                    <div>
+                        <div class="tk-intro signin-text">Sign in with AppleConnect</div>
+                        <div class="tk-subbody app-name" id="applicationName"></div>
+                    </div>
+                    <div class="tk-body signin-canceled">Your sign in attempt was canceled.</div>
+                    <input type="button" id="signin" class="btn button bigblue button-super"
+                           value="Sign In">
+                </div>
+            </div>
+            <form id="ssoToken" name="acLogin" action="ssotokenverify" method="post">
+                <input id="acToken" name="acToken" name="acToken" type="hidden" value=""/>
+                <input id="accountName" name="accountName" name="accountName" type="hidden" value=""/>
+                <input id="appId" name="appId" name="appId" type="hidden" value=""/>
+                <input id="currentUserVersion" name="currentUserVersion" name="currentUserVersion" type="hidden" value=""/>
+                <input id="serviceId" name="serviceId" name="serviceId" type="hidden" value=""/>
+                <input id="errorCode" name="ssoTokenError.errorCode" name="errorCode" type="hidden" value=""/>
+                <input id="errorMessage" name="ssoTokenError.errorMessage" name="errorMessage" type="hidden" value=""/>
+                <input type="hidden" id="fdcBrowserData" name="fdcBrowserData">
+                <input type="hidden" id="acLegacyToken" name="acLegacyToken" value="true">
+                
+
+
+
+
+	<input type="hidden" id="appIdKey" name="appIdKey"
+		value="c8fe8d0cdf54b5596f1e8374bb139214fc40876c21c39e4affc047919d83d8ae" />
+
+
+
+
+	<input type="hidden" id="accNameLocked" name="accNameLocked"
+		value="false" />
+
+
+
+<input type="hidden" id="language" name="language"
+	value="US-EN" />
+
+
+
+
+
+
+	<input type="hidden" id="requestUri" name="requestUri" value="/login"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<input type="hidden" id="scnt" name="scnt" value="AAAA-jMzMkVCNTNBNjg1RUU2QTU2RDM3QTU2MDE0ODYzMjAwNjhDQTQxNTFEQjkzNzNGMzg3QzE5OUNDMTYwNjQ1MUQ5QjY5QkZEQ0E4NENCNTA0QzYwNTYyQjQwOUNERkU0Mzk2RkI5QzQyMTVCNEYwOTE3NUY4MjM0NThBQ0Q3RjIxNUM5NTYyM0I3MUNCMkFBNjU5MDlBNEJDNjZBRjU2MjMyRUIxMTA4MUU1Q0YxMDUxQTY1QzA0RUIzNDU5NDk1QUY2RUI3MEMzRjgwOTQ5QjM0RjE4OTg1QkQzOTkzMzk0NjkyRjY4QzQ0N0ZBMkI5NnwxAAABnxae25jHD-zzM4ciyI0VwC-AomP7QKxkG66ueYRxE425bX0NI8qxEU-A9dO6AAoIcg0BxHRuqX93C3R1Mb6IqUpOaNRTZpOissCkuGoV0q1JhdHS_w" />
+
+
+            </form>
+                </div>
+            </div>
+        </div>
+        
+        
+            
+        
+        <script type="text/javaScript" src="/IDMSWebAuth/static/11Nov2025/views/static/fdc.js"></script>
+<script type="text/javaScript" src="/IDMSWebAuth/static/11Nov2025/views/static/Appjavascripts/FDC/dcutil_2_2.js"></script>
+        
+
+
+
+        <input type="hidden" id="cancelMessage" value='Canceled'/>
+        
+        <script type="application/json" id="acplugin_signin_boot_args">
+            {"direct":{"SSOAttr":{"appId":762,"ssoEnabled":true},"loginHint":"","suppressSSO":false,"ACSSOConfig":{"realm":"APPLECONNECT.APPLE.COM","ssoServerURL":"sso.corp.apple.com","environment":"INT","defaultServiceId":14184340649008301,"stopSendingServiceId":true},"stopSendingServiceId":true,"appId":"762","dsAppName":"PLM","showACMInstructions":"false"}}
+        </script>
+        <script type="text/javaScript" src="/IDMSWebAuth/static/11Nov2025/views/static/js/acplugin/signin_boot.js"></script>
+        <script type="text/javascript" src="/IDMSWebAuth/static/11Nov2025/views/static/js/spin/spin.js"></script>
+        <script type="text/javascript" src="/IDMSWebAuth/static/11Nov2025/views/static/js/spin/spin_boot.js"></script>
+        <footer class="acp-footer">
+            
+            <p>Copyright © 2026 Apple Inc. All rights reserved. Unauthorized use is prohibited.</p>
+        </footer>
+        
+            
+        
+    </body>
+</html>

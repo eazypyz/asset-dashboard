@@ -1,0 +1,215 @@
+
+
+<style>
+.layout_cell_2{
+width:10% ! important;
+}
+.layout_cell_1{
+width:45% ! important;
+}
+.layout_cell_3{
+width:45% ! important;
+}
+.align_field{
+width:100%;
+}
+</style>
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<head>
+    <link rel="stylesheet" type="text/css"
+          href="https://appleid.cdn-apple.com/daw/IDMSWebAuth/static/30Jul2025/views/static/css/common/sslconnectionstandardpagealert.css">
+    
+
+
+<meta charset="utf-8" />
+<meta name="robots" content="noindex">
+<meta name="viewport" content="initial-scale=1.0">
+
+
+    
+
+<title>AppleConnect  Sign In - AIDE </title>
+<link rel="shortcut icon" href="https://appleid.cdn-apple.com/daw/IDMSWebAuth/static/30Jul2025/images/favicon.ico" type="image/X-icon" />
+<link rel="stylesheet" type="text/css" href="https://appleid.cdn-apple.com/daw/IDMSWebAuth/static/30Jul2025/views/static/css/common/appleconnect.css">
+<link rel="stylesheet" type="text/css" href="https://appleid.cdn-apple.com/daw/IDMSWebAuth/static/30Jul2025/views/static/css/common/appleconnect-theme-dark.css">
+<script type="text/javaScript" src="https://appleid.cdn-apple.com/daw/IDMSWebAuth/static/30Jul2025/views/static/common.js"></script>
+<script type="text/javaScript" src="https://appleid.cdn-apple.com/daw/IDMSWebAuth/static/30Jul2025/views/static/Appjavascripts/FDC/dcutil_2_2.js"></script>
+<script src="https://appleid.cdn-apple.com/daw/IDMSWebAuth/static/30Jul2025/views/static/Appjavascripts/jquery.min.js"></script>
+<script src="https://appleid.cdn-apple.com/daw/IDMSWebAuth/static/30Jul2025/views/static/js/commonLogin.js" type="text/javascript" charset="utf-8"></script>
+<script src="https://appleid.cdn-apple.com/daw/IDMSWebAuth/static/30Jul2025/views/static/js/commonScript.js" type="text/javascript" charset="utf-8"></script>
+<script src="https://appleid.cdn-apple.com/daw/IDMSWebAuth/static/30Jul2025/views/static/js/appleConnect.js" type="text/javascript" charset="utf-8"></script>
+
+
+
+</head>
+<body>
+<div class="outer">
+    <div class="inner">
+        <div class="main">
+            <h1 class="logo">AppleConnect  Sign In</h1>
+
+            
+            
+            
+                
+            
+
+            
+                
+            
+
+            
+                <h2>Sign in to AIDE</h2>
+            
+            
+            
+
+
+
+<p id="errormsg">
+		
+</p>
+<input type="hidden" id="harvestID" value="none" />
+<input type="hidden" id="expiryID" value="none" />
+
+
+<input type="hidden" id="authenticationID" value="true" />
+
+
+
+<form id="standardLoginForm2" name="form2" action="authenticate" method="post">
+<input id="iForgotNewWindowVar" name="openiForgotInNewWindow" type="hidden" value="false" value="false"/>
+<input id="fdcBrowserData" name="fdcBrowserData" type="hidden" value=""/>
+	<div class="pair">
+		<div class="module">
+			<label for="accountname">Account Name </label>
+			<input id="accountname" name="appleId" autocorrect="off" spellcheck="false" name="theAccountName" type="text" autocapitalize="off" aria-label="Apple ID" value="" size="30" maxlength="128" autocomplete="off"/>
+		</div>
+		<div class="module">
+			<label for="accountpassword">Password </label>
+
+			<div class="buttonfield">
+				<input id="accountpassword" name="accountPassword" autocorrect="off" autocapitalize="off" type="password" value="" size="30" autocomplete="off"/>
+				
+				<input id="continueFieldbutton" type="image" value="" alt="Sign In" aria-label="Sign In" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyhpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMDE0IDc5LjE1Njc5NywgMjAxNC8wOC8yMC0wOTo1MzowMiAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTQgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NjMzQ0NDRjk5NTBEMTFFNEJFMzlBODgxQ0E1RTI2NkYiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6NjMzQ0NDRkE5NTBEMTFFNEJFMzlBODgxQ0E1RTI2NkYiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo2MzNDQ0NGNzk1MEQxMUU0QkUzOUE4ODFDQTVFMjY2RiIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo2MzNDQ0NGODk1MEQxMUU0QkUzOUE4ODFDQTVFMjY2RiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PkpeUbAAAAAQSURBVHjaYvj//z8DQIABAAj8Av7bok0WAAAAAElFTkSuQmCC">
+			</div>
+		</div>
+		<div class="link_pair">
+			<div class="module">
+				
+					<a id="passwordURL" data-value="https%3A%2F%2Fidmsa.apple.com%2FIDMSWebAuth%2Flogin.html%3Flanguage%3DUS-EN%26rv%3D0%26view%3D100%26appIdKey%3Dd2fbe852ad28439f314115117c62caa4fb11101040d7a507e043666937f07854"	class="forgot-link" href="https://iforgot.apple.com/password/verify/appleid?language=US-EN&app_id=1988&s=548-548" target="_blank"
+						>Forgot your password?</a>
+				
+			</div>
+		</div>
+	</div>
+	
+
+
+    
+    
+
+	
+
+
+
+
+	<input type="hidden" id="appIdKey" name="appIdKey"
+		value="d2fbe852ad28439f314115117c62caa4fb11101040d7a507e043666937f07854" />
+
+
+
+
+	<input type="hidden" id="accNameLocked" name="accNameLocked"
+		value="false" />
+
+
+
+<input type="hidden" id="language" name="language"
+	value="US-EN" />
+
+
+
+
+
+	<input type="hidden" id="view" name="view"
+		value="100" />
+
+
+	<input type="hidden" id="requestUri" name="requestUri" value="/login"/>
+
+
+
+
+	<input type="hidden" id="Env" name="Env" value="PROD" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<input type="hidden" id="scnt" name="scnt" value="AAAA-jkyMzU3QjFEODgyRjdEMDIyOTM4REQ0NDYxRTMzMEZBQUNERUUzOEVBRDU0MDBGRjU4OTlGNDYwMEE5RUVFMkZENzk5QzZENzg1NUI4NDAxNTI5NDM2NEMwM0E2NEI5N0UzREY0Mjk1QjRCNzA2NkRDQzAwQ0M5NEQ2QUMyRTQyODFBMDAyNjgxQzgxRTg0RDQyNTg1RUU3MDlGQzhBNDRBQjhBOTg2NkM1NkI0ODZDODk0OTBDRjQ4RkM4NDIxRTlBRkNFN0RGRTI5MTdBMjUwRDM4MDlCMEI5QjAwQkZEQkM2N0QxRDIyN0QwNzI2QnwxAAABnxaepT2BSfWMW4YGxwBagUVZ0ah8Juyq5-vBfFyyxro-CHo3qumiQ1F23p1gAA6tko4c8aKwUDygTFPkcYaIaWP3yab1HJZ4B8XKwTie67sQ_dsTrQ" />
+
+
+</form>
+<input type="hidden" name="hiddenUrl" id="hiddenUrl"/>
+<input type="hidden" name="currentUrl" id="currentUrl"/>
+
+	
+
+<script type="application/json" id="std_login_boot_args">
+{
+	"requestFromDevice": "false",
+	"accountNameReadOnly": "false"
+}
+</script>
+<script type="text/javascript" src="https://appleid.cdn-apple.com/daw/IDMSWebAuth/static/30Jul2025/views/static/js/boot/Main/standardLogin_boot.js"></script>
+<input id="errorMsgForEmptyCredentials" type="hidden" value='Please enter your email or phone number and password.'/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+        
+
+
+
+
+    </div>
+</div>
+</body>
+</html>

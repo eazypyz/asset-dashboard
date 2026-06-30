@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <script type="systemjs-importmap">{
+  "imports": {
+    "react-is": "https://unpkg.apple.com/@maison/itc@1.1.2/umd/react-is.production.min.js",
+    "react": "https://unpkg.apple.com/@maison/itc@1.1.2/umd/react.production.min.js",
+    "react-dom": "https://unpkg.apple.com/@maison/itc@1.1.2/umd/react-dom.production.min.js",
+    "styled-components": "https://unpkg.apple.com/@maison/itc@1.1.2/umd/styled-components.min.js"
+  }
+}</script>
+    <link rel="stylesheet" type="text/css" href="https://www.apple.com/wss/fonts?families=SF+Pro,v1|SF+Pro+Icons,v1" media="all">
+  <script type="module" crossorigin src="https://unpkg.apple.com/@maison/preauthorization-container@0.1.43/umd/pre/index.DeM_ju2p.js"></script>
+  <link rel="modulepreload" crossorigin href="https://unpkg.apple.com/@maison/preauthorization-container@0.1.43/umd/chunks/environment.VbDOKqhn.js">
+  <link rel="modulepreload" crossorigin href="https://unpkg.apple.com/@maison/preauthorization-container@0.1.43/umd/chunks/vendor.yGc4Dq3q.js">
+  <link rel="modulepreload" crossorigin href="https://unpkg.apple.com/@maison/preauthorization-container@0.1.43/umd/chunks/loader-spinner.BOeXV36w.js">
+  <link rel="stylesheet" crossorigin href="https://unpkg.apple.com/@maison/preauthorization-container@0.1.43/umd/assets/pre.4MfbP5qQ.css">
+  <meta name="package-version" content="0.1.43">
+</head>
+<body>
+<div id="page-wrapper">
+    <div id="header">
+        <a href="http://www.apple.com" class="no-text ico-apple">Apple.com</a>
+    </div>
+    <div id="maison-container"></div>
+    <footer id="footer" class="font">
+    <nav class="footer-links" aria-label="footer">
+        <a href="http://www.apple.com" class="no-text ico-apple">Apple.com</a>
+        <span>
+                <l10n-text
+                        key="ITC.HeaderFooter.Copyright.withSymbol"
+                ></l10n-text>
+                <span>
+                    <script>document.write(new Date().getFullYear())</script>
+                </span>
+                <l10n-text
+                        key="ITC.HeaderFooter.Copyright.AppleRightsReserved"
+                ></l10n-text>
+            </span>
+        <a href="https://appstoreconnect.apple.com/olympus/v1/terms/ITC" class="link-gray terms-link">
+            <l10n-text
+                    key="ITC.HeaderFooter.termsOfServiceLinkText"
+            ></l10n-text>
+        </a>
+        <a href="https://www.apple.com/legal/privacy/" class="link-gray">
+            <l10n-text
+                    key="ITC.HeaderFooter.PrivacyPolicyLinkText"
+            ></l10n-text>
+        </a>
+    </nav>
+</footer>
+</div>
+<div id="terms"></div>
+</body>
+</html>
