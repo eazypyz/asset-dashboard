@@ -1,0 +1,63 @@
+<!DOCTYPE html><html>
+<head>
+  <meta charset="UTF-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><title>CAS &#8211; Central Authentication
+    Service</title>
+
+  
+  <link rel="icon" href="/images/ic-blibli-favicon-01.png" type="image/x-icon"/><script type="text/javascript" src="/webjars/jquery/3.6.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="/css/sso-style-1779628362.css"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"/><meta charset="UTF-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/></head>
+
+<body id="cas">
+<span class='top-strip'></span>
+<div class="container">
+
+  <!-- Cookie warning --><div id="cookiesDisabled" class="card" style="display: none;">
+  <div class="card-body">
+    <h5 class="card-title">Cookies Disabled</h5>
+    <p class="card-text">Your browser does not support cookies. The browser's ability to store or read cookies is essential for single sign-on to work. Please consult your browser settings and ensure cookie support is turned on.</p>
+  </div>
+</div>
+  <div class="sso-page">
+    <div class="sso-header">
+  <img class="sso-logo"
+       src="/images/ic-blibli.svg"
+       onerror="this.style.display='none'"
+       alt="Blibli"/></div>
+
+    <!-- Card --><div class="sso-card">
+      <div class="body-section">
+    <!-- Header: app badge only shown when a registered service is present--><!-- Body: loginform fragment — untouched --><div class="sso-card-body">
+          <div>
+
+      <!-- default --><!-- No Registered Service --><div>
+          <div class="sso-err-screen">
+            <div class="sso-err-icon-box" style="background:#fde8e8;margin:0 auto 1rem;">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#e53935" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+            </div>
+            <div style="font-size:16px;font-weight:600;color:#1a1a1a;margin-bottom:6px;">Application not found</div>
+            <div style="font-size:13px;color:#888;margin-bottom:1.25rem;line-height:1.6;">No application is registered for this URL. Please check the link you used to get here.</div>
+            <div style="font-size:12px;color:#bbb;">Contact your system administrator for assistance.</div>
+          </div>
+        </div>
+
+        <!-- Delegated --><!-- end DELEGATED --><!-- external --></div>
+        </div>
+  </div>
+    </div>
+
+    <div class="sso-footer">
+  <svg width="11" height="11" viewBox="0 0 24 24" fill="none"
+       stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+  Secured with SSO &middot;
+  &copy; 2005 -<span>2026</span>
+  PT. Global Digital Niaga
+</div>
+  </div>
+
+
+</div>
+<script type="text/javascript" src="/webjars/zxcvbn/dist/zxcvbn.js"></script>
+</body>
+</html>

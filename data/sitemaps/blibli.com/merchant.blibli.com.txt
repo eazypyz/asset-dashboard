@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="id-ID">
+<head>
+    <meta charset=utf-8>
+    <meta name=viewport content="width=device-width,initial-scale=1">
+    <title>Blibli Seller Center - Jual Online Mudah, Aman & Nyaman | Blibli.com</title>
+
+    <meta name="robots" content="index, follow">
+    <meta property="og:type" content="website"/>
+    <meta property="og:site_name" content="Blibli Seller Center">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://seller.blibli.com/"/>
+    <meta property="og:image" itemprop="image"
+        content="https://www.static-src.com/siva/asset/10_2023/bsc-og-image-facebook.png">
+    <meta property="og:image:secure_url" itemprop="image"
+        content="https://www.static-src.com/siva/asset/10_2023/bsc-og-image-facebook.png">
+    <meta property="og:image:width" content="1200"/>
+    <meta property="og:image:height" content="630"/>
+    <meta property="og:image" itemprop="image"
+          content="https://www.static-src.com/siva/asset/10_2023/bsc-og-image-whatsapp.png">
+    <meta property="og:image:secure_url" itemprop="image"
+          content="https://www.static-src.com/siva/asset/10_2023/bsc-og-image-whatsapp.png">
+    <meta property="og:image:width" content="400"/>
+    <meta property="og:image:height" content="400"/>
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:url" content=" https://seller.blibli.com/"/>
+    <meta name="twitter:image" content="https://www.static-src.com/siva/asset/10_2023/bsc-og-image-twitter.png"/>
+    <meta name="twitter:site" content="@bliblidotcom"/>
+    <meta name="twitter:creator" content="@bliblidotcom"/>
+    <meta name="google-site-verification" content="Ow-Z4TQrXEOcnPiahuWF60lpN3-6Vb6CuAI4XCapYHU" />
+
+    <link rel="preconnect" href="https://static-src.gdn-app.com" crossorigin>
+
+    <!-- Main ui currently used split css, so index.[hash].css will load automatically -->
+    <!-- Will preload index.[hash].css in here after partners-ui merge with main-ui -->
+    <!-- Ex: <link rel="preload" href="/frontend/main/1.193.0-2/static/css/index.[hash].css" as="style" onload="this.rel='stylesheet'"> -->
+    <link href="/frontend/main/1.193.0-2/static/css/index.css" rel="stylesheet">
+
+    <link rel="modulepreload" href="/frontend/main/1.193.0-2/static/index.js">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png?v=1">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png?v=1">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png?v=1">
+    <!-- <link rel="manifest" href="/manifest.json?v=1"> -->
+    <link rel="shortcut icon" href="/favicon.ico?v=1">
+    <meta name="theme-color" content="#ffffff">
+
+    <script>
+      Object.defineProperty(window, '_business_partner_ver', { value: '1.144.0-4' })
+      Object.defineProperty(window, '_business_partner_external_ver', { value: '1.15.0-2' })
+      Object.defineProperty(window, '_product_ver', { value: '2.2.0-1' })
+      Object.defineProperty(window, '_user_ver', { value: '1.94.0-2' })
+      Object.defineProperty(window, '_official_ver', { value: '1.77.0-6' })
+      Object.defineProperty(window, '_seller_order_ver', { value: '1.4.0-2' })
+      Object.defineProperty(window, '_api_integration_ver', { value: '2.13.0-2' })
+      Object.defineProperty(window, '_analytics_ver', { value: '2.1.0-3' })
+      Object.defineProperty(window, '_product_internal_ver', { value: '1.93.0-1' })
+      Object.defineProperty(window, '_product_external_ver', { value: '2.67.0-3' })
+      Object.defineProperty(window, '_product_master_ver', { value: '2.17.0-1' })
+      Object.defineProperty(window, '_order_ver', { value: '2.6.0-3' })
+      Object.defineProperty(window, '_cnc_order_ver', { value: '1.41.0-1' })
+      Object.defineProperty(window, '_merchant_promo_ver', { value: '2.25.0-1' })
+      Object.defineProperty(window, '_price_analytics_ver', { value: '1.8.0-1' })
+      Object.defineProperty(window, '_wallet_ver', { value: '1.20.0-3' })
+      Object.defineProperty(window, '_fbb_ver', { value: '3.0.0-1' })
+      Object.defineProperty(window, '_bliklan_ver', { value: '1.59.0-2' })
+      Object.defineProperty(window, '_seller_chat_ver', { value: '4.6.0-2' })
+      Object.defineProperty(window, '_seller_analytics_insights_ver', { value: '3.50.0-1' })
+      Object.defineProperty(window, '_order_internal_ver', { value: '1.34.0-4' })
+      Object.defineProperty(window, '_master_sku_ver', { value: '1.8.0-1' })
+      Object.defineProperty(window, '_product_qc_ver', { value: '2.28.0-3' })
+      Object.defineProperty(window, '_bfb_seller_ui_ver', {value: '1.62.0-2'})
+      Object.defineProperty(window, '_return_ver', { value: '1.58.0-3' })
+      Object.defineProperty(window, '_seller_learning_ver', { value: '1.13.0-1'})
+      Object.defineProperty(window, '_seller_affiliate_ver', { value: '1.24.0-1'})
+      Object.defineProperty(window, '_seller_video_ver', { value: '1.8.0-4'})
+      Object.defineProperty(window, '_finance_ver', { value: '1.1.0-1'})
+    </script>
+</head>
+<body>
+  <noscript>Please use the latest browser and enable javascript</noscript>
+  <div id="module-main-vue3"></div>
+  <div id="module-main"></div>
+  <script type="module" crossorigin src="/frontend/main/1.193.0-2/static/index.js" defer></script>
+  <script type="module">import.meta.url;import("_").catch(()=>1);async function* g(){};if(location.protocol!="file:"){window.__vite_is_modern_browser=true}</script>
+  <script type="module">!function(){if(window.__vite_is_modern_browser)return;console.warn("vite: loading legacy chunks, syntax error above and the same error below should be ignored");var e=document.getElementById("vite-legacy-polyfill"),n=document.createElement("script");n.src=e.src,n.onload=function(){System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))},document.body.appendChild(n)}();</script>
+
+  <script nomodule>!function(){var e=document,t=e.createElement("script");if(!("noModule"in t)&&"onbeforeload"in t){var n=!1;e.addEventListener("beforeload",(function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute("nomodule")||!n)return;e.preventDefault()}),!0),t.type="module",t.src=".",e.head.appendChild(t),t.remove()}}();</script>
+  <script nomodule crossorigin id="vite-legacy-polyfill" src="/frontend/main/1.193.0-2/static/polyfills-legacy.js"></script>
+  <script nomodule crossorigin id="vite-legacy-entry" data-src="/frontend/main/1.193.0-2/static/index-legacy.js">System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))</script>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a142dff7e8ec8bc3',t:'MTc4Mjg4MjMxOA=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
