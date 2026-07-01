@@ -55,7 +55,7 @@ window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e)
 //<![CDATA[
 window.snowplowOptions = {"namespace":"gl","hostname":"gitlab.bov.com:443","postPath":"/-/collect_events","forceSecureTracker":true,"appId":"gitlab_sm"};
 gl = window.gl || {};
-gl.snowplowStandardContext = {"schema":"iglu:com.gitlab/gitlab_standard/jsonschema/1-1-8","data":{"environment":"self-managed","source":"gitlab-rails","correlation_id":"01KWETMF59NH7CCXT0YD7S5EEE","extra":{},"user_id":null,"global_user_id":null,"user_type":null,"is_gitlab_team_member":null,"namespace_id":null,"ultimate_parent_namespace_id":null,"project_id":null,"feature_enabled_by_namespace_ids":null,"realm":"self-managed","deployment_type":"self-managed","context_generated_at":"2026-07-01T14:32:03.788+02:00","organization_id":1}};
+gl.snowplowStandardContext = {"schema":"iglu:com.gitlab/gitlab_standard/jsonschema/1-1-8","data":{"environment":"self-managed","source":"gitlab-rails","correlation_id":"01KWFP534JKTSS7W6CWWGWDZTS","extra":{},"user_id":null,"global_user_id":null,"user_type":null,"is_gitlab_team_member":null,"namespace_id":null,"ultimate_parent_namespace_id":null,"project_id":null,"feature_enabled_by_namespace_ids":null,"realm":"self-managed","deployment_type":"self-managed","context_generated_at":"2026-07-01T22:33:00.087+02:00","organization_id":1}};
 gl.snowplowPseudonymizedPageUrl = "https://gitlab.bov.com/users/sign_in";
 gl.maskedDefaultReferrerUrl = null;
 gl.ga4MeasurementId = 'G-ENFH3X7M5Y';
@@ -89,7 +89,7 @@ gl.onlySendDuoEvents = true;
 <meta content="https://gitlab.bov.com/assets/twitter_card-570ddb06edf56a2312253c5872489847a0f385112ddbcd71ccfa1570febab5d2.jpg" property="twitter:image">
 
 <meta name="csrf-param" content="authenticity_token" />
-<meta name="csrf-token" content="lakqz1zgxIfTznUozfhtdiIwlYvOuZU-14R7ELcUTEGO0sQ5w5UrOvXyyXNWFEwPHHSQlsTldQ1F2UFqlUIuaA" />
+<meta name="csrf-token" content="FpDD_Y2MqmG0XjcUHS1cDeGOStwbyUGCZqqIgaiEHXl9v6JrGzo2FINJjIQkYIQAnwAcmMrsZpbxrYQ_YDPc3g" />
 <meta name="csp-nonce" />
 <meta name="action-cable-url" content="/-/cable" />
 <link href="/-/manifest.json" rel="manifest">
@@ -139,7 +139,7 @@ GitLab Enterprise Edition
 <div data-app-data="{&quot;sign_in_path&quot;:&quot;/users/sign_in&quot;,&quot;users_sign_in_path_path&quot;:&quot;/users/sign_in_path&quot;,&quot;passkeys_sign_in_path&quot;:&quot;/users/passkeys/sign_in&quot;,&quot;is_unconfirmed_email&quot;:false,&quot;new_user_confirmation_path&quot;:&quot;/users/confirmation/new&quot;,&quot;new_password_path&quot;:&quot;/users/password/new&quot;,&quot;show_captcha&quot;:false,&quot;is_remember_me_enabled&quot;:true}" id="js-sign-in-form">
 <div class="gl-spinner-container gl-my-5" role="status"><span aria-hidden class="gl-spinner gl-spinner-md gl-spinner-dark !gl-align-text-bottom"></span><span class="gl-sr-only !gl-absolute">Loading</span>
 </div>
-<form action="/users/sign_in" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="5nvAm0soqUCTe65Ogwskpll_H-xoKaW30yXEuWxwfhz9AC5t1F1G_bVHEhUY5wXfZzsa8WJ1RYRBeP7DTiYcNQ" autocomplete="off" /><input data-js-name="login" autocomplete="off" type="hidden" name="user[login]" id="user_login" />
+<form action="/users/sign_in" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="JnazhBhB0cvzDLmAKP48LlPeGlKzk_1phOP8KAFLnJFNWdISjvdNvsQbAhARs-QjLVBMFmK22n0T5PCWyfxdNg" autocomplete="off" /><input data-js-name="login" autocomplete="off" type="hidden" name="user[login]" id="user_login" />
 <input data-js-name="password" autocomplete="off" type="hidden" name="user[password]" id="user_password" />
 <input data-js-name="rememberMe" autocomplete="off" type="hidden" name="user[remember_me]" id="user_remember_me" />
 </form></div>
