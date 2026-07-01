@@ -1343,5 +1343,47 @@
     "type": "new_subdomain",
     "host": "www4fs.bov.com",
     "timestamp": "2026-07-01T20:33:42.599Z"
+  },
+  {
+    "type": "security_txt_changed",
+    "host": "gitlab.bov.com",
+    "timestamp": "2026-07-01T22:12:36.609Z",
+    "previous": "c3628a248187d7d4b215170e474c518ef61ba0c8caf04786583e5fa028cd509c",
+    "current": "6916664344b9d8fec341dc656ae89b97207bef4953483f3be5afe2ba2c2094a0"
+  },
+  {
+    "type": "sitemap_changed",
+    "host": "gitlab.bov.com",
+    "timestamp": "2026-07-01T22:12:36.609Z",
+    "previous": "cb0cfbb362b3c415e7209d1f053bd013da8067bd44e3fc1f3a6694f9308a0a19",
+    "current": "7a306a189ed540524df503c64c7d149278f8890240e6569a58d974c648c200c1"
+  },
+  {
+    "type": "security_txt_changed",
+    "host": "mif.bovaccept.bov.com",
+    "timestamp": "2026-07-01T22:12:36.609Z",
+    "previous": "41a928b61076c1bee0dbca5336d77e158c22afcf510cf7ca79d4c5a35bcbf552",
+    "current": "cb5f5f0ad7cd1f281bc93bb32a23acd3b434c900fe285f24f9585f18d279d76e"
+  },
+  {
+    "type": "sitemap_changed",
+    "host": "mif.bovaccept.bov.com",
+    "timestamp": "2026-07-01T22:12:36.609Z",
+    "previous": "b05264237da59fbc840487359946c305489e0cce3fe2b65db9cff1de611029d2",
+    "current": "60f7cefa081603d7430d0b9575018c34935ccd73de8073f4dcc382392d41f2f2"
+  },
+  {
+    "type": "security_txt_changed",
+    "host": "openbanking.bov.com",
+    "timestamp": "2026-07-01T22:12:36.609Z",
+    "previous": "a5dace50e348688e3706a1e632542f8ad3d918bf7a93fb10b165ebdcf1e02329",
+    "current": "e770cb2bb460240212ee6cebf75a9fefa3c5cbc1e6da25fe3748364bf2c76cc4"
+  },
+  {
+    "type": "sitemap_changed",
+    "host": "openbanking.bov.com",
+    "timestamp": "2026-07-01T22:12:36.609Z",
+    "previous": "45600abc80fa8813c6cced39f6d8d9ed69a69ed01f132166e59fe94793755913",
+    "current": "3b7f47127362f8539efd6cbd6a4a0f607271853a7e29800b299b6397eb6cdb24"
   }
 ]
