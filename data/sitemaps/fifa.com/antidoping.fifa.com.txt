@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+
+<html dir="ltr" lang="en" xml:lang="en" class="root pagelayout-login" data-themeoptions=" blocksadvancedoptions logoadvancedoptions">
+<head>
+    <title>Data Protection Policy</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="//antidoping.fifa.com/pluginfile.php/1/theme_nebula/favicon/1782857427/Favicon.png"/>
+
+    <style>
+        
+    </style>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Totara, Data Protection Policy" />
+<link rel="stylesheet" type="text/css" href="https://antidoping.fifa.com/theme/yui_combo.php?rollup/3.17.2/yui-moodlesimple-min.css" /><script id="firstthemesheet" type="text/css">/** Required in order to fix style inclusion problems in IE with YUI **/</script><link rel="stylesheet" type="text/css" href="https://antidoping.fifa.com/theme/styles.php/nebula/1782857427/all" />
+<script type="text/javascript">
+//<![CDATA[
+var M = {}; M.yui = {};
+M.pageloadstarttime = new Date();
+M.cfg = {"wwwroot":"https:\/\/antidoping.fifa.com","sesskey":"gyezynfcAl","loadingicon":"https:\/\/antidoping.fifa.com\/theme\/image.php\/nebula\/core\/1782857427\/i\/loading_small","themerev":"1782857427","slasharguments":1,"theme":"nebula","jsrev":"1782857427","admin":"admin","svgicons":true,"usertimezone":"Europe\/London","contextid":1,"pageurl":""};var yui1ConfigFn = function(me) {if(/-skin|reset|fonts|grids|base/.test(me.name)){me.type='css';me.path=me.path.replace(/\.js/,'.css');me.path=me.path.replace(/\/yui2-skin/,'/assets/skins/sam/yui2-skin')}};
+var yui2ConfigFn = function(me) {var parts=me.name.replace(/^moodle-/,'').split('-'),component=parts.shift(),module=parts[0],min='-min';if(/-(skin|core)$/.test(me.name)){parts.pop();me.type='css';min=''}
+if(module){var filename=parts.join('-');me.path=component+'/'+module+'/'+filename+min+'.'+me.type}else{me.path=component+'/'+component+'.'+me.type}};
+YUI_config = {"debug":false,"base":"https:\/\/antidoping.fifa.com\/lib\/yuilib\/3.17.2\/","comboBase":"https:\/\/antidoping.fifa.com\/theme\/yui_combo.php?","combine":true,"filter":null,"insertBefore":"firstthemesheet","groups":{"yui2":{"base":"https:\/\/antidoping.fifa.com\/lib\/yuilib\/2in3\/2.9.0\/build\/","comboBase":"https:\/\/antidoping.fifa.com\/theme\/yui_combo.php?","combine":true,"ext":false,"root":"2in3\/2.9.0\/build\/","patterns":{"yui2-":{"group":"yui2","configFn":yui1ConfigFn}}},"moodle":{"name":"moodle","base":"https:\/\/antidoping.fifa.com\/theme\/yui_combo.php?m\/1782857427\/","combine":true,"comboBase":"https:\/\/antidoping.fifa.com\/theme\/yui_combo.php?","ext":false,"root":"m\/1782857427\/","patterns":{"moodle-":{"group":"moodle","configFn":yui2ConfigFn}},"filter":null,"modules":{"moodle-core-tooltip":{"requires":["base","node","io-base","moodle-core-notification-dialogue","json-parse","widget-position","widget-position-align","event-outside","cache-base"]},"moodle-core-popuphelp":{"requires":["moodle-core-tooltip"]},"moodle-core-notification":{"requires":["moodle-core-notification-dialogue","moodle-core-notification-alert","moodle-core-notification-confirm","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-core-notification-dialogue":{"requires":["base","node","panel","escape","event-key","dd-plugin","moodle-core-widget-focusafterclose","moodle-core-lockscroll"]},"moodle-core-notification-alert":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-confirm":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-exception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-ajaxexception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-maintenancemodetimer":{"requires":["base","node"]},"moodle-core-lockscroll":{"requires":["plugin","base-build"]},"moodle-core-languninstallconfirm":{"requires":["base","node","moodle-core-notification-confirm","moodle-core-notification-alert"]},"moodle-core-jquerybehat":{"requires":[]},"moodle-core-jqueryajaxhandler":{"requires":["base"]},"moodle-core-formchangechecker":{"requires":["base","event-focus","moodle-core-event"]},"moodle-core-formautosubmit":{"requires":["base","event-key"]},"moodle-core-event":{"requires":["event-custom"]},"moodle-core-dragdrop":{"requires":["base","node","io","dom","dd","event-key","event-focus","moodle-core-notification"]},"moodle-core-dock":{"requires":["base","node","event-custom","event-mouseenter","event-resize","escape","moodle-core-dock-loader","moodle-core-event"]},"moodle-core-dock-loader":{"requires":["escape"]},"moodle-core-chooserdialogue":{"requires":["base","panel","moodle-core-notification"]},"moodle-core-checknet":{"requires":["base-base","moodle-core-notification-alert","io-base"]},"moodle-core-blocks":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification"]},"moodle-core-handlebars":{"condition":{"trigger":"handlebars","when":"after"}},"moodle-core-actionmenu":{"requires":["base","event","node-event-simulate"]},"moodle-core_availability-form":{"requires":["base","node","event","event-delegate","panel","moodle-core-notification-dialogue","json"]},"moodle-backup-backupselectall":{"requires":["node","event","node-event-simulate","anim"]},"moodle-backup-confirmcancel":{"requires":["node","node-event-simulate","moodle-core-notification-confirm"]},"moodle-course-toolboxes":{"requires":["node","base","event-key","node","io","moodle-course-coursebase","moodle-course-util"]},"moodle-course-modchooser":{"requires":["moodle-core-chooserdialogue","moodle-course-coursebase"]},"moodle-course-management":{"requires":["base","node","io-base","moodle-core-notification-exception","json-parse","dd-constrain","dd-proxy","dd-drop","dd-delegate","node-event-delegate"]},"moodle-course-formatchooser":{"requires":["base","node","node-event-simulate"]},"moodle-course-categoryexpander":{"requires":["node","event-key"]},"moodle-course-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-course-coursebase","moodle-course-util"]},"moodle-course-util":{"requires":["node"],"use":["moodle-course-util-base"],"submodules":{"moodle-course-util-base":{},"moodle-course-util-section":{"requires":["node","moodle-course-util-base"]},"moodle-course-util-cm":{"requires":["node","moodle-course-util-base"]}}},"moodle-form-passwordunmask":{"requires":[]},"moodle-form-showadvanced":{"requires":["node","base","selector-css3"]},"moodle-form-shortforms":{"requires":["node","base","selector-css3","moodle-core-event"]},"moodle-form-dateselector":{"requires":["base","node","overlay","calendar"]},"moodle-question-searchform":{"requires":["base","node"]},"moodle-question-preview":{"requires":["base","dom","event-delegate","event-key","core_question_engine"]},"moodle-question-chooser":{"requires":["moodle-core-chooserdialogue"]},"moodle-question-qbankmanager":{"requires":["node","selector-css3"]},"moodle-availability_audience-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_completion-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_date-form":{"requires":["base","node","event","io","moodle-core_availability-form"]},"moodle-availability_grade-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_group-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_grouping-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_hierarchy_organisation-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_hierarchy_position-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_language-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_profile-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_seminarbooking-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_time_since_completion-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-qtype_ddimageortext-form":{"requires":["moodle-qtype_ddimageortext-dd","form_filepicker"]},"moodle-qtype_ddimageortext-dd":{"requires":["node","dd","dd-drop","dd-constrain"]},"moodle-qtype_ddmarker-dd":{"requires":["node","event-resize","dd","dd-drop","dd-constrain","graphics"]},"moodle-qtype_ddmarker-form":{"requires":["moodle-qtype_ddmarker-dd","form_filepicker","graphics","escape"]},"moodle-qtype_ddwtos-dd":{"requires":["node","dd","dd-drop","dd-constrain"]},"moodle-mod_assign-history":{"requires":["node","transition"]},"moodle-mod_attendance-groupfilter":{"requires":["base","node"]},"moodle-mod_facetoface-signupform":{"requires":["base","node","io-base","moodle-core-notification-dialogue","moodle-core-notification-alert"]},"moodle-mod_forum-subscriptiontoggle":{"requires":["base-base","io-base"]},"moodle-mod_quiz-autosave":{"requires":["base","node","event","event-valuechange","node-event-delegate","io-form"]},"moodle-mod_quiz-util":{"requires":["node","moodle-core-actionmenu"],"use":["moodle-mod_quiz-util-base"],"submodules":{"moodle-mod_quiz-util-base":{},"moodle-mod_quiz-util-slot":{"requires":["node","moodle-mod_quiz-util-base"]},"moodle-mod_quiz-util-page":{"requires":["node","moodle-mod_quiz-util-base"]}}},"moodle-mod_quiz-toolboxes":{"requires":["base","node","event","event-key","io","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-slot","moodle-core-notification-ajaxexception"]},"moodle-mod_quiz-modform":{"requires":["base","node","event"]},"moodle-mod_quiz-repaginate":{"requires":["base","event","node","io","moodle-core-notification-dialogue"]},"moodle-mod_quiz-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-base","moodle-mod_quiz-util-page","moodle-mod_quiz-util-slot","moodle-course-util"]},"moodle-mod_quiz-questionchooser":{"requires":["moodle-core-chooserdialogue","moodle-mod_quiz-util","querystring-parse"]},"moodle-mod_quiz-randomquestion":{"requires":["base","event","node","io","moodle-core-notification-dialogue"]},"moodle-mod_quiz-quizquestionbank":{"requires":["base","event","node","io","io-form","yui-later","moodle-question-qbankmanager","moodle-core-notification-dialogue"]},"moodle-mod_quiz-quizbase":{"requires":["base","node"]},"moodle-message_airnotifier-toolboxes":{"requires":["base","node","io"]},"moodle-filter_glossary-autolinker":{"requires":["base","node","io-base","json-parse","event-delegate","overlay","moodle-core-event","moodle-core-notification-alert","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-filter_mathjaxloader-loader":{"requires":["moodle-core-event"]},"moodle-editor_atto-rangy":{"requires":[]},"moodle-editor_atto-editor":{"requires":["node","transition","io","overlay","escape","event","event-simulate","event-custom","node-event-html5","node-event-simulate","yui-throttle","moodle-core-notification-dialogue","moodle-core-notification-confirm","moodle-editor_atto-rangy","handlebars","timers","querystring-stringify"]},"moodle-editor_atto-plugin":{"requires":["node","base","escape","event","event-outside","handlebars","event-custom","timers","moodle-editor_atto-menu"]},"moodle-editor_atto-menu":{"requires":["moodle-core-notification-dialogue","node","event","event-custom"]},"moodle-format_grid-gridkeys":{"requires":["event-nav-keys"]},"moodle-format_socialwall-postform":{"requires":["base","node","io-form","moodle-core-notification-confirm"]},"moodle-format_socialwall-addactivity":{"requires":["base","node","io","moodle-core-notification-dialogue"]},"moodle-report_eventlist-eventfilter":{"requires":["base","event","node","node-event-delegate","datatable","autocomplete","autocomplete-filters"]},"moodle-report_loglive-fetchlogs":{"requires":["base","event","node","io","node-event-delegate"]},"moodle-gradereport_grader-gradereporttable":{"requires":["base","node","event","handlebars","overlay","event-hover"]},"moodle-gradereport_history-userselector":{"requires":["escape","event-delegate","event-key","handlebars","io-base","json-parse","moodle-core-notification-dialogue"]},"moodle-totara_program-categoryexpander":{"requires":["node","event-key"]},"moodle-totara_reportbuilder-graphicalreporting":{"requires":[]},"moodle-tool_capability-search":{"requires":["base","node"]},"moodle-tool_monitor-dropdown":{"requires":["base","event","node"]},"moodle-assignfeedback_editpdf-editor":{"requires":["base","event","node","io","graphics","json","event-move","event-resize","transition","querystring-stringify-simple","moodle-core-notification-dialog","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-atto_accessibilitychecker-button":{"requires":["color-base","moodle-editor_atto-plugin"]},"moodle-atto_accessibilityhelper-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_align-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_bold-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_charmap-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_clear-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_collapse-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_emoticon-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_equation-button":{"requires":["moodle-editor_atto-plugin","moodle-core-event","io","event-valuechange","tabview","array-extras"]},"moodle-atto_fullscreen-button":{"requires":["event-resize","moodle-editor_atto-plugin"]},"moodle-atto_html-button":{"requires":["moodle-editor_atto-plugin","event-valuechange"]},"moodle-atto_image-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_indent-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_italic-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_justify-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_link-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_managefiles-usedfiles":{"requires":["node","escape"]},"moodle-atto_managefiles-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_media-button":{"requires":["moodle-editor_atto-plugin","moodle-form-shortforms"]},"moodle-atto_multilang2-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_noautolink-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_orderedlist-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_rtl-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_shortlinker-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_strike-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_subscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_superscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_table-button":{"requires":["moodle-editor_atto-plugin","moodle-editor_atto-menu","event","event-valuechange"]},"moodle-atto_title-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_underline-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_undo-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_unorderedlist-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_vimeo-button":{"requires":["moodle-editor_atto-plugin"]}}},"gallery":{"name":"gallery","base":"https:\/\/antidoping.fifa.com\/lib\/yuilib\/gallery\/","combine":true,"comboBase":"https:\/\/antidoping.fifa.com\/theme\/yui_combo.php?","ext":false,"root":"gallery\/1782857427\/","patterns":{"gallery-":{"group":"gallery"}}}},"modules":{"core_filepicker":{"name":"core_filepicker","fullpath":"https:\/\/antidoping.fifa.com\/lib\/javascript.php\/1782857427\/repository\/filepicker.js","requires":["base","node","node-event-simulate","json","async-queue","io-base","io-upload-iframe","io-form","yui2-treeview","panel","cookie","datatable","datatable-sort","resize-plugin","dd-plugin","escape","moodle-core_filepicker","moodle-core-notification-dialogue"]},"core_comment":{"name":"core_comment","fullpath":"https:\/\/antidoping.fifa.com\/lib\/javascript.php\/1782857427\/comment\/comment.js","requires":["base","io-base","node","json","yui2-animation","overlay","escape"]},"core_dndupload":{"name":"core_dndupload","fullpath":"https:\/\/antidoping.fifa.com\/lib\/javascript.php\/1782857427\/lib\/form\/dndupload.js","requires":["node","event","json","core_filepicker"]},"mathjax":{"name":"mathjax","fullpath":"https:\/\/cdn.jsdelivr.net\/npm\/mathjax@2.7.8\/MathJax.js?delayStartupUntil=configured"}}};
+M.yui.loader = {modules: {}};
+
+//]]>
+</script>
+
+<meta name="robots" content="index" /><meta name="robots" content="index" />
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5YJ0EMXDCE"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-5YJ0EMXDCE');
+</script>
+            <script async src='https://www.googletagmanager.com/gtag/js?id='></script>
+            <script>
+                    window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+            
+              gtag('config', '', {
+                  'page_title' : '',
+                 'page_path' : '/'
+              });
+            </script>
+		
+<meta name="robots" content="index" />
+
+
+
+</head>
+
+<body  id="page-admin-tool-sitepolicy-userpolicy" class="format-site admin path-admin path-admin-tool path-admin-tool-sitepolicy dir-ltr lang-en yui-skin-sam yui3-skin-sam antidoping-fifa-com pagelayout-login course-1 context-1 notloggedin content-only layout-option-langmenu layout-option-nocustommenu layout-option-nonavbar layout-option-noblocks">
+    <h1 class="sr-only sr-only-focusable">FIFA Anti-Doping Platform</h1>
+
+    <div class="skiplinks">
+    <a href="#maincontent" class="skip">Skip to main content</a>
+</div><script type="text/javascript" src="https://antidoping.fifa.com/theme/yui_combo.php?rollup/3.17.2/yui-moodlesimple-min.js"></script><script type="text/javascript" src="https://antidoping.fifa.com/theme/jquery.php/core/jquery-3.6.1.min.js"></script>
+<script type="text/javascript" src="https://antidoping.fifa.com/theme/jquery.php/core/jquery-migrate-3.5.3-pre.min.js"></script>
+<script type="text/javascript" src="https://antidoping.fifa.com/lib/javascript.php/1782857427/lib/javascript-static.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+document.body.className += ' jsenabled';
+//]]>
+</script>
+
+
+
+
+    <div class="page-wrapper">
+
+        <div id="login-slideshow" class="carousel slide" data-interval="0" data-ride="carousel" data-pause="false">
+    <div class="carousel-inner">
+
+            <div class="item active" style="background-image: url(//antidoping.fifa.com/pluginfile.php/1/theme_nebula/slide1image/1782857427/login.jpg)"></div>
+
+    </div>
+</div>
+
+<section id="region-main" class="   ">
+
+    <div class="logo-container">
+        <h1 class="logo logo-login">
+            <div class="logo logo-login">
+    <a class="logo-login__link" href="https://antidoping.fifa.com/">
+
+        <img class="logo-login__img img-responsive" src="//antidoping.fifa.com/pluginfile.php/1/theme_nebula/loginlogo/1782857427/login-logo.png" alt="Totara 12 Template home."  />
+
+        <span class="sr-only">FIFA Anti-Doping</span>
+    </a>
+</div>
+        </h1>
+        
+    </div>
+
+    <span class="notifications" id="user-notifications"></span>
+
+    <div class="form-wrapper">
+
+
+        <div role="main"><span tabindex="-1" id="maincontent"></span><h4>1 of 1 policies</h4><div class="singleselect pull-right d-inline-block">
+    <form method="get" action="https://antidoping.fifa.com/admin/tool/sitepolicy/userpolicy.php" class="form-inline" id="userpolicy">
+            <input type="hidden" name="policyversionid" value="4">
+            <input type="hidden" name="versionnumber" value="1">
+            <input type="hidden" name="language" value="">
+            <input type="hidden" name="currentcount" value="1">
+            <input type="hidden" name="totalcount" value="1">
+        <select  id="single_select6a4508500050e2" class="custom-select singleselect pull-right" name="lang">
+                    <option  value="en" selected>English ‎(en)‎</option>
+                    <option  value="de" >Deutsch ‎(de)‎</option>
+                    <option  value="es" >Español - Internacional ‎(es)‎</option>
+                    <option  value="fr" >Français ‎(fr)‎</option>
+                    <option  value="pt" >Português - Portugal ‎(pt)‎</option>
+                    <option  value="ar" >عربي ‎(ar)‎</option>
+                    <option  value="ru" >Русский ‎(ru)‎</option>
+        </select>
+        <noscript>
+            <input type="submit" role="button" class="btn btn-secondary" value="Go">
+        </noscript>
+    </form>
+</div><form data-totara-form
+      data-element-id="tf_fid_tool_sitepolicy_form_userconsentform"
+      id="tf_fid_tool_sitepolicy_form_userconsentform"
+      autocomplete="off" action="https://antidoping.fifa.com/admin/tool/sitepolicy/userpolicy.php"
+      method="post"
+      accept-charset="utf-8"
+      class="totara_form tool_sitepolicy__form__userconsentform clearfix">
+    
+    <div>
+            <div data-item-classification="element"
+                 data-element-type="totara_form\form\element\hidden"
+                 data-element-id="tfiid_policyversionid_tool_sitepolicy_form_userconsentform"
+                 data-element-template="totara_form/element_hidden"
+                 data-element-frozen="1"
+                 data-element-amd-module="totara_form/form_element_hidden"
+                 class="nostyles">
+                <input type="hidden" id="tfiid_policyversionid_tool_sitepolicy_form_userconsentform" name="policyversionid" value="4" />
+            </div>
+            <div data-item-classification="element"
+                 data-element-type="totara_form\form\element\hidden"
+                 data-element-id="tfiid_versionnumber_tool_sitepolicy_form_userconsentform"
+                 data-element-template="totara_form/element_hidden"
+                 data-element-frozen="1"
+                 data-element-amd-module="totara_form/form_element_hidden"
+                 class="nostyles">
+                <input type="hidden" id="tfiid_versionnumber_tool_sitepolicy_form_userconsentform" name="versionnumber" value="1" />
+            </div>
+            <div data-item-classification="element"
+                 data-element-type="totara_form\form\element\hidden"
+                 data-element-id="tfiid_localisedpolicyid_tool_sitepolicy_form_userconsentform"
+                 data-element-template="totara_form/element_hidden"
+                 data-element-frozen="1"
+                 data-element-amd-module="totara_form/form_element_hidden"
+                 class="nostyles">
+                <input type="hidden" id="tfiid_localisedpolicyid_tool_sitepolicy_form_userconsentform" name="localisedpolicyid" value="4" />
+            </div>
+            <div data-item-classification="element"
+                 data-element-type="totara_form\form\element\hidden"
+                 data-element-id="tfiid_language_tool_sitepolicy_form_userconsentform"
+                 data-element-template="totara_form/element_hidden"
+                 data-element-frozen="1"
+                 data-element-amd-module="totara_form/form_element_hidden"
+                 class="nostyles">
+                <input type="hidden" id="tfiid_language_tool_sitepolicy_form_userconsentform" name="language" value="en" />
+            </div>
+            <div data-item-classification="element"
+                 data-element-type="totara_form\form\element\hidden"
+                 data-element-id="tfiid_currentcount_tool_sitepolicy_form_userconsentform"
+                 data-element-template="totara_form/element_hidden"
+                 data-element-frozen="1"
+                 data-element-amd-module="totara_form/form_element_hidden"
+                 class="nostyles">
+                <input type="hidden" id="tfiid_currentcount_tool_sitepolicy_form_userconsentform" name="currentcount" value="1" />
+            </div>
+            <div data-item-classification="element"
+                 data-element-type="totara_form\form\element\hidden"
+                 data-element-id="tfiid_totalcount_tool_sitepolicy_form_userconsentform"
+                 data-element-template="totara_form/element_hidden"
+                 data-element-frozen="1"
+                 data-element-amd-module="totara_form/form_element_hidden"
+                 class="nostyles">
+                <input type="hidden" id="tfiid_totalcount_tool_sitepolicy_form_userconsentform" name="totalcount" value="1" />
+            </div>
+            <div data-item-classification="element"
+                 data-element-type="tool_sitepolicy\form\element\sitepolicy"
+                 data-element-id="tfiid_userconsent_tool_sitepolicy_form_userconsentform"
+                 data-element-template="tool_sitepolicy/element_sitepolicy"
+                 data-element-frozen=""
+                
+                 class="nostyles">
+                
+                <h2>Data Protection Policy</h2>
+                <div class="policybox"><p></p><p>Fédération Internationale de Football Association (FIFA) </p><p>FIFA-Strasse 20<br />8044 Zurich<br />Switzerland</p><p>Please read the following to learn more about the ways FIFA uses your personal data before you proceed with the use of any of FIFA’s Anti-Doping e-learning Platform.</p><p>This Data Protection Policy has been drafted in English and has been translated into other languages. In the event of discrepancies between the English and the translated texts, the English text shall prevail and be used to solve doubts of interpretation.</p><p>Date of issue of this Data Protection Policy: September 2022</p><p><br /></p><h4><b>International Transfer</b></h4><p>YOUR INFORMATION IS PROCESSED IN SWITZERLAND AND IN THE EUROPEAN ECONOMIC AREA (“EEA”), AND MAY BE PROCESSED ELSEWHERE DEPENDING ON THE LOCATION OF AFFILIATES, BUSINESS PARTNERS, AND OTHER ENTITIES WHO ARE PERMITTED TO ACCESS SUCH INFORMATION UNDER THE TERMS OF THIS DATA PROTECTION POLICY (LOCATIONS OUTSIDE THE EEA MAY INCLUDE COUNTRIES WHICH MAY NOT ASSURE AN ADEQUATE LEVEL OF DATA PROTECTION ACCORDING TO APPLICABLE LAWS IN THE EEA AND SWITZERLAND). IF FIFA PROCESSES YOUR PERSONAL INFORMATION OUTSIDE THE EEA, ALL REASONABLE STEPS WILL BE TAKEN TO ENSURE THAT YOUR PERSONAL INFORMATION IS TREATED AS SAFELY AND SECURELY AS IT WOULD BE WITHIN THE EEA AND SWITZERLAND AND UNDER THE SWISS DATA PROTECTION ACT (“DPA”) AND THE GENERAL DATA PROTECTION REGULATION (“GDPR”).<br /></p><p><b></b><br /></p><h4><b>The collection of personal data and how FIFA uses it</b></h4><p>The processing, collection and use of your personal data will always have a lawful basis. This lawful basis can be FIFA’s performance of a contract with you, your freely given consent, compliance with a legal obligation or FIFA’s legitimate interest. </p><p>Specifically, FIFA may use your personal data for the following purposes: </p><p></p><ul><li>to provide and improve the FIFA Anti-Doping e-learning Platform;</li><li>to send any information, communication or new content related to the FIFA Anti-Doping e-learning Platform;</li><li>to enable you to enjoy and easily navigate the FIFA Anti-Doping e-learning Platform</li><li>to ensure appropriate customer care;</li><li>to implement relevant safety and security measures in connection with FIFA competitions;</li><li>to inform you about FIFA products and FIFA events as well as products and services of FIFA’s commercial affiliates and other third parties if you have consented for FIFA to do so</li><li>to manage your account, including processing bills; </li><li>to communicate with you in general; </li><li>to respond to your questions and comments; </li><li>to prevent potentially prohibited or illegal activities; </li><li>to customise the advertising offered to you;</li><li>to enforce our terms located at <a href="https://www.fifa.com/legal/terms-of-service">www.fifa.com/legal/terms-of-service</a>; and </li><li>as otherwise described to you at the point of collection of the personal data.</li></ul><p></p><p><b></b><br /></p><h4><b>The personal data FIFA collects from you</b></h4><p>The personal data FIFA collects form you when you use FIFA’s websites may include but is not limited to the following categories of personal data: </p><p>a.     For the use of FIFA’s Anti-Doping e-learning Platform: email address, last name, first name, country of residence, date of birth, gender, screen name/ user name, password, IP address, </p><p>b.     Name of the team of the player</p><p><b></b><br /></p><h4><b>Cookies</b></h4><p>FIFA uses “cookies” when you visit the FIFA Anti-Doping e-learning Platform. Please read and understand our Cookie Policy.</p><p>When you visit the FIFA Anti-Doping e-learning Platform, FIFA will use “cookies” to collect certain information about you. Cookies are small data files which are transferred to your computer’s hard disk in order to memorize information like registration IDs and passwords. A cookie will typically contain the name of the domain from which the cookie has originated, the “lifetime” of the cookie and various values.</p><p></p><ul><li>FIFA utilizes the following two cookies when you visit the FIFA Anti-Doping e-learning Platform:</li><li>FIFA utilizes one essential cookie which is a session cookie, usually called “TotaraSession”. You must allow this cookie into your browser to provide continuity and maintain your login from page to page. When you log out or close the browser this cookie is destroyed (in your browser and on the server). </li></ul><p></p><p>The other cookie is a functional cookie which we place for your convenience, usually called something like ”TOTARAID”. It just remembers your username within the browser. This means when you return to this site the username field on the login page will be already filled out for you. It is safe to refuse this cookie  you will just have to retype your username every time you log in. </p><p>Please note that you can always choose to block cookies by updating your Web browser privacy settings.</p><p>To do so, you will have to access the “Help” menu in your browser’s menu bar and search for the term “cookies”. </p><p><b></b><br /></p><h4><b>Information Sharing and Disclosure</b></h4><p>FIFA may send personal data about you to third parties when:</p><p>a) You specifically acknowledge and agree that FIFA may disclose your personal data to Learning Pool Ltd contributing to the delivery of services requested by yourself: </p><p>b) FIFA needs to share your personal data to provide a product or service you have requested; or</p><p>c) FIFA provides personal data to companies who work on behalf of FIFA under data processing agreements providing for the required safeguards for your personal data in accordance with applicable data protection laws; </p><p>d) FIFA needs to respond to subpoenas, court orders or legal processes;</p><p>e) FIFA believes it is necessary, at its sole discretion, to investigate, prevent, or take action regarding illegal activities, suspected fraud, emergency situations involving potential threats to the physical safety of any person, violations of Our Terms located at <a href="https://www.fifa.com/legal/terms-of-service">www.fifa.com/legal/terms-of-service</a>, or as otherwise required by law;</p><p>f) You have freely consented to your personal data being shared with FIFA’s commercial affiliates and/or contractual partners to be informed about their products and services. </p><p><b></b><br /></p><h4><b>Security</b></h4><p>FIFA wants you to feel confident about using the FIFA Anti-Doping e-learning Platform. For this reason, FIFA has implemented adequate technical and organisational measures designed to secure your personal data from accidental loss and from unauthorised access, use, alteration or disclosure. However, FIFA cannot guarantee that unauthorised third parties might maliciously access your personal data.  </p><p>Identity theft and the practice currently known as “phishing” are of great concern to FIFA. Safeguarding information to help protect you from identity theft is a top priority. We do not and will not, at any time, request your credit card information, your account ID, login password or national identification numbers in a non-secure or unsolicited email or telephone communication.</p><p>FIFA has implemented procedures to react in case of unauthorised access, use, alteration or disclosure of personal data. If you suspect such an incident has occurred, please get in touch with FIFA via dataprotection@fifa.org.</p><p>If you communicate with FIFA by email, please note that the secrecy of internet email is uncertain. By sending sensitive or confidential email messages or information which are not encrypted, you are accepting the risk of a possible lack of confidentiality over the internet.</p><p><b></b><br /></p><h4><b>Your rights</b></h4><p>You have the following rights under the DPA and GDPR:</p><p>a) the right to be informed about FIFA’s collection and use of personal data;</p><p>b) the right of access to the personal data FIFA holds about you;</p><p>c) the right to rectification if any personal data FIFA holds about you is inaccurate or incomplete;</p><p>d) the right to deletion – i.e. the right to ask FIFA to delete any personal data we hold about you;</p><p>e) the right to restrict the processing of your personal data;</p><p>f) the right to data portability – i.e. obtaining a copy of your personal data to re-use with another service or organisation;</p><p>g) the right to object to FIFA using your personal for particular purposes; and</p><p>h) the right to revoke a given consent at any time; and</p><p>h) further rights with respect to the objection to automated decision-making and profiling.</p><p>If you have any cause for complaint about FIFA’s use of your personal data, please contact FIFA’s dedicated team under dataprotection@fifa.org. We may require you to provide verification of your identity. In case you are not satisfied with our response, you always have the right to lodge a complaint with the Swiss Federal Data Protection and Information Commissioner (“FDPIC”) or the competent data protection authority within the EEA. Please note that in certain circumstances FIFA may withhold access to your personal data where FIFA has the right to do so under applicable data protection legislation.</p><p><br /></p><h4><b>Updating/deleting Your information</b></h4><p>You may review, correct, update, change or request that FIFA deletes your personal data at any time by accessing your account on the FIFA Anti-Doping e-learning Platform. FIFA will ensure the deletion in case there are no legal reasons obliging FIFA to keep your personal data.</p><p><b></b><br /></p><h4><b>Links to Other Sites</b></h4><p>If any part of the FIFA Anti-Doping e-learning Platform links to other websites external to FIFA, those websites do not operate under this Data Protection Policy. If you choose to visit an advertiser or click on another third-party link, you will be directed to that third party’s website. FIFA does not exercise control over third-party websites and therefore recommends you to read and understand the data protection policies posted on these other websites to understand their procedures for processing, collecting, using and disclosing of personal data.</p><p><b></b><br /></p><h4><b>Our policy towards children</b></h4><p>FIFA does not on purpose process personal data from children under 16. Where children under 16 use FIFA’s Anti-Doping e-learning Platform, we advise that they obtain the permission of a parent or legal guardian, and FIFA recommends that parents or legal guardians clear their browser cache of cookies and take all other steps highlighted in this data protection policy to minimise the personal data collected. When FIFA becomes aware that a child under 16 has provided FIFA with personal data without such permission, FIFA will delete such personal data.</p><p><b></b><br /></p><h4><b>Changes to this Data Protection Policy</b></h4><p>This Data Protection Policy may be amended from time to time. If FIFA amends this Data Protection Policy, any changes will be immediately posted on the FIFA Anti-Doping e-learning Platform and you will be deemed to have accepted the terms of the Data Protection Policy on your first use of the FIFA Anti-Doping e-learning Platform following the alterations.  </p><p><br /></p><h4><b>Contact</b></h4><p>If you have any questions about this Data Protection Policy, please contact FIFA’s Data Protection Officer by email at dataprotection@fifa.org or by post to Fédération Internationale de Football Association (FIFA), FIFA-Strasse 20, 8044 Zurich, Switzerland. FIFA has a data protection representative within the EU, who may be contacted as follows: VGS Datenschutzpartner UG, Am Kaiserkai 69, 20457 Hamburg, Germany.</p><p><b></b><br /></p><h4><b>Precedence</b></h4><p>In the event that the provisions of this Data Protection Policy conflict with the provisions of a third-party Data Protection Policy, the provisions of this Data Protection Policy shall prevail.</p><p><b></b><br /></p><h4><b>Jurisdiction and applicable law</b></h4><p>This Data Protection Policy and all matters arising out of or related to this Data Protection Policy shall be governed by the substantive laws of Switzerland, without regard to conflicts of laws and principles thereof.</p><p>Any controversy, claim or dispute between you and FIFA arising out of or relating to this Data Protection Policy shall be subject to the exclusive jurisdiction of the competent Courts of the City of Zurich 1, and each party hereby irrevocably consents to the jurisdiction and venue of such Court.</p><br /><p></p></div>
+                
+                <h2>Provide your consent</h2>
+                
+                    <div class="tf_element totara_form_element_radios">
+                        <div class="tf_element_title"><span class="legend" data-element-label>I have read and understood this policy (Consent is required to access the site)<span class="required"><span aria-hidden="true" data-flex-icon="required"
+      class="flex-icon ft-fw ft fa-asterisk ft-state-danger form-required"
+       title="Required field"></span><span class="sr-only">Required field</span></span>
+</span>
+</div>
+                        <div class="tf_element_input" id="tfiid_option4_tool_sitepolicy_form_userconsentform">
+                            <div class="totara_form_element_radios_radio">
+                                <input type="radio" id="tfiid_option4_tool_sitepolicy_form_userconsentform___rd_0" name="option4" value="1" checked required />
+                                <label for="tfiid_option4_tool_sitepolicy_form_userconsentform___rd_0">Confirm</label><span class="tf_loading" style="display: none;"><span aria-hidden="true" data-flex-icon="core|i/loading"
+      class="flex-icon ft-fw ft fa-spinner fa-pulse"
+       title="Loading"></span><span class="sr-only">Loading</span></span>
+                            </div>
+                            <div class="totara_form_element_radios_radio">
+                                <input type="radio" id="tfiid_option4_tool_sitepolicy_form_userconsentform___rd_1" name="option4" value="0"  required />
+                                <label for="tfiid_option4_tool_sitepolicy_form_userconsentform___rd_1">Decline</label><span class="tf_loading" style="display: none;"><span aria-hidden="true" data-flex-icon="core|i/loading"
+      class="flex-icon ft-fw ft fa-spinner fa-pulse"
+       title="Loading"></span><span class="sr-only">Loading</span></span>
+                            </div>
+                        </div>
+                    </div>                
+            </div>
+            <div data-item-classification="group"
+                 data-element-type="totara_form\form\group\buttons"
+                 data-element-id="tfiid_actionbuttonsgrouptool_sitepolicy_form_userconsentform"
+                 data-element-template="totara_form/group_buttons"
+                 data-element-frozen=""
+                
+                 class="nostyles">
+                <div class="tf_group totara_form_group_buttons clearfix">
+                        <div data-item-classification="element"
+                             data-element-type="totara_form\form\element\action_button"
+                             data-element-id="tfiid_submitbutton_tool_sitepolicy_form_userconsentform"
+                             data-element-template="totara_form/element_action_button"
+                             data-element-frozen="0"
+                             
+                             class="nostyles">
+                        <div class="tf_element totara_form_element_action_button">
+                            
+
+                            <input type="submit" id="tfiid_submitbutton_tool_sitepolicy_form_userconsentform" name="submitbutton" value="Submit"  />
+                        </div>
+                        </div>
+
+                </div>
+            </div>
+    </div>
+    <div style="display: none;">
+        <input type="hidden" name="___tf_formclass" value="tool_sitepolicy\form\userconsentform">
+        <input type="hidden" name="___tf_idsuffix" value="tool_sitepolicy_form_userconsentform">
+        <input type="hidden" name="___tf_reload" value="">
+        <input type="hidden" name="sesskey" value="gyezynfcAl">
+    </div>
+</form></div>
+
+        <span class="reset-strings">
+          <div class="username">Enter your username</div>
+          <div  class="email">Enter your email address</div>
+        </span>
+
+
+    </div>
+
+</section>
+
+    </div>
+
+    <script type="text/javascript" src="https://antidoping.fifa.com/lib/requirejs/config.php/1782857427/config.js"></script>
+<script type="text/javascript" src="https://antidoping.fifa.com/lib/javascript.php/1782857427/lib/requirejs/require.min.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+require(['jquery'], function($) {
+    $(document).on('ajaxStart', function() {
+        M.util.js_pending('jq');
+    }).on('ajaxStop', function() {
+        M.util.js_complete('jq');
+    });
+});
+M.util.js_pending('core-autoinitialise');
+require(['core/autoinitialise'], function(ai) {
+    ai.scan().then(function() {
+        M.util.js_complete('core-autoinitialise');
+    });
+});
+require(["media_videojs/loader"], function(loader) {
+    loader.setUp(function(videojs) {
+        videojs.options.flash.swf = "https://antidoping.fifa.com/media/player/videojs/videojs/video-js.swf";
+videojs.addLanguage("en",{
+ "Play": "Play",
+ "Pause": "Pause",
+ "Current Time": "Current Time",
+ "Duration Time": "Duration Time",
+ "Remaining Time": "Remaining Time",
+ "Stream Type": "Stream Type",
+ "LIVE": "LIVE",
+ "Loaded": "Loaded",
+ "Progress": "Progress",
+ "Fullscreen": "Fullscreen",
+ "Non-Fullscreen": "Non-Fullscreen",
+ "Mute": "Mute",
+ "Unmute": "Unmute",
+ "Playback Rate": "Playback Rate",
+ "Subtitles": "Subtitles",
+ "subtitles off": "subtitles off",
+ "Captions": "Captions",
+ "captions off": "captions off",
+ "Chapters": "Chapters",
+ "Close Modal Dialog": "Close Modal Dialog",
+ "Descriptions": "Descriptions",
+ "descriptions off": "descriptions off",
+ "Audio Track": "Audio Track",
+ "You aborted the media playback": "You aborted the media playback",
+ "A network error caused the media download to fail part-way.": "A network error caused the media download to fail part-way.",
+ "The media could not be loaded, either because the server or network failed or because the format is not supported.": "The media could not be loaded, either because the server or network failed or because the format is not supported.",
+ "The media playback was aborted due to a corruption problem or because the media used features your browser did not support.": "The media playback was aborted due to a corruption problem or because the media used features your browser did not support.",
+ "No compatible source was found for this media.": "No compatible source was found for this media.",
+ "The media is encrypted and we do not have the keys to decrypt it.": "The media is encrypted and we do not have the keys to decrypt it.",
+ "Play Video": "Play Video",
+ "Close": "Close",
+ "Modal Window": "Modal Window",
+ "This is a modal window": "This is a modal window",
+ "This modal can be closed by pressing the Escape key or activating the close button.": "This modal can be closed by pressing the Escape key or activating the close button.",
+ ", opens captions settings dialog": ", opens captions settings dialog",
+ ", opens subtitles settings dialog": ", opens subtitles settings dialog",
+ ", opens descriptions settings dialog": ", opens descriptions settings dialog",
+ ", selected": ", selected"
+});
+
+    });
+});;
+
+require(['core/yui'], function(Y) {
+    M.util.init_skiplink(Y);
+});
+;
+
+    require(['theme_nebula/login'], function(login) {
+        login.init();
+    });
+;
+
+    require(['theme_nebula/utilities'], function(utilities) {
+        utilities.init();
+    });
+;
+
+require(['jquery'], function($) {
+    $('#single_select6a4508500050e2').change(function() {
+        var ignore = $(this).find(':selected').attr('data-ignore');
+        if (typeof ignore === typeof undefined) {
+            $('#userpolicy').submit();
+        }
+    });
+});
+;
+
+require(['jquery', 'totara_form/form'], function ($, Form) {
+    Form.init({
+        id: 'tf_fid_tool_sitepolicy_form_userconsentform',
+        actionsConfig: []
+    });
+});
+;
+require(["core/log"], function(amd) { amd.setConfig({"level":"warn"}); });
+//]]>
+</script>
+<script type="text/javascript" src="https://antidoping.fifa.com/lib/javascript.php/1782857427/local/learningpool/js/polyfill.js"></script>
+<script type="text/javascript" src="https://antidoping.fifa.com/theme/javascript.php/nebula/1782857427/footer"></script>
+<script type="text/javascript">
+//<![CDATA[
+M.util.add_strings({"moodle":{"lastmodified":"Last modified","name":"Name","error":"Error","info":"Information","yes":"Yes","no":"No","uploadformlimit":"Uploaded file {$a} exceeded the maximum size limit set by the form","droptoupload":"Drop files here to upload","maxfilesreached":"You are allowed to attach a maximum of {$a} file(s) to this item","dndenabled_inbox":"You can drag and drop files here to add them.","fileexists":"There is already a file called {$a}","sizegb":"GB","sizemb":"MB","sizekb":"KB","sizeb":"bytes","maxareabytesreached":"The file (or the total size of several files) is larger than the space remaining in this area.","morehelp":"More help","loadinghelp":"Loading...","cancel":"Cancel","confirm":"Confirm","areyousure":"Are you sure?","closebuttontitle":"Close","unknownerror":"Unknown error"},"repository":{"type":"Type","size":"Size","invalidjson":"Invalid JSON string","nofilesattached":"No files attached","filepicker":"File picker","logout":"Logout","nofilesavailable":"No files available","norepositoriesavailable":"Sorry, none of your current repositories can return files in the required format.","fileexistsdialogheader":"File exists","fileexistsdialog_editor":"A file with that name has already been attached to the text you are editing.","fileexistsdialog_filemanager":"A file with that name has already been attached","renameto":"Rename to \"{$a}\"","referencesexist":"There are {$a} alias\/shortcut files that use this file as their source","select":"Select"},"admin":{"confirmdeletecomments":"You are about to delete comments, are you sure?","accessdenied":"Access denied","resourcenotfound":"Resource not found","confirmation":"Confirmation"},"error":{"maxbytesfile":"The file {$a->file} is too large. The maximum size you can upload is {$a->size}.","serverconnection":"Error connecting to the server"},"core":{"unknownerror":"Unknown error"}});
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+(function() {Y.use("moodle-core-jqueryajaxhandler",function() {M.core.jqueryajaxhandler.init();
+});
+Y.use("moodle-filter_mathjaxloader-loader",function() {M.filter_mathjaxloader.configure({"mathjaxconfig":"\n\nMathJax.Hub.Config({\n    config: [\"Accessible.js\", \"Safe.js\"],\n    errorSettings: { message: [\"!\"] },\n    skipStartupTypeset: true,\n    messageStyle: \"none\"\n});\n","lang":"en"});
+});
+M.util.help_popups.setup(Y);
+Y.use("moodle-core-popuphelp",function() {M.core.init_popuphelp();
+});
+ M.util.js_pending('random6a4508500050e3'); Y.on('domready', function() { M.util.js_complete("init");  M.util.js_complete('random6a4508500050e3'); });
+})();
+//]]>
+</script>
+
+</body>
+</html>

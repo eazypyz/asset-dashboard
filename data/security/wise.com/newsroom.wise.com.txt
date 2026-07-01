@@ -1,0 +1,4010 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible"  content="IE=edge">
+    <meta http-equiv="content-language" content="en">
+    <meta name="viewport"               content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=1">
+    <meta name="robots"                 content="index,follow">
+    <meta name="googlebot"              content="index,follow">
+
+      <base href="https://newsroom.wise.com" target="_self">
+
+      <meta name="description"        content="Wise is a global technology company, building the best way to move and manage the world&#39;s money. With Wise Account and Wise Business, people and businesses c...">
+      <meta property="og:description" content="Wise is a global technology company, building the best way to move and manage the world&#39;s money. With Wise Account and Wise Business, people and businesses c...">
+      <meta property="og:type"        content="website" />
+      <meta property="og:locale"      content="en" />
+      <meta property="og:image"       content="https://d21buns5ku92am.cloudfront.net/69646/background_image/large-1677656945.png" />
+
+      <title>Wise Newsroom</title>
+
+    <link rel="shortcut icon" sizes="48x48" href="https://newsroom-files.pr.co/69646/icon/large-1677657632.png" type="image/png">
+    <link rel="apple-touch-icon" href="https://newsroom-files.pr.co/69646/icon/large-1677657632.png" type="image/png">
+
+        <link rel="alternate" href="https://newsroom.wise.com/en-NAM/" hreflang="x-default" />
+        <link rel="alternate" href="https://newsroom.wise.com/es-NAM/" hreflang="es" />
+
+      <link href="https://newsroom.wise.com/en-NAM/" rel="canonical"></link>
+
+    
+
+      <!--
+      _____                               _   _
+      |  __ \                             | | | |
+      | |__) |____      _____ _ __ ___  __| | | |__  _   _   _ __  _ __ ___ ___
+      |  ___/ _ \ \ /\ / / _ \ '__/ _ \/ _` | | '_ \| | | | | '_ \| '__/ __/ _ \
+      | |  | (_) \ V  V /  __/ | |  __/ (_| | | |_) | |_| | | |_) | | | (_| (_) |
+      |_|   \___/ \_/\_/ \___|_|  \___|\__,_| |_.__/ \__, | | .__/|_|(_)___\___/
+                                                      __/ | | |
+      Newsroom made with ♥ by https://pr.co          |___/  |_|
+
+  -->
+
+    <link rel="stylesheet" media="all" href="https://dkskyn6tqnjvs.cloudfront.net/assets/media_center-4cca2090cfea47167672407d944a065f51c89b9ba88396b418437a2f15bcf98c.css" id="media_center_css" />
+
+    
+    <script src="https://d12nlb6renn3r2.cloudfront.net/js/videojs_plus_download.js" nonce="c5423aff28fd4739262e9506c868c4e2a4"></script>
+    
+    <style media="screen">
+    @import url('https://fonts.googleapis.com/css2?family=Open Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+  :root {
+    /* Font */
+    --pressroom-google-font: Open Sans;
+
+    /* Brand Colors */
+    --pressroom-primary-brand-color: #9fe770;
+    --pressroom-cta-text-color: #163300;
+
+    /* Header */
+    --pressroom-header-background-color: #ffffff;
+    --pressroom-header-text-color: #163300;
+    --pressroom-header-border-color: #ffffff;
+    --pressroom-header-divider-color: #ffffff;
+
+    /* Toolbar */
+    --pressroom-toolbar-background-color: #eff1ee;
+    --pressroom-toolbar-text-color: #163300;
+
+    /* Footer */
+    --pressroom-footer-background-color: #eff1ee;
+    --pressroom-footer-text-color: #0e0f0d;
+
+    /* Border radius */
+    --pressroom-default-border-radius: 0;
+
+    /* Default colors */
+    --pressroom-white-color: #ffffff;
+    --pressroom-dark-gray-color: #232323;
+  }
+
+    body {
+      font-family: var(--pressroom-google-font), Helvetica, sans-serif !important;
+    }
+
+  /* PRIMARY COLOR */
+  a,
+  .link,
+  .link__text:hover,
+  .c-quicklink:after,
+  .c-tabset__link--active:before,
+  .c-tabset__link:hover,
+  .c-tabset__link:hover:before,
+  .article-section__highlight [class^="icon-"],
+  .article-section__highlight [class*=" icon-"],
+  .subscribe-drop h2 .mark, 
+  .subscribe-drop .h2 .mark,
+  .subscribe-drop .input-holder .interactive-icon,
+  .subscribe-drop .tabset > li.tab-active a,
+  .subscribe-drop .tabset > li a:hover,
+  .leads-section .check-list > li:before,
+  .c-filter__secondary-link:hover,
+  .c-filter__tertiary-link:hover,
+  .c-filter__link--reset,
+  .latest-news__search-form .form-customize:focus + .c-btn--search,
+  .list-view-option__link--primary:hover,
+  .main-nav .accordion-opener:after,
+  .language__opener:after,
+  .c-quicklink:after,
+  .c-release .icon-wrap,
+  .pages_show main .pages__content ol li::before,
+  .social__link:hover,
+  .breadcrumbs .c-breadcrumb__link:hover,
+  .search__opener:hover,
+  .c-checkbox__label:hover, 
+  .c-radio__label:hover,
+  .related-pages__list .c-page__link .icon-caret-right,
+  .related-pages__list .c-page:hover .c-page__link span,
+  .c-event__tag,
+  .c-event--today .c-event__start-time,
+  .live-event__card--today .live-event__card__date,
+  .iconpack--fill .c-btn--pagination,
+  .product-block__link:hover, 
+  .subscribe-drop .input-holder .interactive-icon:hover {
+    color: var(--pressroom-primary-brand-color);
+  }
+  .move-block,
+  .c-quotes:after,
+  .category-section .category-list .category.bg-default,
+  .about-section.bg-default,
+  .contact-section.bg-default,
+  .brand-section .product-banner.bg-default,
+  .tag-label-list input[type=checkbox]:checked ~ .fake-label,
+  .checkbox-list input[type=checkbox]:checked ~ .fake-input,
+  .checkbox-drop-list input[type="checkbox"]:checked ~ .checkbox-slide,
+  .slick-dots .slick-active button,
+  .add-btn span:after,
+  .add-btn span:before,
+  .pages_show main .pages__content.pages__content--block-editor blockquote::after,
+  .pages_show main .pages__content.pages__content--html-editor blockquote::after,
+  .c-checkbox .c-radio__label:after, 
+  .c-radio .c-radio__label:after,
+  .pages_show main .pages__content ul li::before,
+  .about-section--topic.empty {
+    background: var(--pressroom-primary-brand-color);
+  }
+  .about-section--topic.empty .about-section__text-holder {
+    color: var(--pressroom-cta-text-color);
+  }
+  .leads-form input[type=text]:focus,
+  .leads-form input[type=text].focus,
+  .leads-form input[type=email]:focus,
+  .leads-form input[type=email].focus,
+  .leads-form input[type=tel]:focus,
+  .leads-form input[type=tel].focus,
+  .leads-form input[type=password]:focus,
+  .leads-form input[type=password].focus,
+  .leads-form input[type=password].focus,
+  .leads-form input[type=url]:focus,
+  .leads-form input[type=url].focus,
+  .subscribe-form input[type=email]:focus,
+  .subscribe-form input[type=email].focus,
+  .url-form input[type=url]:focus,
+  .url-form input[type=url].focus,
+  .checkbox-opener:focus,
+  .jcf-select.jcf-focus,
+  .tag-label-list input[type=checkbox]:checked ~ .fake-label,
+  .checkbox-list input[type=checkbox]:checked ~ .fake-input,
+  .checkbox-drop-list input[type="checkbox"]:checked ~ .checkbox-slide,
+  .c-checkbox__label:after, 
+  .c-radio__label:after,
+  .c-image--border,
+  .tag__content .tag__tab--active {
+    border-color: var(--pressroom-primary-brand-color);
+  }
+  .c-image__caption:after, 
+  .c-video__caption:after,
+  .ejs-image__caption:after, 
+  .ejs-audio__caption:after,
+  .ejs-video__caption:after,
+  .ejs-oembed__caption:after,
+  .ejs-document__caption:after {
+    border-bottom-color: var(--pressroom-primary-brand-color);
+  }
+  .link:hover {
+    color: var(--pressroom-dark-gray-color);
+  }
+
+  /* BUTTONS */
+  .c-btn--primary,
+  .c-tag__link,
+  .footer .social-networks__link, 
+  .share-block .social-networks__link, 
+  .topics-block .social-networks__link,
+  .live-event__card--sharing .social-networks__link,
+  .social-networks--secondary__link,
+  .attachment_container .attachment_details a.button.white {
+    background: var(--pressroom-primary-brand-color);
+    border-color: var(--pressroom-primary-brand-color);
+    color: var(--pressroom-cta-text-color);
+  }
+  .about-section--topic.empty .c-btn--subscribe,
+  .about-section--topic.empty .c-tag__link,
+  .c-btn--outline-primary {
+    background-color: white;
+    color: var(--pressroom-primary-brand-color);
+  }
+  .about-section--topic.empty .c-btn--subscribe,
+  .c-btn--outline-primary {
+    border: 1px solid var(--pressroom-primary-brand-color);
+  }
+  .c-btn--primary:hover,
+  .c-btn--outline-primary:hover,
+  .c-tag__link:hover,
+  .about-section--topic.empty .c-btn--subscribe:hover,
+  .about-section--topic.empty .c-tag__link:hover,
+  .footer .social-networks__link:hover, 
+  .share-block .social-networks__link:hover, 
+  .topics-block .social-networks__link:hover,
+  .live-event__card--sharing .social-networks__link:hover,
+  .social-networks--secondary__link:hover {
+    background: var(--pressroom-dark-gray-color);
+    border-color: var(--pressroom-dark-gray-color);
+    color: var(--pressroom-white-color);
+  }
+
+
+  /* HEADER */
+  .header-wrapper {
+    background: var(--pressroom-header-background-color);
+    border-color: var(--pressroom-header-border-color);
+  }
+  .main-nav-opener {
+    border-color: var(--pressroom-header-text-color);
+  }
+  .main-nav-opener .lines:before {
+    box-shadow: 0 6px 0 0 var(--pressroom-header-text-color);
+  }
+  .main-nav-opener .lines:after,
+  .main-nav-opener .lines:before {
+    background-color: var(--pressroom-header-text-color);
+  }
+  .main-nav__item:hover > .main-nav__link,
+  .language__opener:hover {
+    color: initial;
+  }
+  .news-list__title,
+  .category-list__icon,
+  .language__link:hover {
+    color: var(--pressroom-primary-brand-color);
+  }
+  .logo-wrap .logo__text {
+    color: var(--pressroom-header-text-color);
+    border-left: 1px solid var(--pressroom-header-divider-color);
+  }
+  @media screen and (min-width: 1024px) {
+    header,
+    .logo__text,
+    .main-nav__link,
+    header .auth__link,
+    header .language__opener,
+    header .link__text,
+    .navbar .link__text:hover,
+    .main-nav__item:hover > .main-nav__link,
+    .language__opener:hover,
+    .main-nav__link--has-drop-down::after,
+    header .language__opener::after,
+    header .link__text:after,
+    header .search__opener .icon-search {
+      color: var(--pressroom-header-text-color);
+    }
+  }
+  .toolbar-wrapper {
+    background: var(--pressroom-toolbar-background-color);
+  }
+  .toolbar-link,
+  .toolbar-link:before,
+  .toolbar .auth__link {
+    color: var(--pressroom-toolbar-text-color);
+  }
+  
+  /* FOOTER */
+  .c-takeover__title,
+  .c-takeover__date,
+  .footer,
+  .footer__nav-link,
+  .footer .accordion-opener:after {
+    color: var(--pressroom-footer-text-color);
+  }
+  .c-takeover,
+  .footer.bg-alabaster:before {
+    background-color: var(--pressroom-footer-background-color);
+  }
+
+  /* BORDER RADIUS */
+  .contact-wrap,
+  .c-card__img-holder,
+  .article-section__img-holder,
+  .news-list__thumbnail,
+  .article__img-holder,
+  .press__link,
+  .category,
+  .media-list__wrap,
+  .c-eventgroup,
+  .c-eventgroup .c-event__date,
+  .leads-section .leads-promo .text-holder,
+  .toolmenu,
+  .subscribe-drop,
+  .c-image-wrap, 
+  .c-video-wrap,
+  .c-image--lg .c-image__thumbnail,
+  .c-video--lg .c-image__thumbnail, 
+  .c-image .c-image__thumbnail,
+  .c-video .c-image__thumbnail,
+  .contact__image,
+  .pages_show main .pages__content img,
+  .pages_show main .pages__content video,
+  .pages_show main .pages__content iframe,
+  .pages_show main .pages__content table,
+  .c-card--secondary,
+  .c-event--small,
+  .live-event__card,
+  .ejs-image .ejs-image-wrap,
+  .ejs-audio .ejs-audio-wrap,
+  .ejs-audio .ejs-audio__player,
+  .ejs-audio .vjs-control-bar,
+  .ejs-video .ejs-video-wrap,
+  .ejs-video .ejs-video__player,
+  .ejs-oembed .ejs-oembed-wrap,
+  .ejs-oembed .ejs-oembed__image,
+  .ejs-document .product-block__img-holder,
+  .ejs-card-statistics, 
+  .ejs-card-image,
+  .ejs-card-image__image__thumbnail {
+    border-radius: calc(var(--pressroom-default-border-radius) * 1px) !important;  
+  }
+
+  .c-card--secondary .c-card__text-holder,
+  .c-event .c-event__text-holder {
+    border-radius: 0 !important;
+    border-bottom-left-radius: calc(var(--pressroom-default-border-radius) * 1px) !important;  
+    border-bottom-right-radius: calc(var(--pressroom-default-border-radius) * 1px) !important;  
+  }
+
+  .sidebar-list__item:first-child .link {
+    border-top-left-radius: calc(var(--pressroom-default-border-radius) * 1px) !important;  
+    border-top-right-radius: calc(var(--pressroom-default-border-radius) * 1px) !important;  
+  }
+  .sidebar-list__item:last-child .link {
+    border-bottom-left-radius: calc(var(--pressroom-default-border-radius) * 1px) !important;  
+    border-bottom-right-radius: calc(var(--pressroom-default-border-radius) * 1px) !important;  
+  }
+
+  /* video.js player */
+  .video-js .vjs-big-play-button {
+    background-color: rgba(159, 231, 112, 0.85);
+    border: 0;
+    color: var(--pressroom-cta-text-color);
+  }
+  .video-js:hover .vjs-big-play-button, .video-js .vjs-big-play-button:focus {
+    background-color: rgba(159, 231, 112, 0.65);
+  }
+  .video-js .vjs-control-bar {
+    background-color: rgba(159, 231, 112, 0.9);
+  }
+  .video-js .vjs-slider {
+    background-color: rgb(255 255 255 / 50%);
+  }
+  .video-js .vjs-load-progress div {
+    background-color: rgb(255 255 255 / 75%);
+  }
+
+  /* Filter styles */
+  @media screen and (max-width: 767px) {
+    .c-tabset__link {
+      background: var(--pressroom-primary-brand-color);
+      border-color: var(--pressroom-primary-brand-color);
+      color: var(--pressroom-cta-text-color);
+    }
+    .c-tabset__link--active.c-tabset__link {
+      background: var(--pressroom-cta-text-color);
+      border-color: var(--pressroom-cta-text-color);
+      color: var(--pressroom-primary-brand-color);
+    }
+    .c-tabset__link:hover {
+      color: var(--pressroom-cta-text-color);
+    }
+    .c-tabset__link--active.c-tabset__link:hover {
+      color: var(--pressroom-primary-brand-color);
+    }
+  }
+  @media screen and (min-width: 768px) {
+    .c-tabset__link--active.c-tabset__link:before {
+        color: var(--pressroom-primary-brand-color);
+    }
+  }
+</style>
+
+
+      <style>:root {
+  --nav-height: 70px;
+}
+
+@font-face {
+  font-family: 'Worldwise Sans';
+  src: url('https://d12nlb6renn3r2.cloudfront.net/fonts/WorldwiseSans/WorldwiseSans-Heavy.woff2') format('woff2'),
+    url('https://d12nlb6renn3r2.cloudfront.net/fonts/WorldwiseSans/WorldwiseSans-Heavy.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('https://d12nlb6renn3r2.cloudfront.net/fonts/Inter/Inter-ExtraLight.woff2') format('woff2'),
+    url('https://d12nlb6renn3r2.cloudfront.net/fonts/Inter/Inter-ExtraLight.woff') format('woff');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('https://d12nlb6renn3r2.cloudfront.net/fonts/Inter/Inter-Light.woff2') format('woff2'),
+    url('https://d12nlb6renn3r2.cloudfront.net/fonts/Inter/Inter-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('https://d12nlb6renn3r2.cloudfront.net/fonts/Inter/Inter-Medium.woff2') format('woff2'),
+    url('https://d12nlb6renn3r2.cloudfront.net/fonts/Inter/Inter-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('https://d12nlb6renn3r2.cloudfront.net/fonts/Inter/Inter-SemiBold.woff2') format('woff2'),
+    url('https://d12nlb6renn3r2.cloudfront.net/fonts/Inter/Inter-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('https://d12nlb6renn3r2.cloudfront.net/fonts/Inter/Inter-Thin.woff2') format('woff2'),
+    url('https://d12nlb6renn3r2.cloudfront.net/fonts/Inter/Inter-Thin.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('https://d12nlb6renn3r2.cloudfront.net/fonts/Inter/Inter-Bold.woff2') format('woff2'),
+    url('https://d12nlb6renn3r2.cloudfront.net/fonts/Inter/Inter-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('https://d12nlb6renn3r2.cloudfront.net/fonts/Inter/Inter-Black.woff2') format('woff2'),
+    url('https://d12nlb6renn3r2.cloudfront.net/fonts/Inter/Inter-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('https://d12nlb6renn3r2.cloudfront.net/fonts/Inter/Inter-Regular.woff2') format('woff2'),
+    url('https://d12nlb6renn3r2.cloudfront.net/fonts/Inter/Inter-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('https://d12nlb6renn3r2.cloudfront.net/fonts/Inter/Inter-ExtraBold.woff2') format('woff2'),
+    url('https://d12nlb6renn3r2.cloudfront.net/fonts/Inter/Inter-ExtraBold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('https://d12nlb6renn3r2.cloudfront.net/fonts/Inter/Inter-Regular.woff2') format('woff2'),
+    url('https://d12nlb6renn3r2.cloudfront.net/fonts/Inter/Inter-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font-family: 'Inter', Helvetica, sans-serif !important;
+}
+main {
+  padding-top: var(--nav-height);
+}
+
+.header-wrapper {
+  height: var(--nav-height);
+}
+
+.c-btn {
+  border-radius: 3px;
+  font-weight: 600;
+  padding: 16px 32px 16px;
+  font-size: 17px;
+}
+.c-btn--primary {
+  background-color: #9fe870;
+  border-color: #9fe870;
+  border-radius: 60px !important;
+}
+.c-btn--outline-primary {
+  border-radius: 60px;
+  border-color: #163300;
+  color: #163300;
+}
+.c-btn--primary:hover {
+  background: #163300;
+  border-color: #163300;
+  color: #fff;
+}
+.c-btn--outline-primary:hover {
+  background: #163300;
+  border-color: #163300;
+  color: #fff;
+}
+.footer .social-networks__link {
+  background-color: #454745;
+  border-color: #454745;
+  color: #eff1ee;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+}
+.social-networks--secondary__link {
+  background-color: #454745;
+  border-color: #454745;
+  color: #eff1ee;
+}
+footer.footer .seperator {
+  background-color: rgba(0, 0, 0, 0.08);
+}
+
+.article-section__text-holder h1,
+.article-section__text-holder .h1,
+/*.c-card__title,*/
+.leads-section .text-holder h1, 
+.leads-section .text-holder .h1,
+.c-textholder .h1,
+.page-title .heading,
+.about-section__text-holder .h1,
+.about-section--topic h1 {
+  font-family: 'Worldwise Sans', Helvetica, sans-serif !important;
+  color: #0e0f0d;
+}
+.about-section__text-holder .h1,
+.about-section--topic h1 {
+  color: #fff;
+  font-size: 42px;
+}
+.article-section__highlight {
+  display: none;
+}
+.article-section .c-btn {
+  margin-top: 22px;
+}
+
+body.tags_show .about-section .bg-retina {
+  background-color: #f3f5f1;
+  background-size: contain;
+}
+body.tags_show .about-section:before {
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0.5) 100%);
+}
+
+body.tags_show .article__text-holder {
+  max-width: 960px;
+}
+
+.c-tabset__link:before,
+.media-list .h5,
+.search-results .media_kit-section .media_kit-list .h5 {
+  color: #0e0f0d;
+}
+@media screen and (min-width: 1024px) {
+  .about-section {
+    padding-top: 260px;
+  }
+  .about-section__text-holder .h1,
+  .about-section--topic h1 {
+    font-size: 64px;
+  }
+  .article-section {
+    padding: 64px 0 92px;
+  }
+  .article-section__text-holder {
+    padding: 0;
+  }
+  .article-section__text-holder h1,
+  .article-section__text-holder .h1 {
+    line-height: 1.1;
+    font-size: 56px;
+  }
+  .article-section__text-holder h1 a:hover,
+  .article-section__text-holder .h1 a:hover {
+    text-decoration: none;
+  }
+  .article-section__text-holder p {
+    font-size: 18px;
+    max-width: 640px;
+    margin: 0 auto;
+  }
+  .c-textholder,
+  .c-article-actions-footer {
+    max-width: 780px;
+  }
+  .c-textholder .h1 {
+    font-size: 52px;
+    line-height: 1.05;
+  }
+  .article-section .column-holder--row-reverse {
+    flex-direction: column-reverse;
+  }
+  .article-section .column-holder__column-5 {
+    width: 100%;
+  }
+  .article-section__text-holder {
+    text-align: center;
+    max-width: 1280px;
+    margin: 0 auto 46px;
+  }
+  .article-section .c-card__list {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+  }
+  .article-section__img-holder:after {
+    min-height: 500px;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .article-section {
+    padding: 72px 0 128px;
+  }
+  .article-section__text-holder h1,
+  .article-section__text-holder .h1 {
+    font-size: 76px;
+  }
+  .article-section__text-holder p {
+    font-size: 20px;
+    max-width: 760px;
+  }
+  .c-textholder,
+  .c-article-actions-footer {
+    max-width: 860px;
+  }
+  .c-textholder .h1 {
+    font-size: 68px;
+  }
+}
+
+.c-card__text-holder p,
+.article-section__text-holder p,
+.leads-section .leads-promo .text-holder p,
+.c-textholder .article-block__p {
+  color: #163300;
+}
+@media screen and (min-width: 1400px) {
+  body.default_pages_about .two-cols .content {
+    padding-right: 22%;
+  }
+}
+
+.page-title .heading {
+  font-size: 52px;
+}
+@media screen and (min-width: 768px) {
+  body.media_kits_show .heading.heading--icon [class^='icon-'],
+  body.media_kits_show .heading.heading--icon [class*=' icon-'] {
+    top: 22px;
+    font-size: 29px;
+  }
+}
+.main-nav__item {
+  margin-left: 8px;
+  margin-right: 8px;
+  font-weight: 600;
+}
+.navbar__align-cta-r .c-btn--primary {
+  /*  background: none;*/
+  /*  color: #00bfff;*/
+  padding: 4px 18px;
+  min-width: unset;
+  /*  font-weight: 700;*/
+}
+.navbar__align-cta-r .c-btn--primary:hover {
+  /*  background: #00bfff;*/
+  /*  border-color: #00bfff;*/
+  color: #fff;
+}
+@media screen and (min-width: 1024px) {
+  .main-nav__list {
+    justify-content: flex-end;
+  }
+  .navbar__align-cta-r {
+    flex-basis: content;
+    max-width: unset;
+  }
+  .navbar {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 8px 0px;
+  }
+  .toolbar-enabled .header-wrapper {
+    box-shadow: unset;
+    position: relative;
+    height: auto;
+  }
+  main {
+    padding-top: 0 !important;
+  }
+  .container {
+    max-width: 1600px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .main-nav__item {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+}
+
+.logo-wrap img {
+  max-height: 30px;
+  max-width: 108px;
+  width: 108px;
+  object-fit: cover;
+}
+.logo-wrap .logo__text {
+  font-weight: 600;
+  padding: 6px 12px;
+  margin-left: 0px;
+  font-size: 18px;
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.c-filter:before {
+  background: #9fe870;
+  background-size: cover;
+}
+.c-filter__link [class^='icon-'],
+.c-filter__link [class*=' icon-'] {
+  color: #000;
+}
+.c-filter__link:hover,
+.filter__item.active > .c-filter__link {
+  color: #163300;
+}
+
+@media screen and (min-width: 1024px) {
+  .press {
+    padding: 68px 0 52px;
+  }
+  .press:before {
+    background: #a0e870;
+  }
+  .press h5,
+  .press .h5 {
+    color: #163300;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 48px;
+    font-size: 32px;
+  }
+}
+
+.press__link {
+  border: 0;
+  flex-direction: unset;
+}
+.press__link.secondary {
+  flex-direction: unset;
+}
+.press__icon > i {
+  color: #163300;
+  display: none;
+}
+
+.press__title {
+  font-size: 24px;
+  margin-bottom: 16px;
+  font-weight: 600;
+  color: #163300;
+}
+.press .c-link {
+  font-weight: 500;
+  color: #163300;
+}
+.article-section .c-btn--primary .icon-arrow-right,
+.btn-group__item .c-btn--outline-primary .icon-arrow-right,
+.news-topic {
+  display: none;
+}
+
+.news-list__title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #163300;
+}
+
+.category-list__title {
+  font-size: 18px;
+  font-weight: 500;
+  color: #163300;
+}
+
+.category-list__text > p {
+  font-weight: 400;
+}
+
+.category-list__icon > span {
+  position: relative;
+  top: 2px;
+  display: inline-block;
+  width: 30px;
+  height: 36px;
+  background: no-repeat;
+  background-position: center center;
+  background-size: 30px;
+}
+
+.category-list__icon .icon-archive:before {
+  content: none;
+}
+.category-list__icon .icon-archive {
+  background-image: url('https://d21buns5ku92am.cloudfront.net/41519/documents/51454-1677621800-News%20Archive-b28c04.svg');
+}
+.category-list__icon .icon-attachment:before {
+  content: none;
+}
+.category-list__icon .icon-attachment {
+  background-image: url('https://d21buns5ku92am.cloudfront.net/41519/documents/51456-1677621800-In%20the%20News-b8ed3b.svg');
+}
+.category-list__icon .icon-question:before {
+  content: none;
+}
+.category-list__icon .icon-question {
+  background-image: url('https://d21buns5ku92am.cloudfront.net/41519/documents/51455-1677621800-Contact%20us-f37bd1.svg');
+}
+
+.heading__notify-num {
+  font-weight: 300;
+}
+
+.contact-section h5,
+.contact-section .h5 {
+  font-size: 26px;
+  font-weight: 500;
+  color: #0e0f0d;
+}
+.link {
+  color: #163300;
+}
+section.latest-news h2.h1,
+.latest-news .h2,
+.footer__header,
+.related-news .h2,
+.pr-contacts-block h4,
+.share-block h4,
+.boilerplate-block h4,
+.topics-block h4 {
+  font-weight: 600 !important;
+  color: #0e0f0d;
+}
+@media screen and (min-width: 1024px) {
+  section.latest-news h2.h1,
+  .latest-news .h2,
+  .footer__header,
+  .related-news .h2 {
+    font-size: 48px;
+  }
+  .pr-contacts-block h4,
+  .share-block h4,
+  .boilerplate-block h4,
+  .topics-block h4 {
+    font-size: 26px;
+    font-weight: 600;
+    color: #0e0f0d;
+  }
+  .footer__header {
+    font-size: 38px;
+  }
+}
+
+.latest-news .c-card__title,
+.related-news .c-card__title,
+.c-filter-content .article__text-holder .h4,
+.c-filter-content .article__text-holder h4 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #0e0f0d;
+}
+.c-card__time {
+  color: rgba(0, 0, 0, 0.65);
+}
+.c-card__text-holder p {
+  font-size: 16px;
+}
+
+@media screen and (min-width: 1024px) {
+  .article__img-holder {
+    max-width: 365px;
+    flex-basis: 365px;
+    height: 200px;
+  }
+}
+.c-filter-content h4,
+.c-filter-content .h4 {
+  font-weight: 600;
+}
+.press_releases_index .c-filter-content {
+  max-width: 1300px;
+  margin: 0 auto 32px;
+}
+
+section.latest-news h2.h1,
+.c-tabset__list {
+  margin-bottom: 32px;
+}
+
+body.press_releases_index .page-title .heading.heading--icon,
+body.clippings_index .page-title .heading.heading--icon {
+  padding-left: 0;
+}
+body.press_releases_index .page-title .heading.heading--icon > i,
+body.clippings_index .page-title .heading.heading--icon > i {
+  display: none;
+}
+body.press_releases_index .c-filter {
+  margin-top: 36px;
+}
+.c-card--secondary .c-card__text-holder {
+  border: 1px solid rgba(85, 85, 85, 0.1);
+}
+.c-filter-content h2.h4 {
+  margin-bottom: 36px;
+}
+@media screen and (min-width: 1600px) {
+  footer.footer .column-holder__column-6:first-child {
+    width: 66%;
+  }
+  footer.footer .column-holder__column-6:last-child {
+    width: 33%;
+  }
+}
+
+footer.footer .logo__img {
+  margin-bottom: 48px;
+  max-height: 32px;
+  max-width: 140px;
+  width: 140px;
+  object-fit: cover;
+}
+.footer__nav-title {
+  color: #0e0f0d;
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 24px;
+}
+
+.seperator {
+  background-color: rgba(0, 0, 0, 0.08);
+  margin: 6px 0;
+}
+.main-nav__bottom:before {
+  background-color: #eff1ee;
+}
+@media screen and (min-width: 768px) {
+  .footer__meta {
+    border: 0;
+    /*border-top: 1px solid rgba(255, 255, 255, 0.08);*/
+    justify-content: center;
+    flex-direction: column;
+  }
+  .footer__meta > span {
+    text-align: center;
+    font-weight: 600;
+    padding-bottom: 6px;
+  }
+  .footer__policy {
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .footer {
+    padding: 92px 0 72px;
+  }
+  .footer__nav-item {
+    padding-bottom: 2px;
+  }
+  .footer__nav-link {
+    font-size: 16px;
+  }
+  .footer__meta {
+    border: 0;
+    padding-top: 64px;
+  }
+  .footer__nav-item a {
+    text-decoration: underline;
+  }
+}
+
+body.language_pt_BR .c-group--month {
+  text-transform: lowercase;
+}
+
+.press_releases .two-cols .c-textholder a {
+  color: #163300;
+}
+
+@media screen and (min-width: 1024px) {
+  .language__list-wrapper {
+    max-height: none;
+  }
+}
+</style>
+
+    
+
+      <!-- pr.co Newsroom Plausible Analytics -->
+  <script defer nonce="c5423aff28fd4739262e9506c868c4e2a4" data-domain="newsroom.wise.com" src="https://plausible.io/js/script.file-downloads.hash.outbound-links.pageview-props.tagged-events.js"></script>
+
+
+
+    <!-- Wise Google Tag Manager: GTM-KS42FB5 -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-KS42FB5');</script>
+
+
+  </head>
+
+  <body class="layout--media_center home home_show toolbar-enabled iconpack--legacy country_NAM language_en newsroom--wise">
+      <!-- Wise Google Tag Manager: GTM-KS42FB5 -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KS42FB5"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+
+      
+      
+
+      <div class="wrapper">
+        <header id="header" class="header-wrapper header-wrapper--mega-menu ">
+    <nav id="toolbar" class="toolbar-wrapper">
+
+    <div class="toolbar-nav-item">
+      <a href="https://wise.com" class="toolbar-link toolbar-link--homepage" target="_blank" rel="noopener">
+        wise.com
+      </a>
+    </div>
+
+
+  
+  
+
+    <div class="toolbar-nav-item language language--new js-language-picker">
+      <a  class="js-language-picker__opener toolbar-link toolbar-link--country">
+        <span data-country="NAM">
+          North America
+        </span>
+      </a>
+      <div class="language__drop js-language-picker__drop">
+        <div class="language__list-wrapper">
+          <ul class="language__list">
+              <li class="language__item language__item--CAS" data-country="CAS">
+                <a href="/en-CAS/" class="language__link " data-country="CAS">
+                  <span class="language__flag">
+                    <img src="https://dkskyn6tqnjvs.cloudfront.net/assets/icons/flags/CAS-6df3f73f81bf897dc58135ac263cc8f148742cc0346b31b03fffcb5a8e687608.png" alt="Flag of Asia">
+                  </span>
+                  <span class="language__text">
+                    Asia
+                  </span>
+                </a>
+                  <ul class="language__sub-language-list">
+                      <li class="language__sub-language-item" data-language="en">
+                        <a href="/en-CAS/" class="language__link " data-language="en">
+                          English
+                        </a>
+                      </li>
+                      <li class="language__sub-language-item" data-language="zh-CN">
+                        <a href="/zh-CN-CAS/" class="language__link " data-language="zh-CN">
+                          简体中文
+                        </a>
+                      </li>
+                      <li class="language__sub-language-item" data-language="zh-HK">
+                        <a href="/zh-HK-CAS/" class="language__link " data-language="zh-HK">
+                          繁體中文
+                        </a>
+                      </li>
+                  </ul>
+              </li>
+              <li class="language__item language__item--CEU" data-country="CEU">
+                <a href="/en-CEU/" class="language__link " data-country="CEU">
+                  <span class="language__flag">
+                    <img src="https://dkskyn6tqnjvs.cloudfront.net/assets/icons/flags/CEU-747aca3cea1d5b58f636b9d9eec49ba877acecc3789c8ff86dd006252219e87f.png" alt="Flag of Europe">
+                  </span>
+                  <span class="language__text">
+                    Europe
+                  </span>
+                </a>
+                  <ul class="language__sub-language-list">
+                      <li class="language__sub-language-item" data-language="en">
+                        <a href="/en-CEU/" class="language__link " data-language="en">
+                          English
+                        </a>
+                      </li>
+                      <li class="language__sub-language-item" data-language="fr">
+                        <a href="/fr-CEU/" class="language__link " data-language="fr">
+                          Français
+                        </a>
+                      </li>
+                  </ul>
+              </li>
+              <li class="language__item language__item--LAM" data-country="LAM">
+                <a href="/pt_BR-LAM/" class="language__link " data-country="LAM">
+                  <span class="language__flag">
+                    <img src="https://dkskyn6tqnjvs.cloudfront.net/assets/icons/flags/LAM-b0a67c2bb2522400297a2c29d94a70351def2019efd8a0fede5d4cff5b038fb4.png" alt="Flag of Latin America">
+                  </span>
+                  <span class="language__text">
+                    Latin America
+                  </span>
+                </a>
+              </li>
+              <li class="language__item language__item--NAM" data-country="NAM">
+                <a href="/en-NAM/" class="language__link " data-country="NAM">
+                  <span class="language__flag">
+                    <img src="https://dkskyn6tqnjvs.cloudfront.net/assets/icons/flags/NAM-1e5e7dd078e0163a82b39708695fb4938d0688d09d19f02ee6fd9e3a80ac8307.png" alt="Flag of North America">
+                  </span>
+                  <span class="language__text">
+                    North America
+                  </span>
+                </a>
+                  <ul class="language__sub-language-list">
+                      <li class="language__sub-language-item" data-language="en">
+                        <a href="/en-NAM/" class="language__link language__link--active" data-language="en">
+                          English
+                        </a>
+                      </li>
+                      <li class="language__sub-language-item" data-language="es">
+                        <a href="/es-NAM/" class="language__link " data-language="es">
+                          Español
+                        </a>
+                      </li>
+                  </ul>
+              </li>
+              <li class="language__item language__item--PAC" data-country="PAC">
+                <a href="/en-PAC/" class="language__link " data-country="PAC">
+                  <span class="language__flag">
+                    <img src="https://dkskyn6tqnjvs.cloudfront.net/assets/icons/flags/PAC-50d4d976e875dc43dd8f1b732a4afe74a865a79b2181125a81b0a1e3ef00fdae.png" alt="Flag of Pacific">
+                  </span>
+                  <span class="language__text">
+                    Pacific
+                  </span>
+                </a>
+              </li>
+              <li class="language__item language__item--UKI" data-country="UKI">
+                <a href="/en-UKI/" class="language__link " data-country="UKI">
+                  <span class="language__flag">
+                    <img src="https://dkskyn6tqnjvs.cloudfront.net/assets/icons/flags/UKI-0eacd4389ff89d422eeafcb65999abc0a05dca3cc494dee64bbc3a218f4b959a.png" alt="Flag of UK &amp; Ireland">
+                  </span>
+                  <span class="language__text">
+                    UK &amp; Ireland
+                  </span>
+                </a>
+              </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+
+</nav>
+
+  <div class="navbar ">
+    <div class="logo-wrap">
+      <a class="logo" href="/en-NAM/">
+        <picture class="logo__picture">
+          
+          <source srcset="https://d21buns5ku92am.cloudfront.net/69646/logo/retina-1677657632.png 1x" type="image/png">
+          
+          <img class="logo__img logo__img--png"
+            src="https://d21buns5ku92am.cloudfront.net/69646/logo/retina-1677657632.png"
+            alt="Wise logo">
+        </picture>
+        <span class="logo__text">Newsroom</span>
+      </a>
+    </div>
+    <a  class="main-nav-opener">
+      <span class="lines"></span>
+    </a>
+    <div class="navbar__dropdown" aria-hidden>
+        <nav id="mainnav" class="main-nav">
+          <ul class="main-nav__list accordion__mobile">
+                <li class="main-nav__item main-nav__item--news main-nav__item--dropdown-mega  main-nav__item--tag-dropdown">
+    <a href="/en-NAM/tags/news/" class="main-nav__link main-nav__link--has-drop-down" data-text="News">
+      News
+    </a>
+      <div class="main-nav__dropdown main-nav__dropdown--mega">
+  <div class="container topic-items topic-items--4">
+    <ul class="news-list ">
+        <li class="news-list__item" data-tag="employer">
+    <a href="/en-NAM/tags/employer/" class="news-list__link" data-tag="employer">
+      <div class="news-list__thumbnail">
+        <div class="bg-retina">
+          <span data-srcset="https://d21buns5ku92am.cloudfront.net/69645/tag_images/medium-1677656983-Employer.png, https://d21buns5ku92am.cloudfront.net/69645/tag_images/medium-1677656983-Employer.png 2x"></span>
+        </div>
+      </div>
+      <div class="news-list__text">
+        <strong class="news-list__title">Employer</strong>
+      </div>
+    </a>
+  </li>
+  <li class="news-list__item" data-tag="corporate">
+    <a href="/en-NAM/tags/corporate/" class="news-list__link" data-tag="corporate">
+      <div class="news-list__thumbnail">
+        <div class="bg-retina">
+          <span data-srcset="https://d21buns5ku92am.cloudfront.net/69645/tag_images/medium-1677656995-Corporate.png, https://d21buns5ku92am.cloudfront.net/69645/tag_images/medium-1677656995-Corporate.png 2x"></span>
+        </div>
+      </div>
+      <div class="news-list__text">
+        <strong class="news-list__title">Corporate</strong>
+      </div>
+    </a>
+  </li>
+  <li class="news-list__item" data-tag="product">
+    <a href="/en-NAM/tags/product/" class="news-list__link" data-tag="product">
+      <div class="news-list__thumbnail">
+        <div class="bg-retina">
+          <span data-srcset="https://d21buns5ku92am.cloudfront.net/69645/tag_images/medium-1677657005-Product.png, https://d21buns5ku92am.cloudfront.net/69645/tag_images/medium-1677657005-Product.png 2x"></span>
+        </div>
+      </div>
+      <div class="news-list__text">
+        <strong class="news-list__title">Product</strong>
+      </div>
+    </a>
+  </li>
+  <li class="news-list__item" data-tag="insights">
+    <a href="/en-NAM/tags/insights/" class="news-list__link" data-tag="insights">
+      <div class="news-list__thumbnail">
+        <div class="bg-retina">
+          <span data-srcset="https://d21buns5ku92am.cloudfront.net/69645/tag_images/medium-1677657017-Insights.png, https://d21buns5ku92am.cloudfront.net/69645/tag_images/medium-1677657017-Insights.png 2x"></span>
+        </div>
+      </div>
+      <div class="news-list__text">
+        <strong class="news-list__title">Insights</strong>
+      </div>
+    </a>
+  </li>
+
+    </ul>
+  </div>
+  <div class="main-nav__bottom">
+    <div class="container">
+      <ul class="category-list">
+        <li class="category-list__item category-list__item--news-archive">
+          <a href="/en-NAM/releases/" class="category-list__link">
+            <div class="content-wrap">
+              <span class="category-list__icon"><span class="icon-archive"></span></span>
+              <div class="category-list__text">
+                <strong class="category-list__title">
+                  News archive
+                </strong>
+                <p>Browse through all our news</p>
+              </div>
+            </div>
+          </a>
+        </li>
+          <li class="category-list__item category-list__item--clippings">
+            <a href="/en-NAM/clippings/" class="category-list__link">
+              <div class="content-wrap">
+                <span class="category-list__icon"><span class="icon-attachment"></span></span>
+                <div class="category-list__text">
+                 <strong class="category-list__title">
+                    In the news
+                  </strong>
+                  <p>View notable news mentions</p>
+                </div>
+              </div>
+            </a>
+          </li>
+        <li class="category-list__item category-list__item--contact">
+          <a href="/en-NAM/contact/" class="category-list__link">
+            <div class="content-wrap">
+              <span class="category-list__icon"><span class="icon-question"></span></span>
+              <div class="category-list__text">
+                <strong class="category-list__title">
+                  Contact us
+                </strong>
+                <p>Find contact details</p>
+              </div>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+  </li>
+  <li class="main-nav__item main-nav__item--public-policy main-nav__item--dropdown-mega  main-nav__item--tag-dropdown">
+    <a href="/en-NAM/tags/public-policy/" class="main-nav__link main-nav__link--has-drop-down" data-text="Public Policy">
+      Public Policy
+    </a>
+      <div class="main-nav__dropdown main-nav__dropdown--mega">
+  <div class="container topic-items topic-items--4">
+    <ul class="news-list ">
+        <li class="news-list__item" data-tag="policy-positions">
+    <a href="/en-NAM/tags/policy-positions/" class="news-list__link" data-tag="policy-positions">
+      <div class="news-list__thumbnail">
+        <div class="bg-retina">
+          <span data-srcset="https://d21buns5ku92am.cloudfront.net/69645/tag_images/medium-1677657027-Policy_Positions.png, https://d21buns5ku92am.cloudfront.net/69645/tag_images/medium-1677657027-Policy_Positions.png 2x"></span>
+        </div>
+      </div>
+      <div class="news-list__text">
+        <strong class="news-list__title">Policy Positions</strong>
+      </div>
+    </a>
+  </li>
+  <li class="news-list__item" data-tag="statements-and-blogs">
+    <a href="/en-NAM/tags/statements-and-blogs/" class="news-list__link" data-tag="statements-and-blogs">
+      <div class="news-list__thumbnail">
+        <div class="bg-retina">
+          <span data-srcset="https://d21buns5ku92am.cloudfront.net/69645/tag_images/medium-1677657037-Statements_and_Blogs.png, https://d21buns5ku92am.cloudfront.net/69645/tag_images/medium-1677657037-Statements_and_Blogs.png 2x"></span>
+        </div>
+      </div>
+      <div class="news-list__text">
+        <strong class="news-list__title">Statements and Blogs</strong>
+      </div>
+    </a>
+  </li>
+  <li class="news-list__item" data-tag="reports-and-research">
+    <a href="/en-NAM/tags/reports-and-research/" class="news-list__link" data-tag="reports-and-research">
+      <div class="news-list__thumbnail">
+        <div class="bg-retina">
+          <span data-srcset="https://d21buns5ku92am.cloudfront.net/69645/tag_images/medium-1677657046-Reports_and_Research.png, https://d21buns5ku92am.cloudfront.net/69645/tag_images/medium-1677657046-Reports_and_Research.png 2x"></span>
+        </div>
+      </div>
+      <div class="news-list__text">
+        <strong class="news-list__title">Reports and Research</strong>
+      </div>
+    </a>
+  </li>
+  <li class="news-list__item" data-tag="initiatives">
+    <a href="/en-NAM/tags/initiatives/" class="news-list__link" data-tag="initiatives">
+      <div class="news-list__thumbnail">
+        <div class="bg-retina">
+          <span data-srcset="https://d21buns5ku92am.cloudfront.net/69645/tag_images/medium-1677657061-Initiatives.png, https://d21buns5ku92am.cloudfront.net/69645/tag_images/medium-1677657061-Initiatives.png 2x"></span>
+        </div>
+      </div>
+      <div class="news-list__text">
+        <strong class="news-list__title">Initiatives</strong>
+      </div>
+    </a>
+  </li>
+
+    </ul>
+  </div>
+  <div class="main-nav__bottom">
+    <div class="container">
+      <ul class="category-list">
+        <li class="category-list__item category-list__item--news-archive">
+          <a href="/en-NAM/releases/" class="category-list__link">
+            <div class="content-wrap">
+              <span class="category-list__icon"><span class="icon-archive"></span></span>
+              <div class="category-list__text">
+                <strong class="category-list__title">
+                  News archive
+                </strong>
+                <p>Browse through all our news</p>
+              </div>
+            </div>
+          </a>
+        </li>
+          <li class="category-list__item category-list__item--clippings">
+            <a href="/en-NAM/clippings/" class="category-list__link">
+              <div class="content-wrap">
+                <span class="category-list__icon"><span class="icon-attachment"></span></span>
+                <div class="category-list__text">
+                 <strong class="category-list__title">
+                    In the news
+                  </strong>
+                  <p>View notable news mentions</p>
+                </div>
+              </div>
+            </a>
+          </li>
+        <li class="category-list__item category-list__item--contact">
+          <a href="/en-NAM/contact/" class="category-list__link">
+            <div class="content-wrap">
+              <span class="category-list__icon"><span class="icon-question"></span></span>
+              <div class="category-list__text">
+                <strong class="category-list__title">
+                  Contact us
+                </strong>
+                <p>Find contact details</p>
+              </div>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+  </li>
+
+
+              <li class="main-nav__item hide-md main-nav__item--news-mobile">
+                <a  class="main-nav__link accordion-opener">
+                  News topics
+                </a>
+                <ul class="news-list slide">
+                    <li class="news-list__item" data-tag="news">
+    <a href="/en-NAM/tags/news/" class="news-list__link" data-tag="news">News</a>
+  </li>
+  <li class="news-list__item" data-tag="public-policy">
+    <a href="/en-NAM/tags/public-policy/" class="news-list__link" data-tag="public-policy">Public Policy</a>
+  </li>
+
+                </ul>
+              </li>
+            <li class="main-nav__item main-nav__item--about ">
+                <a href="/en-NAM/about/" class="main-nav__link" data-text="About">
+                  About
+                </a>
+            </li>
+              <li class="main-nav__item main-nav__item--media_kits ">
+                <a href="/en-NAM/assets/" class="main-nav__link" data-text="Media kits">
+                  Media kits
+                </a>
+              </li>
+            <li class="main-nav__item main-nav__item--clippings ">
+              <a href="/en-NAM/clippings/" class="main-nav__link" data-text="In the news">
+                In the news
+              </a>
+            </li>
+              <li class="main-nav__item main-nav__item--events ">
+                <a href="/en-NAM/events/" class="main-nav__link" data-text="Events">
+                  Events
+                </a>
+              </li>
+            <li class="main-nav__item main-nav__item--contact ">
+              <a href="/en-NAM/contact/" class="main-nav__link" data-text="Contact">
+                Contact
+              </a>
+            </li>
+          </ul>
+        </nav>
+      <div class="navbar__align-cta-r">
+          <div class="search">
+            <a class="search__opener lightbox" href="#popup1">
+              <span class="icon-search"></span>
+              <span class="text">
+                Search in newsroom
+              </span>
+            </a>
+          </div>
+          <a class="c-btn c-btn--primary c-btn--small" href="/en-NAM/contact/"><span class="c-btn__text">Register</span></a>
+      </div>
+      <div class="navbar__align-r">
+        
+        
+          <div class="language language--new js-language-picker">
+  <a  class="language__opener js-language-picker__opener">
+    <i class="language__icon icon-world"></i>
+    <span class="language__text" data-country="NAM">North America</span>
+  </a>
+  <div class="language__drop js-language-picker__drop">
+    <div class="language__list-wrapper">
+      <ul class="language__list">
+
+
+          <li class="language__item language__item--CAS" data-country="CAS">
+            <a href="/en-CAS/" class="language__link " data-country="CAS">
+              <span class="language__flag">
+                <img src="https://dkskyn6tqnjvs.cloudfront.net/assets/icons/flags/CAS-6df3f73f81bf897dc58135ac263cc8f148742cc0346b31b03fffcb5a8e687608.png" alt="Flag of Asia">
+              </span>
+              <span class="language__text">
+                Asia
+              </span>
+            </a>
+              <ul class="language__sub-language-list">
+                  <li class="language__sub-language-item" data-language="en">
+                    <a href="/en-CAS/" class="language__link " data-language="en">
+                      English
+                    </a>
+                  </li>
+                  <li class="language__sub-language-item" data-language="zh-CN">
+                    <a href="/zh-CN-CAS/" class="language__link " data-language="zh-CN">
+                      简体中文
+                    </a>
+                  </li>
+                  <li class="language__sub-language-item" data-language="zh-HK">
+                    <a href="/zh-HK-CAS/" class="language__link " data-language="zh-HK">
+                      繁體中文
+                    </a>
+                  </li>
+              </ul>
+          </li>
+
+
+          <li class="language__item language__item--CEU" data-country="CEU">
+            <a href="/en-CEU/" class="language__link " data-country="CEU">
+              <span class="language__flag">
+                <img src="https://dkskyn6tqnjvs.cloudfront.net/assets/icons/flags/CEU-747aca3cea1d5b58f636b9d9eec49ba877acecc3789c8ff86dd006252219e87f.png" alt="Flag of Europe">
+              </span>
+              <span class="language__text">
+                Europe
+              </span>
+            </a>
+              <ul class="language__sub-language-list">
+                  <li class="language__sub-language-item" data-language="en">
+                    <a href="/en-CEU/" class="language__link " data-language="en">
+                      English
+                    </a>
+                  </li>
+                  <li class="language__sub-language-item" data-language="fr">
+                    <a href="/fr-CEU/" class="language__link " data-language="fr">
+                      Français
+                    </a>
+                  </li>
+              </ul>
+          </li>
+
+
+          <li class="language__item language__item--LAM" data-country="LAM">
+            <a href="/pt_BR-LAM/" class="language__link " data-country="LAM">
+              <span class="language__flag">
+                <img src="https://dkskyn6tqnjvs.cloudfront.net/assets/icons/flags/LAM-b0a67c2bb2522400297a2c29d94a70351def2019efd8a0fede5d4cff5b038fb4.png" alt="Flag of Latin America">
+              </span>
+              <span class="language__text">
+                Latin America
+              </span>
+            </a>
+          </li>
+
+
+          <li class="language__item language__item--NAM" data-country="NAM">
+            <a href="/en-NAM/" class="language__link " data-country="NAM">
+              <span class="language__flag">
+                <img src="https://dkskyn6tqnjvs.cloudfront.net/assets/icons/flags/NAM-1e5e7dd078e0163a82b39708695fb4938d0688d09d19f02ee6fd9e3a80ac8307.png" alt="Flag of North America">
+              </span>
+              <span class="language__text">
+                North America
+              </span>
+            </a>
+              <ul class="language__sub-language-list">
+                  <li class="language__sub-language-item" data-language="en">
+                    <a href="/en-NAM/" class="language__link language__link--active" data-language="en">
+                      English
+                    </a>
+                  </li>
+                  <li class="language__sub-language-item" data-language="es">
+                    <a href="/es-NAM/" class="language__link " data-language="es">
+                      Español
+                    </a>
+                  </li>
+              </ul>
+          </li>
+
+
+          <li class="language__item language__item--PAC" data-country="PAC">
+            <a href="/en-PAC/" class="language__link " data-country="PAC">
+              <span class="language__flag">
+                <img src="https://dkskyn6tqnjvs.cloudfront.net/assets/icons/flags/PAC-50d4d976e875dc43dd8f1b732a4afe74a865a79b2181125a81b0a1e3ef00fdae.png" alt="Flag of Pacific">
+              </span>
+              <span class="language__text">
+                Pacific
+              </span>
+            </a>
+          </li>
+
+
+          <li class="language__item language__item--UKI" data-country="UKI">
+            <a href="/en-UKI/" class="language__link " data-country="UKI">
+              <span class="language__flag">
+                <img src="https://dkskyn6tqnjvs.cloudfront.net/assets/icons/flags/UKI-0eacd4389ff89d422eeafcb65999abc0a05dca3cc494dee64bbc3a218f4b959a.png" alt="Flag of UK &amp; Ireland">
+              </span>
+              <span class="language__text">
+                UK &amp; Ireland
+              </span>
+            </a>
+          </li>
+
+      </ul>
+    </div>
+  </div>
+</div>
+
+          <div class="search">
+            <a class="search__opener lightbox" href="#popup1">
+              <span class="icon-search"></span>
+              <span class="text">
+                Search in newsroom
+              </span>
+            </a>
+          </div>
+          <div class="link-wrap">
+            <a href="https://wise.com" class="link__text" target="_blank" rel="noopener">
+              wise.com
+            </a>
+          </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+        <main class="">
+            <div class="container featured_release">
+      <section class="article-section ">
+  <article class="column-holder column-holder--row-reverse viewport-section">
+    <div class="column-holder__column column-holder__column-7 w-sm-100">
+      <a href="/en-NAM/265506-wise-debuts-us-listing-on-nasdaq/" class="article-section__img-holder">
+        <!-- picturefill: retina only -->
+        <span class="text-uppercase article-section__highlight">
+            <i class="icon-star"></i>
+            Featured
+        </span>
+        <div class="bg-retina">
+          <span data-srcset="https://d21buns5ku92am.cloudfront.net/69645/images/673416-Wise_Logo_BrightGreen_RGB-ebe05d-large_webp-1778501511.webp, https://d21buns5ku92am.cloudfront.net/69645/images/673416-Wise_Logo_BrightGreen_RGB-ebe05d-xlarge_webp-1778501511.webp 2x"></span>
+        </div>
+      </a>
+    </div>
+    <div class="column-holder__column column-holder__column-5 w-sm-100 ">
+      <div class="article-section__text-holder">
+        <ul class="c-card__list">
+          <li class="c-card__item c-card__item--time">
+            <time datetime="2026-05-11" class="c-card__time"><i class="icon-clock"></i>
+              May 11, 2026
+            </time>
+          </li>
+        </ul>
+        <h1 class="h2"><a href="/en-NAM/265506-wise-debuts-us-listing-on-nasdaq/">Wise debuts US listing on Nasdaq </a></h1>
+        <p>Wise (Nasdaq:WSE, LSE:WISE), the global technology company building the best way to move and manage the world’s money, today announces its listing on Nasdaq.</p>
+        <a class="c-btn c-btn--primary c-btn--icon-right" href="/en-NAM/265506-wise-debuts-us-listing-on-nasdaq/"><span class="c-btn__text">Read article</span><i class="c-btn__icon icon-arrow-right"></i></a>
+      </div>
+    </div>
+  </article>
+</section>
+
+  </div>
+
+<div class="container">
+  <section class="press bg-alabaster">
+  <div class="viewport-section">
+    <h2 class="h5">
+      What are you looking for?
+    </h2>
+    <ul class="press__list">
+        <li class="press__item" data-press="media-kits">
+          <a href="/en-NAM/assets/" class="press__link press__link--media-kits ">
+  <span class="press__icon"><i class="icon-assets"></i></span>
+  <div class="content-wrap">
+    <h3 class="text-capitalize press__title">
+      Media kits
+    </h3>
+    <p class="c-link">
+      <span class="c-link__text">
+        Find media files
+      </span>
+    </p>
+  </div>
+</a>
+
+        </li>
+      <li class="press__item" data-press="press-releases">
+        <a href="/en-NAM/releases/" class="press__link press__link--archive ">
+  <span class="press__icon"><i class="icon-archive"></i></span>
+  <div class="content-wrap">
+    <h3 class="text-capitalize press__title">
+      News archive
+    </h3>
+    <p class="c-link">
+      <span class="c-link__text">
+        Find news
+      </span>
+    </p>
+  </div>
+</a>
+
+      </li>
+      <li class="press__item" data-press="contact">
+        <a href="/en-NAM/contact/" class="press__link press__link--contact ">
+  <span class="press__icon"><i class="icon-question"></i></span>
+  <div class="content-wrap">
+    <h3 class="text-capitalize press__title">
+      Media inquiry?
+    </h3>
+    <p class="c-link">
+      <span class="c-link__text">
+        Contact media team
+      </span>
+    </p>
+  </div>
+</a>
+
+      </li>
+      <li class="press__item" data-press="about">
+        <a href="/en-NAM/about/" class="press__link press__link--about ">
+  <span class="press__icon"><i class="icon-info"></i></span>
+  <div class="content-wrap">
+    <h3 class="text-capitalize press__title">
+      About
+    </h3>
+    <p class="c-link">
+      <span class="c-link__text">
+        Get to know us
+      </span>
+    </p>
+  </div>
+</a>
+
+      </li>
+    </ul>
+  </div>
+</section>
+
+    <section class="latest-news viewport-section">
+    <div class="column-holder latest-news__title-holder">
+      <div class="column-holder__column column-holder__column-8 w-sm-100">
+        <h2 class="h1">
+          Latest news
+        </h2>
+      </div>
+      <div class="column-holder__column column-holder__column-4 w-sm-100">
+        <form class="latest-news__search-form" action="/en-NAM/search/press_releases/">
+          <input type="search" name="q" placeholder="Search news" aria-label="Search news" class="form-customize">
+          <button aria-label="Search" class="c-btn c-btn--search c-btn--icon-only" type="submit"><i class="c-btn__icon icon-search"></i></button>
+        </form>
+      </div>
+    </div>
+    <div class="c-tabset">
+        <div class="tab-header jcf-scrollable dragscroll">
+          <ul class="c-tabset__list lavalamp ">
+            <li class="c-tabset__item" data-tag="all">
+              <a href="#all" class="c-tabset__link c-tabset__link--active" data-text="All topics">
+                <span class="c-tabset__over">
+                  All topics
+                </span>
+              </a>
+            </li>
+              <li class="c-tabset__item" data-tag="employer">
+                <a href="#employer" class="c-tabset__link" data-text="Employer" data-tag="employer">
+                  <span class="c-tabset__over">
+                    Employer
+                  </span>
+                </a>
+              </li>
+              <li class="c-tabset__item" data-tag="corporate">
+                <a href="#corporate" class="c-tabset__link" data-text="Corporate" data-tag="corporate">
+                  <span class="c-tabset__over">
+                    Corporate
+                  </span>
+                </a>
+              </li>
+              <li class="c-tabset__item" data-tag="product">
+                <a href="#product" class="c-tabset__link" data-text="Product" data-tag="product">
+                  <span class="c-tabset__over">
+                    Product
+                  </span>
+                </a>
+              </li>
+              <li class="c-tabset__item" data-tag="insights">
+                <a href="#insights" class="c-tabset__link" data-text="Insights" data-tag="insights">
+                  <span class="c-tabset__over">
+                    Insights
+                  </span>
+                </a>
+              </li>
+              <li class="c-tabset__item" data-tag="statements-and-blogs">
+                <a href="#statements-and-blogs" class="c-tabset__link" data-text="Statements and Blogs" data-tag="statements-and-blogs">
+                  <span class="c-tabset__over">
+                    Statements and Blogs
+                  </span>
+                </a>
+              </li>
+              <li class="c-tabset__item" data-tag="reports-and-research">
+                <a href="#reports-and-research" class="c-tabset__link" data-text="Reports and Research" data-tag="reports-and-research">
+                  <span class="c-tabset__over">
+                    Reports and Research
+                  </span>
+                </a>
+              </li>
+              <li class="c-tabset__item" data-tag="initiatives">
+                <a href="#initiatives" class="c-tabset__link" data-text="Initiatives" data-tag="initiatives">
+                  <span class="c-tabset__over">
+                    Initiatives
+                  </span>
+                </a>
+              </li>
+          </ul>
+        </div>
+      <div class="c-tabset-content">
+        <div id="all" class="c-tabset__link--active">
+          <div class="column-holder">
+            <div class="column-holder__column column-holder__column-4 ">
+  <div class="c-card">
+    <a href="/en-NAM/265034-wise-introduces-first-of-its-kind-multi-currency-interest-feature-in-canada/" class="c-card__img-holder" title="Wise introduces first-of-its-kind multi-currency Interest feature in Canada ">
+      <div class="bg-retina">
+        <span data-srcset="https://d21buns5ku92am.cloudfront.net/69645/images/671296-Hero_Section_Updated-9af675-large_webp-1777746499.webp, https://d21buns5ku92am.cloudfront.net/69645/images/671296-Hero_Section_Updated-9af675-large_webp-1777746499.webp 2x"></span>
+      </div>
+    </a>
+    <div class="c-card__text-holder">
+      <ul class="c-card__list">
+        <li class="c-card__item c-card__item--time">
+          <time datetime="2026-05-04" class="c-card__time">
+            <i class="icon-clock"></i>
+            May 4, 2026
+          </time>
+        </li>
+      </ul>
+      <h2 class="h5 c-card__title">
+        <a href="/en-NAM/265034-wise-introduces-first-of-its-kind-multi-currency-interest-feature-in-canada/">
+          Wise introduces first-of-its-kind multi-currency Interest feature in Canada 
+        </a>
+      </h2>
+      <p>Wise has announced the launch of its new Interest feature for people and businesses in Canada. Wise is the first provider in Canada to enable customers to earn a return on balances held across mult...</p>
+    </div>
+  </div>
+</div>
+<div class="column-holder__column column-holder__column-4 ">
+  <div class="c-card">
+    <a href="/en-NAM/260091-wise-renforce-ses-investissements-sur-le-marche-canadien-en-devenant-membre-de-paiements-canada/" class="c-card__img-holder" title="Wise renforce ses investissements sur le marché canadien en devenant membre de Paiements Canada">
+      <div class="bg-retina">
+        <span data-srcset="https://d21buns5ku92am.cloudfront.net/69645/images/470347-01-Wise-logo-bright-green%20%281%29-210bf3-large-1677594902.png, https://d21buns5ku92am.cloudfront.net/69645/images/470347-01-Wise-logo-bright-green%20%281%29-210bf3-large-1677594902.png 2x"></span>
+      </div>
+    </a>
+    <div class="c-card__text-holder">
+      <ul class="c-card__list">
+        <li class="c-card__item c-card__item--time">
+          <time datetime="2026-01-27" class="c-card__time">
+            <i class="icon-clock"></i>
+            January 27, 2026
+          </time>
+        </li>
+      </ul>
+      <h2 class="h5 c-card__title">
+        <a href="/en-NAM/260091-wise-renforce-ses-investissements-sur-le-marche-canadien-en-devenant-membre-de-paiements-canada/">
+          Wise renforce ses investissements sur le marché canadien en devenant membre de Paiements Canada
+        </a>
+      </h2>
+      <p>Cette étape marque la poursuite de la croissance de Wise au Canada et l’expansion de son infrastructure mondiale afin de permettre des paiements internationaux plus rapides et plus abordables</p>
+    </div>
+  </div>
+</div>
+<div class="column-holder__column column-holder__column-4 ">
+  <div class="c-card">
+    <a href="/en-NAM/260024-wise-strengthens-its-canadian-market-investment-with-payments-canada-membership/" class="c-card__img-holder" title="Wise strengthens its Canadian market investment with Payments Canada membership ">
+      <div class="bg-retina">
+        <span data-srcset="https://d21buns5ku92am.cloudfront.net/69645/images/470347-01-Wise-logo-bright-green%20%281%29-210bf3-large-1677594902.png, https://d21buns5ku92am.cloudfront.net/69645/images/470347-01-Wise-logo-bright-green%20%281%29-210bf3-large-1677594902.png 2x"></span>
+      </div>
+    </a>
+    <div class="c-card__text-holder">
+      <ul class="c-card__list">
+        <li class="c-card__item c-card__item--time">
+          <time datetime="2026-01-27" class="c-card__time">
+            <i class="icon-clock"></i>
+            January 27, 2026
+          </time>
+        </li>
+      </ul>
+      <h2 class="h5 c-card__title">
+        <a href="/en-NAM/260024-wise-strengthens-its-canadian-market-investment-with-payments-canada-membership/">
+          Wise strengthens its Canadian market investment with Payments Canada membership 
+        </a>
+      </h2>
+      <p>Milestone marks Wise’s continued growth in Canada and the expansion of its global infrastructure to enable faster, more affordable international payments</p>
+    </div>
+  </div>
+</div>
+<div class="column-holder__column column-holder__column-4 ">
+  <div class="c-card">
+    <a href="/en-NAM/257478-wise-platform-partners-with-wealthsimple-to-offer-enhanced-international-payments-services-for-canadians/" class="c-card__img-holder" title="Wise Platform partners with Wealthsimple to offer enhanced international payments services for Canadians ">
+      <div class="bg-retina">
+        <span data-srcset="https://d21buns5ku92am.cloudfront.net/69645/images/625763-25_Partner-logo-Wealthsimple-4b9694-large-1762790353.jpg, https://d21buns5ku92am.cloudfront.net/69645/images/625763-25_Partner-logo-Wealthsimple-4b9694-large-1762790353.jpg 2x"></span>
+      </div>
+    </a>
+    <div class="c-card__text-holder">
+      <ul class="c-card__list">
+        <li class="c-card__item c-card__item--time">
+          <time datetime="2025-11-12" class="c-card__time">
+            <i class="icon-clock"></i>
+            November 12, 2025
+          </time>
+        </li>
+      </ul>
+      <h2 class="h5 c-card__title">
+        <a href="/en-NAM/257478-wise-platform-partners-with-wealthsimple-to-offer-enhanced-international-payments-services-for-canadians/">
+          Wise Platform partners with Wealthsimple to offer enhanced international payments services for Canadians 
+        </a>
+      </h2>
+      <p>Wealthsimple partners with Wise Platform to offer Canadians fast, low-fee international payments to 30 countries in 10+ currencies directly from the Wealthsimple app or website. </p>
+    </div>
+  </div>
+</div>
+<div class="column-holder__column column-holder__column-4 ">
+  <div class="c-card">
+    <a href="/en-NAM/254214-upwork-partners-with-wise-platform-to-enhance-international-payment-infrastructure-for-global-freelancers/" class="c-card__img-holder" title="Upwork Partners with Wise Platform to Enhance International Payment Infrastructure for Global Freelancers ">
+      <div class="bg-retina">
+        <span data-srcset="https://d21buns5ku92am.cloudfront.net/69645/images/612164-Static_Partner-logo-Upwork-b1885a-large-1757431454.jpg, https://d21buns5ku92am.cloudfront.net/69645/images/612164-Static_Partner-logo-Upwork-b1885a-large-1757431454.jpg 2x"></span>
+      </div>
+    </a>
+    <div class="c-card__text-holder">
+      <ul class="c-card__list">
+        <li class="c-card__item c-card__item--time">
+          <time datetime="2025-09-10" class="c-card__time">
+            <i class="icon-clock"></i>
+            September 10, 2025
+          </time>
+        </li>
+      </ul>
+      <h2 class="h5 c-card__title">
+        <a href="/en-NAM/254214-upwork-partners-with-wise-platform-to-enhance-international-payment-infrastructure-for-global-freelancers/">
+          Upwork Partners with Wise Platform to Enhance International Payment Infrastructure for Global Freelancers 
+        </a>
+      </h2>
+      <p>Innovative integration will power faster transfers to select South American, APAC and European currencies</p>
+    </div>
+  </div>
+</div>
+<div class="column-holder__column column-holder__column-4 ">
+  <div class="c-card">
+    <a href="/en-NAM/254079-wise-expands-north-american-hub-in-austin-accelerating-regional-growth-and-innovation/" class="c-card__img-holder" title="Wise Expands North American Hub in Austin, Accelerating Regional Growth and Innovation ">
+      <div class="bg-retina">
+        <span data-srcset="https://d21buns5ku92am.cloudfront.net/69645/images/611294-_DSC4005-HDR-f4ee92-large-1757101177.png, https://d21buns5ku92am.cloudfront.net/69645/images/611294-_DSC4005-HDR-f4ee92-large-1757101177.png 2x"></span>
+      </div>
+    </a>
+    <div class="c-card__text-holder">
+      <ul class="c-card__list">
+        <li class="c-card__item c-card__item--time">
+          <time datetime="2025-09-08" class="c-card__time">
+            <i class="icon-clock"></i>
+            September 8, 2025
+          </time>
+        </li>
+      </ul>
+      <h2 class="h5 c-card__title">
+        <a href="/en-NAM/254079-wise-expands-north-american-hub-in-austin-accelerating-regional-growth-and-innovation/">
+          Wise Expands North American Hub in Austin, Accelerating Regional Growth and Innovation 
+        </a>
+      </h2>
+      <p>Wise has announced a significant expansion of its North American office hub in Austin. The company will increase its current office space by 200% to 90,000 square feet in total to occupy three floo...</p>
+    </div>
+  </div>
+</div>
+<div class="column-holder__column column-holder__column-4  release__tag--corporate">
+  <div class="c-card">
+    <a href="/en-NAM/250197-international-rescue-committee-and-wise-launch-global-partnership-to-support-communities-in-crisis/" class="c-card__img-holder" title="International Rescue Committee and Wise launch global partnership to support communities in crisis">
+      <div class="bg-retina">
+        <span data-srcset="https://d21buns5ku92am.cloudfront.net/69645/images/592806-IRC-3b11a3-large-1747836049.jpg, https://d21buns5ku92am.cloudfront.net/69645/images/592806-IRC-3b11a3-large-1747836049.jpg 2x"></span>
+      </div>
+    </a>
+    <div class="c-card__text-holder">
+      <ul class="c-card__list">
+        <li class="c-card__item c-card__item--time">
+          <time datetime="2025-05-21" class="c-card__time">
+            <i class="icon-clock"></i>
+            May 21, 2025
+          </time>
+        </li>
+          <li class="c-card__item c-card__item--tag" data-tag="corporate">
+            <a href="/en-NAM/tags/corporate/" class="c-card__link text-uppercase" data-tag="corporate">
+              Corporate
+            </a>
+          </li>
+      </ul>
+      <h2 class="h5 c-card__title">
+        <a href="/en-NAM/250197-international-rescue-committee-and-wise-launch-global-partnership-to-support-communities-in-crisis/">
+          International Rescue Committee and Wise launch global partnership to support communities in crisis
+        </a>
+      </h2>
+      <p>Wise commits £500,000 to the IRC’s Crisis Response Fund that supports responses to breaking emergencies.</p>
+    </div>
+  </div>
+</div>
+<div class="column-holder__column column-holder__column-4 ">
+  <div class="c-card">
+    <a href="/en-NAM/249826-wise-appoints-new-head-of-banking-for-latin-america-and-country-manager-for-brazil/" class="c-card__img-holder" title="Wise Appoints New Head of Banking for Latin America and Country Manager for Brazil">
+      <div class="bg-retina">
+        <span data-srcset="https://d21buns5ku92am.cloudfront.net/69645/images/589845-589257-TQL_3261-46904b-original-1746461348-d051e3-large-1746811006.jpg, https://d21buns5ku92am.cloudfront.net/69645/images/589845-589257-TQL_3261-46904b-original-1746461348-d051e3-large-1746811006.jpg 2x"></span>
+      </div>
+    </a>
+    <div class="c-card__text-holder">
+      <ul class="c-card__list">
+        <li class="c-card__item c-card__item--time">
+          <time datetime="2025-05-12" class="c-card__time">
+            <i class="icon-clock"></i>
+            May 12, 2025
+          </time>
+        </li>
+      </ul>
+      <h2 class="h5 c-card__title">
+        <a href="/en-NAM/249826-wise-appoints-new-head-of-banking-for-latin-america-and-country-manager-for-brazil/">
+          Wise Appoints New Head of Banking for Latin America and Country Manager for Brazil
+        </a>
+      </h2>
+      <p>Wise, the global technology company building the best way to move and manage the worldʼs money, has announced the appointment of former Western Union executive Ricardo Amaral as its new Head of Ban...</p>
+    </div>
+  </div>
+</div>
+<div class="column-holder__column column-holder__column-4  release__tag--product">
+  <div class="c-card">
+    <a href="/en-NAM/248324-itau-unibanco-reinforces-its-foreign-exchange-solutions-enabling-instant-payment-in-foreign-currency-directly-through-the-app/" class="c-card__img-holder" title="Itaú Unibanco reinforces its foreign exchange solutions, enabling instant payment in foreign currency directly throug...">
+      <div class="bg-retina">
+        <span data-srcset="https://d21buns5ku92am.cloudfront.net/69645/images/583797-Itau%CC%81%20%281%29%20%281%29-2ce2fe-large-1742995728.png, https://d21buns5ku92am.cloudfront.net/69645/images/583797-Itau%CC%81%20%281%29%20%281%29-2ce2fe-large-1742995728.png 2x"></span>
+      </div>
+    </a>
+    <div class="c-card__text-holder">
+      <ul class="c-card__list">
+        <li class="c-card__item c-card__item--time">
+          <time datetime="2025-03-26" class="c-card__time">
+            <i class="icon-clock"></i>
+            March 26, 2025
+          </time>
+        </li>
+          <li class="c-card__item c-card__item--tag" data-tag="product">
+            <a href="/en-NAM/tags/product/" class="c-card__link text-uppercase" data-tag="product">
+              Product
+            </a>
+          </li>
+      </ul>
+      <h2 class="h5 c-card__title">
+        <a href="/en-NAM/248324-itau-unibanco-reinforces-its-foreign-exchange-solutions-enabling-instant-payment-in-foreign-currency-directly-through-the-app/">
+          Itaú Unibanco reinforces its foreign exchange solutions, enabling instant payment in foreign currency directly throug...
+        </a>
+      </h2>
+      <p>The new solution will allow customers to make international payments or send money in the same way and with the same simplicity as Pix, at any time of the day, every day of the week.</p>
+    </div>
+  </div>
+</div>
+<div class="column-holder__column column-holder__column-4 ">
+  <div class="c-card">
+    <a href="/en-NAM/247279-hidden-growth-tax-on-us-small-businesses-is-hindering-development-and-expansion/" class="c-card__img-holder" title="Hidden Growth Tax on US Small Businesses is Hindering Development and Expansion    ">
+      <div class="bg-retina">
+        <span data-srcset="https://d21buns5ku92am.cloudfront.net/69645/images/578899-Screenshot%202025-02-24%20at%201.45.12%E2%80%AFPM-9fb31b-large-1740426322.png, https://d21buns5ku92am.cloudfront.net/69645/images/578899-Screenshot%202025-02-24%20at%201.45.12%E2%80%AFPM-9fb31b-large-1740426322.png 2x"></span>
+      </div>
+    </a>
+    <div class="c-card__text-holder">
+      <ul class="c-card__list">
+        <li class="c-card__item c-card__item--time">
+          <time datetime="2025-02-25" class="c-card__time">
+            <i class="icon-clock"></i>
+            February 25, 2025
+          </time>
+        </li>
+      </ul>
+      <h2 class="h5 c-card__title">
+        <a href="/en-NAM/247279-hidden-growth-tax-on-us-small-businesses-is-hindering-development-and-expansion/">
+          Hidden Growth Tax on US Small Businesses is Hindering Development and Expansion    
+        </a>
+      </h2>
+      <p>A new Wise study reveals that US small businesses lose $153B to hidden fees in financial transactions. These fees act as an unfair 'growth tax' limiting small businesses' ability to plan ahead and ...</p>
+    </div>
+  </div>
+</div>
+<div class="column-holder__column column-holder__column-4 ">
+  <div class="c-card">
+    <a href="/en-NAM/246883-all-s-fair-in-love-and-money-american-couples-struggle-to-talk-about-money-but-desire-shared-financial-goals/" class="c-card__img-holder" title="All’s fair in love and money: American couples struggle to talk about money but desire shared financial goals ">
+      <div class="bg-retina">
+        <span data-srcset="https://d21buns5ku92am.cloudfront.net/69645/images/576055-Screenshot%202025-02-11%20at%209.18.31%E2%80%AFAM-3c2fb6-large-1739287124.png, https://d21buns5ku92am.cloudfront.net/69645/images/576055-Screenshot%202025-02-11%20at%209.18.31%E2%80%AFAM-3c2fb6-large-1739287124.png 2x"></span>
+      </div>
+    </a>
+    <div class="c-card__text-holder">
+      <ul class="c-card__list">
+        <li class="c-card__item c-card__item--time">
+          <time datetime="2025-02-11" class="c-card__time">
+            <i class="icon-clock"></i>
+            February 11, 2025
+          </time>
+        </li>
+      </ul>
+      <h2 class="h5 c-card__title">
+        <a href="/en-NAM/246883-all-s-fair-in-love-and-money-american-couples-struggle-to-talk-about-money-but-desire-shared-financial-goals/">
+          All’s fair in love and money: American couples struggle to talk about money but desire shared financial goals 
+        </a>
+      </h2>
+      <p>New research from global tech company Wise uncovers that one in three Americans feels uncomfortable discussing money with their partner.</p>
+    </div>
+  </div>
+</div>
+<div class="column-holder__column column-holder__column-4  release__tag--product">
+  <div class="c-card">
+    <a href="/en-NAM/246518-wise-lanza-operaciones-en-mexico-revolucionando-las-transferencias-internacionales-de-dinero-tradicionales/" class="c-card__img-holder" title="Wise lanza operaciones en México: revolucionando las transferencias internacionales de dinero tradicionales">
+      <div class="bg-retina">
+        <span data-srcset="https://d21buns5ku92am.cloudfront.net/69645/images/574274-24448-mxn-launch-3-b200ea-large-1738094531.png, https://d21buns5ku92am.cloudfront.net/69645/images/574274-24448-mxn-launch-3-b200ea-large-1738094531.png 2x"></span>
+      </div>
+    </a>
+    <div class="c-card__text-holder">
+      <ul class="c-card__list">
+        <li class="c-card__item c-card__item--time">
+          <time datetime="2025-01-30" class="c-card__time">
+            <i class="icon-clock"></i>
+            January 30, 2025
+          </time>
+        </li>
+          <li class="c-card__item c-card__item--tag" data-tag="product">
+            <a href="/en-NAM/tags/product/" class="c-card__link text-uppercase" data-tag="product">
+              Product
+            </a>
+          </li>
+      </ul>
+      <h2 class="h5 c-card__title">
+        <a href="/en-NAM/246518-wise-lanza-operaciones-en-mexico-revolucionando-las-transferencias-internacionales-de-dinero-tradicionales/">
+          Wise lanza operaciones en México: revolucionando las transferencias internacionales de dinero tradicionales
+        </a>
+      </h2>
+      <p>El nuevo servicio de Wise proporcionará una experiencia transparente, rápida y conveniente para los ciudadanos mexicanos que envían dinero al extranjero, fortaleciendo un importante corredor financ...</p>
+    </div>
+  </div>
+</div>
+
+          </div>
+          <ul class="btn-group">
+            <li class="btn-group__item">
+              <a class="c-btn c-btn--outline-primary c-btn--icon-right" href="/en-NAM/releases/"><span class="c-btn__text">View news archive</span><i class="c-btn__icon icon-arrow-right"></i></a>
+            </li>
+          </ul>
+        </div>
+            <div id="employer">
+              <div class="column-holder">
+                <div class="column-holder__column column-holder__column-4  release__tag--employer release__tag--corporate">
+  <div class="c-card">
+    <a href="/en-NAM/213634-wise-announces-north-american-expansion-plan/" class="c-card__img-holder" title="Wise Announces North American Expansion Plan">
+      <div class="bg-retina">
+        <span data-srcset="https://d21buns5ku92am.cloudfront.net/69645/images/470347-01-Wise-logo-bright-green%20%281%29-210bf3-large-1677594902.png, https://d21buns5ku92am.cloudfront.net/69645/images/470347-01-Wise-logo-bright-green%20%281%29-210bf3-large-1677594902.png 2x"></span>
+      </div>
+    </a>
+    <div class="c-card__text-holder">
+      <ul class="c-card__list">
+        <li class="c-card__item c-card__item--time">
+          <time datetime="2021-11-30" class="c-card__time">
+            <i class="icon-clock"></i>
+            November 30, 2021
+          </time>
+        </li>
+          <li class="c-card__item c-card__item--tag" data-tag="corporate">
+            <a href="/en-NAM/tags/corporate/" class="c-card__link text-uppercase" data-tag="corporate">
+              Corporate
+            </a>
+          </li>
+      </ul>
+      <h2 class="h5 c-card__title">
+        <a href="/en-NAM/213634-wise-announces-north-american-expansion-plan/">
+          Wise Announces North American Expansion Plan
+        </a>
+      </h2>
+      <p>Wise, the global technology company building the best way to move money around the world, today announced a 2022 North American expansion plan that will see the company hire more than 150 people; e...</p>
+    </div>
+  </div>
+</div>
+
+              </div>
+              <ul class="btn-group">
+                <li class="btn-group__item">
+                  <a class="c-btn c-btn--outline-primary c-btn--icon-right" href="/en-NAM/releases/?tags=employer"><span class="c-btn__text">View news archive</span><i class="c-btn__icon icon-arrow-right"></i></a>
+                </li>
+              </ul>
+            </div>
+            <div id="corporate">
+              <div class="column-holder">
+                <div class="column-holder__column column-holder__column-4  release__tag--corporate">
+  <div class="c-card">
+    <a href="/en-NAM/250197-international-rescue-committee-and-wise-launch-global-partnership-to-support-communities-in-crisis/" class="c-card__img-holder" title="International Rescue Committee and Wise launch global partnership to support communities in crisis">
+      <div class="bg-retina">
+        <span data-srcset="https://d21buns5ku92am.cloudfront.net/69645/images/592806-IRC-3b11a3-large-1747836049.jpg, https://d21buns5ku92am.cloudfront.net/69645/images/592806-IRC-3b11a3-large-1747836049.jpg 2x"></span>
+      </div>
+    </a>
+    <div class="c-card__text-holder">
+      <ul class="c-card__list">
+        <li class="c-card__item c-card__item--time">
+          <time datetime="2025-05-21" class="c-card__time">
+            <i class="icon-clock"></i>
+            May 21, 2025
+          </time>
+        </li>
+          <li class="c-card__item c-card__item--tag" data-tag="corporate">
+            <a href="/en-NAM/tags/corporate/" class="c-card__link text-uppercase" data-tag="corporate">
+              Corporate
+            </a>
+          </li>
+      </ul>
+      <h2 class="h5 c-card__title">
+        <a href="/en-NAM/250197-international-rescue-committee-and-wise-launch-global-partnership-to-support-communities-in-crisis/">
+          International Rescue Committee and Wise launch global partnership to support communities in crisis
+        </a>
+      </h2>
+      <p>Wise commits £500,000 to the IRC’s Crisis Response Fund that supports responses to breaking emergencies.</p>
+    </div>
+  </div>
+</div>
+<div class="column-holder__column column-holder__column-4  release__tag--corporate">
+  <div class="c-card">
+    <a href="/en-NAM/223553-wise-unveils-new-look-as-it-reaches-16-million-customers-served-worldwide-and-continues-global-expansion/" class="c-card__img-holder" title="Wise unveils new look as it reaches 16 million customers served worldwide and continues global expansion ">
+      <div class="bg-retina">
+        <span data-srcset="https://d21buns5ku92am.cloudfront.net/69645/images/470348-04-Wise-rebrand-overview-ccd538-large-1677595320.png, https://d21buns5ku92am.cloudfront.net/69645/images/470348-04-Wise-rebrand-overview-ccd538-large-1677595320.png 2x"></span>
+      </div>
+    </a>
+    <div class="c-card__text-holder">
+      <ul class="c-card__list">
+        <li class="c-card__item c-card__item--time">
+          <time datetime="2023-03-01" class="c-card__time">
+            <i class="icon-clock"></i>
+            March 1, 2023
+          </time>
+        </li>
+          <li class="c-card__item c-card__item--tag" data-tag="corporate">
+            <a href="/en-NAM/tags/corporate/" class="c-card__link text-uppercase" data-tag="corporate">
+              Corporate
+            </a>
+          </li>
+      </ul>
+      <h2 class="h5 c-card__title">
+        <a href="/en-NAM/223553-wise-unveils-new-look-as-it-reaches-16-million-customers-served-worldwide-and-continues-global-expansion/">
+          Wise unveils new look as it reaches 16 million customers served worldwide and continues global expansion 
+        </a>
+      </h2>
+      <p>Two new products just launched for US customers, the Wise Business card and the ability to send money with a link
+
+New look reflects Wise’s global community, as the company doubles down on expansio...</p>
+    </div>
+  </div>
+</div>
+<div class="column-holder__column column-holder__column-4  release__tag--corporate">
+  <div class="c-card">
+    <a href="/en-NAM/223282-wise-and-g-p-launch-integration-to-power-faster-lower-cost-global-contractor-payments/" class="c-card__img-holder" title="Wise and G-P Launch Integration to Power Faster, Lower Cost Global Contractor Payments ">
+      <div class="bg-retina">
+        <span data-srcset="https://d21buns5ku92am.cloudfront.net/69645/images/469738-ILLU291_GP-Partnership-Blog_1200x675%20copy%20%281%29-e444a2-large-1677002477.png, https://d21buns5ku92am.cloudfront.net/69645/images/469738-ILLU291_GP-Partnership-Blog_1200x675%20copy%20%281%29-e444a2-large-1677002477.png 2x"></span>
+      </div>
+    </a>
+    <div class="c-card__text-holder">
+      <ul class="c-card__list">
+        <li class="c-card__item c-card__item--time">
+          <time datetime="2023-02-22" class="c-card__time">
+            <i class="icon-clock"></i>
+            February 22, 2023
+          </time>
+        </li>
+          <li class="c-card__item c-card__item--tag" data-tag="corporate">
+            <a href="/en-NAM/tags/corporate/" class="c-card__link text-uppercase" data-tag="corporate">
+              Corporate
+            </a>
+          </li>
+      </ul>
+      <h2 class="h5 c-card__title">
+        <a href="/en-NAM/223282-wise-and-g-p-launch-integration-to-power-faster-lower-cost-global-contractor-payments/">
+          Wise and G-P Launch Integration to Power Faster, Lower Cost Global Contractor Payments 
+        </a>
+      </h2>
+      <p>New partnership provides customers with autonomy; enabling payments in the most countries and currencies at the time, frequency and currency of their choice</p>
+    </div>
+  </div>
+</div>
+<div class="column-holder__column column-holder__column-4  release__tag--corporate release__tag--product">
+  <div class="c-card">
+    <a href="/en-NAM/222464-wise-enters-2023-with-15-new-partners-in-4-new-markets-bringing-total-to-over-60-partners-worldwide/" class="c-card__img-holder" title="Wise enters 2023 with 15 new partners in 4 new markets, bringing total to over 60 partners worldwide">
+      <div class="bg-retina">
+        <span data-srcset="https://d21buns5ku92am.cloudfront.net/69645/images/524815-DSH250124_Partner-Map-1c752e-large-1707155211.jpg, https://d21buns5ku92am.cloudfront.net/69645/images/524815-DSH250124_Partner-Map-1c752e-large-1707155211.jpg 2x"></span>
+      </div>
+    </a>
+    <div class="c-card__text-holder">
+      <ul class="c-card__list">
+        <li class="c-card__item c-card__item--time">
+          <time datetime="2023-01-26" class="c-card__time">
+            <i class="icon-clock"></i>
+            January 26, 2023
+          </time>
+        </li>
+          <li class="c-card__item c-card__item--tag" data-tag="product">
+            <a href="/en-NAM/tags/product/" class="c-card__link text-uppercase" data-tag="product">
+              Product
+            </a>
+          </li>
+      </ul>
+      <h2 class="h5 c-card__title">
+        <a href="/en-NAM/222464-wise-enters-2023-with-15-new-partners-in-4-new-markets-bringing-total-to-over-60-partners-worldwide/">
+          Wise enters 2023 with 15 new partners in 4 new markets, bringing total to over 60 partners worldwide
+        </a>
+      </h2>
+      <p>10 million people and businesses gained access fast, cheap international payments powered by Wise in 2022</p>
+    </div>
+  </div>
+</div>
+<div class="column-holder__column column-holder__column-4  release__tag--corporate">
+  <div class="c-card">
+    <a href="/en-NAM/221146-wise-accelerates-headcount-as-customer-demand-fuels-continued-expansion/" class="c-card__img-holder" title="Wise Accelerates Headcount as Customer Demand Fuels Continued Expansion ">
+      <div class="bg-retina">
+        <span data-srcset="https://d21buns5ku92am.cloudfront.net/69645/images/470347-01-Wise-logo-bright-green%20%281%29-210bf3-large-1677594902.png, https://d21buns5ku92am.cloudfront.net/69645/images/470347-01-Wise-logo-bright-green%20%281%29-210bf3-large-1677594902.png 2x"></span>
+      </div>
+    </a>
+    <div class="c-card__text-holder">
+      <ul class="c-card__list">
+        <li class="c-card__item c-card__item--time">
+          <time datetime="2022-12-13" class="c-card__time">
+            <i class="icon-clock"></i>
+            December 13, 2022
+          </time>
+        </li>
+          <li class="c-card__item c-card__item--tag" data-tag="corporate">
+            <a href="/en-NAM/tags/corporate/" class="c-card__link text-uppercase" data-tag="corporate">
+              Corporate
+            </a>
+          </li>
+      </ul>
+      <h2 class="h5 c-card__title">
+        <a href="/en-NAM/221146-wise-accelerates-headcount-as-customer-demand-fuels-continued-expansion/">
+          Wise Accelerates Headcount as Customer Demand Fuels Continued Expansion 
+        </a>
+      </h2>
+      <p>Company plans to grow its U.S. presence with over 250 new hires in 2023</p>
+    </div>
+  </div>
+</div>
+<div class="column-holder__column column-holder__column-4  release__tag--employer release__tag--corporate">
+  <div class="c-card">
+    <a href="/en-NAM/213634-wise-announces-north-american-expansion-plan/" class="c-card__img-holder" title="Wise Announces North American Expansion Plan">
+      <div class="bg-retina">
+        <span data-srcset="https://d21buns5ku92am.cloudfront.net/69645/images/470347-01-Wise-logo-bright-green%20%281%29-210bf3-large-1677594902.png, https://d21buns5ku92am.cloudfront.net/69645/images/470347-01-Wise-logo-bright-green%20%281%29-210bf3-large-1677594902.png 2x"></span>
+      </div>
+    </a>
+    <div class="c-card__text-holder">
+      <ul class="c-card__list">
+        <li class="c-card__item c-card__item--time">
+          <time datetime="2021-11-30" class="c-card__time">
+            <i class="icon-clock"></i>
+            November 30, 2021
+          </time>
+        </li>
+          <li class="c-card__item c-card__item--tag" data-tag="corporate">
+            <a href="/en-NAM/tags/corporate/" class="c-card__link text-uppercase" data-tag="corporate">
+              Corporate
+            </a>
+          </li>
+      </ul>
+      <h2 class="h5 c-card__title">
+        <a href="/en-NAM/213634-wise-announces-north-american-expansion-plan/">
+          Wise Announces North American Expansion Plan
+        </a>
+      </h2>
+      <p>Wise, the global technology company building the best way to move money around the world, today announced a 2022 North American expansion plan that will see the company hire more than 150 people; e...</p>
+    </div>
+  </div>
+</div>
+<div class="column-holder__column column-holder__column-4  release__tag--corporate release__tag--product">
+  <div class="c-card">
+    <a href="/en-NAM/213588-transferwise-and-visa-announce-global-partnership-following-successful-collaboration-on-cloud-technology/" class="c-card__img-holder" title="TransferWise and Visa Announce Global Partnership Following Successful Collaboration on Cloud Technology">
+      <div class="bg-retina">
+        <span data-srcset="https://d21buns5ku92am.cloudfront.net/69645/images/470347-01-Wise-logo-bright-green%20%281%29-210bf3-large-1677594902.png, https://d21buns5ku92am.cloudfront.net/69645/images/470347-01-Wise-logo-bright-green%20%281%29-210bf3-large-1677594902.png 2x"></span>
+      </div>
+    </a>
+    <div class="c-card__text-holder">
+      <ul class="c-card__list">
+        <li class="c-card__item c-card__item--time">
+          <time datetime="2021-01-27" class="c-card__time">
+            <i class="icon-clock"></i>
+            January 27, 2021
+          </time>
+        </li>
+          <li class="c-card__item c-card__item--tag" data-tag="product">
+            <a href="/en-NAM/tags/product/" class="c-card__link text-uppercase" data-tag="product">
+              Product
+            </a>
+          </li>
+      </ul>
+      <h2 class="h5 c-card__title">
+        <a href="/en-NAM/213588-transferwise-and-visa-announce-global-partnership-following-successful-collaboration-on-cloud-technology/">
+          TransferWise and Visa Announce Global Partnership Following Successful Collaboration on Cloud Technology
+        </a>
+      </h2>
+      <p>TransferWise to expand debit card program accompanying its multi-currency account into dozens of new markets using new Visa Cloud Connect infrastructure</p>
+    </div>
+  </div>
+</div>
+
+              </div>
+              <ul class="btn-group">
+                <li class="btn-group__item">
+                  <a class="c-btn c-btn--outline-primary c-btn--icon-right" href="/en-NAM/releases/?tags=corporate"><span class="c-btn__text">View news archive</span><i class="c-btn__icon icon-arrow-right"></i></a>
+                </li>
+              </ul>
+            </div>
+            <div id="product">
+              <div class="column-holder">
+                <div class="column-holder__column column-holder__column-4  release__tag--product">
+  <div class="c-card">
+    <a href="/en-NAM/248324-itau-unibanco-reinforces-its-foreign-exchange-solutions-enabling-instant-payment-in-foreign-currency-directly-through-the-app/" class="c-card__img-holder" title="Itaú Unibanco reinforces its foreign exchange solutions, enabling instant payment in foreign currency directly throug...">
+      <div class="bg-retina">
+        <span data-srcset="https://d21buns5ku92am.cloudfront.net/69645/images/583797-Itau%CC%81%20%281%29%20%281%29-2ce2fe-large-1742995728.png, https://d21buns5ku92am.cloudfront.net/69645/images/583797-Itau%CC%81%20%281%29%20%281%29-2ce2fe-large-1742995728.png 2x"></span>
+      </div>
+    </a>
+    <div class="c-card__text-holder">
+      <ul class="c-card__list">
+        <li class="c-card__item c-card__item--time">
+          <time datetime="2025-03-26" class="c-card__time">
+            <i class="icon-clock"></i>
+            March 26, 2025
+          </time>
+        </li>
+          <li class="c-card__item c-card__item--tag" data-tag="product">
+            <a href="/en-NAM/tags/product/" class="c-card__link text-uppercase" data-tag="product">
+              Product
+            </a>
+          </li>
+      </ul>
+      <h2 class="h5 c-card__title">
+        <a href="/en-NAM/248324-itau-unibanco-reinforces-its-foreign-exchange-solutions-enabling-instant-payment-in-foreign-currency-directly-through-the-app/">
+          Itaú Unibanco reinforces its foreign exchange solutions, enabling instant payment in foreign currency directly throug...
+        </a>
+      </h2>
+      <p>The new solution will allow customers to make international payments or send money in the same way and with the same simplicity as Pix, at any time of the day, every day of the week.</p>
+    </div>
+  </div>
+</div>
+<div class="column-holder__column column-holder__column-4  release__tag--product">
+  <div class="c-card">
+    <a href="/en-NAM/246518-wise-lanza-operaciones-en-mexico-revolucionando-las-transferencias-internacionales-de-dinero-tradicionales/" class="c-card__img-holder" title="Wise lanza operaciones en México: revolucionando las transferencias internacionales de dinero tradicionales">
+      <div class="bg-retina">
+        <span data-srcset="https://d21buns5ku92am.cloudfront.net/69645/images/574274-24448-mxn-launch-3-b200ea-large-1738094531.png, https://d21buns5ku92am.cloudfront.net/69645/images/574274-24448-mxn-launch-3-b200ea-large-1738094531.png 2x"></span>
+      </div>
+    </a>
+    <div class="c-card__text-holder">
+      <ul class="c-card__list">
+        <li class="c-card__item c-card__item--time">
+          <time datetime="2025-01-30" class="c-card__time">
+            <i class="icon-clock"></i>
+            January 30, 2025
+          </time>
+        </li>
+          <li class="c-card__item c-card__item--tag" data-tag="product">
+            <a href="/en-NAM/tags/product/" class="c-card__link text-uppercase" data-tag="product">
+              Product
+            </a>
+          </li>
+      </ul>
+      <h2 class="h5 c-card__title">
+        <a href="/en-NAM/246518-wise-lanza-operaciones-en-mexico-revolucionando-las-transferencias-internacionales-de-dinero-tradicionales/">
+          Wise lanza operaciones en México: revolucionando las transferencias internacionales de dinero tradicionales
+        </a>
+      </h2>
+      <p>El nuevo servicio de Wise proporcionará una experiencia transparente, rápida y conveniente para los ciudadanos mexicanos que envían dinero al extranjero, fortaleciendo un importante corredor financ...</p>
+    </div>
+  </div>
+</div>
+<div class="column-holder__column column-holder__column-4  release__tag--product">
+  <div class="c-card">
+    <a href="/en-NAM/242593-wise-platform-boosts-global-payments-with-enhanced-infrastructure-for-faster-cheaper-cross-border-solutions/" class="c-card__img-holder" title="Wise Platform Boosts Global Payments with Enhanced Infrastructure for Faster, Cheaper Cross-Border Solutions">
+      <div class="bg-retina">
+        <span data-srcset="https://d21buns5ku92am.cloudfront.net/69645/images/569812-Wise-Platform-stock-992f29-large-1736243555.png, https://d21buns5ku92am.cloudfront.net/69645/images/569812-Wise-Platform-stock-992f29-large-1736243555.png 2x"></span>
+      </div>
+    </a>
+    <div class="c-card__text-holder">
+      <ul class="c-card__list">
+        <li class="c-card__item c-card__item--time">
+          <time datetime="2024-10-21" class="c-card__time">
+            <i class="icon-clock"></i>
+            October 21, 2024
+          </time>
+        </li>
+          <li class="c-card__item c-card__item--tag" data-tag="product">
+            <a href="/en-NAM/tags/product/" class="c-card__link text-uppercase" data-tag="product">
+              Product
+            </a>
+          </li>
+      </ul>
+      <h2 class="h5 c-card__title">
+        <a href="/en-NAM/242593-wise-platform-boosts-global-payments-with-enhanced-infrastructure-for-faster-cheaper-cross-border-solutions/">
+          Wise Platform Boosts Global Payments with Enhanced Infrastructure for Faster, Cheaper Cross-Border Solutions
+        </a>
+      </h2>
+      <p>Wise’s global payments infrastructure for banks, financial institutions and larger enterprises, has further enhanced its product suite for partners and significantly expanded its global regulatory ...</p>
+    </div>
+  </div>
+</div>
+<div class="column-holder__column column-holder__column-4  release__tag--product">
+  <div class="c-card">
+    <a href="/en-NAM/230020-swift-and-wise-join-forces-to-expand-cross-border-payment-options-globally/" class="c-card__img-holder" title="Swift and Wise join forces to expand cross-border payment options globally ">
+      <div class="bg-retina">
+        <span data-srcset="https://d21buns5ku92am.cloudfront.net/69645/images/503353-Swift%20X%20Wise-7bf643-large-1695029797.png, https://d21buns5ku92am.cloudfront.net/69645/images/503353-Swift%20X%20Wise-7bf643-large-1695029797.png 2x"></span>
+      </div>
+    </a>
+    <div class="c-card__text-holder">
+      <ul class="c-card__list">
+        <li class="c-card__item c-card__item--time">
+          <time datetime="2023-09-18" class="c-card__time">
+            <i class="icon-clock"></i>
+            September 18, 2023
+          </time>
+        </li>
+          <li class="c-card__item c-card__item--tag" data-tag="product">
+            <a href="/en-NAM/tags/product/" class="c-card__link text-uppercase" data-tag="product">
+              Product
+            </a>
+          </li>
+      </ul>
+      <h2 class="h5 c-card__title">
+        <a href="/en-NAM/230020-swift-and-wise-join-forces-to-expand-cross-border-payment-options-globally/">
+          Swift and Wise join forces to expand cross-border payment options globally 
+        </a>
+      </h2>
+      <p>Swift and Wise today announced an innovative collaboration to increase cross-border payment options for financial institutions and their customers, enabling payments sent securely via Swift to comp...</p>
+    </div>
+  </div>
+</div>
+<div class="column-holder__column column-holder__column-4  release__tag--product">
+  <div class="c-card">
+    <a href="/en-NAM/224679-wise-launches-new-interest-feature-for-us-customers-bolstering-multi-currency-account/" class="c-card__img-holder" title="Wise launches new interest feature for US customers, bolstering multi-currency account ">
+      <div class="bg-retina">
+        <span data-srcset="https://d21buns5ku92am.cloudfront.net/69645/images/498875-Wise_Savings_GreenBG-da5572-large-1693511997.png, https://d21buns5ku92am.cloudfront.net/69645/images/498875-Wise_Savings_GreenBG-da5572-large-1693511997.png 2x"></span>
+      </div>
+    </a>
+    <div class="c-card__text-holder">
+      <ul class="c-card__list">
+        <li class="c-card__item c-card__item--time">
+          <time datetime="2023-04-25" class="c-card__time">
+            <i class="icon-clock"></i>
+            April 25, 2023
+          </time>
+        </li>
+          <li class="c-card__item c-card__item--tag" data-tag="product">
+            <a href="/en-NAM/tags/product/" class="c-card__link text-uppercase" data-tag="product">
+              Product
+            </a>
+          </li>
+      </ul>
+      <h2 class="h5 c-card__title">
+        <a href="/en-NAM/224679-wise-launches-new-interest-feature-for-us-customers-bolstering-multi-currency-account/">
+          Wise launches new interest feature for US customers, bolstering multi-currency account 
+        </a>
+      </h2>
+      <p>3.92% APY is the current rate for USD balances. Available only to US based business and personal customers who opt-in. Wise is honoring its core value of transparency by sharing interest earned wit...</p>
+    </div>
+  </div>
+</div>
+<div class="column-holder__column column-holder__column-4  release__tag--product">
+  <div class="c-card">
+    <a href="/en-NAM/224830-bluevine-and-wise-launch-international-bill-pay-solution-for-u-s-smbs/" class="c-card__img-holder" title="Bluevine and Wise Launch International Bill-Pay Solution for U.S. SMBs ">
+      <div class="bg-retina">
+        <span data-srcset="https://d21buns5ku92am.cloudfront.net/69645/images/473452-PartnershipAsset-WisePlatform-Bluevine-1920x1080%20%281%29-7e4227-large-1679516891.png, https://d21buns5ku92am.cloudfront.net/69645/images/473452-PartnershipAsset-WisePlatform-Bluevine-1920x1080%20%281%29-7e4227-large-1679516891.png 2x"></span>
+      </div>
+    </a>
+    <div class="c-card__text-holder">
+      <ul class="c-card__list">
+        <li class="c-card__item c-card__item--time">
+          <time datetime="2023-04-12" class="c-card__time">
+            <i class="icon-clock"></i>
+            April 12, 2023
+          </time>
+        </li>
+          <li class="c-card__item c-card__item--tag" data-tag="product">
+            <a href="/en-NAM/tags/product/" class="c-card__link text-uppercase" data-tag="product">
+              Product
+            </a>
+          </li>
+      </ul>
+      <h2 class="h5 c-card__title">
+        <a href="/en-NAM/224830-bluevine-and-wise-launch-international-bill-pay-solution-for-u-s-smbs/">
+          Bluevine and Wise Launch International Bill-Pay Solution for U.S. SMBs 
+        </a>
+      </h2>
+      <p>New partnership powered by Wise Platform allows businesses to make international payments with no hidden fees to 26 countries</p>
+    </div>
+  </div>
+</div>
+<div class="column-holder__column column-holder__column-4  release__tag--product">
+  <div class="c-card">
+    <a href="/en-NAM/223385-u-s-businesses-can-now-take-control-of-hidden-fees-with-digital-wise-business-cards/" class="c-card__img-holder" title="U.S. Businesses Can Now Take Control of Hidden Fees with Digital Wise Business Cards ">
+      <div class="bg-retina">
+        <span data-srcset="https://d21buns5ku92am.cloudfront.net/69645/images/469960-08-Wise-tapestry-card-market-9da1e5-large-1677249752.png, https://d21buns5ku92am.cloudfront.net/69645/images/469960-08-Wise-tapestry-card-market-9da1e5-large-1677249752.png 2x"></span>
+      </div>
+    </a>
+    <div class="c-card__text-holder">
+      <ul class="c-card__list">
+        <li class="c-card__item c-card__item--time">
+          <time datetime="2023-03-01" class="c-card__time">
+            <i class="icon-clock"></i>
+            March 1, 2023
+          </time>
+        </li>
+          <li class="c-card__item c-card__item--tag" data-tag="product">
+            <a href="/en-NAM/tags/product/" class="c-card__link text-uppercase" data-tag="product">
+              Product
+            </a>
+          </li>
+      </ul>
+      <h2 class="h5 c-card__title">
+        <a href="/en-NAM/223385-u-s-businesses-can-now-take-control-of-hidden-fees-with-digital-wise-business-cards/">
+          U.S. Businesses Can Now Take Control of Hidden Fees with Digital Wise Business Cards 
+        </a>
+      </h2>
+      <p>Today, we’re excited to announce that the Wise Business card is launching in the United States – freeing businesses from the hassle and hidden fees typically faced when spending abroad. Sole propri...</p>
+    </div>
+  </div>
+</div>
+<div class="column-holder__column column-holder__column-4  release__tag--corporate release__tag--product">
+  <div class="c-card">
+    <a href="/en-NAM/222464-wise-enters-2023-with-15-new-partners-in-4-new-markets-bringing-total-to-over-60-partners-worldwide/" class="c-card__img-holder" title="Wise enters 2023 with 15 new partners in 4 new markets, bringing total to over 60 partners worldwide">
+      <div class="bg-retina">
+        <span data-srcset="https://d21buns5ku92am.cloudfront.net/69645/images/524815-DSH250124_Partner-Map-1c752e-large-1707155211.jpg, https://d21buns5ku92am.cloudfront.net/69645/images/524815-DSH250124_Partner-Map-1c752e-large-1707155211.jpg 2x"></span>
+      </div>
+    </a>
+    <div class="c-card__text-holder">
+      <ul class="c-card__list">
+        <li class="c-card__item c-card__item--time">
+          <time datetime="2023-01-26" class="c-card__time">
+            <i class="icon-clock"></i>
+            January 26, 2023
+          </time>
+        </li>
+          <li class="c-card__item c-card__item--tag" data-tag="product">
+            <a href="/en-NAM/tags/product/" class="c-card__link text-uppercase" data-tag="product">
+              Product
+            </a>
+          </li>
+      </ul>
+      <h2 class="h5 c-card__title">
+        <a href="/en-NAM/222464-wise-enters-2023-with-15-new-partners-in-4-new-markets-bringing-total-to-over-60-partners-worldwide/">
+          Wise enters 2023 with 15 new partners in 4 new markets, bringing total to over 60 partners worldwide
+        </a>
+      </h2>
+      <p>10 million people and businesses gained access fast, cheap international payments powered by Wise in 2022</p>
+    </div>
+  </div>
+</div>
+<div class="column-holder__column column-holder__column-4  release__tag--product">
+  <div class="c-card">
+    <a href="/en-NAM/220957-avidxchange-partners-with-wise-to-expand-international-payments-capabilities/" class="c-card__img-holder" title="AvidXchange Partners with Wise to Expand International Payments Capabilities">
+      <div class="bg-retina">
+        <span data-srcset="https://d21buns5ku92am.cloudfront.net/69645/images/453231-51222-avidexchange_WisePlatform_Blog_2-3df913-large-1670330178.png, https://d21buns5ku92am.cloudfront.net/69645/images/453231-51222-avidexchange_WisePlatform_Blog_2-3df913-large-1670330178.png 2x"></span>
+      </div>
+    </a>
+    <div class="c-card__text-holder">
+      <ul class="c-card__list">
+        <li class="c-card__item c-card__item--time">
+          <time datetime="2022-12-06" class="c-card__time">
+            <i class="icon-clock"></i>
+            December 6, 2022
+          </time>
+        </li>
+          <li class="c-card__item c-card__item--tag" data-tag="product">
+            <a href="/en-NAM/tags/product/" class="c-card__link text-uppercase" data-tag="product">
+              Product
+            </a>
+          </li>
+      </ul>
+      <h2 class="h5 c-card__title">
+        <a href="/en-NAM/220957-avidxchange-partners-with-wise-to-expand-international-payments-capabilities/">
+          AvidXchange Partners with Wise to Expand International Payments Capabilities
+        </a>
+      </h2>
+      <p>AvidXchange (Nasdaq: AVDX), a leading provider of accounts payable (AP) automation software and payment solutions for middle market businesses and their suppliers, launched a Cross-Border Payments ...</p>
+    </div>
+  </div>
+</div>
+<div class="column-holder__column column-holder__column-4  release__tag--product">
+  <div class="c-card">
+    <a href="/en-NAM/217124-wise-and-plaid-launch-open-finance-agreement-to-enable-secure-financial-connectivity/" class="c-card__img-holder" title="Wise and Plaid Launch Open Finance Agreement to Enable Secure Financial Connectivity ">
+      <div class="bg-retina">
+        <span data-srcset="https://d21buns5ku92am.cloudfront.net/69645/images/438267-image-221cc2-large-1659462945.png, https://d21buns5ku92am.cloudfront.net/69645/images/438267-image-221cc2-large-1659462945.png 2x"></span>
+      </div>
+    </a>
+    <div class="c-card__text-holder">
+      <ul class="c-card__list">
+        <li class="c-card__item c-card__item--time">
+          <time datetime="2022-08-10" class="c-card__time">
+            <i class="icon-clock"></i>
+            August 10, 2022
+          </time>
+        </li>
+          <li class="c-card__item c-card__item--tag" data-tag="product">
+            <a href="/en-NAM/tags/product/" class="c-card__link text-uppercase" data-tag="product">
+              Product
+            </a>
+          </li>
+      </ul>
+      <h2 class="h5 c-card__title">
+        <a href="/en-NAM/217124-wise-and-plaid-launch-open-finance-agreement-to-enable-secure-financial-connectivity/">
+          Wise and Plaid Launch Open Finance Agreement to Enable Secure Financial Connectivity 
+        </a>
+      </h2>
+      <p>Wise customers can now connect their accounts to more than 6,000 apps powered by Plaid via Core Exchange, the data network’s newest open finance solution
+</p>
+    </div>
+  </div>
+</div>
+<div class="column-holder__column column-holder__column-4  release__tag--product">
+  <div class="c-card">
+    <a href="/en-NAM/216995-wise-deepens-roots-in-canada-with-new-interac-e-transfer-request-money-feature/" class="c-card__img-holder" title="Wise Deepens Roots in Canada With New INTERAC e-Transfer Request Money Feature ">
+      <div class="bg-retina">
+        <span data-srcset="https://d21buns5ku92am.cloudfront.net/69645/images/438323-Partnerships_Interac-Blog%20copy-3098eb-large-1659534922.png, https://d21buns5ku92am.cloudfront.net/69645/images/438323-Partnerships_Interac-Blog%20copy-3098eb-large-1659534922.png 2x"></span>
+      </div>
+    </a>
+    <div class="c-card__text-holder">
+      <ul class="c-card__list">
+        <li class="c-card__item c-card__item--time">
+          <time datetime="2022-08-09" class="c-card__time">
+            <i class="icon-clock"></i>
+            August 9, 2022
+          </time>
+        </li>
+          <li class="c-card__item c-card__item--tag" data-tag="product">
+            <a href="/en-NAM/tags/product/" class="c-card__link text-uppercase" data-tag="product">
+              Product
+            </a>
+          </li>
+      </ul>
+      <h2 class="h5 c-card__title">
+        <a href="/en-NAM/216995-wise-deepens-roots-in-canada-with-new-interac-e-transfer-request-money-feature/">
+          Wise Deepens Roots in Canada With New INTERAC e-Transfer Request Money Feature 
+        </a>
+      </h2>
+      <p>Customers now have even more convenient ways to fund their Wise Account and transfers using a suite of secure and trusted methods
+</p>
+    </div>
+  </div>
+</div>
+<div class="column-holder__column column-holder__column-4  release__tag--product">
+  <div class="c-card">
+    <a href="/en-NAM/213631-wise-card-launches-in-canada-giving-a-fast-cheap-and-easy-way-to-spend-across-multiple-currencies/" class="c-card__img-holder" title="Wise Card Launches in Canada Giving a Fast, Cheap and Easy Way to Spend Across Multiple Currencies">
+      <div class="bg-retina">
+        <span data-srcset="https://d21buns5ku92am.cloudfront.net/69645/images/431877-CAD_blog-header-0c250f-large-1654009118.png, https://d21buns5ku92am.cloudfront.net/69645/images/431877-CAD_blog-header-0c250f-large-1654009118.png 2x"></span>
+      </div>
+    </a>
+    <div class="c-card__text-holder">
+      <ul class="c-card__list">
+        <li class="c-card__item c-card__item--time">
+          <time datetime="2021-11-30" class="c-card__time">
+            <i class="icon-clock"></i>
+            November 30, 2021
+          </time>
+        </li>
+          <li class="c-card__item c-card__item--tag" data-tag="product">
+            <a href="/en-NAM/tags/product/" class="c-card__link text-uppercase" data-tag="product">
+              Product
+            </a>
+          </li>
+      </ul>
+      <h2 class="h5 c-card__title">
+        <a href="/en-NAM/213631-wise-card-launches-in-canada-giving-a-fast-cheap-and-easy-way-to-spend-across-multiple-currencies/">
+          Wise Card Launches in Canada Giving a Fast, Cheap and Easy Way to Spend Across Multiple Currencies
+        </a>
+      </h2>
+      <p>Global spending card, connected to the Wise Account, allows customers to hold, send and spend instantly like a local at rates up to 4x cheaper than banks</p>
+    </div>
+  </div>
+</div>
+
+              </div>
+              <ul class="btn-group">
+                <li class="btn-group__item">
+                  <a class="c-btn c-btn--outline-primary c-btn--icon-right" href="/en-NAM/releases/?tags=product"><span class="c-btn__text">View news archive</span><i class="c-btn__icon icon-arrow-right"></i></a>
+                </li>
+              </ul>
+            </div>
+            <div id="insights">
+              <div class="column-holder">
+                <div class="column-holder__column column-holder__column-4  release__tag--insights">
+  <div class="c-card">
+    <a href="/en-NAM/225934-luxury-shoppers-where-you-can-save-while-abroad/" class="c-card__img-holder" title="Luxury Shoppers: Where You Can Save While Abroad ">
+      <div class="bg-retina">
+        <span data-srcset="https://d21buns5ku92am.cloudfront.net/69645/images/482542-Frame%2011-09f5d5-large-1683647265.png, https://d21buns5ku92am.cloudfront.net/69645/images/482542-Frame%2011-09f5d5-large-1683647265.png 2x"></span>
+      </div>
+    </a>
+    <div class="c-card__text-holder">
+      <ul class="c-card__list">
+        <li class="c-card__item c-card__item--time">
+          <time datetime="2023-05-09" class="c-card__time">
+            <i class="icon-clock"></i>
+            May 9, 2023
+          </time>
+        </li>
+          <li class="c-card__item c-card__item--tag" data-tag="insights">
+            <a href="/en-NAM/tags/insights/" class="c-card__link text-uppercase" data-tag="insights">
+              Insights
+            </a>
+          </li>
+      </ul>
+      <h2 class="h5 c-card__title">
+        <a href="/en-NAM/225934-luxury-shoppers-where-you-can-save-while-abroad/">
+          Luxury Shoppers: Where You Can Save While Abroad 
+        </a>
+      </h2>
+      <p>New analysis from Wise uncovers how currency conversions on top luxury goods can help save hundreds when shopping overseas</p>
+    </div>
+  </div>
+</div>
+<div class="column-holder__column column-holder__column-4  release__tag--insights">
+  <div class="c-card">
+    <a href="/en-NAM/224283-getting-your-money-s-worth-wedding-planning-abroad/" class="c-card__img-holder" title="Getting Your Money’s Worth: Wedding Planning Abroad">
+      <div class="bg-retina">
+        <span data-srcset="https://d21buns5ku92am.cloudfront.net/69645/images/470347-01-Wise-logo-bright-green%20%281%29-210bf3-large-1677594902.png, https://d21buns5ku92am.cloudfront.net/69645/images/470347-01-Wise-logo-bright-green%20%281%29-210bf3-large-1677594902.png 2x"></span>
+      </div>
+    </a>
+    <div class="c-card__text-holder">
+      <ul class="c-card__list">
+        <li class="c-card__item c-card__item--time">
+          <time datetime="2023-03-21" class="c-card__time">
+            <i class="icon-clock"></i>
+            March 21, 2023
+          </time>
+        </li>
+          <li class="c-card__item c-card__item--tag" data-tag="insights">
+            <a href="/en-NAM/tags/insights/" class="c-card__link text-uppercase" data-tag="insights">
+              Insights
+            </a>
+          </li>
+      </ul>
+      <h2 class="h5 c-card__title">
+        <a href="/en-NAM/224283-getting-your-money-s-worth-wedding-planning-abroad/">
+          Getting Your Money’s Worth: Wedding Planning Abroad
+        </a>
+      </h2>
+      <p>In this article, we looked at what the $30,000 average wedding budget can (and can’t) get you in some top destination wedding locations. We analyzed wedding packages, overall average wedding expens...</p>
+    </div>
+  </div>
+</div>
+<div class="column-holder__column column-holder__column-4  release__tag--insights">
+  <div class="c-card">
+    <a href="/en-NAM/223670-ranking-the-top-tv-show-locations-that-you-can-actually-move-to/" class="c-card__img-holder" title="Ranking the Top TV Show Locations That You Can Actually Move To   ">
+      <div class="bg-retina">
+        <span data-srcset="https://d21buns5ku92am.cloudfront.net/69645/images/470928-Frame%2022-967807-large-1677781748.png, https://d21buns5ku92am.cloudfront.net/69645/images/470928-Frame%2022-967807-large-1677781748.png 2x"></span>
+      </div>
+    </a>
+    <div class="c-card__text-holder">
+      <ul class="c-card__list">
+        <li class="c-card__item c-card__item--time">
+          <time datetime="2023-03-02" class="c-card__time">
+            <i class="icon-clock"></i>
+            March 2, 2023
+          </time>
+        </li>
+          <li class="c-card__item c-card__item--tag" data-tag="insights">
+            <a href="/en-NAM/tags/insights/" class="c-card__link text-uppercase" data-tag="insights">
+              Insights
+            </a>
+          </li>
+      </ul>
+      <h2 class="h5 c-card__title">
+        <a href="/en-NAM/223670-ranking-the-top-tv-show-locations-that-you-can-actually-move-to/">
+          Ranking the Top TV Show Locations That You Can Actually Move To   
+        </a>
+      </h2>
+      <p>Ever watch a show set overseas and get the sudden urge to up and move? Us, too! In this article, we’ve ranked foreign locations of some of the most popular TV shows on the air now and in recent yea...</p>
+    </div>
+  </div>
+</div>
+<div class="column-holder__column column-holder__column-4  release__tag--insights">
+  <div class="c-card">
+    <a href="/en-NAM/217228-is-burnout-driving-the-future-of-work-a-new-era-of-american-expats-emerging-amid-hesitation-to-vacation/" class="c-card__img-holder" title="Is Burnout Driving The Future Of Work? A New Era of American Expats Emerging Amid Hesitation to Vacation  ">
+      <div class="bg-retina">
+        <span data-srcset="https://d21buns5ku92am.cloudfront.net/69645/images/439153-6Z4A8310-f704be-large-1660567760.jpg, https://d21buns5ku92am.cloudfront.net/69645/images/439153-6Z4A8310-f704be-large-1660567760.jpg 2x"></span>
+      </div>
+    </a>
+    <div class="c-card__text-holder">
+      <ul class="c-card__list">
+        <li class="c-card__item c-card__item--time">
+          <time datetime="2022-08-15" class="c-card__time">
+            <i class="icon-clock"></i>
+            August 15, 2022
+          </time>
+        </li>
+          <li class="c-card__item c-card__item--tag" data-tag="insights">
+            <a href="/en-NAM/tags/insights/" class="c-card__link text-uppercase" data-tag="insights">
+              Insights
+            </a>
+          </li>
+      </ul>
+      <h2 class="h5 c-card__title">
+        <a href="/en-NAM/217228-is-burnout-driving-the-future-of-work-a-new-era-of-american-expats-emerging-amid-hesitation-to-vacation/">
+          Is Burnout Driving The Future Of Work? A New Era of American Expats Emerging Amid Hesitation to Vacation  
+        </a>
+      </h2>
+      <p>Americans are taking less vacation than ever before, but ready to take the leap to work abroad
+</p>
+    </div>
+  </div>
+</div>
+<div class="column-holder__column column-holder__column-4  release__tag--insights">
+  <div class="c-card">
+    <a href="/en-NAM/216020-money-eclipses-covid-as-the-top-concern-for-international-travel-wise-study-finds/" class="c-card__img-holder" title="Money Eclipses COVID as the Top Concern for International Travel, Wise Study Finds">
+      <div class="bg-retina">
+        <span data-srcset="https://d21buns5ku92am.cloudfront.net/69645/images/470347-01-Wise-logo-bright-green%20%281%29-210bf3-large-1677594902.png, https://d21buns5ku92am.cloudfront.net/69645/images/470347-01-Wise-logo-bright-green%20%281%29-210bf3-large-1677594902.png 2x"></span>
+      </div>
+    </a>
+    <div class="c-card__text-holder">
+      <ul class="c-card__list">
+        <li class="c-card__item c-card__item--time">
+          <time datetime="2022-06-16" class="c-card__time">
+            <i class="icon-clock"></i>
+            June 16, 2022
+          </time>
+        </li>
+          <li class="c-card__item c-card__item--tag" data-tag="insights">
+            <a href="/en-NAM/tags/insights/" class="c-card__link text-uppercase" data-tag="insights">
+              Insights
+            </a>
+          </li>
+      </ul>
+      <h2 class="h5 c-card__title">
+        <a href="/en-NAM/216020-money-eclipses-covid-as-the-top-concern-for-international-travel-wise-study-finds/">
+          Money Eclipses COVID as the Top Concern for International Travel, Wise Study Finds
+        </a>
+      </h2>
+      <p>More international travelers worried about running out of money than contracting the virus abroad; affording the trip is a bigger travel deterrent than COVID restrictions 
+</p>
+    </div>
+  </div>
+</div>
+<div class="column-holder__column column-holder__column-4  release__tag--insights">
+  <div class="c-card">
+    <a href="/en-NAM/213636-cross-border-conflict-u-s-small-businesses-face-expansion-hurdles-due-to-international-banking-complexities/" class="c-card__img-holder" title="Cross-Border Conflict: U.S. Small Businesses Face Expansion Hurdles Due to International Banking Complexities">
+      <div class="bg-retina">
+        <span data-srcset="https://d21buns5ku92am.cloudfront.net/69645/images/470347-01-Wise-logo-bright-green%20%281%29-210bf3-large-1677594902.png, https://d21buns5ku92am.cloudfront.net/69645/images/470347-01-Wise-logo-bright-green%20%281%29-210bf3-large-1677594902.png 2x"></span>
+      </div>
+    </a>
+    <div class="c-card__text-holder">
+      <ul class="c-card__list">
+        <li class="c-card__item c-card__item--time">
+          <time datetime="2021-12-15" class="c-card__time">
+            <i class="icon-clock"></i>
+            December 15, 2021
+          </time>
+        </li>
+          <li class="c-card__item c-card__item--tag" data-tag="insights">
+            <a href="/en-NAM/tags/insights/" class="c-card__link text-uppercase" data-tag="insights">
+              Insights
+            </a>
+          </li>
+      </ul>
+      <h2 class="h5 c-card__title">
+        <a href="/en-NAM/213636-cross-border-conflict-u-s-small-businesses-face-expansion-hurdles-due-to-international-banking-complexities/">
+          Cross-Border Conflict: U.S. Small Businesses Face Expansion Hurdles Due to International Banking Complexities
+        </a>
+      </h2>
+      <p>Research from Wise shows that 40% SMBs operating internationally say international payments have made it harder to operate abroad</p>
+    </div>
+  </div>
+</div>
+
+              </div>
+              <ul class="btn-group">
+                <li class="btn-group__item">
+                  <a class="c-btn c-btn--outline-primary c-btn--icon-right" href="/en-NAM/releases/?tags=insights"><span class="c-btn__text">View news archive</span><i class="c-btn__icon icon-arrow-right"></i></a>
+                </li>
+              </ul>
+            </div>
+            <div id="statements-and-blogs">
+              <div class="column-holder">
+                <div class="column-holder__column column-holder__column-4  release__tag--statements-and-blogs">
+  <div class="c-card">
+    <a href="/en-NAM/216909-remittances-why-they-matter-to-me-and-millions-more-around-the-world/" class="c-card__img-holder" title="Remittances: why they matter to me and millions more around the world">
+      <div class="bg-retina">
+        <span data-srcset="https://d21buns5ku92am.cloudfront.net/69645/images/437949-748caeeafebe2dea20b379615e195164-2d75b9-large-1659123775.jpeg, https://d21buns5ku92am.cloudfront.net/69645/images/437949-748caeeafebe2dea20b379615e195164-2d75b9-large-1659123775.jpeg 2x"></span>
+      </div>
+    </a>
+    <div class="c-card__text-holder">
+      <ul class="c-card__list">
+        <li class="c-card__item c-card__item--time">
+          <time datetime="2022-06-16" class="c-card__time">
+            <i class="icon-clock"></i>
+            June 16, 2022
+          </time>
+        </li>
+          <li class="c-card__item c-card__item--tag" data-tag="statements-and-blogs">
+            <a href="/en-NAM/tags/statements-and-blogs/" class="c-card__link text-uppercase" data-tag="statements-and-blogs">
+              Statements and Blogs
+            </a>
+          </li>
+      </ul>
+      <h2 class="h5 c-card__title">
+        <a href="/en-NAM/216909-remittances-why-they-matter-to-me-and-millions-more-around-the-world/">
+          Remittances: why they matter to me and millions more around the world
+        </a>
+      </h2>
+      <p>Today, we celebrate the International Day of Family Remittances. Wise was founded by immigrants, built by immigrants, and is used by immigrants.</p>
+    </div>
+  </div>
+</div>
+<div class="column-holder__column column-holder__column-4  release__tag--statements-and-blogs">
+  <div class="c-card">
+    <a href="/en-NAM/216915-daca-is-temporary-the-recipients-of-the-program-are-not/" class="c-card__img-holder" title="DACA is temporary. The recipients of the program are not">
+      <div class="bg-retina">
+        <span data-srcset="https://d21buns5ku92am.cloudfront.net/69645/images/437950-capitol-7a122a-large-1659124999.jpeg, https://d21buns5ku92am.cloudfront.net/69645/images/437950-capitol-7a122a-large-1659124999.jpeg 2x"></span>
+      </div>
+    </a>
+    <div class="c-card__text-holder">
+      <ul class="c-card__list">
+        <li class="c-card__item c-card__item--time">
+          <time datetime="2022-06-15" class="c-card__time">
+            <i class="icon-clock"></i>
+            June 15, 2022
+          </time>
+        </li>
+          <li class="c-card__item c-card__item--tag" data-tag="statements-and-blogs">
+            <a href="/en-NAM/tags/statements-and-blogs/" class="c-card__link text-uppercase" data-tag="statements-and-blogs">
+              Statements and Blogs
+            </a>
+          </li>
+      </ul>
+      <h2 class="h5 c-card__title">
+        <a href="/en-NAM/216915-daca-is-temporary-the-recipients-of-the-program-are-not/">
+          DACA is temporary. The recipients of the program are not
+        </a>
+      </h2>
+      <p>In 2019, we signed an amicus brief to the United States Supreme Court in support of the Deferred Action for Childhood Arrivals (DACA) program. Today, we’re calling on Congress to enact a bipartisan...</p>
+    </div>
+  </div>
+</div>
+<div class="column-holder__column column-holder__column-4  release__tag--statements-and-blogs">
+  <div class="c-card">
+    <a href="/en-NAM/216942-policy-makers-worldwide-have-moved-to-stop-hidden-fees-where-is-the-united-states/" class="c-card__img-holder" title="Policy Makers Worldwide Have Moved to Stop Hidden Fees - Where is the United States?">
+      <div class="bg-retina">
+        <span data-srcset="https://d21buns5ku92am.cloudfront.net/69645/images/438127-IDFR_logos-en-001ee8-large-1659377167.jpeg, https://d21buns5ku92am.cloudfront.net/69645/images/438127-IDFR_logos-en-001ee8-large-1659377167.jpeg 2x"></span>
+      </div>
+    </a>
+    <div class="c-card__text-holder">
+      <ul class="c-card__list">
+        <li class="c-card__item c-card__item--time">
+          <time datetime="2021-06-16" class="c-card__time">
+            <i class="icon-clock"></i>
+            June 16, 2021
+          </time>
+        </li>
+          <li class="c-card__item c-card__item--tag" data-tag="statements-and-blogs">
+            <a href="/en-NAM/tags/statements-and-blogs/" class="c-card__link text-uppercase" data-tag="statements-and-blogs">
+              Statements and Blogs
+            </a>
+          </li>
+      </ul>
+      <h2 class="h5 c-card__title">
+        <a href="/en-NAM/216942-policy-makers-worldwide-have-moved-to-stop-hidden-fees-where-is-the-united-states/">
+          Policy Makers Worldwide Have Moved to Stop Hidden Fees - Where is the United States?
+        </a>
+      </h2>
+      <p>Today is the International Day of Family Remittances (IDFR), which was adopted by the United Nations (UN) General Assembly to recognize the more than 200 million individuals worldwide who send mone...</p>
+    </div>
+  </div>
+</div>
+<div class="column-holder__column column-holder__column-4  release__tag--statements-and-blogs">
+  <div class="c-card">
+    <a href="/en-NAM/216913-wise-submits-open-banking-comment-letter-to-the-cfpb/" class="c-card__img-holder" title="Wise submits Open Banking comment letter to the CFPB">
+      <div class="bg-retina">
+        <span data-srcset="https://d21buns5ku92am.cloudfront.net/69645/images/437948-CFPB-a635a8-large-1659122359.png, https://d21buns5ku92am.cloudfront.net/69645/images/437948-CFPB-a635a8-large-1659122359.png 2x"></span>
+      </div>
+    </a>
+    <div class="c-card__text-holder">
+      <ul class="c-card__list">
+        <li class="c-card__item c-card__item--time">
+          <time datetime="2021-02-08" class="c-card__time">
+            <i class="icon-clock"></i>
+            February 8, 2021
+          </time>
+        </li>
+          <li class="c-card__item c-card__item--tag" data-tag="statements-and-blogs">
+            <a href="/en-NAM/tags/statements-and-blogs/" class="c-card__link text-uppercase" data-tag="statements-and-blogs">
+              Statements and Blogs
+            </a>
+          </li>
+      </ul>
+      <h2 class="h5 c-card__title">
+        <a href="/en-NAM/216913-wise-submits-open-banking-comment-letter-to-the-cfpb/">
+          Wise submits Open Banking comment letter to the CFPB
+        </a>
+      </h2>
+      <p>“Open banking” is moving forward in the United States. Well, actually, it’s been happening through industry-driven partnerships for years, but the government will soon produce its first set of regu...</p>
+    </div>
+  </div>
+</div>
+<div class="column-holder__column column-holder__column-4  release__tag--statements-and-blogs">
+  <div class="c-card">
+    <a href="/en-NAM/216910-our-testimony-to-congress-how-to-improve-payments-for-us-consumers/" class="c-card__img-holder" title="Our testimony to Congress: How to improve payments for US consumers">
+      <div class="bg-retina">
+        <span data-srcset="https://d21buns5ku92am.cloudfront.net/69645/images/437879-harsh-capitol_1280191452-49da0c-large-1659029026.jpeg, https://d21buns5ku92am.cloudfront.net/69645/images/437879-harsh-capitol_1280191452-49da0c-large-1659029026.jpeg 2x"></span>
+      </div>
+    </a>
+    <div class="c-card__text-holder">
+      <ul class="c-card__list">
+        <li class="c-card__item c-card__item--time">
+          <time datetime="2019-09-26" class="c-card__time">
+            <i class="icon-clock"></i>
+            September 26, 2019
+          </time>
+        </li>
+          <li class="c-card__item c-card__item--tag" data-tag="statements-and-blogs">
+            <a href="/en-NAM/tags/statements-and-blogs/" class="c-card__link text-uppercase" data-tag="statements-and-blogs">
+              Statements and Blogs
+            </a>
+          </li>
+      </ul>
+      <h2 class="h5 c-card__title">
+        <a href="/en-NAM/216910-our-testimony-to-congress-how-to-improve-payments-for-us-consumers/">
+          Our testimony to Congress: How to improve payments for US consumers
+        </a>
+      </h2>
+      <p>Our CTO, Harsh, spoke to the House Committee for Financial Services at Congress, today, to explain how to improve access, transparency, speed and innovation in payments.</p>
+    </div>
+  </div>
+</div>
+
+              </div>
+              <ul class="btn-group">
+                <li class="btn-group__item">
+                  <a class="c-btn c-btn--outline-primary c-btn--icon-right" href="/en-NAM/releases/?tags=statements-and-blogs"><span class="c-btn__text">View news archive</span><i class="c-btn__icon icon-arrow-right"></i></a>
+                </li>
+              </ul>
+            </div>
+            <div id="reports-and-research">
+              <div class="column-holder">
+                <div class="column-holder__column column-holder__column-4  release__tag--reports-and-research">
+  <div class="c-card">
+    <a href="/en-NAM/216844-end-hidden-fees-on-remittances-in-the-u-s/" class="c-card__img-holder" title="End hidden fees on remittances in the U.S.">
+      <div class="bg-retina">
+        <span data-srcset="https://d21buns5ku92am.cloudfront.net/69645/images/438125-Global-d3e4af-large-1659376268.png, https://d21buns5ku92am.cloudfront.net/69645/images/438125-Global-d3e4af-large-1659376268.png 2x"></span>
+      </div>
+    </a>
+    <div class="c-card__text-holder">
+      <ul class="c-card__list">
+        <li class="c-card__item c-card__item--time">
+          <time datetime="2022-07-26" class="c-card__time">
+            <i class="icon-clock"></i>
+            July 26, 2022
+          </time>
+        </li>
+          <li class="c-card__item c-card__item--tag" data-tag="reports-and-research">
+            <a href="/en-NAM/tags/reports-and-research/" class="c-card__link text-uppercase" data-tag="reports-and-research">
+              Reports and Research
+            </a>
+          </li>
+      </ul>
+      <h2 class="h5 c-card__title">
+        <a href="/en-NAM/216844-end-hidden-fees-on-remittances-in-the-u-s/">
+          End hidden fees on remittances in the U.S.
+        </a>
+      </h2>
+      <p>Consumers are often unaware what they pay to send, spend, or receive money internationally, due to fees hidden in inflated exchange rates. That’s because pricing is misleading - with advertisements...</p>
+    </div>
+  </div>
+</div>
+<div class="column-holder__column column-holder__column-4  release__tag--reports-and-research">
+  <div class="c-card">
+    <a href="/en-NAM/216941-we-re-pushing-for-fee-transparency-in-canada/" class="c-card__img-holder" title="We’re pushing for fee transparency in Canada">
+      <div class="bg-retina">
+        <span data-srcset="https://d21buns5ku92am.cloudfront.net/69645/images/438124-Canada-58503a-large-1659376121.png, https://d21buns5ku92am.cloudfront.net/69645/images/438124-Canada-58503a-large-1659376121.png 2x"></span>
+      </div>
+    </a>
+    <div class="c-card__text-holder">
+      <ul class="c-card__list">
+        <li class="c-card__item c-card__item--time">
+          <time datetime="2019-06-17" class="c-card__time">
+            <i class="icon-clock"></i>
+            June 17, 2019
+          </time>
+        </li>
+          <li class="c-card__item c-card__item--tag" data-tag="reports-and-research">
+            <a href="/en-NAM/tags/reports-and-research/" class="c-card__link text-uppercase" data-tag="reports-and-research">
+              Reports and Research
+            </a>
+          </li>
+      </ul>
+      <h2 class="h5 c-card__title">
+        <a href="/en-NAM/216941-we-re-pushing-for-fee-transparency-in-canada/">
+          We’re pushing for fee transparency in Canada
+        </a>
+      </h2>
+      <p>New research shows Canadians unknowingly lose $13 billion annually in hidden fees on international payments.</p>
+    </div>
+  </div>
+</div>
+
+              </div>
+              <ul class="btn-group">
+                <li class="btn-group__item">
+                  <a class="c-btn c-btn--outline-primary c-btn--icon-right" href="/en-NAM/releases/?tags=reports-and-research"><span class="c-btn__text">View news archive</span><i class="c-btn__icon icon-arrow-right"></i></a>
+                </li>
+              </ul>
+            </div>
+            <div id="initiatives">
+              <div class="column-holder">
+                <div class="column-holder__column column-holder__column-4  release__tag--initiatives">
+  <div class="c-card">
+    <a href="/en-NAM/216916-nothing-to-hide/" class="c-card__img-holder" title="Nothing To Hide">
+      <div class="bg-retina">
+        <span data-srcset="https://d21buns5ku92am.cloudfront.net/69645/images/437951-20026c3dd976d625fc8641810c9d4306-9f8dd8-large-1659125529.jpeg, https://d21buns5ku92am.cloudfront.net/69645/images/437951-20026c3dd976d625fc8641810c9d4306-9f8dd8-large-1659125529.jpeg 2x"></span>
+      </div>
+    </a>
+    <div class="c-card__text-holder">
+      <ul class="c-card__list">
+        <li class="c-card__item c-card__item--time">
+          <time datetime="2022-07-29" class="c-card__time">
+            <i class="icon-clock"></i>
+            July 29, 2022
+          </time>
+        </li>
+          <li class="c-card__item c-card__item--tag" data-tag="initiatives">
+            <a href="/en-NAM/tags/initiatives/" class="c-card__link text-uppercase" data-tag="initiatives">
+              Initiatives
+            </a>
+          </li>
+      </ul>
+      <h2 class="h5 c-card__title">
+        <a href="/en-NAM/216916-nothing-to-hide/">
+          Nothing To Hide
+        </a>
+      </h2>
+      <p>A global grassroots campaign striving to bring transparent pricing to international payments to help achieve the United Nations Sustainable Development Goal of reducing remittance prices below 3% b...</p>
+    </div>
+  </div>
+</div>
+<div class="column-holder__column column-holder__column-4  release__tag--initiatives">
+  <div class="c-card">
+    <a href="/en-NAM/216914-our-message-in-support-of-dreamers/" class="c-card__img-holder" title="Our message in support of Dreamers">
+      <div class="bg-retina">
+        <span data-srcset="https://d21buns5ku92am.cloudfront.net/69645/images/470347-01-Wise-logo-bright-green%20%281%29-210bf3-large-1677594902.png, https://d21buns5ku92am.cloudfront.net/69645/images/470347-01-Wise-logo-bright-green%20%281%29-210bf3-large-1677594902.png 2x"></span>
+      </div>
+    </a>
+    <div class="c-card__text-holder">
+      <ul class="c-card__list">
+        <li class="c-card__item c-card__item--time">
+          <time datetime="2019-11-18" class="c-card__time">
+            <i class="icon-clock"></i>
+            November 18, 2019
+          </time>
+        </li>
+          <li class="c-card__item c-card__item--tag" data-tag="initiatives">
+            <a href="/en-NAM/tags/initiatives/" class="c-card__link text-uppercase" data-tag="initiatives">
+              Initiatives
+            </a>
+          </li>
+      </ul>
+      <h2 class="h5 c-card__title">
+        <a href="/en-NAM/216914-our-message-in-support-of-dreamers/">
+          Our message in support of Dreamers
+        </a>
+      </h2>
+      <p>We’re proud to support our employees and our customer community by joining 140 companies in sending an amicus brief to the United States Supreme Court, in support of the Deferred Action for Childho...</p>
+    </div>
+  </div>
+</div>
+
+              </div>
+              <ul class="btn-group">
+                <li class="btn-group__item">
+                  <a class="c-btn c-btn--outline-primary c-btn--icon-right" href="/en-NAM/releases/?tags=initiatives"><span class="c-btn__text">View news archive</span><i class="c-btn__icon icon-arrow-right"></i></a>
+                </li>
+              </ul>
+            </div>
+      </div>
+    </div>
+  </section>
+
+  
+        <section class="news-topic news-topic--news">
+        <h2 class="heading text-capitalize">
+          News
+        </h2>
+        <div class="column-holder">
+            <div class="column-holder__column column-holder__column-3 w-sm-100" data-tag="employer">
+  <div class="c-card c-card--tag" data-tag="employer">
+  <a href="/en-NAM/tags/employer/" class="c-card__img-holder">
+    <!-- picturefill: retina only -->
+    <img class="thumbnail__image" src="https://d21buns5ku92am.cloudfront.net/69645/tag_images/medium-1677656983-Employer.png" srcset="https://d21buns5ku92am.cloudfront.net/69645/tag_images/medium-1677656983-Employer.png 2x" alt="img-description">
+  </a>
+  <div class="c-card__text-holder">
+    <h3 class="h4">
+      <a href="/en-NAM/tags/employer/">
+        Employer
+      </a>
+    </h3>
+  </div>
+</div>
+
+</div>
+
+            <div class="column-holder__column column-holder__column-3 w-sm-100" data-tag="corporate">
+  <div class="c-card c-card--tag" data-tag="corporate">
+  <a href="/en-NAM/tags/corporate/" class="c-card__img-holder">
+    <!-- picturefill: retina only -->
+    <img class="thumbnail__image" src="https://d21buns5ku92am.cloudfront.net/69645/tag_images/medium-1677656995-Corporate.png" srcset="https://d21buns5ku92am.cloudfront.net/69645/tag_images/medium-1677656995-Corporate.png 2x" alt="img-description">
+  </a>
+  <div class="c-card__text-holder">
+    <h3 class="h4">
+      <a href="/en-NAM/tags/corporate/">
+        Corporate
+      </a>
+    </h3>
+  </div>
+</div>
+
+</div>
+
+            <div class="column-holder__column column-holder__column-3 w-sm-100" data-tag="product">
+  <div class="c-card c-card--tag" data-tag="product">
+  <a href="/en-NAM/tags/product/" class="c-card__img-holder">
+    <!-- picturefill: retina only -->
+    <img class="thumbnail__image" src="https://d21buns5ku92am.cloudfront.net/69645/tag_images/medium-1677657005-Product.png" srcset="https://d21buns5ku92am.cloudfront.net/69645/tag_images/medium-1677657005-Product.png 2x" alt="img-description">
+  </a>
+  <div class="c-card__text-holder">
+    <h3 class="h4">
+      <a href="/en-NAM/tags/product/">
+        Product
+      </a>
+    </h3>
+  </div>
+</div>
+
+</div>
+
+            <div class="column-holder__column column-holder__column-3 w-sm-100" data-tag="insights">
+  <div class="c-card c-card--tag" data-tag="insights">
+  <a href="/en-NAM/tags/insights/" class="c-card__img-holder">
+    <!-- picturefill: retina only -->
+    <img class="thumbnail__image" src="https://d21buns5ku92am.cloudfront.net/69645/tag_images/medium-1677657017-Insights.png" srcset="https://d21buns5ku92am.cloudfront.net/69645/tag_images/medium-1677657017-Insights.png 2x" alt="img-description">
+  </a>
+  <div class="c-card__text-holder">
+    <h3 class="h4">
+      <a href="/en-NAM/tags/insights/">
+        Insights
+      </a>
+    </h3>
+  </div>
+</div>
+
+</div>
+
+        </div>
+      </section>
+      <section class="news-topic news-topic--public-policy">
+        <h2 class="heading text-capitalize">
+          Public Policy
+        </h2>
+        <div class="column-holder">
+            <div class="column-holder__column column-holder__column-3 w-sm-100" data-tag="policy-positions">
+  <div class="c-card c-card--tag" data-tag="policy-positions">
+  <a href="/en-NAM/tags/policy-positions/" class="c-card__img-holder">
+    <!-- picturefill: retina only -->
+    <img class="thumbnail__image" src="https://d21buns5ku92am.cloudfront.net/69645/tag_images/medium-1677657027-Policy_Positions.png" srcset="https://d21buns5ku92am.cloudfront.net/69645/tag_images/medium-1677657027-Policy_Positions.png 2x" alt="img-description">
+  </a>
+  <div class="c-card__text-holder">
+    <h3 class="h4">
+      <a href="/en-NAM/tags/policy-positions/">
+        Policy Positions
+      </a>
+    </h3>
+  </div>
+</div>
+
+</div>
+
+            <div class="column-holder__column column-holder__column-3 w-sm-100" data-tag="statements-and-blogs">
+  <div class="c-card c-card--tag" data-tag="statements-and-blogs">
+  <a href="/en-NAM/tags/statements-and-blogs/" class="c-card__img-holder">
+    <!-- picturefill: retina only -->
+    <img class="thumbnail__image" src="https://d21buns5ku92am.cloudfront.net/69645/tag_images/medium-1677657037-Statements_and_Blogs.png" srcset="https://d21buns5ku92am.cloudfront.net/69645/tag_images/medium-1677657037-Statements_and_Blogs.png 2x" alt="img-description">
+  </a>
+  <div class="c-card__text-holder">
+    <h3 class="h4">
+      <a href="/en-NAM/tags/statements-and-blogs/">
+        Statements and Blogs
+      </a>
+    </h3>
+  </div>
+</div>
+
+</div>
+
+            <div class="column-holder__column column-holder__column-3 w-sm-100" data-tag="reports-and-research">
+  <div class="c-card c-card--tag" data-tag="reports-and-research">
+  <a href="/en-NAM/tags/reports-and-research/" class="c-card__img-holder">
+    <!-- picturefill: retina only -->
+    <img class="thumbnail__image" src="https://d21buns5ku92am.cloudfront.net/69645/tag_images/medium-1677657046-Reports_and_Research.png" srcset="https://d21buns5ku92am.cloudfront.net/69645/tag_images/medium-1677657046-Reports_and_Research.png 2x" alt="img-description">
+  </a>
+  <div class="c-card__text-holder">
+    <h3 class="h4">
+      <a href="/en-NAM/tags/reports-and-research/">
+        Reports and Research
+      </a>
+    </h3>
+  </div>
+</div>
+
+</div>
+
+            <div class="column-holder__column column-holder__column-3 w-sm-100" data-tag="initiatives">
+  <div class="c-card c-card--tag" data-tag="initiatives">
+  <a href="/en-NAM/tags/initiatives/" class="c-card__img-holder">
+    <!-- picturefill: retina only -->
+    <img class="thumbnail__image" src="https://d21buns5ku92am.cloudfront.net/69645/tag_images/medium-1677657061-Initiatives.png" srcset="https://d21buns5ku92am.cloudfront.net/69645/tag_images/medium-1677657061-Initiatives.png 2x" alt="img-description">
+  </a>
+  <div class="c-card__text-holder">
+    <h3 class="h4">
+      <a href="/en-NAM/tags/initiatives/">
+        Initiatives
+      </a>
+    </h3>
+  </div>
+</div>
+
+</div>
+
+        </div>
+      </section>
+
+  <!-- Press Page Content -->
+  
+  
+  
+  
+  
+</div>
+
+        </main>
+
+
+        <footer class="bg-alabaster footer">
+  <div class="container">
+    <div class="column-holder">
+        <div class="column-holder__column column-holder__column-6 w-sm-100">
+  <div class="footer__text-holder">
+    <picture class="footer__logo">
+      
+      <source srcset="https://d21buns5ku92am.cloudfront.net/69646/logo/retina-1677657632.png 1x" type="image/png">
+      
+      <img class="footer__logo__img footer__logo__img--png"
+        src="https://d21buns5ku92am.cloudfront.net/69646/logo/retina-1677657632.png"
+        alt="Wise logo">
+    </picture>
+    <h4 class="h3 footer__header">
+      Open an account
+    </h4>
+    <p>Everywhere money. 160 countries, 40 currencies. One card.</p>
+    <ul class="btn-group">
+      <li class="btn-group__item">
+          <a class="c-btn c-btn--primary" href="/en-NAM/contact/"><span class="c-btn__text">Register</span></a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+      <div class="column-holder__column column-holder__column-6 w-sm-100">
+        <div class="footer__column-holder accordion__mobile">
+          <div class="footer__column footer__column--newsroom-links">
+  <strong class="text-capitalize footer__nav-title accordion-opener">Newsroom</strong>
+  <nav class="footer__nav slide">
+    <ul class="footer__nav-list">
+      <li class="footer__nav-item footer__nav-item--home">
+        <a href="/en-NAM/" class="text-capitalize footer__nav-link">Home</a>
+      </li>
+      <li class="footer__nav-item footer__nav-item--news-archive">
+        <a href="/en-NAM/releases/" class="text-capitalize footer__nav-link">News archive</a>
+      </li>
+        <li class="footer__nav-item footer__nav-item--clippings">
+          <a href="/en-NAM/clippings/" class="text-capitalize footer__nav-link">In the news</a>
+        </li>
+      <li class="footer__nav-item footer__nav-item--about">
+        <a href="/en-NAM/about/" class="text-capitalize footer__nav-link">About</a>
+      </li>
+        <li class="footer__nav-item footer__nav-item--media-kits">
+          <a href="/en-NAM/assets/" class="text-capitalize footer__nav-link">Media kits</a>
+        </li>
+        <li class="footer__nav-item footer__nav-item--events">
+          <a href="/en-NAM/events/" class="text-capitalize footer__nav-link" data-text="Events">
+            Events
+          </a>
+        </li>
+      <li class="footer__nav-item footer__nav-item--contact">
+        <a href="/en-NAM/contact/" class="text-capitalize footer__nav-link">Contact</a>
+      </li>
+        <li class="footer__nav-item footer__nav-item--seperator">
+          <span class="seperator"></span>
+        </li>
+        <li class="footer__nav-item footer__nav-item--footer-link">
+          <a href="https://wise.com" class="link__text footer__nav-link" target="_blank" rel="noopener">wise.com</a>
+        </li>
+    </ul>
+  </nav>
+</div>
+
+          <div class="footer__column footer__column--tag-links">
+  <strong class="text-capitalize footer__nav-title accordion-opener">
+    News topics
+  </strong>
+  <nav class="footer__nav slide">
+    <ul class="footer__nav-list">
+        <li class="footer__nav-item footer__nav-item--news" data-tag="news">
+          <a href="/en-NAM/tags/news/" class="text-capitalize footer__nav-link" title="News News">
+            News
+          </a>
+        </li>
+        <li class="footer__nav-item footer__nav-item--public-policy" data-tag="public-policy">
+          <a href="/en-NAM/tags/public-policy/" class="text-capitalize footer__nav-link" title="Public Policy News">
+            Public Policy
+          </a>
+        </li>
+    </ul>
+  </nav>
+</div>
+
+          
+          
+          <div class="footer__column footer__column--social-networks">
+  <ul class="social-networks">
+    <li class="social-networks__item" data-social="rss">
+      <a href="https://newsroom.wise.com/en-NAM/press_releases.atom"  class="social-networks__link" target="_blank">
+        <i class="icon-rss"></i>
+      </a>
+    </li>
+      <li class="social-networks__item" data-social="linkedin">
+        <a href="https://www.linkedin.com/company/wiseaccount" class="social-networks__link" target="_blank" rel="noopener nofollow noreferrer">
+          <i class="icon-linkedin"></i>
+        </a>
+      </li>
+      <li class="social-networks__item" data-social="X">
+        <a href="https://twitter.com/Wise" class="social-networks__link" target="_blank" rel="noopener nofollow noreferrer">
+          <i class="icon-twitter"></i>
+        </a>
+      </li>
+      <li class="social-networks__item" data-social="facebook">
+        <a href="https://www.facebook.com/Wise/" class="social-networks__link" target="_blank" rel="noopener nofollow noreferrer">
+          <i class="icon-facebook"></i>
+        </a>
+      </li>
+
+      <li class="social-networks__item" data-social="instagram">
+        <a href="https://www.instagram.com/wiseaccount/" class="social-networks__link" target="_blank" rel="noopener nofollow noreferrer">
+          <i class="icon-instagram"></i>
+        </a>
+      </li>
+      <li class="social-networks__item" data-social="tiktok">
+        <a href="https://www.tiktok.com/@wise" class="social-networks__link" target="_blank" rel="noopener nofollow noreferrer">
+          <i class="icon-tiktok"></i>
+        </a>
+      </li>
+  </ul>
+</div>
+
+        </div>
+      </div>
+    </div>
+    <div class="footer__meta">
+      <span>Copyright © 2026 Wise. All rights reserved.</span>
+      <ul class="footer__policy">
+          <li class="footer__policy-item">
+            <a href="https://wise.com/gb/legal/privacy-policy-eea" class="footer__policy-link" target="_blank" rel="noopener">
+              Privacy policy
+            </a>
+          </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer__btn-wrap">
+      <a href="https://pr.co/?utm_source=newsroom&utm_medium=poweredby&utm_campaign=powered_by_wise" class="c-powered-btn" title="Manage your PR with PR.co — AI-powered PR software to publish, share, report, and collaborate globally.">
+    <i class="icon-wrap">
+      <svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25"><g clip-path="url(#a)"><path d="M23.946 4.717C22.546 1.799 19.533 0 16.297 0h-7.13C4.112 0 0 4.112 0 9.167c0 7.977 8.524 15.062 8.887 15.36l.576.473H25l-5.208-7.566c4.289-2.057 6.731-7.35 4.154-12.717Z" fill="#0C2920"/><path d="M10.856 16.039a35.176 35.176 0 0 0 2.298 4.5l-2.946 2.378S2.083 16.25 2.083 9.167a7.083 7.083 0 1 1 14.167 0c0 3.328-2.3 6.113-5.394 6.872Z" fill="#E9C6FF"/></g><defs><clipPath id="a"><path fill="#fff" d="M0 0h25v25H0z"/></clipPath></defs></svg>
+    </i>
+
+    <span>
+        Powered by PR.co
+    </span>
+  </a>
+
+  </div>
+</footer>
+
+
+        <div class="subscribe-drop">
+  <div class="drop-top">
+    <ul class="tabset">
+      <li class="tab-active">
+        <a href="#tab-1" id="subscribeEmailTab">
+          <span class="icon icon-mail"></span>
+        </a>
+      </li>
+      <li>
+        <a href="#tab-3" id="subscribeRSSTab">
+          <span class="icon icon-rss"></span>
+        </a>
+      </li>
+    </ul>
+    <a class="subscribe-opener">
+      <span class="icon-close"></span>
+    </a>
+  </div>
+  <div class="tab-content">
+    <div class="tab-data" id="tab-1">
+      <form class="subscribe-form subscribe-form--email" action="/en-NAM/followers/" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="z/B5wD9GKM/UgcXtvE9LHuP275+V0oAdfAqTLIFUJKdkBf1Vh+ZQ33QB2VvQpFSdwiLM+mjPOmN306Ub/3F4sw==" />
+        <div class="form-box">
+          <h2 class="h2">
+            Receive Wise news <span class="mark">by email</span>.
+          </h2>
+          <div class="form-row full">
+            <div class="form-col">
+              <div class="input-holder">
+                <div class="input-wrap">
+                  <input id="follower_email" class="placeholder_input" name="follower[email]" type="email" placeholder="Email address *" aria-label="Email address *">
+                  <input id="follower_email_enabled" name="follower[email_enabled]" type="hidden" value="1">
+                </div>
+                <span class="error-msg"></span>
+              </div>
+            </div>
+          </div>
+              <div class="form-row full">
+  <div class="form-col">
+    <div class="input-holder">
+      <div class="input-wrap">
+        <label class="select-label">
+          For which topics do you want to receive updates? *
+        </label>
+        <div class="checkbox-block" selectAllText='All news topics'>
+          <a  class="checkbox-opener">
+            Select news topics...
+          </a>
+          <div class="checkbox-drop">
+            <div class="checkbox-wrap">
+              <div class="checkbox-btns">
+                <a  class="btn-selectall">
+                  Select all
+                </a>
+                <a  class="btn-clear">
+                  Clear
+                </a>
+              </div>
+              <ul class="checkbox-drop-list">
+                  <li id="follower_tag_1" class="tag--news" data-tag="news">
+                    <label>
+                      <input type="checkbox" name="follower[tags][]" value="News" checked>
+                      <span class="checkbox-slide"></span>
+                      News
+                    </label>
+                  </li>
+                  <li id="follower_tag_2" class="tag--employer" data-tag="employer">
+                    <label>
+                      <input type="checkbox" name="follower[tags][]" value="Employer" checked>
+                      <span class="checkbox-slide"></span>
+                      <span class="emdash">— </span>Employer
+                    </label>
+                  </li>
+                  <li id="follower_tag_3" class="tag--corporate" data-tag="corporate">
+                    <label>
+                      <input type="checkbox" name="follower[tags][]" value="Corporate" checked>
+                      <span class="checkbox-slide"></span>
+                      <span class="emdash">— </span>Corporate
+                    </label>
+                  </li>
+                  <li id="follower_tag_4" class="tag--product" data-tag="product">
+                    <label>
+                      <input type="checkbox" name="follower[tags][]" value="Product" checked>
+                      <span class="checkbox-slide"></span>
+                      <span class="emdash">— </span>Product
+                    </label>
+                  </li>
+                  <li id="follower_tag_5" class="tag--insights" data-tag="insights">
+                    <label>
+                      <input type="checkbox" name="follower[tags][]" value="Insights" checked>
+                      <span class="checkbox-slide"></span>
+                      <span class="emdash">— </span>Insights
+                    </label>
+                  </li>
+                  <li id="follower_tag_6" class="tag--public-policy" data-tag="public-policy">
+                    <label>
+                      <input type="checkbox" name="follower[tags][]" value="Public Policy" checked>
+                      <span class="checkbox-slide"></span>
+                      Public Policy
+                    </label>
+                  </li>
+                  <li id="follower_tag_7" class="tag--policy-positions" data-tag="policy-positions">
+                    <label>
+                      <input type="checkbox" name="follower[tags][]" value="Policy Positions" checked>
+                      <span class="checkbox-slide"></span>
+                      <span class="emdash">— </span>Policy Positions
+                    </label>
+                  </li>
+                  <li id="follower_tag_8" class="tag--statements-and-blogs" data-tag="statements-and-blogs">
+                    <label>
+                      <input type="checkbox" name="follower[tags][]" value="Statements and Blogs" checked>
+                      <span class="checkbox-slide"></span>
+                      <span class="emdash">— </span>Statements and Blogs
+                    </label>
+                  </li>
+                  <li id="follower_tag_9" class="tag--reports-and-research" data-tag="reports-and-research">
+                    <label>
+                      <input type="checkbox" name="follower[tags][]" value="Reports and Research" checked>
+                      <span class="checkbox-slide"></span>
+                      <span class="emdash">— </span>Reports and Research
+                    </label>
+                  </li>
+                  <li id="follower_tag_10" class="tag--initiatives" data-tag="initiatives">
+                    <label>
+                      <input type="checkbox" name="follower[tags][]" value="Initiatives" checked>
+                      <span class="checkbox-slide"></span>
+                      <span class="emdash">— </span>Initiatives
+                    </label>
+                  </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <span class="error-msg">Error message</span>
+    </div>
+  </div>
+</div>
+
+          <div class="form-row full">
+  <div class="form-col">
+    <div class="input-holder">
+      <div class="input-wrap">
+        <label class="select-label">
+          Email frequency *
+        </label>
+        <select id="follower_frequency" name="follower[frequency]" aria-label="Email frequency *">
+          <option value="immediately" selected>
+            Immediate updates
+          </option>
+          <option value="daily"n>
+            Daily digest
+          </option>
+          <option value="weekly">
+            Weekly digest
+          </option>
+          <option value="monthly">
+            Monthly digest
+          </option>
+        </select>
+      </div>
+      <span class="error-msg"></span>
+    </div>
+  </div>
+</div>
+
+          <ul class="checkbox-list">
+  <li class="input-holder">
+    <label for="follower_email_has_consented">
+      <input id="follower_email_has_consented" type="checkbox" name="follower[has_consented]">
+      <span class="fake-input">
+        <span class="icon icon-check"></span>
+      </span>
+      <span class="fake-label">
+        I agree that Wise stores my data in order to send news updates *
+      </span>
+    </label>
+    <p>Your information is only used to send you news and will never be shared with third parties. Your personal data will be processed in accordance with Wise's <a href="https://wise.com/gb/legal/privacy-policy-eea">Privacy Policy</a>.</a></p>
+    <span class="error-msg"></span>
+  </li>
+</ul>
+
+          <div class="address_1782908080"><style media="screen">.address_1782908080 {position:absolute!important;top:-9999px;left:-9999px;}</style><label for="follower_address">If you are a human, ignore this field</label><input type="text" name="follower[address]" id="follower_address" autocomplete="off" tabindex="-1" /></div>
+          <div class="btn-holder">
+            <button class="c-btn c-btn--primary" type="submit"><span class="c-btn__text">Subscribe</span><span class="loading"></span></button>
+          </div>
+        </div>
+        <div class="msg-box">
+          <div class="img-holder">
+            <img src="https://cdn.pr.co/custom/media_center/images/inbox-check@2x.png?v=123h6zz2" alt="inbox check" width="140" height="64">
+          </div>
+          <h3 class="h3">
+            Please confirm your subscription
+          </h3>
+            <p>Thank you for subscribing–we're almost there. We just need to confirm your email address so we know we're sending news to the right person.
+</p>
+            <p>The confirmation email will arrive in your inbox shortly.
+</p>
+            <p>You can <a class="subscribe-opener">close this window</a>.
+</p>
+        </div>
+</form>    </div>
+    <div class="tab-data" id="tab-3">
+      <div class="rss-box">
+        <h2 class="h2">
+          Receive Wise news on your <span class="mark">RSS reader</span>.
+        </h2>
+        <div class="btn-holder">
+          <a target_blank="true" rel="noopener noreferrer" class="c-btn c-btn--primary" href="https://newsroom.wise.com/en-NAM/press_releases.atom"><span class="c-btn__text">Subscribe with RSS</span></a>
+        </div>
+        <form class="url-form form-validation">
+          <div class="url-title">
+            <span>Or subscribe through Atom URL manually</span>
+          </div>
+          <div class="form-row full">
+            <div class="form-col">
+              <div class="input-holder input-copy ">
+                <div class="input-wrap">
+                  <input class="placeholder_input" type="url" placeholder="Atom URL" value="https://newsroom.wise.com/en-NAM/press_releases.atom" readonly>
+                  <a class="interactive-icon btn-copy js--copy-to-clipboard" data-clipboard-success="URL copied to your clipboard." data-clipboard-text="https://newsroom.wise.com/en-NAM/press_releases.atom">
+                    <span class="icon icon-copy" title="Copy URL"></span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+        <div class="popup-holder">
+  <div id="popup1" class="popup-holder__wrap">
+    <div class="container">
+      <div class="popup-holder__text-holder">
+        <strong class="h1">
+          Search the entire Wise Newsroom
+        </strong>
+        <p>Find news releases, media kits and clippings</p>
+      </div>
+      <div class="column-holder">
+        <div class="column-holder__column column-holder__column-7 w-sm-100">
+          <form action="/en-NAM/search/" class="c-form c-form--search">
+            <div class="input-wrap">
+              <input type="search" name="q" placeholder="What are you looking for?" aria-label="What are you looking for?" class="form-customize">
+              <span class="input-wrap__icon"><i class="icon-search"></i></span>
+              <button aria-label="Search" class="c-btn c-btn--primary c-btn--icon-right" type="submit"><span class="c-btn__text">Search</span><i class="c-btn__icon icon-arrow-right"></i></button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <strong class="c-form__title d-md-none">
+        Navigate to a media section
+      </strong>
+      <ul class="press__list d-md-none">
+        <li class="press__item" data-press="media-kits">
+          <a href="/en-NAM/assets/" class="press__link press__link--media-kits ">
+  <span class="press__icon"><i class="icon-assets"></i></span>
+  <div class="content-wrap">
+    <h3 class="text-capitalize press__title">
+      Media kits
+    </h3>
+    <p class="c-link">
+      <span class="c-link__text">
+        Find media files
+      </span>
+    </p>
+  </div>
+</a>
+
+        </li>
+        <li class="press__item" data-press="press-releases">
+          <a href="/en-NAM/releases/" class="press__link press__link--archive ">
+  <span class="press__icon"><i class="icon-archive"></i></span>
+  <div class="content-wrap">
+    <h3 class="text-capitalize press__title">
+      News archive
+    </h3>
+    <p class="c-link">
+      <span class="c-link__text">
+        Find news
+      </span>
+    </p>
+  </div>
+</a>
+
+        </li>
+        <li class="press__item" data-press="contact">
+          <a href="/en-NAM/contact/" class="press__link press__link--contact ">
+  <span class="press__icon"><i class="icon-question"></i></span>
+  <div class="content-wrap">
+    <h3 class="text-capitalize press__title">
+      Media inquiry?
+    </h3>
+    <p class="c-link">
+      <span class="c-link__text">
+        Contact media team
+      </span>
+    </p>
+  </div>
+</a>
+
+        </li>
+        <li class="press__item" data-press="about">
+          <a href="/en-NAM/about/" class="press__link press__link--about ">
+  <span class="press__icon"><i class="icon-info"></i></span>
+  <div class="content-wrap">
+    <h3 class="text-capitalize press__title">
+      About
+    </h3>
+    <p class="c-link">
+      <span class="c-link__text">
+        Get to know us
+      </span>
+    </p>
+  </div>
+</a>
+
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+      </div>
+
+    <script src="https://dkskyn6tqnjvs.cloudfront.net/assets/media_center-041ed9d3d72589e5b591f66556e259ac2b625d13f0ab4c50eef804d93306a589.js" id="media_center_js" nonce="c5423aff28fd4739262e9506c868c4e2a4"></script>
+    
+    <!-- JS Variables -->
+<script type="text/javascript" nonce="c5423aff28fd4739262e9506c868c4e2a4">
+  var pressroom_id      = 69646;
+  var country_code      = 'NAM';
+  var press_release_id  = null;
+  var media_kit_id      = null;
+  
+</script>
+
+<!-- Custom JS -->
+  <script type="text/javascript" nonce="c5423aff28fd4739262e9506c868c4e2a4">$('.navbar__align-cta-r .c-btn--primary')
+  .attr(
+    'href',
+    'https://wise.com/register/?redirectUrl=%2Fget-started%3Forigin%3DMCAHP&country=BR&utm_source=newsroom&utm_medium=news&utm_campaign=newsroom#/email'
+  )
+  .attr('target', 'blank');
+
+$('.footer__text-holder .c-btn--primary')
+  .attr(
+    'href',
+    'https://wise.com/register/?redirectUrl=%2Fget-started%3Forigin%3DMCAHP&country=BR&utm_source=newsroom&utm_medium=news&utm_campaign=newsroom#/email'
+  )
+  .attr('target', 'blank');
+
+$('.footer__text-holder').prepend(
+  '<img class="logo__img" src="https://d21buns5ku92am.cloudfront.net/41519/documents/51452-1677618673-Frame%2039263-941e68.svg" alt="Wise logo">'
+);
+$('.logo__img').attr(
+  'src',
+  'https://d21buns5ku92am.cloudfront.net/41519/documents/51452-1677618673-Frame%2039263-941e68.svg'
+);
+
+// $('head').append('<script src="https://wise.com/cookie-consent.js"></sc ' + 'ript>');
+
+$('body.pages_about .press__link.secondary').attr('href', 'mailto:press@wise.com');
+$('body.pages_about .press__link.secondary .c-link').text('press@wise.com');
+
+$('.language--zh-HK .language__text, body.language_zh-HK .toolbar-link--language > span').text('中文（繁体）');
+$('.language--zh-CN .language__text, body.language_zh-CN .toolbar-link--language > span').text('中文（简体）');
+
+$('.main-nav__item--events').remove();
+$('.footer__nav-item--events').remove();
+
+// Add Owners link to navbar
+$('.main-nav__item--about').after(`
+  <li class="main-nav__item main-nav__item--owners">
+    <a href="https://wise.com/owners/" class="main-nav__link">
+      Owners
+    </a>
+  </li>
+`);
+</script>
+
+<script type="text/javascript" nonce="c5423aff28fd4739262e9506c868c4e2a4">
+  document.addEventListener('DOMContentLoaded', function() {
+    var originalDomain = 'dkskyn6tqnjvs.cloudfront.net';
+    var newDomain = 'asset.pr.rocks';
+
+    function handleAssetError(element) {
+      var assetSrc = element.src || element.href;
+      if (assetSrc && assetSrc.includes(originalDomain)) {
+        if (element.src) {
+          element.src = assetSrc.replace(originalDomain, newDomain);
+        } else {
+          element.href = assetSrc.replace(originalDomain, newDomain);
+        }
+      }
+    }
+
+    var cssElement = document.getElementById('media_center_css');
+    if (cssElement) {
+      cssElement.onerror = function() {
+        handleAssetError(cssElement);
+      };
+    }
+
+    var jsElement = document.getElementById('media_center_js');
+    if (jsElement) {
+      jsElement.onerror = function() {
+        handleAssetError(jsElement);
+      };
+    }
+  });
+</script>
+
+    <!-- Footer JS -->
+  </body>
+</html>

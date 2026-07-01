@@ -1,0 +1,18 @@
+User-agent: *
+Crawl-delay: 5
+Disallow: /*.atom$
+Disallow: /login/
+Disallow: /search/
+Disallow: /*/search/
+Disallow: /*/search/*
+
+Sitemap: https://newsroom.wise.com/en-CAS/sitemap.xml
+Sitemap: https://newsroom.wise.com/zh-CN-CAS/sitemap.xml
+Sitemap: https://newsroom.wise.com/zh-HK-CAS/sitemap.xml
+Sitemap: https://newsroom.wise.com/en-CEU/sitemap.xml
+Sitemap: https://newsroom.wise.com/fr-CEU/sitemap.xml
+Sitemap: https://newsroom.wise.com/pt_BR-LAM/sitemap.xml
+Sitemap: https://newsroom.wise.com/en-NAM/sitemap.xml
+Sitemap: https://newsroom.wise.com/es-NAM/sitemap.xml
+Sitemap: https://newsroom.wise.com/en-PAC/sitemap.xml
+Sitemap: https://newsroom.wise.com/en-UKI/sitemap.xml

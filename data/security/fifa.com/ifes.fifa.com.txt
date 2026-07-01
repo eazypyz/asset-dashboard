@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+    <title>FIFA IFES - 404 Page Not Found</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="FIFA IFES" />
+    <meta name="description" content="FIFA IFES" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="language" content="en" />
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+            color: white;
+            font-family: Segoe, Arial, sans-serif;
+            position: relative;
+        }
+
+        html, body {
+            width: 100%;
+            height: 100%;
+        }
+
+        #error {
+            top: 20%;
+            display: block;
+            width: 1024px;
+            height: 560px;
+            margin: 0 auto;
+            text-align: left;
+            background-image: url('404.jpg');
+        }
+    </style>
+</head>
+<body>
+    <% System.DateTime.Now.ToString() %>
+    <div id="error">
+    </div>
+</body>
+</html>
+

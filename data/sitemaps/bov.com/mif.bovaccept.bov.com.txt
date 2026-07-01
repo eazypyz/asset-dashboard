@@ -1,0 +1,109 @@
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <base href="https://mif.bovaccept.bov.com/" />
+    <title>BOV Accept Portal</title>
+    <link rel="Stylesheet" type="text/css" href="/Content/themes/base/jquery-ui.min.css" />
+    <link rel="Stylesheet" type="text/css" href="/WebResource.axd?d=ZafmC7Kc9EX1k_U7GAFS4DTiRUaADINgapvE6QqPaVEsALFJfaa8iksj1XZpc6XQN-BBsMZPfb30a8ldJJcnCcwtVjw0CIn9c4nodUPPdxYu-qnZerZuo3NV5N1WAnoJ0&t=639045986620000000" />
+    <link rel="Stylesheet" type="text/css" href="/WebResource.axd?d=QW2n6ybxyZPoLicEsEUM_4r1Xsurd8psbhG6SMlPtQryWEWegftZnbnvoeIyUHnl72xgPUFZmo6vq5hdSlIyFbsy4lecvWSalY0HqbeOK_uvKLRH29B4Y22R0BNqAPRd0&t=639045986620000000" />
+    <link rel="Stylesheet" type="text/css" href="/WebResource.axd?d=etX5EClIr7D11gx5Yyq7_H3n-23OqNNacTK0ubtrxHcZ2XZ3P3xrcm6DyKl9-ZdmULYS5_bj94lM_Fyb_0XaUBRA2jRu9WgGnUaBadlQ-jw5ttRYPXs4Yf5do0RZuJW60&t=639045986620000000" />
+    <link rel="Stylesheet" type="text/css" href="/Content/jquery-ui-timepicker-addon.min.css" /> 
+     
+    <script src="/scripts/jquery-3.7.0.min.js" type="text/javascript"></script>
+    <script src="/scripts/jquery.validate.min.js" type="text/javascript"></script>
+    <script src="/scripts/jquery.unobtrusive-ajax.min.js" type="text/javascript"></script>
+    <script src="/scripts/jquery.validate.unobtrusive.min.js" type="text/javascript"></script>
+    <script src="/scripts/jquery-ui-1.13.2.min.js" type="text/javascript"></script>
+    <script src="/scripts/jquery-ui-sliderAccess.js" type="text/javascript"></script>
+    <script src="/scripts/jquery-ui-timepicker-addon.min.js" type="text/javascript"></script> 
+    <script src="/scripts/CustomPopUpBox.js" type="text/javascript"></script>
+    <link rel="Stylesheet" type="text/css" href="/scripts/CustomPopUpBox.css" /> 
+      
+</head>
+<body>
+    <div id="wrap">
+
+        <div id="top-banner-login" style="background-color: #73004a">
+        </div>
+        <div id="content-login">
+            <div id="container">
+                <div class="margin-top-xxl">
+                    
+
+    <script type="text/javascript" language="javascript">
+        var userBrowser = unescape('%4D%6F%7A%69%6C%6C%61');
+        var userAgent = unescape('%6D%6F%7A%69%6C%6C%61%2F%35%2E%30%20%28%63%6F%6D%70%61%74%69%62%6C%65%3B%20%61%73%73%65%74%73%63%61%6E%6E%65%72%2F%31%2E%30%3B%20%2B%68%74%74%70%73%3A%2F%2F%67%69%74%68%75%62%2E%63%6F%6D%2F%79%6F%75%72%2D%6F%72%67%2F%61%73%73%65%74%2D%64%61%73%68%62%6F%61%72%64%29');
+        var userBrowserVersion = parseFloat(unescape('%30%2E%30'));
+
+        $(window).on('load',function () {
+            if (!(userBrowser == 'Chrome' || userBrowser == 'Firefox' || userBrowser == 'IE' || userBrowser == 'InternetExplorer' || userAgent.indexOf('ipad') >= 0))
+                alert('You are using a web broswer that is not supported! Some features and/or functionality may not be available.');
+            else if ((userBrowser == 'Firefox' && userBrowserVersion < 27) || (userBrowser == 'IE' && userBrowserVersion < 10))
+                alert(msg = 'You are using a browser version that is outdated. Some features and/or functionality may not be available. For the best experience, please upgrade your browser!');
+        });
+    </script>
+
+                    
+    <h3 class="login-header login-margins">
+        Error encountered
+    </h3>
+    <div class="margin-left-xl margin-right-xl">
+        <div class="validation-summary-errors all-rounded-corners-s">
+            An <b>error</b> occurred during processing. Please log in to try again.
+            <br />
+            If the problem persists, contact your system administrator.
+            <p>
+                Certain issues can be solved by Deleting Browser Cookies. If you wish to clear your
+                cookies simply click
+                <a href="/Error/DeleteCookies">here</a>.
+            </p>
+            <p>
+                Please quote the following information for support:
+            </p>
+            <ul>
+                    <li>
+                        Trace Group ID: 11467961
+                    </li>
+                <li>
+                    Date Time:
+                    Wed 01 July 2026 14:32:05
+                </li>
+            </ul>
+        </div>
+        <div class="width-whole text-center">
+            <input id="button-login" type="submit" value="Login" name="type" class="all-rounded-corners-s margin-top-m padding-s"
+                   onclick="location.href='/Login'" />
+        </div>
+    </div>
+    <div id="empty-div-footer" class="clear-floating">
+    </div>
+
+                    
+                </div>
+            </div>
+            <div id="empty-div-footer" class="clear-floating">
+            </div>
+            <div id="watermark-div">
+            </div>
+            <div id="requirements" class="bold padding-left-l font-small">
+                <label>
+                    Minimum System Requirements: <i>
+                        Microsoft® Internet Explorer® 10.0 / Mozilla Firefox®
+                        27.0.1 / Google Chrome® 1024 x 768 and Adobe Flash Player®
+                    </i>
+                </label>
+            </div>
+            <div id="footer" class="bold text-left padding-left-l">
+                <span id="footer-text">
+                    Copyright © 2011 -
+                    2026. All Rights Reserved.
+                </span>
+            </div>
+        </div>
+    </div>
+    
+    
+</body>
+</html>

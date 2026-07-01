@@ -1,0 +1,1027 @@
+<!doctype html>
+<html lang="en" >
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=2">
+    <meta name="theme-color" content="#82B1FF">
+    <meta name="robots" content="noindex">
+    <title>Mexico</title>
+
+    <!-- meta tags -->
+    <meta property="og:url"           content="https://fwc26-mex.volunteer.fifa.com"/>
+    <meta property="og:type"          content="website" />
+    <meta property="og:title"         content="Mexico" />
+    <meta property="og:description"   content="" />
+    <meta property="og:image"         content="https://s3.eu-central-1.amazonaws.com/storage.fifa.rosterfy.com/misc/I5sw/I5swUI89CALsg3bUgWWKcfpVbGrP5r81lMR67VEj.png" />
+
+    <!-- Twitter tags -->
+    <meta name="twitter:url" content="https://fwc26-mex.volunteer.fifa.com" />
+    <meta name="twitter:title"  content="Mexico" />
+    <meta name="twitter:description"  content="" />
+    <meta name="twitter:image" content="https://s3.eu-central-1.amazonaws.com/storage.fifa.rosterfy.com/misc/I5sw/I5swUI89CALsg3bUgWWKcfpVbGrP5r81lMR67VEj.png" />
+
+    <link rel="stylesheet" href="https://cdn-fifa.rosterfy.com/build-e2eefed/css/portal.css?id=d28f48d430faa8c7b0b71fa3a119084f">
+    <link rel="icon" href="https://s3.eu-central-1.amazonaws.com/storage.fifa.rosterfy.com/misc/Ybkx/Ybkxl2cgiZRKCi1cgUNg9sjl3x5xNfVep4mM06JE.png">
+    <style type="text/css">
+                :root{
+            --primary: #82B1FF;
+            --secondary: #AFEA00;
+
+            --feature:  #82B1FF ;
+            --primary-lighter: #95bdff;
+            --primary-on-white-lighter:   #95bdff ;
+            --secondary-lighter: #bbee27;
+
+            --primary-darker: #6f97d9;
+            --secondary-darker: #95c700;
+
+            --color-on-primary:  var(--black) ;
+            --color-on-primary-alt:  var(--dark) ;
+
+            --color-on-primary-on-white:  var(--dark) ;
+            --primary-on-white:   var(--primary) ;
+
+            --color-on-secondary:  var(--black) ;
+            --color-on-secondary-alt:  var(--dark) ;
+            --color-on-secondary-text:  var(--white) ;
+
+            
+         --header-google-font-family: Rubik;          --content-google-font-family: Rubik; 
+         --logo: url('https://s3.eu-central-1.amazonaws.com/storage.fifa.rosterfy.com/misc/I5sw/I5swUI89CALsg3bUgWWKcfpVbGrP5r81lMR67VEj.png');          --logo-mono: url('https://s3.eu-central-1.amazonaws.com/storage.fifa.rosterfy.com/misc/Pff0/Pff0fFzNe5GjuJFPl2pwpWIDwImYPcPbqdohp4S9.png');          --logo-stacked: url('https://s3.eu-central-1.amazonaws.com/storage.fifa.rosterfy.com/misc/SJcK/SJcKgOZe5HFTwzyVaQPFBkOSjmc7rHbTG2KuPG83.png'); 
+         --background-image: url('https://s3.eu-central-1.amazonaws.com/storage.fifa.rosterfy.com/misc/cFlo/cFlojukD0sQIFJ8UBIHvrmx27Qh4iJhfQ838ctAo.png');          --portal-background-image: url('https://s3.eu-central-1.amazonaws.com/storage.fifa.rosterfy.com/misc/zmbA/zmbA28mRqVyi5XLz9DT3uUeic3AFeDIMxCe05dec.png');         }
+
+        *,
+        *::before,
+        *::after {
+            box-sizing: border-box;
+        }
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        .rosterfy-loading {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: 100px;
+            min-height: 100vh;
+        }
+        .rosterfy-spinner {
+            display: inline-block;
+            width: 32px;
+            height: 32px;
+            vertical-align: text-bottom;
+            border: 3.5px solid var(--primary);
+            border-right-color: transparent;
+            border-radius: 50%;
+            -webkit-animation: spinner-kf 0.75s linear infinite;
+            animation: spinner-kf 0.75s linear infinite;
+        }
+        @-webkit-keyframes spinner-kf{
+            to {
+                -webkit-transform: rotate(1turn);
+                transform: rotate(1turn);
+            }
+        }
+        @keyframes spinner-kf{
+            to {
+                -webkit-transform: rotate(1turn);
+                transform: rotate(1turn);
+            }
+        }
+    </style>
+
+        <style type="text/css">/*Change role offer reject button color*/
+.btn.mt-2.role-offer-decline.btn-secondary.btn-block { background-color: #ff2600 !important;}
+
+/*Do not display mandatory button for e-learning*/ 
+.badge.badge-primary {display: none;
+}
+
+/* Hide Times in Subaccount Select Modal */
+.account-select-modal h6.text-center {
+    display: none !important;
+}
+
+/*Remove Back to Community or Parent Account*/
+.nav-item.nav-item-parent {
+  display: none !important;
+}
+
+/*Correct superscript on login page*/
+sup {font-size:xx-small; vertical-align:top;}
+.card page-title hi{ display:none;}
+.register-page .logo { padding:10px 40px }
+
+/* Footer */
+.app .public-footer, .app .app-footer { background-color: #fff; border-top-width: 0px}
+.app .public-footer h3 {color: #000}
+
+/* Hide subscribe to marketing */
+@media (max-width: 576px) {
+  .app .public-footer img { padding: 0px 30%; margin-bottom:10px }
+}
+
+/* Video */
+@media (max-width: 576px) {
+.wenger{width: 100%; height:150%;}
+}
+
+/* Change Permissions in My profile */
+#app > div > main > div > div > div > div.mt-3.col-xl-5.col-12 > form.permission-form.mt-3 > div > div.card-header > h2{font-size:0px;}
+#app > div > main > div > div > div > div.mt-3.col-xl-5.col-12 > form.permission-form.mt-3 > div > div.card-header > h2:after{content: "Keep in Touch with  &  Partners"; font-size: 1.125rem;}
+
+/* Checkin missing text*/
+.checkin-form-modal .form-row label {color:black !important;}
+
+/* e form attribute bold*/
+.e{font-weight: bolder;}
+#app > div > div.public-container > div > div > form > div > div.card-body.py-3 > div.mt-3.text-center.text-primary.typography{DISPLAY:NONE;}
+
+/* Custom Tonic CSS */
+@font-face {
+    font-family: 'Qatar2022-Heavy';
+    src: url(https://s3.eu-west-2.amazonaws.com/storage.rosterfy.uk/fonts//Qatar2022-Heavy.otf) format('opentype');
+}
+@font-face {
+    font-family: 'Qatar2022-Bold';
+    src: url(https://s3.eu-west-2.amazonaws.com/storage.rosterfy.uk/fonts//Qatar2022-Bold.otf) format('opentype');
+}
+@font-face {
+    font-family: 'Qatar2022-Book';
+    src: url(https://s3.eu-west-2.amazonaws.com/storage.rosterfy.uk/fonts//Qatar2022-Book.otf) format('opentype');
+}
+@font-face {
+    font-family: 'Qatar2022-Medium';
+    src: url(https://s3.eu-west-2.amazonaws.com/storage.rosterfy.uk/fonts//Qatar2022-Medium.otf) format('opentype');
+}
+@font-face {
+    font-family: 'Qatar2022-Thin';
+    src: url(https://s3.eu-west-2.amazonaws.com/storage.rosterfy.uk/fonts//Qatar2022-Thin.otf) format('opentype');
+}
+
+
+.tnc-content{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	max-width: 992px;
+	margin: 0 auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.tnc-content .master-bg{
+	isolation: isolate;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+}
+.tnc-content .master-bg .bg-gradient{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	/*background: linear-gradient(220deg, rgba(242,169,0,1) 20%, rgba(114,83,186,1) 100%);*/
+	background-image: url(https://s3.eu-central-1.amazonaws.com/storage.-uat.rosterfy.com/clients/20101/uploads/MVKd/MVKdT9Y1zbYLykhnsUKi6ijUZSgNonIPN88NMM9q.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+.tnc-content .master-bg .bg-image{
+	opacity: 0.7;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-image: url(https://s3.eu-central-1.amazonaws.com/storage.-uat.rosterfy.com/clients/20101/uploads/93RA/93RAmBB3DngQ9GOozVyKWcOzrtC58Va3wCYUWsF8.png);
+	background-position: top 160px center;
+	background-repeat: no-repeat;
+	background-size: 2000px;
+	mix-blend-mode: overlay;
+}
+
+
+.tnc-content .content-wrap{
+	position: relative;
+	max-width: 1024px;
+	margin: 0 auto;
+	padding: 55px;
+}
+.tnc-content .purple-clr{
+	color: #550065;
+}
+.tnc-content .purple-bg{
+	background-color: #550065;
+}
+.tnc-content .content-wrap .flex{
+	display: flex;
+}
+
+.tnc-content h2{
+	font-family: 'Qatar2022-Book', Arial, Helvetica,  'sans-serif';
+	color: #550065;
+	font-size: 22px;
+	line-height: 30px;
+	padding: 0;
+	margin: 45px 0 15px 0;
+}
+.tnc-content h3{
+	font-family: 'Qatar2022-Book', Arial, Helvetica,  'sans-serif';
+	color: #fff;
+	font-size: 22px;
+	line-height: 25px;
+	width: 85%;
+	padding: 0;
+	margin: 0 0 10px 0;
+}
+.tnc-content h3 strong{
+	font-family: 'Qatar2022-Heavy', Arial, Helvetica,  'sans-serif';
+	color: #F2A900;
+}
+.tnc-content p, .tnc-content ul{
+	font-family: 'Graphik', Arial, Helvetica,  'sans-serif';
+	color: #fff;
+	font-size: 11px;
+	line-height: 16px;
+	margin: 0 0 10px 0;
+}
+.tnc-content p:last-child{
+	margin: 0;
+}
+.tnc-content p a{
+	color: #fff;
+	text-decoration: underline;
+}
+.tnc-content ul{
+	padding: 0 0 0 20px;
+}
+.tnc-content ul li{
+	margin-bottom: 5px;
+}
+.tnc-content a.link{
+	color: #F2A900;
+	text-decoration: none;
+	display: inline-flex;
+	align-items: center;
+}
+.tnc-content a.link span{
+	font-size: 17px;
+	line-height: 17px;
+	margin: 0 0 2px 5px
+}
+.tnc-content img{
+	max-width: 100%;
+	height: auto;
+}
+.tnc-content img.img-rounded{
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.cta-buttons .button{
+	display: inline-flex;
+	align-items: center;
+	margin: 0 25px 0 0;
+	position: relative;
+	background: #F2A900;
+	font-family: 'Qatar2022-Heavy', Arial, Helvetica,  'sans-serif';
+	font-size: 22px;
+	line-height: 22px;
+	color:#550065;
+	height: 44px;
+	padding: 2px 20px 0 20px;
+	min-width: 185px;
+	text-decoration: none;
+	border-radius: 10px;
+	justify-content: center;
+}
+.cta-buttons .button:last-child{
+	margin-right: 0;
+}
+.cta-buttons.footer{
+	margin: 15px 0 40px 0;
+}
+
+
+.tnc-content .cr{
+	margin-bottom: 35px;
+}
+.tnc-content .content-box{
+	border-radius: 10px;
+	overflow: hidden;
+}
+.tnc-content .content-box .image{
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.video-holder{
+	position: relative;
+  	border-radius: 10px;
+	overflow: hidden;
+	display: flex;
+}
+.video-holder video {
+ width: 100%;
+	height: 100%;
+}
+
+.tnc-page1 .header .flex{
+	justify-content: space-between;
+}
+.tnc-page1 .header .icon{
+	margin: 0 0 0 10px;
+}
+.tnc-page1 .header .cta-buttons{
+	margin: 55px 0 0 0;
+	display: flex;
+}
+.tnc-page1 .content-row1 .content-box .image{
+	width: 64%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.tnc-page1 .content-row1 .content-box .copy{
+	width: 36%;
+	padding: 15px 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.tnc-page1 .content-row2 .content-box .image{
+	width: 58%;
+}
+.tnc-page1 .content-row2 .content-box .icon-copy{
+	width: 42%;
+}
+.tnc-page1 .content-row2 .content-box .icon-copy .copy{
+	padding: 60px 40px 40px 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.tnc-page1 .content-row3 .content-box .image{
+	width: 43%;
+	margin-left: 8%;
+}
+.tnc-page1 .content-row3 .content-box .copy{
+	width: 49%;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.tnc-page1 .content-row4 .content-box .image{
+	width: 56%;
+}
+.tnc-page1 .content-row4 .content-box .copy{
+	width: 38%;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.tnc-page1 .amazing{
+	padding-top: 25px;
+}
+
+
+.tnc-page2 .header .cta-buttons{
+	margin: 55px 0 0 0;
+	justify-content: space-between;
+}
+.tnc-page2 .content-row1 .image{
+	width: 65%;
+	margin-left: 8%;
+}
+.tnc-page2 .content-row2{
+	justify-content: space-between;
+}
+.tnc-page2 .content-row2 .content-box{
+	width: 48.5%;
+	display: flex;
+	flex-direction: column;
+}
+.tnc-page2 .content-row2 .copy{
+	padding: 40px 20px;
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.tnc-page2 .content-row2 .copy h3{
+	width: 100%;
+}
+
+.tnc-page2 .content-row3 .content-box{
+	justify-content: space-between;
+}
+.tnc-page2 .content-row3 .icon-copy{
+	width: 41.5%;
+}
+.tnc-page2 .content-row3 .icon-copy .icon{
+	max-width: 80%;
+}
+.tnc-page2 .content-row3 .icon-copy .copy{
+	padding: 30px 20px 30px 20px;
+}
+.tnc-page2 .content-row3 .image{
+	width: 58.5%;
+}
+.tnc-page2 .together{
+	padding-top: 25px;
+}
+
+.tnc-page3 .header .cta-buttons{
+	margin: 55px 0 0 0;
+	justify-content: space-between;
+}
+.tnc-page3 .content-row1{
+	align-items: center;
+	margin: 55px 0 60px 0;
+}
+.tnc-page3 .content-row1 .content-box{
+	align-items: center;
+}
+.tnc-page3 .content-row1 .image{
+	width: 74%;
+}
+.tnc-page3 .content-row1 .copy{
+	width: 26%;
+	padding: 20px;
+}
+.tnc-page3 .content-row1 .copy h3{
+	width: 100%;
+}
+.tnc-page3 .content-row2 .image{
+	text-align: center;
+}
+.tnc-page3 .content-row3{
+	margin: 60px 0;
+}
+.tnc-page3 .content-row3 .image{
+	width: 45%;
+	margin-left: 33%;
+}
+
+
+.tnc-page4 .header .cta-buttons{
+	margin: 55px 0 0 0;
+	justify-content: space-between;
+}
+.tnc-page4 .content-row1{
+	margin-top: 55px;
+	justify-content: space-between;
+}
+
+.tnc-page4 .content-row1 .content-box{
+	width: 100%;
+	padding-bottom: 30px;
+}
+.tnc-page4 .content-row1 .content-box .copy{
+	padding: 40px 20px;
+}
+.tnc-page4 .content-row2{
+	justify-content: space-between;
+}
+.tnc-page4 .content-row2 .content-box{
+	width: 48.5%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.tnc-page4 .content-row2 .left-column .icon{
+	align-self: flex-end;
+}
+.tnc-page4 .content-row2 .content-box .copy{
+	padding: 20px;
+}
+
+.tnc-page4 .content-row3 .content-box{
+	justify-content: space-between;
+}
+.tnc-page4 .content-row3 .image{
+	width: calc(100% - 310px);
+}
+.tnc-page4 .content-row3 .countdown-wrapper{
+	text-align: center;
+	padding: 20px 20px 40px 20px;
+	width: 310px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.tnc-page4 .content-row3 .countdown-wrapper .countdown{
+	font-family: 'Qatar2022-Heavy', Arial, Helvetica,  'sans-serif';
+	color: #F2A900;
+	font-size: 140px;
+	line-height: 140px;
+}
+.tnc-page4 .content-row3 .countdown-wrapper p{
+	font-family: 'Qatar2022-Book', Arial, Helvetica,  'sans-serif';
+	color: #fff;
+	font-size: 50px;
+}
+.tnc-page4 .content-row4 .copy{
+	padding: 30px;
+}
+.tnc-page4 .content-row4 .copy h3{
+	font-size: 45px;
+	line-height: 45px;
+	padding-bottom: 10px;
+}
+.tnc-page4 .content-row4 .copy p{
+	font-family: 'Qatar2022-Book', Arial, Helvetica,  'sans-serif';
+	font-size: 20px;
+	line-height: 24px;
+}
+.tnc-page4 .content-row4 .image{
+	padding: 0 20px;
+}
+.tnc-page4 .content-row4 .image img{
+	margin: 0 auto;
+}
+.tnc-page4 .discover{
+	padding-top: 15px;
+}
+
+
+.tnc-page5 .header .flex{
+	justify-content: space-between;
+}
+.tnc-page5 .header .flex .title{
+	margin-right: 30px;
+}
+.tnc-page5 .header .cta-buttons{
+	margin: 55px 0 0 0;
+}
+.tnc-page5 .header .copy{
+	margin: 45px 0 20px 0;
+}
+.tnc-page5 .header .copy h2{
+	margin: 0 0 10px 0;
+}
+.tnc-page5 .content-row1 .content-box{
+	
+}
+.tnc-page5 .content-row1 .image{
+	width: 65%;
+	margin-left: 8%;
+}
+.tnc-page5 .content-row2 .copy{
+	padding: 25px 55px 25px 20px;
+}
+.tnc-page5 .content-row2 .copy p{
+	font-size: 18px;
+	line-height: 28px;
+}
+.tnc-page5 .content-row2 .copy p a{
+	text-decoration: none;
+}
+.tnc-page5 .welcome{
+	padding: 25px 0 0 0;
+}
+
+
+.tnc-page6 .header .flex{
+	justify-content: space-between;
+}
+.tnc-page6 .header .cta-buttons{
+	margin: 55px 0 55px 0;
+	justify-content: flex-start;
+}
+.tnc-page6 .content-row1 .content-box{
+	margin-bottom: 30px;
+}
+.tnc-page6 .content-row1 .image{
+	width: 65%;
+	margin-left: 8%;
+}
+.tnc-page6 .content-row1 .copy{
+	width: 29%;
+	padding: 20px;
+	flex-direction: column;
+	justify-content: center;
+}
+.tnc-page6 .content-row1 .copy h3{
+	padding: 0; margin: 0;
+}
+.tnc-page6 .content-row2 .image{
+	text-align: center;
+	margin: 20px 0;
+}
+.tnc-page6 .content-row3{
+	margin: 60px 0;
+}
+.tnc-page6 .content-row3 .image{
+	width: 45%;
+	margin-left: 33%;
+}
+
+
+
+.tnc-page7 .header .cta-buttons{
+	margin: 55px 0 55px 0;
+}
+.tnc-page7 .content-row1{
+	justify-content: space-between;
+}
+.tnc-page7 .content-row1 .left-column{
+	width: 27.5%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.tnc-page7 .content-row1 .left-column .content-box{
+	height: 100%;
+}
+
+.tnc-page7 .content-row1 .left-column .copy{
+	padding: 80px 20px 40px 20px;
+}
+.tnc-page7 .content-row1 .right-column{
+	width: 69.5%;
+}
+.tnc-page7 .content-row1 .right-column .cb1{
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 30px;
+	
+}
+.tnc-page7 .content-row1 .right-column .cb1 .copy{
+	width: 42%;
+	padding: 20px 0 20px 20px;
+}
+.tnc-page7 .content-row1 .right-column .cb1 .image{
+	width: 56.5%;
+	margin-left: 20px;
+}
+.tnc-page7 .content-row1 .right-column .cb2 .image{
+	width: 42%;
+}
+.tnc-page7 .content-row1 .right-column .cb2 .copy{
+	width: 58%;
+	overflow: hidden;
+}
+.tnc-page7 .content-row1 .right-column .cb2 .copy .icon img{
+	margin-left: auto;
+	display: block;
+}
+.tnc-page7 .content-row1 .right-column .cb2 .copy h3{
+	width: 95%;
+}
+.tnc-page7 .content-row1 .right-column .cb2 .copy .inner{
+	padding: 70px 20px 30px 20px;
+}
+.tnc-page7 .content-row2 .content-box {
+	align-items: center;
+}
+.tnc-page7 .content-row2 .copy{
+	width:26%;
+	padding: 20px;
+}
+.tnc-page7 .content-row2 .copy .quote{
+	font-family: 'Qatar2022-Book', Arial, Helvetica,  'sans-serif';
+	color: #F2A900;
+	font-size: 15px;
+	line-height: 20px;
+	padding: 0 20px 0 0;
+}
+.tnc-page7 .content-row2 .image{
+	width:74%;
+}
+
+.tnc-page7 .content-row3 .copy{
+	padding: 30px;
+}
+.tnc-page7 .content-row3 .copy h3{
+	font-size: 45px;
+	line-height: 45px;
+	padding-bottom: 10px;
+}
+.tnc-page7 .content-row3 .copy p{
+	font-family: 'Qatar2022-book', Arial, Helvetica,  'sans-serif';
+	font-size: 20px;
+	line-height: 24px;
+}
+.tnc-page7 .content-row3 .image{
+	padding: 0 20px;
+}
+.tnc-page7 .content-row3 .image img{
+	margin: 0 auto;
+}
+.tnc-page7 .cheer{
+	padding-top: 25px;
+}
+
+
+.tnc-page8 .content-row1{
+	margin-top: 60px;
+}
+.tnc-page8 .content-row1 .content-box{
+	align-items: center;
+}
+.tnc-page8 .content-row1 .copy{
+	width:47%;
+	padding: 20px 30px 20px 30px;
+}
+.tnc-page8 .content-row1 .copy h3{
+	width: 100%;
+	font-size: 43px;
+	line-height: 47px;
+}
+.tnc-page8 .content-row1 .image{
+	width:47%;
+}
+.tnc-page8 .content-row2 .copy{
+	padding: 30px;
+}
+.tnc-page8 .content-row2 .copy h3{
+	font-size: 45px;
+	line-height: 45px;
+	padding-bottom: 10px;
+}
+.tnc-page8 .content-row2 .copy p{
+	font-family: 'Qatar2022-book', Arial, Helvetica,  'sans-serif';
+	font-size: 20px;
+	line-height: 24px;
+}
+.tnc-page8 .content-row2 .image{
+	padding: 0 20px;
+}
+.tnc-page8 .content-row2 .image img{
+	margin: 0 auto;
+}
+.tnc-page8 .welcome{
+	padding-top: 15px;
+}
+
+
+@media (max-width: 990px) {
+.cta-buttons .button {font-size: 18px; line-height: 18px;padding: 2px 30px 0 30px;}
+}
+
+
+@media (max-width: 768px) {
+	.tnc-content .master-bg .bg-image{background-position: top 80px center;	background-size: 1000px;}
+	.tnc-content .content-wrap{padding: 20px;}
+	.tnc-content .header .cta-buttons {margin: 30px 0 0 0;display: block;}
+	.tnc-content .header .cta-buttons .left{margin-bottom: 20px;}
+	.cta-buttons .button {display: inline-flex; font-size: 16px; line-height: 16px; height: auto; padding: 0 10px;min-height: 36px; align-items: center; min-width: 120px;}
+	.tnc-content .header .icon{margin: 0 0 0 30px; max-width: 40%;}
+	.tnc-content h2 {font-size: 18px; line-height: 23px; margin: 25px 0 15px 0;}
+	.tnc-content h3 {font-size: 18px; line-height: 21px; width: 100%;}
+	
+	.tnc-page1 .header .flex .title{max-width: 75%;}
+	.tnc-page1 .content-row1 .flex{display: block;}
+	.tnc-page1 .content-row1 .content-box .image{width: 100%;}
+	.tnc-page1 .content-row1 .content-box .copy{width: 100%;}
+	.tnc-page1 .content-row2 .content-box{width: 100%; flex-direction: column;}
+	.tnc-page1 .content-row2 .content-box .image{width: 100%; order: 0;}
+	.tnc-page1 .content-row2 .content-box .icon-copy{order: 1; width: 100%;}
+	.tnc-page1 .content-row3 .flex{flex-wrap: wrap;}
+	.tnc-page1 .content-row3 .content-box .bg{width: 50%;}
+	.tnc-page1 .content-row3 .content-box .image{width: 100%; margin: 0;}
+	.tnc-page1 .content-row3 .content-box .copy{width: 100%;}
+	.tnc-page1 .content-row4 .content-box{flex-wrap: wrap;}
+	.tnc-page1 .content-row4 .content-box .copy{width: 100%; order: 1}
+	.tnc-page1 .content-row4 .content-box .image{width: 100%; order: 0;}
+	
+	.tnc-page2 .header .title{max-width: 75%;}
+	.tnc-page2 .header .button-holder {margin: 0;}
+	.tnc-page2 .header .button-holder .cta-buttons {margin: 30px 0 0 0;}
+	.tnc-page2 .content-row1 .image {width: 85%; margin-left: 5%;}
+	.tnc-page2 .content-row2{flex-direction: column;}
+	.tnc-page2 .content-row2 .content-box{width: 100%; margin-bottom: 35px;}
+	.tnc-page2 .content-row2 .left-column .icon{display: none;}
+	.tnc-page2 .content-row2 .right-column{width: 100%;}
+	.tnc-page2 .content-row3 .content-box{flex-direction: column;}
+	.tnc-page2 .content-row3 .image {width: 100%; order: 0;}
+	.tnc-page2 .content-row3 .icon-copy {width: 100%; order: 1;}
+	.tnc-page2 .content-row3 .icon-copy .icon {max-width: 50%;}
+	
+	.tnc-page3 .header .title{max-width: 75%;}
+	.tnc-page3 .content-row1 {margin: 30px 0 30px 0;}
+	.tnc-page3 .content-row1 .content-box{flex-direction: column;}
+	.tnc-page3 .content-row1 .image{width: 100%;}
+	.tnc-page3 .content-row1 .copy{width: 100%;}
+	
+	.tnc-page4 .header .title{max-width: 75%;}
+	.tnc-page4 .content-row1{margin-top: 30px;}
+	.tnc-page4 .content-row1 .icon{display: none;}
+	.tnc-page4 .content-row1 .content-box{width: 100%;}
+	.tnc-page4 .content-row2{flex-direction: column;}
+	.tnc-page4 .content-row2 .content-box {width: 100%; margin-bottom: 35px;}
+	.tnc-page4 .content-row2 .content-box:last-child {width: 100%; margin-bottom: 0;}
+	.tnc-page4 .content-row2 .content-box .icon{max-width: 70%;}
+	.tnc-page4 .content-row2 .right-column{width: 100%;}
+	.tnc-page4 .content-row3 .content-box{flex-direction: column;}
+	.tnc-page4 .content-row3 .countdown-wrapper .countdown {font-size: 110px; line-height: 110px;}
+	.tnc-page4 .content-row3 .countdown-wrapper {padding: 20px 20px 40px 20px; width: 100%;}
+	.tnc-page4 .content-row3 .countdown-wrapper p{font-size: 35px;}
+	.tnc-page4 .content-row3 .image {width:100%;}
+	
+	.tnc-page4 .content-row4 .copy h3, .tnc-page8 .content-row2 .copy h3, .tnc-page7 .content-row3 .copy h3 {font-size: 30px; line-height: 35px;}
+	.tnc-page4 .content-row4 .copy p, .tnc-page8 .content-row2 .copy p, .tnc-page7 .content-row3 .copy p {font-size: 15px; line-height: 19px;}
+	
+	.tnc-page5 .header .title{max-width: 75%;}
+	.tnc-page5 .header .button-holder {margin-top:-40px;}
+	.tnc-page5 .header .button-holder .icon{width: 25%;}
+	.tnc-page5 .header .copy {margin: 30px 0 20px 0;}
+	.tnc-page5 .content-row1 .image { width: 85%; margin-left: 5%;}
+	.tnc-page5 .content-row2 .copy p {font-size: 14px; line-height: 21px;}
+	.tnc-page5 .content-row2 .copy {padding: 25px 20px;}
+	
+	.tnc-page6 .header .title{max-width: 75%;}
+	.tnc-page6 .header .button-holder .icon {width: 20%;}
+	.tnc-page6 .header .button-holder .copy .cta-buttons{margin:15px 0 10px 0;}
+	.tnc-page6 .content-row1 {margin-top: 30px;}
+	.tnc-page6 .content-row1 .copy {width: 100%; order: 0;}
+	.tnc-page6 .content-row1 .image {width: 100%; margin-left: 0; order: 1;}
+	.tnc-page6 .content-row1 .content-box{margin-bottom: 20px; flex-direction: column;}
+	
+	.tnc-page7 .header .title{max-width: 75%;}
+	.tnc-page7 .header .cta-buttons {margin: 30px 0 30px 0;}
+	.tnc-page7 .header .button-holder .icon{width: 35%;}
+	.tnc-page7 .content-row1{flex-direction: column;}
+	.tnc-page7 .content-row1 .left-column{width: 100%; margin-bottom: 35px;}
+	.tnc-page7 .content-row1 .left-column .image{max-height: 300px; overflow: hidden;}
+	.tnc-page7 .content-row1 .left-column .icon{display: none;}
+	.tnc-page7 .content-row1 .left-column .copy{padding: 20px;}
+	.tnc-page7 .content-row1 .right-column{width: 100%;}
+	.tnc-page7 .content-row1 .right-column .cb2 .image{width: 50%;}
+	.tnc-page7 .content-row1 .right-column .cb2 .copy{width: 50%;}
+	.tnc-page7 .content-row1 .right-column .cb2 .copy .inner {padding: 40px 20px 20px 20px;}
+	.tnc-page7 .content-row2 .content-box{flex-direction: column;}
+	.tnc-page7 .content-row2 .copy{width: 100%;}
+	.tnc-page7 .content-row2 .image{width: 100%;}
+	.tnc-page7 .content-row2 .copy .quote{padding: 0;}
+	
+	.tnc-page8 .header .title{max-width: 75%;}
+	.tnc-page8 .content-row1 {margin-top: 30px;}
+	.tnc-page8 .content-row1 .content-box{flex-direction: column;}
+	.tnc-page8 .content-row1 .copy{width: 100%; padding: 20px;}
+	.tnc-page8 .content-row1 .image{width: 100%;}
+	.tnc-page8 .content-row1 .copy h3 {font-size: 33px; line-height: 37px;}
+	
+}
+@media (max-width: 499px) {
+	.tnc-page1 .content-row2 .content-box .copy{width: 55%;}
+	.tnc-page1 .content-row2 .content-box .image{width: 45%;}
+	
+	.tnc-page2 .header .icon{display: none;}
+	
+	.tnc-page7 .content-row1 .right-column .cb1{flex-direction: column;}
+	.tnc-page7 .content-row1 .right-column .cb1 .copy{width: 100%;}
+	.tnc-page7 .content-row1 .right-column .cb1 .image{width: 100%; margin: 0;}
+	
+}
+@media (max-width: 399px) {
+	.tnc-content .master-bg .bg-image{background-position: top 50px center;	background-size: 800px;}
+	.tnc-page1 .content-row2 .content-box{display: block; background-position: left top;}
+	.tnc-page1 .content-row2 .content-box .copy{width: 100%;}
+	.tnc-page1 .content-row2 .content-box .image{width: 100%;}
+	.tnc-page1 .content-row4{flex-direction: column;}
+	.tnc-page1 .content-row4 .content-box{width: 100%;}
+	.tnc-page1 .content-row4 .icon{display: none;}
+	
+	.tnc-page2 .content-row2 .left-column .content-box{flex-direction: column;}
+	.tnc-page2 .content-row2 .content-box .copy{width: 100%;}
+	.tnc-page2 .content-row2 .content-box .image{width: 100%; max-height: 300px; overflow: hidden;}
+	
+	.tnc-page4 .content-row2 .left-column .content-box{flex-direction: column;}
+	.tnc-page4 .content-row2 .left-column .image {width: 100%; max-height: 300px; overflow: hidden;}
+	.tnc-page4 .content-row2 .left-column .image img{margin-top: -100px;}
+	.tnc-page4 .content-row2 .left-column .copy{width: 100%;}
+	
+	.tnc-page5 .header .button-holder {margin-top:-20px;}
+	
+	.tnc-page6 .header .button-holder{margin-top: 0;}
+	.tnc-page6 .header .button-holder .icon {display: none;}
+	.tnc-page6 .header .button-holder .copy{width: 100%;}
+	.tnc-page6 .header .button-holder .copy h2{margin: 25px 0 15px 0;}
+	
+    .tnc-page7 .header .button-holder .icon {display: none;}
+	.tnc-page7 .header .button-holder {margin: 30px 0 30px 0;}
+	.tnc-page7 .content-row1 .right-column .cb2{flex-direction: column;}
+	.tnc-page7 .content-row1 .right-column .cb2 .image{width: 100%; max-height: 300px; overflow: hidden;}
+	.tnc-page7 .content-row1 .right-column .cb2 .image img{margin-top: -100px;}
+	.tnc-page7 .content-row1 .right-column .cb2 .copy{width: 100%;}
+	.tnc-page7 .content-row1 .right-column .cb2 .copy .icon{display: none;}
+	.tnc-page7 .content-row1 .right-column .cb2 .copy .inner {padding: 20px;}
+}</style> 
+                <script type="text/javascript" data-account="QG0qu0OPw1" src="https://usrwy.com/widget.js"></script>
+    
+        
+        
+        
+    <script>
+        window.fbAsyncInit = function() {
+            FB.init({
+                appId      : 134911517288570,
+                cookie     : true,
+                xfbml      : true,
+                version    : 'v10.0'
+            });
+        };
+
+        (function(d, s, id){
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) {return;}
+            js = d.createElement(s); js.id = id;
+            js.src = "https://connect.facebook.net/en_US/sdk.js";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+        
+        
+        
+    
+    
+            <!-- Global Site Tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-QY39Y24GVH"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('consent', 'default', {'ad_storage': 'denied', 'analytics_storage': 'denied'});
+            gtag('config', 'G-FYVP5RQ125', {send_page_view: false});            gtag('config', 'G-QY39Y24GVH', {send_page_view: false});
+        </script>
+            
+    <script src="https://kit.fontawesome.com/1dbadffb77.js" crossorigin="anonymous"></script>
+
+    
+    
+            <script>
+    (function(apiKey){
+        (function(p,e,n,d,o){var v,w,x,y,z;o=p[d]=p[d]||{};o._q=o._q||[];
+        v=['initialize','identify','updateOptions','pageLoad','track'];for(w=0,x=v.length;w<x;++w)(function(m){
+            o[m]=o[m]||function(){o._q[m===v[0]?'unshift':'push']([m].concat([].slice.call(arguments,0)));};})(v[w]);
+            y=e.createElement(n);y.async=!0;y.src='https://cdn.pendo.io/agent/static/'+apiKey+'/pendo.js';
+            z=e.getElementsByTagName(n)[0];z.parentNode.insertBefore(y,z);})(window,document,'script','pendo');
+    })('2815b941-fb55-4533-bf72-65e6e68962b9');
+    </script>
+    
+    </head>
+<body class="theme-simple">
+<!-- Load Facebook SDK for JavaScript -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+<script>
+    window.twttr = (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0],
+            t = window.twttr || {};
+        if (d.getElementById(id)) return t;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "https://platform.twitter.com/widgets.js";
+        fjs.parentNode.insertBefore(js, fjs);
+
+        t._e = [];
+        t.ready = function(f) {
+            t._e.push(f);
+        };
+
+        return t;
+    }(document, "script", "twitter-wjs"));
+</script>
+<div id="app">
+    <div class="rosterfy-loading">
+        <span aria-hidden="true" class="rosterfy-spinner"></span>
+    </div>
+</div>
+<script>
+    var Rosterfy = {
+        assetUrl: 'https://cdn-fifa.rosterfy.com/build-e2eefed',
+        Social: {
+            facebook: 'https://fifa.rosterfy.com/auth/social/redirect/facebook',
+            google: 'https://fifa.rosterfy.com/auth/social/redirect/google'
+        },
+        Sso: {
+            login_url: 'https://fwc26-mex.volunteer.fifa.com/oidc/login',
+            enforce:  false ,
+            name: 'FIFA Entra ID',
+            locale: '_locale'
+        },
+            };
+</script>
+<script src="https://cdn-fifa.rosterfy.com/build-e2eefed/js/manifest.js?id=b7fccd8520f05b7448593b2a611b588e"></script>
+<script src="https://cdn-fifa.rosterfy.com/build-e2eefed/js/vendor.js?id=7fdfe39f9cc6a3bac7e3aaae90c7f967"></script>
+<script src="https://cdn-fifa.rosterfy.com/build-e2eefed/js/portal.js?id=8e37acb57d6bcf0d53e1913503d52e27"></script>
+<script src="https://www.google.com/recaptcha/api.js?onload=vueRecaptchaApiLoaded&render=explicit" async defer></script>
+</body>
+</html>

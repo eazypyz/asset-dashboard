@@ -1,0 +1,366 @@
+<!DOCTYPE html><html lang="en" class=" ltr " data-doctype="true" dir="ltr" ontouchend="CustomEvent.fireAll('body_clicked', event);"><head><script>document.addEventListener('click', function (event) {
+				CustomEvent.fireAll('body_clicked', event);
+			});
+			document.hasBodyClickedTrigger = 'true';</script><script type="text/javascript"></script><title>ServiceNow</title><meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"></meta><meta http-equiv="cache-control" content="public"></meta><meta name="referrer" content="default"></meta><meta name="viewport" content="initial-scale=1.0"></meta><script type="text/javascript" data-description="globals population">
+	window.NOW = window.NOW || {};
+	var g_loadTime = new Date();
+	var lastActivity = new Date();
+	var g_lang = 'en';
+	var g_system_lang = 'en';
+	var g_enhanced_activated = 'true';
+	  var g_popup_timeout = parseInt(100);
+	var g_export_warn_threshold = parseInt(10000);
+	  var g_event_handler_ids = {};
+	var g_event_handlers = [];
+	var g_event_handlers_onLoad = [];
+	var g_event_handlers_onSubmit = [];
+	var g_event_handlers_onChange = [];
+	var g_event_handlers_onCellEdit = {};
+	var g_event_handlers_localCache = {};
+	var g_event_handlers_queryTracking = true;
+	var g_user_date_time_format = "dd/MM/yyyy HH:mm";
+	var g_user_date_format = "dd/MM/yyyy";
+	var g_user_decimal_separator = ".";
+	var g_user_grouping_separator = ",";
+	var g_glide_list_separator = ", ";
+	var g_glide_duration_seconds_enabled = "false";
+	var g_allow_field_dependency_for_templates = ("true" === "true");
+	var g_tz = "Europe/Zurich";
+	var g_tz_offset = 7200000;
+	  var g_tz_user_offset = true;
+	var g_first_day_of_week = parseInt(1, 10);
+	var g_date_picker_first_day_of_week = parseInt(0, 10);
+	  var g_full_calendar_edit = true;
+	var g_submitted = false;
+	var g_max_table_length = 80;
+	var g_fontSizePreference = "";
+	var g_fontSize = "10pt";
+	// use to be the sys_property glide.ui.js_error_notify, hard coded for PRB603998
+	var g_jsErrorNotify = "true";
+	var g_cancelPreviousTransaction = true;
+	var g_text_direction = "ltr";
+	var g_glide_list_filter_max_length =  parseInt("0", 10);
+	var g_accessibility = false;
+	var g_accessibility_tooltips = false;
+	var g_accessibility_tooltip_duration = parseInt("10", 10);
+	var g_accessibility_visual_patterns = false;
+	var g_accessibility_screen_reader_table = false;
+	var g_accessibility_date_format = false;
+	var g_detail_row = false;
+	var g_builddate = "06-19-2026_0134";
+	// default values to be used in absence of user preferences are hard coded below
+	// as well as in keyboardShortcuts.js and keyboard_preference_changer.xml
+	window.g_keyboard_shortcuts = {};
+	window.g_keyboard_shortcuts.allow_in_input_fields = false;
+	window.g_keyboard_shortcuts.enabled = true;
+	window.g_keyboard_shortcuts.global_search = {};
+	window.g_keyboard_shortcuts.global_search.enabled = true;
+	window.g_keyboard_shortcuts.global_search.key_combination = 'ctrl+alt+g';
+	window.g_keyboard_shortcuts.main_frame = {};
+	window.g_keyboard_shortcuts.main_frame.enabled = true;
+	window.g_keyboard_shortcuts.main_frame.key_combination = 'ctrl+alt+p';
+	window.g_keyboard_shortcuts.navigator_toggle = {};
+	window.g_keyboard_shortcuts.navigator_toggle.enabled = true;
+	window.g_keyboard_shortcuts.navigator_toggle.key_combination = 'ctrl+alt+c';
+	window.g_keyboard_shortcuts.navigator_filter = {};
+	window.g_keyboard_shortcuts.navigator_filter.enabled = true;
+	window.g_keyboard_shortcuts.navigator_filter.key_combination = 'ctrl+alt+f';
+	window.g_keyboard_shortcuts.impersonator = {}
+	window.g_keyboard_shortcuts.impersonator.enabled = true;
+	window.g_keyboard_shortcuts.impersonator.key_combination = 'ctrl+alt+i';
+	// The `g_concourse_onmessage_enforce_same_origin` and `g_concourse_onmessage_enforce_same_origin_whitelist` variables
+    // do not appear to be used anywhere other than the CustomEventManager, but leaving these for backwards compatability
+	var g_concourse_onmessage_enforce_same_origin = 'true'.toLowerCase() === 'true';
+	var g_concourse_onmessage_enforce_same_origin_whitelist = '';
+	window.g_load_functions = [];
+	window.g_render_functions = [];
+	window.g_late_load_functions = [];
+	window.g_tiny_url = {};
+	window.g_tiny_url.use_tiny = 'true' === 'true';
+	window.g_tiny_url.min_length = parseInt('1024');
+	
+	
+	var g_ck = '27427e3987f5075051c863560cbb358ef1c09e2efd78ef39e3771526302da35ff7194719';
+	
+
+	
+	var g_acWaitTime = parseInt(250);
+	
+
+	var g_autoRequest = '';
+
+	try {
+		window.NOW.dateFormat = JSON.parse("{\"timeAgo\": false, \"dateBoth\": false}");
+	} catch (e) {
+		window.NOW.dateFormat = {timeAgo: false, dateBoth: false};
+	}
+
+	window.NOW.dateFormat.dateStringFormat = "dd/MM/yyyy";
+	window.NOW.dateFormat.timeStringFormat = "HH:mm";
+	window.NOW.shortDateFormat = false;
+	window.NOW.listTableWrap = true;
+	window.NOW.compact = false;
+  	window.NOW.templateToggle = false;
+	window.NOW.tabbed = true;
+	window.NOW.permalink = true;
+	window.NOW.useSimpleStorage = true;
+	window.NOW.httpRequestCompressionThreshold = 40000;
+	window.NOW.httpRequestCompressionLevel = -1;
+	window.NOW.httpRequestCompressionMemoryLevel = -1;
+	window.NOW.httpRequestCompressionExcludeUrls = 'xmlhttp.do,angular.do'.split(',');
+	window.NOW.deferAmbConnection = false;
+	window.NOW.deferredAmbConnectionTimeout = 10000;
+	window.NOW.simpleStorageSynch = "be55312c8735071051c863560cbb3548";
+	window.NOW.language =  'en';
+	window.NOW.listOpenInAppTab = false;
+	window.NOW.floatingScrollbars = 'false'.toLowerCase() === 'true';
+	
+	window.NOW.user = {};
+	window.NOW.user.preferences = [];
+	window.NOW.user.roles = '';
+	window.NOW.user.allRoles = '';
+	window.NOW.user.userID = '5136503cc611227c0183e96598c4f706';
+	window.NOW.user.departmentID = '';
+	window.NOW.user.firstName = '';
+	window.NOW.user.lastName = 'Guest';
+	window.NOW.user.name = 'guest';
+  	window.NOW.user.isImpersonating = false;
+	window.NOW.batch_glide_ajax_requests = 'true' === 'true';
+	window.NOW.batch_glide_ajax_requests_max_time_in_queue = ~~'50';
+	window.NOW.batch_glide_ajax_disable_time = ~~'1000';
+
+	window.NOW.currency = {};
+	window.NOW.currency.code = 'USD';
+	window.NOW.locale = {};
+	window.NOW.locale.code = 'en_US';
+
+	window.NOW.attachment = {};
+	
+	window.NOW.attachment.overflow_limit =  parseInt('3', 10);
+	window.NOW.isPolarisEnabled = "true";
+	window.NOW.polaris_page_info ={"canUsePolarisCSS":true,"canUsePolarisTemplates":true,"jvar_form_name":"auth_redirect"};</script><script data-comment="GlideUser initialization">(function() {
+		 g_render_functions.push(setGlideUser);
+		function setGlideUser() {
+			if (window.g_user || !window.GlideUser)
+		return;
+
+		window.g_user = new GlideUser(NOW.user.name,
+			  NOW.user.firstName,
+			  NOW.user.lastName,
+			  NOW.user.roles,
+			  NOW.user.userID,
+			  NOW.user.departmentID);
+		window.g_user.setRoles(NOW.user.allRoles, true);
+		}
+	})();</script><script data-comment="Fiscal schedule constants">window.NOW.filter_globals = "[[\"This fiscal month\", \"javascript:gs.beginningOfThisSchedulePeriod(\'\',\'This fiscal month\')\", \"javascript:gs.endOfThisSchedulePeriod(\'\',\'This fiscal month\')\", \"javascript:gs.endOfThisSchedulePeriod(\'\',\'This fiscal month\')\"], [\"Last fiscal month\", \"javascript:gs.beginningOfLastSchedulePeriod(\'\',\'Last fiscal month\')\", \"javascript:gs.endOfLastSchedulePeriod(\'\',\'Last fiscal month\')\", \"javascript:gs.endOfLastSchedulePeriod(\'\',\'Last fiscal month\')\"], [\"Next fiscal month\", \"javascript:gs.beginningOfNextSchedulePeriod(\'\',\'Next fiscal month\')\", \"javascript:gs.endOfNextSchedulePeriod(\'\',\'Next fiscal month\')\", \"javascript:gs.endOfNextSchedulePeriod(\'\',\'Next fiscal month\')\"], [\"Last 3 fiscal months\", \"javascript:gs.beginningOfSchedulePeriodsAgo(3, \'\',\'Last 3 fiscal months\')\", \"javascript:gs.endOfSchedulePeriodsAgo(1, \'\',\'Last 3 fiscal months\')\", \"javascript:gs.beginningOfSchedulePeriodsAgo(3, \'\',\'Last 3 fiscal months\')\"], [\"Last 12 fiscal months\", \"javascript:gs.beginningOfSchedulePeriodsAgo(12, \'\',\'Last 12 fiscal months\')\", \"javascript:gs.endOfSchedulePeriodsAgo(1, \'\',\'Last 12 fiscal months\')\", \"javascript:gs.beginningOfSchedulePeriodsAgo(12, \'\',\'Last 12 fiscal months\')\"], [\"Next 3 fiscal months\", \"javascript:gs.beginningOfSchedulePeriodsAgo(-1, \'\',\'Next 3 fiscal months\')\", \"javascript:gs.endOfSchedulePeriodsAgo(-3, \'\',\'Next 3 fiscal months\')\", \"javascript:gs.endOfSchedulePeriodsAgo(-3, \'\',\'Next 3 fiscal months\')\"], [\"Next 12 fiscal months\", \"javascript:gs.beginningOfSchedulePeriodsAgo(-1, \'\',\'Next 12 fiscal months\')\", \"javascript:gs.endOfSchedulePeriodsAgo(-12, \'\',\'Next 12 fiscal months\')\", \"javascript:gs.endOfSchedulePeriodsAgo(-12, \'\',\'Next 12 fiscal months\')\"], [\"This fiscal quarter\", \"javascript:gs.beginningOfThisSchedulePeriod(\'\',\'This fiscal quarter\')\", \"javascript:gs.endOfThisSchedulePeriod(\'\',\'This fiscal quarter\')\", \"javascript:gs.endOfThisSchedulePeriod(\'\',\'This fiscal quarter\')\"], [\"Last fiscal quarter\", \"javascript:gs.beginningOfLastSchedulePeriod(\'\',\'Last fiscal quarter\')\", \"javascript:gs.endOfLastSchedulePeriod(\'\',\'Last fiscal quarter\')\", \"javascript:gs.endOfLastSchedulePeriod(\'\',\'Last fiscal quarter\')\"], [\"Last 4 fiscal quarters\", \"javascript:gs.beginningOfSchedulePeriodsAgo(4, \'\',\'Last 4 fiscal quarters\')\", \"javascript:gs.endOfSchedulePeriodsAgo(1, \'\',\'Last 4 fiscal quarters\')\", \"javascript:gs.beginningOfSchedulePeriodsAgo(4, \'\',\'Last 4 fiscal quarters\')\"], [\"Next fiscal quarter\", \"javascript:gs.beginningOfNextSchedulePeriod(\'\',\'Next fiscal quarter\')\", \"javascript:gs.endOfNextSchedulePeriod(\'\',\'Next fiscal quarter\')\", \"javascript:gs.endOfNextSchedulePeriod(\'\',\'Next fiscal quarter\')\"], [\"Next 4 fiscal quarters\", \"javascript:gs.beginningOfSchedulePeriodsAgo(-1, \'\',\'Next 4 fiscal quarters\')\", \"javascript:gs.endOfSchedulePeriodsAgo(-4, \'\',\'Next 4 fiscal quarters\')\", \"javascript:gs.endOfSchedulePeriodsAgo(-4, \'\',\'Next 4 fiscal quarters\')\"], [\"This fiscal year\", \"javascript:gs.beginningOfThisSchedulePeriod(\'\',\'This fiscal year\')\", \"javascript:gs.endOfThisSchedulePeriod(\'\',\'This fiscal year\')\", \"javascript:gs.endOfThisSchedulePeriod(\'\',\'This fiscal year\')\"], [\"Last fiscal year\", \"javascript:gs.beginningOfLastSchedulePeriod(\'\',\'Last fiscal year\')\", \"javascript:gs.endOfLastSchedulePeriod(\'\',\'Last fiscal year\')\", \"javascript:gs.endOfLastSchedulePeriod(\'\',\'Last fiscal year\')\"], [\"Next fiscal year\", \"javascript:gs.beginningOfNextSchedulePeriod(\'\',\'Next fiscal year\')\", \"javascript:gs.endOfNextSchedulePeriod(\'\',\'Next fiscal year\')\", \"javascript:gs.endOfNextSchedulePeriod(\'\',\'Next fiscal year\')\"]]" || "[]";</script><script data-description="NOW glide web analytics siteid and url">window.snWebaConfig = window.snWebaConfig || {};
+		// glide web analytics config
+		window.snWebaConfig.siteId = "0";
+		window.snWebaConfig.trackerURL = "";
+		window.snWebaConfig.webaScriptPath = "/scripts/piwik-3.1.1/thirdparty/piwik.min.js";
+		window.snWebaConfig.ambClient = (window.g_ambClient) ? window.g_ambClient : ((window.amb)? window.amb.getClient(): "");
+		window.snWebaConfig.subscribed = false;</script><script type="text/javascript" src="/ConditionalFocus.jsdbx?v=06-19-2026_0134&amp;c=31_930"></script><link href="favicon.ico?v=4" rel="shortcut icon"></link><script type="text/javascript" src="/scripts/doctype/xperf_timing.jsx?v=06-19-2026_0134"></script><link type="text/css" rel="stylesheet" href="/styles/css_includes_doctype_polaris.cssx?v=06-19-2026_0134&amp;c=012b6a3187b5075051c863560cbb3526&amp;theme=Polaris"></link><script>window.NOW = window.NOW || {};
+		 NOW.isUsingPolaris = true;</script><link type="text/css" rel="stylesheet" href="/styles/polarisberg/css_includes_polarisberg.cssx?v=06-19-2026_0134&amp;c=012b6a3187b5075051c863560cbb3526&amp;theme=Polaris"></link><script>NOW.exclude_dark_theme = "false";</script><script type="text/javascript" src="/scripts/polaris_theme_refresh_observer.jsx?v=06-19-2026_0134"></script><link data-source-id="glide-theme" rel="stylesheet" id="polarisberg_theme_variables" href="/$uxappimmutables.do?sysparm_request_type=ux_theme&amp;sysparm_app_config_sys_id=e42a5af4c700201072b211d4d8c2607c&amp;sysparm_app_sys_id=c86a62e2c7022010099a308dc7c26022&amp;sysparm_page_registry=a84adaf4c700201072b211d4d8c260b7&amp;uxpcb=XAqjcwYUDLZbY+U3uBlY5msHKXw=null"></link><script>NOW.xperf.cssEnd = NOW.xperf.now();
+			NOW.xperf.scriptBegin = NOW.xperf.now();</script><script src="/legacy_date_time_choices_processor.do?lang=en"></script><script type="text/javascript" src="/scripts/doctype/js_includes_doctype.jsx?v=06-19-2026_0134&amp;lp=Fri_Jun_26_05_06_49_PDT_2026&amp;c=31_930"></script><script data-description="MessagesTag">(function() {
+ var messages = new GwtMessage();
+messages.set('ajax_session_timeout_goto_login_confirm','Your session has expired. Click OK to log in again.');
+messages.set('ajax_session_timeout_resubmit_request_confirm','Your session has expired. Click OK to continue.');
+messages.set('ajax_session_timeout_refresh_screen','Your session has expired. Click OK to continue.');
+})()</script><script type="text/javascript" src="/scripts/js_includes_customer.jsx?v=06-19-2026_0134&amp;lp=Fri_Jun_26_05_06_49_PDT_2026&amp;c=31_930"></script><script type="text/javascript" src="/scripts/doctype/history_across_tabs.jsx?v=06-19-2026_0134"></script><script type="text/javascript" src="/scripts/doctype/js_includes_legacy.jsx?v=06-19-2026_0134&amp;lp=Fri_Jun_26_05_06_49_PDT_2026&amp;c=31_930"></script><script type="text/javascript" data-comment="navpage layout preferences, onfocus observation">/**
+	* Every window needs to observe these events.
+	*/
+	if (Prototype.Browser.IE && !isMSIE9) {
+		document.onfocusout = function() { CustomEvent.fireTop(GlideEvent.WINDOW_BLURRED, window); };
+		document.onfocusin = function() { CustomEvent.fireTop(GlideEvent.WINDOW_FOCUSED, window); };
+	} else {
+		Event.observe(window, 'blur', function() { CustomEvent.fireTop(GlideEvent.WINDOW_BLURRED, window); });
+		Event.observe(window, 'focus', function() { CustomEvent.fireTop(GlideEvent.WINDOW_FOCUSED, window); });
+	}</script><script type="text/javascript">g_swLoadTime = new StopWatch(g_loadTime);
+
+    if (window.CustomEvent){
+        CustomEvent.fireAll("ck_updated", "27427e3987f5075051c863560cbb358ef1c09e2efd78ef39e3771526302da35ff7194719");
+	    CustomEvent.fireTop("navigation.complete", window);
+	}
+
+    addLoadEvent( function() {
+
+		if (isValidTouchDevice())
+			addTouchScrollClassToBody();
+
+      if (typeof g_ck != 'undefined') {
+        CustomEvent.observe("ck_updated", function(ck) { g_ck = ck; });
+        CustomEvent.fireAll("ck_updated", "27427e3987f5075051c863560cbb358ef1c09e2efd78ef39e3771526302da35ff7194719");}try {
+              var helpico = getTopWindow().document.getElementById("help_ico");
+
+              if (helpico) {
+                var urlname=window.location.pathname.split("?");
+                var search_str = window.location.search;
+                
+                // if this is a form, extract the record's sys_id...
+                var sys_id_loc = search_str.search(/sys_id=[0-9a-f]{32}/i);
+                var sys_id_str = (sys_id_loc != -1) ? search_str.substr(sys_id_loc, 39) : null;
+                
+                // make the URL to our context help processor...
+                var url_search = "?sysparm_url=" + urlname[0];
+                if (sys_id_loc != -1)
+                   url_search += "&" + sys_id_str;
+
+               	helpico.href="context_help.do" + url_search;                	
+              }
+            } catch (exception) {}
+
+      synchCache();
+      pageLoaded();
+    });
+    
+    function synchCache() {
+      try {
+        var w = getTopWindow();
+        if (w.g_cache_message)
+          w.g_cache_message.stamp("be55312c8735071051c863560cbb3548");
+  
+        if (w.g_cache_td)
+          w.g_cache_td.stamp("a45b2e7187b5075051c863560cbb350d");
+      } catch(e) {}
+    }
+
+    function isValidTouchDevice() {
+		var navigator = window.navigator || {};
+		var devices;
+		try {
+			devices = 'iPad,Android'.split(',');
+		} catch(ex) {
+			devices = [];
+		}
+		return devices.some(function(item) {return item.trim() === navigator.platform;});
+	}
+
+	function addTouchScrollClassToBody() {
+		if ('ontouchstart' in window ||
+				(navigator.maxTouchPoints !== 'undefined' && navigator.maxTouchPoints > 0) ||
+				(navigator.msMaxTouchPoints !== 'undefined' && navigator.msMaxTouchPoints > 0)) {
+			if (typeof document.body != undefined) {
+				document.body.classList.add('touch_scroll');
+			}
+		}
+	}
+  </script><!--googleoff: all--><noscript>This site requires JavaScript to be enabled</noscript> <!--googleon: all--><script type="text/javascript" src="/scripts/app.guided_tours/js_guided_tours_includes.jsx?v=06-19-2026_0134"></script><script>NOW.xperf.scriptEnd = NOW.xperf.now();
+				NOW.xperf.parseEnd = NOW.xperf.now();</script></head><body class="                -polaris " data-formName="auth_redirect"><span class="sr-only"><div id="html_page_aria_live_polite" role="region" aria-relevant="additions text" aria-atomic="false" aria-live="polite"></div><div id="html_page_aria_live_assertive" role="region" aria-relevant="additions text" aria-atomic="false" aria-live="assertive"></div></span><div class="outputmsg_div"><div id="output_messages" class="outputmsg_container outputmsg_hide"><button type="button" aria-label="Close Messages" id="close-messages-btn" class="btn btn-icon close icon-cross" onclick="GlideUI.get().onCloseMessagesButtonClick(this); return false;"></button><div class="outputmsg_div" aria-live="polite" role="region" data-server-messages="false"></div></div><script>addRenderEvent(function() {CustomEvent.fire('glide_optics_inspect_update_watchfield', '');});
+
+			var accessibilityEnabled = Boolean(false);
+			var hasMessages = false;
+			if (accessibilityEnabled && hasMessages) {
+				$j(function() {
+					$j('#output_messages .btn.btn-icon.close').focus();
+				});
+			}</script><span class="ui_notification" data-type="session_change" data-text="" data-attr-session_domain="global"></span></div><div class="loading-container"><div class="loading-indicator icon-loading icon-lg"></div></div><script data-comment="loading_page redirect">setTimeout(function() {
+				top.location.href = 'https://login.microsoftonline.com/ac1c0d01-4482-4885-90e3-ebe4b44279d6/saml2?SAMLRequest=pVLJbtswEP0VgXdJ1BJZJiwDro2iBtLUiN0ccqOooU2AIlUO5aR%2FX5l2kPTQXHol37xtZoG81%2FnAVqM%2FmUf4NQL66LXXBtn1pyGjM8xyVMgM7wGZF2y%2F%2Bn7P8oSywVlvhdUkWiGC88qatTU49uD24M5KwM%2FH%2B4acvB%2BQpekJ9JAIbng3Mb0qYUfkOc0rP6kmUkmeCNunhp8HfoSksyTaTD%2FK8AvxO422R2WSXgln0UpvjVYGwigXmaAdzeKyrPO4rOu7eE6hiKGFsi3LfDbvqjQEI9FX6wSE3A2RXCOQaLtpyP5hndE5lJmsWy7oXVdKoFWdiVxWMz6rqmw%2BAXHHEdUZ3kcRR9ga9Nz4hlxCxXQW0%2ByQ5aygrCiToi6eSbS7NfZFmU6Z4%2Bf1tlcQsm%2BHwy7e%2FdgfAsFZdeAeJvT%2FNPsEDkOrkxBZLkIpLKRwHw%2Fgc4P8betk%2BeZEWutbrnVQxusRxMa%2BXAws0o8yN9GBXaJsNzurlfgdrbS2L2sH3E%2FxvBshbKrn%2Ft9OsiQLL6qLZYCy0eAAQkkFHUmXN9m%2Fr3z5Bw%3D%3D&RelayState=https%3A%2F%2Fhelp.canadamexicousa2026test.fifa.com%2Fsaml_redirector.do%3Fsysparm_nostack%3Dtrue%26sysparm_uri%3D%252Fnav_to.do%253Furi%253D%25252Fsitemap.xml';
+			}, 0);</script><div style="border:none; visibility:hidden"><form name="sys_personalize" method="GET" action="slushbucket.do"><input type="hidden" name="sysparm_referring_url" value="auth_redirect.do?sysparm_stack=no@99@sysparm_url=https%3A%2F%2Flogin.microsoftonline.com%2Fac1c0d01-4482-4885-90e3-ebe4b44279d6%2Fsaml2%3FSAMLRequest%3DpVLJbtswEP0VgXdJ1BJZJiwDro2iBtLUiN0ccqOooU2AIlUO5aR%252FX5l2kPTQXHol37xtZoG81%252FnAVqM%252FmUf4NQL66LXXBtn1pyGjM8xyVMgM7wGZF2y%252F%252Bn7P8oSywVlvhdUkWiGC88qatTU49uD24M5KwM%252FH%252B4acvB%252BQpekJ9JAIbng3Mb0qYUfkOc0rP6kmUkmeCNunhp8HfoSksyTaTD%252FK8AvxO422R2WSXgln0UpvjVYGwigXmaAdzeKyrPO4rOu7eE6hiKGFsi3LfDbvqjQEI9FX6wSE3A2RXCOQaLtpyP5hndE5lJmsWy7oXVdKoFWdiVxWMz6rqmw%252BAXHHEdUZ3kcRR9ga9Nz4hlxCxXQW0%252ByQ5aygrCiToi6eSbS7NfZFmU6Z4%252Bf1tlcQsm%252BHwy7e%252FdgfAsFZdeAeJvT%252FNPsEDkOrkxBZLkIpLKRwHw%252Fgc4P8betk%252BeZEWutbrnVQxusRxMa%252BXAws0o8yN9GBXaJsNzurlfgdrbS2L2sH3E%252FxvBshbKrn%252Ft9OsiQLL6qLZYCy0eAAQkkFHUmXN9m%252Fr3z5Bw%253D%253D%26RelayState%3Dhttps%253A%252F%252Fhelp.canadamexicousa2026test.fifa.com%252Fsaml_redirector.do%253Fsysparm_nostack%253Dtrue%2526sysparm_uri%253D%25252Fnav_to.do%25253Furi%25253D%2525252Fsitemap.xml"></input><input type="hidden" name="sysparm_view" value=""></input></form></div><script type="text/javascript" src="/scripts/ui_page_footer.jsx?v=06-19-2026_0134"></script><span style="display:none" data-comments="js_includes_last_doctype"></span><script type="text/javascript" src="/scripts/thirdparty/dom_purify/purify.jsx?v=06-19-2026_0134&amp;sysparm_substitute=false"></script><script>NOW.xperf.lastDoctypeBegin = NOW.xperf.now();</script><script type="text/javascript" src="/scripts/doctype/js_includes_last_doctype.jsx?v=06-19-2026_0134&amp;lp=Fri_Jun_26_05_06_49_PDT_2026&amp;c=31_930"></script><script type="text/javascript" src="/scripts/heisenberg/heisenberg_all.jsx?v=06-19-2026_0134"></script><script type="text/javascript" src="/scripts/js_includes_list_edit_doctype.jsx?v=06-19-2026_0134&amp;lp=Fri_Jun_26_05_06_49_PDT_2026&amp;c=31_930"></script><script type="text/javascript" src="/scripts/transaction_scope_includes.jsx?v=06-19-2026_0134"></script><script>if ('') 
+			GlideTransactionScope.setTransactionScope('');
+		if ('') 
+			GlideTransactionScope.setRecordScope('');
+		if ('') 
+			GlideTransactionScope.setTransactionUpdateSet('');
+		if (typeof g_form != 'undefined')
+			$(g_form.getFormElement()).fire('glidescope:initialized', {gts : GlideTransactionScope});</script><span style="display:none" data-comments="requires"></span><script>NOW.xperf.lastDoctypeEnd = NOW.xperf.now();</script><span style="display:none" data-comments="db_context_menu_script"></span><script>NOW.xperf.dbContextBegin = NOW.xperf.now();</script><script>NOW.xperf.dbContextEnd = NOW.xperf.now();</script><span style="display:none" data-comments="db_context_menu_script"></span><script data-description="MessagesTag">(function() {
+ var messages = new GwtMessage();
+messages.set('Timing Type');
+messages.set('Time Range');
+messages.set('Total Time');
+messages.set('{0}ms');
+messages.set('{0} ms');
+messages.set('Browser response time');
+messages.set('Server');
+messages.set('Timing details');
+messages.set('{0} of {1} {2}: {3}');
+messages.set('{0} of {1} Other: {2}');
+messages.set('{0} of {1} {2}: {3}');
+messages.set('Show Timing Breakdown');
+messages.set('Browser timing detail');
+messages.set('Time');
+messages.set('Other');
+messages.set('Timing details breakdown');
+messages.set('Response time(ms): {0}');
+messages.set('Network: {0}');
+messages.set('Network: {0}ms');
+messages.set('Server: {0}');
+messages.set('Server: {0}ms');
+messages.set('Browser: {0}');
+messages.set('Browser: {0}ms');
+messages.set('Response time','Response Time');
+messages.set('Close');
+messages.set('Cache/DNS/TCP');
+messages.set('DOM Processing');
+messages.set('Script Load/Parse');
+messages.set('CSS and JS Parse');
+messages.set('Form Sections');
+messages.set('UI Policy - On Load');
+messages.set('Client Scripts - On Load');
+messages.set('Client Scripts - On Change (initial load)');
+messages.set('Browser processing before onload');
+messages.set('DOMContentLoaded to LoadEventEnd');
+messages.set('addLoadEvent functions');
+messages.set('Related Lists');
+messages.set('Related Lists (sync)');
+messages.set('Related Lists (async)');
+messages.set('onLoad');
+messages.set('Unload');
+})()</script><script type="text/javascript">var g_serverTime = parseInt("52") + parseInt("0");
+            var g_logClientViewRoles = "";
+
+			// do not do this for the navigation menu
+            if (window.name != 'gsft_nav') {
+				 addAfterPageLoadedEvent(function() {
+					 if (window.performance)
+						setTimeGraph();
+					 else 
+						firePageTimer();
+				 });
+			 }
+			 
+			function setTimeGraph() {
+				if (window.performance.timing.loadEventEnd > 0)
+			 		firePageTimer();
+			 	else 
+			 		setTimeout(setTimeGraph, 300);
+			 }
+			 
+			function firePageTimer() {
+				 if (window.performance && performance.timing.requestStart != performance.timing.responseStart) {
+				 	var p = performance.timing;
+
+				 	CustomEvent.fire('page_timing', { name: 'SERV', ms: p.responseEnd - p.requestStart});
+				 	CustomEvent.fire('page_timing', { name: 'REND', ms: (p.loadEventEnd - p.responseEnd) });
+				 	CustomEvent.fire('page_timing_network', { name: 'NETW', ms: (p.responseEnd - p.navigationStart) });
+				 } else {
+				    CustomEvent.fire('page_timing', { name: 'SERV', ms: g_serverTime });
+					CustomEvent.fire('page_timing', { name: 'REND', startTime: g_loadTime });
+					CustomEvent.fire('page_timing_network', { name: 'NETW', loadTime: g_loadTime });
+				 }CustomEvent.fire('page_timing_show', {
+					 isFixed: '', 
+					 show: 'true'
+				 });var o = {};
+	      o.types = {};o.types['SECT'] = true;o.types['RLV2'] = true;o.types['UIOL'] = true;o.types['CSOL'] = true;
+	
+	      o.transaction_id = '2b42be3987f5075051c863560cbb358d';
+	      o.table_name = '';
+	      o.form_name = 'auth_redirect';
+	      o.view_id = 'Default view';
+	      o.logged_in = false;
+	      o.win = window;
+	      CustomEvent.fire('page_timing_client', o);}
+			 
+            // The following line is used to set the time when we start requesting a new page
+            Event.observe(window, 'beforeunload', function() {
+				new CookieJar({sameSite: 'strict'}).put('g_startTime', new Date().getTime());
+                CustomEvent.fireTop('request_start', document);
+            });
+
+            // simple pages fire this (stats.do, etc.)
+            CustomEvent.observe('simple_page.unload', function() {
+				new CookieJar({sameSite: 'strict'}).put('g_startTime', new Date().getTime());
+            }); 
+
+            // indicate we have completed the request (used by RequestManager.js for cancel widget)
+            addLoadEvent(function() {
+            	CustomEvent.fireTop("request_complete", window.location);
+            });</script><script type="text/javascript" src="/scripts/doctype/z_last_include.jsx?v=06-19-2026_0134"></script></body><script type="text/html" id="popup_template"><div class="popup popup_form" style=""><iframe src="$src" style=""></iframe></div></script></html>

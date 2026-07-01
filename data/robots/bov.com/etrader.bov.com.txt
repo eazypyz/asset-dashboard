@@ -1,0 +1,7 @@
+User-Agent: *
+Disallow: /oapi/*
+Disallow: /sim/oapi/*
+Disallow: /native-app-blocked
+Disallow: /sim/native-app-blocked
+Disallow: /showapp
+Disallow: /sim/showapp

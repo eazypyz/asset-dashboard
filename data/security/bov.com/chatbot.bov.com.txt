@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+
+<head><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <meta charset="utf-8">
+  <title>EBO | Human Conversations, Automated.</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style type="text/css">@font-face{font-family:'Material Icons';font-style:normal;font-weight:400;src:url(https://fonts.gstatic.com/s/materialicons/v145/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ.woff2) format('woff2');}.material-icons{font-family:'Material Icons';font-weight:normal;font-style:normal;font-size:24px;line-height:1;letter-spacing:normal;text-transform:none;display:inline-block;white-space:nowrap;word-wrap:normal;direction:ltr;-webkit-font-feature-settings:'liga';-webkit-font-smoothing:antialiased;}</style>
+  <link href="/assets/fonts/neutrif-pro-bold.css" rel="stylesheet">
+  <link href="/assets/fonts/neutrif-pro.css" rel="stylesheet">
+  <link rel="apple-touch-icon" sizes="180x180" href="/src/assets/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicons/favicon-16x16.png">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="mask-icon" href="safari-pinned-tab.svg" color="#f8485e">
+<link rel="stylesheet" href="styles.57c14aaa65d38d43.css"></head>
+
+<body class="">
+  <ebo-root>
+    <div class="app-loading">
+      <img src="/assets/favicons/mstile-150x150.png" alt="EBO"/>
+      <svg class="spinner" viewBox="25 25 50 50">
+        <circle class="path" cx="50" cy="50" r="15" fill="none" stroke-width="1" stroke-miterlimit="10"/>
+      </svg>
+    </div>
+  </ebo-root>
+<script src="runtime.c50ffc3066eb61f8.js" type="module"></script><script src="polyfills.8fd70546746db337.js" type="module"></script><script src="scripts.41fe89c611ddee73.js" defer=""></script><script src="main.c5741d65ac43a5d4.js" type="module"></script></body>
+</html>

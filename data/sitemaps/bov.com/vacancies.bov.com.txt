@@ -1,0 +1,171 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BOV Careers</title>
+        <link rel="shortcut icon" href="/Content/org/UDQ88BMKSSGYQSE8/BOVLogo.png" />
+    <link href="https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+
+
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" type="text/css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
+<link href="https://kendo.cdn.telerik.com/2017.2.621/styles/kendo.common-fiori.min.css" rel="stylesheet" type="text/css" />
+<link href="https://kendo.cdn.telerik.com/2017.2.621/styles/kendo.mobile.all.min.css" rel="stylesheet" type="text/css" />
+<link href="https://kendo.cdn.telerik.com/2017.2.621/styles/kendo.dataviz.min.css" rel="stylesheet" type="text/css" />
+<link href="https://kendo.cdn.telerik.com/2017.2.621/styles/kendo.fiori.min.css" rel="stylesheet" type="text/css" />
+<link href="https://kendo.cdn.telerik.com/2017.2.621/styles/kendo.dataviz.fiori.min.css" rel="stylesheet" type="text/css" />
+<link href="/Content/custom/dcrs-notification.css" rel="stylesheet" type="text/css" />
+<script src="https://kendo.cdn.telerik.com/2017.2.621/js/jquery.min.js"></script>
+<script src="https://kendo.cdn.telerik.com/2017.2.621/js/angular.min.js"></script>
+<script src="https://kendo.cdn.telerik.com/2017.2.621/js/jszip.min.js"></script>
+<script src="https://kendo.cdn.telerik.com/2017.2.621/js/kendo.all.min.js"></script>
+<script src="https://kendo.cdn.telerik.com/2017.2.621/js/kendo.aspnetmvc.min.js"></script>
+<script src="/Scripts/kendo.modernizr.custom.js"></script>
+<script src="https://kendo.cdn.telerik.com/2017.2.621/js/jszip.min.js"></script>
+    
+<script src="/Scripts/cultures/kendo.culture.en-US.min.js"></script>
+<script src="https://kendo.cdn.telerik.com/2017.2.621/js/messages/kendo.messages.en-US.min.js"></script>
+<script>
+    kendo.culture("en-US");
+</script>
+    <link href="/JobListing/WebForm/GetCustomListingCss?formId=9ab03acd-680b-4138-96b5-d6e2d16220d8" rel="stylesheet" type="text/css" />
+    <script src="/Scripts/moment.min.js"></script>
+</head>
+<body>
+    <input name="__RequestVerificationToken" type="hidden" value="39Q0jyKQXPkF_lEkhk9m1XDDcNgNbKQTwerIrUhQd9t-WWzAv0W9i_sMg9RvTMTpoYZ71VfkEjv4IvqsEw0nhxQrZa9DDWRhZ6UWL6tHuTw1" />
+    <div id="formHeader">
+        <a id="formNotification" class="fragment bg-warning">
+            <div>
+                <span class="notification-close">&times;</span>
+                <i class="fa fa fa-info-circle fa-3x" aria-hidden="true"></i>
+                <p class="notification-text">
+                </p>
+            </div>
+        </a>
+    </div>
+    <div id="formBody">
+        <div id="dynamicJobListing"></div>
+    </div>
+</body>
+</html>
+<script>
+    var currentFormId = '00000000-0000-0000-0000-000000000000';
+
+    $(document).ready(function () {
+        currentFormId = '9ab03acd-680b-4138-96b5-d6e2d16220d8';
+
+        //register all notification close classes
+        $(document).on('click', '.notification-close', function (e) {
+            e.preventDefault();
+            $(e.target).closest('a').hide();
+        });
+
+        $(document).on('click', '.header-fragment', function (e) {
+            e.preventDefault();
+            $(e.target).closest('div').hide();
+        });
+
+
+            loadJobListing();
+
+        function loadJobListing() {
+            displayNotification("formNotification", "spin", "Retrieving job listing...Please wait...");
+
+            var parameters = { formId: '9ab03acd-680b-4138-96b5-d6e2d16220d8', publicId: 'UDQ88BMKSSGYQSE8', readMethod: 'JobListing_Read', filterKey: '', filter: '' };
+
+            $.ajax({
+                type: 'GET',
+                data: parameters,
+                url: '/JobListing/WebForm/CreateJobListing',
+                contentType: 'application.html; charset=utf-8',
+                dataType: 'html',
+                success: function (result) {
+                    hideNotification("formNotification");
+                    $("#dynamicJobListing").html(result);
+                },
+                error: function (xhr, status, error) {
+                    var message;
+
+                    if (xhr.status == 400) {
+                        message = "Unable to load the requested page. " + xhr.statusText;
+                    }
+                    else {
+                        if (typeof xhr.responseJSON != 'undefined')
+                            message = xhr.responseJSON.Message;
+                        else {
+                            var responseModel = JSON.parse(xhr.responseText);
+
+                            if (typeof responseModel.Message != 'undefined')
+                                message = responseModel.Message;
+                            else
+                                message = xhr.responseText;
+                        }
+                    }
+
+                    displayNotification("formNotification", "error", message);
+                }
+            });
+        }
+
+        function checkCookiesEnabled() {
+            var deferred = $.Deferred();
+
+            $.ajax({
+                type: 'POST',
+                url: '/JobListing/WebForm/CookieCheck',
+                success: function (result) {
+
+                    if (result.HasError == true) {
+                        //https://stackoverflow.com/questions/7944460/detect-safari-browser/23522755
+                        var isSafari = navigator.vendor && navigator.vendor.indexOf('Apple') > -1 &&
+                            navigator.userAgent &&
+                            navigator.userAgent.indexOf('CriOS') == -1 &&
+                            navigator.userAgent.indexOf('FxiOS') == -1;
+
+                        if (isSafari) {
+                            var html = "<p style='display: inline-block';>If using Safari, click the following link to open page in a new window to allow cookies for the first time.</p><a style='margin-left: 46px; display: inline-block' href='" + window.location.href + "' target='_blank'>" + window.location.href + "</a>";
+                            result.Message += html;
+                        }
+                    }
+
+                    deferred.resolve(result);
+                },
+                error: function (xhr, status, error) {
+                    var result = {
+                        HasError: true,
+                        Message: "Unable to load the requested page."
+                    };
+
+                    if (xhr.status === 400) {
+                        result.Message = "Unable to load the requested page. " + xhr.statusText;
+                    }
+                    else if (typeof xhr.responseJSON !== 'undefined')
+                        result.Message = xhr.responseJSON.Message;
+
+                    deferred.reject(result);
+                }
+            });
+
+            return deferred.promise();
+        }
+    });
+       
+
+    function SetDate() {
+        $('span.dateFormat').each(function () {
+
+            var origValue = $(this).text();            
+            origValue = $.trim(origValue);
+
+            if (origValue == undefined || origValue == '') {
+                return;
+            }
+
+            if (moment(origValue).isValid() == true) {
+                $(this).text(moment(origValue).local().format('M/D/yyyy'));
+            }            
+        });
+
+    }
+</script>
+<script src="/Scripts/custom/dcrs.ui.messaging.js"></script>

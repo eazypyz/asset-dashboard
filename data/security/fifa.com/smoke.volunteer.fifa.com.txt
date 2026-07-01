@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en" >
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=2">
+    <meta name="theme-color" content="#3232c8">
+    <meta name="robots" content="noindex">
+    <title>Rosterfy</title>
+
+    <!-- meta tags -->
+    <meta property="og:url"           content="https://smoke.volunteer.fifa.com"/>
+    <meta property="og:type"          content="website" />
+    <meta property="og:title"         content="Rosterfy" />
+    <meta property="og:description"   content="" />
+    <meta property="og:image"         content="" />
+
+    <!-- Twitter tags -->
+    <meta name="twitter:url" content="https://smoke.volunteer.fifa.com" />
+    <meta name="twitter:title"  content="Rosterfy" />
+    <meta name="twitter:description"  content="" />
+    <meta name="twitter:image" content="" />
+
+    <link rel="stylesheet" href="https://cdn-fifa.rosterfy.com/build-e2eefed/css/portal.css?id=d28f48d430faa8c7b0b71fa3a119084f">
+    <link rel="icon" href="https://cdn-fifa.rosterfy.com/build-e2eefed/static/img/favicon.ico">
+    <style type="text/css">
+                :root{
+            --primary: #3232c8;
+            --secondary: #ebff00;
+
+            --feature:  #3232c8 ;
+            --primary-lighter: #5151d1;
+            --primary-on-white-lighter:   #5151d1 ;
+            --secondary-lighter: #eeff27;
+
+            --primary-darker: #2b2baa;
+            --secondary-darker: #c8d900;
+
+            --color-on-primary:  var(--white) ;
+            --color-on-primary-alt:  var(--gray-200) ;
+
+            --color-on-primary-on-white:  var(--light) ;
+            --primary-on-white:   var(--primary) ;
+
+            --color-on-secondary:  var(--black) ;
+            --color-on-secondary-alt:  var(--dark) ;
+            --color-on-secondary-text:  var(--white) ;
+
+            
+                
+                        
+                        }
+
+        *,
+        *::before,
+        *::after {
+            box-sizing: border-box;
+        }
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        .rosterfy-loading {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: 100px;
+            min-height: 100vh;
+        }
+        .rosterfy-spinner {
+            display: inline-block;
+            width: 32px;
+            height: 32px;
+            vertical-align: text-bottom;
+            border: 3.5px solid var(--primary);
+            border-right-color: transparent;
+            border-radius: 50%;
+            -webkit-animation: spinner-kf 0.75s linear infinite;
+            animation: spinner-kf 0.75s linear infinite;
+        }
+        @-webkit-keyframes spinner-kf{
+            to {
+                -webkit-transform: rotate(1turn);
+                transform: rotate(1turn);
+            }
+        }
+        @keyframes spinner-kf{
+            to {
+                -webkit-transform: rotate(1turn);
+                transform: rotate(1turn);
+            }
+        }
+    </style>
+
+        
+        
+        
+        
+        
+    <script>
+        window.fbAsyncInit = function() {
+            FB.init({
+                appId      : 134911517288570,
+                cookie     : true,
+                xfbml      : true,
+                version    : 'v10.0'
+            });
+        };
+
+        (function(d, s, id){
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) {return;}
+            js = d.createElement(s); js.id = id;
+            js.src = "https://connect.facebook.net/en_US/sdk.js";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+        
+        
+        
+    
+    
+            <!-- Global Site Tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-QY39Y24GVH"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('consent', 'default', {'ad_storage': 'denied', 'analytics_storage': 'denied'});
+                        gtag('config', 'G-QY39Y24GVH', {send_page_view: false});
+        </script>
+            
+    <script src="https://kit.fontawesome.com/1dbadffb77.js" crossorigin="anonymous"></script>
+
+    
+    
+        
+    </head>
+<body class="theme-simple">
+<!-- Load Facebook SDK for JavaScript -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+<script>
+    window.twttr = (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0],
+            t = window.twttr || {};
+        if (d.getElementById(id)) return t;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "https://platform.twitter.com/widgets.js";
+        fjs.parentNode.insertBefore(js, fjs);
+
+        t._e = [];
+        t.ready = function(f) {
+            t._e.push(f);
+        };
+
+        return t;
+    }(document, "script", "twitter-wjs"));
+</script>
+<div id="app">
+    <div class="rosterfy-loading">
+        <span aria-hidden="true" class="rosterfy-spinner"></span>
+    </div>
+</div>
+<script>
+    var Rosterfy = {
+        assetUrl: 'https://cdn-fifa.rosterfy.com/build-e2eefed',
+        Social: {
+            facebook: 'https://fifa.rosterfy.com/auth/social/redirect/facebook',
+            google: 'https://fifa.rosterfy.com/auth/social/redirect/google'
+        },
+        Sso: {
+            login_url: '',
+            enforce:  false ,
+            name: '',
+            locale: '_locale'
+        },
+            };
+</script>
+<script src="https://cdn-fifa.rosterfy.com/build-e2eefed/js/manifest.js?id=b7fccd8520f05b7448593b2a611b588e"></script>
+<script src="https://cdn-fifa.rosterfy.com/build-e2eefed/js/vendor.js?id=7fdfe39f9cc6a3bac7e3aaae90c7f967"></script>
+<script src="https://cdn-fifa.rosterfy.com/build-e2eefed/js/portal.js?id=8e37acb57d6bcf0d53e1913503d52e27"></script>
+<script src="https://www.google.com/recaptcha/api.js?onload=vueRecaptchaApiLoaded&render=explicit" async defer></script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+User-agent: *
+Disallow: /*?archive?filters=
+Disallow: /api/
+Disallow: /recap-medical-conference-2024
+
+# Host
+Host: https://www.fifa.com
+Host: https://www.inside.fifa.com
+
+# Sitemaps
+Sitemap: https://www.inside.fifa.com/sitemap.xml
+Sitemap: https://www.inside.fifa.com/sitemaps/sitemapindex
+Sitemap: https://cxm-api.fifa.com/fifaplusweb/api/sitemap
