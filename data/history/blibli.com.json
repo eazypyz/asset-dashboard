@@ -1963,5 +1963,40 @@
     "type": "new_subdomain",
     "host": "xplorasa2018.blibli.com",
     "timestamp": "2026-07-01T05:05:23.200Z"
+  },
+  {
+    "type": "robots_changed",
+    "host": "blibli.com",
+    "timestamp": "2026-07-01T07:00:27.146Z",
+    "previous": "bd9d6e5861c6138e55c781c2690c274c4629936a1a51b08c5aa4e64f570eb68f",
+    "current": "fbb95c16130e2584cdc5e910117393fdfe3264621786e728b812d94ae4096c78"
+  },
+  {
+    "type": "robots_changed",
+    "host": "merchant.blibli.com",
+    "timestamp": "2026-07-01T07:00:27.146Z",
+    "previous": "466ff33a8bf399359704b71307dfe62a48686e41905666ea048c4e7576b6172f",
+    "current": "bea891f77eadc176230ff787515ac226aba6a97220aa1421bab357c41e5e4eb2"
+  },
+  {
+    "type": "security_txt_changed",
+    "host": "merchant.blibli.com",
+    "timestamp": "2026-07-01T07:00:27.146Z",
+    "previous": "c95b9c1f264c809ab92d55e3feed2d579a52c9824408399906b5149d197109b1",
+    "current": "9b76cc3e429d9684b9a080376c7f3c4ccb5694c5a0041664b4ad541e5c2661ef"
+  },
+  {
+    "type": "sitemap_changed",
+    "host": "merchant.blibli.com",
+    "timestamp": "2026-07-01T07:00:27.146Z",
+    "previous": "ef623f12b1cb4093f2bd5a1ce2932f8339a6192bd215d582c58ab2060e1e9a22",
+    "current": "a0eb5618a79968bafe14143d12fa587fe8de6425b3ac89adbe14447a6e56510d"
+  },
+  {
+    "type": "robots_changed",
+    "host": "www.blibli.com",
+    "timestamp": "2026-07-01T07:00:27.146Z",
+    "previous": "bd9d6e5861c6138e55c781c2690c274c4629936a1a51b08c5aa4e64f570eb68f",
+    "current": "fbb95c16130e2584cdc5e910117393fdfe3264621786e728b812d94ae4096c78"
   }
 ]

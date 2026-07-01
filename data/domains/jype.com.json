@@ -1,13 +1,371 @@
 {
   "domain": "jype.com",
-  "last_update": "2026-07-01T05:06:05.284Z",
+  "last_update": "2026-07-01T07:01:29.721Z",
   "stats": {
-    "total": 0,
-    "dns_resolved": 0,
-    "alive": 0,
-    "has_robots": 0,
-    "has_security": 0,
-    "has_sitemap": 0
+    "total": 21,
+    "dns_resolved": 13,
+    "alive": 11,
+    "has_robots": 7,
+    "has_security": 6,
+    "has_sitemap": 8
   },
-  "subdomains": []
+  "subdomains": [
+    {
+      "host": "api-core.staging.jype.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-01T07:01:29.706Z",
+      "last_seen": "2026-07-01T07:01:29.706Z"
+    },
+    {
+      "host": "audition.jype.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-01T07:01:29.706Z",
+      "last_seen": "2026-07-01T07:01:29.706Z"
+    },
+    {
+      "host": "chinese.jype.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-01T07:01:29.706Z",
+      "last_seen": "2026-07-01T07:01:29.706Z"
+    },
+    {
+      "host": "english.jype.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-01T07:01:29.706Z",
+      "last_seen": "2026-07-01T07:01:29.706Z"
+    },
+    {
+      "host": "fans.jype.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "0fbef526799d03f767dfe3202242d81ac1fe8f3add04962171435e781fa35ebd",
+      "security_hash": "467e3a8da0bac17882ba0b84049d78d5885ddb18385069d1e8097978e175d376",
+      "sitemap_hash": "09a9556aec94aa0b5fa698849b2eb91587ca16afd4e65b942b66fb6470d01da8",
+      "first_seen": "2026-07-01T07:01:29.706Z",
+      "last_seen": "2026-07-01T07:01:29.706Z"
+    },
+    {
+      "host": "globalaudition.jype.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "0fbef526799d03f767dfe3202242d81ac1fe8f3add04962171435e781fa35ebd",
+      "security_hash": "fcffa50fd9c6e92c799fc00fcaeffe6e187a930f577b94e0c1f2800f19cff576",
+      "sitemap_hash": "199f3343f86a04733b844edac1bedc176742fd51a7d45eccae45544a1c946f71",
+      "first_seen": "2026-07-01T07:01:29.706Z",
+      "last_seen": "2026-07-01T07:01:29.706Z"
+    },
+    {
+      "host": "i.jype.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-01T07:01:29.706Z",
+      "last_seen": "2026-07-01T07:01:29.706Z"
+    },
+    {
+      "host": "itgc-gitlab.jype.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "37fa5449e2e27f0fa8b7fbb4b30ecc30c001431b97def36cbe40219375da12d5",
+      "security_hash": "0cdedcc6dea9b157bfd97f7b088b937ab05f8e309f51e9dc2f5879fa66982dd7",
+      "sitemap_hash": "199f3343f86a04733b844edac1bedc176742fd51a7d45eccae45544a1c946f71",
+      "first_seen": "2026-07-01T07:01:29.706Z",
+      "last_seen": "2026-07-01T07:01:29.706Z"
+    },
+    {
+      "host": "japanese.jype.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-01T07:01:29.706Z",
+      "last_seen": "2026-07-01T07:01:29.706Z"
+    },
+    {
+      "host": "jyp-ise.jype.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-01T07:01:29.706Z",
+      "last_seen": "2026-07-01T07:01:29.706Z"
+    },
+    {
+      "host": "jype.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "0fbef526799d03f767dfe3202242d81ac1fe8f3add04962171435e781fa35ebd",
+      "security_hash": "a4a3a590387159598200e9935629093addd0de1e0dd62dfa6db4c5723519be9c",
+      "sitemap_hash": "199f3343f86a04733b844edac1bedc176742fd51a7d45eccae45544a1c946f71",
+      "first_seen": "2026-07-01T07:01:29.706Z",
+      "last_seen": "2026-07-01T07:01:29.706Z"
+    },
+    {
+      "host": "jypfanscdn.jype.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-01T07:01:29.706Z",
+      "last_seen": "2026-07-01T07:01:29.706Z"
+    },
+    {
+      "host": "loveearthchallenge.jype.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-01T07:01:29.706Z",
+      "last_seen": "2026-07-01T07:01:29.706Z"
+    },
+    {
+      "host": "m.jype.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-01T07:01:29.706Z",
+      "last_seen": "2026-07-01T07:01:29.706Z"
+    },
+    {
+      "host": "privacy.jype.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": true,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "f14c8e3c5fac91bfe3885420b990332ce5502c8ed1e81439694f4bcd30d26092",
+      "first_seen": "2026-07-01T07:01:29.706Z",
+      "last_seen": "2026-07-01T07:01:29.706Z"
+    },
+    {
+      "host": "recruit-apply.jype.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": true,
+      "robots_hash": "a48b670b3d2dc692119cf443d4a18c0d97df723feb289cb19c77ec483a4d5979",
+      "security_hash": "",
+      "sitemap_hash": "8c75b4f233cfd9274718e7c44c577880f6121d0eba3a9be8a984f9918b664feb",
+      "first_seen": "2026-07-01T07:01:29.706Z",
+      "last_seen": "2026-07-01T07:01:29.706Z"
+    },
+    {
+      "host": "sponsor.jype.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-01T07:01:29.706Z",
+      "last_seen": "2026-07-01T07:01:29.706Z"
+    },
+    {
+      "host": "www.audition.jype.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-01T07:01:29.706Z",
+      "last_seen": "2026-07-01T07:01:29.706Z"
+    },
+    {
+      "host": "www.fans.jype.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "0fbef526799d03f767dfe3202242d81ac1fe8f3add04962171435e781fa35ebd",
+      "security_hash": "467e3a8da0bac17882ba0b84049d78d5885ddb18385069d1e8097978e175d376",
+      "sitemap_hash": "199f3343f86a04733b844edac1bedc176742fd51a7d45eccae45544a1c946f71",
+      "first_seen": "2026-07-01T07:01:29.706Z",
+      "last_seen": "2026-07-01T07:01:29.706Z"
+    },
+    {
+      "host": "www.i.jype.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-01T07:01:29.706Z",
+      "last_seen": "2026-07-01T07:01:29.706Z"
+    },
+    {
+      "host": "www.jype.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "37fa5449e2e27f0fa8b7fbb4b30ecc30c001431b97def36cbe40219375da12d5",
+      "security_hash": "0cdedcc6dea9b157bfd97f7b088b937ab05f8e309f51e9dc2f5879fa66982dd7",
+      "sitemap_hash": "199f3343f86a04733b844edac1bedc176742fd51a7d45eccae45544a1c946f71",
+      "first_seen": "2026-07-01T07:01:29.706Z",
+      "last_seen": "2026-07-01T07:01:29.706Z"
+    }
+  ]
 }
