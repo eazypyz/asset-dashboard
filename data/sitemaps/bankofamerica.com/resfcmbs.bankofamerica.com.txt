@@ -1,0 +1,187 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>
+
+</title><meta name="Pragma" content="no-cache" /><meta http-equiv="Cache-control" content="no-store" /><meta http-equiv="Expires" content="0" /></head>
+<body>
+    <form name="form1" method="post" action="./login.aspx?resumePath=https%3a%2f%2ffedsso.bankofamerica.com%2fas%2fxPromvHZpA%2fresume%2fas%2fauthorization.ping&amp;vnd_pi_requested_resource=https%3a%2f%2fresfcmbs.bankofamerica.com%2fsitemap.xml&amp;vnd_pi_application_name=A10383CMBSBackshop&amp;client_id=A10383CMBSBackshop" onsubmit="javascript:return WebForm_OnSubmit();" id="form1">
+<div>
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="gQlt3T18sQv9mhLoAARF1r7XypkRoTh0ScVtnSp5ttGJ+u/jgVl+wvFf9IOjxKigvfEIHAl2+agSDh+GSYSPqtUg2HheHFJpMgq3WlYwG85zRNdSfKS+cPjAbEXdQIVbIFAED4+IEpl27YisIjZKRhtLac99VqQ8Mp9VVublvArOG+Rmt1N1Qv4figrzJI9+smTUlJgK6NwoQIBw7YajGEM4bfjZVsRLAM9DwF4uqWjP653YYSMeltS1KK/00cKIPjgs5wS29SzLPWu+nigth2YLm51okIy4aJiCdBFc/ndsb7N0" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/Siteminder/WebResource.axd?d=pynGkmcFUV13He1Qd6_TZHdsfGw_-c-sB-_1zaUe6iP60vX3BMJKwvwRBcYqUSs-5b4Zjg2&amp;t=638901392248157332" type="text/javascript"></script>
+
+
+<script src="/Siteminder/WebResource.axd?d=x2nkrMJGXkMELz33nwnakIDR55rIrpEW50lAexI8yeBzDL7Moc-CswDnm1__9Zgzo_aC4Dw_7nWi6OAomtJvgXmT_LY1&amp;t=638901392248157332" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+function WebForm_OnSubmit() {
+if (typeof(ValidatorOnSubmit) == "function" && ValidatorOnSubmit() == false) return false;
+return true;
+}
+//]]>
+</script>
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="B0F4EDD8" />
+	<input type="hidden" name="__PREVIOUSPAGE" id="__PREVIOUSPAGE" value="x7bcnwl5Kxk591ES483WDLt08P7UlwBubdPYo0QZbe8dK9WMaLwGa0VFiwQPgmDLHGJam8buthGuy35AmcGbdUFCRnE1" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="IFfT7PdyMTp5vuQ3kg9yWYujG0BCSfgnHZSJrLCWa+6ANBlgkWfAUj6gJlKRnwXo+P4ElHNnkLF1Dw2/9QCXpUISYieJERqmUUMHdNH/EzCUXd1V62ryVbz3CMXvEVqzrmHe6peEZFKb2my9By27K+TRYnorfcES3TWhM9G3pXYapTbT0XJJydCPwX8MuA5eo8yZ3BS0/joL7slURN4dTdRaRQwuQ5OPKq1nhZJHMbPPB+Mg" />
+</div>
+
+
+    <input type="hidden" name="TARGETURL" id="TARGETURL" value="https://resfcmbs.bankofamerica.com/sitemap.xml" />
+    <input type="hidden" name="errorURL" id="errorURL" value="https://resfcmbs.bankofamerica.com/Siteminder/Login.aspx" />
+	<input type="hidden" name="changePasswordURL" id="changePasswordURL" value="https://resfcmbs.bankofamerica.com/Siteminder/Login.aspx" />
+    <input type="hidden" name="client_id" id="client_id" value="A10383CMBSBackshop" />
+    <div>
+       <table align="top" width="100%" height="100%" cellpadding="0" cellspacing="0" border="0" ID="Table1">
+			<tr>
+				<td height="80">
+					<img src="bofa_logo.png" />
+				</td>
+			</tr>
+           <tr align="center">
+			<td height="100%">
+                    <table ID="Table2">
+							<tr>
+								<th align="center" colspan="2">
+									Backshop Application
+								</th>
+							</tr>
+							<tr align="center">
+								<th align="right">
+									User Name:
+								</th>
+								<th align="left">
+                                    <input name="userid" type="text" id="userid" tabindex="1" name="userid" size="30" />
+                                    <span id="UserNameRequired" title="User Name is required." style="color:Red;visibility:hidden;">*</span>
+                        
+								</th>
+							</tr>
+							<tr align="center">
+								<th align="right">
+									Password:
+								</th>
+								<th align="left">
+                                    <input name="password" type="password" id="password" tabindex="2" name="password" size="30" />
+									<span id="PasswordRequired" title="Password is required." style="color:Red;visibility:hidden;">*</span>
+                          
+								</th>
+							</tr>
+                            <tr>
+                                <td align="center" style="color: Red;" colspan="2">
+                                    
+                                </td>
+                            </tr>
+							<tr>
+								<td colspan="2" align="center">
+                                    <input type="submit" name="submit" value="Login" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;submit&quot;, &quot;&quot;, true, &quot;ctl00$Login1&quot;, &quot;https://servicep.bankofamerica.com/auth/authenticate.do&quot;, false, false))" id="submit" />
+									                                    
+								</td>
+							</tr>
+						</table>
+                    </td>
+           </tr>
+           <tr>
+					<td style="height:100px;font-family:Verdana,Geneva,Arial,Helvetica,sans-serif;font-size:8pt">
+						<div style="margin-bottom: 2em;">
+							This is a private computer system with access restricted to those with proper 
+							authorization. If you are not specifically authorized to access data on this 
+							system, disconnect now. All information and communications on this system are 
+							subject to review, monitoring, and recording at any time without notice or 
+							permission. Unauthorized use or access may be subject to prosecution or 
+							disciplinary action.
+						</div>
+					</td>
+				</tr>
+				<tr valign="bottom">
+					<td align="center">
+						<table border="1" cellspacing="2" cellpadding="4" ID="Table3" border="0">
+							<tr align="center">
+								<td style="width:600px;border-color:#002985;font-size:10pt">
+									This site contains Proprietary information and is only intended for internal 
+									Bank of America distribution. Non-Bank of America entities MUST have a 
+									non-disclosure agreement with Bank of America in place before they can have 
+									access to this information. "Bank of America" is the marketing name used by certain
+                                    of the Global Banking and Global Markets businesses of Bank of America Corporation. 
+                                    Lending, other commercial banking activities, and trading in certain financial instruments 
+                                    are performed globally by banking affiliates of Bank of America Corporation,
+                                    including Bank of America, NA., Member FDIC. Equal Housing Lender.
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+              
+        </table>
+    
+    </div>
+    
+<script type="text/javascript">
+//<![CDATA[
+var Page_Validators =  new Array(document.getElementById("UserNameRequired"), document.getElementById("PasswordRequired"));
+//]]>
+</script>
+
+<script type="text/javascript">
+//<![CDATA[
+var UserNameRequired = document.all ? document.all["UserNameRequired"] : document.getElementById("UserNameRequired");
+UserNameRequired.controltovalidate = "userid";
+UserNameRequired.errormessage = "User Name is required.";
+UserNameRequired.validationGroup = "ctl00$Login1";
+UserNameRequired.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+UserNameRequired.initialvalue = "";
+var PasswordRequired = document.all ? document.all["PasswordRequired"] : document.getElementById("PasswordRequired");
+PasswordRequired.controltovalidate = "password";
+PasswordRequired.errormessage = "Password is required.";
+PasswordRequired.validationGroup = "ctl00$Login1";
+PasswordRequired.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+PasswordRequired.initialvalue = "";
+//]]>
+</script>
+
+
+<script type="text/javascript">
+//<![CDATA[
+
+var Page_ValidationActive = false;
+if (typeof(ValidatorOnLoad) == "function") {
+    ValidatorOnLoad();
+}
+
+function ValidatorOnSubmit() {
+    if (Page_ValidationActive) {
+        return ValidatorCommonOnSubmit();
+    }
+    else {
+        return true;
+    }
+}
+        //]]>
+</script>
+</form>
+</body>
+</html>

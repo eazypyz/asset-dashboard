@@ -1,0 +1,375 @@
+
+<html lang="en">
+<head>
+<title>CMBS Imaging Login Page</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+
+
+<link href="images/favicon.ico" rel="icon" type="image/x-icon">
+
+
+
+<!--  Adding Content Security Policy Headers-->
+
+
+<!--  Cross Frame scripting/Click jacking deny headers-->
+
+
+
+<!-- Adding Pragma HTTP response header -->
+
+
+<script nonce="7sbhbk_Fj_RUQwQjybZ2CNSF1lxRCklcyA" type="text/javascript">
+var pr = document.location.protocol;
+var hs = document.location.host;
+
+
+var strToken = 'null';
+document.write("<base href=\""+pr+"//"+hs+"&#47;cmbs	/\" />");
+</script>
+
+
+<script nonce="7sbhbk_Fj_RUQwQjybZ2CNSF1lxRCklcyA" type="text/javascript"
+	src="javascript/util.js"></script>
+<script nonce="7sbhbk_Fj_RUQwQjybZ2CNSF1lxRCklcyA" type="text/javascript"
+	src="javascript/windowNameSetter.js" defer="defer"></script>
+
+
+
+
+
+
+
+
+
+<link nonce="7sbhbk_Fj_RUQwQjybZ2CNSF1lxRCklcyA" rel="stylesheet" href="css/format.css" />
+
+<style nonce="7sbhbk_Fj_RUQwQjybZ2CNSF1lxRCklcyA">
+html {
+	display: none;
+}
+
+.banner_logo {
+	width: 100em;
+}
+</style>
+
+<script nonce="7sbhbk_Fj_RUQwQjybZ2CNSF1lxRCklcyA" type="text/javascript">
+if (self == top) 
+{
+	document.documentElement.classList.add("display-block");
+	document.documentElement.classList.remove("display-none");
+	
+}
+else
+{
+	top.location = self.location;
+}
+</script>
+
+<script nonce="7sbhbk_Fj_RUQwQjybZ2CNSF1lxRCklcyA" type="text/javascript">
+//Creating a placeholder
+  window.prototype = new Object();
+  window.prototype.queryString ='';
+</script>
+
+
+
+<script nonce="7sbhbk_Fj_RUQwQjybZ2CNSF1lxRCklcyA" src="javascript/mouseover.js"></script>
+
+<script nonce="7sbhbk_Fj_RUQwQjybZ2CNSF1lxRCklcyA" src="javascript/util.js"></script>
+
+<script nonce="7sbhbk_Fj_RUQwQjybZ2CNSF1lxRCklcyA" src="javascript/login.js"></script>
+
+<script nonce="7sbhbk_Fj_RUQwQjybZ2CNSF1lxRCklcyA" src="javascript/openactionwindow.js"></script>
+
+</head>
+
+<body class="body">
+
+	<table role="presentation" width="93%" bgcolor="white" cellspacing="0"
+		cellpadding="0" border="0" align="center">
+
+		<tr role="row">
+			<td role="cell" colspan="3" width="100%"><img
+				class="banner_logo" alt="Bofa Logo Image" src="images/header.jpg" /></td>
+		</tr>
+
+		<tr role="row">
+			<td role="cell" colspan="3"&nbsp;></td>
+		</tr>
+
+		<tr role="row">
+
+			<td role="cell" colspan="3" align="left">&nbsp;
+				<h1 class=pagelabel>Sign In</h1>
+			</td>
+
+		</tr>
+
+		<tr role="row">
+			<td role="cell" colspan="3"><hr class="horizontal_line"></td>
+		</tr>
+
+		<tr role="row">
+			<td role="cell" colspan="3" height="50">&nbsp;</td>
+		</tr>
+
+		<tr role="row">
+
+			<td role="cell" colspan="3" align="center">
+				
+				<div id="data-error"
+					data-errpage="https&#58;&#47;&#47;cmbsi.bankofamerica.com&#47;cmbs&#47;jsp&#47;cmbsinternetlogin.jsp"></div>
+
+				<form name="login" id="login" autocomplete="off"
+					action="https&#58;&#47;&#47;servicep.bankofamerica.com&#47;auth&#47;authenticate.do"
+					method="post">
+
+					<input type="HIDDEN" name="client_id"
+						value="A2039CMBSIMG1" />
+
+					<input type="HIDDEN" name="errorURL"
+						value="https&#58;&#47;&#47;cmbsi.bankofamerica.com&#47;cmbs&#47;jsp&#47;cmbsinternetlogin.jsp" />
+
+					<input type="HIDDEN" name="changePasswordURL"
+						value="https&#58;&#47;&#47;cmbsi.bankofamerica.com&#47;cmbs&#47;jsp&#47;changepassword.jsp" />
+
+					
+					<input type="HIDDEN" name="resumePath" value="https&#58;&#47;&#47;fedsso.bankofamerica.com&#47;as&#47;vhJ0VSjRJA&#47;resume&#47;as&#47;authorization.ping" />
+					
+
+					<table role="presentation" width="60%" border="0">
+
+						<tr role="row" align="center">
+
+							<td role="cell">&nbsp;</td>
+
+							<td role="cell" align="left" valign="middle" colspan="3"
+								class="bannertext">To sign on to CMBS Imaging, type in your
+								Login ID and Password. Then<br> click &quot;Sign In&quot;
+								to continue.
+
+							</td>
+
+						</tr>
+
+						<tr role="row">
+
+							<td role="cell" align="center" colspan="4"><br>
+
+
+
+
+</td>
+
+						</tr>
+
+						<tr role="row">
+
+							<td role="cell" width="15%">&nbsp;</td>
+
+							<td role="cell" align="right"><span class=title>Login
+									ID:</span></td>
+
+							<td role="cell" align="left">&nbsp;&nbsp;&nbsp;&nbsp; <input
+								type="text" id="userid" class="input" name="userid" size="20"
+								aria-label="userid" maxlength="15" autocomplete="off">
+
+							</td>
+
+							<td role="cell" width="15%">&nbsp;</td>
+
+						</tr>
+
+						<tr role="row">
+
+							<td role="cell" width="15%">&nbsp;</td>
+
+							<td role="cell" align="right"><span class=title>Password:</span></td>
+
+							<td role="cell" align="left">&nbsp;&nbsp;&nbsp;&nbsp; <input
+								id="password" type="password" class="input" name="password"
+								aria-label="password" size="20" maxlength="20"
+								autocomplete="off">
+
+							</td>
+
+							<td role="cell" width="15%">&nbsp;</td>
+
+						</tr>
+
+						<tr role="row">
+							<td role="cell" align="center" colspan="3"><br> <br>&nbsp;&nbsp;&nbsp;&nbsp;
+								
+									<input type="image" class="cursor_pointer" id="signIn"
+										alt="Submit Login Form" src="images/SignIn.gif" name="signIn">
+								  &nbsp;&nbsp; <img src="images/Clear.gif" name="clear"
+								id="clear" alt="clear Login Form" border="0" tabindex="0"></td>
+
+							<td role="cell">&nbsp;</td>
+
+						</tr>
+
+						<tr role="row">
+
+							<td role="cell" width="15%">&nbsp;</td>
+
+							<td role="cell" align="left" colspan="2" class="bannertext"><BR>
+								Please click here to <a class="loginlink cursor_pointer"
+								id="changepasswordlink" tabindex="0"
+								data-page="https&#58;&#47;&#47;cmbsi.bankofamerica.com&#47;cmbs&#47;jsp&#47;changepassword.jsp">change
+									your password.</a></td>
+							<td role="cell" width="15%">&nbsp;</td>
+
+						</tr>
+
+						<tr role="row">
+
+							<td role="cell" width="15">&nbsp;</td>
+
+							<td role="cell" align="left" colspan="3" class="bannertext">This
+								password change option applies only to authorized CMBS
+								Investor/Clients.</td>
+
+						</tr>
+
+						<tr role="row">
+							<td role="cell" colspan="3" height="3"></td>
+						</tr>
+
+						<tr role="row">
+
+							<td role="cell" width="15%">&nbsp;</td>
+
+
+							<td role="cell" width="15%">&nbsp;</td>
+
+						</tr>
+
+					</table>
+
+				</form>
+
+			</td>
+
+		</tr>
+
+		<tr role="row">
+
+			<td role="cell" colspan="3" height="21" valign="top">&nbsp;</td>
+
+		</tr>
+
+		<tr role="row">
+
+			<td role="cell" width="10%">&nbsp;</td>
+
+			<td role="cell" align="left"><p class="bannertext">
+This information is intended for authorized CMBS Imaging users only and should not be distributed or shown to non-affiliated parties.
+Information contained within the CMBS Imaging should be considered confidential and is intended for authorized CMBS Imaging users only. Pop-up windows that
+contain such information should also be considered confidential.<br><br>
+Bank of America, N.A. is a subsidiary of Bank of America Corporation. Certain products and services described may be provided through affiliates of Bank
+of America, N.A. Unless specified otherwise, products are not deposits or obligations of, or guaranteed by Bank of America Corporation or any of its
+affiliated banks, are not insured by the Federal Deposit Insurance Corporation (FDIC), and are subject to investment risk, including possible loss of
+principal amount invested.
+</p></td>
+
+			<td role="cell" width="10%">&nbsp;</td>
+
+		</tr>
+
+		<tr role="row">
+
+			<td role="cell" colspan="3" height="21" valign="top">&nbsp;</td>
+
+		</tr>
+
+		<tr role="row">
+
+			<td role="cell" colspan="3" width="20%"><head>
+    <link nonce="7sbhbk_Fj_RUQwQjybZ2CNSF1lxRCklcyA" rel="stylesheet" type="text/css" href="css/ecf.css"> 
+</head>
+<body>
+            <table role="presentation" BORDER=0 CELLSPACING=0 CELLPADDING=0  WIDTH="100%" align="left" class="footer-table">  
+            <tr role="row" align="left"><td colspan="2" height="1" bgcolor="#333333"></td></tr>
+            <tr role="row"><td colspan="2" height="8" bgcolor="#ffffff"></td></tr>
+            <tr role="row" align="left">
+                   <td role="cell" width="11">&nbsp;</td> 
+                   <td role="cell" valign="top" class="footertext">
+                        <A class="footernew" HREF="https://business.bofa.com/content/dam/flagship/gbgmr/global-privacy-notices/BofA-Institutional-Digital-Privacy-Notice.pdf" target="_">Privacy & Security</A>
+                        <br>
+                        <span class="linksep">
+                        <BR>&copy;&nbsp;<span id="copyright-year"></span> Bank of America Corporation. All rights reserved.
+                        <A  class="footernew" HREF="http://corp.bankofamerica.com/public/support/termsconditions.jsp" target="_">Terms & Conditions</A>  
+                        &nbsp;&nbsp;&nbsp;&nbsp;            
+                        ***Confidential***</span>
+                    </TD>
+                </TR>     
+            </table>
+
+</body>  
+<script nonce="7sbhbk_Fj_RUQwQjybZ2CNSF1lxRCklcyA" type="text/javascript">
+	document.addEventListener('DOMContentLoaded', function () {
+		const year= new Date().getFullYear();
+		if(document.getElementById('copyright-year')) {
+			document.getElementById('copyright-year').innerHTML=year;
+		}
+	});
+</script> 
+</td>
+
+		</tr>
+
+	</table>
+
+
+
+	<script nonce="7sbhbk_Fj_RUQwQjybZ2CNSF1lxRCklcyA" type="text/javascript">
+		document.forms['login'].userid.focus();
+	</script>
+
+	<script nonce="7sbhbk_Fj_RUQwQjybZ2CNSF1lxRCklcyA" src="javascript/tokenEncoder.js"></script>
+
+	<script nonce="7sbhbk_Fj_RUQwQjybZ2CNSF1lxRCklcyA" type="text/javascript">
+		window.onload=(event) => {
+			window.history.forward(1);
+			document.forms['login'].reset();
+		};
+		
+		document.addEventListener('DOMContentLoaded', function () {
+			document.getElementById('login')
+		  		.addEventListener('submit', function (){
+		  			return submitExternalLogin(document.getElementById('login'));	
+		  	});
+	 		document.getElementById('clear')
+	  		  	.addEventListener('click', clearTextBox);
+	 		
+	 		document.getElementById('changepasswordlink')
+	  			.addEventListener('click', function () {
+	  				const anchorElement= document.getElementById('changepasswordlink');
+	  				openWindow(anchorElement.dataset.page);
+	  			});
+	 		
+	 		document.getElementById('signIn')
+          			.addEventListener('mouseover',  function () {  
+          				const signInElement= document.getElementById('signIn');
+          				signInElement.src='images/SignInHover.gif';
+          		});
+		 	document.getElementById('signIn')
+		  		 	 .addEventListener('mouseout',  function () {  
+		  		 		const signInElement= document.getElementById('signIn');
+          				signInElement.src='images/SignIn.gif';
+		  		});
+			document.getElementById('clear')
+			  		 .addEventListener('mouseover', function () { rollover('clear', 'ClearHover.gif')});
+			document.getElementById('clear')
+	  		 	 	 .addEventListener('mouseout',  function () { rollover('clear', 'Clear.gif')});
+	  
+		});
+	</script>
+
+</body>
+
+</html>

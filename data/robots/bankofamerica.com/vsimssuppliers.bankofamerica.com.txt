@@ -1,0 +1,333 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><!-- SiteMinder Encoding=ISO-8859-1; --><!--
+-->
+
+<!--<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">-->
+<meta http-equiv="X-UA-Compatible" content="IE=11" />
+<title>Bank of America | Simplified Sign-On</title><!--
+<link rel="stylesheet" type="text/css" href="styles.css" />
+-->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<style id="antiClickjack">body{display:none !important;}</style>
+
+<!-- Script for displaying cookie banner Starts -->
+<script src="https://cdn.cookielaw.org/consent/fe2327be-9227-4bad-ac58-1d9087d3e912/otSDKStub.js" data-document-language="true" type="text/javascript" charset="UTF-8" data-domain-script="fe2327be-9227-4bad-ac58-1d9087d3e912" integrity="sha384-z80euonMkGYzkoDeqejYRZhfbwXi4GLMBKWPN3ov4Inbor+6FunCdVasW70sZhFS" crossorigin="anonymous" nonce="64cbb6d74480ebbb919a7a7486752796c41a33359bb7575806718f279b01e8cf"></script>
+<script type="text/javascript">function OptanonWrapper()</script>
+<!-- Script for displaying cookie banner Ends -->
+
+<script type="text/javascript">
+if (self == top) {
+var antiClickjack = document.getElementById("antiClickjack");
+antiClickjack.parentNode.removeChild(antiClickjack);
+} else {
+top.location = self.location;
+}
+
+function handleEnterKey(e){
+	if(e.keyCode === 13) {
+		e.preventDefault();
+		formSubmit();
+	}
+}
+				
+function formSubmit(){
+                var f = document.forms.login
+                
+                var msg = '';
+                if(/^s*$/.test(f.PASSWORD.value)){
+                        msg = 'You must supply your Password.';
+                        f.PASSWORD.focus();
+                }
+                if(/^s*$/.test(f.USER.value)){
+                        msg = 'You must supply your User ID.';
+                        f.USER.focus();
+                }
+
+                if (msg == '') {
+                        console.log('Going to call API..');
+
+                        $.ajax({
+                                url : 'https://vsimssuppliers.bankofamerica.com/vsimscore/api/usertype?userid='+ f.USER.value,
+                                cache: false,
+                                crossDomain: true,
+                                success : function(result) {
+                                        console.log(result);
+                                        if(result === 'Associate') {
+                                                var errorTable = document.getElementById("errorMsg");
+                                                var errorContent = document.getElementById("errorContent");
+                                                errorTable.style.display = "table";
+                                                errorContent.innerHTML = 'This site is for external vendors only.  Bank of America employees must be logged into the bank network and use vsims.bankofamerica.com.';
+                                        }else {
+                                                var errorTable = document.getElementById("errorMsg");
+                                                var errorContent = document.getElementById("errorContent");
+                                                errorContent.innerHTML = '';
+                                                errorTable.style.display = "none";
+                                                document.forms.login.submit();    
+                                        }
+                                },
+                                error: function(xhr, status, error){
+                                        var errorMessage = xhr.status + ': ' + xhr.statusText
+                                        console.log('Error - ' + errorMessage, error);
+										if(xhr.status === 401) {
+                                                var errorTable = document.getElementById("errorMsg");
+                                                var errorContent = document.getElementById("errorContent");
+                                                errorContent.innerHTML = '';
+                                                errorTable.style.display = "none";
+                                                document.forms.login.submit();    
+                                        }
+										
+                                }
+                        });
+                }else {
+                        alert(msg);
+                }
+        }
+</script>
+
+<script src="sso_login.fcc_files/urlmunger.js"></script>
+<script type="text/javascript">
+<!--
+        var isNS4 = navigator.appName == "Netscape" && /^s*4/.test(navigator.appVersion);
+        var isOtherNS = navigator.appName == "Netscape" && ! isNS4
+
+        function errorMessage() {
+                if (parseInt('') > 0) {
+                document.write( '<p><strong>ERROR</strong></p><p>'+
+                                                'You have entered an incorrect User Id or Password. Please enter your information again.'+
+                                                '</p>');
+                } else if (isNS4) {
+                        // funky spacing issue if div is empty in NS4
+                        document.write('<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>');
+               }
+        }
+
+        onload = function(){
+                var f = document.forms.login
+                f.USER.value = '';
+                f.PASSWORD.value = '';
+                f.USER.focus();
+
+                var error_Msg = getParameterByName('ERROR_MSG');
+                var errorTable = document.getElementById("errorMsg");
+                var errorContent = document.getElementById("errorContent");
+                var resPath = getParameterByName('resumePath');
+                if(resPath){
+                        f.targetURL.value='https://vsimssuppliers.bankofamerica.com/VSIMS2/ngpages/';
+                        f.resumePath.value = resPath;
+                }else{
+                        f.resumePath.value='';
+                        f.targetURL.value='https://vsimssuppliers.bankofamerica.com/VSIMS2/ngpages/';
+                }
+                if(error_Msg) {
+                        errorTable.style.display = "table";
+                        var errMsg='';
+                        if (error_Msg === "NOT_AUTHENTICATED") {
+              //errMsg = "You have entered an Invalid Userid/Password. Please use the Link below to return for Login";
+                          errMsg = "You have entered an Invalid Userid/Password. Please try again";
+            } else if (error_Msg === "ACCOUNT_INACTIVE") {   // Its not a reset of the password. They would use a tool to reset it..
+              errMsg = "Your Login id has become inactive due to no activity for past 90 days. Please call Technical Support (866)439-4613 for further assistance";
+            } else if (error_Msg === "ACCOUNT_DISABLED") {
+              errMsg = "Your Account has been disabled. Please call Technical Support at (866)439-4613 for further assistance";
+            } else if (error_Msg === "LOCKED") {
+              errMsg = "Your Login Account has been Locked. Please return to the Login screen and select  \"Forgot Your Password\" . If you continue to have difficulties, please call Technical Support at (866)439-4613 for further assistance";
+            } else if (error_Msg === "PASSWORD_RESET") {
+              errMsg = "Your Account  password needs to be Reset. Please call Technical Support at (866)439-4613 for further assistance";
+            } else if (error_Msg === "UNKNOWN_ERROR") {
+              errMsg = "You encountered an Unkown Error. Please call Technical Support at (866)439-4613  for further assistance";
+            } else if (error_Msg === "SYSTEM_EXCEPTION") {
+              errMsg = "System is having technical difficulties during Login. Please call and report this Error message to Technical Support at (866)439-4613";
+            } else if (error_Msg === "INVALID_TARGET_DOMAIN") {
+              errMsg = "System is having technical difficulties. An Invalid Domain was referred in this request from you. Please call and report this Error message to Technical Support at (866)439-4613";
+            }
+                        errorContent.innerHTML = errMsg;
+
+                }else {
+                        errorContent.innerHTML = '';
+                        errorTable.style.display = "none";
+                }
+        }
+
+        function getParameterByName(name, url) {
+                if (!url) url = window.location.href;
+                if (url) {
+                        url = decodeURIComponent(url);
+                }
+                name = name.replace(/[\[\]]/g, '\\$&');
+                var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+        results = regex.exec(url);
+                if (!results) return null;
+                if (!results[2]) return '';
+                return decodeURIComponent(results[2].replace(/\+/g, ' '));
+        }
+
+        function ValidateForm(f){
+                var msg = '';
+
+                if(/^s*$/.test(f.PASSWORD.value)){
+                        msg = 'You must supply your Password.';
+                        f.PASSWORD.focus();
+                }
+                if(/^s*$/.test(f.USER.value)){
+                        msg = 'You must supply your User ID.';
+                        f.USER.focus();
+                }
+
+                if (msg == '') {
+                        return true;
+                } else {
+                        alert(msg);
+                        return false;
+                }
+        }
+
+        function showHints(toggle) {
+                if (document.getElementById) {
+                        document.getElementById('hints').style.display = toggle ? 'block':'none';
+                }
+        }
+
+  if (isOtherNS) {
+    document.write('<link rel="stylesheet" type="text/css" href="stylesNS.css" />');
+  } else {
+    document.write('<link rel="stylesheet" type="text/css" href="styles.css" />');
+                if (isNS4) {
+                        document.write('<style type="text/css">'+
+                                           'div, p, label, a, input {font: 11px/1.3 Arial,Helvetica,Verdana,sans-serif;color: #666666;}'+
+                                           '#inputs {margin-top: -20px;}'+
+                                           '#inputs p {text-align: left;}'+
+                                           '#options {margin-top: 90px;}'+
+                                           '#intro {margin-top: 50px;}'+
+                                           '#ssoContent {padding-top: 0;}'+
+                                           '#error {position: static;}'+
+                                           '</style>');
+                }
+        }
+
+// This script to capture the enter key for submission is interfering with password entry
+/*              document.captureEvents(Event.KEYDOWN);
+                document.onkeydown = function (e) {
+                        if (e.which == 13 && /USER|PASSWORD|SIGN ON/.test(e.target.toString()) &&
+                                ValidateForm(document.forms.login)) {
+                                document.forms.login.submit();
+                        }
+                }
+*/
+
+
+//-->
+</script><link rel="stylesheet" type="text/css" href="sso_login.fcc_files/stylesNS.css">
+<style type="text/css">
+body #inputs .button {
+        margin-top: 15px;
+        width: auto !important;
+}
+</style></head><body>
+        <div id="ssoFront">
+                <table cellspacing="0" cellpadding="0" width="100%" border="0">
+                <tbody>
+                <tr>
+                                <td width="100%" background="vsims_images/headerBG.gif">
+                                        <span style="float:left"><img height="35" src="vsims_images/vsims_sso_header_ver1.gif" width="580"  ></img></span>
+
+
+                                </td>
+
+                                </tr>
+                                </tbody>
+                </table>
+                <div id="ssoContent">
+                        <table width="580px" id = "errorMsg">
+                                <tbody><tr>
+                                        <td >
+                                                <span style="COLOR: #ff0000;margin-left: -3px;" class="alert1" id="errorContent"> </span>
+                                        </td>
+                                        <td></td>
+                                </tr>
+
+                                </tbody>
+                        </table>
+
+                        <div id="intro" tabindex="1">
+                                <h2>Notice to First Time Users!</h2>
+                                <p>
+                                        <strong>Suppliers:</strong>
+                                        A Bank of America sponsor must request your access to this site. You will then receive an email confirmation of your login ID and location or password setup.
+                                </p>
+                        </div>
+                        <form name="login" action="https://servicep.bankofamerica.com/auth/authenticate.do" method="post">
+                                <div id="inputs" aria-label="Login Form">
+                                        <td>
+                                        <p><label for="USER">User Id:</label>  &nbsp;&nbsp;</p>
+                                        <input tabindex="10" name="userid" id="USER" size="13" title="Please enter your User Id." type="text" AUTOCOMPLETE="off" onkeypress="handleEnterKey(event)">
+                                        </input>
+                                        </td>
+                                        <div aria-label="If forgot your User id">
+                                                <a href="https://securemessagingp.bankofamerica.com/srt/forgot_userid.do?appid=10" tabindex="15" target="_blank" title="This link will launch a new browser window">Forgot your user id?</a>
+                                        </div>
+
+                                        <p><label for="PASSWORD">Password:</label>  &nbsp;&nbsp;</p>
+                                        <input tabindex="20" name="password" id="PASSWORD" size="13" title="Please enter your password." type="password" AUTOCOMPLETE="off" onkeypress="handleEnterKey(event)">
+                                        <div aria-label="If forgot your Password">
+                                                <a href="https://securemessagingp.bankofamerica.com/srt/forgotpassword.do?appid=10" target="_blank" tabindex="25" title="This link will launch a new browser window">Forgot your password?</a>
+                                        </div>
+
+                                        <input tabindex="30" value="Login" class="button" name="signon" type="button" onclick = "formSubmit()">
+                                </div>
+
+                                <div id="error">
+                                        <div id="hints">
+                                                <p>
+                                                        <strong>HINT:</strong> Your Login ID is seven alphanumeric characters used for
+                                                        mainframe, desktop and web application access (e.g. NBK657A, MAB1234).
+                                                </p>
+                                                <p>
+                                                        <strong>HINT:</strong> Your password is eight alphanumeric characters with at
+                                                        least one numeral separating the alpha characters (e.g. pass2you).
+                                                </p>
+                                        </div>
+                                        <script type="text/javascript">errorMessage();</script>
+                                </div>
+                                <!--<div id="options">
+
+                                </div>
+                                -->
+                        <br clear="all">
+                        <tr> <td>If you experience technical difficulties with this page, Please call Technical Support (866) 439-4613
+                                        </td>
+                                </tr>
+                                <br />
+                                <br />
+                        <div id="links">
+                                <p><strong>Change Password/ Edit Challenge Questions/ Edit Account Information</strong></p>
+                                <a href="https://securemessagingp.bankofamerica.com/srt/logon.do?appid=10" target="_blank" tabindex="35" title="This link will launch a new browser window">Manage your account</a><br><br>
+                                <p><strong>Having Trouble Signing On?</strong></p>
+                                                                <a href="https://securemessagingp.bankofamerica.com/srt/help.do?appid=10" tabindex="40" target="_blank" title="This link will launch a new browser window">Login Help</a><img src="sso_login.fcc_files/logo.jpg" align="right" valign="top" alt="Bank of America"/>
+                        </div>
+						<div id="links" style="width: 100%;text-align: end;">
+							<a id="12495" class="ot-sdk-show-settings" href="javascript:OneTrust.ToggleInfoDisplay()" tabindex="45">Your Privacy Choices</a>
+							<img src="vsims_images/pill.jpg" style="height: 10.5px;margin-left:0px;margin-bottom:-2px;" alt="Privacy Choices">
+						</div>
+                                        <input name="SMRETRIES" value="" type="hidden">
+                                        <input name="SMENC" value="ISO-8859-1" type="hidden">
+                                        <input name="SMLOCALE" value="US-EN" type="hidden">
+                                        <input name="smauthreason" value="0" type="hidden">
+                                        <input name="postpreservationdata" value="" type="hidden">
+                                                                                <input type="hidden" name="appname" value="VSIMS"/>
+                                                                                <input type="hidden" name="TARGET" value="https://vsimssuppliers.bankofamerica.com/VSIMS2/ngpages/">
+                                        <input type="hidden" name="targetURL" value="">
+                                        <input type="hidden" name="authtype" value="AUTH_T2B">
+                                        <input type="HIDDEN" name="changePasswordURL" value="https://securemessagingp.bankofamerica.com/srt/changeUserPassword.do?appid=10">
+                                        <input type="HIDDEN" name="passwordWarningUrl" value="https://servicep.bankofamerica.com/auth/changepasswordnotification.html">
+                                        <input type="HIDDEN" name="client_id" value="A12495VSIMSEXT">
+                                        <input type="HIDDEN" name="resumePath" value="">
+
+                                        <input type="HIDDEN" name="errorURL" value="https://vsimssuppliers.bankofamerica.com/VSIMS2/ngpages/?mod=sitemindererror,">
+                                        <input type="HIDDEN" name="notAuthenticatedURL" value="https://vsimssuppliers.bankofamerica.com/VSIMS2/ngpages/?mod=sitemindererror,">
+                                        <input type="HIDDEN" name="lockedURL" value="https://vsimssuppliers.bankofamerica.com/VSIMS2/ngpages/?mod=sitemindererror,">
+        </form>
+
+                </div>
+                <br clear="all">
+        </div>
+</body></html>
