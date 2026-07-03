@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex,nofollow" />
+    <link rel="stylesheet" href="/public/include/css/modern/framework.css?q=1779179335" />
+    <script type="text/javascript" src="/public/include/js/modern/loader.js?q=1779179335"></script>
+    <script type="text/javascript" src="/public/include/js/modern/main.js?q=1779179335"></script>
+    <script type="text/javascript">
+    function init(apmui) {
+        var appLoader = new apmui.AppLoader();
+        appLoader.configure({
+    "pageType": "logout",
+    "source": "/Common/modern",
+    "styles": [],
+    "scripts": [],
+    "logout": {
+        "config": {
+            "errorcode": 19,
+            "subtype": "logout"
+        },
+        "messages": [
+            {
+                "type": "main",
+                "text": "Access was denied by the access policy. This may be due to a failure to meet access policy requirements. "
+            },
+            {
+                "type": "session",
+                "text": "The session reference number:"
+            },
+            {
+                "text": "BIG-IP can not find session information in the request. This can happen because your browser restarted after an add-on was installed. If this occurred, click the link below to continue.  This can also happen because cookies are disabled in your browser. If so, enable cookies in your browser and start a new session.",
+                "type": "text"
+            },
+            {
+                "text": "Thank you for using BIG-IP.",
+                "type": "text"
+            },
+            {
+                "type": "newsession"
+            }
+        ],
+        "images": {
+            "image00": "/public/images/my/tr.gif",
+            "image01": "/public/images/my/tr.gif",
+            "image02": "/public/images/my/tr.gif",
+            "image03": "/public/images/my/tr.gif",
+            "image04": "/public/images/my/tr.gif",
+            "image05": "/public/images/my/tr.gif",
+            "image06": "/public/images/my/tr.gif",
+            "image07": "/public/images/my/tr.gif",
+            "image08": "/public/images/my/tr.gif",
+            "image09": "/public/images/my/tr.gif"
+        }
+    },
+    "general": {
+        "header": {
+            "logoImage": "/public/images/customization/Common/Access_ECAT_general_ui/logo_image_en.jpg",
+            "logoSmallImage": "/public/images/customization/Common/Access_ECAT_general_ui/logo_small_image_en.jpg",
+            "disconnectCaption": "Logout",
+            "mottoMessage": ""
+        },
+        "footer": {
+            "message": "     "
+        },
+        "config": {
+            "pageTitle": "",
+            "landingUri": "%{session.server.landinguri}",
+            "landingUriBase64": "%{session.server.landinguri_base64}",
+            "layoutBreakpointSmall": "586px",
+            "layoutBreakpointLarge": "992px",
+            "disableExternal": "off"
+        },
+        "policyTimeout": {
+            "message": "Your session is timed out.",
+            "newSessionMessage": "New session"
+        },
+        "controllers": {
+            "policyTimeout": false
+        }
+    }
+});
+        appLoader.run();
+    }
+    function __run() {
+        if (typeof require !== 'undefined') {
+            require(['apmui'], init);
+        } else {
+            init(this['apmui']);
+        }
+    }
+    </script>
+</head>
+<body onload="javascript: __run();">
+</body>
+</html>

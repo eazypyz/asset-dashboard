@@ -1,0 +1,4318 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]> <html class="ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]> <html class="ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en"> <!--<![endif]-->
+<head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta charset=UTF-8>
+
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<title>AT&amp;T Brand Shop</title>
+
+
+<link href="/on/demandware.static/-/Sites/default/dw20e4028c/ATT/favicon.ico" rel="shortcut icon" />
+
+
+<meta name="keywords" content="ATT,AT&amp;amp;T,Apparel,AT&amp;T Brand Shop"/>
+<meta name="title" content="AT&amp;T Brand Shop"/>
+<meta name="description" content="Shop the latest AT&amp;T gear at AT&amp;T Brand Shop. Shop AT&amp;T apparel, merchandise, clothing, hats, shirts, uniforms, and more."/>
+
+
+
+<script type="text/javascript" src="https://brandshop.att.com/public/aa5f0f4140bdc4797c6c6233c9dc954522001624dcc5"  ></script><script type="text/javascript" src="https://cdn-3.convertexperiments.com/js/10034413-10032908.js"></script>
+
+
+
+
+
+
+
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
+<!--[if lt IE 9]>
+<script src="/on/demandware.static/Sites-ATT-Shop-Site/-/default/v1783054093989/js/lib/html5.js"></script>
+<![endif]-->
+
+<script type="text/javascript">//<!--
+/* <![CDATA[ (head-active_data.js) */
+var dw = (window.dw || {});
+dw.ac = {
+    _analytics: null,
+    _events: [],
+    _category: "",
+    _searchData: "",
+    _anact: "",
+    _anact_nohit_tag: "",
+    _analytics_enabled: "true",
+    _timeZone: "America/Chicago",
+    _capture: function(configs) {
+        if (Object.prototype.toString.call(configs) === "[object Array]") {
+            configs.forEach(captureObject);
+            return;
+        }
+        dw.ac._events.push(configs);
+    },
+	capture: function() { 
+		dw.ac._capture(arguments);
+		// send to CQ as well:
+		if (window.CQuotient) {
+			window.CQuotient.trackEventsFromAC(arguments);
+		}
+	},
+    EV_PRD_SEARCHHIT: "searchhit",
+    EV_PRD_DETAIL: "detail",
+    EV_PRD_RECOMMENDATION: "recommendation",
+    EV_PRD_SETPRODUCT: "setproduct",
+    applyContext: function(context) {
+        if (typeof context === "object" && context.hasOwnProperty("category")) {
+        	dw.ac._category = context.category;
+        }
+        if (typeof context === "object" && context.hasOwnProperty("searchData")) {
+        	dw.ac._searchData = context.searchData;
+        }
+    },
+    setDWAnalytics: function(analytics) {
+        dw.ac._analytics = analytics;
+    },
+    eventsIsEmpty: function() {
+        return 0 == dw.ac._events.length;
+    }
+};
+/* ]]> */
+// -->
+</script>
+<script type="text/javascript">//<!--
+/* <![CDATA[ (head-cquotient.js) */
+var CQuotient = window.CQuotient = {};
+CQuotient.clientId = 'bcjr-ATT-Shop';
+CQuotient.realm = 'BCJR';
+CQuotient.siteId = 'ATT-Shop';
+CQuotient.instanceType = 'prd';
+CQuotient.locale = 'default';
+CQuotient.fbPixelId = '__UNKNOWN__';
+CQuotient.activities = [];
+CQuotient.cqcid='';
+CQuotient.cquid='';
+CQuotient.cqeid='';
+CQuotient.cqlid='';
+CQuotient.apiHost='api.cquotient.com';
+/* Turn this on to test against Staging Einstein */
+/* CQuotient.useTest= true; */
+CQuotient.useTest = ('true' === 'false');
+CQuotient.initFromCookies = function () {
+	var ca = document.cookie.split(';');
+	for(var i=0;i < ca.length;i++) {
+	  var c = ca[i];
+	  while (c.charAt(0)==' ') c = c.substring(1,c.length);
+	  if (c.indexOf('cqcid=') == 0) {
+		CQuotient.cqcid=c.substring('cqcid='.length,c.length);
+	  } else if (c.indexOf('cquid=') == 0) {
+		  var value = c.substring('cquid='.length,c.length);
+		  if (value) {
+		  	var split_value = value.split("|", 3);
+		  	if (split_value.length > 0) {
+			  CQuotient.cquid=split_value[0];
+		  	}
+		  	if (split_value.length > 1) {
+			  CQuotient.cqeid=split_value[1];
+		  	}
+		  	if (split_value.length > 2) {
+			  CQuotient.cqlid=split_value[2];
+		  	}
+		  }
+	  }
+	}
+}
+CQuotient.getCQCookieId = function () {
+	if(window.CQuotient.cqcid == '')
+		window.CQuotient.initFromCookies();
+	return window.CQuotient.cqcid;
+};
+CQuotient.getCQUserId = function () {
+	if(window.CQuotient.cquid == '')
+		window.CQuotient.initFromCookies();
+	return window.CQuotient.cquid;
+};
+CQuotient.getCQHashedEmail = function () {
+	if(window.CQuotient.cqeid == '')
+		window.CQuotient.initFromCookies();
+	return window.CQuotient.cqeid;
+};
+CQuotient.getCQHashedLogin = function () {
+	if(window.CQuotient.cqlid == '')
+		window.CQuotient.initFromCookies();
+	return window.CQuotient.cqlid;
+};
+CQuotient.trackEventsFromAC = function (/* Object or Array */ events) {
+try {
+	if (Object.prototype.toString.call(events) === "[object Array]") {
+		events.forEach(_trackASingleCQEvent);
+	} else {
+		CQuotient._trackASingleCQEvent(events);
+	}
+} catch(err) {}
+};
+CQuotient._trackASingleCQEvent = function ( /* Object */ event) {
+	if (event && event.id) {
+		if (event.type === dw.ac.EV_PRD_DETAIL) {
+			CQuotient.trackViewProduct( {id:'', alt_id: event.id, type: 'raw_sku'} );
+		} // not handling the other dw.ac.* events currently
+	}
+};
+CQuotient.trackViewProduct = function(/* Object */ cqParamData){
+	var cq_params = {};
+	cq_params.cookieId = CQuotient.getCQCookieId();
+	cq_params.userId = CQuotient.getCQUserId();
+	cq_params.emailId = CQuotient.getCQHashedEmail();
+	cq_params.loginId = CQuotient.getCQHashedLogin();
+	cq_params.product = cqParamData.product;
+	cq_params.realm = cqParamData.realm;
+	cq_params.siteId = cqParamData.siteId;
+	cq_params.instanceType = cqParamData.instanceType;
+	cq_params.locale = CQuotient.locale;
+	
+	if(CQuotient.sendActivity) {
+		CQuotient.sendActivity(CQuotient.clientId, 'viewProduct', cq_params);
+	} else {
+		CQuotient.activities.push({activityType: 'viewProduct', parameters: cq_params});
+	}
+};
+/* ]]> */
+// -->
+</script>
+<!-- Demandware Apple Pay -->
+
+<style type="text/css">ISAPPLEPAY{display:inline}.dw-apple-pay-button,.dw-apple-pay-button:hover,.dw-apple-pay-button:active{background-color:#000;background-image:-webkit-named-image(apple-pay-logo-white);background-position:50% 50%;background-repeat:no-repeat;background-size:75% 60%;border-radius:5px;border:1px solid black;box-sizing:border-box;margin:5px auto;min-height:30px;min-width:100px;padding:0}.dw-apple-pay-button:after{content:"Apple Pay";visibility:hidden}.dw-apple-pay-button.dw-apple-pay-logo-white{background-color:#fff;border-color:#fff;background-image:-webkit-named-image(apple-pay-logo-black);color:#000}.dw-apple-pay-button.dw-apple-pay-logo-white.dw-apple-pay-border{border-color:#000}
+</style>
+
+<!-- Rock Solid Font -->
+<link rel="stylesheet" href="/on/demandware.static/Sites-ATT-Shop-Site/-/default/v1783054093989/css/myfontswebfontskit.css" type="text/css" />
+<!-- UI -->
+<link href="https://brandshop.att.com/on/demandware.static/Sites-ATT-Shop-Site/-/default/v1783054093989/css/allinone.css" rel="stylesheet" type="text/css" />
+<!-- BM styles -->
+<link rel="stylesheet" type="text/css" href="/on/demandware.static/-/Sites-ATT-Shop-Library/default/v1783054093989/css/att-content-styles.css" />
+<!--[if lte IE 8]>
+<script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.js" type="text/javascript"></script>
+<script src="https://cdn.rawgit.com/chuckcarpenter/REM-unit-polyfill/master/js/rem.min.js" type="text/javascript"></script>
+<![endif]-->
+
+
+<meta name="google-site-verification" content="389y-HG66RPKeg7xOeYn9g1Q8FBjXEtDdfSUXcOB6xA" />
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+if (window.jQuery) {
+jQuery(document).ready(function(){
+if(screen.width < 768){
+jQuery('#footer').append('<a href="/on/demandware.store/Sites-ATT-Shop-Site/default/Home-Show" class="full-site-link">View Full Site</a>');
+jQuery('.full-site-link')
+.attr('href', '/on/demandware.store/Sites-ATT-Shop-Site/default/Home-FullSite')
+.click(function(e) {
+e.preventDefault();
+jQuery.ajax({
+url: '/on/demandware.store/Sites-ATT-Shop-Site/default/Home-FullSite',
+success: function(){
+window.location.reload();
+}
+});
+}
+);
+}
+});
+}
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="canonical" href="https://brandshop.att.com/" />
+
+
+
+
+
+<script type="text/javascript">dataLayer = [];</script>
+
+
+
+   
+
+
+
+
+
+	
+	
+<script type="text/javascript">
+globalData = {"pageType":"home","pageName":"home: homepage","pageCategory":"home","userCountry":"US","userState":"CA","pageCountryCode":"US","pageBreadcrumb":"home","userEmail":"","userID":"","userLoginState":"guest","sessionId":"SQI5Sae3nbmKff3Ca7Cf5X5Bj-3LbxfdvbY=","productsCartedNumber":0};
+</script>
+	
+	
+	
+	 
+		
+
+
+
+<script type="text/javascript">
+pageData = {};
+</script>
+<script type="text/javascript">
+var propertiesToOverride = ['productsCartedNumber'];
+for (var index in propertiesToOverride){
+if (propertiesToOverride[index] && pageData.hasOwnProperty(propertiesToOverride[index])) {
+pageData[propertiesToOverride[index]] = globalData[propertiesToOverride[index]];
+}
+delete globalData[propertiesToOverride[index]];
+}
+//Push page specific data to GTM if exists
+if (Object.keys(pageData).length !== 0) {
+if (pageData.event) {
+//Push global data to GTM
+dataLayer.push(globalData);
+dataLayer.push(pageData);
+} else {
+for (var prop in pageData) {
+if (prop && pageData.hasOwnProperty(prop)) {
+globalData[prop] = pageData[prop];
+}
+}
+dataLayer.push(globalData);
+}
+} else {
+//Push global data to GTM
+dataLayer.push(globalData);
+}
+</script>
+	
+	
+	<!-- Google Tag Manager -->
+	
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-W85SRWL');</script>
+	<!-- End Google Tag Manager -->
+
+
+<!-- Marketing Cloud Analytics -->
+<script type="text/javascript" src="//110006088.collect.igodigital.com/collect.js"></script>
+<!-- End Marketing Cloud Analytics -->
+
+
+
+<script type='application/ld+json'>
+{
+    "@context": "http://www.schema.org",
+    "@type": "Organization",
+    "name": "AT&T Brand Shop",
+    "AlternateName": "AT&T E-Store",
+    "url": "https://brandshop.att.com",
+    "logo": "https://brandshop.att.com/on/demandware.static/-/Sites/default/dw7d4a3198/ATT/logo.svg",
+    "sameAs": [
+        "https://www.facebook.com/ATT",
+        "https://twitter.com/att",
+        "https://www.instagram.com/att/"
+    ],
+    "contactPoint": [
+    {
+        "@type": "ContactPoint",
+        "telephone": "+1 (844) 432-7288",
+        "contactType": "Customer Support"
+    }]
+}
+</script>
+
+
+
+
+
+</head>
+<body>
+
+
+
+
+	<!-- Google Tag Manager (noscript) -->
+	<noscript>
+		<iframe src="//www.googletagmanager.com/ns.html?id=GTM-W85SRWL"
+			height="0" width="0" style="display:none;visibility:hidden">
+		</iframe>
+	</noscript>
+	
+
+
+<div id="wrapper" class="pt_storefront">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="header-banner-background"></div>
+<div class="header-banner">
+<div class="header-banner-inner">
+<div class="header-banner-text promo-text">
+<div class="header-tooltip"></div>
+
+	 
+
+	
+</div>
+</div>
+</div>
+
+
+<div class="top-banner 
+
+
+" role="banner">
+<div class="top-banner-inner">
+<button aria-label="Toggle Menu" class="menu-toggle"><i class="menu-icon svg-13-mobile-menu svg-13-mobile-menu-dims"></i></button>
+<div class="primary-logo">
+
+
+
+
+
+
+<a href="https://brandshop.att.com/" data-logotype="default"
+title="AT&amp;T Brand Shop Home">
+<img src="/on/demandware.static/-/Sites/default/dw66b3851e/ATT/logo.svg"
+alt="AT&amp;T Brand Shop">
+</a>
+
+
+</div>
+<nav id="navigation" role="navigation">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<ul class="desktop-navigation menu-category level-1">
+
+
+<li>
+
+
+<i class="menu-item-toggle">
+<div class="level-back">Back</div>
+</i>
+
+
+<a class="has-sub-menu" title="New" href="https://brandshop.att.com/new-arrivals/" data-currentcat="new-arrivals" data-parentcat="root">
+New
+</a>
+
+
+
+
+
+
+
+<div class="level-2 ">
+<div class="mob-lev-1">
+<a class="shop-all-1" title="Shop All" href="https://brandshop.att.com/new-arrivals/" data-currentcat="new-arrivals" data-currentcatname="New" data-parentcat="root">New<span>Shop All</span></a>
+</div>
+
+
+<ul class="menu-vertical nofeatured-categories">
+
+
+<li>
+
+<a title="AT&amp;T 150th" class="AT&amp;T150th " href="https://brandshop.att.com/new-arrivals/att-150/" data-currentcat="ATT-150" data-parentcat="new-arrivals" data-level1catname="New">
+AT&T 150th
+</a>
+
+</li>
+
+
+
+<li>
+
+<a title="USA 250th" class="USA250th " href="https://brandshop.att.com/new-arrivals/usa-250th/" data-currentcat="USA-250th" data-parentcat="new-arrivals" data-level1catname="New">
+USA 250th
+</a>
+
+</li>
+
+
+
+<li>
+
+<a title="Expert Essentials" class="ExpertEssentials " href="https://brandshop.att.com/new-arrivals/expert-essentials/" data-currentcat="expert-essentials" data-parentcat="new-arrivals" data-level1catname="New">
+Expert Essentials
+</a>
+
+</li>
+
+
+
+<li>
+
+<a title="Golf" class="Golf " href="https://brandshop.att.com/new-arrivals/golf/" data-currentcat="golf" data-parentcat="new-arrivals" data-level1catname="New">
+Golf
+</a>
+
+</li>
+
+
+
+<li>
+
+<a title="Sunny Days" class="SunnyDays " href="https://brandshop.att.com/new-arrivals/sunny-days/" data-currentcat="sunny-days" data-parentcat="new-arrivals" data-level1catname="New">
+Sunny Days
+</a>
+
+</li>
+
+
+
+<li>
+
+<a title="Vacation Mode" class="VacationMode " href="https://brandshop.att.com/new-arrivals/vacation/" data-currentcat="vacation" data-parentcat="new-arrivals" data-level1catname="New">
+Vacation Mode
+</a>
+
+</li>
+
+
+</ul>
+
+
+<div class="banner"><!-- <div class="fly-out-banner"><a href="https://brandshop.att.com/new-arrivals/"><img alt="AT&T New Arrivals" src="https://brandshop.att.com/on/demandware.static/-/Sites-storefront-catalog-en-ATT-Brand-Shop/default/dw823de953/Navigation/2025/09-September/081925_Flyout_338x230_New_Flyout_338x230.jpg" title="" /></a>
+<div class="fly-out-text">
+<p style="text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000; font-family: Att_Aleck_Sans_Bold,Helvetica,Arial,sans-serif;">See what's new</p>
+<span style="text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000; font-family: Att_Aleck_Sans_Bold,Helvetica,Arial,sans-serif;"><a class="a-link" href="https://brandshop.att.com/new-arrivals/">Shop now</a></span></div>
+</div> -->
+
+<div class="fly-out-banner" style="position: relative;">
+  <a href="https://brandshop.att.com/new-arrivals/" style="display: block; position: relative; text-decoration: none; color: #ffffff;">
+    <img alt="AT&T Apparel" src="https://brandshop.att.com/on/demandware.static/-/Sites-storefront-catalog-en-ATT-Brand-Shop/default/dw5ef7f52b/Navigation/2026/03-March/031026_ATT_BS_Siteflip_flyout_blank_338x230.jpg" title="" style="display: block; width: 100%; height: auto;" />
+    <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 92%; text-align: center; color: #ffffff; font-family: Att_Aleck_Sans_Medium, Helvetica, Arial, sans-serif; font-size: 28px; font-weight: bold; line-height: 1.35; text-shadow: 1px 1px 5px #000000; text-transform: none; box-sizing: border-box; padding: 6px 8px 10px 8px;">
+  See what's new
+  <div style="margin-top: 20px;">
+    <a class="button-primary mobile-button home-button-primary home-button-flyout" href="https://brandshop.att.com/new-arrivals/" style="width: 175px;
+    height: 45px;
+    font-family: Att_Aleck_Sans_Medium, Helvetica, Arial, sans-serif;
+    font-size: 19px;
+    line-height: 42px; text-shadow: none;">Shop now</a>
+  </div>
+</div>
+  </a>
+</div></div>
+
+</div>
+
+
+</li>
+
+<li>
+
+
+<i class="menu-item-toggle">
+<div class="level-back">Back</div>
+</i>
+
+
+<a class="has-sub-menu" title="Apparel" href="https://brandshop.att.com/apparel/" data-currentcat="apparel" data-parentcat="root">
+Apparel
+</a>
+
+
+
+
+
+
+
+<div class="level-2 ">
+<div class="mob-lev-1">
+<a class="shop-all-1" title="Shop All" href="https://brandshop.att.com/apparel/" data-currentcat="apparel" data-currentcatname="Apparel" data-parentcat="root">Apparel<span>Shop All</span></a>
+</div>
+
+
+<ul class="menu-horizontal nofeatured-categories">
+
+
+<li>
+
+<a title="View All" class="ViewAll " href="https://brandshop.att.com/apparel/apparel-view-all/" data-currentcat="apparel-view-all" data-parentcat="apparel" data-level1catname="Apparel">
+View All
+</a>
+
+</li>
+
+
+
+<li>
+
+<a title="Shirts" class="Shirts " href="https://brandshop.att.com/apparel/shirts/" data-currentcat="shirts" data-parentcat="apparel" data-level1catname="Apparel">
+Shirts
+</a>
+
+</li>
+
+
+
+<li>
+
+<a title="Outerwear" class="Outerwear " href="https://brandshop.att.com/apparel/outerwear/" data-currentcat="outerwear" data-parentcat="apparel" data-level1catname="Apparel">
+Outerwear
+</a>
+
+</li>
+
+
+
+<li>
+
+<a title="Golf &amp; Sports" class="Golf&amp;Sports " href="https://brandshop.att.com/apparel/golf-and-sports/" data-currentcat="golf-and-sports" data-parentcat="apparel" data-level1catname="Apparel">
+Golf & Sports
+</a>
+
+</li>
+
+
+
+<li>
+
+<a title="Kids" class="Kids " href="https://brandshop.att.com/apparel/kids/" data-currentcat="kids" data-parentcat="apparel" data-level1catname="Apparel">
+Kids
+</a>
+
+</li>
+
+
+
+<li>
+
+<a title="Workwear" class="Workwear " href="https://brandshop.att.com/apparel/workwear-favorites/" data-currentcat="workwear-favorites" data-parentcat="apparel" data-level1catname="Apparel">
+Workwear
+</a>
+
+</li>
+
+
+</ul>
+
+
+<div class="banner"><!--
+ <div class="fly-out-banner"><a href="https://brandshop.att.com/apparel/apparel-view-all/"><img alt="AT&T Apparel" src="https://brandshop.att.com/on/demandware.static/-/Sites-storefront-catalog-en-ATT-Brand-Shop/default/dwf6be6b80/Navigation/2025/09-September/081925_Flyout_338x230_Apparel_Flyout_338x230.jpg" title="" /></a>
+    <div class="fly-out-text">
+    <p style="text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000; font-family: Att_Aleck_Sans_Bold,Helvetica,Arial,sans-serif;">Looks you'll love</p>
+    <span style="text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000; font-family: Att_Aleck_Sans_Bold,Helvetica,Arial,sans-serif;"><a class="a-link" style="line-height: 22px;" href="https://brandshop.att.com/apparel/apparel-view-all/">Shop now</a></span></div>
+    </div>
+-->
+
+<div class="fly-out-banner" style="position: relative;">
+  <a href="https://brandshop.att.com/apparel/" style="display: block; position: relative; text-decoration: none; color: #ffffff;">
+    <img alt="AT&T Apparel" src="https://brandshop.att.com/on/demandware.static/-/Sites-storefront-catalog-en-ATT-Brand-Shop/default/dw5ef7f52b/Navigation/2026/03-March/031026_ATT_BS_Siteflip_flyout_blank_338x230.jpg" title="" style="display: block; width: 100%; height: auto;" />
+    <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 92%; text-align: center; color: #ffffff; font-family: Att_Aleck_Sans_Medium, Helvetica, Arial, sans-serif; font-size: 28px; font-weight: bold; line-height: 1.35; text-shadow: 1px 1px 5px #000000; text-transform: none; box-sizing: border-box; padding: 6px 8px 10px 8px;">
+  Apparel you'll love
+  <div style="margin-top: 20px;">
+    <a class="button-primary mobile-button home-button-primary home-button-flyout" href="https://brandshop.att.com/apparel/" style="width: 175px;
+    height: 45px;
+    font-family: Att_Aleck_Sans_Medium, Helvetica, Arial, sans-serif;
+    font-size: 19px;
+    line-height: 42px; text-shadow: none;">Shop now</a>
+  </div>
+</div>
+  </a>
+</div></div>
+
+</div>
+
+
+</li>
+
+<li>
+
+
+<i class="menu-item-toggle">
+<div class="level-back">Back</div>
+</i>
+
+
+<a class="has-sub-menu" title="Accessories" href="https://brandshop.att.com/accessories/" data-currentcat="accessories" data-parentcat="root">
+Accessories
+</a>
+
+
+
+
+
+
+
+<div class="level-2 ">
+<div class="mob-lev-1">
+<a class="shop-all-1" title="Shop All" href="https://brandshop.att.com/accessories/" data-currentcat="accessories" data-currentcatname="Accessories" data-parentcat="root">Accessories<span>Shop All</span></a>
+</div>
+
+
+<ul class="menu-vertical nofeatured-categories">
+
+
+<li>
+
+<a title="View All" class="ViewAll " href="https://brandshop.att.com/accessories/accessories-view-all/" data-currentcat="accessories-view-all" data-parentcat="accessories" data-level1catname="Accessories">
+View All
+</a>
+
+</li>
+
+
+
+<li>
+
+<a title="Hats" class="Hats " href="https://brandshop.att.com/accessories/hats/" data-currentcat="hats" data-parentcat="accessories" data-level1catname="Accessories">
+Hats
+</a>
+
+</li>
+
+
+
+<li>
+
+<a title="Bags" class="Bags " href="https://brandshop.att.com/accessories/bags/" data-currentcat="bags" data-parentcat="accessories" data-level1catname="Accessories">
+Bags
+</a>
+
+</li>
+
+
+
+<li>
+
+<a title="Commemorative" class="Commemorative " href="https://brandshop.att.com/accessories/commemorative/" data-currentcat="commemorative" data-parentcat="accessories" data-level1catname="Accessories">
+Commemorative
+</a>
+
+</li>
+
+
+
+<li>
+
+<a title="Shoes" class="Shoes " href="https://brandshop.att.com/accessories/shoes/" data-currentcat="shoes" data-parentcat="accessories" data-level1catname="Accessories">
+Shoes
+</a>
+
+</li>
+
+
+</ul>
+
+
+<div class="banner"><div class="fly-out-banner" style="position: relative;">
+  <a href="https://brandshop.att.com/accessories/" style="display: block; position: relative; text-decoration: none; color: #ffffff;">
+    <img alt="AT&T Apparel" src="https://brandshop.att.com/on/demandware.static/-/Sites-storefront-catalog-en-ATT-Brand-Shop/default/dw5ef7f52b/Navigation/2026/03-March/031026_ATT_BS_Siteflip_flyout_blank_338x230.jpg" title="" style="display: block; width: 100%; height: auto;" />
+    <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 92%; text-align: center; color: #ffffff; font-family: Att_Aleck_Sans_Medium, Helvetica, Arial, sans-serif; font-size: 28px; font-weight: bold; line-height: 1.35; text-shadow: 1px 1px 5px #000000; text-transform: none; box-sizing: border-box; padding: 6px 8px 10px 8px;">
+  Complete the look
+  <div style="margin-top: 20px;">
+    <a class="button-primary mobile-button home-button-primary home-button-flyout" href="https://brandshop.att.com/accessories/" style="width: 175px;
+    height: 45px;
+    font-family: Att_Aleck_Sans_Medium, Helvetica, Arial, sans-serif;
+    font-size: 19px;
+    line-height: 42px; text-shadow: none;">Shop now</a>
+  </div>
+</div>
+  </a>
+</div></div>
+
+</div>
+
+
+</li>
+
+<li>
+
+
+<i class="menu-item-toggle">
+<div class="level-back">Back</div>
+</i>
+
+
+<a class="has-sub-menu" title="Home &amp; Office" href="https://brandshop.att.com/office/" data-currentcat="office" data-parentcat="root">
+Home & Office
+</a>
+
+
+
+
+
+
+
+<div class="level-2 ">
+<div class="mob-lev-1">
+<a class="shop-all-1" title="Shop All" href="https://brandshop.att.com/office/" data-currentcat="office" data-currentcatname="Home &amp; Office" data-parentcat="root">Home &amp; Office<span>Shop All</span></a>
+</div>
+
+
+<ul class="menu-horizontal nofeatured-categories">
+
+
+<li>
+
+<a title="View All" class="ViewAll " href="https://brandshop.att.com/office/office-view-all/" data-currentcat="office-view-all" data-parentcat="office" data-level1catname="Home &amp; Office">
+View All
+</a>
+
+</li>
+
+
+
+<li>
+
+<a title="Stationery" class="Stationery " href="https://brandshop.att.com/office/pen-and-paper/" data-currentcat="pen-and-paper" data-parentcat="office" data-level1catname="Home &amp; Office">
+Stationery
+</a>
+
+</li>
+
+
+
+<li>
+
+<a title="Tech" class="Tech " href="https://brandshop.att.com/office/tech/" data-currentcat="tech" data-parentcat="office" data-level1catname="Home &amp; Office">
+Tech
+</a>
+
+</li>
+
+
+
+<li>
+
+<a title="Drinkware" class="Drinkware " href="https://brandshop.att.com/office/drinkware/" data-currentcat="drinkware" data-parentcat="office" data-level1catname="Home &amp; Office">
+Drinkware
+</a>
+
+</li>
+
+
+
+<li>
+
+<a title="Welcome Kits" class="WelcomeKits " href="https://brandshop.att.com/office/welcome-kits/" data-currentcat="welcome-kits" data-parentcat="office" data-level1catname="Home &amp; Office">
+Welcome Kits
+</a>
+
+</li>
+
+
+</ul>
+
+
+<div class="banner"><!-- <div class="fly-out-banner"><a href="https://brandshop.att.com/office/office-view-all/"><img alt="AT&T Home & Office" src="https://brandshop.att.com/on/demandware.static/-/Sites-storefront-catalog-en-ATT-Brand-Shop/default/dwf11de3e9/Navigation/2025/09-September/081925_Flyout_338x230_Home&ofiice_Flyout_338x230.jpg" title="" /></a>
+<div class="fly-out-text">
+<p style="text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000; font-family: Att_Aleck_Sans_Bold,Helvetica,Arial,sans-serif;">Everyday essentials</p>
+<span style="text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000; font-family: Att_Aleck_Sans_Bold,Helvetica,Arial,sans-serif;"><a class="a-link" href="https://brandshop.att.com/office/office-view-all/">Shop Now</a></span></div>
+</div>  -->
+
+<div class="fly-out-banner" style="position: relative;">
+  <a href="https://brandshop.att.com/office/" style="display: block; position: relative; text-decoration: none; color: #ffffff;">
+    <img alt="AT&T Apparel" src="https://brandshop.att.com/on/demandware.static/-/Sites-storefront-catalog-en-ATT-Brand-Shop/default/dw5ef7f52b/Navigation/2026/03-March/031026_ATT_BS_Siteflip_flyout_blank_338x230.jpg" title="" style="display: block; width: 100%; height: auto;" />
+    <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 92%; text-align: center; color: #ffffff; font-family: Att_Aleck_Sans_Medium, Helvetica, Arial, sans-serif; font-size: 28px; font-weight: bold; line-height: 1.35; text-shadow: 1px 1px 5px #000000; text-transform: none; box-sizing: border-box; padding: 6px 8px 10px 8px;">
+  Everything your <br />workspace needs
+  <div style="margin-top: 20px;">
+    <a class="button-primary mobile-button home-button-primary home-button-flyout" href="https://brandshop.att.com/office/" style="width: 175px;
+    height: 45px;
+    font-family: Att_Aleck_Sans_Medium, Helvetica, Arial, sans-serif;
+    font-size: 19px;
+    line-height: 42px; text-shadow: none;">Shop now</a>
+  </div>
+</div>
+  </a>
+</div></div>
+
+</div>
+
+
+</li>
+
+<li>
+
+
+<i class="menu-item-toggle">
+<div class="level-back">Back</div>
+</i>
+
+
+<a class="has-sub-menu" title="Collections" href="https://brandshop.att.com/collections/" data-currentcat="collections" data-parentcat="root">
+Collections
+</a>
+
+
+
+
+
+
+
+<div class="level-2 ">
+<div class="mob-lev-1">
+<a class="shop-all-1" title="Shop All" href="https://brandshop.att.com/collections/" data-currentcat="collections" data-currentcatname="Collections" data-parentcat="root">Collections<span>Shop All</span></a>
+</div>
+
+
+<ul class="menu-horizontal nofeatured-categories">
+
+
+<li>
+
+<a title="Team Colors" class="TeamColors " href="https://brandshop.att.com/collections/team-colors/" data-currentcat="team-colors" data-parentcat="collections" data-level1catname="Collections">
+TEAM<span class="teamColors">COLORS</span>
+</a>
+
+</li>
+
+
+
+<li>
+
+<a title="AT&amp;T Business" class="AT&amp;TBusiness " href="https://brandshop.att.com/collections/att-business/" data-currentcat="att-business" data-parentcat="collections" data-level1catname="Collections">
+AT&T Business
+</a>
+
+</li>
+
+
+
+<li>
+
+<a title="AT&amp;T 5G" class="AT&amp;T5G " href="https://brandshop.att.com/collections/att-5g/" data-currentcat="att-5g" data-parentcat="collections" data-level1catname="Collections">
+AT&T 5G
+</a>
+
+</li>
+
+
+
+<li>
+
+<a title="AT&amp;T Fiber" class="AT&amp;TFiber " href="https://brandshop.att.com/collections/att-fiber/" data-currentcat="att-fiber" data-parentcat="collections" data-level1catname="Collections">
+AT&T Fiber
+</a>
+
+</li>
+
+
+
+<li>
+
+<a title="FirstNet" class="FirstNet " href="https://brandshop.att.com/collections/firstnet/" data-currentcat="firstnet" data-parentcat="collections" data-level1catname="Collections">
+FirstNet
+</a>
+
+</li>
+
+
+
+<li>
+
+<a title="Disaster Recovery" class="DisasterRecovery " href="https://brandshop.att.com/collections/disaster-recovery/" data-currentcat="disaster-recovery" data-parentcat="collections" data-level1catname="Collections">
+Disaster Recovery
+</a>
+
+</li>
+
+
+
+<li>
+
+<a title="AT&amp;T Guarantee" class="AT&amp;TGuarantee " href="https://brandshop.att.com/collections/att-guarantee/" data-currentcat="att-guarantee" data-parentcat="collections" data-level1catname="Collections">
+AT&T Guarantee
+</a>
+
+</li>
+
+
+
+<li>
+
+<a title="AT&amp;T Purpose" class="AT&amp;TPurpose " href="https://brandshop.att.com/collections/att-purpose/" data-currentcat="att-purpose" data-parentcat="collections" data-level1catname="Collections">
+AT&T Purpose
+</a>
+
+</li>
+
+
+</ul>
+
+
+<div class="banner"><!--
+<div class="fly-out-banner"><a href="https://brandshop.att.com/collections/"><img alt="AT&T Collections" src="https://brandshop.att.com/on/demandware.static/-/Sites-storefront-catalog-en-ATT-Brand-Shop/default/dwc8d3bbce/Navigation/2025/04-April/031825_Collections_Flyout_338x230.jpg" title="" /></a>
+<div class="fly-out-text">
+<p style="text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000; font-family: Att_Aleck_Sans_Bold,Helvetica,Arial,sans-serif;">Dress for success</p>
+<span style="text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000; font-family: Att_Aleck_Sans_Bold,Helvetica,Arial,sans-serif;"><a class="a-link" href="https://brandshop.att.com/collections/">Shop Now</a></span></div>
+</div>
+-->
+
+<div class="fly-out-banner" style="position: relative;">
+  <a href="https://brandshop.att.com/collections/" style="display: block; position: relative; text-decoration: none; color: #ffffff;">
+    <img alt="AT&T Apparel" src="https://brandshop.att.com/on/demandware.static/-/Sites-storefront-catalog-en-ATT-Brand-Shop/default/dw5ef7f52b/Navigation/2026/03-March/031026_ATT_BS_Siteflip_flyout_blank_338x230.jpg" title="" style="display: block; width: 100%; height: auto;" />
+    <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 92%; text-align: center; color: #ffffff; font-family: Att_Aleck_Sans_Medium, Helvetica, Arial, sans-serif; font-size: 28px; font-weight: bold; line-height: 1.35; text-shadow: 1px 1px 5px #000000; text-transform: none; box-sizing: border-box; padding: 6px 8px 10px 8px;">
+  Explore our <br />business units
+  <div style="margin-top: 20px;">
+    <a class="button-primary mobile-button home-button-primary home-button-flyout" href="https://brandshop.att.com/collections/" style="width: 175px;
+    height: 45px;
+    font-family: Att_Aleck_Sans_Medium, Helvetica, Arial, sans-serif;
+    font-size: 19px;
+    line-height: 42px; text-shadow: none;">Shop now</a>
+  </div>
+</div>
+  </a>
+</div></div>
+
+</div>
+
+
+</li>
+
+<li>
+
+
+<a class="" title="Sale" href="https://brandshop.att.com/att-sale/" data-currentcat="att-sale" data-parentcat="root">
+Sale
+</a>
+
+
+
+
+
+
+
+
+</li>
+
+</ul>
+
+<ul class="mobile-navigation menu-category level-1">
+
+
+<li>
+
+
+<i class="menu-item-toggle">
+<div class="level-back">Back</div>
+</i>
+
+
+<a class="has-sub-menu" title="New" href="https://brandshop.att.com/new-arrivals/" data-currentcat="new-arrivals" data-parentcat="root">
+New
+</a>
+
+
+
+
+
+
+
+<div class="level-2 ">
+<div class="mob-lev-1">
+<a class="shop-all-1" title="Shop All" href="https://brandshop.att.com/new-arrivals/" data-currentcat="new-arrivals" data-currentcatname="New" data-parentcat="root">New<span>Shop All</span></a>
+</div>
+
+
+<ul class="menu-vertical nofeatured-categories">
+
+
+<li>
+
+<a title="AT&amp;T 150th" class="AT&amp;T150th " href="https://brandshop.att.com/new-arrivals/att-150/" data-currentcat="ATT-150" data-parentcat="new-arrivals" data-level1catname="New">
+AT&T 150th
+</a>
+
+</li>
+
+
+
+<li>
+
+<a title="USA 250th" class="USA250th " href="https://brandshop.att.com/new-arrivals/usa-250th/" data-currentcat="USA-250th" data-parentcat="new-arrivals" data-level1catname="New">
+USA 250th
+</a>
+
+</li>
+
+
+
+<li>
+
+<a title="Expert Essentials" class="ExpertEssentials " href="https://brandshop.att.com/new-arrivals/expert-essentials/" data-currentcat="expert-essentials" data-parentcat="new-arrivals" data-level1catname="New">
+Expert Essentials
+</a>
+
+</li>
+
+
+
+<li>
+
+<a title="Golf" class="Golf " href="https://brandshop.att.com/new-arrivals/golf/" data-currentcat="golf" data-parentcat="new-arrivals" data-level1catname="New">
+Golf
+</a>
+
+</li>
+
+
+
+<li>
+
+<a title="Sunny Days" class="SunnyDays " href="https://brandshop.att.com/new-arrivals/sunny-days/" data-currentcat="sunny-days" data-parentcat="new-arrivals" data-level1catname="New">
+Sunny Days
+</a>
+
+</li>
+
+
+
+<li>
+
+<a title="Vacation Mode" class="VacationMode " href="https://brandshop.att.com/new-arrivals/vacation/" data-currentcat="vacation" data-parentcat="new-arrivals" data-level1catname="New">
+Vacation Mode
+</a>
+
+</li>
+
+
+</ul>
+
+
+<div class="banner"><!-- <div class="fly-out-banner"><a href="https://brandshop.att.com/new-arrivals/"><img alt="AT&T New Arrivals" src="https://brandshop.att.com/on/demandware.static/-/Sites-storefront-catalog-en-ATT-Brand-Shop/default/dw823de953/Navigation/2025/09-September/081925_Flyout_338x230_New_Flyout_338x230.jpg" title="" /></a>
+<div class="fly-out-text">
+<p style="text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000; font-family: Att_Aleck_Sans_Bold,Helvetica,Arial,sans-serif;">See what's new</p>
+<span style="text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000; font-family: Att_Aleck_Sans_Bold,Helvetica,Arial,sans-serif;"><a class="a-link" href="https://brandshop.att.com/new-arrivals/">Shop now</a></span></div>
+</div> -->
+
+<div class="fly-out-banner" style="position: relative;">
+  <a href="https://brandshop.att.com/new-arrivals/" style="display: block; position: relative; text-decoration: none; color: #ffffff;">
+    <img alt="AT&T Apparel" src="https://brandshop.att.com/on/demandware.static/-/Sites-storefront-catalog-en-ATT-Brand-Shop/default/dw5ef7f52b/Navigation/2026/03-March/031026_ATT_BS_Siteflip_flyout_blank_338x230.jpg" title="" style="display: block; width: 100%; height: auto;" />
+    <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 92%; text-align: center; color: #ffffff; font-family: Att_Aleck_Sans_Medium, Helvetica, Arial, sans-serif; font-size: 28px; font-weight: bold; line-height: 1.35; text-shadow: 1px 1px 5px #000000; text-transform: none; box-sizing: border-box; padding: 6px 8px 10px 8px;">
+  See what's new
+  <div style="margin-top: 20px;">
+    <a class="button-primary mobile-button home-button-primary home-button-flyout" href="https://brandshop.att.com/new-arrivals/" style="width: 175px;
+    height: 45px;
+    font-family: Att_Aleck_Sans_Medium, Helvetica, Arial, sans-serif;
+    font-size: 19px;
+    line-height: 42px; text-shadow: none;">Shop now</a>
+  </div>
+</div>
+  </a>
+</div></div>
+
+</div>
+
+
+</li>
+
+<li>
+
+
+<i class="menu-item-toggle">
+<div class="level-back">Back</div>
+</i>
+
+
+<a class="has-sub-menu" title="Apparel" href="https://brandshop.att.com/apparel/" data-currentcat="apparel" data-parentcat="root">
+Apparel
+</a>
+
+
+
+
+
+
+
+<div class="level-2 ">
+<div class="mob-lev-1">
+<a class="shop-all-1" title="Shop All" href="https://brandshop.att.com/apparel/" data-currentcat="apparel" data-currentcatname="Apparel" data-parentcat="root">Apparel<span>Shop All</span></a>
+</div>
+
+
+<ul class="menu-horizontal nofeatured-categories">
+
+
+<li>
+
+<a title="View All" class="ViewAll " href="https://brandshop.att.com/apparel/apparel-view-all/" data-currentcat="apparel-view-all" data-parentcat="apparel" data-level1catname="Apparel">
+View All
+</a>
+
+</li>
+
+
+
+<li>
+
+<a title="Shirts" class="Shirts " href="https://brandshop.att.com/apparel/shirts/" data-currentcat="shirts" data-parentcat="apparel" data-level1catname="Apparel">
+Shirts
+</a>
+
+</li>
+
+
+
+<li>
+
+<a title="Outerwear" class="Outerwear " href="https://brandshop.att.com/apparel/outerwear/" data-currentcat="outerwear" data-parentcat="apparel" data-level1catname="Apparel">
+Outerwear
+</a>
+
+</li>
+
+
+
+<li>
+
+<a title="Golf &amp; Sports" class="Golf&amp;Sports " href="https://brandshop.att.com/apparel/golf-and-sports/" data-currentcat="golf-and-sports" data-parentcat="apparel" data-level1catname="Apparel">
+Golf & Sports
+</a>
+
+</li>
+
+
+
+<li>
+
+<a title="Kids" class="Kids " href="https://brandshop.att.com/apparel/kids/" data-currentcat="kids" data-parentcat="apparel" data-level1catname="Apparel">
+Kids
+</a>
+
+</li>
+
+
+</ul>
+
+
+<div class="banner"><!--
+ <div class="fly-out-banner"><a href="https://brandshop.att.com/apparel/apparel-view-all/"><img alt="AT&T Apparel" src="https://brandshop.att.com/on/demandware.static/-/Sites-storefront-catalog-en-ATT-Brand-Shop/default/dwf6be6b80/Navigation/2025/09-September/081925_Flyout_338x230_Apparel_Flyout_338x230.jpg" title="" /></a>
+    <div class="fly-out-text">
+    <p style="text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000; font-family: Att_Aleck_Sans_Bold,Helvetica,Arial,sans-serif;">Looks you'll love</p>
+    <span style="text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000; font-family: Att_Aleck_Sans_Bold,Helvetica,Arial,sans-serif;"><a class="a-link" style="line-height: 22px;" href="https://brandshop.att.com/apparel/apparel-view-all/">Shop now</a></span></div>
+    </div>
+-->
+
+<div class="fly-out-banner" style="position: relative;">
+  <a href="https://brandshop.att.com/apparel/" style="display: block; position: relative; text-decoration: none; color: #ffffff;">
+    <img alt="AT&T Apparel" src="https://brandshop.att.com/on/demandware.static/-/Sites-storefront-catalog-en-ATT-Brand-Shop/default/dw5ef7f52b/Navigation/2026/03-March/031026_ATT_BS_Siteflip_flyout_blank_338x230.jpg" title="" style="display: block; width: 100%; height: auto;" />
+    <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 92%; text-align: center; color: #ffffff; font-family: Att_Aleck_Sans_Medium, Helvetica, Arial, sans-serif; font-size: 28px; font-weight: bold; line-height: 1.35; text-shadow: 1px 1px 5px #000000; text-transform: none; box-sizing: border-box; padding: 6px 8px 10px 8px;">
+  Apparel you'll love
+  <div style="margin-top: 20px;">
+    <a class="button-primary mobile-button home-button-primary home-button-flyout" href="https://brandshop.att.com/apparel/" style="width: 175px;
+    height: 45px;
+    font-family: Att_Aleck_Sans_Medium, Helvetica, Arial, sans-serif;
+    font-size: 19px;
+    line-height: 42px; text-shadow: none;">Shop now</a>
+  </div>
+</div>
+  </a>
+</div></div>
+
+</div>
+
+
+</li>
+
+<li>
+
+
+<i class="menu-item-toggle">
+<div class="level-back">Back</div>
+</i>
+
+
+<a class="has-sub-menu" title="Accessories" href="https://brandshop.att.com/accessories/" data-currentcat="accessories" data-parentcat="root">
+Accessories
+</a>
+
+
+
+
+
+
+
+<div class="level-2 ">
+<div class="mob-lev-1">
+<a class="shop-all-1" title="Shop All" href="https://brandshop.att.com/accessories/" data-currentcat="accessories" data-currentcatname="Accessories" data-parentcat="root">Accessories<span>Shop All</span></a>
+</div>
+
+
+<ul class="menu-vertical nofeatured-categories">
+
+
+<li>
+
+<a title="View All" class="ViewAll " href="https://brandshop.att.com/accessories/accessories-view-all/" data-currentcat="accessories-view-all" data-parentcat="accessories" data-level1catname="Accessories">
+View All
+</a>
+
+</li>
+
+
+
+<li>
+
+<a title="Hats" class="Hats " href="https://brandshop.att.com/accessories/hats/" data-currentcat="hats" data-parentcat="accessories" data-level1catname="Accessories">
+Hats
+</a>
+
+</li>
+
+
+
+<li>
+
+<a title="Bags" class="Bags " href="https://brandshop.att.com/accessories/bags/" data-currentcat="bags" data-parentcat="accessories" data-level1catname="Accessories">
+Bags
+</a>
+
+</li>
+
+
+
+<li>
+
+<a title="Commemorative" class="Commemorative " href="https://brandshop.att.com/accessories/commemorative/" data-currentcat="commemorative" data-parentcat="accessories" data-level1catname="Accessories">
+Commemorative
+</a>
+
+</li>
+
+
+
+<li>
+
+<a title="Shoes" class="Shoes " href="https://brandshop.att.com/accessories/shoes/" data-currentcat="shoes" data-parentcat="accessories" data-level1catname="Accessories">
+Shoes
+</a>
+
+</li>
+
+
+</ul>
+
+
+<div class="banner"><div class="fly-out-banner" style="position: relative;">
+  <a href="https://brandshop.att.com/accessories/" style="display: block; position: relative; text-decoration: none; color: #ffffff;">
+    <img alt="AT&T Apparel" src="https://brandshop.att.com/on/demandware.static/-/Sites-storefront-catalog-en-ATT-Brand-Shop/default/dw5ef7f52b/Navigation/2026/03-March/031026_ATT_BS_Siteflip_flyout_blank_338x230.jpg" title="" style="display: block; width: 100%; height: auto;" />
+    <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 92%; text-align: center; color: #ffffff; font-family: Att_Aleck_Sans_Medium, Helvetica, Arial, sans-serif; font-size: 28px; font-weight: bold; line-height: 1.35; text-shadow: 1px 1px 5px #000000; text-transform: none; box-sizing: border-box; padding: 6px 8px 10px 8px;">
+  Complete the look
+  <div style="margin-top: 20px;">
+    <a class="button-primary mobile-button home-button-primary home-button-flyout" href="https://brandshop.att.com/accessories/" style="width: 175px;
+    height: 45px;
+    font-family: Att_Aleck_Sans_Medium, Helvetica, Arial, sans-serif;
+    font-size: 19px;
+    line-height: 42px; text-shadow: none;">Shop now</a>
+  </div>
+</div>
+  </a>
+</div></div>
+
+</div>
+
+
+</li>
+
+<li>
+
+
+<i class="menu-item-toggle">
+<div class="level-back">Back</div>
+</i>
+
+
+<a class="has-sub-menu" title="Home &amp; Office" href="https://brandshop.att.com/office/" data-currentcat="office" data-parentcat="root">
+Home & Office
+</a>
+
+
+
+
+
+
+
+<div class="level-2 ">
+<div class="mob-lev-1">
+<a class="shop-all-1" title="Shop All" href="https://brandshop.att.com/office/" data-currentcat="office" data-currentcatname="Home &amp; Office" data-parentcat="root">Home &amp; Office<span>Shop All</span></a>
+</div>
+
+
+<ul class="menu-horizontal nofeatured-categories">
+
+
+<li>
+
+<a title="View All" class="ViewAll " href="https://brandshop.att.com/office/office-view-all/" data-currentcat="office-view-all" data-parentcat="office" data-level1catname="Home &amp; Office">
+View All
+</a>
+
+</li>
+
+
+
+<li>
+
+<a title="Stationery" class="Stationery " href="https://brandshop.att.com/office/pen-and-paper/" data-currentcat="pen-and-paper" data-parentcat="office" data-level1catname="Home &amp; Office">
+Stationery
+</a>
+
+</li>
+
+
+
+<li>
+
+<a title="Tech" class="Tech " href="https://brandshop.att.com/office/tech/" data-currentcat="tech" data-parentcat="office" data-level1catname="Home &amp; Office">
+Tech
+</a>
+
+</li>
+
+
+
+<li>
+
+<a title="Drinkware" class="Drinkware " href="https://brandshop.att.com/office/drinkware/" data-currentcat="drinkware" data-parentcat="office" data-level1catname="Home &amp; Office">
+Drinkware
+</a>
+
+</li>
+
+
+
+<li>
+
+<a title="Welcome Kits" class="WelcomeKits " href="https://brandshop.att.com/office/welcome-kits/" data-currentcat="welcome-kits" data-parentcat="office" data-level1catname="Home &amp; Office">
+Welcome Kits
+</a>
+
+</li>
+
+
+</ul>
+
+
+<div class="banner"><!-- <div class="fly-out-banner"><a href="https://brandshop.att.com/office/office-view-all/"><img alt="AT&T Home & Office" src="https://brandshop.att.com/on/demandware.static/-/Sites-storefront-catalog-en-ATT-Brand-Shop/default/dwf11de3e9/Navigation/2025/09-September/081925_Flyout_338x230_Home&ofiice_Flyout_338x230.jpg" title="" /></a>
+<div class="fly-out-text">
+<p style="text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000; font-family: Att_Aleck_Sans_Bold,Helvetica,Arial,sans-serif;">Everyday essentials</p>
+<span style="text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000; font-family: Att_Aleck_Sans_Bold,Helvetica,Arial,sans-serif;"><a class="a-link" href="https://brandshop.att.com/office/office-view-all/">Shop Now</a></span></div>
+</div>  -->
+
+<div class="fly-out-banner" style="position: relative;">
+  <a href="https://brandshop.att.com/office/" style="display: block; position: relative; text-decoration: none; color: #ffffff;">
+    <img alt="AT&T Apparel" src="https://brandshop.att.com/on/demandware.static/-/Sites-storefront-catalog-en-ATT-Brand-Shop/default/dw5ef7f52b/Navigation/2026/03-March/031026_ATT_BS_Siteflip_flyout_blank_338x230.jpg" title="" style="display: block; width: 100%; height: auto;" />
+    <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 92%; text-align: center; color: #ffffff; font-family: Att_Aleck_Sans_Medium, Helvetica, Arial, sans-serif; font-size: 28px; font-weight: bold; line-height: 1.35; text-shadow: 1px 1px 5px #000000; text-transform: none; box-sizing: border-box; padding: 6px 8px 10px 8px;">
+  Everything your <br />workspace needs
+  <div style="margin-top: 20px;">
+    <a class="button-primary mobile-button home-button-primary home-button-flyout" href="https://brandshop.att.com/office/" style="width: 175px;
+    height: 45px;
+    font-family: Att_Aleck_Sans_Medium, Helvetica, Arial, sans-serif;
+    font-size: 19px;
+    line-height: 42px; text-shadow: none;">Shop now</a>
+  </div>
+</div>
+  </a>
+</div></div>
+
+</div>
+
+
+</li>
+
+<li>
+
+
+<i class="menu-item-toggle">
+<div class="level-back">Back</div>
+</i>
+
+
+<a class="has-sub-menu" title="Collections" href="https://brandshop.att.com/collections/" data-currentcat="collections" data-parentcat="root">
+Collections
+</a>
+
+
+
+
+
+
+
+<div class="level-2 ">
+<div class="mob-lev-1">
+<a class="shop-all-1" title="Shop All" href="https://brandshop.att.com/collections/" data-currentcat="collections" data-currentcatname="Collections" data-parentcat="root">Collections<span>Shop All</span></a>
+</div>
+
+
+<ul class="menu-horizontal nofeatured-categories">
+
+
+<li>
+
+<a title="Team Colors" class="TeamColors " href="https://brandshop.att.com/collections/team-colors/" data-currentcat="team-colors" data-parentcat="collections" data-level1catname="Collections">
+TEAM<span class="teamColors">COLORS</span>
+</a>
+
+</li>
+
+
+
+<li>
+
+<a title="AT&amp;T Business" class="AT&amp;TBusiness " href="https://brandshop.att.com/collections/att-business/" data-currentcat="att-business" data-parentcat="collections" data-level1catname="Collections">
+AT&T Business
+</a>
+
+</li>
+
+
+
+<li>
+
+<a title="AT&amp;T 5G" class="AT&amp;T5G " href="https://brandshop.att.com/collections/att-5g/" data-currentcat="att-5g" data-parentcat="collections" data-level1catname="Collections">
+AT&T 5G
+</a>
+
+</li>
+
+
+
+<li>
+
+<a title="AT&amp;T Fiber" class="AT&amp;TFiber " href="https://brandshop.att.com/collections/att-fiber/" data-currentcat="att-fiber" data-parentcat="collections" data-level1catname="Collections">
+AT&T Fiber
+</a>
+
+</li>
+
+
+
+<li>
+
+<a title="FirstNet" class="FirstNet " href="https://brandshop.att.com/collections/firstnet/" data-currentcat="firstnet" data-parentcat="collections" data-level1catname="Collections">
+FirstNet
+</a>
+
+</li>
+
+
+
+<li>
+
+<a title="Disaster Recovery" class="DisasterRecovery " href="https://brandshop.att.com/collections/disaster-recovery/" data-currentcat="disaster-recovery" data-parentcat="collections" data-level1catname="Collections">
+Disaster Recovery
+</a>
+
+</li>
+
+
+
+<li>
+
+<a title="AT&amp;T Guarantee" class="AT&amp;TGuarantee " href="https://brandshop.att.com/collections/att-guarantee/" data-currentcat="att-guarantee" data-parentcat="collections" data-level1catname="Collections">
+AT&T Guarantee
+</a>
+
+</li>
+
+
+
+<li>
+
+<a title="AT&amp;T Purpose" class="AT&amp;TPurpose " href="https://brandshop.att.com/collections/att-purpose/" data-currentcat="att-purpose" data-parentcat="collections" data-level1catname="Collections">
+AT&T Purpose
+</a>
+
+</li>
+
+
+</ul>
+
+
+<div class="banner"><!--
+<div class="fly-out-banner"><a href="https://brandshop.att.com/collections/"><img alt="AT&T Collections" src="https://brandshop.att.com/on/demandware.static/-/Sites-storefront-catalog-en-ATT-Brand-Shop/default/dwc8d3bbce/Navigation/2025/04-April/031825_Collections_Flyout_338x230.jpg" title="" /></a>
+<div class="fly-out-text">
+<p style="text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000; font-family: Att_Aleck_Sans_Bold,Helvetica,Arial,sans-serif;">Dress for success</p>
+<span style="text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000; font-family: Att_Aleck_Sans_Bold,Helvetica,Arial,sans-serif;"><a class="a-link" href="https://brandshop.att.com/collections/">Shop Now</a></span></div>
+</div>
+-->
+
+<div class="fly-out-banner" style="position: relative;">
+  <a href="https://brandshop.att.com/collections/" style="display: block; position: relative; text-decoration: none; color: #ffffff;">
+    <img alt="AT&T Apparel" src="https://brandshop.att.com/on/demandware.static/-/Sites-storefront-catalog-en-ATT-Brand-Shop/default/dw5ef7f52b/Navigation/2026/03-March/031026_ATT_BS_Siteflip_flyout_blank_338x230.jpg" title="" style="display: block; width: 100%; height: auto;" />
+    <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 92%; text-align: center; color: #ffffff; font-family: Att_Aleck_Sans_Medium, Helvetica, Arial, sans-serif; font-size: 28px; font-weight: bold; line-height: 1.35; text-shadow: 1px 1px 5px #000000; text-transform: none; box-sizing: border-box; padding: 6px 8px 10px 8px;">
+  Explore our <br />business units
+  <div style="margin-top: 20px;">
+    <a class="button-primary mobile-button home-button-primary home-button-flyout" href="https://brandshop.att.com/collections/" style="width: 175px;
+    height: 45px;
+    font-family: Att_Aleck_Sans_Medium, Helvetica, Arial, sans-serif;
+    font-size: 19px;
+    line-height: 42px; text-shadow: none;">Shop now</a>
+  </div>
+</div>
+  </a>
+</div></div>
+
+</div>
+
+
+</li>
+
+<li>
+
+
+<a class="" title="Sale" href="https://brandshop.att.com/att-sale/" data-currentcat="att-sale" data-parentcat="root">
+Sale
+</a>
+
+
+
+
+
+
+
+
+</li>
+
+<li>
+
+
+<a class="" title="Model Casting Form" href="https://brandshop.att.com/model/" data-currentcat="model" data-parentcat="root">
+Model Casting Form
+</a>
+
+
+
+
+
+
+
+
+</li>
+
+</ul>
+
+
+<!-- utility user menu -->
+<ul class="menu-utility-user">
+<li class="header-banner-logo">
+<div class="header-banner-placeholder">
+<img src="/on/demandware.static/Sites-ATT-Shop-Site/-/default/dwede4b0be/images/logo-white.svg" alt="AT&amp;T Brand Shop">
+</div>
+</li>
+
+
+
+
+
+
+<li class="user-info ">
+<a class="user-account" href="javascript:void(0)" title="User: Sign In |  Register">
+<span class="svg-01-account svg-01-account-dims d-svg"></span>
+<span class="svg-02-account-m svg-02-account-m-dims m-t-svg"></span>
+<span class="b6 menus user-titles"><span class="user-name">Sign In |  Register</span></span>
+</a>
+<div class="user-panel">
+
+<div class="user-links">
+
+<a class="Sign In sign-in" href="https://brandshop.att.com/account" title="Go to: Sign In"><span class="svg-02-account-m svg-02-account-m-dims m-t-svg"></span><span class="title menus">Sign In</span></a>
+
+
+<a class="Register" href="https://brandshop.att.com/register" title="Go to: Register"><span class="svg-30-register-m svg-30-register-m-dims m-t-svg"></span><span class="title menus">Register</span></a>
+
+
+</div>
+
+	 
+
+	
+</div>
+</li>
+
+<li class="custom-orders">
+
+<div class="custom-orders-placeholder">
+<a href="https://brandshop.att.com/custom-orders/">
+<span class="b6 menus user-titles">CUSTOM ORDERS</span>
+</a>
+</div>
+
+</li>
+
+
+
+
+
+
+
+
+<li class="live-chat">
+<div class="livechat-placeholder">
+<a href="">
+<span class="svg-05-chat svg-05-chat-dims d-svg"></span>
+<span class="svg-06-chat-m svg-06-chat-m-dims m-t-svg"></span>
+<span class="b6 menus user-titles">Live Chat</span>
+</a>
+</div>
+</li>
+
+</ul>
+<div class="mob-services">
+<div class="mob-contactus">
+
+
+
+
+
+
+
+
+
+
+
+<div class="content-asset"><!-- dwMarker="content" dwContentID="69445b30fad02c4fd047db0d7f" -->
+<div class="PopUpForm"> </div>
+<div class="contact-us footer-links expand-collapse">
+<div class="center-content">
+<div class="main-link"><span class="bold f1">CONTACT US</span> <span class="arrow"></span></div>
+
+<ul class="contact-ul f2">
+	<li><a href="https://brandshop.att.com/help">Help</a></li>
+</ul>
+</div>
+</div>
+
+<div class="customer-service footer-links">
+<div class="center-content">
+<div class="main-link"><span class="bold f1">IMPORTANT INFORMATION</span> <span class="arrow"></span></div>
+
+<ul class="coutomer-ul f2">
+    	<li><a href="https://brandshop.att.com/orders" title="Order Status" alt="Order Status">Order Status</a></li>
+      <!--  <li><a href="https://brandshop.att.com/collections/team-colors/"  title="Team Colors Exchanges" alt="Team Colors Exchanges">Team Colors Exchanges</a></li> -->
+        <li><a href="https://brandshop.att.com/giftcard-balance/"  title="Gift Card Balance" alt="Gift Card Balance">Gift Card Balance</a></li>
+    	<li><a href="https://brandshop.att.com/shippinginformation.html" title="Shipping Information" alt="Shipping Information">Shipping Information</a></li>
+        <li><a href="https://brandshop.att.com/returns-exchanges.html" title="Returns Information" alt="Returns Information">Return Information</a></li>
+	<li><a href="https://brandshop.att.com/customer-service-ordering.html" title="Order Information" alt="Order Information">Order Information</a></li>
+        <li><a href="" onclick="openDialog(); return false;" title="Disclaimers" alt="Disclaimers">* Disclaimers</a></li>
+      
+</ul>
+</div>
+</div>
+
+<div class="explore footer-links">
+<div class="center-content">
+<div class="main-link"><span class="bold f1">POPULAR SEARCHES</span> <span class="arrow"></span></div>
+
+<ul class="explore-ul f2">
+	<!---  Enable if going to category landing page <li><a href="https://brandshop.att.com/search?cgid=gift-cards" tiltle="Gift Cards" alt="Gift Cards">Gift Cards</a></li> --->
+        <!---  Enable if going to custom landing page --> <!-- <li><a href="https://brandshop.att.com/giftcard-balance/"  title="Gift Cards" alt="Gift Cards">Gift Cards</a></li> -->
+    	<li><a href="https://brandshop.att.com/custom-orders/" alt="AT&T Custom Orders">Custom Orders</a></li>
+	<li><a href="https://brandshop.att.com/collections/firstnet/" alt="AT&T FirstNet">FirstNet</a></li>
+    	<li><a href="https://brandshop.att.com/accessories/accessories-view-all/" alt="Accessories">Accessories</a></li>
+    	<li><a href="https://brandshop.att.com/collections/team-colors/" alt="AT&T Team Colors">Team Colors</a></li>
+    	<li><a href="https://brandshop.att.com/model/" alt="AT&T Model Casting">Model Casting</a></li>
+    </ul>
+</div>
+</div>
+
+<style>
+.ui-dialog.disclaimer-free-shipping {
+    background-color: #fff;
+    padding: 0;
+    width: 400px !important;
+    box-shadow: aquamarine;
+    -webkit-box-shadow: 1px 1px 4px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 1px 4px 0px rgba(0,0,0,0.75);
+    box-shadow: 1px 1px 4px 0px rgba(0,0,0,0.75);
+}
+</style>
+<! -- disclaimer-free-shipping.html?format=ajax -->
+<script type="text/javascript">
+   function openDialog() {
+     $(".PopUpForm").first().load('https://brandshop.att.com/disclaimer-free-shipping.html?format=ajax').dialog({model:true, dialogClass: 'disclaimer-free-shipping'});
+   } 
+
+var oldString = 'Colors',
+    newString = '<span class="teamColors">Colors</span>';
+var teamColorsEl = document.getElementById('TeamColors');
+if (teamColorsEl) {
+   var newText = teamColorsEl.textContent.replace(RegExp(oldString,"gi"),newString);
+   teamColorsEl.innerHTML = newText;
+}
+
+</script>
+<style>
+a[title="Team Colors"] {
+text-transform: uppercase !important;
+}
+.teamColors {
+    text-transform: uppercase;
+    background: linear-gradient(to right, #00C9FF, #0079B1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-style: italic;
+    padding-right: 6px;
+    font-family: Att_Aleck_Sans_Medium,Helvetica,Arial,sans-serif;
+    font-weight: 900;
+}
+</style>
+</div> <!-- End content-asset -->
+
+
+
+
+
+</div>
+
+
+
+
+<div class="emailsubscription">
+	<div class="content">
+		<form action="" >
+			<div class="emailcontentfooter-beforesubmit">
+				<span class="b2 signup-heading">Sign Up for Exclusive Sales &amp; Product News</span>
+				<div class="emailSign">
+					<p class="error-message"></p>
+					<div class="footer-email-container">
+						<input class="emailAddress footer-email-input text" type="email" name="email" maxlength="100" placeholder="Enter your email"/>
+
+					</div>
+					<button type="button" aria-label="Subscribe"><span class="footer-signup svg-44-email-send svg-44-email-send-dims"></span></button>
+
+				</div>
+				<span class="hide email-success-msg">Thank you for signing up!</span>
+				<span class="hide email-fail-msg">This email address is already subscribed</span>
+				<input type="hidden" name="csrf_token" value="X1wR34VC_tIEwikC9IgY61ngNp4sw_lmMfOuZtKrxrll-eUFaapwpxyQDBbr-sBmAv864jFXnqTwUibXVBMyTrTAMwg7GrbLYG6XYbnKFn18WZxR3Q5cTfTg9iDRkJ5XUfSIz7IUkBnn6vO8hehsWC-K25TFGYT3b_qY91HcVCt6LCRXmIE="/>
+			</div>
+		</form>
+	</div>
+</div>
+
+
+
+
+
+</div>
+</nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="header-search-main">
+<span class="mobile-search-icon svg-10-search-m svg-10-search-m-dims"></span>
+<div class="header-search">
+
+<form role="search" action="/search" method="get" name="simpleSearch">
+<fieldset>
+<input type="search" id="q" name="q" value="" placeholder="Search" />
+<input type="hidden" name="lang" value="default"/>
+<button aria-label="Search" type="submit"><span class="search-icon svg-09-search svg-09-search-dims d-svg"></span></button>
+</fieldset>
+</form>
+
+</div>
+</div>
+
+
+<div id="mini-cart">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Report any requested source code -->
+
+<!-- Report the active source code -->
+
+
+
+
+
+<div class="mini-cart-total">
+
+<a class="mini-cart-link mini-cart-empty" href="https://brandshop.att.com/cart" title="View Cart">
+<span class="svg-11-bag svg-11-bag-dims d-t-svg"></span>
+<span class="svg-12-bag-m svg-12-bag-m-dims m-svg"></span>
+<span class="minicart-quantity">0</span>
+</a>
+
+</div>
+
+
+
+
+
+
+
+</div>
+</div>
+</div><!-- /header -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="global-message-dialog"></div>
+
+<div id="main" role="main">
+
+	 
+
+
+	
+
+
+
+
+
+
+
+
+
+<div class="globalBanner">
+  <div class="globalBannerText">
+    Get free ground shipping on all orders over $75!
+  </div>
+</div>
+
+<style>
+  .cat-landing-main-banner {
+    border-top: none !important;
+  }
+  .top-banner {
+    border-bottom: none;
+  }
+  .globalBanner {
+    background: #00388F;
+    color: #fff;
+    display: block;
+    padding: 9px;
+  }
+  .globalBannerText {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 18px;
+  }
+  .ui-dialog.shipping-deadlines {
+    background-color: #fff;
+    padding: 0;
+    width: 750px !important;
+    box-shadow: aquamarine;
+    -webkit-box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.75);
+    top: 180px !important;
+    font-size: 18px;
+  }
+  .mobileBreak {
+    display: none;
+  }
+  @media only screen and (max-width: 1023px) {
+    .mobileBreak {
+      display: inline;
+    }
+  }
+  @media only screen and (max-width: 400px) {
+    .globalBannerText {
+      font-size: 16px;
+    }
+  }
+</style>
+
+ 
+	
+
+
+
+<div id="browser-check">
+<noscript>
+<div class="browser-compatibility-alert error-form">
+<i class="fa fa-exclamation-triangle fa-2x"></i>
+<p class="browser-error error-form">Your browser's Javascript functionality is turned off. Please turn it on so that you can experience the full capabilities of this site.</p>
+</div>
+</noscript>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="oc"></div>
+<div class="home-main-banner">
+
+	 
+
+
+	
+
+
+
+
+
+
+
+
+
+<div class="container-fluid">
+  <div class="row homepage-hero-banner">
+    <div class="col-md-12">
+      <div class="desktop-version">
+        <a
+          href="https://brandshop.att.com/apparel/workwear-favorites/"
+        >
+          <img
+            alt="Workwear"
+            src="https://brandshop.att.com/on/demandware.static/-/Sites-ATT-Shop-Library/default/dwb016c6eb/Homepage/2026/06-June/30/063026_BS_Primary_Desktop_1680x626.jpg"
+            title=""
+			class="curved-edges"
+          />
+        </a>
+      </div>
+
+      <div class="mobile-version">
+        <a
+          href="https://brandshop.att.com/apparel/workwear-favorites/"
+        >
+          <img
+            alt="Workwear"
+            src="https://brandshop.att.com/on/demandware.static/-/Sites-ATT-Shop-Library/default/dw533b5c90/Homepage/2026/06-June/30/063026_BS_Primary_Desktop_600x650.jpg"
+            title=""
+          />
+        </a>
+      </div>
+
+      <div class="homepage-text-left">
+        <div class="homepage-headline-text">
+			Work-ready favorites
+        </div>
+		<div class="homepage-headline-text-2" style="display: none;"> </div>
+
+        <div class="homepage-button-main">
+          <div class="mobile-style">
+            <a
+              class="button-primary mobile-button home-button-primary"
+              href="https://brandshop.att.com/apparel/workwear-favorites/"
+              >Shop now</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <style>
+  /* Global */
+  a:hover, a:focus {
+    text-decoration: none !important;
+	}
+  fieldset {
+    margin: initial !important;
+    border: initial !important;
+    padding: initial !important;
+	}
+
+  .pt_storefront .home-bottom-slots .home-bottom-slot-2 {
+	margin-bottom: 0;
+  }
+
+  .home-bottom-slot-3, .home-bottom-slot-4 {
+  	display: none;
+  }
+  .curved-edges {
+  	border-radius: 18px;
+  }
+  /* End Global */
+
+  .container-fluid {
+  	max-width: 1710px;
+  }
+  .homepage-hero-banner {
+    margin-bottom: 30px;
+  }
+  .homepage-hero-banner .mobile-version {
+    display: none;
+  }
+  .homepage-hero-banner .mobile-break {
+    display: none;
+  }
+  .homepage-hero-banner .desktop-version img {
+    width: 100%;
+  }
+
+  .homepage-hero-banner .homepage-text-left {
+    font-family: "Att_Aleck_Sans_Medium", Helvetica, Arial, sans-serif;
+    background: transparent;
+    position: absolute;
+    font-size: 36px;
+    top: 46%;
+    left: 33%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+  }
+  .homepage-hero-banner .homepage-headline-text {
+    font-family: "Att_Aleck_Sans_Medium", Helvetica, Arial, sans-serif;
+    font-size: 36px;
+	text-align: center;
+    color: #ffffff;
+    margin-bottom: 40px;
+	line-height: 1.35;
+	text-shadow: 1px 1px 5px #000000;
+  }
+  .homepage-hero-banner .homepage-headline-text-2 {
+    font-family: "Att_Aleck_Sans_Regular", Helvetica, Arial, sans-serif;
+	font-weight: bold;
+    font-size: 28px;
+	text-align: left;
+    color: #009fdb;
+    margin-bottom: 40px;
+	line-height: 1.35;
+  }
+  .homepage-hero-banner .homepage-button-main {
+  	text-align: center;
+  }
+  @media screen and (min-width: 992px) {
+  	.container-fluid {
+		margin-top: 25px;
+	}
+	.homepage-hero-banner .homepage-headline-text {
+		/* text-shadow: 1px 1px 5px #000000; */
+		font-weight: bold;
+	}
+  }
+
+  @media screen and (min-width: 768px) {
+    .homepage-hero-banner .home-button-primary {
+      font-family: "Att_Aleck_Sans_Medium", Helvetica, Arial, sans-serif;
+      color: #ffffff;
+      margin-bottom: 10px;
+      width: 230px;
+      font-size: 22px;
+      background: #00388F;
+      border: 2px solid #00388F;
+      height: 60px;
+      line-height: 53px;
+      border-radius: 35px;
+      padding: 0 35px;
+    }
+	.homepage-hero-banner .home-button-primary:hover {
+		border: 2px solid #00388F;
+	}
+  }
+
+  @media only screen and (max-width: 1300px) {
+		.homepage-hero-banner .homepage-headline-text {
+		  font-size: 32px;
+		  margin-bottom: 34px;
+		}
+	}
+
+  @media only screen and (max-width: 1200px) {
+    .homepage-hero-banner .homepage-headline-text {
+      font-size: 30px;
+	  margin-bottom: 35px;
+    }
+	.homepage-hero-banner .homepage-headline-text-2 {
+      font-size: 23px;
+    }
+	.homepage-hero-banner .home-button-primary {
+	  width: 240px;
+	}
+  }
+  @media only screen and (max-width: 1100px) {
+	.homepage-hero-banner .homepage-headline-text {
+		font-size: 27px;
+	}
+	.homepage-hero-banner .homepage-headline-text-2 {
+      font-size: 21px;
+    }
+  }
+
+  @media only screen and (max-width: 991px) {
+  .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+		padding: 0 !important;
+	}
+	.homepage-hero-banner {
+		margin-bottom: 40px;
+	}
+    .homepage-hero-banner .desktop-version {
+      display: none;
+    }
+    .homepage-hero-banner .mobile-version {
+      display: block;
+      width: 100%;
+      margin: 0 auto;
+    }
+    .homepage-hero-banner .mobile-version img {
+      width: 100%;
+    }
+    .homepage-hero-banner .homepage-text-left {
+      position: relative;
+      top: 0;
+      left: 0;
+      width: 100%;
+	  transform: none;
+
+    }
+    .homepage-hero-banner .mobile-style {
+      padding: 0;
+      text-align: center;
+    }
+    .homepage-hero-banner .homepage-headline-text {
+	  font-family: "Att_Aleck_Sans_Medium", Helvetica, Arial, sans-serif;
+	  font-size: 34px;
+      color: #000000;
+      margin-bottom: 20px;
+      padding-top: 15px;
+      text-align: center;
+	  text-shadow: none;
+    }
+	.homepage-hero-banner .homepage-headline-text-2 {
+	  font-size: 24px;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    .homepage-hero-banner .home-button-primary {
+      font-family: "Att_Aleck_Sans_Medium", Helvetica, Arial, sans-serif;
+      color: #ffffff;
+      width: 345px;
+	  height: 60px;
+      font-size: 23px;
+      background: #00388F;
+      border: none;
+      border-radius: 35px;
+      line-height: 58px;
+    }
+  }
+  @media only screen and (max-width: 767px) {
+	.homepage-hero-banner .mobile-break {
+		display: inline;
+	}
+  }
+  @media only screen and (max-width: 500px) {
+    .homepage-hero-banner .homepage-headline-text {
+          font-size: 32px;
+		  line-height: 38px;
+    }
+  }
+  @media only screen and (max-width: 400px) {
+    .homepage-hero-banner .homepage-headline-text {
+          font-size: 32px;
+		  line-height: 38px;
+    }
+  }
+</style>
+
+
+
+
+<div class="row">
+    <div class="col-md-8 homepage-row-2-left">
+
+	<div class="desktop-version">
+        <a
+          href="https://brandshop.att.com/office/drinkware/"
+        >
+          <img
+            alt="Drinkware"
+            src="https://brandshop.att.com/on/demandware.static/-/Sites-ATT-Shop-Library/default/dwea1a9b9f/Homepage/2026/06-June/30/063026_BS_Seasonal_Desktop_1176x700.jpg"
+            title=""
+			class="curved-edges"
+          />
+        </a>
+      </div>
+
+      <div class="mobile-version">
+        <a
+          href="https://brandshop.att.com/office/drinkware/"
+        >
+          <img
+            alt="Drinkware"
+            src="https://brandshop.att.com/on/demandware.static/-/Sites-ATT-Shop-Library/default/dw97edcd59/Homepage/2026/06-June/30/063026_BS_Seasonal_Desktop_600x650.jpg"
+            title=""
+          />
+        </a>
+      </div>
+
+      <div class="homepage-text-right">
+        <div class="homepage-headline-text">Stay cool on the go</div>
+        <div class="homepage-button-main">
+          <div class="mobile-style">
+            <a
+              class="button-primary mobile-button home-button-primary"
+              href="https://brandshop.att.com/office/drinkware/"
+              >Shop now</a
+            >
+			<!-- mobile-style -->
+          </div>
+		  <!-- homepage-button-main -->
+        </div>
+		<!-- homepage-text-right -->
+      </div>
+	  <!-- col-md-8 -->
+    </div>
+
+ <style>
+  .homepage-row-2-left {
+    margin-bottom: 30px;
+  }
+  .homepage-row-2-left .mobile-version {
+    display: none;
+  }
+  .homepage-row-2-left .desktop-version img {
+    width: 100%;
+  }
+  .homepage-row-2-left .desktop-break {
+  	display: inline;
+  }
+  .homepage-row-2-left .mobile-break {
+  	display: none;
+  }
+  .homepage-row-2-left .homepage-text-right {
+    width: 50%;
+  	background: transparent;
+    font-family: "Att_Aleck_Sans_Medium", Helvetica, Arial, sans-serif;
+	text-align: right;
+    position: absolute;
+    font-size: 36px;
+    top: 45%;
+    right: -29%;
+	transform: translate(-50%, -50%);
+  }
+  .homepage-row-2-left .homepage-headline-text {
+    font-family: "Att_Aleck_Sans_Medium", Helvetica, Arial, sans-serif;
+    font-size: 38px;
+	text-align: left;
+    color: #ffffff;
+    margin-bottom: 30px;
+	line-height: 49px;
+	text-shadow: 1px 1px 5px #000000;
+  }
+  .homepage-row-2-left .homepage-button-main { 
+  	text-align: center;
+  }
+
+
+   @media screen and (min-width: 992px) {
+	.homepage-row-2-left .homepage-headline-text {
+		/* text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000; */
+		text-shadow: 1px 1px 5px #000000;
+		font-weight: bold;
+		text-align: center;
+	}
+  }
+
+  @media screen and (min-width: 768px) {
+    .homepage-row-2-left .home-button-primary {
+      font-family: "Att_Aleck_Sans_Medium", Helvetica, Arial, sans-serif;
+      color: #ffffff;
+      margin-bottom: 10px;
+      width: 240px;
+      font-size: 22px;
+      background: #00388F;
+      border: 2px solid #00388F;
+      height: 60px;
+      line-height: 53px;
+      border-radius: 35px;
+      padding: 0 35px;
+    }
+	.homepage-row-2-left .home-button-primary:hover {
+		border: 2px solid #00388F;
+	}
+  }
+
+  @media only screen and (max-width: 1300px) {
+    .homepage-row-2-left .homepage-headline-text {
+      font-size: 34px;
+	  line-height: 45px;
+    }
+	.homepage-row-2-left .home-button-primary {
+		width: 205px;
+		height: 50px;
+		font-size: 20px;
+		padding: 0px 0px;
+		line-height: 45px;
+	}
+  }
+  @media only screen and (max-width: 1200px) {
+    .homepage-row-2-left .homepage-headline-text {
+      font-size: 30px;
+	  line-height: 41px;
+    }
+	.homepage-row-2-left .home-button-primary {
+		width: 205px;
+		height: 50px;
+		line-height: 44px;
+	}
+  }
+  @media only screen and (max-width: 1100px) {
+	.homepage-row-2-left .homepage-headline-text {
+		font-size: 28px;
+		line-height: 36px;
+	}
+  }
+
+  @media only screen and (max-width: 991px) {
+    .homepage-row-2-left {
+		margin-bottom: 40px;
+	}
+	.homepage-row-2-left .desktop-version {
+      display: none;
+    }
+    .homepage-row-2-left .mobile-version {
+      display: block;
+      width: 100%;
+      margin: 0 auto;
+    }
+    .homepage-row-2-left .mobile-version img {
+      width: 100%;
+    }
+    .homepage-row-2-left .homepage-text-right {
+      position: relative;
+      top: 0;
+      right: 0;
+	  transform: none;
+      width: 100%;
+    }
+    .homepage-row-2-left .mobile-style {
+      padding: 0;
+      text-align: center;
+    }
+    .homepage-row-2-left .homepage-headline-text {
+	  font-family: "Att_Aleck_Sans_Medium", Helvetica, Arial, sans-serif;
+      color: #000000;
+	  font-size: 34px;
+      line-height: 40px;
+      margin-bottom: 20px;
+      padding-top: 15px;
+      text-align: center;
+	  text-shadow: none;
+    }
+    .homepage-row-2-left .home-button-primary {
+      font-family: "Att_Aleck_Sans_Medium", Helvetica, Arial, sans-serif;
+      color: #ffffff;
+      width: 345px;
+	  height: 60px;
+      font-size: 23px;
+      background: #00388F;
+      border: none;
+      border-radius: 35px;
+      line-height: 58px;
+    }
+  }
+
+  @media only screen and (max-width: 446px) {
+   .homepage-row-2-left .desktop-break {
+  		display: none;
+	}
+	.homepage-row-2-left .mobile-break {
+  		display: inline;
+	}
+  }
+  	
+  @media only screen and (max-width: 500px) {
+    .homepage-row-2-left .homepage-headline-text {
+      font-size: 32px;
+	  line-height: 38px;
+    }
+  }
+
+  @media only screen and (max-width: 400px) {
+     .homepage-row-2-left .homepage-headline-text {
+        font-size: 32px;
+		line-height: 38px;
+	}
+  }
+</style>
+
+
+
+
+<div class="col-md-4 homepage-row-2-right">
+  <div class="desktop-version">
+    <a
+      href="https://brandshop.att.com/accessories/hats/"
+    >
+      <img
+        alt="Hats"
+        src="https://brandshop.att.com/on/demandware.static/-/Sites-ATT-Shop-Library/default/dwdebc106f/Homepage/2026/06-June/30/063026_BS_TopCategory_Desktop_504x616.jpg"
+        title=""
+		class="curved-edges"
+      />
+    </a>
+  </div>
+
+  <div class="mobile-version">
+    <a
+      href="https://brandshop.att.com/accessories/hats/"
+    >
+      <img
+        alt="Shirts"
+        src="https://brandshop.att.com/on/demandware.static/-/Sites-ATT-Shop-Library/default/dw26a7a5ec/Homepage/2026/06-June/30/063026_BS_TopCategory_Desktop_600x650.jpg"
+        title=""
+      />
+    </a>
+  </div>
+
+  <div class="homepage-text-left">
+    <div class="homepage-headline-text">Sun-ready styles</div>
+
+    <div class="homepage-button-main">
+      <div class="mobile-style">
+        <a
+          class="button-primary mobile-button home-button-primary"
+          href="https://brandshop.att.com/accessories/hats/"
+          >Shop now</a
+        >
+        <!-- mobile-style -->
+      </div>
+      <!-- homepage-button-main -->
+    </div>
+    <!-- homepage-text-left -->
+  </div>
+  <!-- col-md-4 -->
+</div>
+
+<!-- Entire Row -->
+</div>
+
+<style>
+  .homepage-row-2-right {
+    margin-bottom: 30px;
+  }
+  .homepage-row-2-right .mobile-version {
+    display: none;
+  }
+  .homepage-row-2-right .desktop-version img {
+    width: 100%;
+  }
+
+  .homepage-row-2-right .homepage-text-left {
+    background: transparent;
+    font-family: "Att_Aleck_Sans_Medium", Helvetica, Arial, sans-serif;
+    position: absolute;
+    font-size: 36px;
+    top: 82%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    /* background: pink; */
+    width: 80%;
+  }
+  .homepage-row-2-right .homepage-headline-text {
+    font-family: "Att_Aleck_Sans_Medium", Helvetica, Arial, sans-serif;
+    font-size: 34px;
+    color: #ffffff;
+    margin-bottom: 20px;
+    line-height: 1.3;
+	text-shadow: 1px 1px 5px #000000;
+  }
+  @media screen and (min-width: 992px) {
+	.homepage-row-2-right .homepage-button-main {
+		text-align: center;
+	}
+	.homepage-row-2-right .homepage-headline-text {
+		/* text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000; */
+		/* text-shadow: 1px 1px 5px #000000; */
+		font-weight: bold;
+	}
+  }
+  @media screen and (min-width: 768px) {
+    .homepage-row-2-right .home-button-primary {
+      font-family: "Att_Aleck_Sans_Medium", Helvetica, Arial, sans-serif;
+      color: #ffffff;
+      margin-bottom: 10px;
+      width: 225px;
+      font-size: 19px;
+      background: #00388F;
+      border: 2px solid #00388F;
+      height: 55px;
+      line-height: 48px;
+      border-radius: 35px;
+      padding: 0 35px;
+    }
+	.homepage-row-2-right .home-button-primary:hover {
+		border: 2px solid #00388F;
+	}
+  }
+  @media only screen and (max-width: 1400px) {
+    .homepage-row-2-right .homepage-headline-text {
+      font-size: 31px;
+    }
+  }
+  @media only screen and (max-width: 1300px) {
+    .homepage-row-2-right .homepage-headline-text {
+      font-size: 29px;
+    }
+  }
+  @media only screen and (max-width: 1200px) {
+    .homepage-row-2-right .homepage-headline-text {
+      font-size: 26px;
+      margin-bottom: 15px;
+    }
+    .homepage-row-2-right .home-button-primary {
+      width: 185px;
+      height: 50px;
+      line-height: 44px;
+    }
+  }
+  @media only screen and (max-width: 1100px) {
+    .homepage-row-2-right .homepage-headline-text {
+      font-size: 24px;
+    }
+  }
+
+  @media only screen and (max-width: 991px) {
+    .homepage-row-2-right {
+      margin-bottom: 40px;
+    }
+    .homepage-row-2-right .desktop-version {
+      display: none;
+    }
+    .homepage-row-2-right .mobile-version {
+      display: block;
+      width: 100%;
+      margin: 0 auto;
+    }
+	.homepage-row-2-right .desktop-break {
+		display: none;
+	}
+    .homepage-row-2-right .mobile-version img {
+      width: 100%;
+    }
+    .homepage-row-2-right .homepage-text-left {
+      position: relative;
+      top: 0;
+      left: 0;
+      width: 100%;
+	  transform: none;
+    }
+    .homepage-row-2-right .mobile-style {
+      padding: 0;
+      text-align: center;
+    }
+    .homepage-row-2-right .homepage-headline-text {
+	  font-family: "Att_Aleck_Sans_Medium", Helvetica, Arial, sans-serif;
+      color: #000000;
+      font-size: 34px;
+      line-height: 40px;
+      margin-bottom: 20px;
+      padding-top: 15px;
+      text-align: center;
+	  text-shadow: none;
+    }
+    .homepage-row-2-right .home-button-primary {
+      font-family: "Att_Aleck_Sans_Medium", Helvetica, Arial, sans-serif;
+      color: #ffffff;
+      width: 345px;
+      height: 60px;
+      font-size: 23px;
+      background: #00388F;
+      border: none;
+      border-radius: 35px;
+      line-height: 58px;
+    }
+  }
+
+  @media only screen and (max-width: 500px) {
+    .homepage-row-2-right .homepage-headline-text {
+      font-size: 32px;
+	  line-height: 37px;
+    }
+  }
+
+  @media only screen and (max-width: 400px) {
+    .homepage-row-2-right .homepage-headline-text {
+      font-size: 32px;
+	  line-height: 37px;
+    }
+  }
+</style>
+
+
+
+
+<div class="row homepage-tiles">
+  <div class="col-md-12">
+  	<h2 class="h1 t-center star-line">Collections</h2>
+
+    <div class="cat-landing-slotbottom">
+
+
+	<div class="homepage-cat-tile">
+        <a href="https://brandshop.att.com/collections/att-business/">
+          <img
+            src="https://brandshop.att.com/on/demandware.static/-/Sites-ATT-Shop-Library/default/dw9168fd71/Homepage/2024/11-November/12/tiles/071224_BS_CollectionTiles_289X300_ATTBiz_2.svg"
+            alt="AT&T Business"
+          />
+        </a>
+      </div>
+
+
+	  <div class="homepage-cat-tile">
+        <a href="https://brandshop.att.com/collections/att-guarantee/">
+          <img
+            src="https://brandshop.att.com/on/demandware.static/-/Sites-ATT-Shop-Library/default/dwb046861a/Homepage/2026/01-January/22/012326_BS_CollectionTiles_289X300_AT&T_Guarantee.svg"
+            alt="AT&T Guarantee"
+          />
+        </a>
+      </div>
+
+	<div class="homepage-cat-tile">
+        <a href="https://brandshop.att.com/collections/att-fiber/">
+          <img
+            src="https://brandshop.att.com/on/demandware.static/-/Sites-ATT-Shop-Library/default/dw3a71ba9d/Homepage/2024/09-September/10/tiles/071224_BS_CollectionTiles_289X300_ATTFiber.svg"
+            alt="AT&T Fiber"
+          />
+        </a>
+      </div>
+
+	  <div class="homepage-cat-tile">
+        <a href="https://brandshop.att.com/collections/att-5g/">
+          <img
+            src="https://brandshop.att.com/on/demandware.static/-/Sites-ATT-Shop-Library/default/dw61770b2d/Homepage/2024/09-September/10/tiles/071224_BS_CollectionTiles_289X300_ATT5G.svg"
+            alt="AT&T 5G"
+          />
+        </a>
+      </div>
+
+      <div class="homepage-cat-tile">
+        <a href="https://brandshop.att.com/collections/firstnet/">
+          <img
+            src="https://brandshop.att.com/on/demandware.static/-/Sites-ATT-Shop-Library/default/dwb25598f3/Homepage/2024/09-September/10/tiles/071224_BS_CollectionTiles_289X300_FirstNet.svg"
+            alt="FirstNet"
+          />
+        </a>
+      </div>
+	  
+
+    </div>
+
+    <!-- col-md-12 -->
+  </div>
+  <!-- row --> 
+</div>
+
+<style>
+  .homepage-tiles {
+	margin-bottom: 40px;
+   }
+   .star-line { 
+	font-family:  Att_Aleck_Sans_Bold,Helvetica,Arial,sans-serif;
+   }
+  .homepage-tiles .star-line {
+   	margin-bottom: 15px;
+  }
+  .homepage-cat-tile {
+    width: 20%;
+  }
+  .homepage-cat-tile img {
+    width: 85%;
+  }
+  .pt_categorylanding .cat-landing-slotbottom-container {
+    max-width: none;
+  }
+
+  .cat-seo-content {
+    display: none;
+  }
+
+  @media only screen and (min-width: 992px) {
+    .homepage-cat-tile {
+      -webkit-transform: scale(1);
+      transform: scale(1);
+      -webkit-transition: 0.3s ease-in-out;
+      transition: 0.3s ease-in-out;
+	  text-align: center;
+    }
+    .homepage-cat-tile:hover {
+      -webkit-transform: scale(1.15);
+      transform: scale(1.15);
+      /* transition: ease .5s; */
+    }
+    .cat-landing-main-banner-container {
+      margin-bottom: 0;
+    }
+    .pt_categorylanding .cat-landing-container {
+      background: rgb(0, 53, 95);
+      background: linear-gradient(
+        90deg,
+        rgba(0, 53, 95, 1) 0%,
+        rgba(0, 94, 146, 1) 65%,
+        rgba(0, 130, 190, 1) 100%
+      );
+    }
+    .pt_categorylanding .cat-landing-slotbottom-container {
+      background: rgb(0, 53, 95);
+      background: linear-gradient(
+        90deg,
+        rgba(0, 53, 95, 1) 0%,
+        rgba(0, 94, 146, 1) 65%,
+        rgba(0, 130, 190, 1) 100%
+      );
+    }
+    .cat-landing-slotbottom-slot {
+      margin-top: 45px;
+      margin-bottom: 40px;
+    }
+  }
+
+  @media only screen and (max-width: 991px) {
+    .pt_categorylanding .cat-landing-slotbottom-container {
+      padding: 0;
+      /* background: #11224b; */
+      padding-top: 15px;
+      padding-bottom: 35px;
+      background: rgb(0, 53, 95);
+      background: linear-gradient(
+        175deg,
+        rgba(0, 53, 95, 1) 0%,
+        rgba(0, 94, 146, 1) 48%,
+        rgba(0, 130, 190, 1) 100%
+      );
+    }
+    .cat-landing-banner-slot {
+      /* border-bottom: 8px solid #97eaff; */
+      border-bottom: 8px solid #49eedc;
+    }
+    .pt_categorylanding .cat-landing-slotbottom-container {
+      border-bottom: 8px solid #49eedc;
+    }
+    .homepage-cat-tile {
+      width: 50%;
+	  text-align: center;
+	  margin-bottom: 30px;
+    }
+	/*
+    .homepage-cat-tile:last-child {
+      margin: 0 auto;
+    }
+	*/
+  }
+
+  @media only screen and (max-width: 500px) {
+    .homepage-cat-tile {
+      <!-- width: 70%; --> 
+	  width: 50%;
+      margin: 0 auto;
+	  text-align: center;
+      margin-bottom: 20px;
+    }
+	.homepage-tiles {
+		margin-bottom: 20px;
+	}
+  }
+</style>
+
+
+
+
+<div class="row homepage-secondary-banner">
+    <div class="col-md-12">
+      <div class="desktop-version">
+        <a
+          href="https://brandshop.att.com/accessories/"
+        >
+          <img
+            alt="Accessories"
+            src="https://brandshop.att.com/on/demandware.static/-/Sites-ATT-Shop-Library/default/dw04b882da/Homepage/2026/06-June/30/063026_BS_Secondary_Desktop_1680x626.jpg"
+            title=""
+			class="curved-edges"
+          />
+        </a>
+      </div>
+
+      <div class="mobile-version">
+        <a
+          href="https://brandshop.att.com/accessories/"
+        >
+          <img
+            alt="Accessories"
+            src="https://brandshop.att.com/on/demandware.static/-/Sites-ATT-Shop-Library/default/dw396d493e/Homepage/2026/06-June/30/063026_BS_Secondary_Desktop_600x650.jpg"
+            title=""
+          />
+        </a>
+      </div>
+
+      <div class="homepage-text-left">
+        <div class="homepage-headline-text">Accessories you will love</div>
+
+        <div class="homepage-button-main">
+          <div class="mobile-style">
+            <a
+              class="button-primary mobile-button home-button-primary"
+              href="https://brandshop.att.com/accessories/"
+              >Shop now</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+ </div>
+
+
+  <style>
+  .homepage-secondary-banner {
+    margin-bottom: 40px;
+  }
+  .homepage-secondary-banner .mobile-version {
+    display: none;
+  }
+  .homepage-secondary-banner .mobile-break {
+    display: none;
+  }
+  .homepage-secondary-banner .desktop-version img {
+    width: 100%;
+  }
+
+  .homepage-secondary-banner .homepage-text-left {
+    font-family: "Att_Aleck_Sans_Medium", Helvetica, Arial, sans-serif;
+	background: transparent;
+    position: absolute;
+    font-size: 36px;
+    top: 50%;
+    left: 22.5%;
+    transform: translate(-50%, -50%);
+	width: 46%;
+  }
+  .homepage-secondary-banner .homepage-headline-text {
+    font-family: "Att_Aleck_Sans_Medium", Helvetica, Arial, sans-serif;
+    font-size: 38px;
+	text-align: center;
+    color: #ffffff;
+    margin-bottom: 35px;
+	line-height: 1.35;
+	text-shadow: 1px 1px 5px #000000;
+  }
+  .homepage-secondary-banner .homepage-button-main {
+  	text-align: center;
+  }
+  @media screen and (min-width: 992px) {
+  	.homepage-secondary-banner .homepage-headline-text {
+		font-weight: bold;
+	}
+  }
+
+  @media screen and (min-width: 768px) {
+    .homepage-secondary-banner .home-button-primary {
+      font-family: "Att_Aleck_Sans_Medium", Helvetica, Arial, sans-serif;
+      color: #ffffff;
+      margin-bottom: 10px;
+      width: 230px;
+      font-size: 22px;
+      background: #00388F;
+      border: 2px solid #00388F;
+      height: 60px;
+      line-height: 53px;
+      border-radius: 35px;
+      padding: 0 35px;
+    }
+	.homepage-secondary-banner .home-button-primary:hover {
+		border: 2px solid #00388F;
+	}
+  }
+  @media only screen and (max-width: 1300px) {
+	  .homepage-secondary-banner .homepage-headline-text {
+			font-size: 35px;
+		}
+  }
+  @media only screen and (max-width: 1200px) {
+    .homepage-secondary-banner .homepage-headline-text {
+      font-size: 33px;
+    }
+  }
+  @media only screen and (max-width: 1100px) {
+	.homepage-secondary-banner .homepage-headline-text {
+		font-size: 31px;
+	}
+  }
+
+  @media only screen and (max-width: 991px) {
+	.homepage-secondary-banner {
+		margin-bottom: 40px;
+	}
+	.homepage-secondary-banner .desktop-break {
+      display: none;
+    }
+    .homepage-secondary-banner .desktop-version {
+      display: none;
+    }
+    .homepage-secondary-banner .mobile-version {
+      display: block;
+      width: 100%;
+      margin: 0 auto;
+    }
+    .homepage-secondary-banner .mobile-version img {
+      width: 100%;
+    }
+    .homepage-secondary-banner .homepage-text-left {
+      position: relative;
+      top: 0;
+      left: 0;
+      width: 100%;
+	  transform: none;
+    }
+    .homepage-secondary-banner .mobile-style {
+      padding: 0;
+      text-align: center;
+    }
+    .homepage-secondary-banner .homepage-headline-text {
+	  font-family: "Att_Aleck_Sans_Medium", Helvetica, Arial, sans-serif;
+	  font-size: 34px;
+      color: #000000;
+      margin-bottom: 20px;
+      padding-top: 15px;
+      text-align: center;
+	  text-shadow: none;
+    }
+    .homepage-secondary-banner .home-button-primary {
+      font-family: "Att_Aleck_Sans_Medium", Helvetica, Arial, sans-serif;
+      color: #ffffff;
+      width: 345px;
+	  height: 60px;
+      font-size: 23px;
+      background: #00388F;
+      border: none;
+      border-radius: 35px;
+      line-height: 58px;
+    }
+  }
+
+  @media only screen and (max-width: 767px) { 
+  	.homepage-secondary-banner .mobile-break {
+		display: inline;
+	}
+  }
+
+  @media only screen and (max-width: 500px) {
+    .homepage-secondary-banner .homepage-headline-text {
+          font-size: 32px;
+		  line-height: 38px;
+    }
+	.home-bottom-slot-2 .star-line {
+		font-size: 29px !important;
+	}
+  }
+
+  @media only screen and (max-width: 400px) {
+    .homepage-secondary-banner .homepage-headline-text {
+          font-size: 28px;
+		  line-height: 34px;
+   }
+  }
+</style>
+
+
+
+
+<!-- End Bootstrap Grid container fluid -->
+</div>
+
+<link href="https://brandshop.att.com/on/demandware.static/-/Sites-ATT-Shop-Library/default/v1783054093989/css/bootstrap.min.css" rel="stylesheet" />
+
+ 
+	
+</div>
+<div class="home-bottom-slots">
+
+<div class="home-bottom-slot-1">
+
+	 
+
+
+	
+
+
+
+
+
+
+ 
+	
+</div>
+<div class="home-bottom-slot-2">
+
+
+	
+<!-- =============== This snippet of JavaScript handles fetching the dynamic recommendations from the remote recommendations server
+and then makes a call to render the configured template with the returned recommended products: ================= -->
+
+<script>
+(function(){
+// window.CQuotient is provided on the page by the Analytics code:
+var cq = window.CQuotient;
+var dc = window.DataCloud;
+var isCQ = false;
+var isDC = false;
+if (cq && ('function' == typeof cq.getCQUserId)
+&& ('function' == typeof cq.getCQCookieId)
+&& ('function' == typeof cq.getCQHashedEmail)
+&& ('function' == typeof cq.getCQHashedLogin)) {
+isCQ = true;
+}
+if (dc && ('function' == typeof dc.getDCUserId)) {
+isDC = true;
+}
+if (isCQ || isDC) {
+var recommender = '[[&quot;products-in-all-categories&quot;]]';
+var slotRecommendationType = decodeHtml('RECOMMENDATION');
+// removing any leading/trailing square brackets and escaped quotes:
+recommender = recommender.replace(/\[|\]|&quot;/g, '');
+var separator = '|||';
+var slotConfigurationUUID = '56c351d5c91fa7e14d4342da0f';
+var contextAUID = decodeHtml('');
+var contextSecondaryAUID = decodeHtml('');
+var contextAltAUID = decodeHtml('');
+var contextType = decodeHtml('');
+var anchorsArray = [];
+var contextAUIDs = contextAUID.split(separator);
+var contextSecondaryAUIDs = contextSecondaryAUID.split(separator);
+var contextAltAUIDs = contextAltAUID.split(separator);
+var contextTypes = contextType.split(separator);
+var slotName = decodeHtml('home-recommended-products');
+var slotConfigId = decodeHtml('Einstein');
+var slotConfigTemplate = decodeHtml('slots/recommendation/product_recomm.isml');
+if (contextAUIDs.length == contextSecondaryAUIDs.length) {
+for (i = 0; i < contextAUIDs.length; i++) {
+anchorsArray.push({
+id: contextAUIDs[i],
+sku: contextSecondaryAUIDs[i],
+type: contextTypes[i],
+alt_id: contextAltAUIDs[i]
+});
+}
+} else {
+anchorsArray = [{id: contextAUID, sku: contextSecondaryAUID, type: contextType, alt_id: contextAltAUID}];
+}
+var urlToCall = '/on/demandware.store/Sites-ATT-Shop-Site/default/CQRecomm-Start';
+var params = null;
+if (isCQ) {
+params = {
+userId: cq.getCQUserId(),
+cookieId: cq.getCQCookieId(),
+emailId: cq.getCQHashedEmail(),
+loginId: cq.getCQHashedLogin(),
+anchors: anchorsArray,
+slotId: slotName,
+slotConfigId: slotConfigId,
+slotConfigTemplate: slotConfigTemplate,
+ccver: '1.03'
+};
+}
+// console.log("Recommendation Type - " + slotRecommendationType + ", Recommender Selected - " + recommender);
+if (isDC && slotRecommendationType == 'DATA_CLOUD_RECOMMENDATION') {
+// Set DC variables for API call
+dcIndividualId = dc.getDCUserId();
+dcUrl = dc.getDCPersonalizationPath();
+if (dcIndividualId && dcUrl && dcIndividualId != '' && dcUrl != '') {
+// console.log("Fetching CDP Recommendations");
+var productRecs = {};
+productRecs[recommender] = getCDPRecs(dcUrl, dcIndividualId, recommender);
+cb(productRecs);
+}
+} else if (isCQ && slotRecommendationType != 'DATA_CLOUD_RECOMMENDATION') {
+if (cq.getRecs) {
+cq.getRecs(cq.clientId, recommender, params, cb);
+} else {
+cq.widgets = cq.widgets || [];
+cq.widgets.push({
+recommenderName: recommender,
+parameters: params,
+callback: cb
+});
+}
+}
+};
+function decodeHtml(html) {
+var txt = document.createElement("textarea");
+txt.innerHTML = html;
+return txt.value;
+}
+function cb(parsed) {
+var arr = parsed[recommender].recs;
+if (arr && 0 < arr.length) {
+var filteredProductIds = '';
+for (i = 0; i < arr.length; i++) {
+filteredProductIds = filteredProductIds + 'pid' + i + '=' + encodeURIComponent(arr[i].id) + '&';
+}
+filteredProductIds = filteredProductIds.substring(0, filteredProductIds.length - 1);//to remove the trailing '&'
+var formData = 'auid=' + encodeURIComponent(contextAUID)
++ '&scid=' + slotConfigurationUUID
++ '&' + filteredProductIds;
+var request = new XMLHttpRequest();
+request.open('POST', urlToCall, true);
+request.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+request.onreadystatechange = function() {
+if (this.readyState === 4) {
+// Got the product data from DW, showing the products now by changing the inner HTML of the DIV:
+var divId = 'cq_recomm_slot-' + slotConfigurationUUID;
+document.getElementById(divId).innerHTML = this.responseText;
+//find and evaluate scripts in response:
+var scripts = document.getElementById(divId).getElementsByTagName('script');
+if (null != scripts) {
+for (var i=0;i<scripts.length;i++) {//not combining script snippets on purpose
+var srcScript = document.createElement('script');
+srcScript.text = scripts[i].innerHTML;
+srcScript.asynch = scripts[i].asynch;
+srcScript.defer = scripts[i].defer;
+srcScript.type = scripts[i].type;
+srcScript.charset = scripts[i].charset;
+document.head.appendChild( srcScript );
+document.head.removeChild( srcScript );
+}
+}
+}
+};
+request.send(formData);
+request = null;
+}
+};
+})();
+</script>
+<!-- The DIV tag id below is unique on purpose in case there are multiple recommendation slots on the same .isml page: -->
+<div id="cq_recomm_slot-56c351d5c91fa7e14d4342da0f"></div>
+<!-- ====================== snippet ends here ======================== -->
+ 
+	
+</div>
+<div class="home-bottom-slot-3">
+
+	 
+
+	
+</div>
+<div class="home-bottom-slot-4">
+
+	 
+
+	
+</div>
+</div>
+<div class="Home-border-asset">
+
+
+
+
+</div>
+<div class="home-bottom-assets">
+<div class="home-bottom-asset-1">
+
+
+
+
+</div>
+<div class="home-bottom-asset-2">
+
+
+
+
+</div>
+</div>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="footer" class="footer-wrapper" role="contentinfo">
+<div class="main-footer">
+<footer>
+<div class="container-footer-section">
+<div class="signup-connect att-signup-conntect">
+<div class="center-content">
+<div class="item-footer-section sign-up">
+
+
+
+
+<div class="emailsubscription">
+	<div class="content">
+		<form action="" >
+			<div class="emailcontentfooter-beforesubmit">
+				<span class="b2 signup-heading">Sign Up for Exclusive Sales &amp; Product News</span>
+				<div class="emailSign">
+					<p class="error-message"></p>
+					<div class="footer-email-container">
+						<input class="emailAddress footer-email-input text" type="email" name="email" maxlength="100" placeholder="Enter your email"/>
+
+					</div>
+					<button type="button" aria-label="Subscribe"><span class="footer-signup svg-44-email-send svg-44-email-send-dims"></span></button>
+
+				</div>
+				<span class="hide email-success-msg">Thank you for signing up!</span>
+				<span class="hide email-fail-msg">This email address is already subscribed</span>
+				<input type="hidden" name="csrf_token" value="cwSpLOB2Y5lpNgrk3e6teUI5fghFqi3XWegP3gwwiqkHUN8wnW7wHT_IaYgRjKeZeM4TbCir_L1Ass0TZzUNydh25vGDbnS-0b3YIpXauebraS0p8rvU34ulrkA_HzaW2lQqyJvhyYOQWmj7z_RJfOVU0eojDz3iLIdDl03OPlYrNJSYgc4="/>
+			</div>
+		</form>
+	</div>
+</div>
+
+</div>
+<div class="item-footer-section stay-connect">
+
+
+
+
+</div>
+</div>
+</div>
+<div class="item-footer-section contact-custom">
+
+<div class="content-asset">
+
+	 
+
+
+	
+
+
+
+
+
+
+
+
+
+<div class="PopUpForm"> </div>
+<div class="contact-us footer-links expand-collapse">
+<div class="center-content">
+<div class="main-link"><span class="bold f1">Contact Us</span> <span class="arrow"></span></div>
+
+<ul class="contact-ul f2">
+	<li><a href="https://brandshop.att.com/help">Help</a></li>
+</ul>
+</div>
+</div>
+
+<div class="customer-service footer-links">
+<div class="center-content">
+<div class="main-link"><span class="bold f1">Important Information</span> <span class="arrow"></span></div>
+
+<ul class="coutomer-ul f2">
+    	<li><a href="https://brandshop.att.com/orders" title="Order Status" alt="Order Status">Order Status</a></li>
+        <li><a href="https://brandshop.att.com/giftcard-balance/"  title="Gift Card Balance" alt="Gift Card Balance">Gift Card Balance</a></li>
+    	<li><a href="https://brandshop.att.com/shippinginformation.html" title="Shipping Information" alt="Shipping Information">Shipping Information</a></li>
+        <li><a href="https://brandshop.att.com/collections/team-colors/tc-exchange-forms/"  title="Team Colors Exchanges" alt="Team Colors Exchanges">Team Colors Exchanges</a></li>
+        <li><a href="https://brandshop.att.com/returns-exchanges.html" title="Returns Information" alt="Returns Information">Return Information</a></li>
+	<li><a href="https://brandshop.att.com/customer-service-ordering.html" title="Order Information" alt="Order Information">Order Information</a></li>
+        <li><a href="" onclick="openDialog(); return false;" title="Disclaimers" alt="Disclaimers">* Disclaimers</a></li>
+      
+</ul>
+</div>
+</div>
+
+<div class="explore footer-links">
+<div class="center-content">
+<div class="main-link"><span class="bold f1">Popular Searches</span> <span class="arrow"></span></div>
+
+<ul class="explore-ul f2">
+	<!---  Enable if going to category landing page <li><a href="https://brandshop.att.com/search?cgid=gift-cards" tiltle="Gift Cards" alt="Gift Cards">Gift Cards</a></li> --->
+        <!---  Enable if going to custom landing page --> <!-- <li><a href="https://brandshop.att.com/giftcard-balance/"  title="Gift Cards" alt="Gift Cards">Gift Cards</a></li> -->
+    	<li><a href="https://brandshop.att.com/custom-orders/" alt="AT&T Custom Orders">Custom Orders</a></li>
+    	<!-- <li><a href="https://brandshop.att.com/apparel/shirts/" alt="AT&T Shirts">Shirts</a></li> -->
+	<li><a href="https://brandshop.att.com/collections/firstnet/" alt="AT&T FirstNet">FirstNet</a></li>
+    	<li><a href="https://brandshop.att.com/accessories/accessories-view-all/" alt="AT&T Accessories">Accessories</a></li>
+    	<!-- <li><a href="https://brandshop.att.com/search?cgid=sock-society" alt="AT&T Sock Society">Sock Society</a></li> -->
+    	<li><a href="https://brandshop.att.com/collections/team-colors/" alt="AT&T Team Colors">Team Colors</a></li>
+    	<li><a href="https://brandshop.att.com/model/" alt="AT&T Model Casting">Model Casting</a></li>
+    </ul>
+</div>
+</div>
+
+<style>
+.ui-dialog.disclaimer-free-shipping {
+    background-color: #fff;
+    padding: 0;
+    width: 400px !important;
+    box-shadow: aquamarine;
+    -webkit-box-shadow: 1px 1px 4px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 1px 4px 0px rgba(0,0,0,0.75);
+    box-shadow: 1px 1px 4px 0px rgba(0,0,0,0.75);
+}
+</style>
+<! -- disclaimer-free-shipping.html?format=ajax -->
+<script type="text/javascript">
+   function openDialog() {
+     $(".PopUpForm").first().load('https://brandshop.att.com/disclaimer-free-shipping-5.html?format=ajax').dialog({model:true, dialogClass: 'disclaimer-free-shipping'});
+   } 
+
+var oldString = 'Colors',
+    newString = '<span class="teamColors">Colors</span>';
+var teamColorsEl = document.getElementById('TeamColors');
+if (teamColorsEl) {
+   var newText = teamColorsEl.textContent.replace(RegExp(oldString,"gi"),newString);
+   teamColorsEl.innerHTML = newText;
+}
+
+</script>
+<style>
+a[title="Team Colors"] {
+text-transform: uppercase !important;
+}
+.teamColors {
+    text-transform: uppercase;
+    background: linear-gradient(to right, #00C9FF, #0079B1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-style: italic;
+    padding-right: 6px;
+    font-family: Att_Aleck_Sans_Medium,Helvetica,Arial,sans-serif;
+    font-weight: 900;
+}
+</style>
+
+ 
+	
+</div>
+
+</div>
+</div>
+</footer>
+<div class="bottom-footer">
+
+
+
+
+
+
+
+	 
+
+	
+</div>
+<div class="back-to-top" id="backtotop">
+<span class="back-icon">
+
+<img src="/on/demandware.static/Sites-ATT-Shop-Site/-/default/dw798c39f4/images/back-to-top.svg" alt="back to top"/>
+
+</span>
+<span class="back-text">back to top</span>
+</div>
+</div>
+<div class="copyright-block">
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="content-asset"><!-- dwMarker="content" dwContentID="cae58b06606b9e52b3be45583c" -->
+<div class="copy-right">&copy;<span id="dateHolder">2026</span> 81Eighty Promotions, LP <br />
+<!-- <span class="dash">|</span> --> 
+<a class="privacy-policy" href="https://brandshop.att.com/terms.html">Terms of Use</a> <span class="dash">|</span> 
+<a class="privacy-policy" href="https://brandshop.att.com/customer-service-privacy.html" target="_blank">Privacy Policy</a> <span class="dash">|</span> <a class="privacy-policy" href="https://brandshop.att.com/accessibility-statement.html" target="_blank">Accessibility Statement</a></div>
+</div> <!-- End content-asset -->
+
+
+
+
+
+</div>
+</div><!-- /footer -->
+
+
+
+
+<input type="hidden" class="hidden-playername" value="" />
+<input type="hidden" class="hidden-playernumber" value=""/>
+
+
+
+
+
+
+<!--[if gte IE 9 | !IE]><!-->
+<script src="/on/demandware.static/Sites-ATT-Shop-Site/-/default/v1783054093989/lib/jquery/jquery-3.7.1.min.js" type="text/javascript"></script>
+<script async src="/on/demandware.static/Sites-ATT-Shop-Site/-/default/v1783054093989/lib/jquery/jquery-migrate-3.0.1.min.js" type="text/javascript"></script>
+<!--<![endif]-->
+<!--[if lte IE 8]>
+<script src="//cdn.rawgit.com/weblinc/media-match/master/media.match.min.js" type="text/javascript"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/es5-shim/3.4.0/es5-shim.min.js"></script>
+<![endif]-->
+<!--[if IE 9]>
+<script src="//cdn.rawgit.com/paulirish/matchMedia.js/master/matchMedia.js" type="text/javascript"></script>
+<script src="//cdn.rawgit.com/paulirish/matchMedia.js/master/matchMedia.addListener.js" type="text/javascript"></script>
+<![endif]-->
+<script async defer type="text/javascript">
+
+(function(){
+window.Constants = {"AVAIL_STATUS_IN_STOCK":"IN_STOCK","AVAIL_STATUS_PREORDER":"PREORDER","AVAIL_STATUS_BACKORDER":"BACKORDER","AVAIL_STATUS_NOT_AVAILABLE":"NOT_AVAILABLE","APPLEPAY_PI":"DW_APPLE_PAY"};
+window.Resources = {"I_AGREE":"I Agree","CLOSE":"Close","NO_THANKS":"No, thanks","OK":"OK","ARE_YOU_HUMAN":"Are you a Human Being?","SHIP_QualifiesFor":"This shipment qualifies for","CC_LOAD_ERROR":"Couldn't load credit card!","COULD_NOT_SAVE_ADDRESS":"Could not save address. Please check your entries and try again.","REG_ADDR_ERROR":"Could Not Load Address","BONUS_PRODUCT":"Bonus Product","BONUS_PRODUCTS":"Bonus Products","SELECT_BONUS_PRODUCTS":"Select Bonus Products","SELECT_BONUS_PRODUCT":"product.selectbonusproduct","SELECT_PSP":"Select","BONUS_PRODUCT_MAX":"The maximum number of bonus products has been selected. Please remove one in order to add additional bonus products.","BONUS_PRODUCT_TOOMANY":"You have selected too many bonus products. Please change the quantity.","SIMPLE_SEARCH":"Search","SUBSCRIBE_EMAIL_DEFAULT":"Enter your email","CURRENCY_SYMBOL":"$","MISSINGVAL":"Please enter {0}","SERVER_ERROR":"Server connection failed!","MISSING_LIB":"jQuery is undefined.","BAD_RESPONSE":"Bad response - parser error!","INVALID_PHONE":"Please specify a valid phone number.","REMOVE":"REMOVE","QTY":"QTY","EMPTY_IMG_ALT":"REMOVE","COMPARE_BUTTON_LABEL":"Compare Items","COMPARE_CONFIRMATION":"This will remove the first product added for comparison. Is that OK?","COMPARE_REMOVE_FAIL":"Unable to remove item from list","COMPARE_ADD_FAIL":"Unable to add item to list","ADD_TO_CART_FAIL":"Unable to add item '{0}' to cart","REGISTRY_SEARCH_ADVANCED_CLOSE":"Close Advanced Search","GIFT_CERT_INVALID":"INVALID GIFT CARD NUMBER","GIFT_CERT_BALANCE":"Your current gift certificate balance is","GIFT_CERT_AMOUNT_INVALID":"Gift Certificate can only be purchased with a minimum of 5 and maximum of 5000","GIFT_CERT_MISSING":"Please enter a gift certificate code.","INVALID_OWNER":"This appears to be a credit card number. Please enter the name of the card holder.","COUPON_CODE_MISSING":"Please enter a coupon code.","COOKIES_DISABLED":"Your browser is currently not set to accept cookies. Please turn this functionality on or check if you have another program set to block cookies.","BML_AGREE_TO_TERMS":"You must agree to the terms and conditions","CHAR_LIMIT_MSG":"You have {0} characters left out of {1}","CONFIRM_DELETE":"Do you want to remove this {0}?","TITLE_GIFTREGISTRY":"gift registry","TITLE_ADDRESS":"address","TITLE_CREDITCARD":"credit card","SERVER_CONNECTION_ERROR":"Server connection failed!","IN_STOCK_DATE":"Ships by {0}","ITEM_STATUS_NOTAVAILABLE":"Sold Out","INIFINITESCROLL":"Show All","STORE_NEAR_YOU":"What's available at a store near you","SELECT_STORE":"Select Store","SELECTED_STORE":"Selected Store","PREFERRED_STORE":"Preferred Store","SET_PREFERRED_STORE":"Set Preferred Store","ENTER_ZIP":"Enter ZIP Code","INVALID_ZIP":"Please enter a valid ZIP Code","SEARCH":"Search","CHANGE_LOCATION":"Change Location","CONTINUE_WITH_STORE":"Continue with preferred store","CONTINUE":"Continue","SEE_MORE":"See More Stores","SEE_LESS":"See Fewer Stores","QUICK_VIEW":"Quick View","QUICK_VIEW_POPUP":"Product Quick View","TLS_WARNING":"We value your security!<br/>We detected that you are using an outdated browser.<br/>Update you browser to continue a secure shopping experience.","VALIDATE_REQUIRED":"This field is required.","VALIDATE_REMOTE":"Please fix this field.","VALIDATE_EMAIL":"Please enter a valid email address.","VALIDATE_URL":"Please enter a valid URL.","VALIDATE_DATE":"Please enter a valid date.","VALIDATE_DATEISO":"Please enter a valid date ( ISO ).","VALIDATE_NUMBER":"Please enter a valid number.","VALIDATE_DIGITS":"Please enter only digits.","VALIDATE_CREDITCARD":"Please enter a valid credit card number.","VALIDATE_EQUALTO":"The email addresses do not match.","VALIDATE_EQUALTO_PASSWORD":"The passwords do not match.","VALIDATE_MAXLENGTH":"Please enter no more than {0} characters.","VALIDATE_MINLENGTH":"Please enter at least {0} characters.","VALIDATE_RANGELENGTH":"Please enter a value between {0} and {1} characters long.","VALIDATE_RANGE":"Please enter a value between {0} and {1}.","VALIDATE_MAX":"Please enter a value less than or equal to {0}.","VALIDATE_MIN":"Please enter a value greater than or equal to {0}.","PLAYER_NAME_REQ":"Enter Player Name","PLAYER_NUMBER_REQ":"Enter Player Number","PLAYER_NAME_NUMBER_REQ":"Enter Player Name & Number","GC_AVAILABLE_BAL":"Available Balance is:","GC_NUMBER_MISSING":"MISSING GIFT CARD NUMBER","GC_PIN_MISSING":"Missing Gift Card Pin","SEARCH_PLACEHOLDER":"Search Product Name or Item No.","VISACHECKOUT_PI":"VISA_CHECKOUT","MASTERPASS_PI":"MASTERPASS","TEXT_FORM_SELECT_US":"State","TEXT_FORM_SELECT_CA":"Province","TEXT_FORM_SELECT_DEFAULT":"State","FLOATING_LABEL_BILLTOSTATE":"Bill to State","TeamColorInvalidQuantity":"You have exceeded the maximum quantity allowed for ","TeamColorInvalidInStockQuantity":"item(s) in Stock","RemainingNotAvailable":"The remaining items are currently not available. Please adjust the quantity.","STORENUMBER_REQUIRED":"REQUIRED - Please enter a valid store number then select FIND MY STORE","PO_MANAGER_EMAIL_NOT_APPROVED":"netterms.manageremail.invalid.notapproved","RETURNS_NO_SELECTION_ERROR":"Please select an item to return.","RETURNS_PHOTO_UPLOAD_ERROR":"An error occurred while uploading. Please check the above inline errors and try again.","TAX_ID_INVALID":"Please enter the valid value","CHECKOUT_ZONOS_SHIPPING_CONSENT":"<br/>\r\n<div style=\"font-weight: bold;\">\r\nPLEASE NOTE: All merchandise shipped internationally is considered Final Sale and is not eligible for return, exchange, or store credit under any circumstances. This includes clearance or discounted items, promotional products, and personalized or custom-made items.<br/><br/>\r\n<div>\r\n<!-- CONTENT_SPLIT -->\r\nI acknowledge and understand that all merchandise shipped internationally is Final Sale and cannot be returned,  <br/>exchanged, or credited for any reason.","IN_STOCK":"In Stock","QTY_IN_STOCK":"{0} Item(s) in Stock","PREORDER":"Pre-Order","QTY_PREORDER":"{0} item(s) are available for pre-order.","REMAIN_PREORDER":"The remaining items are available for pre-order.","BACKORDER":"Back Order","QTY_BACKORDER":"Back order {0} item(s)","REMAIN_BACKORDER":"The remaining items are available on back order.","NOT_AVAILABLE":"Sold Out","REMAIN_NOT_AVAILABLE":"The remaining items are currently not available. Please adjust the quantity."};
+window.Urls = {"appResources":"/on/demandware.store/Sites-ATT-Shop-Site/default/Resources-Load","pageInclude":"/on/demandware.store/Sites-ATT-Shop-Site/default/Page-Include","continueUrl":"https://brandshop.att.com/","staticPath":"/on/demandware.static/Sites-ATT-Shop-Site/-/default/v1783054093989/","addGiftCert":"/gift-card-purchase","minicartGC":"/on/demandware.store/Sites-ATT-Shop-Site/default/GiftCert-ShowMiniCart","addProduct":"/on/demandware.store/Sites-ATT-Shop-Site/default/Cart-AddProduct","minicart":"/on/demandware.store/Sites-ATT-Shop-Site/default/Cart-MiniAddProduct","cartShow":"/cart","giftRegAdd":"https://brandshop.att.com/on/demandware.store/Sites-ATT-Shop-Site/default/Address-GetAddressDetails?addressID=","paymentsList":"https://brandshop.att.com/wallet","addressesList":"https://brandshop.att.com/addressbook","wishlistAddress":"https://brandshop.att.com/on/demandware.store/Sites-ATT-Shop-Site/default/Wishlist-SetShippingAddress","deleteAddress":"https://brandshop.att.com/on/demandware.store/Sites-ATT-Shop-Site/default/Address-Delete","getProductUrl":"/on/demandware.store/Sites-ATT-Shop-Site/default/Product-Show","getBonusProducts":"/on/demandware.store/Sites-ATT-Shop-Site/default/Product-GetBonusProducts","addBonusProduct":"/on/demandware.store/Sites-ATT-Shop-Site/default/Cart-AddBonusProduct","getSetItem":"/on/demandware.store/Sites-ATT-Shop-Site/default/Product-GetSetItem","productDetail":"/on/demandware.store/Sites-ATT-Shop-Site/default/Product-Detail","getAvailability":"/on/demandware.store/Sites-ATT-Shop-Site/default/Product-GetAvailability?format=ajax","removeImg":"/on/demandware.static/Sites-ATT-Shop-Site/-/default/dwe317a67e/images/icon_remove.gif","searchsuggest":"/on/demandware.store/Sites-ATT-Shop-Site/default/Search-GetSuggestions","productNav":"/on/demandware.store/Sites-ATT-Shop-Site/default/Product-Productnav","summaryRefreshURL":"/on/demandware.store/Sites-ATT-Shop-Site/default/COBilling-UpdateSummary","billingSummaryURL":"/on/demandware.store/Sites-ATT-Shop-Site/default/COBilling-BillingUpdateSummary","billingSelectCC":"https://brandshop.att.com/on/demandware.store/Sites-ATT-Shop-Site/default/COBilling-SelectCreditCard","updateAddressDetails":"https://brandshop.att.com/on/demandware.store/Sites-ATT-Shop-Site/default/COShipping-UpdateAddressDetails","updateAddressDetailsBilling":"https://brandshop.att.com/on/demandware.store/Sites-ATT-Shop-Site/default/COBilling-UpdateAddressDetails","shippingMethodsJSON":"https://brandshop.att.com/on/demandware.store/Sites-ATT-Shop-Site/default/COShipping-GetApplicableShippingMethodsJSON","shippingMethodsList":"https://brandshop.att.com/on/demandware.store/Sites-ATT-Shop-Site/default/COShipping-UpdateShippingMethodList","selectShippingMethodsList":"https://brandshop.att.com/on/demandware.store/Sites-ATT-Shop-Site/default/COShipping-SelectShippingMethod","selectStore":"https://brandshop.att.com/on/demandware.store/Sites-ATT-Shop-Site/default/COShipping-SelectStore","resetPaymentForms":"/on/demandware.store/Sites-ATT-Shop-Site/default/COBilling-ResetPaymentForms","compareShow":"/compare","compareAdd":"/on/demandware.store/Sites-ATT-Shop-Site/default/Compare-AddProduct","compareRemove":"/on/demandware.store/Sites-ATT-Shop-Site/default/Compare-RemoveProduct","compareEmptyImage":"/on/demandware.static/Sites-ATT-Shop-Site/-/default/dw432e5d19/images/comparewidgetempty.png","giftCardCheckBalance":"https://brandshop.att.com/on/demandware.store/Sites-ATT-Shop-Site/default/COBilling-GetGiftCertificateBalance","redeemGiftCert":"https://brandshop.att.com/on/demandware.store/Sites-ATT-Shop-Site/default/COBilling-RedeemGiftCertificateJson","addCoupon":"https://brandshop.att.com/on/demandware.store/Sites-ATT-Shop-Site/default/Cart-AddCouponJson","removeCoupon":"https://brandshop.att.com/on/demandware.store/Sites-ATT-Shop-Site/default/Cart-RemoveCoupon","storesInventory":"/on/demandware.store/Sites-ATT-Shop-Site/default/StoreInventory-Inventory","setPreferredStore":"/on/demandware.store/Sites-ATT-Shop-Site/default/StoreInventory-SetPreferredStore","getPreferredStore":"/on/demandware.store/Sites-ATT-Shop-Site/default/StoreInventory-GetPreferredStore","setStorePickup":"/on/demandware.store/Sites-ATT-Shop-Site/default/StoreInventory-SetStore","setZipCode":"/on/demandware.store/Sites-ATT-Shop-Site/default/StoreInventory-SetZipCode","getZipCode":"/on/demandware.store/Sites-ATT-Shop-Site/default/StoreInventory-GetZipCode","billing":"/billing","setSessionCurrency":"/on/demandware.store/Sites-ATT-Shop-Site/default/Currency-SetSessionCurrency","addEditAddress":"/on/demandware.store/Sites-ATT-Shop-Site/default/COShippingMultiple-AddEditAddressJSON","cookieHint":"/privacy_hint.html","rateLimiterReset":"/on/demandware.store/Sites-ATT-Shop-Site/default/RateLimiter-HideCaptcha","csrffailed":"/on/demandware.store/Sites-ATT-Shop-Site/default/CSRF-Failed","shopbyplayer":"/on/demandware.store/Sites-ATT-Shop-Site/default/ShopByPlayer-PlayerName","getCustomJersyPImages":"/on/demandware.store/Sites-ATT-Shop-Site/default/Product-GetCustomJersyProductImages","getCustomBadgePImages":"/on/demandware.store/Sites-ATT-Shop-Site/default/Product-GetCustomBadgeProductImages","getCustomFieldPImages":"/on/demandware.store/Sites-ATT-Shop-Site/default/Product-GetCustomFieldProductImages","getSizeSwatchesOfColor":"/on/demandware.store/Sites-ATT-Shop-Site/default/Product-GetSizeSwatchesOfColor","getProductAddtocartForm":"/on/demandware.store/Sites-ATT-Shop-Site/default/Product-GetProductAddtocartForm","loadCustomJerseyPlayers":"/on/demandware.store/Sites-ATT-Shop-Site/default/Product-LoadCustomJerseyPlayers","loadCustomBadges":"/on/demandware.store/Sites-ATT-Shop-Site/default/Product-LoadCustomBadges","applyGiftCard":"/on/demandware.store/Sites-ATT-Shop-Site/default/GiftCard-ApplyGiftCard","removeGiftCard":"/on/demandware.store/Sites-ATT-Shop-Site/default/GiftCard-RemoveGiftCard","loadSetPricing":"/on/demandware.store/Sites-ATT-Shop-Site/default/Product-LoadSetPricing","loadTileData":"/on/demandware.store/Sites-ATT-Shop-Site/default/Product-LoadTileData","searchShow":"/search","setSessionAttr":"/on/demandware.store/Sites-ATT-Shop-Site/default/Home-SetSessionAttr","updatewishlist":"/on/demandware.store/Sites-ATT-Shop-Site/default/Product-Updatewishlist","editAddress":"https://brandshop.att.com/on/demandware.store/Sites-ATT-Shop-Site/default/Address-Edit","addAddress":"https://brandshop.att.com/on/demandware.store/Sites-ATT-Shop-Site/default/Address-Add","isMOQValid":"https://brandshop.att.com/on/demandware.store/Sites-ATT-Shop-Site/default/Product-IsMOQValid","customerInfo":"/on/demandware.store/Sites-ATT-Shop-Site/default/Home-IncludeHeaderCustomerInfo","multiShippingSelectSM":"https://brandshop.att.com/on/demandware.store/Sites-ATT-Shop-Site/default/COShippingMultiple-SelectShippingMethod","getSuggestedAddress":"/on/demandware.store/Sites-ATT-Shop-Site/default/Address-getSuggestedAddress","loadDCUExclusiveForm":"/on/demandware.store/Sites-ATT-Shop-Site/default/Product-LoadDCUExclusiveForm","implicitDCUCheck":"/on/demandware.store/Sites-ATT-Shop-Site/default/Product-ImplicitDCUCheck","reloadVSettings":"/on/demandware.store/Sites-ATT-Shop-Site/default/COBilling-LoadVSettings","validateGoogleCaptcha":"/on/demandware.store/Sites-ATT-Shop-Site/default/GoogleRecaptcha-ValidateRecaptcha","submitPDPForm":"/on/demandware.store/Sites-ATT-Shop-Site/default/Product-SubmitPDPForm","shippingStart":"https://brandshop.att.com/shipping-details","billingStart":"https://brandshop.att.com/billing","summaryStart":"https://brandshop.att.com/review-order","loadWishlistShareForm":"https://brandshop.att.com/on/demandware.store/Sites-ATT-Shop-Site/default/Wishlist-LoadWishlistShareForm","welcomEmailFormURL":"https://brandshop.att.com/on/demandware.store/Sites-ATT-Shop-Site/default/Email-Signup","loadPreferenceDialog":"https://brandshop.att.com/on/demandware.store/Sites-ATT-Shop-Site/default/Email-LoadPreferenceDialog","submitPreferenceDialog":"https://brandshop.att.com/profile-center","emailSignupSubmit":"https://brandshop.att.com/on/demandware.store/Sites-ATT-Shop-Site/default/Email-Subscribe","profielPageURL":"https://brandshop.att.com/on/demandware.store/Sites-ATT-Shop-Site/default/Email-RedirectToProfileCenter","PunchoutOrderXML":"/on/demandware.store/Sites-ATT-Shop-Site/default/Punchout-OrderXML","ProductSetClickAction":"/on/demandware.store/Sites-ATT-Shop-Site/default/Product-Show","ProductSetItemSelectAction":"/on/demandware.store/Sites-ATT-Shop-Site/default/Product-SelectSetItem","ProductRemoveItemAction":"/on/demandware.store/Sites-ATT-Shop-Site/default/Product-RemoveSetItem","RenderReviewPage":"/on/demandware.store/Sites-ATT-Shop-Site/default/Product-RenderReviewPage","AddTCSetToBag":"/on/demandware.store/Sites-ATT-Shop-Site/default/Cart-AddAllocationProduct","AllocationEntryPopup":"/on/demandware.store/Sites-ATT-Shop-Site/default/Allocation-RenderAllocationEntryPopup","AllocationAlertMessage":"/on/demandware.store/Sites-ATT-Shop-Site/default/Allocation-RenderAllocationAlert","AllocationReviewPopup":"/on/demandware.store/Sites-ATT-Shop-Site/default/Allocation-RenderAllocationReviewPopup","EndAllocationWorkflow":"/on/demandware.store/Sites-ATT-Shop-Site/default/Allocation-EndAllocationWorkflow","GlobalAlertMessage":"/on/demandware.store/Sites-ATT-Shop-Site/default/Home-RenderGlobalAlert","CheckoutTermsPopup":"/on/demandware.store/Sites-ATT-Shop-Site/default/Home-RenderCheckoutTermsPopup","abandonedAdd":"/on/demandware.store/Sites-ATT-Shop-Site/default/Abandoned-Add","abandonedRemove":"/on/demandware.store/Sites-ATT-Shop-Site/default/Abandoned-Remove","checkoutCustomerStart":"/checkout","addShipToStoreProduct":"/on/demandware.store/Sites-ATT-Shop-Site/default/Cart-AddShipToStoreProduct","shipToStoreInitFlowPopup":"/on/demandware.store/Sites-ATT-Shop-Site/default/ShipToStore-InitiateFlowPopup","shipToStoreEndFlowPopup":"/on/demandware.store/Sites-ATT-Shop-Site/default/ShipToStore-EndFlowPopup","EndShipToStoreFlow":"/on/demandware.store/Sites-ATT-Shop-Site/default/ShipToStore-EndShipToStoreFlow","EmailShippingLabelDialog":"/on/demandware.store/Sites-ATT-Shop-Site/default/Zenkraft-EmailShippingLabelDialog","PlayIconURL":"https://brandshop.att.com/on/demandware.static/-/Sites-ATT-Shop-Library/default/dwb65c6d47/images/play-icon.jpg","RenderEGiftCardConsentPopup":"/on/demandware.store/Sites-ATT-Shop-Site/default/Page-Show?cid=e-gift-card-pdp-message"};
+window.SitePreferences = {"LISTING_INFINITE_SCROLL":false,"LISTING_REFINE_SORT":true,"STORE_PICKUP":true,"COOKIE_HINT":false,"CHECK_TLS":false,"SCENE7_BASE_URL":"s7d2.scene7.com/is/image/DCMEcommerce/","XSSListOfPatterns":"{\n\t\"XSSListOfPatterns\": [\n\t\t\"(<body)|(<iframe)|(\\\\.com)|(\\\\.net)|(\\\\.js)|(javascript)|(<script>)|(<\\/script>)|(<script\\/>)|(<script)|(script>)|(script\\/>)|(cookie)|(<img)|(vbscript)|(msgbox)|(alert())|(console.log)\",\n\t\t\"<.*?>/gmi\",\n\t\t\"\\\\(.*?\\\\) ?/gmi\",\n\t\t\"(<)|(>)/gmi\",\n\t\t\"(rofile=).*(\\\"|%22)\"\n\t]\n}","EnableXSSInputValidation":true,"CAPTCHA_SITEKEY":"6Lcei68UAAAAANwTt4vAQzEGReTVsF3iUwAWJUo7","CAPTCHA_SECRETKEY":"6Lcei68UAAAAABWo99ankIJf5MJkiy4c6rZjxNjo","SHOW_DIALOG":true,"DAYS_TO_CANCEL":5,"ENABLE_NEWSLETTERDIALOG":false,"ENABLE_GLOBAL_ALERT":true,"GLOBAL_ALERT_COOKIE_DURATION":1,"GLOBAL_ALERT_BROWSERS":"IE","GLOBAL_ALERT_PAGE_URLS":"","BADGE_INPUT_EXCLUSION":["/","\"","_"],"VIDEO_PLAY_PAUSE":true,"VIDEO_EXIT_TIME":10000,"SFSC_CHAT":true,"ENABLE_CHECKOUT_TERMS_POPUP":false,"ENABLE_PRODUCTABANDONED":false,"ENABLE_CATEGORYABANDONED":false,"ABANDONED_TIMEOUT":10000,"CHECKOUT_GIFT_MESSAGE_REGEX":"(\\u00a9|\\u00ae|[\\u2000-\\u3300]|\\ud83c[\\ud000-\\udfff]|\\ud83d[\\ud000-\\udfff]|\\ud83e[\\ud000-\\udfff])","PO_MANAGER_EMAIL_ALLOWED_DOMAINS":"","SFMC_POPUP_COOKIE_DURATION":30,"ZONOS_TAXID_COUNTRIES_MAPPING":"{\n\"MX\": \"RFC\"\n}","ENABLE_E_GIFT_MESSAGE":false,"ZONOS_SHIPTO_COUNTRIES":"{\n  \"MX\",\n  \"CA\"\n}"};
+window.isAVSEnabled = true;
+window.session = {"SHOW_CAPTCHA":null,"device":"desktop","employeeCustomer":false,"sparkShipToStore":null,"isGiftBarFlowActive":null,"ABANDONED":null};
+}());
+</script>
+<script async defer type="text/javascript">
+
+(function(){
+window.SessionAttributes = {"SHOW_CAPTCHA":null,"device":"desktop","employeeCustomer":false,"sparkShipToStore":null,"isGiftBarFlowActive":null,"ABANDONED":null};
+window.User = {"zip":null,"storeId":null};
+}());
+</script>
+
+<script type="text/javascript" async defer src="https://brandshop.att.com/on/demandware.static/Sites-ATT-Shop-Site/-/default/v1783054093989/js/allinone.js"></script>
+
+
+
+<style type='text/css'>
+	.embeddedServiceHelpButton .helpButton .uiButton {
+		background-color: #0097d2;
+		font-family: "Arial", sans-serif;
+	}
+	.embeddedServiceHelpButton .helpButton .uiButton:focus {
+		outline: 1px solid #0097d2;
+	}
+</style>
+
+<script type='text/javascript' src='https://service.force.com/embeddedservice/5.0/esw.min.js'></script>
+<script type='text/javascript'>
+	var initESW = function(gslbBaseURL) {
+		embedded_svc.settings.displayHelpButton = true; //Or false
+		embedded_svc.settings.language = ''; //For example, enter 'en' or 'en-US'
+
+		//embedded_svc.settings.defaultMinimizedText = '...'; //(Defaults to Chat with an Expert)
+		//embedded_svc.settings.disabledMinimizedText = '...'; //(Defaults to Agent Offline)
+
+		//embedded_svc.settings.loadingText = ''; //(Defaults to Loading)
+		//embedded_svc.settings.storageDomain = 'yourdomain.com'; //(Sets the domain for your deployment so that visitors can navigate subdomains during a chat session)
+
+		// Settings for Chat
+		//embedded_svc.settings.directToButtonRouting = function(prechatFormData) {
+			// Dynamically changes the button ID based on what the visitor enters in the pre-chat form.
+			// Returns a valid button ID.
+		//};
+		//embedded_svc.settings.prepopulatedPrechatFields = {}; //Sets the auto-population of pre-chat form fields
+		//embedded_svc.settings.fallbackRouting = []; //An array of button IDs, user IDs, or userId_buttonId
+		//embedded_svc.settings.offlineSupportMinimizedText = '...'; //(Defaults to Contact Us)
+
+		embedded_svc.settings.enabledFeatures = ['LiveAgent'];
+		embedded_svc.settings.entryFeature = 'LiveAgent';
+
+		embedded_svc.init(
+			'https://dallascowboys-8180.my.salesforce.com',
+			'https://dallascowboys-8180.my.site.com/',
+			gslbBaseURL,
+			'00D1N000001QOJr',
+			'ATT_Brandshop_Chat_Team',
+			{
+				baseLiveAgentContentURL: 'https://c.la11-core1.sfdc-yfeipo.salesforceliveagent.com/content',
+				deploymentId: '5723m000000TcK3',
+				buttonId: '5733m000000TeFq',
+				baseLiveAgentURL: 'https://d.la11-core1.sfdc-yfeipo.salesforceliveagent.com/chat',
+				eswLiveAgentDevName: 'ATT_Brandshop_Chat_Team',
+				isOfflineSupportEnabled: false
+			}
+		);
+	};
+
+	if (!window.embedded_svc) {
+		var s = document.createElement('script');
+		s.setAttribute('src', 'https://dallascowboys-8180.my.salesforce.com/embeddedservice/5.0/esw.min.js');
+		s.onload = function() {
+			initESW(null);
+		};
+		document.body.appendChild(s);
+	} else {
+		initESW('https://service.force.com');
+	}
+</script>
+
+
+<script>pageContext = {"title":"Storefront","type":"storefront","ns":"storefront"};</script>
+<script>
+var meta = "Shop the latest AT&amp;T gear at AT&amp;T Brand Shop. Shop AT&amp;T apparel, merchandise, clothing, hats, shirts, uniforms, and more.";
+var keywords = "ATT,AT&amp;T,Apparel,";
+</script>
+<!-- Marketing Cloud Analytics - cached -->
+<script type="text/javascript">
+try {
+	_etmc.push(['setOrgId', "110006088" ]);
+} catch (e) { console.error(e); }
+</script>
+<!-- End Marketing Cloud Analytics - cached -->
+<!-- Marketing Cloud Analytics - noncached -->
+<script type="text/javascript">
+try {
+	_etmc.push(['setUserInfo', {"email":"ab2JtLYeYwAUIuEro5CVw36I5x"} ]);
+	_etmc.push(['trackPageView']);
+} catch (e) { console.error(e); }
+</script>
+<!-- End Marketing Cloud Analytics - noncached -->
+
+
+<script id="usntA40start" src="https://a40.usablenet.com/pt/c/bluestar/ls-start" async defer></script>
+
+
+
+
+
+<div id="allocation-alert"></div>
+<div id="giftcard-popup" class="giftcard-popup"></div>
+
+
+
+
+</div><!-- /wrapper -->
+<!-- Demandware Analytics code 1.0 (body_end-analytics-tracking-asynch.js) -->
+<script type="text/javascript">//<!--
+/* <![CDATA[ */
+function trackPage() {
+    try{
+        var trackingUrl = "https://brandshop.att.com/on/demandware.store/Sites-ATT-Shop-Site/default/__Analytics-Start";
+        var dwAnalytics = dw.__dwAnalytics.getTracker(trackingUrl);
+        if (typeof dw.ac == "undefined") {
+            dwAnalytics.trackPageView();
+        } else {
+            dw.ac.setDWAnalytics(dwAnalytics);
+        }
+    }catch(err) {};
+}
+/* ]]> */
+// -->
+</script>
+<script type="text/javascript" src="/on/demandware.static/Sites-ATT-Shop-Site/-/default/v1783054093989/internal/jscript/dwanalytics-22.2.js" async="async" onload="trackPage()"></script>
+<!-- Demandware Active Data (body_end-active_data.js) -->
+<script src="/on/demandware.static/Sites-ATT-Shop-Site/-/default/v1783054093989/internal/jscript/dwac-21.7.js" type="text/javascript" async="async"></script><!-- CQuotient Activity Tracking (body_end-cquotient.js) -->
+<script src="https://cdn.cquotient.com/js/v2/gretel.min.js" type="text/javascript" async="async"></script>
+<!-- Demandware Apple Pay -->
+<script type="text/javascript">//<!--
+/* <![CDATA[ */
+if (!window.dw) dw = {};
+dw.applepay = {"action":{"cancel":"https:\/\/brandshop.att.com\/on\/demandware.store\/Sites-ATT-Shop-Site\/default\/__SYSTEM__ApplePay-Cancel","getRequest":"https:\/\/brandshop.att.com\/on\/demandware.store\/Sites-ATT-Shop-Site\/default\/__SYSTEM__ApplePay-GetRequest","onshippingcontactselected":"https:\/\/brandshop.att.com\/on\/demandware.store\/Sites-ATT-Shop-Site\/default\/__SYSTEM__ApplePay-ShippingContactSelected","onpaymentmethodselected":"https:\/\/brandshop.att.com\/on\/demandware.store\/Sites-ATT-Shop-Site\/default\/__SYSTEM__ApplePay-PaymentMethodSelected","onvalidatemerchant":"https:\/\/brandshop.att.com\/on\/demandware.store\/Sites-ATT-Shop-Site\/default\/__SYSTEM__ApplePay-ValidateMerchant","onpaymentauthorized":"https:\/\/brandshop.att.com\/on\/demandware.store\/Sites-ATT-Shop-Site\/default\/__SYSTEM__ApplePay-PaymentAuthorized","prepareBasket":"https:\/\/brandshop.att.com\/on\/demandware.store\/Sites-ATT-Shop-Site\/default\/__SYSTEM__ApplePay-PrepareBasket","onshippingmethodselected":"https:\/\/brandshop.att.com\/on\/demandware.store\/Sites-ATT-Shop-Site\/default\/__SYSTEM__ApplePay-ShippingMethodSelected"},"inject":{"directives":[{"css":"dw-apple-pay-button","query":"ISAPPLEPAY","action":"replace","copy":true}]}};
+/* ]]> */
+// -->
+</script>
+<script type="text/javascript" src="/on/demandware.static/Sites-ATT-Shop-Site/-/default/v1783054093989/internal/jscript/applepay.js" async="true"></script>
+<link rel="stylesheet" type="text/css"  href="/ZeeaC1/SQMVR/LRwvz/4igp/Jc/Q3dsVkk/SyU0OHV/QY3NY"><script  src="/ZeeaC1/SQMVR/LRwvz/4igp/Jc/Q3dsVkk/fl8wDVB/WD2Up" async defer></script><div id="sec-overlay" style="display:none;"><div id="sec-container"></div></div></body>
+</html>
+

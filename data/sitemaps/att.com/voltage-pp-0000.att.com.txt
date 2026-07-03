@@ -1,0 +1,256 @@
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+
+<!-- (c) Copyright 2002-2018 Micro Focus or one of its affiliates. -->
+
+
+
+
+<html class="no-js" lang=en_US>
+
+<head> 
+
+
+
+    <meta http-equiv="cache-control" content="no-cache,no-store,max-age=0,must-revalidate,private"/>
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8"/>
+    <meta http-equiv="expires" content="0"/>
+    <meta http-equiv="pragma" content="no-cache"/>
+    <meta name="com.voltage.locale.id" content="en_US">
+
+    <meta name="robots" content="noindex, nofollow"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+    <link rel="shortcut icon" type="image/x-icon" href="/brand/rv/3b343/resources/common/favicon.ico"/>
+
+    <title>  Sign In - AT&amp;T SecureMail powered by Voltage Security
+</title>
+
+        <script  type="text/javascript">
+            if (top != self) {
+              top.location = self.location;
+            }
+        </script>
+
+    
+    <link rel="stylesheet" type="text/css" href="/brand/rv/3b343/shared/styles.css"/>
+
+   
+        <script  type="text/javascript">
+          function setScreenWidth() {
+            if (document.getElementById('resolution') != null) {
+               document.getElementById('resolution').value = screen.width;
+        }   
+          }
+        </script>
+    
+    
+    
+        <script  type="text/javascript">
+
+            function addLoadEvent(func) {
+                var oldonload = window.onload;
+                if (typeof window.onload != 'function') {
+                    window.onload = func;
+                } else {
+                    window.onload = function() {
+                        if (oldonload) {
+                            oldonload();
+                        }
+                        func();
+                    }
+                }
+            }
+
+                var isCookieEnabled = navigator.cookieEnabled;
+                if (!isCookieEnabled) {
+                    document.cookie = "__vsm__cookie__test__";
+                    isCookieEnabled = (document.cookie != null) && (document.cookie.indexOf("__vsm__cookie__test__") != -1);
+                    if (isCookieEnabled) {
+                        document.cookie = "__vsm__cookie__test__;expires=Thu, 01-Jan-1970 00:00:01 GMT";
+                    }
+                }
+                if (!isCookieEnabled) {
+                    window.location = "/brand/rv/3b343/shared/cookiesDisabled.ftl";
+                }
+    
+                    window.onload = function() {
+                    };
+            
+            function FocusOnElementID(elementid) {
+                var element = document.getElementById(elementid);
+                if (element !== null) {
+                    element.focus();
+                }
+            }
+            
+        </script>
+
+
+</head>
+
+<body id="beginbody">
+  <div id="wrapper">
+    <header>
+      <div id="header-inner">
+        <div class="clearfix container">
+          <table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" role="presentation">
+            <tr>
+          
+              <td id="startblk1"  width="100%" >
+                     <a id="refblk" 
+                           href="http://www.att.com" target="logo"
+                     >
+                         <img class="logo" id="logoblk" src="/brand/rv/3b343/resources/common/logo.png"   alt="http://www.att.com"/>
+                     </a>
+              </td>
+          
+              <td>
+                <table border="0" cellpadding="0" cellspacing="0" align="center" role="presentation">
+                  <tr>
+                    <td height="13px">
+                    </td>
+                  </tr>
+  
+                  <tr>
+                    <td id="startblk2">
+                    </td>
+
+                    <td id="startblk3">       
+                      <ul class="shortcuts">
+                          <li>
+                            <a href="/brand/rv/3b343/zdm/help.ftl" target="help">Help</a>
+                          </li>
+                      </ul>
+                    </td>
+                  </tr>
+          
+                  <tr>
+                    <td id="startblk4" colspan="2" >
+                    </td>
+                  </tr>
+                </table>
+              </td>
+          
+            </tr>              
+          </table>
+        </div>
+      </div>
+    </header>
+  <main id="content">
+    <div class="container">
+    
+              <script > 
+                       td1 = document.getElementById('startblk1');
+                       td1.style.verticalAlign="middle";
+                       td2 = document.getElementById('startblk2');
+                       td2.style.verticalAlign="middle";
+                       td3 = document.getElementById('startblk3');
+                       td3.style.verticalAlign="middle";
+                       td4 = document.getElementById('startblk4');
+                       td4.style.verticalAlign="bottom";
+                       td4.style.height="16px";
+                        
+                       reflnk= document.getElementById('refblk');
+                       reflnk.style.margin="0";
+                       reflnk.style.float="left";
+                       reflnk.style.minHeight="30px";
+                       
+                       lblk= document.getElementById('logoblk');
+                       lblk.style.border="0";                   
+                       
+                       document.addEventListener('DOMContentLoaded', function () {
+                          document.getElementById('beginbody')
+                          .addEventListener('load', function(){
+                             if (!document.getElementById('tinymcejs')){
+                                    FocusOnElementID('email');
+                               }
+                          
+                        });});
+                       
+                                               
+               </script>     
+
+<style type="text/css"   >   
+  a {color: #2245ca; text-decoration: underline !important;}
+  a:hover { text-decoration: none !important; }                
+  .logo { max-width: 400px!important; height: auto; -ms-interpolation-mode: bicubic;}
+</style>
+
+
+
+
+  <h1><p><font color="#333333"><b>Sign In:</b></font></p></h1>
+  <p id="pm1"><strong><p><font color="#333333" size="1">(enter your email address to get started)</font></p></strong></p>
+  <script >
+    pm1 = document.getElementById('pm1');
+    pm1.style.marginTop="-16px";
+  </script>
+
+<form method="post" name="form" action="/login">
+  <p>
+          <input type="text" id="email" name="email" autocomplete="on" placeholder="Email Address" />
+  </p>
+    <input id="resolution" type="hidden" name="resolution" value="">
+  <p id="pm2">
+      <button type="submit" name="ADI_USER_LOGIN" >Sign In</button>
+  </p>
+</form>
+
+<script  type="text/javascript">
+    pm2 = document.getElementById('pm2');
+    pm2.style.padding="6px";
+    pm2.style.background="#efefef none repeat scroll 0 0";
+    //style="padding:6px;background: #efefef none repeat scroll 0 0;"
+    addLoadEvent(setScreenWidth);
+</script>
+
+
+
+
+        <p>
+         <table width="100%" border="0" cellspacing="0" cellpadding="0" role="presentation">
+          <tr>
+           <td width="5%" align="right">
+    	      <img src="/brand/rv/3b343/resources/common/icon_encrypted.png"  border="0"  alt=""/>
+           </td>
+           <td align="left">
+    	      <div id="end1">
+                AT&amp;T SecureMail powered by Voltage Security.
+                <a href="/brand/rv/3b343/zdm/about.ftl" target="about">
+                Learn More<span class="v_hidden">about secure email and identity based encryption</span>
+                </a>
+            </div>
+           </td>
+          </tr>
+         </table>
+        </p>
+      
+      <footer class="powered">
+          
+                <p class="topline">Email Security Powered by Voltage IBE(tm)</p>
+          
+            <p>© Copyright 2021 Micro Focus or one of its affiliates</p>
+  </footer>
+        </div>
+  
+    </main>
+  </div>
+
+<script  >
+   dv1 = document.getElementById('end1');
+   dv1.style.color="#979797";
+</script>
+
+     <script language="javascript" type="text/javascript" src="/brand/rv/3b343/resources/common/jquery.js" ></script>
+    <script language="javascript" type="text/javascript" src="/brand/rv/3b343/resources/common/util.js" ></script>
+</body>
+</html>

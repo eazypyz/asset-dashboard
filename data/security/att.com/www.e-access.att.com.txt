@@ -1,0 +1,430 @@
+<!DOCTYPE HTML>
+
+
+
+
+
+
+
+
+<html id="html" lang="en">
+  <head>
+    <title>AT&amp;T Global Logon - Error</title>
+    <base href='/lrr/attLRR/'>
+    <meta charset="ISO-8859-1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="resources/static/styles/main.css?v16.1.14-20260513171123750">
+    <link rel="stylesheet" href="resources/static/styles/fonts.css?v16.1.14-20260513171123750">
+	<script src="resources/v1/js/jquery-3.7.1.min.js"></script>
+    <script src="resources/v1/js/jquery.blockUI.js"></script>
+    <script src="resources/static/scripts/script.js?v16.1.14-20260513171123750"></script>
+    <script src="resources/static/scripts/backEndFunctions.js?v16.1.14-20260513171123750"></script>
+  </head>
+  <body>
+    <pre>
+    </pre>
+    <noscript>
+      <div id="noscript_error">
+        <div id="noscript" class="">
+          <div>
+            You need to have JavaScript enabled in order to use this page.
+          </div>
+        </div>
+      </div>
+    </noscript>
+    <div id="header">
+      <table>
+        <tr>
+          <td class="align_left">
+            <a id="logoAnchor" href="http://www.att.com" style="display: block; height: 100%">
+              <img id="attLogo" class="attLogo" src="resources/images/att_logo.png" alt="A T &amp; T Logo">
+            </a>
+          </td>
+          <td class="align_right">
+            <!-- Dropdown Selector -->
+            <!-- Desktop -->
+            <div id="lang_dropdown" class="align_right dropdown medium">
+              <div id="lang_dropdown_button" onclick="toggleSelectDiv('lang_dropdown', event)">
+                English&nbsp;&#9662;
+              </div>
+              <div id="lang_dropdown_selector" style="display:none;">
+                  <ul>
+                        <li class="langOptions" onclick="changeLanguage('en')">
+                          English
+                        </li>
+                        <li class="langOptions" onclick="changeLanguage('es')">
+                          Spanish
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Mobile -->
+            <select id="mobileLangDropDownId" class="align_right disabled" onchange="mobileLanguageChanged ( this )">
+                <option value="en" selected>
+                  English
+                </option>
+                <option value="es" >
+                  Spanish
+                </option>
+            </select>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <div id="content" class="error-content">
+      <div class="title medium">
+        
+      </div>
+      <div id="errorDiv"></div>
+    </div>
+
+    <!-- Putting error messages here. They will not be displayed, but can be grabbed via JS and put where needed -->
+    <div id="hiddenErrors" style ="display: none;">
+      <div id="pushDeniedHolder">
+        <div id="pushDeniedError" class="notification alert">
+          <div><!-- Image Holder --></div>
+          <div>
+            Your push has been denied. Send push again or choose another log on option above.
+          </div>
+        </div>
+      </div>
+      <div id="generalErrorHolder">
+        <div id="generalError" class="notification alert">
+          <div><!-- Image Holder --></div>
+          <div id="errorMessage">
+          </div>
+        </div>
+      </div>
+      <div id="generalInfoHolder">
+        <div id="generalInfo" class="notification informational">
+          <div><!-- Image Holder --></div>
+          <div id="infoMessage">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div id="footer">
+      <div class="medium">
+        <a href="javascript:getFaqLink();">
+          FAQs
+        </a>
+        <br>
+      </div>
+      <br>
+      
+      <div id="bottomText" class="tiny">
+        <b>WARNING: Restricted AT&amp;T System - Authorized Access Only. Security Monitoring in Progress. By continuing you agree to this monitoring.</b>
+     </div>
+    </div>
+
+    <script>
+      if ( typeof window.globals  === 'undefined')
+      {
+        window.globals={};
+      }
+      globals = Object.assign({},globals, {
+  "legacyCricketFlag": false,
+  "mkNativeLogoutUrl": "/pkmslogout?localLogout=true&retURL=",
+  "enableKeyBindings": true,
+  "winAuthAlways": false,
+  "defaultAuthenticationType": "lrrsecurityKey",
+  "errorCode": "0x38cf0428",
+  "ajaxStatusHandlerInfo": {
+    "0": {
+      "max_retries": 10,
+      "delayMS": 1000
+    },
+    "503": {
+      "max_retries": 2,
+      "delayMS": 1000
+    }
+  },
+  "referenceId": "Erwd85ikNAMzt0KnzYcY4GCl1Tmsj0sk1ZcWKWd4r24",
+  "tokenLogin": false,
+  "protocol": "https",
+  "hostname": "www.e-access.att.com",
+  "phase2LoginFormTypes": {
+    "auth": "passAuth",
+    "GlobalLoginPassword": "passAuth",
+    "GlobalLoginPasswordVerification": "passAuth",
+    "mobileKey": "mkpush",
+    "mobileKeyOTP": "mkotp",
+    "securityKey": "securityKeyAuth",
+    "MTIPSToken": "mtipsauth",
+    "SAFENetToken": "gemauth",
+    "securIdSoftwareToken": "rsaauth",
+    "securIdHardwareToken": "rsaauth",
+    "WindowsAccount": "winauth"
+  },
+  "enableHiddenFunctions": true,
+  "legacyCricketUrl": "https://myapps.microsoft.com/signin/9a7aee95-e230-4f89-ab75-e4c2bbdbacda?tenantId=73e44cc4-2fdf-48d2-be11-8360a552ef29",
+  "currentURL": "/LrrController?TAM_OP=error&USERNAME=unauthenticated&ERROR_CODE=0x38cf0428&ERROR_TEXT=Not%20Found&METHOD=GET&URL=%2F.well-known%2Fsecurity.txt&HOSTNAME=www.e-access.att.com&AUTHNLEVEL=&FAILREASON=&PROTOCOL=https&OLDSESSION=&EXPIRE_SECS=0",
+  "maxInputAllowed": 128,
+  "tokenOnly": false,
+  "cspTest": false,
+  "sessionId": "Erwd85ikNAMzt0KnzYcY4GCl1Tmsj0sk1ZcWKWd4r24",
+  "url": "/.well-known/security.txt",
+  "hlte26DecryptEnabled": true,
+  "httpsAppName": "/lrr",
+  "errorText": "Not Found",
+  "tamOp": "error",
+  "cricketAlways": false,
+  "useNewSpinner": true,
+  "minPasswordLength": 16,
+  "internet": "ON",
+  "ivUserPopulated": false,
+  "strReqURL": "/.well-known/security.txt"
+} );
+      function getFaqLink( params )
+      {
+        var url = "https://oidc.idp.elogin.att.com/faq/eiam/static/v2/resources/html/faq/FAQs_en.html?aa=prod";
+        if ( params != null )
+        {
+          url = url + "&" + params;
+        }
+        window.open(url, "_faq");
+      }
+      window.onload = function ()
+      {
+        isMobileDevice ();
+
+        //
+
+        displayError( getErrorMessage ( globals.errorCode, globals.errorText ) );
+
+
+        ////////////////////////////////////////////////////////////////////////////
+        //add hidden div at end to signal end of page setup for testing
+        var elem = document.createElement('div');
+        elem.setAttribute("id", "qaPageLoaded");
+        elem.style.cssText = 'position:relative; visibility:hidden';
+        document.body.appendChild(elem);
+
+        var languages = {
+            "en" : {
+                          "isolang": "en",
+                          "displayText":"English",
+                          "select": [ {
+                                         "text":"English",
+                                         "displayText":"English",
+                                         "isolang" : "en"
+                                       },
+                                       {
+                                         "text":"Spanish",
+                                         "displayText" : "Spanish",
+                                         "isolang" : "es"
+                                       }
+                                    ]
+                        },
+            "es" : {
+                          "isolang": "es",
+                          "displayText" :"Espa&ntilde;ol",
+                          "select": [ {
+                                         "text":"English",
+                                         "displayText":"Ingl&eacute;s",
+                                         "isolang" : "en"
+                                       },
+                                       {
+                                         "text":"Spanish",
+                                         "displayText":"Espa&ntilde;ol",
+                                         "isolang" : "es"
+                                       }
+                                    ]
+                        }
+      };
+
+      initLanguage ( "en",  languages );
+
+
+      ////////////////////////////////////////////////////////////////////////////
+      ////////////////////////////////////////////////////////////////////////////
+      function getErrorMessage(id, text )
+      {
+        if ( ( id === undefined ) ||
+             ( id === "0" ) && ( text === undefined || text === "" ) )
+        {
+          return 'Something went wrong. Please try again.';
+        }
+
+        switch (id.toLowerCase() )
+        {
+          case "0x132120c8":
+            return 'Login incorrect. Please try again. (' + id + ')';
+            break;
+          case "0x38ad52fa":
+            return 'An attempt to remove a non-empty directory failed.'                                                   +
+                   '<br>'                                                                                          +
+                   'The requested operation requires the removal of a non-empty directory.  This is an illegal operation.'                                             +
+                   '<br>'                                                                                          +
+                   'The contents of the directory must be removed before the requested operation can proceed.';
+            break;
+          case "0x38b9a41f":
+            return 'You are already logged in to this Web server.  A new session cannot be created.'                                                   +
+                   '<br>'                                                                                          +
+                   'The requested operation requires the removal of a non-empty directory.  This is an illegal operation.'                                             +
+                   '<br>'                                                                                          +
+                   '<UL>'                                                                                          +
+                   '<LI><B>Resume your original session:</B> If you still have access to your original session, you can return to that client and continue accessing the Web site.</LI>'                                      +
+                   '<LI><B>End your original session:</B> If you still have access to your original session, you can return to that client and log out from the Web site.  Once you have logged out from that client, you can log in from a new client.</LI>'                                      +
+                   '<LI><B>Wait for your original session to time out:</B> If you no longer have access to your original session (for example, if you closed your browser without properly logging out of the Web site), you can wait for your original session to terminate automatically.</LI>'                                      +
+                   '</UL>';
+            break;
+          case "0x38b9a4b0":
+            return 'The application server you are accessing has been taken offline by the system administrator.'                                                   +
+                   '<br>'                                                                                          +
+                   'The application server you are accessing has been taken offline by the system administrator.'                                             +
+                   '<br>'                                                                                          +
+                   'Try again at a later time or contact the system administrator for more information.';
+            break;
+          case "0x38b9a4b1":
+            return 'The server is temporarily unable to service your request.'                                                   +
+                   '<br>'                                                                                          +
+                   'The server is unable to service a request because a needed resource is unavailable.'                                             +
+                   '<br>'                                                                                          +
+                   'Please try again later';
+            break;
+          case "0x38cf013d":
+            return 'Your login was successful.  However, AT&T Global Logon was unable to complete your previous request.'                                                   +
+                   '<br>'                                                                                          +
+                   'AT&T Global Logon was unable to cache your previous request because its size exceeded the configurable value set by the system administrator.'                                             +
+                   '<br>'                                                                                          +
+                   'Please use your browsers back button and resubmit your request.  If your browser does not support caching, you may have to re-enter POST or query data.';
+            break;
+          case "0x38cf0259":
+            return 'AT&T Global Logon could not determine your sign-on information for the resource you have requested.'                                                   +
+                   '<br>'                                                                                          +
+                   'The resource you have requested requires AT&amp;T Global Logon to sign you on.  However, a problem occurred while the server was attempting to fetch the information.';
+            break;
+          case "0x38cf025a":
+            return 'AT&T Global Logon could not determine the sign-on information for the resource you have requested.'                                                   +
+                   '<br>'                                                                                          +
+                   'The resource you have requested requires AT&amp;T Global Logon to sign you on.  However, your account is not configured with any sign-on information.';
+            break;
+          case "0x38cf025b":
+            return 'AT&T Global Logon could not determine the sign-on information for the resource you have requested.'                                                   +
+                   '<br>'                                                                                          +
+                   'The resource you have requested requires AT&amp;T Global Logon to sign you on.  However, your account does not have any sign-on information for the target web server.';
+            break;
+          case "0x38cf025d":
+            return 'The resource you have requested requires AT&T Global Logon to sign you on to another web server.  However, in order to do this, you must first log into AT&T Global Logon.'                                                   +
+                   '<br>'                                                                                          +
+                   'The resource you have requested requires AT&T Global Logon to sign you on to another web server.  However, in order to do this, you must first log'                                             +
+                   '<br>'                                                                                          +
+                   'Log into AT&amp;T Global Logon.  You can do this by accessing the requested resource using HTTPS (SSL).'                                               +
+                   '<br>'                                                                                          +
+                   'Re-access the page using HTTPS.';
+            break;
+          case "0x38cf025e":
+            return 'AT&T Global Logon could not sign you on.'                                                   +
+                   '<br>'                                                                                          +
+                   'The resource you have requested requires AT&amp;T Global Logon to sign you on to another web server.  However, the sign-on information for your account is incorrect.';
+            break;
+          case "0x38cf025f":
+            return 'AT&T Global Logon received an unexpected authentication challenge from a the web server.'                                                   +
+                   '<br>'                                                                                          +
+                   'AT&amp;T Global Logon attempted to fetch the resource you requested from the web server.  However, it received an authentication challenge from the web server while handling your request.  There is currently no sign-on information configured for this junction server. This may be a system configuration problem.';
+            break;
+          case "0x38cf0421":
+            return 'The web resource you have requested has been temporarily moved.';
+            break;
+          case "0x38cf0424":
+            return 'AT&T Global Logon received an invalid HTTP request.'                                                   +
+                   '<br>'                                                                                          +
+                   'Possible causes for this message include:'                                            +
+                   '<UL>'                                                                                          +
+                   '<LI>Incompatibility between the browser and the server.</LI>'                                   +
+                   '<LI>A problem with the browser.</LI>'                                   +
+                   '<LI>Illegal URL format or character.</LI>'                                   +
+                   '<LI>Invalid hostname.</LI>'                                   +
+                   '</UL>';
+            break;
+          case "0x38cf0425":
+            return 'You must login before you can access the resource you have requested.'                                                   +
+                   '<br>'                                                                                          +
+                   'The resource you have requested is secured by AT&amp;T Global Logon, and in order to access it, you must first login.';
+            break;
+          case "0x38cf0427":
+            return 'You need permission to access this application.';
+
+            break;
+          case "0x38cf0428":
+            return 'You&apos;ve signed in successfully, but your app is not available.'                                                   +
+                   '<br>'                                                                                          +
+                   'Check the accuracy of the URL and try again.';
+            break;
+          case "0x38cf0432":
+            return 'A service required by AT&T Global Logon to complete your request is currently not available.'                                                   +
+                   '<br>'                                                                                          +
+                   'The service required by AT&T Global Logon is located on a back-end server that is temporarily down.';
+            break;
+          case "0x38cf0434":
+            return 'The resource you have requested requires privacy.'                                                   +
+                   '<br>'                                                                                          +
+                   'You are accessing the resource using an unencrypted connection.  The resource has access controls set by the servers administrator that restrict access to encrypted connections.'                                             +
+                   '<br>'                                                                                          +
+                   'You must access this resource via HTTPS (SSL).'                                               +
+                   '<br>'                                                                                           +
+                   'Re-access the page using HTTPS.';
+            break;
+          case "0x38cf0442":
+            return 'A service required by AT&amp;T Global Logon to complete your request is currently not available.'                                                   +
+                   '<br>'                                                                                          +
+                   'The service required by AT&amp;T Global Logon is located on a back-end server, where SSL mutual authentication has failed.';
+            break;
+          case "0x38cf04c6":
+               if ( globals.internet !== null && globals.internet === 'ON' )
+               {
+                 return 'You&apos;ve signed in successfully, but your app is not available. Try connecting to the AT&T network or try again later.';
+               }
+               else
+               {
+                 return 'You&apos;ve signed in successfully, but your app is not available. Try again later.';
+               }
+            break;
+          case "0x38cf04d7":
+            return 'The resource you have requested is located on a third-party server. AT&T Global Logon has attempted to send your request to that server, but it is not responding.'                                                   +
+                   '<br>'                                                                                          +
+                   'This could be due to the third-party server being offline, or to network problems making it unreachable. The problem is not with AT&T Global Logon itself.'                                             +
+                   '<br>'                                                                                          +
+                   'Retry your request later.';
+            break;
+          case "0x38cf07aa":
+            return 'AT&T Global Logon could not complete your request.'                                                   +
+                   '<br>'                                                                                          +
+                   'The following CGI program returned an invalid response:';
+            break;
+          case "0x38cf08cc":
+            return 'You cannot access the resource you have requested at this time.'                                                   +
+                   '<br>'                                                                                          +
+                   'The resource you have requested is protected by a policy restricting access to specific time periods.  Your request has occurred outside of those permitted time periods.'                                             +
+                   '<br>'                                                                                          +
+                   'Retry your request later.';
+            break;
+          case "0x38cf0426":
+            return 'This request has been blocked.';
+            break;
+          case "0xaac_user_error":
+            return 'Something went wrong. Please try again.';
+            break;
+          default:
+            if ( text == null || text == "" )
+            {
+              return 'Login incorrect. Please try again. (' + id + ')';
+            }
+            else
+            {
+              return text + ' (' + id + ')';
+            }
+            break;
+          }
+        }
+      }
+
+    </script>
+  </body>
+</html>
+

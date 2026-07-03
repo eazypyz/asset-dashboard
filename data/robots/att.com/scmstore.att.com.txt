@@ -1,0 +1,20 @@
+#
+# $Header: robots.txt 120.1 2008/03/28 09:35:16 vasubram ship $
+# ###############################################################
+# 
+# Do not edit settings in this file manually. They are managed
+# automatically and will be overwritten when AutoConfig runs.
+# For more information about AutoConfig, refer to the Oracle
+# E-Business Suite Setup Guide.
+# 
+# ###############################################################
+
+# Disallow wellbehaved webcrawlers from indexing 
+# https://scmstore.att.com
+
+# Note to auditors: If your webscanning tool reports this robots.txt
+# file as a potential vulnerability, and suggests removing it, please
+# ignore it, and log a bug against the webscanning tool.
+
+User-agent: *
+Disallow: /
