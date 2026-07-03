@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <!-- title is set dynamically at runtime. No title is provided here to avoid flickering -->
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="/logo-light.png" />
+    <script type="module" crossorigin src="/assets/main-D2CQNaI0.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/fonts-CdHmpTpu.css">
+    <link rel="stylesheet" crossorigin href="/assets/ScrollablePdf-B3jlX51W.css">
+    <link rel="stylesheet" crossorigin href="/assets/main-BwbcbxA9.css">
+  </head>
+  <body>
+    <div id="root"></div>
+
+    <script>
+      const params = new URLSearchParams(window.location.search);
+      const backgroundColor = params.get('bgColor');
+
+      if (backgroundColor) {
+        document.body.style.backgroundColor =
+          decodeURIComponent(backgroundColor);
+      }
+    </script>
+  </body>
+</html>

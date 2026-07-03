@@ -1,0 +1,183 @@
+
+
+
+  
+
+
+
+
+
+
+<!DOCTYPE HTML>
+<HTML lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<HEAD>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+
+	<link href="/epass/css/epass-common.css" rel="stylesheet"/>
+	<script type="text/javascript" src="/epass/js/epass-common.js" nonce="acb394e1cf5120376b3c4ee7acbd522c3b6c8f40f93ad2a6116286d0f53f9f3d"></script>
+	<script type="text/javascript" src="/epass/js/jquery-3.6.1.js" nonce="acb394e1cf5120376b3c4ee7acbd522c3b6c8f40f93ad2a6116286d0f53f9f3d"></script>
+
+	
+	 	<script type="text/javascript" nonce="acb394e1cf5120376b3c4ee7acbd522c3b6c8f40f93ad2a6116286d0f53f9f3d" src="/epass/js/helper-min.js" ></script>
+	 	<script type="text/javascript" nonce="acb394e1cf5120376b3c4ee7acbd522c3b6c8f40f93ad2a6116286d0f53f9f3d" src="/epass/js/body-min.js" ></script>
+ 	
+	
+	<TITLE>Servicing Transfer Operations</TITLE>
+</HEAD>
+<BODY>
+	
+  		<script src="/epass/js/body-min.js" nonce="acb394e1cf5120376b3c4ee7acbd522c3b6c8f40f93ad2a6116286d0f53f9f3d" async></script>
+	
+	<table cellspacing="0" role="presentation" >
+		<tr cellspacing="0">
+			<td cellspacing="0">
+				<table cellspacing="0" role="presentation" >
+					<tr cellspacing="0">
+						<td>&nbsp;</td>
+						<td>&nbsp;</td>
+					</tr>
+					<tr class="margin_lr_15"
+						cellspacing="0">
+						<td cellspacing="0"
+							class="padding_margin_rl_15">
+							<IMG
+							class="boa_logo" 
+							alt="Bank of America Logo" src="/bacacq/images/UpdatedBofaLogo.png" />
+							<IMG
+							class="boa_logo" 
+							alt="Servicing Transfer Operations"
+							src="/bacacq/images/STOheader.png" />
+						</td>
+					</tr>
+					<tr cellspacing="0"
+						class="tr_welcome">
+						<td cellspacing="0" class="margin_float">WELCOME</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<table class="height_100" cellspacing="0" role="presentation" >
+					<tr>
+						<td width="20%" class="width_20Percent">
+							
+
+
+
+
+<form name="login" method="post" action="/bacacq/login" id="login">
+	<input type="hidden" name="" value="" />
+	<table width="100%;" cellspacing="0" role="presentation">
+		<tr>
+			<td>
+				<label for="usr_name" class="usr_name_label">User Name:</label>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				
+					<span id="spErrorMsg" class="color_fff"> </span>
+				
+				<input tabindex="0" id="usr_name" name="usr_name" class="usr_name" 	type="text" />
+			</td> 
+		</tr>
+		<tr>
+			<td>
+				<label for="usr_password" class="usr_name_label" >User Password:</label>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				
+					<span id="spErrorMsg" class="color_fff"> </span>
+				
+				<input tabindex="0" id="usr_password" name="usr_password" maxlength="40"
+				class="usr_name_input" 
+				type="password" />
+			</td> 
+		</tr>
+		<tr>
+			<td><br/><input tabindex="0" 
+				class="usr_name_submit" 
+				type="submit" value="Login" /></td>
+		</tr>
+		
+
+	</table>
+		
+	<!--  EPASS HIDDEN INPUT -->
+	<input id="tpl" type="hidden" name="tpl" value="TPL002" /> <input
+		id="locale" type="hidden" name="locale" value="en_US" /> <input
+		id="_eventId" type="hidden" name="_eventId" value="submit" /> <input
+		id="_flowExecutionKey" type="hidden" name="_flowExecutionKey"
+		value="e1s1" /> <input id="_flowExecutionKey"
+		type="hidden" name="_flowExecutionKey" value="e1s1" />
+</form>
+
+						</td>
+						<td width="80%" class="vertical_top">
+							<table width="100%;" cellspacing="0">
+								<tr class="padding_rl_15">
+									<td width="100%" colspan="2">
+										<table width="100%">
+											<tr>
+												<td><IMG alt="Welcome to the STO website. Partnership you can count on" width="100%" class="margin_left_0" 
+													src="/bacacq/images/website.png" /></td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+								<tr class="padding_rl_15">
+									<td width="70%">
+										<P
+											class="p_welcome">WELCOME
+											TO SERVICING TRANSFER OPERATIONS</P>
+										<P
+											class="welcome_p">
+											Servicing Transfer Operations (STO) manages the process of
+											acquiring and releasing loans related to structured
+											transactions, new loan transfers and other servicing
+											portfolios for an assortment of different business partners.
+											STO also monitors the transfer of the loan portfolio and
+											communicates with all parties as needed to ensure a smooth,
+											timely transition. The group currently operates in Plano,
+											Texas and Simi Valley, California.</P>
+									</td>
+									<td width="30%">
+										<P
+											class="p_activities" >ACTIVITIES</P>
+										<P>
+										<UL>
+											<LI>Coordinate Transfer to and from Sellers and
+												Servicers <BR /> <BR />
+											</LI>
+											<LI>Provide Step by Step instructions <BR /> <BR />
+											</LI>
+											<LI>Execute Servicing Transfer Notices to the Customers
+												<BR /> <BR />
+											</LI>
+											<LI>Coordinate with outside parties (Insurance carriers,
+												tax authorities, etc) <BR /> <BR />
+											</LI>
+										</UL>
+										</P>
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+					<tr>
+						<td
+							class="bg_color_va_bottom" >&nbsp;</td>
+						<td>&nbsp;</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+	
+		<script src="/epass/js/helper-min.js" nonce="acb394e1cf5120376b3c4ee7acbd522c3b6c8f40f93ad2a6116286d0f53f9f3d" async></script>
+	
+</BODY>
+</HTML>

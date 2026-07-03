@@ -1,0 +1,103 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+	<head>
+		<title>Bank of America | Online Banking | Business Services | Remote Deposit Online</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- Use common resources for all static pages loaded from the Web server.
+		   - All css files must be an exact copy of the ones used by the main app
+		   - to help ensure a consistent look and feel. Also make sure all referenced
+		   - images are located in /unavailable/images. - Smitty (2019/08/08) -->
+		<link rel="stylesheet" type="text/css" href="/unavailable/css/styles.css?v=3.19.0.0038-182"/>
+		<link rel="stylesheet" type="text/css" href="/unavailable/css/layout.css?v=3.19.0.0038-182"/>
+		<link rel="stylesheet" type="text/css" href="/unavailable/css/navigation.css?v=3.19.0.0038-182"/>
+		<link rel="stylesheet" type="text/css" href="/unavailable/css/ada_styles.css?v=3.19.0.0038-182"/>
+		<link rel="shortcut icon" type="image/ico" href="images/favicon.ico?v=3.19.0.0038-182" />
+		
+		<!-- Load script file for functions called in static pages - Smitty (2025/09/15) -->
+		<script type="text/javascript" src="/unavailable/includes/bac_extra.js?v=3.19.0.0038-182"></script>
+	</head>
+	<body class="systemunavailable" onload="window.defaultStatus='Remote Deposit Online System Temporarily Unavailable'">
+		<a id="skip" href="#" tabindex="0" class="skiplink" onclick="return BACSkipToMain(event);">Skip to main content</a>
+		<div id="Header" role="banner" aria-label="RDO Home">
+			<table cellpadding="0" cellspacing="0" class="TableHeaderLogoLinks" role="presentation">
+				<tbody>
+					<tr>
+						<td class="Left">
+							<span class="HeaderTitle">Remote Deposit Online</span>
+						</td>
+						<td class="Right">
+							<div class="Right">
+								<div id="HeaderForm">
+									<div class="HeaderButton"></div>
+								</div>
+							</div>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>		
+		<div id="SubHeader"></div>
+		<div id="Page">
+			<table cellpadding="0" cellspacing="0" class="PageTable" role="presentation">
+				<tbody>
+					<tr>
+						<td>
+							<table class="TableTitle" role="presentation">
+								<tbody>
+									<tr>
+										<td class="TDTitle">
+											<h1 class="TextTDTitle">System Temporarily Unavailable</h1>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<span class="MessageWarn">We apologize for any inconvenience, but Remote Deposit Online is temporarily unavailable</span>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<span class="MessageText">Service will be restored soon. You may close this window at any time.</span>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<span class="MessageText">If you would like to report a problem, please contact the Small Business Remote Deposit Online Helpdesk at 1.877.270.1242.</span>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<div id="Footer">
+			<div role="contentinfo" aria-label="Footer">
+				<table cellpadding="0" cellspacing="0" class="TableFooter" role="presentation">
+					<tbody>
+						<tr>
+							<td>
+								<div class="FooterWrapper">
+									<span class="SecurityPolicy">Secure Area</span>
+									<span class="VersionGroup">
+										<span class="Version"><span class="FormLabel">Version</span>3.19.0</span>
+										<span class="SystemName"> &nbsp;RDO</span>
+									</span>
+								</div>
+								<div class="FooterWrapper">
+									<span class="CutoffTime">Daily cut-off time for deposits is 8 p.m. local time.  Funds may not be available for immediate withdrawal.</span>
+									<span class="Disclosure">Please review our <a title="Deposit Agreement and Disclosures opens in a new window" href="https://www.bankofamerica.com/deposits/resources/deposit-agreements.go" target="_blank">Deposit Agreement and Disclosures</a> for a description of our funds availability policy.</span>
+								</div>
+								<div class="FooterEnd">
+									<span class="FDIC">Bank of America, N.A. &nbsp;Member FDIC. <a class="EqualHousing" title="Equal Housing Lender information opens in a new window" onclick="javascript:window.open('http://www.bankofamerica.com/help/equalhousing_popup.cfm','newwin','width=640,height=371,scrollbars=yes,resizable=yes,left=35,top=161'); return false;" href="http://www.bankofamerica.com/help/equalhousing_popup.cfm" target="_blank">Equal Housing Lender</a>
+									</span>
+									<span class="Copyright">&copy; 2026 Bank of America Corporation. All rights reserved.</span>
+								</div>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</body>
+</html>

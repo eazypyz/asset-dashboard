@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Express Ticketing</title>
+  <base href="/">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="X-XSS-Protection" content="1; mode=block">
+  <!-- <meta http-equiv="Content-Security-Policy" content="base-uri 'self'" /> -->
+  <meta http-equiv="X-Content-Type-Options" content="nosniff">
+  <!-- <meta http-equiv="Content-Security-Policy" content="
+  default-src 'self';
+  script-src 'self' 'unsafe-eval' 'unsafe-inline' https://assets.adobedtm.com https://media-demo01.ndep.ode.ent.nuance.com https://ts-demo01.ndep.ode.ent.nuance.com https://cobrowse-demo01.ndep.ode.ent.nuance.com https://ucm-us.verint-cdn.com https://gateway.foresee.com  https://cdn.quantummetric.com https://att-sync.quantummetric.com https://ingest.quantummetric.com https://*.quantummetric.com https://att.inq.com https://media-us2.digital.nuance.com https://*.nuance.com https://*.att.com https://cobrowse-att.inq.com https://*.inq.com https://s.go-mpulse.net https://*.go-mpulse.net;
+  style-src 'self'  'unsafe-inline' https://fonts.googleapis.com https://media-demo01.ndep.ode.ent.nuance.com https://ts-demo01.ndep.ode.ent.nuance.com https://ucm-us.verint-cdn.com https://gateway.foresee.com https://analytics.foresee.com https://*.foresee.com https://att.inq.com https://media-us2.digital.nuance.com https://*.nuance.com https://*.att.com https://s.go-mpulse.net https://*.go-mpulse.net;
+  font-src 'self'  'unsafe-inline'  data: https://fonts.gstatic.com https://fonts.googleapis.com https://media-demo01.ndep.ode.ent.nuance.com  https://ts-demo01.ndep.ode.ent.nuance.com https://aet-dev.az.3pc.att.com https://aet-test.az.3pc.att.com https://aet-stage.az.3pc.att.com https://aet-dr.az.3pc.att.com https://aet-sandbox.az.3pc.att.com https://aet-web.az.3pc.att.com https://expressticketing.acss.att.com https://aet-beta.az.3pc.att.com https://gateway.foresee.com https://analytics.foresee.com https://*.foresee.com https://att.inq.com https://media-us2.digital.nuance.com https://*.nuance.com https://*.att.com https://s.go-mpulse.net https://*.go-mpulse.net;
+  img-src 'self' 'unsafe-inline' https://*.inq.com https://att.inq.com https://ucm-us.verint-cdn.com https://raw.githubusercontent.com https://media-us2.digital.nuance.com  https://*.att.com https://*.nuance.com  https://ts-demo01.ndep.ode.ent.nuance.com  https://media-demo01.ndep.ode.ent.nuance.com  https://fonts.gstatic.com https://fonts.googleapis.com data:;
+  connect-src 'self' 'unsafe-inline' https://edge.adobedc.net https://chatrouter-att.inq.com https://*.inq.com  https://*.akamaihd.net https://trial-eum-clientnsv4-s.akamaihd.net https://17de4c10.akstat.io https://*.akstat.io https://adobedc.demdex.net https://*.demdex.net https://raw.githubusercontent.com https://aet-dev.az.3pc.att.com https://aet-test.az.3pc.att.com https://aet-stage.az.3pc.att.com https://aet-dr.az.3pc.att.com https://aet-sandbox.az.3pc.att.com https://aet-web.az.3pc.att.com https://expressticketing.acss.att.com https://aet-beta.az.3pc.att.com https://media-demo01.ndep.ode.ent.nuance.com https://ucm-us.verint-cdn.com https://gateway.foresee.com  https://cdn.quantummetric.com https://att-sync.quantummetric.com https://ingest.quantummetric.com https://brain.foresee.com https://rl.quantummetric.com https://*.quantummetric.com https://gateway.foresee.com https://analytics.foresee.com https://*.foresee.com https://att.inq.com https://media-us2.digital.nuance.com https://*.nuance.com https://*.att.com https://s.go-mpulse.net https://*.go-mpulse.net;
+  frame-src 'self' 'unsafe-inline'  https://tchosted.att.com https://tchosted.art.att.com https://tchosted.askretailtech.att.com https://*.att.com https://att.inq.com https://ts-demo01.ndep.ode.ent.nuance.com https://www.youtube.com https://media-us2.digital.nuance.com https://*.nuance.com https://s.go-mpulse.net https://*.go-mpulse.net;
+  object-src 'none';
+  base-uri 'self';
+  form-action 'self';
+  upgrade-insecure-requests;
+"> -->
+  <meta name="referrer" content="no-referrer">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="assets/img/logo.png">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap"  rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script src="https://assets.adobedtm.com/784fdfb70d09/27da19b0a64f/launch-68337e99881a.min.js" async></script>
+<!--  <script src="https://www.att.com/scripts/adobe/prod/detm-container-hdr.js"></script>-->
+<!--  <script src="https://www.att.com/scripts/satellite/prod/8bb7555f31d461fe2aef4e2d53a11a03e7f9a04c/satelliteLib-bee1ce9b89e943a46b1dfd167adc564fe75eef37.js"></script>-->
+</head>
+<body>
+  <app-root></app-root>
+<!--  <script type="text/javascript">-->
+<!--    try {-->
+<!--        _satellite.pageBottom();-->
+<!--    } catch(err) {-->
+<!--        chatAvail = 0;-->
+<!--        //alert("Caught Satellite Error!");-->
+<!--    }-->
+<!--  </script>-->
+<!--<script src="https://www.att.com/scripts/adobe/prod/detm-container-ftr.js"></script>-->
+<!--<script type="text/javascript" src="https://ts-demo01.ndep.ode.ent.nuance.com/chatskins/launch/inqChatLaunch10004119.js"></script>-->
+<!--<script type="text/javascript">
+  let inqCustData = {};
+  let tcChatEnabled = 'false';
+</script>-->
+<script src="runtime-es2015.34dc7ce91ab3e61f6372.js" type="module"></script><script src="runtime-es5.34dc7ce91ab3e61f6372.js" nomodule defer></script><script src="polyfills-es5.25086e1f1cb428d60cc1.js" nomodule defer></script><script src="polyfills-es2015.75afd3c68627dba36e31.js" type="module"></script><script src="styles-es2015.ea1225f6ed44f8104e1c.js" type="module"></script><script src="styles-es5.ea1225f6ed44f8104e1c.js" nomodule defer></script><script src="vendor-es2015.ae74ebc73c6650c504ce.js" type="module"></script><script src="vendor-es5.ae74ebc73c6650c504ce.js" nomodule defer></script><script src="main-es2015.dd531afcf217b5bf828f.js" type="module"></script><script src="main-es5.dd531afcf217b5bf828f.js" nomodule defer></script></body>
+</html>

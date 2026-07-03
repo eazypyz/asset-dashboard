@@ -1,0 +1,13 @@
+#Any Search crawler can crawl our site
+User-agent: *
+
+#Allow only mentioned paths
+#Allow: /
+
+#Disallow everything else
+Disallow: /content/newsroom/email-subscription-form.html
+Disallow: /content/newsroom/email-unsubscription-form.html
+Disallow: /content/dam/newsroom/*.*
+
+#Crawl all sitemaps mentioned below
+Sitemap: https://newsroom.bankofamerica.com/sitemap.xml

@@ -1,0 +1,3486 @@
+<!DOCTYPE html>
+<!--[if IE 9]>
+<html class="lt-ie10" lang="en"> <![endif]-->
+<html class="no-js" lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="">
+    <meta name="robots" content="noindex,nofollow"/>
+    <title></title>
+    <link rel="shortcut icon" type="image/png" href="/screens/assets/images/icon-512.png"/>
+    <link rel="stylesheet" nonce="" href="https://cdn.goboomtown.com/screens/assets/javascripts/foundation-5.3.0.custom/css/normalize.css">
+    <link rel="stylesheet" nonce="" href="https://cdn.goboomtown.com/screens/assets/javascripts/foundation-5.3.0.custom/css/foundation.min.css">
+    <link rel="stylesheet" nonce="" type="text/css" href="https://cdn.goboomtown.com/screens/article/modern/stylesheets/kb.css?20260703121133">
+    <link rel="stylesheet" nonce="" type="text/css" href="https://cdn.goboomtown.com/screens/article/modern/stylesheets/header.css?20260703121133">
+    <link rel="stylesheet" nonce="" type="text/css" href="https://cdn.goboomtown.com/screens/article/shared/stylesheets/header.css?20260703121133">
+    <link rel="stylesheet" nonce="" type="text/css" href="https://cdn.goboomtown.com/screens/article/modern/stylesheets/accessibility.css">
+    <link rel="stylesheet" nonce="" href="https://cdn.goboomtown.com/screens/assets/stylesheets/all.min.css">
+    <link rel="stylesheet" nonce="" type="text/css" href="https://cdn.goboomtown.com/screens/assets/stylesheets/web.component.css">
+    <link rel="stylesheet" nonce="" type="text/css" href="https://cdn.goboomtown.com/screens/assets/stylesheets/codesnippets.css">
+    <link rel="stylesheet" nonce="" href="//fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&amp;display=swap">
+    <style nonce="">    
+    :root {
+        --kb-brand-text-color: #646464;
+        --kb-brand-link-color: #0053c2;
+        --kb-link-hover-color: #004baf;
+        --kb-font-family: Roboto;
+    }
+
+    /* Header structure fixes */
+.top-bar-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    height: 56px;
+}
+
+.top-bar-nav .title {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    min-width: 0;
+}
+
+.top-bar-nav .search-container {
+    display: flex;
+    align-items: center;
+    flex: 0 0 auto;
+    max-width: 400px;
+}
+
+.user-controls {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    flex-wrap: nowrap;
+}
+
+.user-controls li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    flex-shrink: 0;
+}
+
+#nav-login-link {
+    display: none;
+}
+
+.header-search-form {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+    max-width: 300px;
+    right: 6.0em;
+}
+
+.header-search-input {
+    max-width: 200px;
+    width: 200px;
+    margin-right: 5px;
+}
+
+.header-search-btn,
+.header-advanced-filter-btn {
+    flex-shrink: 0;
+    margin-left: 5px;
+}
+
+.header-link.login,
+.header-link.logout,
+.header-link.links {
+    background: none;
+    border: none;
+    color: #0066cc;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: normal;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.header-link.login:hover,
+.header-link.logout:hover,
+.header-link.links:hover {
+    color: #004499;
+    text-decoration: underline;
+}
+
+/* Search block height adjustment - Override base theme */
+#search-col {
+    height: 180px;
+}
+
+/* Search results modal positioning */
+.search-results-wrapper {
+    max-width: 450px;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    max-height: 400px;
+    overflow-y: auto;
+    margin-top: 8px;
+    position: relative;
+    z-index: 1;
+}
+
+/* Ensure the hero search container has relative positioning */
+.hero-search {
+    background: #012169;
+    padding-top: 40px;
+    margin-top: 0px;
+    position: relative;
+}
+
+.hero-h1 {
+    font-family: "cnx-light", Arial, Helvetica, sans-serif;
+    font-size: 1.6875rem;
+    background: #012169;
+    color: #FFFFFF;
+    text-align: center;
+    letter-spacing: normal;
+    line-height: 1.4;
+    font-weight: lighter;
+    padding-top: 60px;
+    margin-top: 0px;
+}
+
+.hero-h1-override {
+    display: block;
+}
+
+/*BofA header*/
+.brand-logo {
+    height: 29px;
+    max-height: 29px;
+    max-width: 300px;
+    width: 100%;
+}
+
+.title {
+    padding-left: 50px;
+    display: flex;
+    align-items: center;
+    flex: 1 1 auto;
+}
+
+.top-bar-nav .search-container {
+    flex: 0 1 auto;
+    margin-right: 15px;
+}
+
+#head_search_form {
+    /*font-family: Roboto;*/
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 18px;
+    border-radius: 4px 4px 4px 4px;
+    border: 1px solid transparent;
+}
+
+#head_search_form:hover {
+    border: 1px solid #0053c2;
+}
+
+#head_search_form.active-search {
+    border: 1px solid #0053c2;
+    height: 40px;
+}
+
+#head_search_form input[type="text"],
+#head_search_form button[type="submit"] {
+    height: 38px;
+    padding: 3px 10px 0;
+    margin: 0;
+    font-size: 16px;
+    min-width: 72px;
+    width: 72px;
+    background-color: #fff;
+    border: 1px transparent solid;
+    transition: none;
+}
+
+#head_search_form input[type="text"] {
+    border-radius: 4px 0 0 4px;
+}
+
+#head_search_form.active-search input[type="text"] {
+    min-width: 100px;
+    width: 150px;
+}
+
+#head_search_form input[type="text"]:focus {
+    box-shadow: none;
+}
+
+#head_search_form.active-search input[type="text"] {
+    box-shadow: none;
+}
+
+#head_search_form.active-search button[type="submit"]::before {
+    content: " ";
+    width: 1px;
+    background-color: #d5d5d5;
+    display: block;
+    height: 20px;
+    left: -5px;
+    position: absolute;
+    top: 8px;
+}
+
+#head_search_form input[type="text"]::placeholder {
+    color: #000;
+}
+
+#head_search_form button[type="submit"] {
+    border-radius: 0 4px 4px 0;
+    border-left: none;
+    min-width: 38px;
+    width: 38px;
+    padding: 7px 5px 0;
+    background-color: #fff;
+}
+
+#head_search_form button[type="submit"]:hover,
+#head_search_form button[type="submit"]:focus {
+    outline: 1px solid #0053c2;
+    outline-offset: -4px;
+}
+
+.top-bar-nav {
+    position: relative;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #D5D5D5;
+}
+
+/*BofA header text*/
+.merchant-text {
+    font-family: "cnx-regular", Arial, Helvetica, sans-serif;
+    font-size: 21px;
+    height: 29px;
+    color: #524940;
+    letter-spacing: 0;
+    font-weight: 400;
+    margin-left: 40px;
+    display: none;
+}
+
+/*BofA Blue Search Area */
+.hero-container {
+    background-color: #012169;
+    color: white;
+    height: 240px;
+}
+
+/*Moves the search field up closer to the text*/
+.hero-search-container {
+    margin-top: 28px;
+}
+
+p.topic-title-row-title {
+    font: "cnx-light", Arial, Helvetica, sans-serif;
+    color: #0052c3;
+}
+
+.container {
+    min-height: auto;
+}
+
+div#skip-to-main.hero-container {
+    height: 380px;
+}
+
+/*Gets rid of the grey border around the whole search field*/
+.hero-search-form {
+    border: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+
+#search {
+    background: #FFFFFF;
+    border: 1px solid #646464;
+    border-radius: 4px;
+    height: 48px;
+    max-width: 330px;
+    min-width: 120px;
+    width: 100%;
+    padding: 12px 38px 12px 12px;
+    margin-bottom: 0px;
+    flex-grow: 0;
+}
+
+#hero_search {
+    background: #FFFFFF;
+    border: 1px solid #646464;
+    border-radius: 4px;
+    height: 48px;
+    max-width: 330px;
+    min-width: 120px;
+    width: 100%;
+    padding: 12px 38px 12px 12px;
+    margin-bottom: 0px;
+    flex-grow: 0;
+}
+
+#search_form {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#search_submit {
+    background: #FFFFFF;
+    border: 1px solid #012169;
+    border-radius: 22px;
+    font-family: Roboto;
+    font-size: 20px;
+    color: #012169;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 20px;
+    font-weight: 500;
+    margin: 0px 0px 0px 12px;
+    padding: 8px 24px;
+    height: 44px;
+    width: 120px;
+}
+
+.hero_search_submit {
+    background: #FFFFFF;
+    border: 1px solid #012169;
+    border-radius: 22px;
+    font-family: Roboto;
+    font-size: 20px;
+    color: #012169;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 20px;
+    font-weight: 500;
+    margin: 0px 0px 0px 12px;
+    padding: 8px 24px;
+    height: 44px;
+    white-space: nowrap;
+    width: 120px;
+}
+
+.hero_search_submit:hover {
+    background: #012169;
+    color: #FFFFFF;
+    outline: 1px solid white;
+}
+
+.hero_search_submit:focus {
+    background: #012169;
+    border: 1px solid white;
+    outline-offset: 2px;
+    color: #FFFFFF;
+    outline: 1px solid white;
+}
+
+#hero_search_submit {
+    background: #FFFFFF;
+    border: 1px solid #012169;
+    border-radius: 22px;
+    font-family: Roboto;
+    font-size: 20px;
+    color: #012169;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 20px;
+    font-weight: 500;
+    margin: 0px 0px 0px 12px;
+    padding: 8px 24px;
+    height: 44px;
+    white-space: nowrap;
+    width: 120px;
+}
+
+#hero_search_submit:hover {
+    background: #012169;
+    color: #FFFFFF;
+    outline: 1px solid white;
+}
+
+#hero_search_submit:focus {
+    background: #012169;
+    border: 1px solid white;
+    outline-offset: 2px;
+    color: #FFFFFF;
+    outline: 1px solid white;
+}
+
+/* FIX: Dropdown positioning and container overflow issues */
+.hero-container,
+div#skip-to-main.hero-container {
+    overflow: visible;
+}
+
+.hero-search-container {
+    overflow: visible;
+}
+
+.top-bar-nav {
+    overflow: visible;
+}
+
+.search-container {
+    overflow: visible;
+}
+
+.hero-filter-container {
+    position: relative;
+    overflow: visible;
+}
+
+/* Ensure dropdown appears above all other elements */
+.advanced-filter-dropdown {
+    z-index: 999;
+    position: fixed;
+}
+
+/* FIX: Missing hover styles for search results and links */
+.search-results a,
+#hero_results a,
+#results a,
+.search-results-container a {
+    cursor: pointer;
+}
+
+.search-results a:hover,
+#hero_results a:hover,
+#results a:hover,
+.search-results-container a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+/* FIX: Ensure all clickable elements have proper cursor */
+button,
+.btn,
+[role="button"],
+input[type="submit"],
+input[type="button"],
+.clickable {
+    cursor: pointer;
+}
+
+button:hover,
+.btn:hover,
+[role="button"]:hover,
+input[type="submit"]:hover,
+input[type="button"]:hover,
+.clickable:hover {
+    cursor: pointer;
+}
+
+.search-results-container-inner {
+    position: relative;
+    z-index: 2;
+}
+
+/* FIX: Prevent overlay blocking by ensuring proper stacking */
+#maincontent,
+#mainContent,
+.main-content {
+    position: relative;
+    z-index: auto;
+}
+
+/* FIX: Ensure search results are clickable */
+.search-results li,
+.topic-folders-container li {
+    position: relative;
+    z-index: 10;
+}
+
+.search-results a:hover,
+.topic-folders-container a:hover {
+    text-decoration: none;
+}
+
+.search-results li a,
+.topic-folders-container li a {
+    position: relative;
+    z-index: 11;
+    display: block;
+}
+
+.search-no-results-container {
+    border-radius: 10px;
+    color: #4d4d4d;
+    margin-bottom: 40px;
+}
+
+.search-results-container {
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.search-results-container-inner {
+    border-radius: 10px;
+    box-shadow: 0 2px 20px 0 rgb(0 0 0 / 12%);
+}
+
+#static_noResults ul {
+    margin-left: 0;
+
+    & li:not(.indent) {
+        list-style-type: none;
+    }
+}
+
+/*Styling for trending topics label*/
+.tt-label {
+    font-family: "cnx-regular", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #646464;
+    line-height: 24px;
+    font-weight: normal;
+    min-width: 100%;
+    text-align: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+    height: 44px;
+    width: 100%;
+    padding: 12px;
+}
+
+/*Styling for trending topics container*/
+.tt-container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background-color: #F5F5F5;
+}
+
+/*Styling for trending topics block*/
+.trending-topics {
+    background: #FFFFFF;
+    box-shadow: 0 2px 20px 0 rgb(0 0 0 / 12%);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    width: 100%;
+    max-width: 1038px;
+    position: relative;
+    padding: 16px 0;
+    margin: -38px 10px -45px;
+}
+
+.trending-topics>div {
+    width: 100%;
+}
+
+/*Styling for trending topics list*/
+.trending-list {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    justify-content: space-evenly;
+    padding: 0;
+    width: 95%;
+    max-width: 840px;
+    align-items: center;
+    margin: 0 0 0 0;
+}
+
+@media (max-width: 768px) {
+    .trending-list {
+        line-height: 35px;
+    }
+}
+
+.trending-topics h2 {
+    color: #000000;
+    font-family: "cnx-regular", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+/*Styling for trending topics list item*/
+.list-items {
+    font-family: Roboto;
+    font-size: 16px;
+    color: #0053C2;
+    letter-spacing: 0;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/*Styling for trending topics section*/
+.tt-section {
+    display: flex;
+    justify-content: center;
+    height: 938px;
+    background-color: #F5F5F5;
+}
+
+.tt-section .card-area h2:first-of-type {
+    display: none;
+}
+
+.card-area h2.topic-folders-title {
+    font-size: 28px;
+    font-family: "cnx-regular", Arial, Helvetica, sans-serif;
+    color: #000;
+    margin: 40px 0 24px 16px;
+}
+
+/*Styling for trending topics card container*/
+.card-container {
+    display: flex;
+    width: 1038px;
+}
+
+
+/*Styling for trending topics card area*/
+.card-area {
+    border-radius: 10px;
+    max-width: 1038px;
+}
+
+/*Styling for trending topics card block*/
+.card-block {
+    margin-top: 60px;
+    width: 100%;
+}
+
+.topic-folders-container {
+    display: block;
+}
+
+li .topic-folders-title {
+    padding: 21px 0;
+    text-align: left;
+}
+
+.topic-tile {
+    padding-left: 0px;
+}
+
+div.topic-tile .topic-folders-title {
+    padding: 29px 0;
+    text-align: left;
+}
+
+.sub-page-topic-folders-container li {
+    margin: 0;
+    padding-left: 0;
+}
+
+div.sub-page-topic-folders-list {
+    margin-bottom: 120px;
+}
+
+.sub-page-article-list li.topic-tile {
+    border-bottom: 0;
+    padding: 0;
+}
+
+.topic-folders-container .topic-tile:last-child {
+    margin-bottom: 120px;
+}
+
+/*Styling for trending topics card grid*/
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+    grid-gap: 20px;
+}
+
+.row:before,
+.row:after {
+    display: none;
+}
+
+/*Styling for trending topics card*/
+.tt-card {
+    background-color: #f8f8f8;
+    width: 330px;
+    height: 124px;
+    background-color: #FFFFFF;
+    box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.12);
+    border-radius: 12px;
+    display: grid;
+    justify-content: center;
+}
+
+/*Styling for trending topics card icons*/
+.tt-card-icon {
+    height: 24px;
+    width: 24px;
+    margin-top: 24px;
+    display: inline-flex;
+    justify-self: center;
+}
+
+/*Styling for trending topics card text*/
+.tt-card-text {
+    font-family: "cnx-regular", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #000000;
+    text-align: center;
+    line-height: 1.4;
+    font-weight: 400;
+    max-width: 282px;
+    display: flex;
+    align-items: center;
+}
+
+/*Styling for home page topics container*/
+.home-page-topics {
+    max-width: 1080px;
+}
+
+/*Styling for Connect container*/
+.connect-container {
+    height: 416px;
+}
+
+/*Styling for Connect and Commitment labels*/
+.cc-label {
+    padding-top: 65px;
+    font-family: "cnx-regular", Arial, Helvetica, sans-serif;
+    font-size: 44px;
+    color: #000000;
+    text-align: center;
+    line-height: 52px;
+    font-weight: 400;
+}
+
+/*Styling for Connect and Commitment card block*/
+.cc-card-block {
+    display: flex;
+    justify-content: center;
+}
+
+/*Styling for Connect and Commitment card*/
+.cc-card {
+    width: 330px;
+    height: 188px;
+    margin: 30px 10px;
+    background: #FFFFFF;
+    border: 1px solid #D5D5D5;
+    display: grid;
+}
+
+/*Styling for Connect and Commitment card block icon*/
+.cc-card-icon {
+    height: 28px;
+    width: 28px;
+    justify-self: center;
+    margin-top: 56px;
+}
+
+/*Styling for Connect and Commitment card text*/
+.cc-card-text {
+    font-family: "cnx-regular", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #0053C2;
+    text-align: center;
+    line-height: 28px;
+    font-weight: 400;
+    justify-self: center;
+    margin-bottom: 56px;
+}
+
+/*Styling for Connect and Commitment card text block*/
+.cc-text-block {
+    font-family: Roboto;
+    font-size: 16px;
+    color: #000000;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+/*Styling for Connect and Commitment button container*/
+.cc-button-container {
+    margin-top: 36px;
+    display: flex;
+    justify-content: center;
+}
+
+
+/*Styling for Connect and Commitment button*/
+.cc-button {
+    background: #FFFFFF;
+    border: 1px solid #012169;
+    border-radius: 22px;
+    font-family: Roboto;
+    font-size: 20px;
+    color: #012169;
+    text-align: center;
+    line-height: 20px;
+    font-weight: 500;
+    width: 130px;
+    height: 40px;
+    padding: 8px;
+}
+
+.cc-button:hover {
+    background: #012169;
+    color: #FFFFFF;
+}
+
+/*Horizontal line dividing CC area*/
+hr {
+    margin: 0;
+}
+
+/*Styling for the loading spinner when you do a search*/
+div#hero_xhrSpinner {
+    top: 10px;
+    right: 140px;
+}
+
+.title-label {
+    font-family: "cnx-regular", Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    color: #000;
+    font-weight: 100;
+    padding: 40px 0 20px;
+}
+
+i {
+    margin-right: 5px;
+}
+
+/*Styling for grid view*/
+.column {
+    display: grid;
+}
+
+/*Styling for sub-label*/
+.sub-label {
+    border-bottom: 1px solid #D5D5D5;
+    font-family: Roboto;
+    color: #0053C2;
+    letter-spacing: 0.12px;
+    /*line-height: 60px;*/
+    font-weight: 600;
+}
+
+/*Styling for links in breadcrumb*/
+ol.breadcrumb-container {
+    margin-top: 40px;
+
+    &>li:not(:last-child):after {
+        margin-right: 14px;
+        margin-left: 9px;
+    }
+}
+
+.breadcrumb a {
+    font-size: 14px;
+    color: #0053C2;
+    letter-spacing: 0;
+    font-family: Roboto;
+    font-weight: 400;
+    margin-right: 9px;
+}
+
+#resultsCount {
+    margin: 2rem 2rem 0;
+}
+
+.row-breadcrumb {
+    height: 50px;
+}
+
+.main-container {
+    max-height: 1900px;
+}
+
+/*Styling for last link in breadcrumb*/
+.breadcrumb a strong.breadcrumb {
+    font-size: 14px;
+    color: #646464;
+    letter-spacing: 0;
+    font-family: Roboto;
+    line-height: 20px;
+    font-weight: normal;
+}
+
+.breadcrumb a strong.breadcrumb:hover {
+    text-decoration: underline;
+    font-weight: normal;
+}
+
+/*Alignments for label and article list pages*/
+
+.page-heading h1,
+.page-heading h3 {
+    margin: 0;
+    line-height: 1;
+}
+
+.page-heading p {
+    margin-bottom: 0;
+}
+
+.sub-page-page-heading {
+    margin-top: 0;
+}
+
+.article-header h1.kb-title {
+    margin-left: 0px;
+    color: #000000;
+    font-family: "cnx-regular", Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    letter-spacing: 0;
+    line-height: 1.4;
+    padding: 40px 0 20px;
+}
+
+/*Styling for Info panel*/
+p.alert-info {
+    background-color: #FFFFFF;
+    border: 2px solid #009CDE;
+}
+
+/*Styling for Warning panel*/
+p.alert-warning {
+    background-color: #FFFFFF;
+    border: 2px solid #B05705;
+}
+
+/*Styling for Danger panel*/
+p.alert-danger {
+    background-color: #FFFFFF;
+    border: 2px solid #C41230;
+}
+
+p.alert-danger .article-alert-icon {
+    display: none;
+}
+
+p.alert-danger:before {
+    content: '\26A0';
+    display: block;
+    color: #b93130;
+    font-size: 25px;
+}
+
+/*Styling for Success panel*/
+p.alert-success {
+    background-color: #FFFFFF;
+    border: 2px solid #207804;
+}
+
+/*Styling for Helpful banner at bottom of article*/
+.article-helpful-container {
+    background: #F5F5F5;
+    font-family: Roboto;
+    font-size: 16px;
+    color: #646464;
+    letter-spacing: 0;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+
+/*Styling for Yes/No buttons*/
+.article-detail-view .article-helpful-buttons button {
+    background: #FFFFFF;
+    border: 1px solid #012169;
+    border-radius: 16px;
+    font-family: Roboto;
+    font-size: 14px;
+    color: #012169;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 16px;
+    font-weight: 500;
+}
+
+/*Styling for Footer*/
+.footer {
+    margin-top: 0px;
+    background-color: #FFFFFF;
+}
+
+.footer .footer-inner-container {
+    max-width: 100%;
+    padding: 0;
+}
+
+.footer.global-footer-spacing--margin {
+    margin-top: 30px;
+}
+
+/*Styling for Whats in this article*/
+.scroll-nav__item a {
+    color: #0053C2;
+    font-family: Roboto;
+}
+
+.scroll-nav__item--active a {
+    color: #0053C2;
+    font-weight: bolder;
+    font-family: Roboto;
+}
+
+ol.scroll-nav__list {
+    margin-left: -.5rem
+}
+
+/*altering the gap from article date margin was originally opx 0 50px 0; */
+.article-header date.kb-title-date {
+    font-size: 14px;
+    margin-top: .1rem;
+    margin-bottom: .875rem;
+    color: #646464;
+    font-weight: normal;
+    line-height: 1.5rem;
+}
+
+/*article header change padding*/
+
+.article-header div.kb-title {
+    font-size: 16px;
+    color: #646464;
+    font-weight: normal;
+    margin-bottom: 1rem;
+    line-height: 24px;
+    margin-bottom: 24px;
+    padding-bottom: 32px;
+    border-bottom: 1px solid #efefef;
+}
+
+/*article title spacing*/
+.article-view h1,
+.article-view h2,
+.article-view h3,
+.article-view h4 {
+    margin: 0px 0px 10px;
+    font-weight: bold;
+}
+
+.article-header h1.kb-title,
+.article-view h2 {
+    margin-left: 0px;
+    color: #000000;
+    font-family: "cnx-regular", Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    letter-spacing: 0;
+    line-height: 1.4;
+    padding: 40px 0 20px;
+}
+
+.article-header p {
+    margin: 0px 0px 10px;
+    font-weight: bold;
+}
+
+/*unbold the whats in this article links*/
+.aside-toc-ul li a,
+ol.scroll-nav__list li a {
+    display: normal;
+    font-weight: normal;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+/*link weight and underline remove, removed text decoration*/
+.article-view a {
+    font-weight: 300;
+    text-decoration: none;
+}
+
+/* add padding above a table */
+
+table {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+/*accordions*/
+.accordion-panel .accordion .accordion-navigation>button {
+    color: #717171;
+    background: transparent;
+    margin-bottom: 0 !important;
+    font-weight: 400;
+    font-size: 1rem;
+    text-align: left;
+    position: relative;
+}
+
+/*accordion arrow*/
+div.accordion-navigation>button>.right-arrow,
+div.accordion-navigation>button>.down-arrow {
+    position: absolute;
+    left: 10px;
+    top: 11px;
+    width: 20px;
+    height: 20px;
+    color: #646464;
+}
+
+/*increase the spacing for an accordion to next paragraph*/
+.accordion-panel .accordion .accordion-navigation {
+    margin-bottom: 10px;
+}
+
+/*font sizing for the date line*/
+.article-header span.kb-date-info {
+    font-size: 14px;
+    color: #646464;
+}
+
+/*responsive grid issue fix*/
+.card-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+i {
+    margin-right: 12px;
+}
+
+/*article icon color*/
+.fa {
+    color: #646464;
+    margin-top: 4px;
+}
+
+/*adjust the article topic headers font and weight*/
+.topic-folders-container.expanded .topic-container .topic-title h2 {
+    font-family: "cnx-regular", Arial, Helvetica, sans-serif;
+    padding: 0px;
+    color: inherit;
+    margin: 0px;
+    font-weight: normal;
+    line-height: 1;
+    letter-spacing: unset;
+}
+
+.article-detail-view h3 {
+    font-size: 16px;
+    color: #646464;
+    line-height: 24px;
+    padding: 12px 0;
+}
+
+/*search page wrapper margin issue*/
+.search-page-link-wrapper {
+    margin-right: 14px;
+}
+
+/*search results spacing of articles*/
+p.topic-title-row-title {
+    line-height: 25px;
+}
+
+#static_hasResults ul {
+    padding-right: 25px;
+}
+
+/*orderlist spacing*/
+li {
+    margin-bottom: 32px;
+}
+
+/*padding on the right margin*/
+.article-view {
+    padding-right: 30px;
+}
+
+/*removal of the right margin border in an article - was originally border-right: 1px solid #efefef*/
+.article-detail-view article.article-view {
+    border-right: none;
+}
+
+/*override what's in the is article list styling*/
+ol.scroll-nav__list li {
+    border-radius: 4px;
+    margin-bottom: 2px;
+}
+
+.aside-toc-ul li a,
+ol.scroll-nav__list li a {
+    padding: 10px;
+    margin-left: .5rem;
+}
+
+/*dashed table border option*/
+/* Default borders */
+table tr th,
+table tr td {
+    border: none !important;
+}
+
+/* Table options */
+.fr-dashed-borders td,
+.fr-dashed-borders th {
+    border-width: 1px !important;
+    border-color: #ccc !important;
+    border-style: solid none solid none !important;
+}
+
+table thead {
+    background: none;
+    border: none;
+    margin-bottom: 20px;
+}
+
+table {
+    background: #fff;
+    margin-top: 1.25rem;
+    margin-bottom: 1.5rem;
+    border: none;
+}
+
+/*tt section needs to flex in size*/
+.tt-section {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    padding-bottom: 100px;
+    background-color: #F5F5F5;
+}
+
+/*related articles font size increased from 13 to 16*/
+.related-articles {
+    margin-bottom: 120px;
+}
+
+.article-detail-view aside.related-articles ul li {
+    font-size: 16px;
+}
+
+.article-detail-view aside.related-articles h2 {
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 24px;
+}
+
+/*add more spacing to table cells*/
+table tr th,
+table tr td {
+    padding: 1rem 1rem;
+    font-size: 0.875rem;
+    color: #000000;
+    text-align: left;
+    line-height: 1.33rem;
+}
+
+/* Internal use only banner */
+.article-container .status-private {
+    background-color: #eee;
+    border-radius: 0 0 4px 4px;
+    bottom: auto;
+    box-shadow: 0px 1px 6px #777;
+    color: #000;
+    height: auto;
+    left: auto;
+    padding: 5px;
+    right: -95px;
+    rotate: 90deg;
+    top: calc(50% - 150px);
+    width: 220px;
+}
+
+.article-container .status-private p {
+    margin: 0;
+}
+
+/*ADA hidden class */
+.ada-hidden,
+table caption {
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(50%);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*ADA skip link*/
+#ada-skip-link.ada-visible-focus {
+    display: block;
+    font: 14px/18px Arial, "Helvetica Neue", Helvetica, Roboto, sans-serif;
+    height: 20px;
+    position: absolute;
+    text-align: center;
+    transition: top 1s ease-out 0s, background 1s linear 0s;
+    width: 200px;
+    z-index: 3333;
+}
+
+#ada-skip-link.ada-visible-focus:focus {
+    background: #f9f7f4;
+    box-shadow: 0px 0px 2px 0px rgba(51, 51, 51, 0.3);
+    clip: auto;
+    clip-path: none;
+    color: #0052C2;
+    left: 0;
+    opacity: 1;
+    top: 0;
+    transition: top 0.1s ease-in 0s, background 0.5s linear 0s;
+}
+
+/*Above small viewport*/
+@media all and (min-width: 768px) {
+    .hero-container {
+        height: 330px;
+    }
+
+    .hero-h1 {
+        font-size: 40px;
+        padding-top: 68px;
+    }
+
+    .search_block {
+        margin: 0;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+    }
+
+    .search-controls-container,
+    .hero-filter-container {
+        max-width: 450px;
+    }
+
+    #search_form #hero_search_submit {
+        display: block;
+    }
+
+    #static_hasResults ul {
+        padding: 0 25px 0 15px;
+    }
+
+    .topic-folders-title {
+        text-align: left;
+    }
+
+    .merchant-text {
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .title-label {
+        font-size: 56px;
+    }
+
+    .sub-label {
+        font-size: 28px;
+    }
+
+    .article-header h1.kb-title {
+        font-size: 48px;
+    }
+
+    .topic-folders-container.expanded .topic-container .topic-title h2 {
+        font-size: 28px;
+        color: #0053C2;
+    }
+
+    .trending-topics>div {
+        width: auto;
+    }
+
+    .trending-topics h2 {
+        color: #000000;
+        font-family: "cnx-regular", Arial, Helvetica, sans-serif;
+        font-size: 20px;
+    }
+
+    .trending-topics,
+    .trending-list {
+        flex-direction: row;
+    }
+
+    .tt-label {
+        border-bottom: none;
+        border-right: 1px solid rgba(0, 0, 0, 0.12);
+        min-width: 210px;
+        width: 23%;
+    }
+}
+
+#connectWithUs {
+    margin-top: 40px;
+
+    & h3,
+    p,
+    .connect-icon {
+        text-align: center;
+    }
+
+    & h3 {
+        font-family: "cnx-light", Arial, Helvetica, sans-serif;
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+
+    & p {
+        font-size: 20px;
+        font-family: "cnx-regular", Arial, Helvetica, sans-serif;
+        margin: 0;
+    }
+
+    .connect-icon {
+        padding-bottom: 12px;
+    }
+
+    .phone-number+p {
+        margin-bottom: 0;
+    }
+
+    a[href^=tel] {
+        color: inherit;
+        text-decoration: none;
+        font-size: inherit;
+        font-style: inherit;
+        font-weight: inherit;
+    }
+}
+
+
+
+
+
+/* ADVANCED SEARCH CSS */
+
+.header-search-btn {
+    display: inline-block;
+}
+
+.header-advanced-filter-btn {
+    margin-left: 25px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-radius: 20px;
+    background-color: #012269;
+    color: white;
+}
+
+.header-advanced-filter-btn:hover {
+    color: #012269;
+}
+
+div.hero-filter-container {
+    padding-bottom: 10px;
+    /* Added 10px padding to the bottom */
+    width: 100%;
+    /* Ensure it takes full width to allow left alignment */
+    display: flex;
+    /* Enable Flexbox for alignment */
+    justify-content: flex-start;
+    /* Left align the content (Filter by button) */
+}
+
+/* FIX: Ensure the hero-filter-container is hidden when it has the 'hidden' class */
+div.hero-filter-container.hidden {
+    display: none;
+}
+
+.hero-search .selected-filters {
+    margin-top: 14px;
+}
+
+#advanced_filter_btn {
+    border-radius: 20px;
+    background-color: #ffffff;
+    color: #012269;
+}
+
+.hero-filter-container #hero_advanced_filter_btn {
+    border-radius: 20px;
+    height: 30px;
+    padding: 0px 14px 0px 14px;
+}
+
+.filter-btn-blue .advanced-filter-icon {
+    color: white;
+}
+
+.filter-btn-blue:hover .advanced-filter-text {
+    color: #012169;
+}
+
+.filter-btn-blue:hover .advanced-filter-icon {
+    color: #012169;
+}
+
+.filter-btn-white span {
+    color: #012169;
+}
+
+.filter-chip.clickable-chip {
+    background-color: #012269;
+    color: white;
+}
+
+.apply-filter-btn {
+    background-color: #012269;
+    color: white;
+    border-radius: 20px !important;
+    margin-bottom: 0px;
+}
+
+/* Style for the Apply Filter button on hover */
+.apply-filter-btn:hover {
+    background-color: #012169;
+    /* Changed to #012169 on hover */
+    color: white;
+    border-radius: 20px !important;
+    margin-bottom: 0px;
+}
+
+.header-title-row h3 {
+    padding: 0px;
+}
+
+.advanced-filter-header h3 {
+    padding: 0px;
+}
+
+.search-input-field {
+    width: 330px;
+    height: 48px;
+}
+
+
+/* FILTER BUTTON STYLING*/
+
+
+/* Style for the text inside the "Filter by" button (white version) on hover */
+button#hero_advanced_filter_btn.filter-btn-white:hover .advanced-filter-text {
+    font-weight: bold;
+    /* Makes the text bold on hover */
+    color: #012169;
+    /* Ensures text color remains consistent */
+}
+
+/* Ensure the default state of the text (white version) has a normal font-weight */
+.advanced-filter-text {
+    font-weight: normal;
+}
+
+/* Optional: You might still want to adjust the icon color on hover if it's inside the button */
+button#hero_advanced_filter_btn.filter-btn-white:hover .advanced-filter-icon {
+    color: #012169;
+    /* Retained original icon color or set to ensure visibility */
+}
+
+/* Style for the Apply Filter button on hover */
+/* This rule was duplicated, consolidating to the one above for clarity */
+
+
+/* --- New styles for .filter-btn-blue --- */
+
+/* Static state for the blue filter button */
+button#hero_advanced_filter_btn.filter-btn-blue {
+    background-color: #FFFFFF;
+    /* White background */
+    border: 1px solid #012169;
+    /* Blue border */
+    color: #012169;
+    /* Blue text color for the button itself */
+}
+
+/* Ensure the text inside the blue filter button is blue in its default state */
+button#hero_advanced_filter_btn.filter-btn-blue .advanced-filter-text {
+    color: #012169;
+    /* Sets the text color to blue for the span */
+}
+
+/* Ensure the icon inside the blue filter button is blue in its default state */
+button#hero_advanced_filter_btn.filter-btn-blue .advanced-filter-icon {
+    color: #012169;
+    /* Sets the icon color to blue */
+    background-color: #FFFFFF;
+    /* White background for the icon */
+    border-radius: 50%;
+    /* Makes the icon circular */
+    width: 24px;
+    /* Sets the width of the circular icon */
+    height: 24px;
+    /* Sets the height of the circular icon */
+    display: flex;
+    /* Use flexbox to center the icon content */
+    align-items: center;
+    /* Center vertically */
+    justify-content: center;
+    /* Center horizontally */
+}
+
+
+/* Hover state for the blue filter button */
+button#hero_advanced_filter_btn.filter-btn-blue:hover {
+    background-color: #FFFFFF;
+    /* White background on hover */
+    border: 1px solid #012169;
+    /* Blue border on hover */
+    color: #012169;
+    /* Blue text color on hover for the button itself */
+}
+
+/* Hover state for the text inside the blue filter button */
+button#hero_advanced_filter_btn.filter-btn-blue:hover .advanced-filter-text {
+    font-weight: bold;
+    /* Makes the text bold on hover */
+    color: #012169;
+    /* Ensures text color remains consistent */
+}
+
+/* Hover state for the icon inside the blue filter button */
+button#hero_advanced_filter_btn.filter-btn-blue:hover .advanced-filter-icon {
+    color: #012169;
+    /* Ensures icon color remains consistent */
+    background-color: #FFFFFF;
+    /* White background for the icon on hover */
+}
+
+/* --- Styles for the filter chip itself (overall filter button) --- */
+div.filter-chip.clickable-chip {
+    height: 30px;
+    /* Sets the overall height of the filter chip */
+    display: flex;
+    /* Enable Flexbox for layout control */
+    align-items: center;
+    /* Vertically center content */
+    /* Using your provided background and color, and removing custom padding */
+    background-color: #012269;
+    color: white;
+}
+
+/* --- Styles for the remove filter button (X icon) --- */
+/* Targeting the remove filter button within its immediate parent chip */
+div.filter-chip.clickable-chip button.remove-filter.no-margin-bottom {
+    background-color: transparent;
+    /* Background is transparent in static state */
+    border-radius: 50%;
+    /* Makes it circular */
+    width: 24px;
+    /* Sets the width to 24px */
+    height: 24px;
+    /* Sets the height to 24px */
+    color: #FFFFFF;
+    /* Sets the color of the 'X' icon to white for visibility against dark chip */
+    display: flex;
+    /* Use flexbox to center the icon content */
+    align-items: center;
+    /* Center vertically */
+    justify-content: center;
+    /* Center horizontally */
+    padding: 0;
+    /* Remove any default padding */
+    margin-left: auto;
+    /* Pushes the button to the right within the flex container */
+    margin-right: 0;
+    /* Ensure no right margin */
+    flex-shrink: 0;
+    /* Prevent it from shrinking if parent is flex */
+    transform: translate(-1px, -1px, -5px, 0px);
+    transform: translateX(2px);
+}
+
+/* Hover state for the remove filter button (X icon) when the parent chip is hovered */
+div.filter-chip.clickable-chip:hover button.remove-filter.no-margin-bottom {
+    background: #FFFFFF;
+    /* Use shorthand background to force white background on hover */
+    background-image: none;
+    /* Explicitly remove any background image/gradient */
+    border: none;
+    /* Remove any default border on hover */
+    box-shadow: none;
+    /* Remove any default box-shadow on hover */
+    outline: none;
+    /* Remove any outline on hover */
+    color: #0153C1;
+    /* Blue 'X' icon on hover */
+}
+
+/* --- Styles for the category checkbox --- */
+input.category-checkbox {
+    accent-color: #012169;
+    /* Sets the background/accent color of the checkbox */
+}
+
+/* Explicitly target the checked state for the desired background color */
+input.category-checkbox:checked {
+    /* Removed custom background-color and border-color overrides */
+}
+
+/* --- Styles for the top-bar-nav and its search container --- */
+.top-bar-nav .search-container {
+    flex: 0 1 auto;
+    margin-right: 15px;
+    /* Ensure vertical centering */
+    display: flex;
+    /* Make it a flex container */
+    align-items: center;
+    /* Vertically center its content */
+    height: 100%;
+    /* Take full height of parent */
+}
+
+/* --- Styles for ul.user-controls to override default margins --- */
+ul.user-controls {
+    margin-bottom: 0;
+    /* Remove bottom margin */
+    margin-left: 0;
+    /* Remove left margin */
+    display: flex;
+    /* Treat as flex container for better alignment control */
+    align-items: center;
+    /* Vertically center its content */
+    height: 100%;
+    /* Take full height of parent */
+}
+
+/* --- Styles for button#header-advanced-filter-btn.header-advanced-filter-btn to match .filter-btn-blue --- */
+
+/* Static state */
+button#header-advanced-filter-btn.header-advanced-filter-btn {
+    background-color: #FFFFFF;
+    /* White background */
+    border: 1px solid #012169;
+    /* Blue border */
+    color: #012169;
+    /* Blue text color for the button itself */
+    border-radius: 20px;
+    /* Keep original border-radius */
+    margin-left: 25px;
+    /* Keep original margin-left */
+    margin-top: 0px;
+    /* Keep original margin-top */
+    margin-bottom: 0px;
+    /* Keep original margin-bottom */
+}
+
+/* Ensure the text inside this button is blue in its default state */
+button#header-advanced-filter-btn.header-advanced-filter-btn span {
+    color: #012169;
+    /* Sets the text color to blue for the span */
+    font-weight: normal;
+    /* Ensure default font-weight is normal */
+}
+
+/* Ensure the icon inside this button is blue in its default state */
+button#header-advanced-filter-btn.header-advanced-filter-btn i.fa-chevron-down {
+    color: #012169;
+    /* Sets the icon color to blue */
+    background-color: #FFFFFF;
+    /* White background for the icon */
+    border-radius: 50%;
+    /* Makes the icon circular */
+    width: 24px;
+    /* Sets the width of the circular icon */
+    /* height: 24px; */
+    /* Sets the height of the circular icon */
+    /* display: flex; */
+    /* Use flexbox to center the icon content */
+    align-items: center;
+    /* Center vertically */
+    justify-content: center;
+    /* Center horizontally */
+}
+
+/* Hover state */
+button#header-advanced-filter-btn.header-advanced-filter-btn:hover {
+    background-color: #FFFFFF;
+    /* White background on hover */
+    border: 1px solid #012169;
+    /* Blue border on hover */
+    color: #012169;
+    /* Blue text color on hover for the button itself */
+}
+
+/* Hover state for the icon inside this button */
+button#header-advanced-filter-btn.header-advanced-filter-btn:hover i.fa-chevron-down {
+    color: #012169;
+    /* Ensures icon color remains consistent */
+    background-color: #FFFFFF;
+    /* White background for the icon on hover */
+}
+
+#hero_search_form #hero_search_submit {
+    display: inline-block;
+}
+
+button.advanced-filter-close-btn:focus {
+    background-color: lightblue;
+}
+
+/* Beginning of Bofa ADVANCED SEARCH CSS */
+h1.hero-h1 {
+    line-height: 1;
+    padding-top: 70px;
+    font-size: 42px;
+    font-weight: 400;
+    font-family: "cnx-regular", Arial, Helvetica, sans-serif;
+}
+
+#hero_search {
+    width: 448px;
+    max-width: 448px;
+    border: 1px solid #646464;
+    color: #000000;
+    font-size: Roboto;
+    font-size: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+#hero_search_submit {
+    width: 111px;
+    margin-left: 16px;
+}
+
+.top-bar-nav {
+    padding-left: 24px;
+    height: 60px;
+}
+
+.top-bar-nav .title {
+    height: 60px;
+    padding-left: 0;
+}
+
+#hero_search_form {
+    max-width: 583px;
+    border: none;
+    margin: 0;
+}
+
+#maincontent .hero-search {
+    padding-top: 32px;
+}
+
+.card-area h2.topic-folders-title {
+    margin: 40px 0 20px 5px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "cnx-regular", Arial, Helvetica, sans-serif;
+}
+
+.merchant-text {
+    color: #857363;
+    font-family: "cnx-medium", Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+#search-col {
+    height: 175px;
+}
+
+div#header_advanced_filter_dropdown.advanced-filter-dropdown {
+    position: fixed;
+}
+
+#header_advanced_filter_dropdown .category-name,
+#hero_advanced_filter_dropdown .category-name {
+    font-family: "cnx-regular", Arial, Helvetica, sans-serif;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+#hero_searchContainer .search_block .hero-filter-container {
+    margin-top: 12px;
+    max-width: 583px;
+    padding-bottom: 0;
+}
+
+.search-controls-container,
+.hero-filter-container {
+    max-width: 583px;
+}
+
+.search-controls-container .hero-filter-container {
+    margin-top: 12px;
+}
+
+.hero-filter-container button#hero_advanced_filter_btn {
+    background: white;
+    font-family: Roboto;
+    font-weight: 400;
+    width: 106px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 16px;
+    gap: 14px;
+    border: none;
+    margin-top: 0;
+}
+
+#hero_advanced_filter_btn,
+#hero_advanced_filter_btn .advanced-filter-icon,
+#hero_advanced_filter_btn i {
+    color: #012169;
+;
+}
+
+.advanced-filter-btn .advanced-filter-icon,
+.header-advanced-filter-btn .advanced-filter-icon,
+.header-advanced-filter-btn .fa {
+    display: inline-block;
+    transition: transform 0.3s ease;
+    transform: rotate(0deg);
+}
+
+.advanced-filter-btn.active .advanced-filter-icon,
+.header-advanced-filter-btn.active .advanced-filter-icon,
+.header-advanced-filter-btn.active .fa {
+    transform: rotate(180deg);
+}
+
+#header-advanced-filter-btn .advanced-filter-icon,
+#header-advanced-filter-btn .fa {
+    margin-left: 8px;
+    margin-right: 0;
+    background-color: transparent;
+}
+
+#article .top-bar-nav .search-container.hidden {
+    display: none;
+}
+
+.search-container .user-controls .header-search-container .header-search-form #header-advanced-filter-btn .fa {
+    background-color: transparent;
+}
+
+#hero_advanced_filter_btn {
+    font-weight: normal;
+}
+
+#header-advanced-filter-btn {
+    margin: 0 0 0 20px;
+    font-family: Roboto;
+    font-weight: 400;
+    width: 106px;
+    height: 32px;
+    padding: 5px 10px;
+    font-size: 14px;
+    padding-left: 15px;
+    background-color: #ffffff;
+    border-color: #012169;
+    color: #012169;
+}
+
+#header-advanced-filter-btn.active,
+#hero_advanced_filter_btn.active {
+    font-weight: 700;
+    will-change: font-weight;
+}
+
+#hero_searchContainer .hero-filter-container button#hero_advanced_filter_btn i.advanced-filter-icon {
+    background-color: transparent;
+}
+
+.search-results-wrapper {
+    border: none;
+}
+
+.tt-section .card-area h2:first-of-type {
+    display: block;
+}
+
+.advanced-filter-actions {
+    min-height: 24px;
+}
+
+.advanced-filter-actions button {
+    right: 0;
+    top: 0;
+}
+
+#hero_advanced_filter_dropdown .advanced-filter-header .advanced-filter-actions .deselect-all-btn,
+#header_advanced_filter_dropdown .advanced-filter-header .advanced-filter-actions .deselect-all-btn {
+    color: #0053c2;
+    padding: 0px 8px;
+    line-height: 20px;
+}
+
+#header_advanced_filter_dropdown .advanced-filter-actions .select-all-btn,
+#hero_advanced_filter_dropdown .advanced-filter-actions .select-all-btn {
+    color: #0053c2;
+    padding: 0 8px 0 0;
+    line-height: 20px;
+}
+
+.filter-column .filter-categories {
+    gap: 20px;
+}
+
+.advanced-filter-content {
+    padding: 0 16px 0px 16px !important
+}
+
+#header_advanced_filter_dropdown .advanced-filter-content {
+    padding: 0 0 0 16px;
+}
+
+.advanced-filter-header h3 {
+    color: #000000;
+    font-family: "cnx-regular", Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    line-height: 24px;
+    padding-bottom: 16px;
+}
+
+.header-title-row {
+    margin-bottom: 0 !important
+}
+
+.advanced-filter-header {
+    background-color: #ffffff;
+    border: none;
+    border-radius: 15px;
+    padding: 16px 16px 12px 16px !important
+}
+
+.advanced-filter-dropdown {
+    border-radius: 15px;
+    max-height: 380px;
+}
+
+#header_advanced_filter_dropdown .advanced-filter-actions .deselect-all-btn,
+#hero_advanced_filter_dropdown .advanced-filter-actions .deselect-all-btn {
+    border-radius: 0;
+}
+
+#hero_advanced_filter_dropdown .category-label,
+#header_advanced_filter_dropdown .category-label {
+    align-items: center;
+    gap: 12px;
+    padding: 0;
+}
+
+#hero_advanced_filter_dropdown .filter-categories .category-item .category-label input.category-checkbox,
+#header_advanced_filter_dropdown .filter-categories .category-item .category-label input.category-checkbox {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+    border: 1px solid #646464;
+    border-radius: 2px;
+    position: relative;
+    cursor: pointer;
+}
+
+#hero_advanced_filter_dropdown .filter-categories .category-item .category-label input.category-checkbox:checked,
+#header_advanced_filter_dropdown .filter-categories .category-item .category-label input.category-checkbox:checked {
+    background-color: #0053c2;
+    border: 2px solid #0053c2;
+}
+
+/* Create custom checkmark */
+#hero_advanced_filter_dropdown .filter-categories .category-item .category-label input.category-checkbox:checked::after,
+#header_advanced_filter_dropdown .filter-categories .category-item .category-label input.category-checkbox:checked::after {
+    content: "";
+    position: absolute;
+    left: 4px;
+    top: -2px;
+    width: 8px;
+    height: 17px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+
+.advanced-filter-footer {
+    border: none;
+    padding: 16px;
+}
+
+.advanced-filter-footer button {
+    width: 100px;
+    height: 32px;
+    font-size: 14px;
+    font-family: Roboto;
+    font-weight: 500;
+}
+
+.advanced-filter-header .advanced-filter-close-btn {
+    font-size: 24px;
+    top: 20px;
+}
+
+.advanced-filter-header .advanced-filter-close-btn i.fa {
+    margin: 0;
+}
+
+.search-results-container .topic-folders-container .topic-tile:nth-child(6) {
+    border-bottom: 1px solid #e0e0e0;
+    margin-bottom: 24px;
+}
+
+#hero_search-results-wrapper {
+    max-height: 590px;
+    width: 942px;
+}
+
+.search-results-container {
+    padding: 0;
+    border: none;
+}
+
+#hero_search-results-wrapper {
+    width: 974px;
+    max-width: 974px;
+    max-height: 680px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+    box-sizing: border-box;
+    font-weight: 400;
+    font-family: "cnx-regular", Arial, Helvetica, sans-serif;
+    color: #646464;
+    margin-top: 10px;
+}
+
+.search-results-container-inner {
+    padding: 16px 32px 24px 32px;
+}
+
+.search-results-wrapper .search-results {
+    padding: 0;
+}
+
+.topic-description {
+    color: #646464;
+}
+
+.topic-description p {
+    color: #646464;
+    font-weight: 500;
+    font-family: "cnx-regular", Arial, Helvetica, sans-serif;
+    color: #646464;
+}
+
+#resultsCount,
+#hero_resultsCount {
+    margin: 0.5rem 0 0;
+}
+
+.search-page-link {
+    color: #0053c2;
+    font-weight: 400;
+    font-family: "cnx-regular", Arial, Helvetica, sans-serif;
+    display: inline;
+}
+
+.topic-folders-container.expanded .inner-container {
+    padding: 12px 0px;
+}
+
+.hero-filter-container {
+    position: relative;
+    padding-bottom: 0;
+}
+
+.search-controls-container {
+    margin-top: 70px;
+    margin-bottom: 42px;
+}
+
+.search-results-list {
+    margin: 0;
+    padding: 0;
+}
+
+.search-results-list,
+.search-page-header {
+    width: auto;
+}
+
+#kb-search-title {
+    color: #646464;
+}
+
+.search-results-list .search-page-result {
+    padding: 0;
+    margin: 25px 0;
+}
+
+.search-results-list .search-page-result:last-of-type {
+    border-bottom: none;
+}
+
+.search-page-result-title {
+    color: #0053c2;
+}
+
+.search-page-result-preview {
+    color: #646464;
+}
+
+#hero_searchContainer hr {
+    display: none;
+}
+
+.search_block #hero_advanced_filter_dropdown {
+    position: absolute;
+    top: calc(100% + 4px);
+    left: 0;
+    transform: none;
+    margin: 0;
+    max-width: 389px;
+    border: none;
+}
+
+#header_advanced_filter_dropdown {
+    position: absolute;
+    right: 15px;
+    left: auto;
+    transform: none;
+    margin: 0;
+    max-width: 389px;
+    border: none;
+}
+
+#header_advanced_filter_dropdown .advanced-filter-header {
+    background-color: #ffffff;
+    border: none;
+    border-radius: 15px;
+    padding: 16px 16px 12px 16px;
+}
+
+.hero-search .search_block div.advanced-filter-dropdown {
+    max-width: 389px;
+    min-width: 389px;
+}
+
+div#skip-to-main.hero-container {
+    height: 320px;
+}
+
+.header-search-form {
+    width: 174px;
+    height: 36px;
+    border-color: #646464;
+    right: 7.3em;
+}
+
+#header-search-btn {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    height: 26px;
+    background: transparent;
+}
+
+.header-search-btn i.fa-search {
+    margin: -3px;
+    font-size: 20px;
+}
+
+.header-search-input:focus {
+    max-width: 172px;
+    margin-right: 23px;
+}
+
+div#hero_xhrSpinner {
+    right: 0;
+}
+
+.hidden {
+    display: none !important;
+}
+
+#search_block,
+.search_block {
+    transform: none;
+    max-width: 583px;
+}
+
+.filter-chip.clickable-chip {
+    padding: 6px 1px 6px 12px;
+    transition: background-color 0.15s, border-color 0.15s, color 0.15s;
+    cursor: pointer;
+}
+
+#hero_selected_filters {
+    margin-top: 0;
+}
+
+#hero_selected_filters .filter-chip {
+    border: 2px solid transparent;
+}
+
+/* Fix: aligned the filter close “X” button uniformly on all platforms */
+#hero_selected_filters .filter-chip .remove-filter {
+    background-color: #ffffff;
+    color: #0053c2;
+    border: 2px solid #0053c2;
+    position: relative;
+    display: inline-block;
+    width: 29px;
+    height: 29px;
+    box-sizing: border-box;
+    padding: 0;
+    font-size: 0;
+    line-height: 1;
+}
+
+#hero_selected_filters .filter-chip .remove-filter::before,
+#hero_selected_filters .filter-chip .remove-filter::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 14px;
+    height: 2px;
+    background: currentColor;
+    transform-origin: center;
+    transform: translate(-50%, -50%) rotate(45deg);
+    border-radius: 1px;
+}
+
+#hero_selected_filters .filter-chip .remove-filter::after {
+    transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+/* End of fix */
+.search-box-controls-container {
+    padding-left: 0;
+}
+
+.header-search-form .header-search-input {
+    width: 172px;
+    margin-right: 0;
+    font-family: Roboto;
+    font-size: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+
+#hero_searchContainer .search-controls-container>div.large-12.columns,
+.search-page-header {
+    padding-left: 0;
+    margin-top: 0;
+}
+
+#hero_searchContainer .search-controls-container>div.large-12.columns {
+    padding-right: 0;
+}
+
+.search-controls-container .hero-filter-container {
+    padding-bottom: 0;
+}
+
+.search-controls-container .hero-filter-container #hero_advanced_filter_btn {
+    border: 1px solid #012169;
+}
+
+.advanced-filter-btn.active i.fa-chevron-down,
+.header-advanced-filter-btn.active i.fa-chevron-down {
+    text-shadow: 0 0 1px currentColor;
+}
+
+.selected-filters .filter-chip {
+    margin-bottom: 0;
+}
+
+.search-controls-container #hero_search_submit {
+    margin-left: 24px;
+}
+
+#hero_selected_filters .filter-chip .remove-filter {
+    padding: 2px 0 3px 1px;
+}
+
+.trending-topics {
+    height: 80px;
+}
+
+.tt-card-text {
+    font-size: 16px;
+;
+}
+
+.filter-chip-label {
+    font-weight: 700;
+}
+
+#static_noResults>div.columns {
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.typeahead-close-btn {
+    font-size: 24px;
+    margin: 0;
+}
+
+.typeahead-close-btn .fa {
+    margin: 0;
+}
+
+.typeahead-close-btn:focus {
+    outline-offset: 0;
+    outline: 2px solid #0052c3;
+    margin: 0;
+    background: transparent;
+}
+
+ul.category-list {
+    margin-left: 0;
+    margin-bottom: 0;
+}
+
+li.category-item {
+    margin-bottom: 20px;
+}
+
+li.category-item:last-child {
+    margin-bottom: 8px;
+}
+
+/* hove state for desktop only */
+@media (hover: hover) and (pointer: fine) {
+    .hero-filter-container button#hero_advanced_filter_btn:hover {
+        background-color: #e5edf8;
+        border-color: #0053c2;
+        font-weight: 400;
+    }
+
+    .hero-filter-container button#hero_advanced_filter_btn.active:hover {
+        font-weight: 400;
+    }
+
+    #hero_selected_filters .filter-chip:hover {
+        background-color: #e5edf8;
+        border: 2px solid #0053c2;
+    }
+
+    #hero_selected_filters .filter-chip .remove-filter:hover {
+        background: transparent;
+        border: 2px solid transparent;
+        color: #0053c2;
+        box-shadow: none;
+    }
+
+    #hero_selected_filters .filter-chip:hover .filter-chip-text,
+    #hero_selected_filters .filter-chip:hover .filter-chip-text .filter-chip-label,
+    #hero_selected_filters .filter-chip:hover .remove-filter {
+        color: #0053c2;
+    }
+
+    #hero_selected_filters .filter-chip:hover .filter-chip-text,
+    #hero_selected_filters .filter-chip:hover .remove-filter {
+        color: #0053c2;
+    }
+
+    #hero_selected_filters .filter-chip:hover .remove-filter {
+        background: transparent;
+        border: 2px solid transparent;
+        color: #0053c2;
+        box-shadow: none;
+    }
+
+    button#hero_advanced_filter_btn.active:hover {
+        font-family: "cnx-regular", Arial, Helvetica, sans-serif;
+        font-weight: normal;
+    }
+
+    #header-advanced-filter-btn:hover {
+        background-color: #e5edf8;
+        border-color: #0053c2;
+        color: #012169;
+    }
+
+    .search-page-link:hover {
+        background-color: #ffffff;
+    }
+
+    .user-controls .header-search-container .header-search-form button#header-advanced-filter-btn.header-advanced-filter-btn:hover {
+        background-color: #E5EDF8;
+        border: 1px solid #0053C2;
+        font-weight: 400;
+    }
+
+    #header-advanced-filter-btn.active:hover advanced-filter-text {
+        font-weight: 400;
+    }
+
+    .search-container .user-controls .header-search-container .header-search-form #header-advanced-filter-btn .fa:hover {
+        background-color: transparent;
+    }
+
+    .advanced-filter-btn.active:hover i.fa-chevron-down,
+    .header-advanced-filter-btn.active:hover i.fa-chevron-down {
+        text-shadow: none;
+    }
+
+    .filter-chip-label:hover {
+        color: #0053c2;
+    }
+}
+
+
+/* iPad */
+@media (min-width: 767px) and (max-width: 1024px) {
+    h1.hero-h1 {
+        margin-bottom: -1px;
+        padding-bottom: 1px;
+    }
+
+    #hero_search-results-wrapper {
+        max-width: 720px;
+    }
+
+    .top-bar-nav .title {
+        flex-wrap: wrap;
+        padding-left: 0;
+    }
+
+    .header-search-container {
+        display: flex;
+    }
+
+    .top-bar-nav {
+        flex-direction: column;
+        height: auto;
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction: column;
+        align-content: flex-start;
+        padding: 15px 0 15px 24px;
+    }
+
+    .header-search-container {
+        display: flex;
+    }
+
+    #header_advanced_filter_dropdown {
+        position: fixed;
+        left: 23px;
+        width: 343px;
+        min-width: 343px;
+        top: 20%;
+    }
+
+    .header-search-form {
+        flex-direction: column;
+        align-items: flex-start;
+        right: 0;
+    }
+
+    .top-bar-nav .search-container {
+        max-width: 550px;
+        width: 100%;
+        min-height: 90px;
+        margin-top: 15px;
+        margin-right: 0;
+        display: block;
+    }
+
+    #header-search-input,
+    .header-search-form {
+        padding: 0 0 0 10px;
+        width: 295px;
+        min-width: 293px;
+        min-height: 34px;
+        font-size: 16px;
+    }
+
+    .search-container .user-controls .header-search-container .header-search-form #header-advanced-filter-btn {
+        margin: 15px 0 0 0;
+    }
+
+    .tt-label {
+        min-width: 135px;
+    }
+
+    .tt-card {
+        max-width: 315px;
+    }
+
+    .tt-card-text {
+        font-size: 16px;
+    }
+
+    .card-area h2.topic-folders-title {
+        margin: 40px 0 19px 20px;
+    }
+
+    .kb-title#kb-search-title {
+        font-weight: 600;
+        font-size: 23px;
+        line-height: 29px;
+    }
+}
+
+@media (max-width: 767px) {
+    .hidden {
+        display: none;
+    }
+
+    #hero_search-results-wrapper {
+        width: 348px;
+    }
+
+    h1.hero-h1 {
+        padding-top: 45px;
+        margin-bottom: -1px;
+        padding-bottom: 1px;
+        font-size: 28px;
+        line-height: 100%;
+        font-weight: 400;
+    }
+
+    #maincontent .hero-search {
+        padding-top: 20px;
+    }
+
+    .merchant-text {
+        display: flex;
+        margin-left: 0px;
+        margin-top: 13px;
+        font-weight: 500;
+        font-size: 20px;
+        height: auto;
+    }
+
+    .brand-logo {
+        max-width: 291px;
+    }
+
+    .brand-logo img {
+        width: 98%;
+    }
+
+    .top-bar-nav .title {
+        flex-wrap: wrap;
+        padding: 0 0 24px 0;
+        /* remove flex: 1; */
+    }
+
+    #search-col {
+        padding: 0 24px;
+    }
+
+    #search-col .search_block .hero-filter-container {
+        justify-content: center;
+        margin-top: 25px;
+    }
+
+    header {
+        margin-top: 24px;
+    }
+
+    .top-bar-nav {
+        height: auto;
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction: column;
+        align-content: flex-start;
+        padding: 0 20px;
+    }
+
+    #kb-search-title {
+        padding-left: 25px;
+    }
+
+    #hero_advanced_filter_btn {
+        margin-left: 0;
+    }
+
+    #hero_advanced_filter_dropdown .advanced-filter-dropdown {
+        display: flex;
+        align-items: center;
+    }
+
+    #hero_search_submit {
+        display: flex;
+        align-items: center;
+    }
+
+    #search-col #hero_search_submit {
+        margin-left: 4px;
+    }
+
+    .search-controls-container {
+        margin-top: 50px;
+    }
+
+    .search-controls-container #hero_search_submit {
+        margin-left: 20px;
+    }
+
+    .search-page-header h1.kb-title {
+        font-family: var(--type-font-family-display, Connections);
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: var(--type-line-height-headline-xs, 24px);
+        padding-left: 16px;
+    }
+
+    .hero-search .search_block div.advanced-filter-dropdown {
+        min-width: 348px;
+    }
+
+    .hero-search .search_block div.advanced-filter-dropdown#hero_advanced_filter_dropdown {
+        position: absolute;
+        top: calc(103%);
+        width: 343px;
+        min-width: 343px;
+        overflow: auto;
+        margin: auto;
+    }
+
+    #hero_searchContainer .search-controls-container #hero_advanced_filter_dropdown {
+        left: 22px;
+        margin: 0;
+        width: 343px;
+        min-width: 343px;
+    }
+
+    #hero_hasResults {
+        width: 343px;
+    }
+
+    .top-bar-nav img {
+        max-width: 289px;
+    }
+
+    .header-search-form {
+        flex-direction: column;
+        align-items: flex-start;
+        right: 0;
+        margin-top: 10px;
+    }
+
+    .top-bar-nav .search-container {
+        max-width: 485px;
+        width: 100%;
+        min-height: 110px;
+        margin-top: -15px;
+        margin-right: 0;
+        display: block;
+    }
+
+    #header-search-input,
+    .header-search-form {
+        width: 295px;
+        min-width: 293px;
+        min-height: 34px;
+        font-size: 16px;
+    }
+
+    .active-search .header-search-form #header-search-input:focus {
+        width: 293px;
+        max-width: 293px;
+        padding-bottom: 10px;
+        min-height: 34px;
+    }
+
+    .search-container .user-controls .header-search-container .header-search-form #header-advanced-filter-btn {
+        margin: 15px 0 0 0;
+    }
+
+    #header-advanced-filter-btn:focus,
+    #header-advanced-filter-btn:hover,
+    #header-advanced-filter-btn:active {
+        display: inline-flex;
+    }
+
+    #header-advanced-filter-btn.active,
+    #hero_advanced_filter_btn.active {
+        font-weight: 700;
+        will-change: font-weight;
+    }
+
+    #header_advanced_filter_dropdown {
+        position: fixed;
+        left: 20px;
+        top: calc(21%);
+        width: 343px;
+        min-width: 343px;
+    }
+
+    .header-search-container {
+        display: flex;
+    }
+
+    .search-box-controls-container {
+        padding-left: 15px;
+    }
+
+    #header-advanced-filter-btn {
+        margin: 15px 0 0 0;
+    }
+
+    #hero_searchContainer .search-controls-container>div.large-12.columns {
+        padding: 0 24px;
+    }
+
+    .header-title-row h3 {
+        line-height: 24px;
+        padding: 0px 0px 16px 8px;
+        margin: 0;
+    }
+
+    .advanced-filter-header {
+        padding-top: 20px;
+    }
+
+    #header_advanced_filter_dropdown .advanced-filter-header {
+        padding: 20px 16px 12px 16px !important
+    }
+
+    .advanced-filter-header h3 {
+        padding: 0 0 20px 8px;
+        display: inline-block;
+    }
+
+    .advanced-filter-header .advanced-filter-close-btn {
+        top: 20px;
+    }
+
+    .search_block>.search-controls-container {
+        margin-top: 39px;
+        margin-bottom: 24px;
+    }
+
+    .search-results-list .search-page-result {
+        margin: 24px 24px;
+    }
+
+    .trending-topics {
+        margin: -83px 10px -45px;
+        width: 327px;
+    }
+
+    #search-col {
+        height: 230px;
+    }
+
+    .tt-card-text {
+        font-size: 16px;
+    }
+
+    .topic-folders-title {
+        font-size: 20px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .trending-topics {
+        height: auto;
+    }
+
+    #static_noResults>div.columns {
+        padding-left: 24px;
+    }
+}
+
+/* End of Bofa CSS */</style>
+    
+</head>
+<body id="article">
+<div class="container article-detail-view">
+    
+    <header>
+        <a class="ada-hidden ada-visible-focus" href="#maincontent" id="ada-skip-link">Skip to main content</a>
+<nav class="top-bar-nav" role="navigation">
+  <div class="title">
+    <div class="brand-logo">
+      <a href="/" id="nav-logo">
+        <img src="/kb/upload_files/bb0c14aafddb7ac8d8b6c5e2af11b4e0.png" alt="Bank of America Logo">
+      </a>
+    </div>
+    <div class="merchant-text"> Merchant Help Center</div>
+  </div>
+  <div class="search-container hidden" id="search-container-controls">
+    <ul class="user-controls">
+      <li class="header-search-container">
+        <div class="header-search-form">
+          <input type="text" id="header-search-input" class="header-search-input" placeholder="Search" aria-label="Search articles">
+          <button type="button" id="header-search-btn" class="header-search-btn" aria-label="Search">
+            <i class="fa fa-search"></i>
+          </button>
+          
+          <button type="button" id="header-advanced-filter-btn" class="header-advanced-filter-btn" aria-label="Filter by category" aria-expanded="false" aria-controls="header_advanced_filter_dropdown" aria-haspopup="dialog">
+            Filter by<i class="fa fa-chevron-down"></i>
+          </button>
+          
+        </div>
+        
+        <!-- Header Advanced Filter Dropdown -->
+        <div id="header_advanced_filter_dropdown" class="advanced-filter-dropdown hidden" role="dialog" aria-modal="true" aria-labelledby="header_advanced_filter_title">
+          <div class="advanced-filter-header">
+            <h3 id="header_advanced_filter_title">Choose categories</h3>
+            <button type="button" class="advanced-filter-close-btn" aria-label="Close filter dropdown">
+              <i class="fa fa-times"></i>
+            </button>
+            <div class="advanced-filter-actions">
+              <button type="button" class="select-all-btn">Select all</button>
+              <button type="button" class="deselect-all-btn">Deselect all</button>
+            </div>
+          </div>
+          <div class="advanced-filter-content">
+            <div class="filter-columns">
+              <div class="filter-column">
+                <div class="filter-categories">
+                  <!-- Categories will be populated by JavaScript -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="advanced-filter-footer">
+            <button type="button" class="apply-filter-btn">Apply filter</button>
+          </div>
+        </div>
+        <!-- Header Selected Filters Display -->
+        <div id="header_selected_filters" class="selected-filters hidden">
+          <!-- Selected filter chips will be displayed here -->
+        </div>
+        
+      </li>
+      
+      <!-- <li><button id="nav-login-link" class="header-link login" href="https://app.goboomtown.com/api/sso/kb/?redirect_to=https%3A%2F%2Fuat-merchanthelp.bankofamerica.com%2Fscreens%2Farticle%2Fsso.php&state=L2ticy91YXQtbWVyY2hhbnRoZWxwLmJhbmtvZmFtZXJpY2EuY29tL3NpdGVtYXAueG1s&client_id=kb%3A57c1d7ad-76bf-4599-a88a-de9518a0e0e2" aria-label="Login">Login</button></li> -->
+      
+
+      
+
+      
+    </ul>
+  </div>
+</nav>
+
+<script type="text/javascript" nonce="63LL7g3kzek9">
+  (function () {
+    document.addEventListener('DOMContentLoaded', function () {
+      var searchResultsForm = document.getElementById('hero_search');
+      var searchContainer = document.getElementById('search-container-controls');
+      if (!searchResultsForm && searchContainer) {
+        searchContainer.classList.remove('hidden');
+      }
+      // Skip to main: focus main, no hash
+      var skipLink = document.getElementById('ada-skip-link');
+      if (!skipLink) return;
+      function goToMainContent(e) {
+        e.preventDefault();
+        var maincontent = document.getElementById('maincontent');
+        if (!maincontent) return;
+        if (!maincontent.hasAttribute('tabindex')) maincontent.setAttribute('tabindex', '-1');
+        maincontent.focus({ preventScroll: true });
+        maincontent.scrollIntoView({ block: 'start' });
+        try { history.replaceState(null, '', location.pathname + location.search); }
+        catch (error) { console.log(error) }
+        maincontent.addEventListener('blur', function () { maincontent.removeAttribute('tabindex'); }, { once: true });
+      }
+      skipLink.addEventListener('click', goToMainContent);
+      skipLink.addEventListener('keydown', function (e) {
+        if (e.key === ' ' || e.key === 'Spacebar' || e.code === 'Space') { goToMainContent(e); }
+      });
+
+      // ADA fix to remove desc span and aria-describedby
+      function removeDescSpan(descId, containerId) {
+        setTimeout(function() {
+          var descSpan = document.getElementById(descId);
+          if (descSpan) {
+            descSpan.remove();
+          }
+          var container = document.getElementById(containerId);
+          if (container && container.hasAttribute('aria-describedby')) {
+            container.removeAttribute('aria-describedby');
+          }
+        }, 100);
+      }
+
+      var heroFilterBtn = document.getElementById('hero_advanced_filter_btn');
+      var headerFilterBtn = document.getElementById('header-advanced-filter-btn');
+      var filterChipBtn = document.getElementById('hero_selected_filters');
+
+      if (heroFilterBtn) {
+        heroFilterBtn.addEventListener('click', function() {
+          removeDescSpan('hero_advanced_filter_dropdown_desc', 'hero_advanced_filter_dropdown');
+        });
+      }
+      if (headerFilterBtn) {
+        headerFilterBtn.addEventListener('click', function() {
+          removeDescSpan('header_advanced_filter_dropdown_desc', 'header_advanced_filter_dropdown');
+        });
+      }
+      if (filterChipBtn) {
+        filterChipBtn.addEventListener('click', function() {
+          removeDescSpan('hero_advanced_filter_dropdown_desc', 'hero_advanced_filter_dropdown');
+        });
+      }
+
+    });
+  })();
+</script>
+
+<script type="text/javascript" nonce="63LL7g3kzek9">
+  (function () {
+    document.addEventListener('DOMContentLoaded', function () {
+      // Feedback
+      var helpfulSection = document.querySelector('#logout[title^="Logged"]');
+      if (helpfulSection) {
+        var link = document.createElement('a')
+        link.href = "http://sharepoint.bankofamerica.com/sites/MSProductCollaboration/MHC/Lists/MHC/NewForm.aspx?Source=http%3A%2F%2Fsharepoint%2Ebankofamerica%2Ecom%2Fsites%2FMSProductCollaboration%2FMHC%2FLists%2FMHC%2FAllItems%2Easpx&RootFolder=";
+        link.target = '_blank';
+        link.innerHTML = 'Give us your feedback, please - Internal only!'
+        internalFeedbackLink.appendChild(link)
+      }
+    });
+  })();
+</script>
+
+<!-- BofA Safe JavaScript Enhancements -->
+<script type="text/javascript" nonce="63LL7g3kzek9">
+  /**
+   * BofA Template Safe Enhancements
+   * Only essential fixes without risky overrides
+   */
+  (function() {
+    'use strict';
+
+    // Safe Fix: Ensure hover states work properly
+    function enhanceSearchResults() {
+      // Wait for search results to load, then enhance them
+      setTimeout(() => {
+        const searchResults = document.querySelectorAll('.search-results a, .topic-folders-container a');
+        searchResults.forEach(link => {
+          // Only add cursor if not already set
+          const computedStyle = window.getComputedStyle(link);
+          if (computedStyle.cursor === 'auto' || computedStyle.cursor === 'default') {
+            link.style.cursor = 'pointer';
+          }
+        });
+      }, 1000);
+    }
+
+    // Safe Fix: Add CSP-compliant dynamic styles
+    function addSafeStyles() {
+      const style = document.createElement('style');
+      style.textContent = `
+            /* Enhanced hover and clickability */
+            .search-results a:hover,
+            .topic-folders-container a:hover {
+                cursor: pointer !important;
+            }
+
+            /* Ensure search results are clickable */
+            .search-results li,
+            .topic-folders-container li {
+                pointer-events: auto !important;
+            }
+
+            .search-results li a,
+            .topic-folders-container li a {
+                pointer-events: auto !important;
+                position: relative !important;
+                z-index: 100 !important;
+            }
+        `;
+      document.head.appendChild(style);
+    }
+
+    // Apply enhancements when DOM is ready
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', function() {
+        addSafeStyles();
+        enhanceSearchResults();
+      });
+    } else {
+      addSafeStyles();
+      enhanceSearchResults();
+    }
+
+    // Re-enhance search results when new content loads (for dynamic searches)
+    const observer = new MutationObserver(function(mutations) {
+      mutations.forEach(function(mutation) {
+        if (mutation.type === 'childList' && mutation.addedNodes.length > 0) {
+          // Check if search results were added
+          const hasSearchResults = Array.from(mutation.addedNodes).some(node =>
+                          node.nodeType === 1 && (
+                                  node.matches && (
+                                          node.matches('.search-results') ||
+                                          node.querySelector && node.querySelector('.search-results')
+                                  )
+                          )
+          );
+          if (hasSearchResults) {
+            setTimeout(enhanceSearchResults, 100);
+          }
+        }
+      });
+    });
+
+    // Start observing for dynamic content
+    observer.observe(document.body, {
+      childList: true,
+      subtree: true
+    });
+
+  })();
+</script>
+    </header>
+    
+
+    <main id="maincontent">
+        
+<nav class="row breadcrumb row-breadcrumb" aria-label="Breadcrumb">
+  <div class="large-12 columns">
+    
+  </div>
+</nav>
+
+
+<div id="skip-to-main" class="main-container">
+  <div class="row article-container" id="article-container">
+    <article class="large-9 columns article-view" id="article-view">
+      <div class="row page-heading">
+        <header class="large-12 columns article-header">
+          <h1 class="kb-title" aria-label="Article title"></h1>
+          <span>
+
+            <date id="kbDate" class="kb-title kb-title-date" title=""></date>
+          </span>
+          <p>Description</p>
+          <div class="kb-title" aria-label="Article subtitle"></div>
+          <div class="large-12 columns">
+            <div class="article-toc-wrapper" id="article-toc-container">
+              <h2>What's in this article?</h2>
+            </div>
+          </div>
+      </div>
+      
+      <div id="kb-body">
+        <center><strong><font size="+2">You do not have access to this content</font></strong> <br><br> If you believe you should be able to access this page, please ensure you are in a supported web browser and click the login button in the top right of the screen.</center>
+      </div>
+    </article>
+    <aside class="large-3 columns toc" id="toc-container">
+      <h2>What's in this article?</h2>
+    </aside>
+  </div>
+  <div class="columns large-12">
+    <div class="article-helpful-container clearfix">
+      <div class="row">
+        <div class="large-8 medium-7 small-12 columns text-center">
+          <span class="article-helpful-text">Did you find this article helpful?</span>
+        </div>
+        <div class="large-4 medium-5 small-12 columns">
+          <div id="articleHelpful" class="article-helpful-buttons helpful-">
+
+            <button id="helpfulYes" class="kb-help-button button yes" type="button">
+              <span class="checked"><i class="fas fa-check"></i></span>
+              <span class="ada-hidden"> selected</span>
+            </button>
+
+            <button id="helpfulNo" class="kb-help-button button no" type="button">
+              <span class="checked"><i class="fas fa-times"></i></span>
+              <span class="ada-hidden"> selected</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- BEGIN Internal Feedback-->
+  <div class="row">
+    <div class="columns large-12">
+      <br>
+      <div id="internalFeedbackLink" class="text-center">
+      </div>
+    </div>
+  </div>
+  <!-- END Internal Feedback -->
+
+  <aside class="large-12 columns related-articles">
+    <h2></h2>
+    <ul>
+      
+    </ul>
+    
+    <ul>
+      
+    </ul>
+    <input id="related-tech-text" type="hidden" value="">
+  </aside>
+</div>
+    </main>
+</div>
+
+
+<footer class="footer">
+    <hr />
+    <div class="row footer-inner-container">
+        <div class="footer-wrapper">
+            <script nonce="63LL7g3kzek9">
+  var digitalData = new Object();
+  digitalData = {
+    pageInstanceID: 'notprod',
+    load_audiencemanager: false,
+    load_cobrowse: false,
+    load_coremetrics: true,
+    load_opinionlabs: false,
+    load_whiteops: false,
+    Load_ME_EnterpriseTagging: false,
+    load_demandbase: false,
+    load_qualtrics: false,
+    disable_pageviewonload: false,
+    page: {
+      pageInfo: [
+        {
+          pageID: "lob:type:cat_nm;page_nm",
+          pageName: null,
+          standardDART: [],
+          standardDARTes: [],
+          mboxCreateParam: "",
+          mboxCreateParam_es: "",
+          destinationURL: null,
+          referringURL: null,
+          issueDate: null,
+          language: "en",
+          segmentValue: "|st_NC||cck||rez_988_969|",
+          appName: null,
+          appStepNumber: null,
+          appStepName: null,
+          attr: "-_--_--_--_--_--_--_--_--_--_--_--_--_--_-"
+        }],
+      category: {
+        primaryCategory: "lob:type:cat_nm",
+        addlCategory: null,
+        pageType: null
+      },
+      attributes: {
+        searchString: null,
+        searchResults: null,
+        olbSessionID: null,
+        subCampaignCode: null,
+        pageIDHistory: [
+          {
+            pageInfoArrayIndex: 0,
+            pageID: "lob:type:cat_nm;page_nm",
+            timestamp: 1598374976606
+          }
+        ],
+        DARTUrl: null,
+        stateCookie: null,
+        SASIEnabled: false,
+        needOLBcookie: false,
+        standardDART: [
+          ""
+        ],
+        standardDARTes: [],
+        clickDART: [
+          ""
+        ],
+        clickDARTes: [],
+        gaId: [],
+        chat: {},
+        ddo: true,
+        mbox: false,
+        mboxCreateParams: "",
+        mboxCreateParam_es: "",
+        sundaysky: {}
+      }
+    },
+    user: {
+      segment: null,
+      online_id: null,
+      name: {
+        first: null,
+        last: null,
+        full: null
+      },
+      offers: [],
+      state: null,
+      preferred_rewards_tier: null,
+      olb3rdpartyid: null,
+      authenticated: false
+    },
+    privacy: {
+      do_not_track: false
+    },
+    version: 'BAC_0.25'
+  };
+
+  //  Tealium Loader Tag
+  window.utag_data = {};
+  window.bactm_envSelector = bactm_getTMEnvBasedOnHostname();
+  function bactm_getTMEnvBasedOnHostname(hostname) {
+    var env = "prod",
+        hostname = hostname || window.location.hostname,
+        hostnameParts = hostname.split("."),
+        notprodIndicators = [
+          "uat-"
+        ],
+        indicatorsLen = notprodIndicators.length;
+    for (var i = 0, partsLen = hostnameParts.length; i < partsLen; i++) {
+      if (env === "notprod") break;
+      var part = hostnameParts[i];
+      for (var j = 0; j < indicatorsLen; j++) {
+        var indicator = notprodIndicators[j];
+        if (part.indexOf(indicator) > -1) {
+          env = "notprod";
+          break;
+        }
+      }
+    }
+    return env;
+  }
+
+  (function (a, b, c, d) {
+    a = "//tags.tiqcdn.com/utag/bofa/mcoe/" + bactm_envSelector + "/utag.js";
+    b = document;
+    c = "script";
+    d = b.createElement(c);
+    d.src = a;
+    d.type = "text/javascript";
+    d.async = true;
+    a = b.getElementsByTagName(c)[0];
+    a.parentNode.insertBefore(d, a);
+  })();
+
+  const widgetTest1 = () => {
+    const widgetBaseURL = "https://www-dev4-helix.ecnp.bankofamerica.com";
+    const LOADER_VERSION = '6.0.1';
+    const widgetsInitName = 'widgets2.initialWidgetLoader';
+
+    var widget1 = {
+      name: "vendor-global-footer-widget",           // Widget name
+      version: "1.0.0",                           // Widget version
+      loaderVersion: LOADER_VERSION,
+      container: "widgetContainer1",              // ID of the element the widget will be loaded into
+      path: widgetBaseURL,                        // Base path to CDN/widget location
+      spinner: false,                             // Defaults to true; will display a spinner in the id while loading
+      options: {
+        withoutCredentials: true,
+        data: {
+          stuff: 'data1'
+        }
+      },
+      onload: spartaLoaderLoaded1
+    };
+
+    const addLoaderScript = () => {
+      const loader = document.createElement("script");
+      loader.type = "text/javascript";
+      loader.src = "https://www-dev4-helix.ecnp.bankofamerica.com/spa/widgets/loader/6.0.1/index.js";
+      loader.dataset.widgetName = widgetsInitName;
+      loader.onload = spartaLoaderInitialized1;
+      document.body.appendChild(loader);
+    }
+
+    if (window.sparta) { // sparta has already loaded somewhere
+      window.sparta.widgetLoader[LOADER_VERSION].load(widget1);
+    } else if (document.readyState !== 'loading') { // done loading but sparta doesn't exist
+      addLoaderScript();
+    } else {
+      window.addEventListener('DOMContentLoaded', (event) => { // wait till content is finished loading
+        addLoaderScript();
+      });
+    }
+
+    function spartaLoaderInitialized1() {
+      const initScript = document.querySelector(`[data-widget-name="widgets2.initialWidgetLoader"]`);
+      initScript.parentNode.removeChild(initScript);
+      window.sparta.widgetLoader[LOADER_VERSION].load(widget1);
+    }
+
+    function spartaLoaderLoaded1(myWidget) {
+      myWidget.events.sub("errorLoadingWidget", function (event) {  // Error handling
+        console.log("Error loading widget: ", event.widget.name);  // Original event object
+        console.log("HTTP code: ", event.xhrReq.status);           // Details of the XHR request
+      });
+
+      myWidget.events.sub("SPARTA_WIDGET_READY.spartaWidgetUtility", function (data) {
+        console.log("widget 1 loaded/refreshed: " + JSON.stringify(data.detail));
+      });
+    }
+  }
+
+  widgetTest1()
+
+</script>
+<div id="connectWithUs">
+  <h3>Connect with us</h3>
+  <div class="connect-icon">
+    <svg width="14px" height="24px" viewBox="0 0 14 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+      <title>icon-mobile</title>
+      <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Footer-/-large" transform="translate(-713, -96)" fill="#E31837">
+          <g id="Group" transform="translate(604, 96)">
+            <path d="M120.551167,0 C121.901,0 122.997667,1.0956 122.997667,2.4408 L123,21.5556 C123,22.9032 121.903333,24 120.5535,24 L111.445333,24 C110.096667,24 109,22.9056 109,21.5592 L109,2.4456 C109,1.0968 110.096667,0 111.445333,0 Z M120.551167,1.2 L111.445333,1.2 C110.7395,1.2 110.166667,1.758 110.166667,2.4456 L110.166667,21.5592 C110.166667,22.2432 110.7395,22.8 111.445333,22.8 L120.5535,22.8 C121.259333,22.8 121.833333,22.242 121.833333,21.5556 L121.831,2.4408 C121.831,1.7568 121.257,1.2 120.551167,1.2 Z M120.666667,2.4 L120.670167,19.2 L111.333333,19.2 L111.333333,2.4 L120.666667,2.4 Z M119.5,3.6 L112.5,3.6 L112.5,18 L119.5035,18 L119.5,3.6 Z" id="icon-mobile"></path>
+          </g>
+        </g>
+      </g>
+    </svg>
+  </div>
+  <p class="phone-number">833.344.2324</p>
+  <p>Available to assist you 24/7</p>
+</div>
+<div id="widgetContainer1"></div>
+        </div>
+    </div>
+</footer>
+
+
+
+
+<div id="mudata" data-muinfo='' hidden="true"></div>
+
+<script nonce="63LL7g3kzek9" src="https://cdn.goboomtown.com/screens/assets/javascripts/jquery/3.5.1/jquery-3.5.1.min.js"></script>
+<script nonce="63LL7g3kzek9" src="https://cdn.goboomtown.com/screens/assets/component/web.component.js"></script>
+<script nonce="63LL7g3kzek9" src="https://cdn.goboomtown.com/screens/assets/javascripts/foundation-5.3.0.custom/js/foundation.min.js"></script>
+<script nonce="63LL7g3kzek9" src="https://cdn.goboomtown.com/screens/assets/javascripts/jquery/plugins/jquery.waitforimages.min.js"></script>
+<script nonce="63LL7g3kzek9" src="//cdn.split.io/sdk/split-10.24.1.min.js"></script>
+<script nonce="63LL7g3kzek9" src="https://cdn.goboomtown.com/screens/article/modern/javascripts/default.js?20260703121133"></script>
+<script nonce="63LL7g3kzek9" src="https://cdn.goboomtown.com/screens/article/shared/javascripts/kbArticle.js?20260703121133"></script>
+<script nonce="63LL7g3kzek9" src="https://cdn.goboomtown.com/screens/assets/javascripts/splitio/featureFlags.js?20260703121133" async></script>
+<script nonce="63LL7g3kzek9" src="https://cdn.goboomtown.com/screens/article/modern/javascripts/kbSearch.js?20260703121133" async></script>
+<script nonce="63LL7g3kzek9" src="https://cdn.goboomtown.com/screens/article/modern/javascripts/kbRelatedTech.js?20260703121133" async></script>
+<script nonce="63LL7g3kzek9">
+    var www_url = "https://f.goboomtown.com";
+    var user_id = "";
+    var org_id = "KY6";
+    var kb_page_type = "category";
+</script>
+
+
+
+</body>
+</html>

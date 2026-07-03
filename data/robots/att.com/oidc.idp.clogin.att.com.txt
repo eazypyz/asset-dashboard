@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang='en'>
+
+<head>
+  <title>AT&amp;T - Error</title>
+    <base href="/">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7;IE=11; IE=EDGE" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,shrink-to-fit=no" />
+
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+    <!-- ADDING ADOBE CONTAINER HEADER -->
+<script type="text/javascript">
+  var detmScriptLoadType = 'async';
+  var detmContainerIsHaloC = true;
+  window.appDisableAutoPageload = true;
+
+  
+  window.detmContainerSSAFPath = 'https://signin.att.com/static/thirdparty/adobe/ssaf_universal_client/ssaf-uc.js';
+  
+  window.ssafHaloWorkerPath = 'https://signin.att.com/static/thirdparty/adobe/ssaf-worker.js';
+  
+  window.detmContainerQuantumPath = 'https://signin.att.com/static/thirdparty/quantum/loaders/quantum-att-loader.js';
+  
+  window.quantumMetricAssetLocation = 'https://signin.att.com/static/thirdparty/quantum/qscripts';
+  </script>
+
+<script
+  id="analyticsHeaderScript"
+  type="text/javascript"
+  src='https://signin.att.com/static/thirdparty/adobe/detm-container-hdr.js'
+  class="next-head"
+  data-trigger-dtm="loadAnalytics"
+></script>
+<script id="cobrowse-js">
+    (function(w,t,c,p,s,e){p=new Promise(function(r){w[c]={client:function(){if(!s){
+    s=document.createElement(t);s.src='https://signin.att.com/static/thirdparty/cobrowse/CobrowseIO.js';s.async=1;s.crossOrigin='anonymous';
+    e=document.getElementsByTagName(t)[0];e.parentNode.insertBefore(s,e);s.onload=function()
+    {r(w[c]);};}return p;}};});})(window,'script','CobrowseIO');
+
+
+window.CiamCobrowseConfig = {};
+
+CobrowseIO.api = "https:\/\/cobrowse.att.com";
+CobrowseIO.license = "ABYjkm6U_h0GiA";
+CobrowseIO.registration = false;
+CobrowseIO.redactedViews = ["*[id^=\x27savedUserRecord\x27]","#confirmRemoveUserID","input[id^=\x27P_SQ\x27]","label[id^=\x27collisionID\x27][id$=\x27Label\x27]","app\-manual\-login :is(#userID, #password)","app\-user\-input #userBackButton","app\-update\-profile :is(#P_FIRSTNAME, #P_LASTNAME, #P_CTN, #P_ZIP, #P_EMAIL)","app\-password\-input #password","app\-change\-pw :is(#password, #verifyPassword)","app\-profile\-otp #codeValue","app\-enter\-code #codeValue"];
+CobrowseIO.trustedOrigins = ["https:\/\/att.com","https:\/\/*.att.com"];
+
+
+
+    CobrowseIO.client().then(function(){
+        CobrowseIO.start();
+    });
+
+</script>
+
+<script>
+    window.loginJspEnvVars = {
+CMS_ERROR_IMG_URL: 'https://signin.att.com/static/siam/en/halo_c/cms/errors/default/images/',
+CANCEL_URL: 'https://www.att.com',
+CMS_LGN_IMG_URL: 'https://signin.att.com/static/siam/en/halo_c/cms/login/default/images/',
+ACTIVATE_LOGO: 'Y',
+APPNAME: 'default',
+ACTIVATE_ADOBE_TAGGING_FOR_CLIENT: 'Y',
+LOGIN_UI_HEADER: 'continue',
+logoURL: '/en/halo_c/images/logos/att_hz_lg_lkp_rgb_pos.svg',
+EN_FOOTER_LINKS: 'W3sibGlua0xhYmVsIjoiTGVnYWwgcG9saWN5IGNlbnRlciIsImxpbmtVUkwiOiJodHRwczovL3d3dy5hdHQuY29tL2xlZ2FsL2xlZ2FsLXBvbGljeS1jZW50ZXIuaHRtbCJ9LCB7ImxpbmtMYWJlbCI6IlByaXZhY3kgcG9saWN5IiwibGlua1VSTCI6Imh0dHBzOi8vYWJvdXQuYXR0LmNvbS9zaXRlcy9wcml2YWN5X3BvbGljeSJ9LCB7ImxpbmtMYWJlbCI6IlRlcm1zIG9mIHVzZSIsImxpbmtVUkwiOiJodHRwczovL3d3dy5hdHQuY29tL2xlZ2FsL3Rlcm1zLmF0dFdlYnNpdGVUZXJtc09mVXNlLmh0bWwifSwgeyJsaW5rTGFiZWwiOiJBY2Nlc3NpYmlsaXR5IiwibGlua1VSTCI6Imh0dHBzOi8vd3d3LmF0dC5jb20vZmVhdHVyZXMvYWNjZXNzaWJpbGl0eS5odG1sIn0sIHsibGlua0xhYmVsIjoiWW91ciBwcml2YWN5IGNob2ljZXMiLCJsaW5rVVJMIjoiaHR0cHM6Ly9hYm91dC5hdHQuY29tL2Nzci9ob21lL3ByaXZhY3kvcmlnaHRzX2Nob2ljZXMuaHRtbCIsImxpbmtJY29uIjoiY2NwYS1pY29uLnN2ZyIsImxpbmtJY29uQWx0VGV4dCI6IkNhbGlmb3JuaWEgQ29uc3VtZXIgUHJpdmFjeSBBY3QgKENDUEEpIE9wdC1PdXQgSWNvbiIsImxpbmtJY29uTG9jYXRpb24iOiJsZWZ0In1d',
+ENABLE_COBROWSE: 'Y',
+ACTIVATE_FOOTER_LINKS: 'Y',
+CMS_LGN_TEXT_URL: 'https://signin.att.com/static/siam/en/halo_c/cms/login/default/i18n/{lang}.json?v=29.5.3',
+CONTENT_STACK_HOST: 'https://signin.att.com/static/siam',
+ACTIVATE_IP_MARKING: 'Y',
+IPMarkingCompany: 'AT&T',
+
+    };
+    window.loginLanguage = 'en';
+    window.pageToLoad = 'sgw';
+  </script>
+
+<link
+  rel="preload"
+  href='https://signin.att.com/static/siam/en/halo_c/halo-c-login/assets/fonts/att/ATTAleckSans/woff2/ATTAleckSans_W_Rg.woff2'
+  as="font"
+  type="font/woff2"
+  crossorigin
+>
+
+<link
+  rel="preload"
+  href='https://signin.att.com/static/siam/en/halo_c/halo-c-login/assets/fonts/att/ATTAleckSans/woff2/ATTAleckSans_W_Bd.woff2'
+  as="font"
+  type="font/woff2"
+  crossorigin
+>
+<link
+  rel="preload"
+  href='https://signin.att.com/static/siam/en/halo_c/images/logos/att_hz_lg_lkp_rgb_pos.svg'
+  as="image"
+  type="image/svg+xml"
+>
+<link
+    rel="stylesheet"
+    href='https://signin.att.com/static/siam/en/halo_c/halo-c-login/styles.css?v=30.4.1'
+  >
+</head>
+
+<body>
+<div id="app-root"></div>
+
+<div style="display: none;">
+  <img src="https://www.att.com/pkmslogout" style="height: 0px; width: 0px; visibility: hidden; display: none;" alt="">
+  <img src="https://hc-analytics.idp.clogin.att.com/pkmslogout" style="height: 0px; width: 0px; visibility: hidden; display: none;" alt="">
+  <img src="https://cloauth.idp.clogin.att.com/pkmslogout" style="height: 0px; width: 0px; visibility: hidden; display: none;" alt="">
+  <img src="https://saml.idp.clogin.att.com/pkmslogout" style="height: 0px; width: 0px; visibility: hidden; display: none;" alt="">
+  <img src="https://samlsp.idp.clogin.att.com/pkmslogout" style="height: 0px; width: 0px; visibility: hidden; display: none;" alt="">
+  <img src="https://oidc.idp.clogin.att.com/pkmslogout" style="height: 0px; width: 0px; visibility: hidden; display: none;" alt="">
+  <img src="https://att-hbomax.idp.clogin.att.com/pkmslogout" style="height: 0px; width: 0px; visibility: hidden; display: none;" alt="">
+  <img src="https://utf.idp.clogin.att.com/pkmslogout" style="height: 0px; width: 0px; visibility: hidden; display: none;" alt="">
+  <img src="https://dtv-auth.att.com/pkmslogout" style="height: 0px; width: 0px; visibility: hidden; display: none;" alt="">
+  </div>
+
+<script
+  type="module"
+  src='https://signin.att.com/static/siam/en/halo_c/halo-c-login/runtime.js?v=30.4.1'
+></script>
+<script
+  type="module"
+  src='https://signin.att.com/static/siam/en/halo_c/halo-c-login/polyfills.js?v=30.4.1'
+></script>
+<script
+  type="module"
+  src='https://signin.att.com/static/siam/en/halo_c/halo-c-login/vendor.js?v=30.4.1'
+></script>
+<script
+  type="module"
+  src='https://signin.att.com/static/siam/en/halo_c/halo-c-login/main.js?v=30.4.1'
+></script>
+<script
+  type="module"
+  src='https://signin.att.com/static/siam/en/halo_c/halo-c-login/src_app_sgw_sgw_module_ts.js?v=30.4.1'
+></script>
+
+</body>
+
+<!-- ADDING ADOBE CONTAINER Footer -->
+  <script
+    id="analyticsFooterScript"
+    type="text/javascript"
+    src='https://signin.att.com/static/thirdparty/adobe/detm-container-ftr.js'
+  ></script>
+</html>

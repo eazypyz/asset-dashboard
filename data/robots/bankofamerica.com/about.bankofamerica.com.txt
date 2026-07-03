@@ -1,0 +1,13 @@
+User-agent: *
+Disallow: /*.topic-result-tile
+Disallow: /*.tile
+Disallow: /*.anytile
+Disallow: /*.arts-tile
+Disallow: /*.horizontal-tile
+Disallow: /*.venture-tile
+Disallow: /*.relatedTile
+Sitemap: https://about.bankofamerica.com/en/sitemap.xml
+Sitemap: https://about.bankofamerica.com/en/videositemap.xml
+User-agent: Googlebot-Image
+Disallow: /content/dam/about/images/arts-and-culture-files/arts-long-form/aioc-detail-page-masthead-andy-warhol-flowers-mobile.jpg
+Disallow: /content/dam/about/images/arts-and-culture-files/arts-masonry-tile/aioc-masonry-tile-andy-warhol-flowers-416x415.jpg

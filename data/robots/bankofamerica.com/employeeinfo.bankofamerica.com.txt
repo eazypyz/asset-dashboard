@@ -1,0 +1,23 @@
+
+
+
+<!-- template name: form.autopost.template.html -->
+
+ 
+<html>
+    <head>
+	<title>Submit Form</title>
+    </head>
+    <body onload="javascript:document.forms[0].submit()">
+       <noscript>
+            <p>
+                <strong>Note:</strong> Since your browser does not support JavaScript, you must press the Resume button once to proceed.
+            </p>
+        </noscript>
+        <form method="post" action="https://fedsso.bankofamerica.com/idp/SSO.saml2">
+                        <input type="hidden" name="SAMLRequest" value="PHNhbWxwOkF1dGhuUmVxdWVzdCBWZXJzaW9uPSIyLjAiIElEPSJPLkswQU5kZ1Blc3FGLlI1QWs3Y2VyN1gyeWoiIElzc3VlSW5zdGFudD0iMjAyNi0wNy0wM1QwNzoxODoyMi41NDFaIiB4bWxuczpzYW1scD0idXJuOm9hc2lzOm5hbWVzOnRjOlNBTUw6Mi4wOnByb3RvY29sIj48c2FtbDpJc3N1ZXIgeG1sbnM6c2FtbD0idXJuOm9hc2lzOm5hbWVzOnRjOlNBTUw6Mi4wOmFzc2VydGlvbiI+TWNvZUVtcEluZm88L3NhbWw6SXNzdWVyPjxzYW1scDpOYW1lSURQb2xpY3kgQWxsb3dDcmVhdGU9InRydWUiLz48L3NhbWxwOkF1dGhuUmVxdWVzdD4="/>
+                        <input type="hidden" name="RelayState" value="r2ec5wS13D80VZrjwK09RoJr6PY4W7"/>
+                        <noscript><input type="submit" value="Resume"/></noscript>
+        </form>
+    </body>
+</html>

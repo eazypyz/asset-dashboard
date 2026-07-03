@@ -1,0 +1,26 @@
+User-agent: *
+
+# Exception for Specific Files sitemap:
+Allow: /hubfs/lb-web/sitemap/sitemap-pdfs.txt$
+Allow: /hubfs/lb-web/social/metadata.webp$
+Allow: /hubfs/lb-web/social/metadata.jpg$
+Allow: /hubfs/lb-web/social/metadata-square.webp$
+Allow: /hubfs/lb-web/social/metadata-square.jpg$
+Allow: /hubfs/lb-web/graphic-elements/favicon.png$
+Allow: /hubfs/lb-web/graphic-elements/lb-favicon.png$
+
+# General blocks
+Disallow: *.webp$
+Disallow: *.txt$
+Disallow: *.png$
+Disallow: *.jpg$
+Disallow: *.jpeg$
+Disallow: *.svg$
+Disallow: *.gif$
+Disallow: /resources/blogs/internal-blog/
+Disallow: /resources/blogs/internal-blog
+Disallow: /_hcms/preview/
+Disallow: /hs/manage-preferences/
+Disallow: /hs/preferences-center/
+Disallow: /*?*hs_preview=*
+Disallow: /*?*hsCacheBuster=*

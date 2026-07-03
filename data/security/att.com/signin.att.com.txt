@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<!-- Copyright (C) 2015 IBM Corporation -->
+<!-- Copyright (C) 2000 Tivoli Systems, Inc. -->
+<!-- Copyright (C) 1999 IBM Corporation -->
+<!-- Copyright (C) 1998 Dascom, Inc. -->
+<!-- All Rights Reserved. -->
+<html>
+  <head>
+     <script>
+       function createOrUpdateCK(id){
+          var dlomInfoC = getCookie("dlomInfoC");
+          if(dlomInfoC){
+            if(dlomInfoC.indexOf(id) == -1){
+              dlomInfoC += "|"+id;
+              document.cookie = "dlomInfoC="+dlomInfoC+"; Domain=att.com; Path=/; Secure";
+           }
+           }else{
+            document.cookie = "dlomInfoC="+id+"; Domain=att.com; Path=/; Secure";
+            }
+           }
+       function createOrUpdateTargetCookie(id){
+         var targetCookie2FA = getCookie("targetCookie2FA");
+         if(targetCookie2FA){
+         if(targetCookie2FA.indexOf(id) == -1){
+           targetCookie2FA += "|"+id;
+     document.cookie = "targetCookie2FA="+targetCookie2FA+"; Domain=att.com; Path=/; Secure";
+         }
+       }else{
+       document.cookie = "targetCookie2FA="+id+"; Domain=att.com; Path=/; Secure";
+        }
+       }
+       function getCookie(cname) {
+         var name = cname + "=";
+         var decodedCookie = document.cookie;
+         var ca = decodedCookie.split(';');
+         for(var i = 0; i <ca.length; i++) {
+         var c = ca[i];
+         while (c.charAt(0) == ' ') {
+           c = c.substring(1);
+         }
+        if (c.indexOf(name) == 0) {
+          return c.substring(name.length, c.length);
+        }
+        }
+        return "";
+      }
+  </script>
+  </head>
+  <body>
+      <img src="/alive/iamLRR/cookieManager.jsp" style="display: none;" width="0" height="0"/>
+      <script type="text/javascript">
+      var purl = window.location.href;
+      purl = encodeURIComponent(purl);
+      createOrUpdateTargetCookie(purl);
+
+      purl = "https://caaid.att.com/isam/sps/static/signinRedirect.html"
+      setTimeout(function () {window.location.href = purl;}, 150);
+</script>
+</body>
+</html>

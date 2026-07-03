@@ -1,0 +1,7 @@
+# robots.txt for Service Guide and Tariff files.
+# Keeps sites like Google from indexing the entire Service Guides
+# and Tariff Library sites.
+# Author: Victor Arriola
+
+User-agent: *
+Disallow: /

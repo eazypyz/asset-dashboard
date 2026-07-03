@@ -1,0 +1,152 @@
+User-agent: *             # applies to all robots
+Disallow: /global         # disallow indexing of restricted areas
+Disallow: /cfdocs
+Disallow: /thirdparty
+Disallow: /directbenefits
+Disallow: /groupbanking
+Disallow: /incubator
+Disallow: /signin
+Disallow: /associatebanking
+Disallow: /cgi-bin
+Disallow: /deposits/*.pdf$
+Disallow: /deposits/*.swf$
+Disallow: /deposits/*.txt$
+Disallow: /products/deposits/
+Disallow: /banking-information/associatebanking/
+Disallow: /banking-information/employeebanking/
+Disallow: /products/employeebanking/
+Disallow: /employeebanking
+Disallow: /employeebankingandinvestments
+Disallow: /myaccounts/
+Disallow: /apply-merchant-services
+
+
+# Disallow URLs with tracking parameters
+Disallow: /adtrack/
+Disallow: /*adlink
+Disallow: /*cm_mmc
+Disallow: /weblinking/
+Disallow: /mortgage_network/
+Disallow: /*cm_sp
+Disallow: /*reason=QKN
+Disallow: /*msg=OnlineIdEmpty
+Disallow: /*errorCode
+Disallow: /*SOURCE_URL
+
+
+# Disallow mobile content
+Disallow: /promos/jump/package/iPhone/
+Disallow: /promos/jump/package/mobile/
+
+
+#################################################################
+# SOCIAL PREVIEW BOTS
+# Allow ONLY /myaccounts/public/ for social share/link preview bots
+# while keeping /myaccounts/ blocked broadly for everything else.
+#################################################################
+
+User-agent: facebookexternalhit
+Allow: /myaccounts/public/
+Disallow: /myaccounts/
+
+User-agent: Twitterbot
+Allow: /myaccounts/public/
+Disallow: /myaccounts/
+
+User-agent: LinkedInBot
+Allow: /myaccounts/public/
+Disallow: /myaccounts/
+
+User-agent: Slackbot
+Allow: /myaccounts/public/
+Disallow: /myaccounts/
+
+
+User-agent: gsa-crawler  # Special rule just for Google Search Appliance
+Disallow: /global
+Disallow: /cfdocs
+Disallow: /thirdparty
+Disallow: /directbenefits
+Disallow: /groupbanking
+Disallow: /incubator
+Disallow: /signin
+Disallow: /cgi-bin
+Disallow: /deposits/*.pdf$
+Disallow: /deposits/*.swf$
+Disallow: /deposits/*.txt$
+Disallow: /products/deposits/
+Disallow: /banking-information/associatebanking/
+Disallow: /banking-information/employeebanking/
+Disallow: /products/employeebanking/
+Disallow: /employeebanking
+Disallow: /employeebankingandinvestments
+Disallow: /myaccounts/
+
+
+# Disallow URLs with tracking parameters
+Disallow: /adtrack/
+Disallow: /*adlink
+Disallow: /*cm_mmc
+Disallow: /weblinking/
+Disallow: /mortgage_network/
+Disallow: /*cm_sp
+Disallow: /*reason=QKN
+Disallow: /*msg=OnlineIdEmpty
+Disallow: /*errorCode
+Disallow: /*SOURCE_URL
+
+
+# Disallow mobile content
+Disallow: /promos/jump/package/iPhone/
+Disallow: /promos/jump/package/mobile/
+
+
+User-agent: OmniExplorer_Bot
+Disallow: /
+
+
+# Allow mobile content for primary mobile bots
+
+User-agent: Googlebot-Mobile
+User-agent: msnbot-mobile
+User-agent: YahooSeeker/M1A1-R2D2
+Disallow: /global
+Disallow: /cfdocs
+Disallow: /thirdparty
+Disallow: /directbenefits
+Disallow: /groupbanking
+Disallow: /incubator
+Disallow: /signin
+Disallow: /associatebanking
+Disallow: /cgi-bin
+Disallow: /deposits/*.pdf$
+Disallow: /deposits/*.swf$
+Disallow: /deposits/*.txt$
+Disallow: /products/deposits/
+Disallow: /banking-information/associatebanking/
+Disallow: /banking-information/employeebanking/
+Disallow: /products/employeebanking/
+Disallow: /employeebanking
+Disallow: /employeebankingandinvestments
+Disallow: /myaccounts/
+
+
+# Disallow URLs with tracking parameters
+Disallow: /adtrack/
+Disallow: /*adlink
+Disallow: /*cm_mmc
+Disallow: /weblinking/
+Disallow: /mortgage_network/
+Disallow: /*cm_sp
+Disallow: /*reason=QKN
+Disallow: /*msg=OnlineIdEmpty
+Disallow: /*errorCode
+Disallow: /*SOURCE_URL
+
+
+Sitemap: https://www.bankofamerica.com/sitemap_index.xml
+
+#Deployed from TEAMSITE
+#CAST ID for this deployment #146484
+#secure subdomain
+``

@@ -1,0 +1,195 @@
+
+
+
+  
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Unified Workflow Portal</title>
+        <meta name="Description" content="Unified Workflow Portal" />
+        <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+        <meta http-equiv="Pragma" content="no-cache"> 
+        <meta http-equiv="Cache-Control" content="no-cache"> 
+        <meta http-equiv="Expires" content="Sat, 01 Dec 2001 00:00:00 GMT">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="css/global.css" type="text/css">
+        <link rel="stylesheet" href="css/error-box.css" type="text/css">
+        <link rel="stylesheet" href="css/fulfillment.css" type="text/css">
+        <link rel="stylesheet" href="css/error-list-box.css" type="text/css">
+        <link rel="stylesheet" type="text/css" href="css/styles.css" />
+        <link rel="stylesheet" type="text/css" href="/epass/css/jquery-ui.css" />
+        <link rel="stylesheet" type="text/css" href="css/bootstrap/bootstrap.min.css" />
+        
+        <link rel="stylesheet" type="text/css" href="/epass/css/epass-common.css"/>
+        <link rel="stylesheet" type="text/css" href="css/sop-page.css"/>
+		<script type="text/javascript" src="/epass/js/epass-common.js" nonce="acb394e1cf5120376b3c4ee7acbd522c3b6c8f40f93ad2a6116286d0f53f9f3d"></script>
+        <script type="text/javascript" src="/epass/js/jquery-3.6.1.js" nonce="acb394e1cf5120376b3c4ee7acbd522c3b6c8f40f93ad2a6116286d0f53f9f3d"></script>
+        <script type="text/javascript" src="/epass/js/jquery-migrate-3.0.1.js" nonce="acb394e1cf5120376b3c4ee7acbd522c3b6c8f40f93ad2a6116286d0f53f9f3d"></script>
+        
+        <script type="text/javascript" src="js/popper.min.js" nonce="acb394e1cf5120376b3c4ee7acbd522c3b6c8f40f93ad2a6116286d0f53f9f3d"></script>
+        <script type="text/javascript" src="js/bootstrap/bootstrap.min.js" nonce="acb394e1cf5120376b3c4ee7acbd522c3b6c8f40f93ad2a6116286d0f53f9f3d"></script>
+
+        <script type="text/javascript" src="/epass/js/globalFulfillmentBundle.js" nonce="acb394e1cf5120376b3c4ee7acbd522c3b6c8f40f93ad2a6116286d0f53f9f3d"></script>
+        <script type="text/javascript" src="/epass/js/jquery.redirect.js" nonce="acb394e1cf5120376b3c4ee7acbd522c3b6c8f40f93ad2a6116286d0f53f9f3d"></script>
+        <script src="/epass/js/pm_fp.js" type="text/javascript" nonce="acb394e1cf5120376b3c4ee7acbd522c3b6c8f40f93ad2a6116286d0f53f9f3d"></script>
+        <script src="js/sop.js" type="text/javascript" nonce="acb394e1cf5120376b3c4ee7acbd522c3b6c8f40f93ad2a6116286d0f53f9f3d"></script>
+       
+        
+	 		<script type="text/javascript" nonce="acb394e1cf5120376b3c4ee7acbd522c3b6c8f40f93ad2a6116286d0f53f9f3d" src="/epass/js/helper-min.js" ></script>
+	 		<script type="text/javascript" nonce="acb394e1cf5120376b3c4ee7acbd522c3b6c8f40f93ad2a6116286d0f53f9f3d" src="/epass/js/body-min.js" ></script>
+ 		
+ 		
+    </head>
+    <body>
+    	
+  			<script src="/epass/js/body-min.js" nonce="acb394e1cf5120376b3c4ee7acbd522c3b6c8f40f93ad2a6116286d0f53f9f3d" async></script>
+  		
+        
+
+
+  
+
+<div class="container-fluid">
+
+	<div>
+	         <div id="header-div" class="d-flex">
+	            <div id="header-title" class="col-md-6 p-2"><h2>One Content Management System (CMS)</h2></div>
+	            <div id = "header-logo" class="col-md-6 p-2"><img src="images/logo.png" class="float-right"></div>
+			</div>
+	</div>
+ 
+ <script nonce="acb394e1cf5120376b3c4ee7acbd522c3b6c8f40f93ad2a6116286d0f53f9f3d">
+            function screenSizeListner(xy) {
+             if (xy.matches) { // If media query matches
+             // decrese size of title and header
+             $("#header-div").removeClass("d-flex").addClass("row");
+             $("#header-logo").html("<h2>One Content Management System (CMS)</h2>").css("text-align","center");
+             $("#header-title").html('<img src="images/logo.png">').css("text-align","center");; 
+            } else {
+            // increse title and header
+            $("#header-div").removeClass("row").addClass("d-flex");
+            $("#header-title").html("<h2>One Content Management System (CMS)</h2>").css("text-align","");
+             $("#header-logo").html('<img src="images/logo.png" class="float-right">').css("text-align","");    
+            }}
+            
+            var xy = window.matchMedia("(max-width: 767px)")
+            screenSizeListner(xy)
+            xy.addListener(screenSizeListner)
+</script>
+
+</div>
+
+
+        
+        
+
+
+
+
+
+<div class="container-fluid custom-border">
+		<br/>
+        <h3 class="margin_left_7" >Sign In</h3>
+            <hr class="height_2_bg_d3" />
+        
+
+      <form id="login" name="login" method="post" action="/extEpass/login" autocomplete="off">
+       <div>
+         <input type="hidden" name="" value=""/>
+        
+        
+         <div class="d-flex justify-content-start">
+            
+            
+        
+	        
+               
+		</div>
+
+        <div class="row">
+
+            <div class="col-md-4">
+
+                    <h5>Agency or External Partners</h5>
+                    <p><b>(With Bank Contract)</b></p><br />
+
+                    <div class="form-group">
+                        <label for="usr_name">User Name</label>
+                        
+                            <span id="spErrorMsg1" class="color_red" ></span>
+                        
+                        <input class="form-control input-block" type="text" id="usr_name" name="usr_name" tabindex="1" autocomplete="Off"/>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="usr_password">Password</label>
+                        
+                            <span id="spErrorMsg3" class="color_red" ></span>
+                        
+                        <input class="form-control input-block" type="password" id="usr_password" name="usr_password" tabindex="2" maxlength="40" autocomplete="Off"/>
+                    </div>
+                        <br>
+                        <button type="submit" class="btn btn-primary custom-btn btn-block" id="LogonBtn" name="_eventId_submit" >Sign In</button>
+                    <br><br>
+					<hr class="height_2_bg_d3" >
+					<!-- <button type="submit" id="sso" name="_eventId_selfchangepasswordemail" class="btn btn-link fx">Forgot your password?</button> -->
+                    
+                    <p>
+                    	New User?  Contact your Agency's Account manager to request access.
+                    </p>
+                 <br>
+
+            </div>
+            
+            </div>
+
+        <!-- ePass required hidden inputs -->
+        <input type="hidden" name="" value=""/>
+  	<input id="tpl" type="hidden" name="tpl" value="TPL002"/>
+	<input id="locale" type="hidden" name="locale" value="en_US"/>
+	<input id="_flowExecutionKey" type="hidden" name="_flowExecutionKey" value="e1s1"/>    
+        <input id="pm_fp" type="hidden" name="pm_fp" /> 
+        <script language=javascript type="text/javascript" nonce="acb394e1cf5120376b3c4ee7acbd522c3b6c8f40f93ad2a6116286d0f53f9f3d">
+
+            post_deviceprint();
+        </script>
+	<!-- **************************************** -->		
+
+        </div>
+    </form>
+   </div>
+        
+
+
+  
+
+
+<br /> 
+<div class="container-fluid">
+       <div class="form-row align-items-center justify-content-center">
+        		<img src="images/flagscape.png" alt=""> Bank of America N.A. Member FDIC &copy; 2020 Bank of America Corporation. All rights reserved.
+       </div>
+
+</div>
+
+        
+			<script src="/epass/js/helper-min.js" nonce="acb394e1cf5120376b3c4ee7acbd522c3b6c8f40f93ad2a6116286d0f53f9f3d" async></script>
+		
+     </body>
+</html>

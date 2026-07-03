@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<!-- saved from url=(0059)file:///C:/Users/ng1895/Downloads/walled-garden-static.html -->
+<html lang="en" class="is-tabbing"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Walled Garden</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: sans-serif;
+      background: #f7f8fa;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 48px auto;
+      padding: 0 32px;
+      text-align: left;
+    }
+
+    .att-logo {
+      margin-bottom: 32px;
+    }
+
+    .att-logo svg {
+      width: 98px;
+      height: 32px;
+    }
+
+    .title {
+      font-size: 42px;
+      font-weight: 700;
+      margin-bottom: 8px;
+      color: var(--heading-color, #1d2329);
+      font-family: font-bold, sans-serif;
+      line-height: 1.15;
+      letter-spacing: -.03em;
+      text-indent: -.05em;
+    }
+
+    .subtitle {
+      font-size: 24px;
+      color: var(--heading-color, #1d2329);
+      font-family: font-bold, sans-serif;
+      line-height: 1.15;
+      letter-spacing: -.03em;
+      text-indent: -.05em;
+      margin-bottom: 24px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+    }
+
+    .subtitle-icon {
+      font-size: 1.3rem;
+    }
+
+    .alert {
+      background: #fff;
+      border-radius: 8px;
+      padding: 18px 20px;
+      align-items: center;
+      gap: 12px;
+      border: 1px solid #fff;
+      margin-top: 32px;
+      margin-bottom: 10px;
+    }
+
+    .alert-icon {
+      color: #d32f2f;
+      font-size: 1.5rem;
+      width: 28px;
+      height: 28px;
+    }
+
+    .alert-text {
+      color: #1d2329;
+      font-size: 18px;
+      font-weight: 400;
+    }
+
+    .alert-link {
+      color: #0077c5;
+      text-decoration: underline;
+    }
+
+    .top-note {
+      color: #0077c5;
+      font-size: 0.95rem;
+      margin-bottom: 8px;
+      text-align: left;
+    }
+
+    @media (max-width: 767px) {
+      .container {
+        margin: 24px auto;
+        padding: 0 24px;
+        gap: 24px;
+      }
+
+      .alert-text {
+        font-size: 16px;
+        line-height: 1.3;
+      }
+
+      .att-logo {
+        margin-bottom: 24px;
+      }
+
+      .subtitle {
+        font-size: 18px;
+        margin-bottom: 24px;
+      }
+
+      .title {
+        font-size: 28px;
+        margin-bottom: 8px;
+      }
+
+      .alert {
+        margin-top: 24px;
+      }
+    }
+  </style>
+
+                                <script>!function(e){var n="https://s.go-mpulse.net/boomerang/";if("False"=="True")e.BOOMR_config=e.BOOMR_config||{},e.BOOMR_config.PageParams=e.BOOMR_config.PageParams||{},e.BOOMR_config.PageParams.pci=!0,n="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="WPDUB-APVCN-LTNDE-ZPC3E-YKMHC",function(){function e(){if(!i){var e=document.createElement("script");e.id="boomr-scr-as",e.src=window.BOOMR.url,e.async=!0,o.parentNode.appendChild(e),i=!0}}function t(e){i=!0;var n,t,a,r,d=document,O=window;if(window.BOOMR.snippetMethod=e?"if":"i",t=function(e,n){var t=d.createElement("script");t.id=n||"boomr-if-as",t.src=window.BOOMR.url,BOOMR_lstart=(new Date).getTime(),e=e||d.body,e.appendChild(t)},!window.addEventListener&&window.attachEvent&&navigator.userAgent.match(/MSIE [67]\./))return window.BOOMR.snippetMethod="s",void t(o.parentNode,"boomr-async");a=document.createElement("IFRAME"),a.src="about:blank",a.title="",a.role="presentation",a.loading="eager",r=(a.frameElement||a).style,r.width=0,r.height=0,r.border=0,r.display="none",o.parentNode.appendChild(a);try{O=a.contentWindow,d=O.document.open()}catch(_){n=document.domain,a.src="javascript:var d=document.open();d.domain='"+n+"';void(0);",O=a.contentWindow,d=O.document.open()}if(n)d._boomrl=function(){this.domain=n,t()},d.write("<bo"+"dy onload='document._boomrl();'>");else if(O._boomrl=function(){t()},O.addEventListener)O.addEventListener("load",O._boomrl,!1);else if(O.attachEvent)O.attachEvent("onload",O._boomrl);d.close()}function a(e){window.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!window.BOOMR||!window.BOOMR.version&&!window.BOOMR.snippetExecuted){window.BOOMR=window.BOOMR||{},window.BOOMR.snippetStart=(new Date).getTime(),window.BOOMR.snippetExecuted=!0,window.BOOMR.snippetVersion=12,window.BOOMR.url=n+"WPDUB-APVCN-LTNDE-ZPC3E-YKMHC";var o=document.currentScript||document.getElementsByTagName("script")[0],i=!1,r=document.createElement("link");if(r.relList&&"function"==typeof r.relList.supports&&r.relList.supports("preload")&&"as"in r)window.BOOMR.snippetMethod="p",r.href=window.BOOMR.url,r.rel="preload",r.as="script",r.addEventListener("load",e),r.addEventListener("error",function(){t(!0)}),setTimeout(function(){if(!i)t(!0)},3e3),BOOMR_lstart=(new Date).getTime(),o.parentNode.appendChild(r);else t(!1);if(window.addEventListener)window.addEventListener("load",a,!1);else if(window.attachEvent)window.attachEvent("onload",a)}}(),"350".length>0)if(e&&"performance"in e&&e.performance&&"function"==typeof e.performance.setResourceTimingBufferSize)e.performance.setResourceTimingBufferSize(350);!function(){if(BOOMR=e.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var n=""=="true"?1:0,t="",a="idwmseaxafvpm2shmnlq-f-6acd082bc-clientnsv4-s.akamaihd.net",o="false"=="true"?2:1,i={"ak.v":"41","ak.cp":"1439007","ak.ai":parseInt("834469",10),"ak.ol":"0","ak.cr":6,"ak.ipv":4,"ak.proto":"http/1.1","ak.rid":"566cdf8","ak.r":35417,"ak.a2":n,"ak.m":"dsce28","ak.n":"essl","ak.cport":33859,"ak.gh":"104.119.189.229","ak.quicv":"","ak.tlsv":"tls1.3","ak.0rtt":"","ak.0rtt.ed":"","ak.csrc":"-","ak.acc":"bbr","ak.t":"1783063383","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==BLZXk2XSbJzY3Ipb4iIoSMAecSUzM6DLqPYQMFezOwvpi1jzPnDJIzZw9CWyYA3g2w5HAlJQ+eQJWSwwY9XtWqqNsnHUoyyaapZ0eqLY1yyDfFozPjTeAto/qaiWbUVNmH0EL3IC8lnHfriT2fyoviLSeAXpmNWrIxPbRiyhzhgnosEgSHsKy3pphb2mxEPegv4y8wDJO/vmmf6IgjaqGZ8UG63sfYJuqLxmSVUTyAygRzBiRUF2z08+7Btt0Z9Dd0cSpgnKZgyUw5fWhzPOIQ0apuj9F5IvTbH3nS9nreEy8wduAebAt80lUZv4JI2++/qWJ9FbIIfx2zX64bu4u9haiCbvuwpxPXl5fsUEl5RY3JxBlkysWDE4pmMrBaQNHUsYyrqAgdu8EroWS9SaBXe1Ht9SB7VikgTZC2S0ykw=","ak.pv":"24","ak.dpoabenc":"","ak.tf":o};if(""!==t)i["ak.ruds"]=t;var r={i:!1,av:function(n){var t="http.initiator";if(n&&(!n[t]||"spa_hard"===n[t]))i["ak.feo"]=void 0!==e.aFeoApplied?1:0,BOOMR.addVar(i)},rv:function(){var e=["ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.0rtt.ed","ak.r","ak.acc","ak.t","ak.tf"];BOOMR.removeVar(e)}};BOOMR.plugins.AK={akVars:i,akDNSPreFetchDomain:a,init:function(){if(!r.i){var e=BOOMR.subscribe;e("before_beacon",r.av,null,null),e("onbeacon",r.rv,null,null),r.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script></head>
+
+<body>
+  <div class="container">
+    <div class="att-logo" style="display:flex; align-items:center; gap:14px;">
+      <svg data-name="Layer 1" viewBox="0 0 440.7 144" style="transform: rotate(0deg); opacity: 1;">
+        <path d="M401 115a2 2 0 0 1-2-2V43h-24a2 2 0 0 1-2-2V31a2 2 0 0 1 2-2h63a2 2 0 0 1 3 2v10a2 2 0 0 1-3 2h-23v70a2 2 0 0 1-3 2zM221 81l-13-36-12 36zm27 31a2 2 0 0 1-2 3h-11a3 3 0 0 1-3-2l-6-18h-35l-7 18a3 3 0 0 1-3 2h-10a2 2 0 0 1-2-3l29-81a3 3 0 0 1 3-2h15a3 3 0 0 1 3 2l29 81m84-8c7 0 11-4 15-9l-17-19c-7 4-11 7-11 15s6 13 13 13m5-64c-6 0-9 4-9 9 0 3 2 7 6 11 8-4 11-7 11-11 0-5-3-9-8-9m47 72c2 2 1 3-1 3h-13a4 4 0 0 1-4-2l-9-9c-5 8-13 13-26 13-15 0-28-9-28-26 0-12 7-19 17-24-5-6-7-12-7-17 0-14 9-23 23-23 15 0 24 9 24 21 0 11-8 17-16 22l12 13 7-12a4 4 0 0 1 3-2h11c1 0 2 1 1 3l-12 20 18 20m-107 3a2 2 0 0 0 2-2V43h24a2 2 0 0 0 2-2V31a2 2 0 0 0-2-2h-63a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h24v70a2 2 0 0 0 2 2z"></path>
+        <path fill="#009fdb" d="M28 129a72 72 0 0 0 91-3c1 0 1 0 0 0-5 4-22 12-47 12a90 90 0 0 1-44-9m49 4c18 0 37-5 49-15a39 39 0 0 0 9-11 66 66 0 0 0 4-9c-11 16-42 26-75 26-23 0-47-7-57-21 9 19 36 30 70 30m-19-32C21 101 3 84 0 72a71 71 0 0 0 1 12 14 14 0 0 0 4 7c9 9 31 22 69 22 53 0 65-17 67-23 2-4 3-12 3-18v-4c-3 14-48 33-86 33M7 41a72 72 0 0 0-5 15 5 5 0 0 0 0 3c5 10 27 25 79 25 32 0 56-8 60-22a17 17 0 0 0 0-9 70 70 0 0 0-4-13h-1c1 19-51 31-77 31C30 71 6 60 6 45a17 17 0 0 1 1-4m113-23a3 3 0 0 1 0 2c0 8-24 22-63 22-29 0-34-11-34-17a12 12 0 0 1 3-8h-1a72 72 0 0 0-10 11l-2 4c0 14 35 24 68 24 35 0 50-11 50-21 0-4-1-6-5-10a84 84 0 0 0-6-7s-1 0 0 0m-11-8a72 72 0 0 0-74 0c-4 2-5 4-5 6 0 6 14 13 39 13s44-7 44-14c0-2-1-3-4-5"></path>
+      </svg>
+    </div>
+    <div class="alert">
+      <div style="display: flex; align-items: center;">
+        <span class="alert-icon" style="display:flex; align-items:center; color:#d32f2f;">
+          <svg viewBox="0 0 32 32" width="32" height="32" style="fill:#d32f2f;">
+            <path class="svg-base" d="M16 1a15 15 0 1015 15A15 15 0 0016 1zm1 22h-2v-2h2zm0-4h-2V9h2z"></path>
+          </svg>
+        </span>
+        <span class="alert-text" style="font-weight: 700; padding-left: 8px;">Important message from AT&amp;T</span>
+      </div>
+      <div class="alert-text" style="margin-top: 16px; padding-left: 36px; font-weight: 400;">
+        Your account needs immediate attention. any issues related to the internet, residential customers are advised to call
+        <a class="alert-link" href="tel:8888888888">1-800-288-2020</a>, while small business customers should call
+        <a class="alert-link" href="tel:8888888888">1-800-321-2000</a>.
+      </div>
+    </div>
+  </div>
+
+
+<script type="text/javascript"  src="/n4Sd-/0/Pd/FFTW/Ozlu9kub/bOG56zipEcXELcXi/RiQhYUIC/GXB/EWjcSUgUC"></script><link rel="stylesheet" type="text/css"  href="/n4Sd-/0/Pd/FFTW/Ozlu9kub/wbG5/FwUCYUIC/Xi8/QFhA7WmBY"><script  src="/n4Sd-/0/Pd/FFTW/Ozlu9kub/wbG5/FwUCYUIC/Ui5/aRk0dVBYq" async defer></script><div id="sec-overlay" style="display:none;"><div id="sec-container"></div></div></body></html>

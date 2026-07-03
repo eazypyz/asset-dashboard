@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en" data-critters-container>
+
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=EDGE">
+  <meta charset="utf-8">
+  <meta name="title" content="Manage your Connected Car data plan from AT&amp;T">
+  <meta name="description" content="Check vehicle compatibility and free trial eligibility, purchase and manage your AT&amp;T Connected Car data plan.  Existing subscribers can log in to view their current plan, monitor data usage and manage their accounts.  Upgrade to a plan that’s right for you and shop premium entertainment streaming services for bundled savings and unlimited backseat entertainment.">
+  <meta name="keywords" content>
+  <meta name="robots" content="INDEX,NO-FOLLOW">
+
+  <!-- WEBTRENDS AND TAGGING META -->
+  <meta name="DCSext.wtPN" content>
+
+  <!-- MOBILE DEVICE SETTINGS -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="format-detection" content="telephone=no">
+  <!-- App manifest  -->
+  <link rel="manifest" href="manifest.json">
+  <!-- Build manifest (created at build-time) -->
+  <script src="build-manifest.js"></script>
+  <script>
+    __Zone_enable_cross_context_check = true;
+  </script>
+
+  <!-- Change default toolbar color on Chrome for Android -->
+  <meta name="theme-color" content="#000000">
+
+  <title>AT&T</title>
+
+  <!-- PRODUCT ICON -->
+  <!--Standard fav icon-->
+  <link rel="icon" sizes="16x16 32x32 48x48 64x64 128x128" type="image/x-icon" href="./assets/images/favicon.ico">
+  <!-- retina iPhone iOS 7 -->
+  <link rel="apple-touch-icon" href="./images/att-sphere.png" sizes="120x120">
+
+  
+  <script>
+    (function () {
+      if ("-ms-user-select" in document.documentElement.style && navigator.userAgent.match(/IEMobile\/10\.0/)) {
+        var msViewportStyle = document.createElement("style");
+        msViewportStyle.appendChild(document.createTextNode("@-ms-viewport{width:auto!important}"));
+        document.getElementsByTagName("head")[0].appendChild(msViewportStyle);
+      }
+    })();
+  </script>
+  <script>
+    (function () {
+      var cookieEnabled = ("cookie" in document && (document.cookie.length > 0 ||
+        (document.cookie = "test").indexOf.call(document.cookie, "test") > -1));
+      if (!cookieEnabled) {
+        window.location = "storage-disabled.html";
+      }
+    })();
+  </script>
+
+  <script>
+    // Same code is in a $locationChangeStart event handler. It's repeated here
+    // because IE doesn't work well with $locationChangeStart.
+    // function hashHandler() {
+    if (location.href && location.href.indexOf('/start%3F') !== -1) {
+      console.log('Detected in-car redirect: ', location.href);
+      console.log('Fixing redirect URL (converting "start%3F" to "start?")');
+      location.href = location.href.replace('start%3F', 'start?');
+    }
+    if (location.href && location.href.indexOf('/subscription-required%3F') !== -1) {
+      console.log('Detected subscription required redirect: ', location.href);
+      console.log('Fixing redirect URL (converting "subscription-required%3F" to "subscription-required?")');
+      location.href = location.href.replace('subscription-required%3F', 'subscription-required?');
+    }
+    // }
+
+    // window.addEventListener('hashchange', hashHandler, false);
+  </script>
+
+
+  <script>
+    function getTranslation() {
+      const isMarketMX = BUILD_MANIFEST.market === 'MX';
+      document.getElementById("title").innerHTML = isMarketMX ? "Servicio no disponible." : "Service unavailable";
+      document.getElementById("main-content").innerHTML = isMarketMX ? "Por favor, inténtalo nuevamente. Si el problema persiste, llámanos desde la CDMX o el Interior de la República al <br /><b>800-211-4012</b>." 
+      : "Please retry, or contact support at <br /><b>1 (866) 706-5773</b>.";
+      document.getElementById("retry-section").innerHTML = isMarketMX ? "Reintentar" : "Retry";
+    }
+  </script>
+
+  <!--Static loader (spinner) before page is loaded-->
+  <style>
+    .att-spinner-index {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+    }
+
+    .full-height-index {
+      height: calc(100vh - 16px);
+    }
+
+    /* Styling if JS is disabled */
+
+    noscript {
+      font: 23px aleck-sans-regular;
+      width: 100%;
+      position: fixed;
+      text-align: center;
+      z-index: 1000;
+      background-color: #fff;
+      display: block;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    noscript p {
+      margin: 10px 5px;
+    }
+
+    .loading .spinner * {
+      box-sizing: border-box;
+    }
+
+    .loading .spinner {
+      display: inline-block;
+      animation-name: anim-spinner;
+      animation-duration: 1.2s;
+      animation-iteration-count: infinite;
+      animation-timing-function: linear;
+    }
+
+    .loading .spinner .circle {
+      width: 36px;
+      height: 18px;
+      overflow: hidden;
+    }
+
+    .loading .spinner .circle-inner {
+      transform: rotate(45deg);
+      border-radius: 50%;
+      border: 0.2em solid #009fdb;
+      border-right: 0.2em solid rgba(149, 149, 149, 0.25);
+      border-bottom: 0.2em solid rgba(149, 149, 149, 0.25);
+      width: 100%;
+      height: 200%;
+      animation-name: anim-circle-1;
+      animation-duration: 0.7s;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+      animation-timing-function: cubic-bezier(0.25, 0.1, 0.5, 1);
+    }
+
+    .loading .spinner .circle-2 {
+      transform: rotate(180deg);
+    }
+
+    .loading .spinner .circle-2 .circle-inner {
+      animation-name: anim-circle-2;
+    }
+    #title {
+      font-size: 26px;
+      font-family: aleck-sans-medium, Arial, Sans-serif;
+      margin: 0;
+    }
+    #main-content {
+      font-size: 16px;
+      font-family: aleck-sans-medium, Arial, Sans-serif;
+      margin: 16px 0;
+    }
+
+    #retry-section {
+      font-size: 12px;
+      font-family: aleck-sans-medium,Arial,sans-serif;
+    }
+
+    @keyframes anim-circle-1 {
+      from {
+        transform: rotate(60deg);
+      }
+
+      to {
+        transform: rotate(205deg);
+      }
+    }
+
+    @keyframes anim-circle-2 {
+      from {
+        transform: rotate(30deg);
+      }
+
+      to {
+        transform: rotate(-115deg);
+      }
+    }
+
+    @keyframes anim-spinner {
+      from {
+        transform: rotate(0deg);
+      }
+
+      to {
+        transform: rotate(360deg);
+      }
+    }
+  </style>
+  <!--End of static loader styles-->
+
+<style>html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}h1{font-size:2em;margin:.67em 0}img{border-style:none}button{line-height:1.15;font-family:sans-serif;font-size:100%;margin:0}button{overflow:visible}button{text-transform:none}button::-moz-focus-inner{border-style:none;padding:0}button:-moz-focusring{outline:1px dotted ButtonText}h1{font-family:aleck-sans-regular;font-weight:400;margin:0}h1{font-size:26px;line-height:30px}@font-face{font-family:aleck-sans-regular;src:url(/fonts/aleck/attalecksans_rg.eot);src:url(/fonts/aleck/attalecksans_rg.eot?#iefix) format("embedded-opentype"),url(/fonts/aleck/attalecksans_rg.woff) format("woff"),url(/fonts/aleck/attalecksans_rg.ttf) format("truetype");font-style:normal;font-weight:400}*{box-sizing:border-box}html,body{height:100%;width:100%;line-height:20px;font-family:aleck-sans-regular,Arial,sans-serif;color:#333;background:#fafafa}html p,body p{margin:0}html h1,body h1{margin:0 0 10px}#startup-error{background:#fff;color:#333;text-align:center;padding:5rem 2rem;font-family:omnes_att_iimedium,Arial,sans-serif;display:flex;justify-content:center;margin-top:9rem}@media (min-width: 768px){#startup-error{margin-top:12rem}}#startup-error .service-unavailable{filter:invert(14%) sepia(56%) saturate(5377%) hue-rotate(331deg) brightness(95%) contrast(122%)}@media (min-width: 768px){#startup-error br{display:none}}#startup-error #retry-button{align-items:center;cursor:pointer;font-family:omnes_att_ii_medium,Arial,sans-serif;font-weight:400;color:#fff;font-size:12px;border:none;border-radius:3px;letter-spacing:.45px;line-height:20px;appearance:none;min-height:42px;min-width:140px;padding:5px 24px;transition:background-color .3s linear;background-color:#0057b8;outline:none}#startup-error #retry-button:hover{background-color:#007ae2}#startup-error #retry-button .button-wrapper{display:flex;flex-direction:row;justify-content:center}#startup-error #retry-button .button-wrapper img{filter:invert(100%) sepia(0%) saturate(2%) hue-rotate(43deg) brightness(103%) contrast(101%);margin-right:6px;align-self:center}html{-webkit-text-size-adjust:none}</style><link rel="stylesheet" href="styles.d340571963cc26cd.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles.d340571963cc26cd.css"></noscript></head>
+
+<body onload="getTranslation()">
+  <app-root></app-root>
+  <!--Static loader markup-->
+  <div id="startup-loader" class="att-spinner-index full-height-index" ng-hide="true">
+    <div class="item loading">
+      <div class="spinner">
+        <div class="circle circle-1">
+          <div class="circle-inner"></div>
+        </div>
+        <div class="circle circle-2">
+          <div class="circle-inner"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Inform user if JS is disabled  -->
+  <noscript>
+    <img src="images/att-sphere.png" alt="Connected by AT&T" height="90" width="90">
+    <br>
+    <p>JavaScript is disabled.
+      <br> Please enable JavaScript or upgrade your browser.
+    </p>
+  </noscript>
+  
+  <div id="startup-error" style="display: none;">
+    <img alt="Service unavailable" src="https://www.att.com/idpassets/global/icons/svg/communication-alerts/functional-icon_exclamation-triangle_64.svg" class="service-unavailable" width="90" height="90">
+    <br>
+    <br>
+      <h1 id="title"></h1>
+      <p id="main-content"></p>
+    <button id="retry-button" class="btn btn-primary">
+        <div class="button-wrapper">
+           <img alt="Retry" src="https://www.att.com/idpassets/global/icons/svg/navigation-controls/functional-icon_step-forward_16.svg" class="reload-icon" width="16" height="16">
+           <span id="retry-section"></span>
+        </div>
+    </button>
+  </div>
+<script src="runtime.49c72877fe9af95a.js" type="module"></script><script src="polyfills.c2fdaf1e9654e0be.js" type="module"></script><script src="main.def08e14e2f4a0ba.js" type="module"></script></body>
+
+</html>
