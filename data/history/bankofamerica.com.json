@@ -31873,5 +31873,628 @@
     "type": "new_subdomain",
     "host": "yourhomeequityline.bankofamerica.com",
     "timestamp": "2026-07-03T17:21:39.696Z"
+  },
+  {
+    "type": "robots_changed",
+    "host": "abl.bankofamerica.com",
+    "timestamp": "2026-07-03T19:09:37.513Z",
+    "previous": "d707393c9a76bd18831e4851fe31db9282973233cde2daa86c81ca30fdb3d858",
+    "current": "830dda0dcf160bd36c2f241a26faa40c5c9dddef17a970d3bcf765938fd9cf99"
+  },
+  {
+    "type": "security_txt_changed",
+    "host": "abl.bankofamerica.com",
+    "timestamp": "2026-07-03T19:09:37.513Z",
+    "previous": "1862d0b4aa83a832f149ab71186b9cd11a4055b7343d109597c42fdcb503a1ef",
+    "current": "b090849045ad74b7f112a69f7df4fceafb86930d0c1ada658e62ae92b13bf71a"
+  },
+  {
+    "type": "sitemap_changed",
+    "host": "abl.bankofamerica.com",
+    "timestamp": "2026-07-03T19:09:37.513Z",
+    "previous": "692912ae1c31199cd2db76e3f5187b7bec3f6cbfa07397bfe053c2bdab7765b1",
+    "current": "8c48c9a8b0de0b196402fe28f5f6dc5758e43d8701ffb7fc1d9470f34f9d7f88"
+  },
+  {
+    "type": "security_txt_changed",
+    "host": "about.bankofamerica.com",
+    "timestamp": "2026-07-03T19:09:37.513Z",
+    "previous": "a91e7bbc442f6fc64d1fc037698d46a04ff4f88603b41edd7fe0c8dd4487ba31",
+    "current": "634c6684dafc82bef520d7134d44bd186c12081914aab6675ebbeb7ca70bf60a"
+  },
+  {
+    "type": "robots_changed",
+    "host": "atp.bankofamerica.com",
+    "timestamp": "2026-07-03T19:09:37.513Z",
+    "previous": "771eceb984fd473435ea93956b8b67465bc1385d79caacf71b6325c0dc67e057",
+    "current": "d4e35cb8dd0df92cef04b9c11af240931bccec4c43cde1d8996d866889156eb6"
+  },
+  {
+    "type": "security_txt_changed",
+    "host": "atp.bankofamerica.com",
+    "timestamp": "2026-07-03T19:09:37.513Z",
+    "previous": "cf0f4f23b7e692383e222fc410d5a35e0d3748043a8a33526d451d21307de267",
+    "current": "8fdbb31bf8d689e16c29463f4c69563d6bf453faeeeafff05bcd268521848fe5"
+  },
+  {
+    "type": "sitemap_changed",
+    "host": "atp.bankofamerica.com",
+    "timestamp": "2026-07-03T19:09:37.513Z",
+    "previous": "9a8883786d276eea98917f0525b26f87e0541c5b8c76492618c56c06f368b462",
+    "current": "2e68e598e103552f7795611b7dc9f48b3e217cdcb7558320891448dd51eb9ebd"
+  },
+  {
+    "type": "robots_changed",
+    "host": "bamlservice.bankofamerica.com",
+    "timestamp": "2026-07-03T19:09:37.513Z",
+    "previous": "2a39ba11d5494aae86970e1f9d6b0affdffbedb51f58cedeecd3abd8372c139d",
+    "current": "7c663adfd17e26a635afc3053214c0ce541eb64690cdeb0dc726be5915edd840"
+  },
+  {
+    "type": "security_txt_changed",
+    "host": "bamlservice.bankofamerica.com",
+    "timestamp": "2026-07-03T19:09:37.513Z",
+    "previous": "90dd9a88ddfb7303275fa8fc278b378ff7e5110caac52410b0b9cd72978e3ed9",
+    "current": "bd71e5a5bc66038fb3a146034c30a2cba1e47db9d8f95d8d5ea0c3664a69ee49"
+  },
+  {
+    "type": "sitemap_changed",
+    "host": "bamlservice.bankofamerica.com",
+    "timestamp": "2026-07-03T19:09:37.513Z",
+    "previous": "be900500d0a5bb2ee1af2fec479a8c144c806262806cc4e283b880229e2b4d9e",
+    "current": "68f67aba8074b3253dfe4964f16db2b0be76765d5e16f07ca78fc6d732c14c6a"
+  },
+  {
+    "type": "robots_changed",
+    "host": "bofacapital-pp.bankofamerica.com",
+    "timestamp": "2026-07-03T19:09:37.513Z",
+    "previous": "4cb6b1b582c6e0b319b5917e9369812f008bee47b31f2072740c0333285748f2",
+    "current": "18f3c1b1fcc7fff24cf8fb932e90f9b25934ce19f151fac60999b3b4cb872dfd"
+  },
+  {
+    "type": "security_txt_changed",
+    "host": "bofacapital-pp.bankofamerica.com",
+    "timestamp": "2026-07-03T19:09:37.513Z",
+    "previous": "13580a2e2b201ebd1a325d1cad389281b0edcbc414b1f808d1c89f5a86cc4e99",
+    "current": "da3149c8ecd771459e5ed664e326fdb6414e5aaf709b58600a7b2116b9cbc495"
+  },
+  {
+    "type": "sitemap_changed",
+    "host": "bofacapital-pp.bankofamerica.com",
+    "timestamp": "2026-07-03T19:09:37.513Z",
+    "previous": "d107a40c39e87c7fed4154ac7a2b6437a1726787e0a9d9a1f7bc66e9ecd0daf6",
+    "current": "f01ed1b51009c5b9d96e72d204beec99383b8df94a3a593206777dd1e080cd5f"
+  },
+  {
+    "type": "robots_changed",
+    "host": "bofacapital.bankofamerica.com",
+    "timestamp": "2026-07-03T19:09:37.513Z",
+    "previous": "4cd3614241faf11b554f89482e20bbed4577e8be9e8f4df0350e9e97b199b904",
+    "current": "db89c4ab9fe431ba5f47ff3a570eb25f9f4c4bb2b8aa62a08b4223a48288ce6c"
+  },
+  {
+    "type": "security_txt_changed",
+    "host": "bofacapital.bankofamerica.com",
+    "timestamp": "2026-07-03T19:09:37.513Z",
+    "previous": "c6e793d717f3a1f2315b5842a6f66f8cc0aacb018d3d93bd6675fab219aa7810",
+    "current": "17cbd76714052d1d8c2f2d709f94c3865930615d49bb1099ae110878472a4d95"
+  },
+  {
+    "type": "sitemap_changed",
+    "host": "bofacapital.bankofamerica.com",
+    "timestamp": "2026-07-03T19:09:37.513Z",
+    "previous": "23e8537f9f5d3d3afa59c441b0c4003249c13e5b0cc2ee559ac145ba0f2101db",
+    "current": "3eceb5576664db4259ede7b0ef5bc06c2a8e584be93ce4cf2a8405168981fd58"
+  },
+  {
+    "type": "robots_changed",
+    "host": "bopdeclaration.bankofamerica.com",
+    "timestamp": "2026-07-03T19:09:37.513Z",
+    "previous": "cd1f6186eec2e32f9db86c80780d81637a8b455526a0a0d50874b03d446225a7",
+    "current": "7d5df2cedbd8df9ad0c84ea9046ffc7b764c95cbb1a7acd04443d9e9b63df629"
+  },
+  {
+    "type": "security_txt_changed",
+    "host": "bopdeclaration.bankofamerica.com",
+    "timestamp": "2026-07-03T19:09:37.513Z",
+    "previous": "",
+    "current": "8d647d5af86e00ded0c21fe4b190f0fcc65be798bd7667c54121717e694fa53c"
+  },
+  {
+    "type": "sitemap_changed",
+    "host": "bopdeclaration.bankofamerica.com",
+    "timestamp": "2026-07-03T19:09:37.513Z",
+    "previous": "",
+    "current": "bca7811d4b962c3149c8d7194c32a95283013eb8929967d4195efce360611d43"
+  },
+  {
+    "type": "robots_changed",
+    "host": "cashproonline.bankofamerica.com",
+    "timestamp": "2026-07-03T19:09:37.513Z",
+    "previous": "db131645c8d690390b4505640bf444e2e1e80eaefd925e2649436acbad49c50a",
+    "current": "1f029b94d0e9788cebf89ca89ce16cf02dcf065e90241b33d4ed0101c59964aa"
+  },
+  {
+    "type": "security_txt_changed",
+    "host": "cashproonline.bankofamerica.com",
+    "timestamp": "2026-07-03T19:09:37.513Z",
+    "previous": "62dbd4d33b51b18f65707ed574f485308ed15e9e619a4a0ce6f35cd51ae55faf",
+    "current": "40bef81b570981df8af910b4ebc9dbdb7aed36c5b480854b5f90e6738cf6234d"
+  },
+  {
+    "type": "sitemap_changed",
+    "host": "cashproonline.bankofamerica.com",
+    "timestamp": "2026-07-03T19:09:37.513Z",
+    "previous": "488c90ea651ed53ec60ef9faaddd2849f9e83a48ea96f0a6e638a5bd970c6226",
+    "current": "2ea45deb1a7fa3fa10ccc7bbc472ae418319df84ca9b89179626b428a3c102f6"
+  },
+  {
+    "type": "robots_changed",
+    "host": "ccpcpo.bankofamerica.com",
+    "timestamp": "2026-07-03T19:09:37.513Z",
+    "previous": "fc9228ae4e2e35b3515eb352b545a4493a741ea52c097873c16b2b3566dd3925",
+    "current": "a82debb770578fe12857dfb4bda75babedff5d42842304cdca498575204df19e"
+  },
+  {
+    "type": "security_txt_changed",
+    "host": "ccpcpo.bankofamerica.com",
+    "timestamp": "2026-07-03T19:09:37.513Z",
+    "previous": "1e01f206bc3a0a34f19942f6b165c24ab5919059ad9ff5df15ed45c268c576c9",
+    "current": "227184da7f52a93b3a59741a87d9485af9a8ccd1984a7a7c5af4716725190cc7"
+  },
+  {
+    "type": "sitemap_changed",
+    "host": "ccpcpo.bankofamerica.com",
+    "timestamp": "2026-07-03T19:09:37.513Z",
+    "previous": "25fb5f25afa984a7b6dcbb39f155877681648bdb2d8fd597a665848c3aea7df9",
+    "current": "f185013d42700663ffe6ca5a415c305fab54ad1ca9876a5ac207aca4b91b3cbd"
+  },
+  {
+    "type": "robots_changed",
+    "host": "cmbsi.bankofamerica.com",
+    "timestamp": "2026-07-03T19:09:37.513Z",
+    "previous": "de7970cf9c43079cfdd3a5085f27b3b61955de4f1112311f190a3f5f8428a8cb",
+    "current": "16e209a5a63be8b4cd6a9736933ba538f8de68e85124c39005af9401fd5c485f"
+  },
+  {
+    "type": "security_txt_changed",
+    "host": "cmbsi.bankofamerica.com",
+    "timestamp": "2026-07-03T19:09:37.513Z",
+    "previous": "8f1a896476202560089eb898a64f5da03cc6b1e6d44cbdb04543ce45d511533c",
+    "current": "96f5465a00088fa975cd3104137f1e1443c76388b1a0db1d93e3a843ed79c6db"
+  },
+  {
+    "type": "sitemap_changed",
+    "host": "cmbsi.bankofamerica.com",
+    "timestamp": "2026-07-03T19:09:37.513Z",
+    "previous": "a2783a28aba5b1d34be158c209a0e617f7d15b794a12a1c74c4a357deca9d974",
+    "current": "4252e9b098f66b7740bea7535d206797b0f12abefe350ad970996fba36ddf4d4"
+  },
+  {
+    "type": "robots_changed",
+    "host": "cpinvest.bankofamerica.com",
+    "timestamp": "2026-07-03T19:09:37.513Z",
+    "previous": "cc7f62c98250fcfb610a57194f7e8f4977c9b6f44ee592b53d6fab1e17ac83c5",
+    "current": "50bac51ed22b4c59fa2b99ae90473bce3c06ba64f4f624e3c3b0de0c1f11a5c2"
+  },
+  {
+    "type": "security_txt_changed",
+    "host": "cpinvest.bankofamerica.com",
+    "timestamp": "2026-07-03T19:09:37.513Z",
+    "previous": "8035382527ff2c5055387ef47e50e09fa80d823cbff8d404bea2e30513f3b56f",
+    "current": "c04e5edc86bbf7699b31ab29119543a22dc816de2f5aa3fcd438f89c1520b822"
+  },
+  {
+    "type": "sitemap_changed",
+    "host": "cpinvest.bankofamerica.com",
+    "timestamp": "2026-07-03T19:09:37.513Z",
+    "previous": "99f690aded316b4d2ab88a395ac0a76d8f66039d5f271584b1491b9e86071afc",
+    "current": "36ab0986c951197dfb0c0f791c1b8389f35734a7055619ea912766703cc6dd86"
+  },
+  {
+    "type": "robots_changed",
+    "host": "cpopayments-sxl1.bankofamerica.com",
+    "timestamp": "2026-07-03T19:09:37.513Z",
+    "previous": "b2c35a041c2036f710215eddc49fbb33ce3538f380444479df6f2218b745fc6f",
+    "current": "7a45dd8dc61dd6e44d00f270b391b4cb6bc801b02b6366926cf13e68f6d5e847"
+  },
+  {
+    "type": "security_txt_changed",
+    "host": "cpopayments-sxl1.bankofamerica.com",
+    "timestamp": "2026-07-03T19:09:37.513Z",
+    "previous": "36c728d98301541f14837f4eccc0ebee0a96bb77c7b10169f7371eb148d5e473",
+    "current": "8d1773858097c3fd6e9344b6e57df9ebed8f8d0faa7e85a6907c0c582bcc6e2f"
+  },
+  {
+    "type": "sitemap_changed",
+    "host": "cpopayments-sxl1.bankofamerica.com",
+    "timestamp": "2026-07-03T19:09:37.513Z",
+    "previous": "2288949ef78ff6e766d4b610358f4465e5229663e97178b5a61211904d195fbb",
+    "current": "04c5c23cecd069e38ca628c3f18d3183dc434e3cd8ce1483f80eee17473bf0aa"
+  },
+  {
+    "type": "robots_changed",
+    "host": "cpopayments-tx-splash-vip.bankofamerica.com",
+    "timestamp": "2026-07-03T19:09:37.513Z",
+    "previous": "1d104b890d96e10ce1156e999ece9a41e384cc0b84f4c6a8cc5a01185061db43",
+    "current": "d778b60235f0c83162b9fe5e61b3d895ccee334a62d30d4266fa1fe5eec851a4"
+  },
+  {
+    "type": "security_txt_changed",
+    "host": "cpopayments-tx-splash-vip.bankofamerica.com",
+    "timestamp": "2026-07-03T19:09:37.513Z",
+    "previous": "a8ccbe0023142b7f77061d6dc4028e62642eb874bb9ab82ead3feac8a6446057",
+    "current": "fdf84c80dbcd43fca308dca2d354bbb4221214729bcc59175ad2339ee2ced416"
+  },
+  {
+    "type": "sitemap_changed",
+    "host": "cpopayments-tx-splash-vip.bankofamerica.com",
+    "timestamp": "2026-07-03T19:09:37.513Z",
+    "previous": "3de9c9bf869769d4a8fc6a024598cc5ec588bc6352ff4547ebef863cf8354f2d",
+    "current": "97cdd26538110ad791393355b9ab99c26a04e48f772c775924b37e212858f10a"
+  },
+  {
+    "type": "robots_changed",
+    "host": "cpopayments-waa1.bankofamerica.com",
+    "timestamp": "2026-07-03T19:09:37.513Z",
+    "previous": "adf0b6d14478a69ecfbdcd168ff8ed27090ddd34f4e3bf9d586344fc359ff63c",
+    "current": "59ef510d09f8760b54167e83347434dde752b8c8e88aaafa534592082fc98713"
+  },
+  {
+    "type": "security_txt_changed",
+    "host": "cpopayments-waa1.bankofamerica.com",
+    "timestamp": "2026-07-03T19:09:37.513Z",
+    "previous": "be9ae9440f2ef29cd9350e80f5c1140986adebb7086597614561faa5da9ded14",
+    "current": "53de65a6bed4c75f76ebb3732ba2bae3fb429d7d7f287f9472257fbb40dd97bc"
+  },
+  {
+    "type": "sitemap_changed",
+    "host": "cpopayments-waa1.bankofamerica.com",
+    "timestamp": "2026-07-03T19:09:37.513Z",
+    "previous": "337bc711d89f8002b34e00a89b29501f23352bd63b2c1aab8907762c4ad72a3c",
+    "current": "434ea90d81aab1eeed7344259fc69052c84282f65ffef992aead542f58ddf6eb"
+  },
+  {
+    "type": "robots_changed",
+    "host": "ecds.bankofamerica.com",
+    "timestamp": "2026-07-03T19:09:37.513Z",
+    "previous": "ab57ad898b50e8700084692fe4f3733761af22ff71b0e4c6b59c5f5f27524ddb",
+    "current": "8c6ffee3d1c90b4c276cb18760627a1b0f7753b789aee2931941cd605a8b4bfa"
+  },
+  {
+    "type": "security_txt_changed",
+    "host": "ecds.bankofamerica.com",
+    "timestamp": "2026-07-03T19:09:37.513Z",
+    "previous": "598991b97b46f4338312d3c57db9bc18320eeef857be81a4bf3a556ecd05118e",
+    "current": "4d2b71a167fcba051e9637f90d4b8f117ac23e80e76a6e775f187330ac576fbc"
+  },
+  {
+    "type": "sitemap_changed",
+    "host": "ecds.bankofamerica.com",
+    "timestamp": "2026-07-03T19:09:37.513Z",
+    "previous": "d2e05d0787cabb88ee55b76a1df53c24087799bac21a699ae8206351a54fa44d",
+    "current": "db29c8f4d4987f981e8115e1c85d5398eefad73a987651250748fbefa505784c"
+  },
+  {
+    "type": "robots_changed",
+    "host": "employeeinfo.bankofamerica.com",
+    "timestamp": "2026-07-03T19:09:37.513Z",
+    "previous": "3e0abc1fa72fa6648566724f05e04318854845b00ed6d7ee8a13a782f0a78a9d",
+    "current": "41d92a62862fa9186afb12693ac06c48dee9995fbdf55a09fc3cc1cd8452e1b5"
+  },
+  {
+    "type": "security_txt_changed",
+    "host": "employeeinfo.bankofamerica.com",
+    "timestamp": "2026-07-03T19:09:37.513Z",
+    "previous": "9abd61c70b5206a21273f57939eec43119fd0515d6df8b9abb6c39f2f626a2d0",
+    "current": "46b9135f07aa1b936a6463513599d186da159fd45d11e9e1b823467210873566"
+  },
+  {
+    "type": "sitemap_changed",
+    "host": "employeeinfo.bankofamerica.com",
+    "timestamp": "2026-07-03T19:09:37.513Z",
+    "previous": "30c8ad2ccfba5ebeb3c66fe0e30ccd9f719d8c776d0ccc23d310b05e228ae9a1",
+    "current": "c9465b4e890b018c55af36152724742b2a16677d219ad5b0b0bc0f03a62b6687"
+  },
+  {
+    "type": "security_txt_changed",
+    "host": "es-locators.bankofamerica.com",
+    "timestamp": "2026-07-03T19:09:37.513Z",
+    "previous": "0b7e59f9bc7d8ca4a6cc1fe255fa85a1aed9626ec28187a9b710c4e5ab0f716f",
+    "current": "2813649e3b07a092c8332bd40712c3ceb0b4137ae4fb0f9d45f0a1f7674ad792"
+  },
+  {
+    "type": "sitemap_changed",
+    "host": "es-locators.bankofamerica.com",
+    "timestamp": "2026-07-03T19:09:37.513Z",
+    "previous": "0b7e59f9bc7d8ca4a6cc1fe255fa85a1aed9626ec28187a9b710c4e5ab0f716f",
+    "current": "3c82dd6087477238f4ec447ed6ba3de73ab48344bf9b106b58bcc9e4b76a577c"
+  },
+  {
+    "type": "robots_changed",
+    "host": "fiedo.bankofamerica.com",
+    "timestamp": "2026-07-03T19:09:37.513Z",
+    "previous": "93cb8e30289a205b28ae7db11f21a313a91ec59990f408881b5e2e28e5f4d5a3",
+    "current": "0592671a761806a932cc674896f51d61f9e5ec9e4e5207a118154203aee044ea"
+  },
+  {
+    "type": "security_txt_changed",
+    "host": "fiedo.bankofamerica.com",
+    "timestamp": "2026-07-03T19:09:37.513Z",
+    "previous": "a5813110049666e11ee10033104c25aa9e7ea663e8551f30d39036e6b2bf1851",
+    "current": "bbc049d5ed351042496e3f5306a5646c594dfa6859ceb2ef5c1d040d7ff76cb8"
+  },
+  {
+    "type": "sitemap_changed",
+    "host": "fiedo.bankofamerica.com",
+    "timestamp": "2026-07-03T19:09:37.513Z",
+    "previous": "46b05a5cce165e8c188a29edc3c1943b66812b30699ba2de4d91d43ab1c37d75",
+    "current": "a929144398ba478721d34c9a669652543350a5db29cbf81aae7dfd1cf04dbf7c"
+  },
+  {
+    "type": "security_txt_changed",
+    "host": "fiedouat.bankofamerica.com",
+    "timestamp": "2026-07-03T19:09:37.513Z",
+    "previous": "876e61c41f8270a6f0c4f1c82678e9a0634bf3e865c6b7f0bfd091066edc7f23",
+    "current": "9cff0ba3c63a38d1d3e9d6324618017639f65504d69061ac7bc9fd813af57a42"
+  },
+  {
+    "type": "robots_changed",
+    "host": "gfx.bankofamerica.com",
+    "timestamp": "2026-07-03T19:09:37.513Z",
+    "previous": "fc1d47658cac7bbec3912db60932b41c1811cfd767ffc97c7c8d7378a0162565",
+    "current": "14897867a3216b8a9f234f49c57aaada4fbb9e6f6eb3c035baa600a867ff0057"
+  },
+  {
+    "type": "security_txt_changed",
+    "host": "gfx.bankofamerica.com",
+    "timestamp": "2026-07-03T19:09:37.513Z",
+    "previous": "a98931fddc9dc700bb8788db6221242464b3c16c6a9d539d004b107a56ed3870",
+    "current": "75aeae9716058bf93862466c40f737c5de4894bf3d754ab5e6352f6286c46e84"
+  },
+  {
+    "type": "sitemap_changed",
+    "host": "gfx.bankofamerica.com",
+    "timestamp": "2026-07-03T19:09:37.513Z",
+    "previous": "240149eaa2cfdadfd61f0722804f3527c7d0bdbc0e3e146cd61d292f5ae18b2a",
+    "current": "85fb172876c324b71364cae57f201eac29cde259dff94ed6c1263221cd2abd24"
+  },
+  {
+    "type": "robots_changed",
+    "host": "gfxsso.bankofamerica.com",
+    "timestamp": "2026-07-03T19:09:37.513Z",
+    "previous": "073dd12b50b6cb8ff377cf58bd5bff09cc3a79aaf3bbdd4c3dad8367d1af3b78",
+    "current": "60fcfbea71b97bbcfd755d68b00d29a3578c8315208a2677cd120df620ba954a"
+  },
+  {
+    "type": "security_txt_changed",
+    "host": "gfxsso.bankofamerica.com",
+    "timestamp": "2026-07-03T19:09:37.513Z",
+    "previous": "babeb726fe3a5acde4f870a49196d600409d07fe63e003760bf1ef5a5fb69766",
+    "current": "6fc6e7bbc5bc601bb84a81c9f661b2c118ed69aebf1c22ae2f4588ced4618507"
+  },
+  {
+    "type": "sitemap_changed",
+    "host": "gfxsso.bankofamerica.com",
+    "timestamp": "2026-07-03T19:09:37.513Z",
+    "previous": "060bfd4c185285e250f201aae40c68366252bc40ec106c1ef3df66221b6bf81b",
+    "current": "b17aa67a7b7ca3ca32948aca76245b3ba0cb3a5d9be3caf469d60f0488cc4882"
+  },
+  {
+    "type": "status_changed",
+    "host": "ibp.bankofamerica.com",
+    "timestamp": "2026-07-03T19:09:37.513Z",
+    "previous": null,
+    "current": 401
+  },
+  {
+    "type": "robots_changed",
+    "host": "ittax-prod.bankofamerica.com",
+    "timestamp": "2026-07-03T19:09:37.513Z",
+    "previous": "ce170a5eaa9c3b36fdbf7f1835dbfc1f44ffec8dacd571d4f9ed0fcd084fd0eb",
+    "current": "c6b70b634b165474162991e65bc737b3e42914f65522796550df1fa5a5407406"
+  },
+  {
+    "type": "security_txt_changed",
+    "host": "ittax-prod.bankofamerica.com",
+    "timestamp": "2026-07-03T19:09:37.513Z",
+    "previous": "eeac80c77635720fc2761f5b5015dd9aaa7f3b6316304351387c846cf01f54de",
+    "current": "63d6b9a9d657407deb95a80e86ed05bb1776527a707c7e82a378a0eefdf89a55"
+  },
+  {
+    "type": "sitemap_changed",
+    "host": "ittax-prod.bankofamerica.com",
+    "timestamp": "2026-07-03T19:09:37.513Z",
+    "previous": "836ff3e12ff64fede3643f38b4c2f21c92f30a9cf917558323f824a3d39a80ce",
+    "current": "f1e229d9064a6d76f26f70ee930e446eb14ffa5748ee1141cff08f121637e20e"
+  },
+  {
+    "type": "security_txt_changed",
+    "host": "locators.bankofamerica.com",
+    "timestamp": "2026-07-03T19:09:37.513Z",
+    "previous": "65e17f38ef9cf9568b0ea49b7198d1832f029af8a7faac92b74b248574ef918b",
+    "current": "2d8065527a0da475f0a1431f07c691b77fda9633dbd2219197a6e0d2bf5fbc08"
+  },
+  {
+    "type": "sitemap_changed",
+    "host": "locators.bankofamerica.com",
+    "timestamp": "2026-07-03T19:09:37.513Z",
+    "previous": "65e17f38ef9cf9568b0ea49b7198d1832f029af8a7faac92b74b248574ef918b",
+    "current": "80e7fb4af9b44ff65c5c4ecd302c87ac14853afa4441609858b3df4b3af00d91"
+  },
+  {
+    "type": "robots_changed",
+    "host": "mobile.bankofamerica.com",
+    "timestamp": "2026-07-03T19:09:37.513Z",
+    "previous": "9a0deab28d3dabdaef2994c69b1627b33f196689d6968a72fad77bd2b122e9af",
+    "current": "5234e2f300fccffb46a215302aa57f0f76beea87101006eef6556a3a20fc1e51"
+  },
+  {
+    "type": "security_txt_changed",
+    "host": "mobile.bankofamerica.com",
+    "timestamp": "2026-07-03T19:09:37.513Z",
+    "previous": "9a0deab28d3dabdaef2994c69b1627b33f196689d6968a72fad77bd2b122e9af",
+    "current": "5234e2f300fccffb46a215302aa57f0f76beea87101006eef6556a3a20fc1e51"
+  },
+  {
+    "type": "sitemap_changed",
+    "host": "mobile.bankofamerica.com",
+    "timestamp": "2026-07-03T19:09:37.513Z",
+    "previous": "9a0deab28d3dabdaef2994c69b1627b33f196689d6968a72fad77bd2b122e9af",
+    "current": "5234e2f300fccffb46a215302aa57f0f76beea87101006eef6556a3a20fc1e51"
+  },
+  {
+    "type": "status_changed",
+    "host": "mservice-preview.ecnp.bankofamerica.com",
+    "timestamp": "2026-07-03T19:09:37.513Z",
+    "previous": null,
+    "current": 403
+  },
+  {
+    "type": "status_changed",
+    "host": "mservice-review.ecnp.bankofamerica.com",
+    "timestamp": "2026-07-03T19:09:37.513Z",
+    "previous": null,
+    "current": 403
+  },
+  {
+    "type": "security_txt_changed",
+    "host": "rdo-cst.bankofamerica.com",
+    "timestamp": "2026-07-03T19:09:37.513Z",
+    "previous": "97f185537ac0b0e368bece64a69bdafdd6a63790d3f81a75c7e990f668c26d9d",
+    "current": "ba64a8050d7c5fb43d950bf56aec05fcba24e7421bde4fb0e5b6e9f32d425280"
+  },
+  {
+    "type": "sitemap_changed",
+    "host": "rdo-cst.bankofamerica.com",
+    "timestamp": "2026-07-03T19:09:37.513Z",
+    "previous": "91082f535509d93e6d62bac08116677ab3825bd5c987cd35e7b039e50d845671",
+    "current": "1e3860c33b6cd7b9a31691d615daa634b56efbf20536a4bb5fa337abe3497d8d"
+  },
+  {
+    "type": "robots_changed",
+    "host": "remotedeposit-cashpro.bankofamerica.com",
+    "timestamp": "2026-07-03T19:09:37.513Z",
+    "previous": "cb31a9687e451986270e10e814e84c33991d1df8c04b29d13d0950565b88f560",
+    "current": "0cd14aa5b2960fc710bfce9f8dc00b488d574a4d073ed648d4204011a19b6c9c"
+  },
+  {
+    "type": "security_txt_changed",
+    "host": "remotedeposit-cashpro.bankofamerica.com",
+    "timestamp": "2026-07-03T19:09:37.513Z",
+    "previous": "37a04daed02e4285ab3e047450657dfc459b2a5ca1fcb47c4b20231b6f28ede4",
+    "current": "8c6fda4b238236913fb5631803e059595104ee3bfcd152adfc3b7173a62b291b"
+  },
+  {
+    "type": "sitemap_changed",
+    "host": "remotedeposit-cashpro.bankofamerica.com",
+    "timestamp": "2026-07-03T19:09:37.513Z",
+    "previous": "f999c480110e8bcebaeaeba50d2a4f8f5f2559260d7d67949215445c40bb4e55",
+    "current": "478954571b283f0a1e69cb241d9e0953ea91ad0cd192b38bd3499e55fceea199"
+  },
+  {
+    "type": "security_txt_changed",
+    "host": "remotedeposit-smallbusiness.bankofamerica.com",
+    "timestamp": "2026-07-03T19:09:37.513Z",
+    "previous": "3cb8ffaa80f74e324847f60a8b085902e828acacf641c9af9f714ddaffbb17af",
+    "current": "b4b61605929ea21c6cdafebf135f99af29d4d4233a4198195e8a35591a89f6a6"
+  },
+  {
+    "type": "sitemap_changed",
+    "host": "remotedeposit-smallbusiness.bankofamerica.com",
+    "timestamp": "2026-07-03T19:09:37.513Z",
+    "previous": "074a1860c83fdeae5d8093e7f3502f598382076bb5887a50380c4bb943943350",
+    "current": "96531ca1469765a02e68ddd879d6c2b04738c73f10a6662c8091cdb8a1c673c7"
+  },
+  {
+    "type": "robots_changed",
+    "host": "resfcmbs.bankofamerica.com",
+    "timestamp": "2026-07-03T19:09:37.513Z",
+    "previous": "3c40cd0f17e2f0acc2f8412f53acdd876a21b14e46f9e69c6105f9dbd2a85771",
+    "current": "a0706a3501dd96ef0421e6461d9468462bc5c29f73d24c085edae4e10cc5ce5e"
+  },
+  {
+    "type": "security_txt_changed",
+    "host": "resfcmbs.bankofamerica.com",
+    "timestamp": "2026-07-03T19:09:37.513Z",
+    "previous": "a665d2115ef937916de2d385d93ecb9a1b83b88d0e2df0089ea7e113112ad426",
+    "current": "2e6c142bde8d1e7b1f915a7e01c7055be8d4ac3aaf58aee9f3d8c9b0a47873d9"
+  },
+  {
+    "type": "sitemap_changed",
+    "host": "resfcmbs.bankofamerica.com",
+    "timestamp": "2026-07-03T19:09:37.513Z",
+    "previous": "6b404baf3150e6ec85897f4a0ba65be494a2c8cbe413a946f50ada875fd828e6",
+    "current": "cee8cb8026b8f5fedf1157e6694879d577016ec1a63491bd5ceb2085cae3c394"
+  },
+  {
+    "type": "robots_changed",
+    "host": "secure-dev3.ecnp.bankofamerica.com",
+    "timestamp": "2026-07-03T19:09:37.513Z",
+    "previous": "",
+    "current": "36d7cf1ed95e63f0acf76ff17565ad8bff7ed9dbb247c6964dd129d43831f405"
+  },
+  {
+    "type": "security_txt_changed",
+    "host": "secure-dev3.ecnp.bankofamerica.com",
+    "timestamp": "2026-07-03T19:09:37.513Z",
+    "previous": "",
+    "current": "36d7cf1ed95e63f0acf76ff17565ad8bff7ed9dbb247c6964dd129d43831f405"
+  },
+  {
+    "type": "sitemap_changed",
+    "host": "secure-dev3.ecnp.bankofamerica.com",
+    "timestamp": "2026-07-03T19:09:37.513Z",
+    "previous": "",
+    "current": "36d7cf1ed95e63f0acf76ff17565ad8bff7ed9dbb247c6964dd129d43831f405"
+  },
+  {
+    "type": "status_changed",
+    "host": "secure-dev3.ecnp.bankofamerica.com",
+    "timestamp": "2026-07-03T19:09:37.513Z",
+    "previous": null,
+    "current": 200
+  },
+  {
+    "type": "robots_changed",
+    "host": "studentmoneyskills.bankofamerica.com",
+    "timestamp": "2026-07-03T19:09:37.513Z",
+    "previous": "81a21ca2995b54230b0a245a67f5245b5e5ceb7f652df5a5aa52df36eb2a23da",
+    "current": "1d8d0303b9da4074e3f6e268521aaaf0e11b9a489e8105555187304e646efc5c"
+  },
+  {
+    "type": "security_txt_changed",
+    "host": "studentmoneyskills.bankofamerica.com",
+    "timestamp": "2026-07-03T19:09:37.513Z",
+    "previous": "1d8d0303b9da4074e3f6e268521aaaf0e11b9a489e8105555187304e646efc5c",
+    "current": "81a21ca2995b54230b0a245a67f5245b5e5ceb7f652df5a5aa52df36eb2a23da"
+  },
+  {
+    "type": "sitemap_changed",
+    "host": "studentmoneyskills.bankofamerica.com",
+    "timestamp": "2026-07-03T19:09:37.513Z",
+    "previous": "1d8d0303b9da4074e3f6e268521aaaf0e11b9a489e8105555187304e646efc5c",
+    "current": "1f1dc1c644e41cb0eac0d83bce59e960f27bef2ebf66a79d9e62f8ebc1e0bbd6"
+  },
+  {
+    "type": "robots_changed",
+    "host": "tradeep.bankofamerica.com",
+    "timestamp": "2026-07-03T19:09:37.513Z",
+    "previous": "a0a70613ae7825d3d36f66c96fae59c1cb30ceff614a91fa70341edc6cfe687a",
+    "current": "c8107b6340463870259136cddf542fa8e5ccec647c2f58fadf148b0968afdacc"
+  },
+  {
+    "type": "security_txt_changed",
+    "host": "tradeep.bankofamerica.com",
+    "timestamp": "2026-07-03T19:09:37.513Z",
+    "previous": "c4f52892654df165352729d43a25d13a40e686ab2066db5bda72edd5b80acde3",
+    "current": "02a569b1afe6fa585e7180cc13d8f9b6e0b20fb6e5fe902c0977b862207ad894"
+  },
+  {
+    "type": "sitemap_changed",
+    "host": "tradeep.bankofamerica.com",
+    "timestamp": "2026-07-03T19:09:37.513Z",
+    "previous": "a9532867d69676bb66a58c6432655070b2b5c72c5505a96d1b4b366ff635b0b4",
+    "current": "6739091cd655f4a93a29e8be1b166e37a0183ce560cd3474c50575ee16337fb4"
   }
 ]

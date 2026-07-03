@@ -42,9 +42,9 @@
 <meta property="og:title" content="Beta-Login - Liferay DXP">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://markets-pp.ml.com/v2/login_page">
-<script type="text/javascript" src="https://static.markets-pp.ml.com/public/ruxitagentjs_ICANVefgjqrux_10311250313143955.js" data-dtconfig="app=255909283501ccb7|cuc=2quylscs|owasp=1|mel=100000|featureHash=ICANVefgjqrux|dpvc=1|lastModification=1782917920494|tp=500,50,0|rdnt=0|uxrgce=1|srbbv=2|agentUri=/public/ruxitagentjs_ICANVefgjqrux_10311250313143955.js|reportUrl=/public/rb_b98eaf5f-1f20-4c18-abb1-d0485f23f06d|rid=RID_1233818533|rpid=-1290102004|domain=ml.com"></script><link href="https://static.markets-pp.ml.com/o/mercury_dxp_theme/images/favicon.ico" rel="apple-touch-icon"/>
+<script type="text/javascript" src="https://static.markets-pp.ml.com/public/ruxitagentjs_ICANVefgjqrux_10311250313143955.js" data-dtconfig="app=255909283501ccb7|cuc=2quylscs|owasp=1|mel=100000|featureHash=ICANVefgjqrux|dpvc=1|lastModification=1782957624024|tp=500,50,0|rdnt=0|uxrgce=1|srbbv=2|agentUri=/public/ruxitagentjs_ICANVefgjqrux_10311250313143955.js|reportUrl=/public/rb_b98eaf5f-1f20-4c18-abb1-d0485f23f06d|rid=RID_2096293015|rpid=569708701|domain=ml.com"></script><link href="https://static.markets-pp.ml.com/o/mercury_dxp_theme/images/favicon.ico" rel="apple-touch-icon"/>
 <link href="https://static.markets-pp.ml.com/o/mercury_dxp_theme/images/favicon.ico" rel="icon"/>
-<link class="lfr-css-file" data-senna-track="temporary" href="https://static.markets-pp.ml.com/o/mercury_dxp_theme/css/A.clay.css,qbrowserId=other,athemeId=mercury_dxp_theme_WAR_mercury_dxp_theme,alanguageId=en_US,at=1783091020000.pagespeed.cf.nLeyi_FKbX.css" id="liferayAUICSS" rel="stylesheet" type="text/css"/>
+<link class="lfr-css-file" data-senna-track="temporary" href="https://static.markets-pp.ml.com/o/mercury_dxp_theme/css/A.clay.css,qbrowserId=other,athemeId=mercury_dxp_theme_WAR_mercury_dxp_theme,alanguageId=en_US,at=1783090670000.pagespeed.cf.nLeyi_FKbX.css" id="liferayAUICSS" rel="stylesheet" type="text/css"/>
 <link href="https://static.markets-pp.ml.com/o/journal-content-web/css/main.css?browserId=other&amp;themeId=mercury_dxp_theme_WAR_mercury_dxp_theme&amp;languageId=en_US&amp;t=1691638834000" rel="stylesheet" type="text/css" data-senna-track="temporary" id="7d9597ed"/>
 <link href="https://static.markets-pp.ml.com/o/portal-search-web/css/main.css?browserId=other&amp;themeId=mercury_dxp_theme_WAR_mercury_dxp_theme&amp;languageId=en_US&amp;t=1692930182000" rel="stylesheet" type="text/css" data-senna-track="temporary" id="f89a803b"/>
 <link href="https://static.markets-pp.ml.com/o/product-navigation-product-menu-web/css/main.css?browserId=other&amp;themeId=mercury_dxp_theme_WAR_mercury_dxp_theme&amp;languageId=en_US&amp;t=1693502018000" rel="stylesheet" type="text/css" data-senna-track="temporary" id="250e6f1e"/>
@@ -342,10 +342,10 @@
 				return '20101';
 			},
 			getRemoteAddr: function() {
-				return '171.148.194.213';
+				return '171.148.194.212';
 			},
 			getRemoteHost: function() {
-				return '171.148.194.213';
+				return '171.148.194.212';
 			},
 			getScopeGroupId: function() {
 				return '20121';
@@ -460,15 +460,15 @@
 			}
 		};
 
-		Liferay.authToken = 'u8wWaVux';
+		Liferay.authToken = 'DXtbMlxk';
 
 		
 
-		Liferay.currentURL = '\x2fv2\x2flogin_page\x3fresumePath\x3dhttps\x253A\x252F\x252Ffedsso-pp\x2eml\x2ecom\x252Fas\x252FJSRJ5hn39m\x252Fresume\x252Fas\x252Fauthorization\x2eping\x26vnd_pi_requested_resource\x3dhttps\x253A\x252F\x252Fbofacapital-pp\x2ebankofamerica\x2ecom\x252Fsitemap\x2exml\x26vnd_pi_application_name\x3dA2521MercuryPortalAPI\x26client_id\x3dA2521MercuryPortalAPI';
-		Liferay.currentURLEncoded = '\x252Fv2\x252Flogin_page\x253FresumePath\x253Dhttps\x25253A\x25252F\x25252Ffedsso-pp\x2eml\x2ecom\x25252Fas\x25252FJSRJ5hn39m\x25252Fresume\x25252Fas\x25252Fauthorization\x2eping\x2526vnd_pi_requested_resource\x253Dhttps\x25253A\x25252F\x25252Fbofacapital-pp\x2ebankofamerica\x2ecom\x25252Fsitemap\x2exml\x2526vnd_pi_application_name\x253DA2521MercuryPortalAPI\x2526client_id\x253DA2521MercuryPortalAPI';
+		Liferay.currentURL = '\x2fv2\x2flogin_page\x3fresumePath\x3dhttps\x253A\x252F\x252Ffedsso-pp\x2eml\x2ecom\x252Fas\x252FoJSIE1Rpu9\x252Fresume\x252Fas\x252Fauthorization\x2eping\x26vnd_pi_requested_resource\x3dhttps\x253A\x252F\x252Fbofacapital-pp\x2ebankofamerica\x2ecom\x252Fsitemap\x2exml\x26vnd_pi_application_name\x3dA2521MercuryPortalAPI\x26client_id\x3dA2521MercuryPortalAPI';
+		Liferay.currentURLEncoded = '\x252Fv2\x252Flogin_page\x253FresumePath\x253Dhttps\x25253A\x25252F\x25252Ffedsso-pp\x2eml\x2ecom\x25252Fas\x25252FoJSIE1Rpu9\x25252Fresume\x25252Fas\x25252Fauthorization\x2eping\x2526vnd_pi_requested_resource\x253Dhttps\x25253A\x25252F\x25252Fbofacapital-pp\x2ebankofamerica\x2ecom\x25252Fsitemap\x2exml\x2526vnd_pi_application_name\x253DA2521MercuryPortalAPI\x2526client_id\x253DA2521MercuryPortalAPI';
 	// ]]>
 </script>
-<script data-senna-track="temporary" type="text/javascript">window.__CONFIG__= {basePath: '',combine: true, defaultURLParams: null, explainResolutions: false, exposeGlobal: false, logLevel: 'warn', moduleType: 'module', namespace:'Liferay', reportMismatchedAnonymousModules: 'warn', resolvePath: '/o/js_resolve_modules/fc504875-8d4c-4766-a6e1-8696bc1efa50', url: '/combo/?browserId=other&minifierType=js&languageId=en_US&t=1693511766786&', waitTimeout: 60000};</script><script data-senna-track="permanent" src="https://static.markets-pp.ml.com/o/frontend-js-loader-modules-extender/loader.js?&amp;mac=kuyYLzgmJRuntKLenfFpZdHstco=&amp;browserId=other&amp;languageId=en_US&amp;minifierType=js" type="text/javascript"></script><script data-senna-track="permanent" src="https://static.markets-pp.ml.com/combo?browserId=other&amp;minifierType=js&amp;languageId=en_US&amp;t=1693511766786&amp;/o/frontend-js-aui-web/aui/aui/aui-min.js&amp;/o/frontend-js-aui-web/liferay/modules.js&amp;/o/frontend-js-aui-web/liferay/aui_sandbox.js&amp;/o/frontend-js-aui-web/aui/attribute-base/attribute-base-min.js&amp;/o/frontend-js-aui-web/aui/attribute-complex/attribute-complex-min.js&amp;/o/frontend-js-aui-web/aui/attribute-core/attribute-core-min.js&amp;/o/frontend-js-aui-web/aui/attribute-observable/attribute-observable-min.js&amp;/o/frontend-js-aui-web/aui/attribute-extras/attribute-extras-min.js&amp;/o/frontend-js-aui-web/aui/event-custom-base/event-custom-base-min.js&amp;/o/frontend-js-aui-web/aui/event-custom-complex/event-custom-complex-min.js&amp;/o/frontend-js-aui-web/aui/oop/oop-min.js&amp;/o/frontend-js-aui-web/aui/aui-base-lang/aui-base-lang-min.js&amp;/o/frontend-js-aui-web/liferay/dependency.js&amp;/o/frontend-js-aui-web/liferay/util.js&amp;/o/oauth2-provider-web/js/liferay.js&amp;/o/frontend-js-web/liferay/dom_task_runner.js&amp;/o/frontend-js-web/liferay/events.js&amp;/o/frontend-js-web/liferay/lazy_load.js&amp;/o/frontend-js-web/liferay/liferay.js&amp;/o/frontend-js-web/liferay/global.bundle.js&amp;/o/frontend-js-web/liferay/portlet.js&amp;/o/frontend-js-web/liferay/workflow.js" type="text/javascript"></script>
+<script data-senna-track="temporary" type="text/javascript">window.__CONFIG__= {basePath: '',combine: true, defaultURLParams: null, explainResolutions: false, exposeGlobal: false, logLevel: 'warn', moduleType: 'module', namespace:'Liferay', reportMismatchedAnonymousModules: 'warn', resolvePath: '/o/js_resolve_modules/dbc30784-bda7-4f32-9ac6-51a7b9f3e113', url: '/combo/?browserId=other&minifierType=js&languageId=en_US&t=1693511766786&', waitTimeout: 60000};</script><script data-senna-track="permanent" src="https://static.markets-pp.ml.com/o/frontend-js-loader-modules-extender/loader.js?&amp;mac=kuyYLzgmJRuntKLenfFpZdHstco=&amp;browserId=other&amp;languageId=en_US&amp;minifierType=js" type="text/javascript"></script><script data-senna-track="permanent" src="https://static.markets-pp.ml.com/combo?browserId=other&amp;minifierType=js&amp;languageId=en_US&amp;t=1693511766786&amp;/o/frontend-js-aui-web/aui/aui/aui-min.js&amp;/o/frontend-js-aui-web/liferay/modules.js&amp;/o/frontend-js-aui-web/liferay/aui_sandbox.js&amp;/o/frontend-js-aui-web/aui/attribute-base/attribute-base-min.js&amp;/o/frontend-js-aui-web/aui/attribute-complex/attribute-complex-min.js&amp;/o/frontend-js-aui-web/aui/attribute-core/attribute-core-min.js&amp;/o/frontend-js-aui-web/aui/attribute-observable/attribute-observable-min.js&amp;/o/frontend-js-aui-web/aui/attribute-extras/attribute-extras-min.js&amp;/o/frontend-js-aui-web/aui/event-custom-base/event-custom-base-min.js&amp;/o/frontend-js-aui-web/aui/event-custom-complex/event-custom-complex-min.js&amp;/o/frontend-js-aui-web/aui/oop/oop-min.js&amp;/o/frontend-js-aui-web/aui/aui-base-lang/aui-base-lang-min.js&amp;/o/frontend-js-aui-web/liferay/dependency.js&amp;/o/frontend-js-aui-web/liferay/util.js&amp;/o/oauth2-provider-web/js/liferay.js&amp;/o/frontend-js-web/liferay/dom_task_runner.js&amp;/o/frontend-js-web/liferay/events.js&amp;/o/frontend-js-web/liferay/lazy_load.js&amp;/o/frontend-js-web/liferay/liferay.js&amp;/o/frontend-js-web/liferay/global.bundle.js&amp;/o/frontend-js-web/liferay/portlet.js&amp;/o/frontend-js-web/liferay/workflow.js" type="text/javascript"></script>
 <script data-senna-track="temporary" type="text/javascript">window.Liferay = Liferay || {}; window.Liferay.OAuth2 = {getAuthorizeURL: function() {return 'https://markets-pp.ml.com/o/oauth2/authorize';}, getBuiltInRedirectURL: function() {return 'https://markets-pp.ml.com/o/oauth2/redirect';}, getIntrospectURL: function() { return 'https://markets-pp.ml.com/o/oauth2/introspect';}, getTokenURL: function() {return 'https://markets-pp.ml.com/o/oauth2/token';}, getUserAgentApplication: function(externalReferenceCode) {return Liferay.OAuth2._userAgentApplications[externalReferenceCode];}, _userAgentApplications: {}}</script><script data-senna-track="temporary" type="text/javascript">try {var MODULE_MAIN='commerce-product-content-web@4.0.101/index';var MODULE_PATH='/o/commerce-product-content-web';AUI().applyConfig({groups:{productcontent:{base:MODULE_PATH+"/js/",combine:Liferay.AUI.getCombine(),modules:{"liferay-commerce-product-content":{path:"product_content.js",requires:["aui-base","aui-io-request","aui-parse-content","liferay-portlet-base","liferay-portlet-url"]}},root:MODULE_PATH+"/js/"}}});
 } catch(error) {console.error(error);}try {var MODULE_MAIN='commerce-frontend-impl@4.0.48/index';var MODULE_PATH='/o/commerce-frontend-impl';AUI().applyConfig({groups:{commercefrontend:{base:MODULE_PATH+"/js/",combine:Liferay.AUI.getCombine(),modules:{"liferay-commerce-frontend-management-bar-state":{condition:{trigger:"liferay-management-bar"},path:"management_bar_state.js",requires:["liferay-management-bar"]}},root:MODULE_PATH+"/js/"}}});
 } catch(error) {console.error(error);}try {var MODULE_MAIN='journal-web@5.0.150/index';var MODULE_PATH='/o/journal-web';AUI().applyConfig({groups:{journal:{base:MODULE_PATH+"/js/",combine:Liferay.AUI.getCombine(),filter:Liferay.AUI.getFilterConfig(),modules:{"liferay-journal-navigation":{path:"navigation.js",requires:["aui-component","liferay-portlet-base","liferay-search-container"]},"liferay-portlet-journal":{path:"main.js",requires:["aui-base","liferay-portlet-base","liferay-util-window"]}},root:MODULE_PATH+"/js/"}}});
@@ -503,7 +503,7 @@
 		
 	// ]]>
 </script>
-<link class="lfr-css-file" data-senna-track="temporary" href="https://static.markets-pp.ml.com/o/mercury_dxp_theme/css/A.main.css,qbrowserId=other,athemeId=mercury_dxp_theme_WAR_mercury_dxp_theme,alanguageId=en_US,at=1783091020000.pagespeed.cf.aBfqC6T_rn.css" id="liferayThemeCSS" rel="stylesheet" type="text/css"/>
+<link class="lfr-css-file" data-senna-track="temporary" href="https://static.markets-pp.ml.com/o/mercury_dxp_theme/css/A.main.css,qbrowserId=other,athemeId=mercury_dxp_theme_WAR_mercury_dxp_theme,alanguageId=en_US,at=1783090670000.pagespeed.cf.aBfqC6T_rn.css" id="liferayThemeCSS" rel="stylesheet" type="text/css"/>
 <style data-senna-track="temporary" type="text/css">
 		.featured-research-icon {
     background: url(/documents/20121/0/HP-sprite.png/7d6c220d-0a67-e571-ae14-cac93b0929b5) no-repeat scroll -2px -677px !important;
@@ -769,7 +769,7 @@ if("undefined" != typeof(OnetrustActiveGroups) && null != OnetrustActiveGroups &
 }	    	
 </script> </head>
 <body class="change-tracking-enabled other controls-visible login yui3-skin-sam guest-site signed-out public-page site">
-<nav aria-label="Quick Links" class="bg-dark cadmin quick-access-nav text-center text-white" id="syxz_quickAccessNav">
+<nav aria-label="Quick Links" class="bg-dark cadmin quick-access-nav text-center text-white" id="nhri_quickAccessNav">
 <a class="d-block p-2 sr-only sr-only-focusable text-reset" href="#main-content">
 Skip to Main Content
 </a>
@@ -1985,8 +1985,8 @@ Are Not FDIC Insured • May Lose Value • Are Not Bank Guaranteed.
 
 		
 
-		Liferay.currentURL = '\x2fv2\x2flogin_page\x3fresumePath\x3dhttps\x253A\x252F\x252Ffedsso-pp\x2eml\x2ecom\x252Fas\x252FJSRJ5hn39m\x252Fresume\x252Fas\x252Fauthorization\x2eping\x26vnd_pi_requested_resource\x3dhttps\x253A\x252F\x252Fbofacapital-pp\x2ebankofamerica\x2ecom\x252Fsitemap\x2exml\x26vnd_pi_application_name\x3dA2521MercuryPortalAPI\x26client_id\x3dA2521MercuryPortalAPI';
-		Liferay.currentURLEncoded = '\x252Fv2\x252Flogin_page\x253FresumePath\x253Dhttps\x25253A\x25252F\x25252Ffedsso-pp\x2eml\x2ecom\x25252Fas\x25252FJSRJ5hn39m\x25252Fresume\x25252Fas\x25252Fauthorization\x2eping\x2526vnd_pi_requested_resource\x253Dhttps\x25253A\x25252F\x25252Fbofacapital-pp\x2ebankofamerica\x2ecom\x25252Fsitemap\x2exml\x2526vnd_pi_application_name\x253DA2521MercuryPortalAPI\x2526client_id\x253DA2521MercuryPortalAPI';
+		Liferay.currentURL = '\x2fv2\x2flogin_page\x3fresumePath\x3dhttps\x253A\x252F\x252Ffedsso-pp\x2eml\x2ecom\x252Fas\x252FoJSIE1Rpu9\x252Fresume\x252Fas\x252Fauthorization\x2eping\x26vnd_pi_requested_resource\x3dhttps\x253A\x252F\x252Fbofacapital-pp\x2ebankofamerica\x2ecom\x252Fsitemap\x2exml\x26vnd_pi_application_name\x3dA2521MercuryPortalAPI\x26client_id\x3dA2521MercuryPortalAPI';
+		Liferay.currentURLEncoded = '\x252Fv2\x252Flogin_page\x253FresumePath\x253Dhttps\x25253A\x25252F\x25252Ffedsso-pp\x2eml\x2ecom\x25252Fas\x25252FoJSIE1Rpu9\x25252Fresume\x25252Fas\x25252Fauthorization\x2eping\x2526vnd_pi_requested_resource\x253Dhttps\x25253A\x25252F\x25252Fbofacapital-pp\x2ebankofamerica\x2ecom\x25252Fsitemap\x2exml\x2526vnd_pi_application_name\x253DA2521MercuryPortalAPI\x2526client_id\x253DA2521MercuryPortalAPI';
 
 	// ]]>
 </script>
@@ -2203,7 +2203,7 @@ Are Not FDIC Insured • May Lose Value • Are Not Bank Guaranteed.
 			isStatic: 'end',
 			namespacedId: 'p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_cVTyClPr1YRO_',
 			portletId: 'com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_cVTyClPr1YRO',
-			refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d214\x26p_p_id\x3dcom_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_cVTyClPr1YRO\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dcolumn-1\x26p_p_col_pos\x3d2\x26p_p_col_count\x3d3\x26p_p_isolated\x3d1\x26currentURL\x3d\x252Fv2\x252Flogin_page\x253FresumePath\x253Dhttps\x25253A\x25252F\x25252Ffedsso-pp\x2eml\x2ecom\x25252Fas\x25252FJSRJ5hn39m\x25252Fresume\x25252Fas\x25252Fauthorization\x2eping\x2526vnd_pi_requested_resource\x253Dhttps\x25253A\x25252F\x25252Fbofacapital-pp\x2ebankofamerica\x2ecom\x25252Fsitemap\x2exml\x2526vnd_pi_application_name\x253DA2521MercuryPortalAPI\x2526client_id\x253DA2521MercuryPortalAPI',
+			refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d214\x26p_p_id\x3dcom_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_cVTyClPr1YRO\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dcolumn-1\x26p_p_col_pos\x3d2\x26p_p_col_count\x3d3\x26p_p_isolated\x3d1\x26currentURL\x3d\x252Fv2\x252Flogin_page\x253FresumePath\x253Dhttps\x25253A\x25252F\x25252Ffedsso-pp\x2eml\x2ecom\x25252Fas\x25252FoJSIE1Rpu9\x25252Fresume\x25252Fas\x25252Fauthorization\x2eping\x2526vnd_pi_requested_resource\x253Dhttps\x25253A\x25252F\x25252Fbofacapital-pp\x2ebankofamerica\x2ecom\x25252Fsitemap\x2exml\x2526vnd_pi_application_name\x253DA2521MercuryPortalAPI\x2526client_id\x253DA2521MercuryPortalAPI',
 			refreshURLData: {}
 		}
 	);
@@ -2220,7 +2220,7 @@ Are Not FDIC Insured • May Lose Value • Are Not Bank Guaranteed.
 			isStatic: 'end',
 			namespacedId: 'p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_euzvtk6kbSpJ_',
 			portletId: 'com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_euzvtk6kbSpJ',
-			refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d214\x26p_p_id\x3dcom_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_euzvtk6kbSpJ\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dcolumn-1\x26p_p_col_pos\x3d0\x26p_p_col_count\x3d3\x26p_p_isolated\x3d1\x26currentURL\x3d\x252Fv2\x252Flogin_page\x253FresumePath\x253Dhttps\x25253A\x25252F\x25252Ffedsso-pp\x2eml\x2ecom\x25252Fas\x25252FJSRJ5hn39m\x25252Fresume\x25252Fas\x25252Fauthorization\x2eping\x2526vnd_pi_requested_resource\x253Dhttps\x25253A\x25252F\x25252Fbofacapital-pp\x2ebankofamerica\x2ecom\x25252Fsitemap\x2exml\x2526vnd_pi_application_name\x253DA2521MercuryPortalAPI\x2526client_id\x253DA2521MercuryPortalAPI',
+			refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d214\x26p_p_id\x3dcom_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_euzvtk6kbSpJ\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dcolumn-1\x26p_p_col_pos\x3d0\x26p_p_col_count\x3d3\x26p_p_isolated\x3d1\x26currentURL\x3d\x252Fv2\x252Flogin_page\x253FresumePath\x253Dhttps\x25253A\x25252F\x25252Ffedsso-pp\x2eml\x2ecom\x25252Fas\x25252FoJSIE1Rpu9\x25252Fresume\x25252Fas\x25252Fauthorization\x2eping\x2526vnd_pi_requested_resource\x253Dhttps\x25253A\x25252F\x25252Fbofacapital-pp\x2ebankofamerica\x2ecom\x25252Fsitemap\x2exml\x2526vnd_pi_application_name\x253DA2521MercuryPortalAPI\x2526client_id\x253DA2521MercuryPortalAPI',
 			refreshURLData: {}
 		}
 	);
@@ -2237,7 +2237,7 @@ Are Not FDIC Insured • May Lose Value • Are Not Bank Guaranteed.
 			isStatic: 'end',
 			namespacedId: 'p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_rtOYoTqoC7Hc_',
 			portletId: 'com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_rtOYoTqoC7Hc',
-			refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d214\x26p_p_id\x3dcom_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_rtOYoTqoC7Hc\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dcolumn-1\x26p_p_col_pos\x3d1\x26p_p_col_count\x3d3\x26p_p_isolated\x3d1\x26currentURL\x3d\x252Fv2\x252Flogin_page\x253FresumePath\x253Dhttps\x25253A\x25252F\x25252Ffedsso-pp\x2eml\x2ecom\x25252Fas\x25252FJSRJ5hn39m\x25252Fresume\x25252Fas\x25252Fauthorization\x2eping\x2526vnd_pi_requested_resource\x253Dhttps\x25253A\x25252F\x25252Fbofacapital-pp\x2ebankofamerica\x2ecom\x25252Fsitemap\x2exml\x2526vnd_pi_application_name\x253DA2521MercuryPortalAPI\x2526client_id\x253DA2521MercuryPortalAPI',
+			refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d214\x26p_p_id\x3dcom_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_rtOYoTqoC7Hc\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dcolumn-1\x26p_p_col_pos\x3d1\x26p_p_col_count\x3d3\x26p_p_isolated\x3d1\x26currentURL\x3d\x252Fv2\x252Flogin_page\x253FresumePath\x253Dhttps\x25253A\x25252F\x25252Ffedsso-pp\x2eml\x2ecom\x25252Fas\x25252FoJSIE1Rpu9\x25252Fresume\x25252Fas\x25252Fauthorization\x2eping\x2526vnd_pi_requested_resource\x253Dhttps\x25253A\x25252F\x25252Fbofacapital-pp\x2ebankofamerica\x2ecom\x25252Fsitemap\x2exml\x2526vnd_pi_application_name\x253DA2521MercuryPortalAPI\x2526client_id\x253DA2521MercuryPortalAPI',
 			refreshURLData: {}
 		}
 	);
@@ -2318,21 +2318,8 @@ var $ = AUI.$;var _ = AUI._;
 });
 
 </script>
-<script src="https://static.markets-pp.ml.com/o/mercury_dxp_theme/js/main.js,qbrowserId=other,aminifierType=js,alanguageId=en_US,at=1783091020000.pagespeed.jm.lFVPobcfXG.js" type="text/javascript"></script>
+<script src="https://static.markets-pp.ml.com/o/mercury_dxp_theme/js/main.js,qbrowserId=other,aminifierType=js,alanguageId=en_US,at=1783090670000.pagespeed.jm.lFVPobcfXG.js" type="text/javascript"></script>
 <script>
-Liferay.Loader.require(
-'frontend-js-tooltip-support-web@4.0.21/index',
-function(TooltipSupport) {
-try {
-(function() {
-TooltipSupport.default()
-})();
-} catch (err) {
-	console.error(err);
-}
-});
-
-</script><script>
 Liferay.Loader.require(
 'frontend-js-collapse-support-web@2.0.16/index',
 function(CollapseProvider) {
@@ -2345,6 +2332,11 @@ CollapseProvider.default()
 }
 });
 
+</script><script type="text/javascript">
+Liferay.CustomDialogs = {enabled: false};
+
+</script><script>
+
 </script><script>
 Liferay.Loader.require(
 'frontend-js-tabs-support-web@2.0.14/index',
@@ -2352,6 +2344,19 @@ function(TabsProvider) {
 try {
 (function() {
 TabsProvider.default()
+})();
+} catch (err) {
+	console.error(err);
+}
+});
+
+</script><script>
+Liferay.Loader.require(
+'frontend-js-dropdown-support-web@2.0.13/index',
+function(DropdownProvider) {
+try {
+(function() {
+DropdownProvider.default()
 })();
 } catch (err) {
 	console.error(err);
@@ -2373,21 +2378,16 @@ AlertProvider.default()
 
 </script><script>
 Liferay.Loader.require(
-'frontend-js-dropdown-support-web@2.0.13/index',
-function(DropdownProvider) {
+'frontend-js-tooltip-support-web@4.0.21/index',
+function(TooltipSupport) {
 try {
 (function() {
-DropdownProvider.default()
+TooltipSupport.default()
 })();
 } catch (err) {
 	console.error(err);
 }
 });
-
-</script><script type="text/javascript">
-Liferay.CustomDialogs = {enabled: false};
-
-</script><script>
 
 </script></body>
 <style>
