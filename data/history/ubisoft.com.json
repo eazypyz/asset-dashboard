@@ -3743,5 +3743,642 @@
     "type": "new_subdomain",
     "host": "zabbix.pts.tctd2.ubisoft.com",
     "timestamp": "2026-07-02T23:02:28.117Z"
+  },
+  {
+    "type": "status_changed",
+    "host": "account.ubisoft.com",
+    "timestamp": "2026-07-03T00:01:26.788Z",
+    "previous": 403,
+    "current": 200
+  },
+  {
+    "type": "robots_changed",
+    "host": "art.ubisoft.com",
+    "timestamp": "2026-07-03T00:01:26.788Z",
+    "previous": "f6619b7e363271e112f8ea8dabaf553a8e64594ea58ee329a67a47a28c38e356",
+    "current": "6a47cd7fcfe42524f5180c9df4447f7589b77395fa814eac16e0f3e252b34636"
+  },
+  {
+    "type": "security_txt_changed",
+    "host": "art.ubisoft.com",
+    "timestamp": "2026-07-03T00:01:26.788Z",
+    "previous": "c72ee0863e2086e9fb3b498ffcb30d8cd2253d376addc6a6023eb8f1410fc6ad",
+    "current": "9caa00102786ef4b954f841ef00ed3c594502b8aeb07edf8e83f631ee314c6ce"
+  },
+  {
+    "type": "sitemap_changed",
+    "host": "art.ubisoft.com",
+    "timestamp": "2026-07-03T00:01:26.788Z",
+    "previous": "edd3ce490af114ecaec7a0eb94184b1e5cfb0e30c53134a695fc190afcae93a0",
+    "current": "019b65a98416c81f55386dc32afbb25c04752ea1c6dbdbd98c63c6c467b3eb87"
+  },
+  {
+    "type": "status_changed",
+    "host": "art.ubisoft.com",
+    "timestamp": "2026-07-03T00:01:26.788Z",
+    "previous": 403,
+    "current": 200
+  },
+  {
+    "type": "robots_changed",
+    "host": "club.ubisoft.com",
+    "timestamp": "2026-07-03T00:01:26.788Z",
+    "previous": "",
+    "current": "01585b1cbac49ee0e5ee73a38bf41744e352d8e212de64320b4d5cd187050e5e"
+  },
+  {
+    "type": "security_txt_changed",
+    "host": "club.ubisoft.com",
+    "timestamp": "2026-07-03T00:01:26.788Z",
+    "previous": "",
+    "current": "01585b1cbac49ee0e5ee73a38bf41744e352d8e212de64320b4d5cd187050e5e"
+  },
+  {
+    "type": "sitemap_changed",
+    "host": "club.ubisoft.com",
+    "timestamp": "2026-07-03T00:01:26.788Z",
+    "previous": "",
+    "current": "01585b1cbac49ee0e5ee73a38bf41744e352d8e212de64320b4d5cd187050e5e"
+  },
+  {
+    "type": "status_changed",
+    "host": "club.ubisoft.com",
+    "timestamp": "2026-07-03T00:01:26.788Z",
+    "previous": 403,
+    "current": 200
+  },
+  {
+    "type": "robots_changed",
+    "host": "dataviz.stories.ubisoft.com",
+    "timestamp": "2026-07-03T00:01:26.788Z",
+    "previous": "",
+    "current": "6a47cd7fcfe42524f5180c9df4447f7589b77395fa814eac16e0f3e252b34636"
+  },
+  {
+    "type": "security_txt_changed",
+    "host": "dataviz.stories.ubisoft.com",
+    "timestamp": "2026-07-03T00:01:26.788Z",
+    "previous": "",
+    "current": "6a47cd7fcfe42524f5180c9df4447f7589b77395fa814eac16e0f3e252b34636"
+  },
+  {
+    "type": "sitemap_changed",
+    "host": "dataviz.stories.ubisoft.com",
+    "timestamp": "2026-07-03T00:01:26.788Z",
+    "previous": "",
+    "current": "6a47cd7fcfe42524f5180c9df4447f7589b77395fa814eac16e0f3e252b34636"
+  },
+  {
+    "type": "status_changed",
+    "host": "dataviz.stories.ubisoft.com",
+    "timestamp": "2026-07-03T00:01:26.788Z",
+    "previous": 403,
+    "current": 200
+  },
+  {
+    "type": "robots_changed",
+    "host": "elasticsearch.prod.tctd2.ubisoft.com",
+    "timestamp": "2026-07-03T00:01:26.788Z",
+    "previous": "ed74f773143553a95f14ba35730a212ce011cd3328bcf9cb9c1069cd92f1157c",
+    "current": "2e1be7e79f81a72a43807f17633afb62a77daec4ea312032ba97907e6e213d6c"
+  },
+  {
+    "type": "security_txt_changed",
+    "host": "elasticsearch.prod.tctd2.ubisoft.com",
+    "timestamp": "2026-07-03T00:01:26.788Z",
+    "previous": "e6580f1dfc8f72e2a8fa5bb645c8641e1d3d5c01ea944180be52b2a06c233076",
+    "current": "55c69e744717ea7dbacd59269f3d43d713b943023f8b48bb495922df148860a9"
+  },
+  {
+    "type": "sitemap_changed",
+    "host": "elasticsearch.prod.tctd2.ubisoft.com",
+    "timestamp": "2026-07-03T00:01:26.788Z",
+    "previous": "ecca26626e0f9c29c0e10333bafbe78913480c7b34b41b95bf26a6379b0b2bfe",
+    "current": "4354db73b2752424e0a71f88aa9cb63ecdb9649ce3ce427f21fe6ea6607bf0b2"
+  },
+  {
+    "type": "robots_changed",
+    "host": "face-your-ride.ubisoft.com",
+    "timestamp": "2026-07-03T00:01:26.788Z",
+    "previous": "",
+    "current": "6a47cd7fcfe42524f5180c9df4447f7589b77395fa814eac16e0f3e252b34636"
+  },
+  {
+    "type": "security_txt_changed",
+    "host": "face-your-ride.ubisoft.com",
+    "timestamp": "2026-07-03T00:01:26.788Z",
+    "previous": "",
+    "current": "6a47cd7fcfe42524f5180c9df4447f7589b77395fa814eac16e0f3e252b34636"
+  },
+  {
+    "type": "sitemap_changed",
+    "host": "face-your-ride.ubisoft.com",
+    "timestamp": "2026-07-03T00:01:26.788Z",
+    "previous": "",
+    "current": "6a47cd7fcfe42524f5180c9df4447f7589b77395fa814eac16e0f3e252b34636"
+  },
+  {
+    "type": "status_changed",
+    "host": "face-your-ride.ubisoft.com",
+    "timestamp": "2026-07-03T00:01:26.788Z",
+    "previous": 403,
+    "current": 200
+  },
+  {
+    "type": "robots_changed",
+    "host": "forhonor.ubisoft.com",
+    "timestamp": "2026-07-03T00:01:26.788Z",
+    "previous": "",
+    "current": "4a69f5cbb467446eb7a512c8ce320e28561bc42048b46c954c1e8c03d9861d64"
+  },
+  {
+    "type": "security_txt_changed",
+    "host": "forhonor.ubisoft.com",
+    "timestamp": "2026-07-03T00:01:26.788Z",
+    "previous": "",
+    "current": "4a69f5cbb467446eb7a512c8ce320e28561bc42048b46c954c1e8c03d9861d64"
+  },
+  {
+    "type": "sitemap_changed",
+    "host": "forhonor.ubisoft.com",
+    "timestamp": "2026-07-03T00:01:26.788Z",
+    "previous": "",
+    "current": "4a69f5cbb467446eb7a512c8ce320e28561bc42048b46c954c1e8c03d9861d64"
+  },
+  {
+    "type": "status_changed",
+    "host": "forhonor.ubisoft.com",
+    "timestamp": "2026-07-03T00:01:26.788Z",
+    "previous": 403,
+    "current": 200
+  },
+  {
+    "type": "robots_changed",
+    "host": "free.ubisoft.com",
+    "timestamp": "2026-07-03T00:01:26.788Z",
+    "previous": "",
+    "current": "34ea3c2075c997f3d6c66513bcd138da2299e43211fdc3d8ecbe5643748eb242"
+  },
+  {
+    "type": "security_txt_changed",
+    "host": "free.ubisoft.com",
+    "timestamp": "2026-07-03T00:01:26.788Z",
+    "previous": "",
+    "current": "34ea3c2075c997f3d6c66513bcd138da2299e43211fdc3d8ecbe5643748eb242"
+  },
+  {
+    "type": "sitemap_changed",
+    "host": "free.ubisoft.com",
+    "timestamp": "2026-07-03T00:01:26.788Z",
+    "previous": "",
+    "current": "34ea3c2075c997f3d6c66513bcd138da2299e43211fdc3d8ecbe5643748eb242"
+  },
+  {
+    "type": "status_changed",
+    "host": "free.ubisoft.com",
+    "timestamp": "2026-07-03T00:01:26.788Z",
+    "previous": 403,
+    "current": 200
+  },
+  {
+    "type": "robots_changed",
+    "host": "freetrial.ubisoft.com",
+    "timestamp": "2026-07-03T00:01:26.788Z",
+    "previous": "",
+    "current": "34ea3c2075c997f3d6c66513bcd138da2299e43211fdc3d8ecbe5643748eb242"
+  },
+  {
+    "type": "security_txt_changed",
+    "host": "freetrial.ubisoft.com",
+    "timestamp": "2026-07-03T00:01:26.788Z",
+    "previous": "",
+    "current": "34ea3c2075c997f3d6c66513bcd138da2299e43211fdc3d8ecbe5643748eb242"
+  },
+  {
+    "type": "sitemap_changed",
+    "host": "freetrial.ubisoft.com",
+    "timestamp": "2026-07-03T00:01:26.788Z",
+    "previous": "",
+    "current": "34ea3c2075c997f3d6c66513bcd138da2299e43211fdc3d8ecbe5643748eb242"
+  },
+  {
+    "type": "status_changed",
+    "host": "freetrial.ubisoft.com",
+    "timestamp": "2026-07-03T00:01:26.788Z",
+    "previous": 403,
+    "current": 200
+  },
+  {
+    "type": "robots_changed",
+    "host": "freeweekend.ubisoft.com",
+    "timestamp": "2026-07-03T00:01:26.788Z",
+    "previous": "",
+    "current": "6a47cd7fcfe42524f5180c9df4447f7589b77395fa814eac16e0f3e252b34636"
+  },
+  {
+    "type": "security_txt_changed",
+    "host": "freeweekend.ubisoft.com",
+    "timestamp": "2026-07-03T00:01:26.788Z",
+    "previous": "",
+    "current": "6a47cd7fcfe42524f5180c9df4447f7589b77395fa814eac16e0f3e252b34636"
+  },
+  {
+    "type": "sitemap_changed",
+    "host": "freeweekend.ubisoft.com",
+    "timestamp": "2026-07-03T00:01:26.788Z",
+    "previous": "",
+    "current": "6a47cd7fcfe42524f5180c9df4447f7589b77395fa814eac16e0f3e252b34636"
+  },
+  {
+    "type": "robots_changed",
+    "host": "grafana.dev.avtr.ubisoft.com",
+    "timestamp": "2026-07-03T00:01:26.788Z",
+    "previous": "f10085c87569f934622587744e17d713ddd8236f876e4c1f564ffe72adb7f7b2",
+    "current": "9eaa8630c3809aa92943e1fb4512dadabdfd18198a1f74b780b298da6d2c44b8"
+  },
+  {
+    "type": "security_txt_changed",
+    "host": "grafana.dev.avtr.ubisoft.com",
+    "timestamp": "2026-07-03T00:01:26.788Z",
+    "previous": "690aed616320473d8ff06a5e513a0008cb74a80ddad7f7935a50add9ef654fd2",
+    "current": "04182690733bc75548979d935e988fdf8f088a1379aaa7599827f86952c70e05"
+  },
+  {
+    "type": "sitemap_changed",
+    "host": "grafana.dev.avtr.ubisoft.com",
+    "timestamp": "2026-07-03T00:01:26.788Z",
+    "previous": "5339f9a0b600bd4375b4c2cd91a76772d8adb5946ab249e9d8f8455dfe63c47d",
+    "current": "0bed3d33b7c06a24971a94294dca82e71fa226d120760a0bbae15ef4f8e3d2ff"
+  },
+  {
+    "type": "robots_changed",
+    "host": "grafana.live.tctd1.ubisoft.com",
+    "timestamp": "2026-07-03T00:01:26.788Z",
+    "previous": "5f30e712b6130d01cecefb1e0737722369f95db8ba6411677bc4e337d9df229a",
+    "current": "46f48133524f7e7195a5f0b98314d2b17081d5b561cfe527f272dc753801701f"
+  },
+  {
+    "type": "security_txt_changed",
+    "host": "grafana.live.tctd1.ubisoft.com",
+    "timestamp": "2026-07-03T00:01:26.788Z",
+    "previous": "7d901ab630cc35d462cd9384ef1ecbfaadf7435adb2e8065637e8442560db45c",
+    "current": "6a17322b8af4b7bab4b2cc9ebe18fe256586460292b3ea46d20b2d4a304e74ea"
+  },
+  {
+    "type": "sitemap_changed",
+    "host": "grafana.live.tctd1.ubisoft.com",
+    "timestamp": "2026-07-03T00:01:26.788Z",
+    "previous": "d9cf4fd3d698c61d0c39db8794534e5ade0c0cb41c3bcd5888245bfa3b4e1e08",
+    "current": "9cbc8741c318a7f21edb4997f9cbeb0c159175b3b5e6e4323586ebfaebf9abc4"
+  },
+  {
+    "type": "robots_changed",
+    "host": "kibana.dev.avtr.ubisoft.com",
+    "timestamp": "2026-07-03T00:01:26.788Z",
+    "previous": "b81457d98ceb36ae59b7a5da5d08ee120f5c5e4e76a7ea314f0bd231aaa4c131",
+    "current": "5225648bf3233c605d7d46147b530c0487e88cc9cb6487c69b7f3dff2b11bba0"
+  },
+  {
+    "type": "security_txt_changed",
+    "host": "kibana.dev.avtr.ubisoft.com",
+    "timestamp": "2026-07-03T00:01:26.788Z",
+    "previous": "03a66b7c49727d9c5e4f467a7ddc7cb2defe050db0f480e2b0194a58f969bbaf",
+    "current": "7e6bffb13f759290350f690fb6dfaa484f4549f015c158a05f08de71e545c953"
+  },
+  {
+    "type": "sitemap_changed",
+    "host": "kibana.dev.avtr.ubisoft.com",
+    "timestamp": "2026-07-03T00:01:26.788Z",
+    "previous": "701b0ef326a0486012d0561d3cda85b913d53e2cd6b318802d0a12043f491053",
+    "current": "fd93567f302d8fcfb8e1f253b348b41cb773f55e50ffdce81beeee80946dc11f"
+  },
+  {
+    "type": "robots_changed",
+    "host": "live.ubisoft.com",
+    "timestamp": "2026-07-03T00:01:26.788Z",
+    "previous": "",
+    "current": "6a47cd7fcfe42524f5180c9df4447f7589b77395fa814eac16e0f3e252b34636"
+  },
+  {
+    "type": "security_txt_changed",
+    "host": "live.ubisoft.com",
+    "timestamp": "2026-07-03T00:01:26.788Z",
+    "previous": "",
+    "current": "6a47cd7fcfe42524f5180c9df4447f7589b77395fa814eac16e0f3e252b34636"
+  },
+  {
+    "type": "sitemap_changed",
+    "host": "live.ubisoft.com",
+    "timestamp": "2026-07-03T00:01:26.788Z",
+    "previous": "",
+    "current": "6a47cd7fcfe42524f5180c9df4447f7589b77395fa814eac16e0f3e252b34636"
+  },
+  {
+    "type": "status_changed",
+    "host": "live.ubisoft.com",
+    "timestamp": "2026-07-03T00:01:26.788Z",
+    "previous": 403,
+    "current": 200
+  },
+  {
+    "type": "security_txt_changed",
+    "host": "locqa.ubisoft.com",
+    "timestamp": "2026-07-03T00:01:26.788Z",
+    "previous": "582cbac032c616f14644b76744c1cc4175c1659b462100ab7aff09fd2b1e0422",
+    "current": "8e140bfb7cf0c224e64acab1576af0f12c5798d517554e87ee50c3fd6902e5f6"
+  },
+  {
+    "type": "sitemap_changed",
+    "host": "locqa.ubisoft.com",
+    "timestamp": "2026-07-03T00:01:26.788Z",
+    "previous": "a7eee4bf009c12dcc4f38cb8fb7bdbb7b50c7f8badfdc99bf24bdabf7b42b13b",
+    "current": "203104f056234bb40aef8c3d48282e08441ae4a8dfa0b54c2774edd9d8903821"
+  },
+  {
+    "type": "robots_changed",
+    "host": "mqel.ubisoft.com",
+    "timestamp": "2026-07-03T00:01:26.788Z",
+    "previous": "",
+    "current": "6a47cd7fcfe42524f5180c9df4447f7589b77395fa814eac16e0f3e252b34636"
+  },
+  {
+    "type": "security_txt_changed",
+    "host": "mqel.ubisoft.com",
+    "timestamp": "2026-07-03T00:01:26.788Z",
+    "previous": "",
+    "current": "6a47cd7fcfe42524f5180c9df4447f7589b77395fa814eac16e0f3e252b34636"
+  },
+  {
+    "type": "sitemap_changed",
+    "host": "mqel.ubisoft.com",
+    "timestamp": "2026-07-03T00:01:26.788Z",
+    "previous": "",
+    "current": "6a47cd7fcfe42524f5180c9df4447f7589b77395fa814eac16e0f3e252b34636"
+  },
+  {
+    "type": "status_changed",
+    "host": "mqel.ubisoft.com",
+    "timestamp": "2026-07-03T00:01:26.788Z",
+    "previous": 403,
+    "current": 200
+  },
+  {
+    "type": "robots_changed",
+    "host": "news.ubisoft.com",
+    "timestamp": "2026-07-03T00:01:26.788Z",
+    "previous": "",
+    "current": "362749cfb58e7d2cc7754f1df22af6e7e6505c9b2d1c8af87f6cf7dd28a00e82"
+  },
+  {
+    "type": "security_txt_changed",
+    "host": "news.ubisoft.com",
+    "timestamp": "2026-07-03T00:01:26.788Z",
+    "previous": "",
+    "current": "362749cfb58e7d2cc7754f1df22af6e7e6505c9b2d1c8af87f6cf7dd28a00e82"
+  },
+  {
+    "type": "sitemap_changed",
+    "host": "news.ubisoft.com",
+    "timestamp": "2026-07-03T00:01:26.788Z",
+    "previous": "",
+    "current": "2650a205ebe62bd4f343065aa265a44cd2bdbcad20d3d55c49c48b5e2542f266"
+  },
+  {
+    "type": "status_changed",
+    "host": "news.ubisoft.com",
+    "timestamp": "2026-07-03T00:01:26.788Z",
+    "previous": 403,
+    "current": 200
+  },
+  {
+    "type": "robots_changed",
+    "host": "reflections.ubisoft.com",
+    "timestamp": "2026-07-03T00:01:26.788Z",
+    "previous": "",
+    "current": "504f0ddec853151d0fbcbbe7f14296ede0893ba8cf3470e6feb1c12b7b4950e5"
+  },
+  {
+    "type": "security_txt_changed",
+    "host": "reflections.ubisoft.com",
+    "timestamp": "2026-07-03T00:01:26.788Z",
+    "previous": "",
+    "current": "504f0ddec853151d0fbcbbe7f14296ede0893ba8cf3470e6feb1c12b7b4950e5"
+  },
+  {
+    "type": "sitemap_changed",
+    "host": "reflections.ubisoft.com",
+    "timestamp": "2026-07-03T00:01:26.788Z",
+    "previous": "",
+    "current": "504f0ddec853151d0fbcbbe7f14296ede0893ba8cf3470e6feb1c12b7b4950e5"
+  },
+  {
+    "type": "status_changed",
+    "host": "reflections.ubisoft.com",
+    "timestamp": "2026-07-03T00:01:26.788Z",
+    "previous": 403,
+    "current": 200
+  },
+  {
+    "type": "robots_changed",
+    "host": "staging.stories.ubisoft.com",
+    "timestamp": "2026-07-03T00:01:26.788Z",
+    "previous": "",
+    "current": "6a47cd7fcfe42524f5180c9df4447f7589b77395fa814eac16e0f3e252b34636"
+  },
+  {
+    "type": "security_txt_changed",
+    "host": "staging.stories.ubisoft.com",
+    "timestamp": "2026-07-03T00:01:26.788Z",
+    "previous": "",
+    "current": "6a47cd7fcfe42524f5180c9df4447f7589b77395fa814eac16e0f3e252b34636"
+  },
+  {
+    "type": "sitemap_changed",
+    "host": "staging.stories.ubisoft.com",
+    "timestamp": "2026-07-03T00:01:26.788Z",
+    "previous": "",
+    "current": "6a47cd7fcfe42524f5180c9df4447f7589b77395fa814eac16e0f3e252b34636"
+  },
+  {
+    "type": "status_changed",
+    "host": "staging.stories.ubisoft.com",
+    "timestamp": "2026-07-03T00:01:26.788Z",
+    "previous": 403,
+    "current": 200
+  },
+  {
+    "type": "robots_changed",
+    "host": "stories.ubisoft.com",
+    "timestamp": "2026-07-03T00:01:26.788Z",
+    "previous": "",
+    "current": "6a47cd7fcfe42524f5180c9df4447f7589b77395fa814eac16e0f3e252b34636"
+  },
+  {
+    "type": "security_txt_changed",
+    "host": "stories.ubisoft.com",
+    "timestamp": "2026-07-03T00:01:26.788Z",
+    "previous": "",
+    "current": "6a47cd7fcfe42524f5180c9df4447f7589b77395fa814eac16e0f3e252b34636"
+  },
+  {
+    "type": "sitemap_changed",
+    "host": "stories.ubisoft.com",
+    "timestamp": "2026-07-03T00:01:26.788Z",
+    "previous": "",
+    "current": "6a47cd7fcfe42524f5180c9df4447f7589b77395fa814eac16e0f3e252b34636"
+  },
+  {
+    "type": "status_changed",
+    "host": "stories.ubisoft.com",
+    "timestamp": "2026-07-03T00:01:26.788Z",
+    "previous": 403,
+    "current": 200
+  },
+  {
+    "type": "status_changed",
+    "host": "th.ubisoft.com",
+    "timestamp": "2026-07-03T00:01:26.788Z",
+    "previous": 403,
+    "current": null
+  },
+  {
+    "type": "robots_changed",
+    "host": "ubisoft.com",
+    "timestamp": "2026-07-03T00:01:26.788Z",
+    "previous": "",
+    "current": "dda74278f51870414cc34ccd6200290d8ab3c2b8e45614281e25cfed15e2bf54"
+  },
+  {
+    "type": "security_txt_changed",
+    "host": "ubisoft.com",
+    "timestamp": "2026-07-03T00:01:26.788Z",
+    "previous": "",
+    "current": "6a47cd7fcfe42524f5180c9df4447f7589b77395fa814eac16e0f3e252b34636"
+  },
+  {
+    "type": "sitemap_changed",
+    "host": "ubisoft.com",
+    "timestamp": "2026-07-03T00:01:26.788Z",
+    "previous": "",
+    "current": "96d8374253e83135ec79963b6f1fa245b152a5c0897a04074ddffeae0eff0cca"
+  },
+  {
+    "type": "status_changed",
+    "host": "ubisoft.com",
+    "timestamp": "2026-07-03T00:01:26.788Z",
+    "previous": 403,
+    "current": 200
+  },
+  {
+    "type": "status_changed",
+    "host": "vpn.ubisoft.com",
+    "timestamp": "2026-07-03T00:01:26.788Z",
+    "previous": 404,
+    "current": 200
+  },
+  {
+    "type": "robots_changed",
+    "host": "web.prod.tctd1.ubisoft.com",
+    "timestamp": "2026-07-03T00:01:26.788Z",
+    "previous": "7c343662f8adbb732ffd38de5ba93ab69c7e13c8fe5f4920000dd27e91468dc5",
+    "current": "693ea338207d478254df2cab5ee7e3c132c2644ee9a21b5b9b9502f84267dbfc"
+  },
+  {
+    "type": "security_txt_changed",
+    "host": "web.prod.tctd1.ubisoft.com",
+    "timestamp": "2026-07-03T00:01:26.788Z",
+    "previous": "4064974af1a0b1fb182bc835cc6612d04dc144bb714ca91cd44d744ec1e5ad8a",
+    "current": "50f8184ef101c809d5de4a36674711d9cc6dbb44b28b2d5da5efe42483f8302d"
+  },
+  {
+    "type": "sitemap_changed",
+    "host": "web.prod.tctd1.ubisoft.com",
+    "timestamp": "2026-07-03T00:01:26.788Z",
+    "previous": "9d4ed91f1ce32289acf7b2661da29834188185196e7fff5139cffd326ed9720c",
+    "current": "04d486001f3797f5773ea86e1479e7cf9e4d4577c7f69bfbd9c7b6750de9f0fd"
+  },
+  {
+    "type": "robots_changed",
+    "host": "wordpress.ubisoft.com",
+    "timestamp": "2026-07-03T00:01:26.788Z",
+    "previous": "97dc1efe8af3a9be307c14bb3910d84f4aa0cc2f5a39a4f217ccf2e8fcafd38e",
+    "current": "c558eb90d5057e702288e1d2cc2400c4e5c85a63cf70ce503daeed9f5a1acd66"
+  },
+  {
+    "type": "security_txt_changed",
+    "host": "wordpress.ubisoft.com",
+    "timestamp": "2026-07-03T00:01:26.788Z",
+    "previous": "e7790b6fe8c252c30ec6ef8b0488dc820fab8e6d8730c9484173dd6dc7fe3710",
+    "current": "0568f9128819b4e7ef126ed7aa946343e1bd0875cff1d527c6c9755d6aa3546d"
+  },
+  {
+    "type": "sitemap_changed",
+    "host": "wordpress.ubisoft.com",
+    "timestamp": "2026-07-03T00:01:26.788Z",
+    "previous": "9772d2ef103f09395ee54a63c34f145f1a762d42a6f9c4ca932daafae2b0f700",
+    "current": "e561d76893898e518e3a2ea480dec858692883b1f86150947c58c4af29eedb54"
+  },
+  {
+    "type": "robots_changed",
+    "host": "www.art.ubisoft.com",
+    "timestamp": "2026-07-03T00:01:26.788Z",
+    "previous": "",
+    "current": "6a47cd7fcfe42524f5180c9df4447f7589b77395fa814eac16e0f3e252b34636"
+  },
+  {
+    "type": "security_txt_changed",
+    "host": "www.art.ubisoft.com",
+    "timestamp": "2026-07-03T00:01:26.788Z",
+    "previous": "",
+    "current": "6a47cd7fcfe42524f5180c9df4447f7589b77395fa814eac16e0f3e252b34636"
+  },
+  {
+    "type": "sitemap_changed",
+    "host": "www.art.ubisoft.com",
+    "timestamp": "2026-07-03T00:01:26.788Z",
+    "previous": "",
+    "current": "6a47cd7fcfe42524f5180c9df4447f7589b77395fa814eac16e0f3e252b34636"
+  },
+  {
+    "type": "status_changed",
+    "host": "www.art.ubisoft.com",
+    "timestamp": "2026-07-03T00:01:26.788Z",
+    "previous": 403,
+    "current": 200
+  },
+  {
+    "type": "status_changed",
+    "host": "www.bluebyte.ubisoft.com",
+    "timestamp": "2026-07-03T00:01:26.788Z",
+    "previous": 403,
+    "current": null
+  },
+  {
+    "type": "robots_changed",
+    "host": "www.ubisoft.com",
+    "timestamp": "2026-07-03T00:01:26.788Z",
+    "previous": "",
+    "current": "dda74278f51870414cc34ccd6200290d8ab3c2b8e45614281e25cfed15e2bf54"
+  },
+  {
+    "type": "security_txt_changed",
+    "host": "www.ubisoft.com",
+    "timestamp": "2026-07-03T00:01:26.788Z",
+    "previous": "",
+    "current": "6a47cd7fcfe42524f5180c9df4447f7589b77395fa814eac16e0f3e252b34636"
+  },
+  {
+    "type": "sitemap_changed",
+    "host": "www.ubisoft.com",
+    "timestamp": "2026-07-03T00:01:26.788Z",
+    "previous": "",
+    "current": "96d8374253e83135ec79963b6f1fa245b152a5c0897a04074ddffeae0eff0cca"
+  },
+  {
+    "type": "status_changed",
+    "host": "www.ubisoft.com",
+    "timestamp": "2026-07-03T00:01:26.788Z",
+    "previous": 403,
+    "current": 200
   }
 ]
