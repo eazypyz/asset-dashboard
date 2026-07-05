@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]> <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js">
+<![endif]-->
+
+  <head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <title>HP Home</title>
+  <base href="https://static.store.hp.com/vp/us/"> 
+  <link rel="stylesheet" href="css/hps-euro-w01-fontface-core.css">
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <style type="text/css">
+        .gradient {
+           filter: none;
+        }
+      </style>
+    <![endif]-->
+  <link rel="stylesheet" href="css/foundation.css">
+  <link rel="stylesheet" href="css/hps-euro-w01-fontface-core.css">
+  <link rel="stylesheet" href="css/maintainance.css">
+  <!-- For IE 8 and earlier -->
+  <!--[if lt IE 9]>
+	<link rel="stylesheet" href="css/iesupport.css"> 
+  <link rel="stylesheet" href="css/IE8.css">
+  <![endif]-->
+  <!-- For IE 9 and greater-->
+  <!--[if gte IE 9]>
+    <link rel="stylesheet" href="css/IE9.css">
+  <![endif]-->
+</head>
+<body>
+  
+  <div class="context manualnocallcenter" id="context">
+  	<div class="row">
+      <div class="image_container">
+      	<img class="hp_logo" src="img/hp_logo_transparent_background_120x120.png" alt=""/>
+      </div>
+      
+      <div class="textarea">
+      	<h2>UPGRADING OUR SYSTEMS</h2>
+        <p class="maintext">Please come back later. We apologize for any inconvenience this may cause.</p>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
