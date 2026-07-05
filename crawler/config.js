@@ -18,7 +18,12 @@ export const config = {
     .concat([
       // ← Add your domains here
       "maybank.com",
-      "banksinarmas.com"
+      "banksinarmas.com",
+      "att.com",
+      "maybank.com",
+      "nba.com",
+      "wise.com",
+      "hp.com"
     ])
     .filter((v, i, a) => a.indexOf(v) === i), // deduplicate
 
