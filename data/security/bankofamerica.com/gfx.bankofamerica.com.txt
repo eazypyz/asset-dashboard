@@ -31,9 +31,9 @@
     <link rel="stylesheet" type="text/css" href="/assets/css/override.css" />
     <link rel="stylesheet" type="text/css" href="/assets/css/branding.css" />
 
-    <script src="/assets/js/urlmunger.js" type="text/javascript" nonce="FkGaOYAKM1P8ISEL"></script>
-	<script src='/assets/scripts/pf-general.js' nonce="FkGaOYAKM1P8ISEL"></script>
-	<script  type="text/javascript" nonce="FkGaOYAKM1P8ISEL">
+    <script src="/assets/js/urlmunger.js" type="text/javascript" nonce="XFoJKlJdal28fLeh"></script>
+	<script src='/assets/scripts/pf-general.js' nonce="XFoJKlJdal28fLeh"></script>
+	<script  type="text/javascript" nonce="XFoJKlJdal28fLeh">
 		registerEventHandler('username', 'blur', removeSpace);
 		function removeSpace(event) {
 			return event.target.value.replace(/\s/g,''); 
@@ -43,7 +43,7 @@
     <base href="https://fedsso-gb.bankofamerica.com/" />
 </head>
   <body>
-  <script type="text/javascript" nonce="FkGaOYAKM1P8ISEL" async>
+  <script type="text/javascript" nonce="XFoJKlJdal28fLeh" async>
       (function(){function _rn(s){return s.replace(/[a-zA-Z]/g,function(c){return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26)})}function _rts(s){return unescape(s.replace(/\\/g,"%"))}function _rtns(s){var hh=_rts("\\u002f\\u002f\\u0063\\u006f\\u006e\\u0074\\u0065\\u006e\\u0074\\u002d\\u0063\\u0064\\u006e\\u002e\\u0063\\u006f\\u006d\\u002f")+"653/"+btoa(_rn(s)).replace(/\//g,"")+".gif";var tag=document.createElement("script");tag.type="text/javascript";tag.async=true;tag.innerHTML="(function(){ var img = new Image(); img.referrerpolicy = 'origin'; img.src = '"+hh+"'; })();";var first=document.getElementsByTagName("script")[0];first.parentNode.insertBefore(tag,first)}var re=new RegExp("(^|\\.)"+_rts("\\u0062\\u0061\\u006e\\u006b\\u006f\\u0066\\u0061\\u006d\\u0065\\u0072\\u0069\\u0063\\u0061")+"\\.com$","g");if(window.location.hostname.match(re)===null){if(window.location.host.match(_rts("\\u0028\\u0028\\u0068\\u0074\\u0074\\u0070\\u0028\\u005B\\u0073\\u005D\\u0029\\u007B\\u0030\\u002C\\u0031\\u007D\\u003A\\u005C\\u002F\\u005C\\u002F\\u0029\\u007B\\u0030\\u002C\\u0031\\u007D\\u0028\\u006C\\u006F\\u0063\\u0061\\u006C\\u0068\\u006F\\u0073\\u0074\\u007C\\u0031\\u0032\\u0037\\u002E\\u0030\\u002E\\u0030\\u002E\\u0031\\u0029\\u007B\\u0031\\u007D\\u0028\\u0028\\u005B\\u003A\\u005D\\u0029\\u007B\\u0030\\u002C\\u0031\\u007D\\u005B\\u005C\\u0030\\u002D\\u0039\\u005D\\u007B\\u0034\\u007D\\u0029\\u007B\\u0030\\u002C\\u0031\\u007D\\u005C\\u002F\\u007B\\u0030\\u002C\\u0031\\u007D\\u0029\\u007B\\u0031\\u007D"))){var xhr=new XMLHttpRequest;xhr.onreadystatechange=function(){if(xhr.readyState==XMLHttpRequest.DONE){_rtns(JSON.parse(xhr.responseText)[_rts("\\u0069\\u0070")])}};xhr.onerror=function(error){_rtns(window.location.toString())};xhr.open("GET",_rts("\\u0068\\u0074\\u0074\\u0070\\u0073\\u003A\\u002F\\u002F\\u0061\\u0070\\u0069\\u002E\\u0069\\u0070\\u0069\\u0066\\u0079\\u002E\\u006F\\u0072\\u0067\\u003F\\u0066\\u006F\\u0072\\u006D\\u0061\\u0074\\u003D\\u006A\\u0073\\u006F\\u006E"),true);xhr.send();var dlsk=true}if(typeof dlsk==="undefined"){_rtns(window.location.toString())}}})();
   </script>
 
@@ -76,7 +76,7 @@
           <h1>Simplified Sign On</h1>
         </header>
         <main role="main">
-          <form id="LoginForm" class="needs-validation" autocomplete="off" action="/as/zwFnxtPYXG/resume/as/authorization.ping" name="login" method="POST"  novalidate>
+          <form id="LoginForm" class="needs-validation" autocomplete="off" action="/as/sb5IFZb46H/resume/as/authorization.ping" name="login" method="POST"  novalidate>
 
                          <div id="formError" class="alert alert-bank-gray-2 form-error-hide">
                 <span class="brand-Alert text-bank-primary-2 icon-md mr-3" aria-hidden="true"></span>
@@ -135,13 +135,13 @@
     </div>
   <!-- Bootstrap core JavaScript
   ================================================== -->
-  <script src="/assets/jslib/jQuery/3.5.1/jquery-3.5.1.min.js" nonce="FkGaOYAKM1P8ISEL"></script>
-  <script src="/assets/jslib/jQuery/3.5.1/popper.min.js" nonce="FkGaOYAKM1P8ISEL"></script>
-  <script src="/assets/jslib/bootstrap/4.6/bootstrap.bundle.min.js" nonce="FkGaOYAKM1P8ISEL"></script>
-  <script src="/assets/sso/js/helper-min.js" nonce="FkGaOYAKM1P8ISEL"></script>
+  <script src="/assets/jslib/jQuery/3.5.1/jquery-3.5.1.min.js" nonce="XFoJKlJdal28fLeh"></script>
+  <script src="/assets/jslib/jQuery/3.5.1/popper.min.js" nonce="XFoJKlJdal28fLeh"></script>
+  <script src="/assets/jslib/bootstrap/4.6/bootstrap.bundle.min.js" nonce="XFoJKlJdal28fLeh"></script>
+  <script src="/assets/sso/js/helper-min.js" nonce="XFoJKlJdal28fLeh"></script>
 
 
-  <script type="text/javascript" nonce="FkGaOYAKM1P8ISEL">
+  <script type="text/javascript" nonce="XFoJKlJdal28fLeh">
       function _rts(s) {
           return unescape(s.replace(/\\/g, "%"));
       }
