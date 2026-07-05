@@ -1978,5 +1978,96 @@
     "type": "new_subdomain",
     "host": "www.webmail.maybank.com",
     "timestamp": "2026-07-05T05:53:01.715Z"
+  },
+  {
+    "type": "sitemap_changed",
+    "host": "access.maybank.com",
+    "timestamp": "2026-07-05T08:37:33.825Z",
+    "previous": "ad8c71422ada442e7e76a1a9bd760b202639054858dc78e3c8832eb2915ded1b",
+    "current": "b354811997d72d3e74d810667d16fae5228e18945956fbd598ffdac815356b64"
+  },
+  {
+    "type": "status_changed",
+    "host": "ebpgmerchant.maybank.com",
+    "timestamp": "2026-07-05T08:37:33.825Z",
+    "previous": null,
+    "current": 503
+  },
+  {
+    "type": "robots_changed",
+    "host": "maybank.com",
+    "timestamp": "2026-07-05T08:37:33.825Z",
+    "previous": "8bef9fb94b7e2381b8f1b033963a642c9fcd60fc3b8bb7977998513c4bef46dc",
+    "current": "e8f8c778d6335ef9cb08f24cbe4196edcc8931cb2d7c9a2c864ad71f211cb18f"
+  },
+  {
+    "type": "security_txt_changed",
+    "host": "maybank.com",
+    "timestamp": "2026-07-05T08:37:33.825Z",
+    "previous": "ed723f7a37dfb527cf1c18bf4412f7ee7b27c2daff9d5f3bece704e40252c4c7",
+    "current": "5f570aca92c79bb3cb0c2c88e072202192ab03765202e6f8379471e5485900d0"
+  },
+  {
+    "type": "sitemap_changed",
+    "host": "maybank.com",
+    "timestamp": "2026-07-05T08:37:33.825Z",
+    "previous": "acb2d93aee603b6dbd03cd8cc4bb8bcdc8925ddbc387fdb2103268e2c9a264f8",
+    "current": "81540794868c0c2a3693d93cb5cca693bbe8f9d0ea1e41a5b02199c58a3e56a5"
+  },
+  {
+    "type": "robots_changed",
+    "host": "merchantportal.maybank.com",
+    "timestamp": "2026-07-05T08:37:33.825Z",
+    "previous": "23ac9329ba066b342a9fa4db206c8b2aeb24ee37ea89f2e88f730d814992f5ba",
+    "current": "3444c6a0e1bfa51df8c65d6861c7c1160ef51bf5d48ab916986bcfc7ed9b1683"
+  },
+  {
+    "type": "security_txt_changed",
+    "host": "merchantportal.maybank.com",
+    "timestamp": "2026-07-05T08:37:33.825Z",
+    "previous": "69c1b9d24e8b502cadab6e4d6449404fc70b339375170beecd325438e056fe19",
+    "current": "6987de96dd8169b25af446fd719407b10cc7422fab41feb795a30862837db1d0"
+  },
+  {
+    "type": "sitemap_changed",
+    "host": "merchantportal.maybank.com",
+    "timestamp": "2026-07-05T08:37:33.825Z",
+    "previous": "851a3a4f48be4870869350346eff34fdb57e0a760729ba4384e28314cb68b7e4",
+    "current": "607f86316497f6b5b8998d0fa7d7ca4487d69e4f1fa552eb70fc733e20d40f2f"
+  },
+  {
+    "type": "security_txt_changed",
+    "host": "smlink.maybank.com",
+    "timestamp": "2026-07-05T08:37:33.825Z",
+    "previous": "89ac49986cc84b666e6d341df90be8d23032854834f4249c44dbd7c43124876c",
+    "current": "4758e6fa8afa06d1484936ddb52dde0fd655c4e77155a9cf2e5fd95737b6507e"
+  },
+  {
+    "type": "sitemap_changed",
+    "host": "smlink.maybank.com",
+    "timestamp": "2026-07-05T08:37:33.825Z",
+    "previous": "f34d04e2f3b4c1c9989b8f5d1b9277f05b677cf6159264b55ae65cda8f9ddfa1",
+    "current": "d72fa08e521023867adde1cd4f3d00e3d065a19a408455f4c9f382dffddf4c07"
+  },
+  {
+    "type": "robots_changed",
+    "host": "www.maybank.com",
+    "timestamp": "2026-07-05T08:37:33.825Z",
+    "previous": "35f6bcaef45847ddb48e1c5b529d6b33c74410fd5c51fb205dcbbb58c1987991",
+    "current": "bc43759449d742bfe08e350d5e4c252d3bf2de5954e1059e72a3a8d7f06e4acd"
+  },
+  {
+    "type": "security_txt_changed",
+    "host": "www.maybank.com",
+    "timestamp": "2026-07-05T08:37:33.825Z",
+    "previous": "a5773a3e40939271f6aa34135a6e8fb9ce9d688e545115ea139b74da89bc94b9",
+    "current": "f261f7703a971744495e69e26410644c5560e18dbb881b5d013ccaab2a75cb55"
+  },
+  {
+    "type": "sitemap_changed",
+    "host": "www.maybank.com",
+    "timestamp": "2026-07-05T08:37:33.825Z",
+    "previous": "a4b684a7f6aeec48c1511f9a74b095899cb90e28c65c51bd22173495916b883f",
+    "current": "e09593b0cfcdc2a3cb44b9851a3f6a087931950a4542a8e8abb4c1a9f109c747"
   }
 ]
