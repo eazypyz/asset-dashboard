@@ -23,7 +23,11 @@ export const config = {
       "maybank.com",
       "nba.com",
       "wise.com",
-      "hp.com"
+      "hp.com",
+      "brave.com",
+      "lookfantastic.com",
+      "airbnb.com",
+      "line.biz"
     ])
     .filter((v, i, a) => a.indexOf(v) === i), // deduplicate
 
