@@ -1,0 +1,27 @@
+#
+#              ///////
+#             //     //
+#            //       //
+#           //         //                           ///             ///                      ///
+#          //           //                                          ///                      ///
+#         //     ///     //               //// ///  ///  /// ////   /// ////     /// ////    /// ////
+#        //   ///   ///   //            //////////  ///  ////////// ///////////  //////////  ///////////
+#       //   //       //   //          ///     ///  ///  ///        ///      /// ///     /// ///      ///
+#      //    //       //    //        ///      ///  ///  ///        ///      /// ///     /// ///      ///
+#     //      //     //      //        ///     ///  ///  ///        ///     ///  ///     /// ///     ///
+#    //        //   //        //        //////////  ///  ///        //////////   ///     /// //////////
+#    //         /////         //
+#    //         /////         //
+#     //      ///   ///      //
+#       //////         //////
+#
+#
+#    Hello bot, engineer, or very lost layperson! Welcome to your stay on the Airbnb site, we're happy to have you as a guest.
+#    If you're a human who likes solving interesting challenges with other humans, check out our careers page: https://careers.airbnb.com/positions/?_departments=engineering
+#    If you're a bot who likes crawling webpages, please mind the house rules and avoid accessing any disallowed subfolders to earn a 5-star review from us.
+#    Either way, thanks for stopping by! There's no need to collect your garbage at the end of your stay - we use Javascript for that.
+#    See you on the next crawl!
+
+User-agent: *
+Disallow: /
+
