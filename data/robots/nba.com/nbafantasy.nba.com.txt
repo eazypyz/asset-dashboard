@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html class="notranslate" translate="no">
+    <head>
+        <!-- Load the user consent script (must by synchronous) -->
+        <script
+            type="text/javascript"
+            src="https://cdn.nba.com/user-consent/index.min.js"
+        ></script>
+
+        <meta name="google" content="notranslate" />
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+        <title>NBA Fantasy</title>
+        <meta name="description" content="" />
+        <link rel="icon" href="//www.nba.com/favicon.ico" />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="//www.nba.com/favicon-32x32.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="//www.nba.com/favicon-16x16.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            href="//www.nba.com/apple-touch-icon.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="//www.nba.com/apple-touch-icon.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="120x120"
+            href="//www.nba.com/apple-touch-icon.png"
+        />
+        <link
+            rel="apple-touch-icon-precomposed"
+            href="//www.nba.com/apple-touch-icon.png"
+        />
+        <meta name="msapplication-TileColor" content="#da532c" />
+        <link
+            rel="mask-icon"
+            href="//www.nba.com/safari-pinned-tab.svg"
+            color="#051c2d"
+        />
+        <link rel="canonical" href="/" />
+        <meta property="og:type" content="website" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+            rel="stylesheet"
+        />
+        <!-- Placeholder font for GR-EL language testing -->
+        <link
+            href="https://fonts.googleapis.com/css2?family=Sofia+Sans+Extra+Condensed:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Latest version of countries-and-timezones -->
+        <script
+            src="/js/countries_and_timezones/index_341.min.js"
+            type="text/javascript"
+        ></script>
+
+        <!-- Developers must manage these two variables, ucDomainEnv and ucCountryCode, used in the initalizeUserConsent function,
+        or else rewrite the following code to handle the values differently. -->
+        <script type="text/javascript">
+            const tz = Intl.DateTimeFormat().resolvedOptions().timeZone;
+            var country = "";
+            if (tz) {
+                const tzCountry = ct.getCountryForTimezone(tz);
+                if (tzCountry) {
+                    country = tzCountry.id;
+                }
+            }
+            var ucDomainEnv = ""; // If this is not production, return "-test"
+            var ucCountryCode = country; //two.letter.country.code; // Return "US" in United States, "DE" if in Germany, etc.
+            const domIdKey = window.location.hostname.includes(
+                "nbafantasy.sport5.co.il"
+            )
+                ? "ab19e4b1-1bcf-4b42-a5e6-42fd130f0c68"
+                : window.location.hostname.includes("nbafantasy.sky.it")
+                ? "739fcdfc-6609-4b1b-adca-f5e3d3df984f"
+                : "d0494fd0-8921-497a-8323-e3d29775ce1b";
+        </script>
+        <!-- Initialize user consent -->
+
+        <script>
+            (function initalizeUserConsent(win) {
+                win.WM.UserConsentConfig = {
+                    // cookieDomain: ".nba.com",
+                    cookieDomain: window.location.hostname,
+                    brand: "NBA",
+                    src: "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js",
+                    domId: domIdKey + ucDomainEnv, // using ucDomainEnv
+                    // domId: "d0494fd0-8921-497a-8323-e3d29775ce1b" + ucDomainEnv, // using ucDomainEnv
+                    countryCode: ucCountryCode, // using ucCountryCode
+                };
+                try {
+                    win.WM.UserConsent.init(win.WM.UserConsentConfig).catch(
+                        function (err) {
+                            console.error(
+                                "User Consent SDK failed to initialize: " + err
+                            );
+                        }
+                    );
+                } catch (e) {
+                    console.error(
+                        "User Consent SDK threw an error during initialization: " +
+                            e
+                    );
+                }
+            })(window);
+        </script>
+
+        <!-- Load Adobe Launch (allowed to be async) -->
+        <script>
+            function loadScript(src) {
+                var head = document.getElementsByTagName("head")[0];
+                var js = document.createElement("script");
+                js.type = "text/javascript";
+                js.src = src;
+                js.async = true;
+                head.appendChild(js);
+            }
+            loadScript("https://assets.adobedtm.com/82bf3c13a525/b93b1a237384/launch-c9d2ee1dbb19.min.js");
+        </script>
+      <script type="module" crossorigin src="/assets/index-DAHnPDFI.js"></script>
+      <link rel="stylesheet" crossorigin href="/assets/index-D2b9z-J6.css">
+    </head>
+    <body>
+        <!-- Default Pageview Config Overrides -->
+        <script type="text/javascript">
+            window.utag_cfg_ovrd = window.utag_cfg_ovrd || {};
+            window.utag_cfg_ovrd.noview = true;
+        </script>
+        <!-- Loading script asynchronously -->
+        <script type="text/javascript">
+            (function (a, b, c, d) {
+                a = "https://tags.nba.com/nba-fantasy/prod/utag.js";
+                b = document;
+                c = "script";
+                d = b.createElement(c);
+                d.src = a;
+                d.type = "text/java" + c;
+                d.async = true;
+                a = b.getElementsByTagName(c)[0];
+                a.parentNode.insertBefore(d, a);
+            })();
+        </script>
+        <noscript> You need to enable JavaScript to run this app. </noscript>
+        <div id="root"></div>
+        <div id="root-dialog"></div>
+    </body>
+</html>

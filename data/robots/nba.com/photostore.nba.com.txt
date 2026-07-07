@@ -1,0 +1,43 @@
+User-agent: *
+Disallow: /pdfartworkmenu.php
+Disallow: /previewhighresolutionimage.php
+Disallow: /queries/*
+
+Disallow: /art/*?
+Allow: /art/*?page=
+
+Disallow: /collectiongroups/*
+
+Disallow: /collections/*/*/*
+Disallow: /collections/*?
+
+Disallow: /shop/*?
+Allow: /shop/*?page=
+Disallow: /shop/*/paintings
+Disallow: /shop/*/drawings
+Disallow: /shop/*/digital+art
+Disallow: /shop/*/mixed+media
+Disallow: /shop/*/photographs
+
+Disallow: /*searchtype=
+Disallow: /*searchType=
+Disallow: /*sort=
+Disallow: /*shape=
+Disallow: /*minimumprintwidth=
+Disallow: /*r1=
+Disallow: /*g1=
+Disallow: /*b1=
+Disallow: /*style=
+
+
+Disallow: /*similarTo=
+
+Disallow: /*currencyid=
+Disallow: /*measurementid=
+Disallow: /*flagwidget=
+Disallow: /*existingid=
+Disallow: /*removeid=
+
+Sitemap: https://photostore.nba.com/sitemap.xml
+
+		

@@ -1,0 +1,19 @@
+User-agent: *
+Disallow: /wp-admin/
+Disallow: /comments/feed/
+Disallow: /wp-content/plugins/
+Disallow: /wp-content/uploads/
+Disallow: /related-tags.php
+Disallow: /readme.html
+Disallow: /refer/
+Disallow: /*?*
+Disallow: *?replytocom
+Allow: /wp-admin/admin-ajax.php
+Allow: /wp-content/themes/
+Crawl-Delay: 1
+
+User-agent: Twitterbot
+Disallow:
+
+User-agent: MJ12bot
+Disallow: /
