@@ -3612,7 +3612,7 @@ New look reflects Wise’s global community, as the company doubles down on expa
   </div>
   <div class="tab-content">
     <div class="tab-data" id="tab-1">
-      <form class="subscribe-form subscribe-form--email" action="/en-NAM/followers/" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="V1JvwGiDaHqlKlqu6kinKsw+U04rPDCEdtUxHAUFJckb6cu/o5pqlR0fuMP0VH3oZF2ggibF03BIGuAl/UuUkw==" />
+      <form class="subscribe-form subscribe-form--email" action="/en-NAM/followers/" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="h7kFZGJ55Tf4sM9TywE/J2QJU3CpIOO86b9jxINeeVUA1zhsQT2ziHT3wbkfSausWukl8QtNfg1NDxzVvegVAA==" />
         <div class="form-box">
           <h2 class="h2">
             Receive Wise news <span class="mark">by email</span>.
@@ -3773,7 +3773,7 @@ New look reflects Wise’s global community, as the company doubles down on expa
   </li>
 </ul>
 
-          <div class="address_1783425331"><style media="screen">.address_1783425331 {position:absolute!important;top:-9999px;left:-9999px;}</style><label for="follower_address">If you are a human, ignore this field</label><input type="text" name="follower[address]" id="follower_address" autocomplete="off" tabindex="-1" /></div>
+          <div class="address_1783429540"><style media="screen">.address_1783429540 {display:none;}</style><label for="follower_address">If you are a human, ignore this field</label><input type="text" name="follower[address]" id="follower_address" autocomplete="off" tabindex="-1" /></div>
           <div class="btn-holder">
             <button class="c-btn c-btn--primary" type="submit"><span class="c-btn__text">Subscribe</span><span class="loading"></span></button>
           </div>
