@@ -1,13 +1,184 @@
 {
   "domain": "line.biz",
-  "last_update": "2026-07-08T23:58:46.699Z",
+  "last_update": "2026-07-09T01:52:53.583Z",
   "stats": {
-    "total": 0,
-    "dns_resolved": 0,
-    "alive": 0,
-    "has_robots": 0,
-    "has_security": 0,
-    "has_sitemap": 0
+    "total": 10,
+    "dns_resolved": 6,
+    "alive": 6,
+    "has_robots": 3,
+    "has_security": 3,
+    "has_sitemap": 3
   },
-  "subdomains": []
+  "subdomains": [
+    {
+      "host": "api.r-manager.line.biz",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-09T01:52:53.581Z",
+      "last_seen": "2026-07-09T01:52:53.581Z"
+    },
+    {
+      "host": "api.restaurant.line.biz",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-09T01:52:53.581Z",
+      "last_seen": "2026-07-09T01:52:53.581Z"
+    },
+    {
+      "host": "insights.line.biz",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "security_hash": "3af29e3cd4e9108f38ac655602750b1abd1c58b2fcbc4babce640c28594101ba",
+      "sitemap_hash": "bd388dfa646b54f535679acbef39c99366c5ab55d35be1fdc6dac81047626764",
+      "first_seen": "2026-07-09T01:52:53.581Z",
+      "last_seen": "2026-07-09T01:52:53.581Z"
+    },
+    {
+      "host": "line.biz",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 204,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-09T01:52:53.581Z",
+      "last_seen": "2026-07-09T01:52:53.581Z"
+    },
+    {
+      "host": "m.line.biz",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-09T01:52:53.581Z",
+      "last_seen": "2026-07-09T01:52:53.581Z"
+    },
+    {
+      "host": "page.m.line.biz",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "03be1bcba089c98ea518b4be9f9fc1ea7f62b3a9c8dcf65b2cb7fe57cbbf5a75",
+      "security_hash": "03be1bcba089c98ea518b4be9f9fc1ea7f62b3a9c8dcf65b2cb7fe57cbbf5a75",
+      "sitemap_hash": "03be1bcba089c98ea518b4be9f9fc1ea7f62b3a9c8dcf65b2cb7fe57cbbf5a75",
+      "first_seen": "2026-07-09T01:52:53.581Z",
+      "last_seen": "2026-07-09T01:52:53.581Z"
+    },
+    {
+      "host": "sukimani-portal.line.biz",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-09T01:52:53.581Z",
+      "last_seen": "2026-07-09T01:52:53.581Z"
+    },
+    {
+      "host": "tracking.line.biz",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-09T01:52:53.581Z",
+      "last_seen": "2026-07-09T01:52:53.581Z"
+    },
+    {
+      "host": "twoav-express.line.biz",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-09T01:52:53.581Z",
+      "last_seen": "2026-07-09T01:52:53.581Z"
+    },
+    {
+      "host": "twoav.line.biz",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "a9be1b7b0eda60a32750ae4a90a153a6b29ceab5331803924bc837674ee0f884",
+      "security_hash": "a9be1b7b0eda60a32750ae4a90a153a6b29ceab5331803924bc837674ee0f884",
+      "sitemap_hash": "a9be1b7b0eda60a32750ae4a90a153a6b29ceab5331803924bc837674ee0f884",
+      "first_seen": "2026-07-09T01:52:53.581Z",
+      "last_seen": "2026-07-09T01:52:53.581Z"
+    }
+  ]
 }
