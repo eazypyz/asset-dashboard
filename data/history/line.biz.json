@@ -648,5 +648,19 @@
     "type": "new_subdomain",
     "host": "twoav.line.biz",
     "timestamp": "2026-07-09T01:52:53.581Z"
+  },
+  {
+    "type": "security_txt_changed",
+    "host": "insights.line.biz",
+    "timestamp": "2026-07-09T05:52:42.210Z",
+    "previous": "3af29e3cd4e9108f38ac655602750b1abd1c58b2fcbc4babce640c28594101ba",
+    "current": "35f736a559bda3632c7a447761e3c96b6a1529780defb0e51ca16151b1a2c030"
+  },
+  {
+    "type": "sitemap_changed",
+    "host": "insights.line.biz",
+    "timestamp": "2026-07-09T05:52:42.210Z",
+    "previous": "bd388dfa646b54f535679acbef39c99366c5ab55d35be1fdc6dac81047626764",
+    "current": "c313d2da1ae0870618c323c9efcedaa9f0ba3419d1647f94bd6e0ff768d3d934"
   }
 ]
