@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact | Brave Ads</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body class="flex items-center min-h-screen py-4">
+    <main class="w-full max-w-4xl mx-auto px-8">
+        <p class="pb-3">Thanks for your interest in Brave Ads, the first global digital ads platform built for advertiser ROI and user privacy. Please complete the form below, and a member of our sales team will reach out.</p>
+        <p class="pb-6"><span class="text-error-icon">*</span> Fields marked with an asterisk are required.</p>
+        <p>We'll only use your email address to contact you per your advertising inquiry (read our <a href="https://brave.com/privacy/browser/" target="_blank" rel="noopener noreferrer">Privacy Policy</a>).</p>
+        <br />
+        <script src="/js/main.js"></script>
+        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+        <form action="https://app.boostr.com/api/leads/create_lead" enctype="application/json" id="wf-form-Test-Inquiry-Form" name="wf-form-Test-Inquiry-Form" data-name="Test Inquiry Form" method="post" class="get-in-touch-form flex flex-col">
+            <div class="grid sm:grid-flow-col gap-x-6">
+                <div class="flex flex-col">
+                    <label for="First-Name">First name <span class="text-error-icon">*</span></label>
+                    <input type="text" class="input input--large text-base sm:text-sm mb-6 input-field hollow w-input" maxlength="256" name="lead[first_name]" data-name="First name" placeholder="John" id="First-Name" required>
+                </div>
+                <div class="flex flex-col">
+                    <label for="Last-Name">Last name <span class="text-error-icon">*</span></label>
+                    <input type="text" class="input input--large text-base sm:text-sm mb-6 input-field hollow w-input" maxlength="256" name="lead[last_name]" data-name="Last name" placeholder="Doe" id="Last-Name" required>
+                </div>
+            </div>
+
+            <label for="Email-Address">Company email <span class="text-error-icon">*</span></label>
+            <input type="email" class="input input--large text-base sm:text-sm mb-6 input-field hollow w-input" maxlength="256" name="lead[email]" data-name="Email address" placeholder="john@doe.com" id="Email-Address" required>
+
+            <label for="Company">Company name <span class="text-error-icon">*</span></label>
+            <input type="text" class="input input--large text-base sm:text-sm mb-6 input-field hollow w-input" maxlength="256" name="lead[company_name]" data-name="Company" placeholder="Brave Software LLC" id="Company" required>
+
+            <label for="Company-URL">Website <span class="text-error-icon">*</span></label>
+            <input type="text" class="input input--large text-base sm:text-sm mb-6 input-field hollow w-input" maxlength="256" name="lead[custom_field_attributes][string1]" data-name="Company URL" placeholder="www.brave.com" id="Company-URL" required>
+
+            <label for="Country">Country <span class="text-error-icon">*</span></label>
+            <select id="Country" class="input input--large text-base sm:text-sm mb-6 input-field hollow w-input" name="lead[custom_field_attributes][note1]" required>
+                <option value="">Please select</option>
+                <option value="Afghanistan">Afghanistan</option>
+                <option value="Albania">Albania</option>
+                <option value="Algeria">Algeria</option>
+                <option value="Andorra">Andorra</option>
+                <option value="Angola">Angola</option>
+                <option value="Antigua and Barbuda">Antigua and Barbuda</option>
+                <option value="Argentina">Argentina</option>
+                <option value="Armenia">Armenia</option>
+                <option value="Australia">Australia</option>
+                <option value="Austria">Austria</option>
+                <option value="Azerbaijan">Azerbaijan</option>
+                <option value="Bahamas">Bahamas</option>
+                <option value="Bahrain">Bahrain</option>
+                <option value="Bangladesh">Bangladesh</option>
+                <option value="Barbados">Barbados</option>
+                <option value="Belarus">Belarus</option>
+                <option value="Belgium">Belgium</option>
+                <option value="Belize">Belize</option>
+                <option value="Benin">Benin</option>
+                <option value="Bhutan">Bhutan</option>
+                <option value="Bolivia">Bolivia</option>
+                <option value="Bosnia and Herzegovina">Bosnia and Herzegovina</option>
+                <option value="Botswana">Botswana</option>
+                <option value="Brazil">Brazil</option>
+                <option value="Brunei">Brunei</option>
+                <option value="Bulgaria">Bulgaria</option>
+                <option value="Burkina Faso">Burkina Faso</option>
+                <option value="Burundi">Burundi</option>
+                <option value="Côte d'Ivoire">Côte d'Ivoire</option>
+                <option value="Cabo Verde">Cabo Verde</option>
+                <option value="Cambodia">Cambodia</option>
+                <option value="Cameroon">Cameroon</option>
+                <option value="Canada">Canada</option>
+                <option value="Central African Republic">Central African Republic</option>
+                <option value="Chad">Chad</option>
+                <option value="Chile">Chile</option>
+                <option value="China">China</option>
+                <option value="Colombia">Colombia</option>
+                <option value="Comoros">Comoros</option>
+                <option value="Congo (Congo-Brazzaville)">Congo (Congo-Brazzaville)</option>
+                <option value="Costa Rica">Costa Rica</option>
+                <option value="Croatia">Croatia</option>
+                <option value="Cyprus">Cyprus</option>
+                <option value="Czechia (Czech Republic)">Czechia (Czech Republic)</option>
+                <option value="Denmark">Denmark</option>
+                <option value="Djibouti">Djibouti</option>
+                <option value="Dominica">Dominica</option>
+                <option value="Dominican Republic">Dominican Republic</option>
+                <option value="Ecuador">Ecuador</option>
+                <option value="Egypt">Egypt</option>
+                <option value="El Salvador">El Salvador</option>
+                <option value="Equatorial Guinea">Equatorial Guinea</option>
+                <option value="Eritrea">Eritrea</option>
+                <option value="Estonia">Estonia</option>
+                <option value="Eswatini">Eswatini</option>
+                <option value="Ethiopia">Ethiopia</option>
+                <option value="Fiji">Fiji</option>
+                <option value="Finland">Finland</option>
+                <option value="France">France</option>
+                <option value="Gabon">Gabon</option>
+                <option value="Gambia">Gambia</option>
+                <option value="Georgia">Georgia</option>
+                <option value="Germany">Germany</option>
+                <option value="Ghana">Ghana</option>
+                <option value="Greece">Greece</option>
+                <option value="Grenada">Grenada</option>
+                <option value="Guatemala">Guatemala</option>
+                <option value="Guinea">Guinea</option>
+                <option value="Guinea-Bissau">Guinea-Bissau</option>
+                <option value="Guyana">Guyana</option>
+                <option value="Haiti">Haiti</option>
+                <option value="Holy See">Holy See</option>
+                <option value="Honduras">Honduras</option>
+                <option value="Hungary">Hungary</option>
+                <option value="Iceland">Iceland</option>
+                <option value="India">India</option>
+                <option value="Indonesia">Indonesia</option>
+                <option value="Iraq">Iraq</option>
+                <option value="Ireland">Ireland</option>
+                <option value="Israel">Israel</option>
+                <option value="Italy">Italy</option>
+                <option value="Jamaica">Jamaica</option>
+                <option value="Japan">Japan</option>
+                <option value="Jordan">Jordan</option>
+                <option value="Kazakhstan">Kazakhstan</option>
+                <option value="Kenya">Kenya</option>
+                <option value="Kiribati">Kiribati</option>
+                <option value="Kuwait">Kuwait</option>
+                <option value="Kyrgyzstan">Kyrgyzstan</option>
+                <option value="Laos">Laos</option>
+                <option value="Latvia">Latvia</option>
+                <option value="Lebanon">Lebanon</option>
+                <option value="Lesotho">Lesotho</option>
+                <option value="Liberia">Liberia</option>
+                <option value="Libya">Libya</option>
+                <option value="Liechtenstein">Liechtenstein</option>
+                <option value="Lithuania">Lithuania</option>
+                <option value="Luxembourg">Luxembourg</option>
+                <option value="Madagascar">Madagascar</option>
+                <option value="Malawi">Malawi</option>
+                <option value="Malaysia">Malaysia</option>
+                <option value="Maldives">Maldives</option>
+                <option value="Mali">Mali</option>
+                <option value="Malta">Malta</option>
+                <option value="Marshall Islands">Marshall Islands</option>
+                <option value="Mauritania">Mauritania</option>
+                <option value="Mauritius">Mauritius</option>
+                <option value="Mexico">Mexico</option>
+                <option value="Micronesia">Micronesia</option>
+                <option value="Moldova">Moldova</option>
+                <option value="Monaco">Monaco</option>
+                <option value="Mongolia">Mongolia</option>
+                <option value="Montenegro">Montenegro</option>
+                <option value="Morocco">Morocco</option>
+                <option value="Mozambique">Mozambique</option>
+                <option value="Myanmar">Myanmar</option>
+                <option value="Namibia">Namibia</option>
+                <option value="Nauru">Nauru</option>
+                <option value="Nepal">Nepal</option>
+                <option value="Netherlands">Netherlands</option>
+                <option value="New Zealand">New Zealand</option>
+                <option value="Nicaragua">Nicaragua</option>
+                <option value="Niger">Niger</option>
+                <option value="Nigeria">Nigeria</option>
+                <option value="North Macedonia">North Macedonia</option>
+                <option value="Norway">Norway</option>
+                <option value="Oman">Oman</option>
+                <option value="Pakistan">Pakistan</option>
+                <option value="Palau">Palau</option>
+                <option value="Palestine State">Palestine State</option>
+                <option value="Panama">Panama</option>
+                <option value="Papua New Guinea">Papua New Guinea</option>
+                <option value="Paraguay">Paraguay</option>
+                <option value="Peru">Peru</option>
+                <option value="Philippines">Philippines</option>
+                <option value="Poland">Poland</option>
+                <option value="Portugal">Portugal</option>
+                <option value="Qatar">Qatar</option>
+                <option value="Romania">Romania</option>
+                <option value="Rwanda">Rwanda</option>
+                <option value="Saint Kitts and Nevis">Saint Kitts and Nevis</option>
+                <option value="Saint Lucia">Saint Lucia</option>
+                <option value="Saint Vincent and the Grenadines">Saint Vincent and the Grenadines</option>
+                <option value="Samoa">Samoa</option>
+                <option value="San Marino">San Marino</option>
+                <option value="Sao Tome and Principe">Sao Tome and Principe</option>
+                <option value="Saudi Arabia">Saudi Arabia</option>
+                <option value="Senegal">Senegal</option>
+                <option value="Serbia">Serbia</option>
+                <option value="Seychelles">Seychelles</option>
+                <option value="Sierra Leone">Sierra Leone</option>
+                <option value="Singapore">Singapore</option>
+                <option value="Slovakia">Slovakia</option>
+                <option value="Slovenia">Slovenia</option>
+                <option value="Solomon Islands">Solomon Islands</option>
+                <option value="Somalia">Somalia</option>
+                <option value="South Africa">South Africa</option>
+                <option value="South Sudan">South Sudan</option>
+                <option value="Spain">Spain</option>
+                <option value="Sri Lanka">Sri Lanka</option>
+                <option value="Sudan">Sudan</option>
+                <option value="Suriname">Suriname</option>
+                <option value="Sweden">Sweden</option>
+                <option value="Switzerland">Switzerland</option>
+                <option value="Tajikistan">Tajikistan</option>
+                <option value="Tanzania">Tanzania</option>
+                <option value="Thailand">Thailand</option>
+                <option value="Timor-Leste">Timor-Leste</option>
+                <option value="Togo">Togo</option>
+                <option value="Tonga">Tonga</option>
+                <option value="Trinidad and Tobago">Trinidad and Tobago</option>
+                <option value="Tunisia">Tunisia</option>
+                <option value="Turkey">Turkey</option>
+                <option value="Turkmenistan">Turkmenistan</option>
+                <option value="Tuvalu">Tuvalu</option>
+                <option value="Uganda">Uganda</option>
+                <option value="United Arab Emirates">United Arab Emirates</option>
+                <optgroup label="United States">
+                    <option value="US: Northeast">Northeast (US)</option>
+                    <option value="US: Northwest">Northwest (US)</option>
+                    <option value="US: Southeast">Southeast (US)</option>
+                    <option value="US: Southwest">Southwest (US)</option>
+                    <option value="US: Midwest">Midwest (US)</option>
+                </optgroup>
+                <option value="United Kingdom">United Kingdom</option>
+                <option value="Uruguay">Uruguay</option>
+                <option value="Uzbekistan">Uzbekistan</option>
+                <option value="Vanuatu">Vanuatu</option>
+                <option value="Venezuela">Venezuela</option>
+                <option value="Vietnam">Vietnam</option>
+                <option value="Yemen">Yemen</option>
+                <option value="Zambia">Zambia</option>
+                <option value="Zimbabwe">Zimbabwe</option>
+            </select>
+
+
+            <fieldset class="pt-2 pb-6 my-auto flex flex-col">
+                <legend class="text-base">Total campaign budget <span class="text-error-icon">*</span></legend>
+                <ul class="list-none">
+                    <li class="flex items-center py-1"><input required class="radio shrink-0" type="radio" name="lead[budget]" id="budget_level-option-0" value="Less than $10,000"> <label class="pl-2" for="budget_level-option-0">Less than $10,000</label> </li>
+                    <li class="flex items-center py-1"><input required class="radio shrink-0" type="radio" name="lead[budget]" id="budget_level-option-1" value="10,000 - $50,000"> <label class="pl-2" for="budget_level-option-1">$10,0000 - $50,000</label> </li>
+                    <li class="flex items-center py-1"><input required class="radio shrink-0" type="radio" name="lead[budget]" id="budget_level-option-2" value="$50,000 - $100,000"> <label class="pl-2" for="budget_level-option-2">$50,000 - $100,000</label> </li>
+                    <li class="flex items-center py-1"><input required class="radio shrink-0" type="radio" name="lead[budget]" id="budget_level-option-3" value="More than $100,000"> <label class="pl-2" for="budget_level-option-3">More than $100,000</label> </li>
+                </ul>
+            </fieldset>
+
+            <label for="Placements">Which ad placements are you interested in? <span class="text-error-icon">*</span></label>
+            <select id="Placements" data-name="Placements" name="lead[custom_field_attributes][note4]" class="input input--large text-base sm:text-sm mb-6 input-field hollow w-input" required>
+              <option value="">Please select</option>
+              <option value="Browser Ads">Browser Ads</option>
+              <option value="Search Ads">Search Ads</option>
+              <option value="Both">Both</option>
+            </select>
+
+            <label for="Source">Where did you hear about Brave Ads?</label>
+            <input type="text" list="Source" class="input input--large text-base sm:text-sm mb-6 input-field hollow w-input" name="lead[custom_field_attributes][note2]">
+            <datalist id="Source">
+                <option value="">Please select</option>
+                <option value="I use Brave products (browser, search, etc.)">I use Brave products (browser, search, etc.)</option>
+                <option value="A friend/colleague">A friend/colleague</option>
+                <option value="A blog post/news article">A blog post/news article</option>
+                <option value="An influencer/content creator I follow">An influencer/content creator I follow</option>
+                <option value="A newsletter I subscribe to">A newsletter I subscribe to</option>
+                <option value="From an online search for digital ads">From an online search for digital ads</option>
+                <option value="A podcast I listen to">A podcast I listen to</option>
+                <option value="My website analytics">My website analytics</option>
+                <option value="I saw an ad on LinkedIn">I saw an ad on LinkedIn</option>
+                <option value="I saw an ad somewhere else (Twitter, TikTok, Facebook, Adweek, etc.)">I saw an ad somewhere else (Twitter, TikTok, Facebook, Adweek, etc.)</option>
+                <option value="Other">Other (please specify)</option>
+            </datalist>
+
+            <label for="Reason">Additional questions/comments</label>
+            <input type="text" class="input input--large text-base sm:text-sm mb-6 input-field hollow w-input" maxlength="256" name="lead[custom_field_attributes][note3]" data-name="Reason" placeholder="Please provide any additional information to help with your inquiry" id="Reason">
+
+            <div class="flex items-center mb-6">
+                <input type="checkbox" class="checkbox" id="Newsletter" name="newsletter">
+                <label for="Newsletter" class="pl-2 sm:text-sm">Yes, I would like to receive marketing emails about new features and promotions from Brave Ads (Optional)</label>
+            </div>
+            <p>Please see our <a href="https://brave.com/advertiser-privacy/" target="_blank">Advertiser Privacy Policy</a> and <a href="https://basicattentiontoken.org/advertiser-terms-of-service/" target="_blank">Terms of Service</a> applicable to Brave Ads</p>
+            
+            <input name="lead[company_id]" type="hidden" value="180">
+
+            <input name="lead[source_url]" type="hidden" value="https://brave.com/brave-ads/">
+
+            <input name="return_to" type="hidden" value="https://brave.com/brave-ads/success/">
+
+            <div id="recaptcha" class="g-recaptcha"
+                data-sitekey="6LfT6PohAAAAAAwwehEQhQW7msRL0mqxaLuUPomY"
+                data-callback="onSubmit"
+                data-badge="bottomleft"
+                data-size="invisible"></div>
+            <button id="submit-btn" type="submit" class="btn btn--large btn--filled ml-auto" data-wait="Please wait...">Submit</button>
+        </form>
+    </main>
+</body>
+
+</html>

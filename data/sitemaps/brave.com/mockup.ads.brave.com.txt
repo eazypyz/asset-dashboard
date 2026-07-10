@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Brave Browser | Brand Sponsorship NTP3 Demo</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png">
+</head>
+
+<body>
+    <!-- Overlay when mobile popup is visible -->
+    <div id="mobile-overlay" class="mobile-overlay" aria-hidden="true"></div>
+    <!-- MOBILE POPUP -->
+    <div class="mobile-popup">
+        <img id="mobile-iphone-cover" src="images/iphone.png" width="350" height="716" draggable="false">
+        <div class="mobile_image_crop">
+            <canvas id="mobile_canvas_logo"></canvas>
+            <img id="mobile-default-brand-logo" src="images/_brand_logos/logo.png" draggable="false">
+            <div class="mobile-brand-image">
+                <canvas id="mobile_image_canvas"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <!-- MAIN -->
+    <div id="root">
+        <div class="container">
+            <!-- BACKGROUND -->
+            <div class="brand-image">
+                <canvas id="image_canvas"></canvas>
+            </div>
+            <div id="default-brand-image">
+                <img class="default-bg" src="images/_brand_backgrounds/NTT-instructions-BG.jpg" draggable="false" alt="">
+                <div class="default-fg"></div>
+            </div>
+
+            <!-- CONTENT -->
+            <div id="main">
+                <header class="header">
+                    <span id="clock" class="clock"></span>
+
+                    <div class="topsites-container">
+                        <div class="topsites">
+                            <div>
+                                <div id="page1" class="site">
+                                    <img class="page-image" src="images/_icons/social-brave-release-favicon-fullheight-color.png" alt="" draggable="false">
+                                </div>
+                                Brave
+                            </div>
+                            <div>
+                                <div id="page2" class="site">
+                                    <img class="page-image" src="images/_icons/social-bat-favicon-fullheight-color.png" alt="" draggable="false">
+                                </div>
+                                Rewards
+                            </div>
+                            <div>
+                                <div id="page3" class="site">
+                                    <img class="page-image" src="images/_icons/social-github.png" alt="" draggable="false">
+                                </div>
+                                Github
+                            </div>
+                            <div>
+                                <div id="page4" class="site">
+                                    <img class="page-image" src="images/_icons/social-linkedin.png" alt="" draggable="false">
+                                </div>
+                                LinkedIn
+                            </div>
+                            <div>
+                                <div id="page5" class="site">
+                                    <img class="page-image" src="images/_icons/social-reddit.png" alt="" draggable="false">
+                                </div>
+                                Reddit
+                            </div>
+                            <div>
+                                <div id="page6" class="target-toggle site">
+                                    <img class="page-image" src="images/_icons/social-spotify.png" alt="" draggable="false">
+                                </div>
+                                Spotify
+                            </div>
+                            <div>
+                                <div id="page7" class="target-mobile site">
+                                    <img class="page-image mobile-icon" src="images/_icons/iPhone.png" alt="" draggable="false">
+                                </div>
+                                Mobile
+                            </div>
+                        </div>
+                        <div class="navigation-dots-container">
+                            <img src="images/_browser-assets/navigation-dots.png" width="46px">
+                        </div>
+                    </div>
+
+                    <nav class="settings-container">
+                        <img src="images/_browser-assets/settings-icon.png">
+                    </nav>
+
+                    <div class="search-box-container">
+                        <img src="images/_browser-assets/search-box-2.png" width="488px" class="search-box">
+                    </div>
+                </header>
+
+                <!-- BRAND LOGO -->
+                <div class="brand-logo-container">
+                    <div id="brand-logo">
+                        <canvas id="image_canvas_logo" width="360" height="360"></canvas>
+                        <img id="default-brand-logo" width="180" height="180" src="images/_brand_logos/logo.png" draggable="false">
+                    </div>
+                </div>
+
+                <!-- FOOTER -->
+                <footer class="footer">
+                    <div class="stats-container widget">
+                        <div class="title">STATS</div>
+                        <ul class="stats">
+                            <li class="stats-item">
+                                <span class="value">33,135</span>
+                                <div>Trackers & ads blocked</div>
+                            </li>
+                            <li class="stats-item">
+                                <span class="value">34.5 MB</span>
+                                <div>Bandwidth saved</div>
+                            </li>
+                            <li class="stats-item">
+                                <span class="value">27 minutes</span>
+                                <div>Time Saved</div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="widget">
+                        <div class="title">NEWS</div>
+                        <div class="news">
+                            <img src="images/_browser-assets/brave-news.png" width="71px">
+                            <div>
+                                <img src="images/_browser-assets/news-title.png" height="16px">
+                                <span>Scroll to explore private, personalized news, from hundreds of sources.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="widget">
+                        <div class="vpn">
+                            <img src="images/_browser-assets/talk-card.png" height="120px">
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </div>
+
+    <!-- JS at bottom -->
+    <script src="js/script.js"></script>
+</body>
+</html>

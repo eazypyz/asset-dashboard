@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script src="/init.js"></script>
+
+  <link rel="preload" href="/assets/batui/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/batui/jetbrains-mono-latin.woff2" as="font" type="font/woff2" crossorigin>
+
+    <title>Log in to EngFlow</title>
+    <link id="favicon" rel="icon" href="/favicon.ico" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width" />
+        <meta name="csp-nonce" property="csp-nonce" content="44c2dd56-ebe2-4605-8fe4-fdc31bc958d3" />
+    <meta name="feature-toggles" property="feature-toggles" content="%7B%22crossInvocationAnalyticsEnabled%22%3Afalse%2C%22flakyTargetsEnabled%22%3Afalse%2C%22searchEnabled%22%3Afalse%2C%22generateMTlsCertificateEnabled%22%3Atrue%2C%22clientMTLSUsesAlternativeCA%22%3Afalse%2C%22enableLogsFetchingWebWorker%22%3Afalse%2C%22enableInvocationProfileAnalysis%22%3Afalse%2C%22experimentalEnableAutochecks%22%3Afalse%2C%22enableCliLogin%22%3Afalse%2C%22httpAuth%22%3A%5B%22OIDC_LOGIN%22%5D%2C%22generateJWTTokenEnabled%22%3Afalse%2C%22allowMtlsCertDownloadForClientAuthGithubToken%22%3Atrue%2C%22enableOAuth2DeviceFlow%22%3Atrue%2C%22enableExpensiveInvocationIndexQueries%22%3Afalse%2C%22requireAcceptTos%22%3Atrue%2C%22telemetryEnabled%22%3Atrue%2C%22componentGalleryEnabled%22%3Afalse%2C%22disableGettingStartedFeatures%22%3A%5B%5D%2C%22recordGeneratedCredentials%22%3Atrue%2C%22credentialRevocationListRefreshPeriodMs%22%3A300000%2C%22enableAnalyticsUI%22%3Afalse%2C%22enableUIRefresh%22%3Afalse%2C%22computeTargetTree%22%3Atrue%2C%22ciRunners%22%3Afalse%2C%22bentos%22%3Afalse%2C%22buildkiteBentosEnabled%22%3Afalse%2C%22githubBentosEnabled%22%3Afalse%2C%22hideInvocationUserIfUnknown%22%3Afalse%2C%22besDataRetentionDurationMs%22%3A8640000000%2C%22casDataRetentionDurationMs%22%3A2592000000%2C%22enableNewInvocationActionComparison%22%3Atrue%2C%22enableInvocationComparisonSearch%22%3Afalse%2C%22indexProfiledInvocations%22%3Afalse%2C%22mcpEnabled%22%3Atrue%2C%22mcpName%22%3A%22chromite_prod%22%7D" />
+    <meta name="oidc-auth-url-0" property="oidc-auth-url-0" content="https://accounts.google.com/o/oauth2/v2/auth" />
+    <meta name="oidc-client-id-0" property="oidc-client-id-0" content="200320500895-tiirubv8g9midkh25v97a70f2jq1kavq.apps.googleusercontent.com" />
+    <meta name="oidc-issuer-0" property="oidc-issuer-0" content="GOOGLE" />
+    <meta name="oidc-response-type-0" property="oidc-response-type-0" content="id_token" />
+
+  <script type="module" crossorigin src="/assets/batui/login.js"></script>
+  <link rel="modulepreload" crossorigin href="/assets/batui/CXVDCqc5-chunk.js">
+  <link rel="stylesheet" crossorigin href="/assets/batui/Footer.css">
+  <link rel="stylesheet" crossorigin href="/assets/batui/login.css">
+</head>
+
+<body>
+    <div id="root">
+        <div class="loading">
+            Loading...
+        </div>
+    </div>
+    <div id="portal-tooltip"></div>
+</body>
+
+</html>

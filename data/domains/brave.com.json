@@ -1,13 +1,5437 @@
 {
   "domain": "brave.com",
-  "last_update": "2026-07-10T11:52:05.541Z",
+  "last_update": "2026-07-10T13:52:15.534Z",
   "stats": {
-    "total": 0,
-    "dns_resolved": 0,
-    "alive": 0,
-    "has_robots": 0,
-    "has_security": 0,
-    "has_sitemap": 0
+    "total": 319,
+    "dns_resolved": 170,
+    "alive": 149,
+    "has_robots": 33,
+    "has_security": 22,
+    "has_sitemap": 21
   },
-  "subdomains": []
+  "subdomains": [
+    {
+      "host": "account.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "af9919b3fd1457b3249465075eebd4f354e7880e5060c198aeff8242ccc6fded",
+      "security_hash": "af9919b3fd1457b3249465075eebd4f354e7880e5060c198aeff8242ccc6fded",
+      "sitemap_hash": "af9919b3fd1457b3249465075eebd4f354e7880e5060c198aeff8242ccc6fded",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "adblock-data.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "adblock-data.s3.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "addfunds.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "admin.ads.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "ads-admin.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "ads-help.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": true,
+      "robots_hash": "750487e622b94ff4b6b5848d3d50d5b1f0a99cc6e079386b062692cafe573465",
+      "security_hash": "",
+      "sitemap_hash": "5c186d2f4559bbc03f0351e73dfc65d144dc07ef35feeff79a7768e8fc705134",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "ads-serve-staging.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "ads-serve-waf.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "ads-serve.aws-internal.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "ads-serve.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "ads-static.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "ads-v2.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "ads.aws-internal.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "ads.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "a5f865c013a1fd97ee19176a51c4001b46f8c2d61989f9dddbe1752c35ec605f",
+      "security_hash": "a5f865c013a1fd97ee19176a51c4001b46f8c2d61989f9dddbe1752c35ec605f",
+      "sitemap_hash": "a5f865c013a1fd97ee19176a51c4001b46f8c2d61989f9dddbe1752c35ec605f",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "ai-chat-premium.bsg.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "ai-chat.bsg.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "alb.img.search.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "alb.search.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "alertmanager.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "aliases.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "aliases.bsg.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "analytics.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 401,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "ankr.wallet.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "anonymous.ads.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "api-admin.search.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "api-dashboard.search.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "api-ga.search.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "api-pro.search.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "api-pro2.search.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "api-resource.search.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 503,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "api.0x.wallet.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 400,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "api.rewards.aws-internal.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "api.rewards.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "api.search.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "apis.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "apis.proxy.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "arbe.ba.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "artifacts.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "assets.cgproxy.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "e5c4b84484ee4216e9373be99380320c25dd94805f99f0a805846f087636553f",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "beta.talk.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "e6032e590148d9f0dd9fbc303eaa4c0e897c8930162faf7ac003be1ba330f392",
+      "security_hash": "0c2b2eff25014dfbaffb1a2cf61967e69d9eaaa09f644692de1492ba504a898c",
+      "sitemap_hash": "0c2b2eff25014dfbaffb1a2cf61967e69d9eaaa09f644692de1492ba504a898c",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "bitgo-proxy.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "bitgo-proxy.internal.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "blockchain.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "blog.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "105ae9ec1bb33213b73be71b290c54eef3a15bc98c9780f6e4669d67ff68b4d2",
+      "security_hash": "ba9fcc2a1053c2b105d50e7acda01957835cf4a6fffd78690cef1cdf4a7b41cf",
+      "sitemap_hash": "97bebf943dd20e83faa245bb419222dcc1ca5f358a68d4fa08d2c5927d41b965",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "brave-browser-apk-beta.s3.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "brave-browser-apk-nightly.s3.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "brave-browser-apk-release-s3.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "brave-browser-apk-release.s3.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "brave-browser-apt-beta-test.s3.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "brave-browser-apt-beta.s3.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "brave-browser-apt-dev.s3.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "brave-browser-apt-nightly-test.s3.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "brave-browser-apt-nightly.s3.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "brave-browser-apt-release-test-bis.s3.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "brave-browser-apt-release-test.s3.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "brave-browser-apt-release.s3.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "brave-browser-downloads.s3.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "brave-browser-rpm-beta-test.s3.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "brave-browser-rpm-beta.s3.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "brave-browser-rpm-dev.s3.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "brave-browser-rpm-nightly-test.s3.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "brave-browser-rpm-nightly.s3.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "brave-browser-rpm-release-test-bis.s3.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "brave-browser-rpm-release.s3.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "brave-build-deps-internal.s3.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "brave-build-deps-public.s3.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "brave-core-ext.cdn.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "brave-core-ext.s3.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "brave-symbols.s3.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "brave-today-cdn.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "brave-user-model-installer-input.s3.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "105ae9ec1bb33213b73be71b290c54eef3a15bc98c9780f6e4669d67ff68b4d2",
+      "security_hash": "ba9fcc2a1053c2b105d50e7acda01957835cf4a6fffd78690cef1cdf4a7b41cf",
+      "sitemap_hash": "97bebf943dd20e83faa245bb419222dcc1ca5f358a68d4fa08d2c5927d41b965",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "browser-education.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "bsg.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "build-artifacts.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "cdn-search.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "cdn.search-dev.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "cdn.search.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "cdn.store.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "ci-alb.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "ci-cdn.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "ci-int.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "ci-internal.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "ci.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "clients4.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "e93753d01f34ae18a5f227b1f035840f0f84a938e1a6832f66634afe886a2d5c",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "clients4.proxy.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "collector.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "community.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": true,
+      "robots_hash": "4b31aea9bacc5968af4812485e744d099546e8e3417201e107467444e9510ac4",
+      "security_hash": "",
+      "sitemap_hash": "f95e3a9365ab917d38e55023abb174bc36ab046a704677b459db3933b6299da3",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "componentupdater.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "componentupdater.proxy.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "contact.ads.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "743d618ab978125f38d0eb41e2f579c1778aa9bc02a7a133c6edf76c47ab4465",
+      "security_hash": "743d618ab978125f38d0eb41e2f579c1778aa9bc02a7a133c6edf76c47ab4465",
+      "sitemap_hash": "743d618ab978125f38d0eb41e2f579c1778aa9bc02a7a133c6edf76c47ab4465",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "cookiecrumbler.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "cookiemonster.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "creators-staging-cf.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "creators-staging.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "48adafe058feb3018241b44d8b0975758bbbea4f7eaced004eff901375638f53",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "creators.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "48adafe058feb3018241b44d8b0975758bbbea4f7eaced004eff901375638f53",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "crlsets.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "crumbcollector.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "crxdownload.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "crxdownload.proxy.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "dev-alb.search.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "dev.talk.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "devtools.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "devtools.proxy.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "dict.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "dl.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "extensionupdater.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "e93753d01f34ae18a5f227b1f035840f0f84a938e1a6832f66634afe886a2d5c",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "extensionupdater.proxy.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "eyeshade-staging.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "eyeshade.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "faq-bot.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "favicons-alb.search.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "favicons.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "favicons.search.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "feedback.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "fg.search.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "fl.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "forcesafe.search.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 429,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "3e518db86e29615c4b2ae6b709ec483248122c9e332c974ae360e7fe59c07110",
+      "security_hash": "aa9079fb449f0b8a5a348fe9ca95c8ba35294899984f6dc53a84f35fd8741a0c",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "funding.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "gaia.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "gaia.proxy.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "game-2048-fargate-premium.starfleet.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "game-2048-fargate.starfleet.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "gate3-srv.bsg.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "geo.ads.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "gerrit.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "084034788a445e3f7ad4dd335966d104d85997dd403c53e7d6021924ffa7bdfb",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "giphy-proxy.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "go-updater.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "goerli-infura-api.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "goerli-infura.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "goma.ba.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "goma.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "grafana-staging.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "grafana.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "grant.rewards.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "griffin.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "gs-us-test.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "https-everywhere.s3.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "img.search.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "imgr-alb.search.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "imgr.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "imgr.search.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "imgs.search.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "internal-ads-serve.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "internal-ads.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "internal.search.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "jenkins.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "kovan-infura-api.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "kovan-infura.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "laptop-updates-pre.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "laptop-updates-staging.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "laptop-updates.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "ledger-staging.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "ledger.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "local-proxy-aps1.search.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "local-proxy-apse2.search.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "local-proxy-euc1.search.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "local-proxy-sae1.search.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "local-proxy-use1.search.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "local-proxy-usw2.search.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "local-proxy.search.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "location-test.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "location.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "mainnet-aurora.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "mainnet-beta-solana.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "mainnet-infura-api.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "mainnet-infura.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "mainnet-optimism.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "mainnet-polygon.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "marketplace-poc-1321923680.search.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "matomo-dev.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "matomo.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "meet.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "metrics.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "mobile-data.s3.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "mockup.ads.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "28bf4b80b82ed718ab792ec863334ec96959e193eac020ddf599fdf53d074cbf",
+      "security_hash": "28bf4b80b82ed718ab792ec863334ec96959e193eac020ddf599fdf53d074cbf",
+      "sitemap_hash": "28bf4b80b82ed718ab792ec863334ec96959e193eac020ddf599fdf53d074cbf",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "monitoring.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "mta-sts.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "multichain.ankr.wallet.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "mumbai-polygon.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "mywallet.ads.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "newsletter.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": true,
+      "robots_hash": "0a845e5f6c257022bfc96b08b7f46537732ba48455c6e64af728dc208e8d0f80",
+      "security_hash": "",
+      "sitemap_hash": "9ff8cda17401ada95e3a9c4a69e2576227eb25b88a246158c32e6911693c1172",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "nrbe.ba.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "o4.updates-panel.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "omaha.internal.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "omaha4-alb.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "omaha4-panel.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "onboarding.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "payment.rewards.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "payments.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "pcdn.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "perf-data.s3.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "playlist.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "ad8c0a1c36863375b1f5986cb78d35266b0257a5df4949d81d26f9a7764a0339",
+      "security_hash": "ad8c0a1c36863375b1f5986cb78d35266b0257a5df4949d81d26f9a7764a0339",
+      "sitemap_hash": "ad8c0a1c36863375b1f5986cb78d35266b0257a5df4949d81d26f9a7764a0339",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "pmtiles.search.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 400,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "poolparty.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "productmanager.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "prometheus-staging.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "prometheus.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "promo-services-staging.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "promo-services.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "proxy.aws-internal.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "proxy.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "publishers-staging.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "97596027d63320f3b078e362e17fbfed7cbccb9bd42b7bb1272a4adc9ecf8384",
+      "security_hash": "355535c9df8af52a1806dc05a675e0f2fa3da2fb18297c8544546cc4594f9483",
+      "sitemap_hash": "97c5286512610f2ce1a5662a62a27a69fede8014a389c4c3f699bac937db7eed",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "publishers.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "c5226e631c3f8574f94bf9c13b035b7cd13cd615f98d30fe94b3b66c713a0d59",
+      "security_hash": "c70c82196a968833522b37af8efb27ed3729ed9c7c18372c311ce5f64e7f619a",
+      "sitemap_hash": "710ff037346af6b7c4494112eca09590e896390e54d4ff74c8a55be52ed7b8d1",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "ratios.rewards.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "rbe.ba.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "4dcf7ebc280a3b5df0272b5dfbcd9e6309431d579f791ef03ad3471390d955ab",
+      "security_hash": "c5d1439c3ca50fde452607118f70a1d174ce26ab30124b39048bc1dbee4018bf",
+      "sitemap_hash": "6889ebd1542d3e491a81a37d4d378cab2b3926d288945bd6f723147159eb2a13",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "redirector.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "redis.promo-services-staging.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "redis.promo-services.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "referrals.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "referrers-staging.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "referrers.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "repsys-ip-anon.bsg.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "repsys.rewards.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "reputation.brave-internal.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "reputation.rewards.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "reputation.vpce-svc.brave-internal.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "rewards.brave-internal.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "rewards.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "rewards.grant.aws-internal.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "rewards.vpce-svc.brave-internal.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "rinkeby-infura-api.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "rinkeby-infura.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "ropsten-infura-api.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "ropsten-infura.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "rust-pkg-brave-core.s3.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "s3.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "safe.search.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 429,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "3e518db86e29615c4b2ae6b709ec483248122c9e332c974ae360e7fe59c07110",
+      "security_hash": "aa9079fb449f0b8a5a348fe9ca95c8ba35294899984f6dc53a84f35fd8741a0c",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "safebrowsing-proxy.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "safebrowsing.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "safebrowsing2.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "safebrowsing2.proxy.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "safesearch.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 429,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "3e518db86e29615c4b2ae6b709ec483248122c9e332c974ae360e7fe59c07110",
+      "security_hash": "aa9079fb449f0b8a5a348fe9ca95c8ba35294899984f6dc53a84f35fd8741a0c",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "sb-ssl.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "sb-ssl.proxy.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "scim.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "search-dev.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "search.anonymous.ads.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "search.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 429,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "3e518db86e29615c4b2ae6b709ec483248122c9e332c974ae360e7fe59c07110",
+      "security_hash": "aa9079fb449f0b8a5a348fe9ca95c8ba35294899984f6dc53a84f35fd8741a0c",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "sepolia-infura-api.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "sepolia-infura.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "simplehash.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "social-growth.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "socket-firewall-internal.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "socket-firewall.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "socket.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "staging.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "staging.ci.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "star-randsrv.bsg.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "starfleet.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "static.ads.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "static.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "2a3f98b1379fbe4c81ef1286541cbd54c4facebf2e21ae7c7af6dd54e922da1e",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "static.proxy.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "static1.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "2a3f98b1379fbe4c81ef1286541cbd54c4facebf2e21ae7c7af6dd54e922da1e",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "static1.proxy.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "stats-redshift-staging.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "stats.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "status.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "security_hash": "b226f2f16fe3f755028aaefdc0607a2a2fd1365948520274417a13cc5be6b436",
+      "sitemap_hash": "b226f2f16fe3f755028aaefdc0607a2a2fd1365948520274417a13cc5be6b436",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "store-backend.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "store.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "aa9079fb449f0b8a5a348fe9ca95c8ba35294899984f6dc53a84f35fd8741a0c",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "support.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "94b7f80b21970b7d3008bae47c45b3b26f41b9a8b05b5e3558675a3f102f0992",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "survey-admin.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "survey.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "47238c8d7fc972e60a98e3ea8b00287cc2c035897920a83dfe35b1e8e1eccf02",
+      "security_hash": "47238c8d7fc972e60a98e3ea8b00287cc2c035897920a83dfe35b1e8e1eccf02",
+      "sitemap_hash": "47238c8d7fc972e60a98e3ea8b00287cc2c035897920a83dfe35b1e8e1eccf02",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "symbols-server.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "symbols-server.s3.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "sync-staging.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "sync-v2.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "sync.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "t0.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "t0.proxy.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "tabong.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "talk-beta.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "talk.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "e6032e590148d9f0dd9fbc303eaa4c0e897c8930162faf7ac003be1ba330f392",
+      "security_hash": "0c2b2eff25014dfbaffb1a2cf61967e69d9eaaa09f644692de1492ba504a898c",
+      "sitemap_hash": "0c2b2eff25014dfbaffb1a2cf61967e69d9eaaa09f644692de1492ba504a898c",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "teamcity-alb.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "teamcity.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "temp-talk.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "terraboard.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "testnet-solana.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "tiles-alb.search.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "tiles.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "tiles.search.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "together.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "e6032e590148d9f0dd9fbc303eaa4c0e897c8930162faf7ac003be1ba330f392",
+      "security_hash": "0c2b2eff25014dfbaffb1a2cf61967e69d9eaaa09f644692de1492ba504a898c",
+      "sitemap_hash": "0c2b2eff25014dfbaffb1a2cf61967e69d9eaaa09f644692de1492ba504a898c",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "translate-cdn.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "translate-relay-internal.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "translate-relay.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "translate-test.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 503,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "translate.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "turn.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "updates-alb.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "updates-cdn.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "updates-cdn2.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "updates-main.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "updates-new.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "updates-panel-new.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "updates-panel-staging.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "updates-panel.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "updates-primary.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "updates-staging.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "updates.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "uphold-widget.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "upload-support.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "usage-ping.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "variations.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "versions.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "vpn-internal-new.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "vpn-internal.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "0213400883e45d4703522fce3ccaa800d120c338c9277d710c0aae5485231597",
+      "security_hash": "cc9269799f79f8e6d0008bdde03be93cd89baa73db14e5257f4710735bade9d4",
+      "sitemap_hash": "715a523fa9daa7c8d109fed1e549281342cd4bc74fca04f5439372a42543b287",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "vpn.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "wallet-cdn.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "wallet-docs.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": true,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "234d8d2c4e48adcbcb70f59a45da16bfe791afe00daa9e891e03b15dbede5155",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "wallet.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "wdp-public.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "wdp.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "web-staging.stats.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "webcompat.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "webwormhole.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "www.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "105ae9ec1bb33213b73be71b290c54eef3a15bc98c9780f6e4669d67ff68b4d2",
+      "security_hash": "ba9fcc2a1053c2b105d50e7acda01957835cf4a6fffd78690cef1cdf4a7b41cf",
+      "sitemap_hash": "97bebf943dd20e83faa245bb419222dcc1ca5f358a68d4fa08d2c5927d41b965",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "zcash.wallet.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    },
+    {
+      "host": "zrbe.ba.brave.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-10T13:52:15.504Z",
+      "last_seen": "2026-07-10T13:52:15.504Z"
+    }
+  ]
 }

@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /search?conversation=
+Allow: /search*&conversation=
+Allow: /goggles/discover
+Allow: /goggles/create
+Allow: /goggles/profile
+Disallow: /search
+Disallow: /images
+Disallow: /news
+Disallow: /videos
+Disallow: /goggles
+Disallow: /api
