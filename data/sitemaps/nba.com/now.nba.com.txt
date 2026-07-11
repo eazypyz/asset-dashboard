@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="en" dir="ltr" ng-app="sn.$sp" ng-init="portal_id = '2104e2d087e5aa50337431983cbb3595'" style="height: 100%" class="page-{{page.sys_id}} v{{page.sys_id}} ltr sn-sp-page" data-page-id="{{page.sys_id}}"><head sp-metatags=""><base href="/homecourt"></base><link rel="preload" href="/styles/fonts/glyphicons-halflings-regular.woff2" as="font" crossorigin="anonymous"></link><link rel="preload" href="/scripts/icon-fonts/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0" as="font" crossorigin="anonymous"></link><title>Login - Home Court</title><meta http-equiv="X-UA-Compatible" content="IE=edge; IE=10"></meta><meta name="viewport" content="width=device-width, initial-scale=1.0"></meta><meta name="mobile-web-app-capable" content="yes"></meta><meta http-equiv="cache-control" content="public"></meta><meta http-equiv="cache-control" content="no-cache"></meta><meta http-equiv="cache-control" content="max-age=0"></meta><meta http-equiv="pragma" content="no-cache"></meta><link href="nba_25homecourt_icon.png" rel="shortcut icon"></link><link href="images/mobile/apple_touch_snc.png?v=06-19-2026_0859" rel="apple-touch-icon"></link><link rel="stylesheet" href="styles/fonts/source-sans-pro/source-sans-pro-latin.css?v=c9e049492fcecb50ef91884fafa4e3da" media="none" onload="if(media!='all')media='all'"></link><link rel="stylesheet" href="styles/css_includes_$sp.css?v=c9e049492fcecb50ef91884fafa4e3da" media="none" onload="if(media!='all')media='all'"></link><link href="styles/scss/sp-bootstrap-rem.scss?portal_id=2104e2d087e5aa50337431983cbb3595&amp;theme_id=e765a2d087e5aa50337431983cbb3501&amp;v=c9e049492fcecb50ef91884fafa4e3da&amp;uxf_theme_id=null&amp;uxf_theme_variant_id=null&amp;is_rtl=false" rel="stylesheet" type="text/css"></link><link rel="stylesheet" href="styles/css_includes_$sp_later.css?v=c9e049492fcecb50ef91884fafa4e3da" media="none" onload="if(media!='all')media='all'"></link><link href="/a84b49ce1b5d341047582171604bcb7b.spcssdbx?portal=2104e2d087e5aa50337431983cbb3595&amp;theme=e765a2d087e5aa50337431983cbb3501&amp;c=b0a009092fcecb50ef91884fafa4e362" type="text/css" rel="stylesheet"></link><link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css?portal=2104e2d087e5aa50337431983cbb3595&amp;theme=e765a2d087e5aa50337431983cbb3501&amp;c=b0a009092fcecb50ef91884fafa4e362" type="text/css" rel="stylesheet"></link><link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&amp;display=swap&amp;c=b0a009092fcecb50ef91884fafa4e362" type="text/css" rel="stylesheet"></link><link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/v4-shims.min.css?portal=2104e2d087e5aa50337431983cbb3595&amp;theme=e765a2d087e5aa50337431983cbb3501&amp;c=b0a009092fcecb50ef91884fafa4e362" type="text/css" rel="stylesheet"></link><style>.sc-field-error-label {
+<!DOCTYPE html><html lang="en" dir="ltr" ng-app="sn.$sp" ng-init="portal_id = '2104e2d087e5aa50337431983cbb3595'" style="height: 100%" class="page-{{page.sys_id}} v{{page.sys_id}} ltr sn-sp-page" data-page-id="{{page.sys_id}}"><head sp-metatags=""><base href="/homecourt"></base><link rel="preload" href="/styles/fonts/glyphicons-halflings-regular.woff2" as="font" crossorigin="anonymous"></link><link rel="preload" href="/scripts/icon-fonts/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0" as="font" crossorigin="anonymous"></link><title>Login - Home Court</title><meta http-equiv="X-UA-Compatible" content="IE=edge; IE=10"></meta><meta name="viewport" content="width=device-width, initial-scale=1.0"></meta><meta name="mobile-web-app-capable" content="yes"></meta><meta http-equiv="cache-control" content="public"></meta><meta http-equiv="cache-control" content="no-cache"></meta><meta http-equiv="cache-control" content="max-age=0"></meta><meta http-equiv="pragma" content="no-cache"></meta><link href="nba_25homecourt_icon.png" rel="shortcut icon"></link><link href="images/mobile/apple_touch_snc.png?v=06-19-2026_0859" rel="apple-touch-icon"></link><link rel="stylesheet" href="styles/fonts/source-sans-pro/source-sans-pro-latin.css?v=e090c18d3b02c790398acb8c24e45a64" media="none" onload="if(media!='all')media='all'"></link><link rel="stylesheet" href="styles/css_includes_$sp.css?v=e090c18d3b02c790398acb8c24e45a64" media="none" onload="if(media!='all')media='all'"></link><link href="styles/scss/sp-bootstrap-rem.scss?portal_id=2104e2d087e5aa50337431983cbb3595&amp;theme_id=e765a2d087e5aa50337431983cbb3501&amp;v=e090c18d3b02c790398acb8c24e45a64&amp;uxf_theme_id=null&amp;uxf_theme_variant_id=null&amp;is_rtl=false" rel="stylesheet" type="text/css"></link><link rel="stylesheet" href="styles/css_includes_$sp_later.css?v=e090c18d3b02c790398acb8c24e45a64" media="none" onload="if(media!='all')media='all'"></link><link href="/a84b49ce1b5d341047582171604bcb7b.spcssdbx?portal=2104e2d087e5aa50337431983cbb3595&amp;theme=e765a2d087e5aa50337431983cbb3501&amp;c=8d90c18d3b02c790398acb8c24e45aaa" type="text/css" rel="stylesheet"></link><link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css?portal=2104e2d087e5aa50337431983cbb3595&amp;theme=e765a2d087e5aa50337431983cbb3501&amp;c=8d90c18d3b02c790398acb8c24e45aaa" type="text/css" rel="stylesheet"></link><link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&amp;display=swap&amp;c=8d90c18d3b02c790398acb8c24e45aaa" type="text/css" rel="stylesheet"></link><link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/v4-shims.min.css?portal=2104e2d087e5aa50337431983cbb3595&amp;theme=e765a2d087e5aa50337431983cbb3501&amp;c=8d90c18d3b02c790398acb8c24e45aaa" type="text/css" rel="stylesheet"></link><style>.sc-field-error-label {
 	color: #ffffff;
 }
 @supports (-webkit-touch-callout: none) {
@@ -6925,7 +6925,7 @@ sn-search-results-container {
 	--now-button-iconic--secondary--color--hover: 0, 100, 255;
 	--now-button--tertiary--color: 29, 66, 138;
 	--now-button--border-radius: 0;
-}</style><script data-description="NOW glide web analytics siteid and url">window.snWebaConfig = window.snWebaConfig || {};
+}</style><script eval="true" data-description="NOW glide web analytics siteid and url">window.snWebaConfig = window.snWebaConfig || {};
 		// glide web analytics config
 		window.snWebaConfig.siteId = "0";
 		window.snWebaConfig.trackerURL = "";
@@ -6933,7 +6933,7 @@ sn-search-results-container {
 		window.snWebaConfig.ambClient = (window.g_ambClient) ? window.g_ambClient : ((window.amb)? window.amb.getClient(): "");
 		window.snWebaConfig.subscribed = false;</script><script data-description="NOW session, user_name, etc">window.NOW = window.NOW || {};
 		// record watch / presence
-		window.NOW.session_id = '173C7D012F4E0F50EF91884FAFA4E323';
+		window.NOW.session_id = '5010DC1D3BC24B90398ACB8C24E45A7A';
 		window.NOW.user_name = 'guest';
 		window.NOW.user_id = '5136503cc611227c0183e96598c4f706';
 		window.NOW.user_display_name = 'Guest';
@@ -6983,7 +6983,7 @@ sn-search-results-container {
 		window.NOW.instance_id = 'de0f54794a36231b015607f8d28d5eeb';
 		window.NOW.instance_name = 'nba';
 		window.NOW.domain_id = '';window.NOW.unauthenticated_user_tracking_enabled = false;window.NOW.isForceRestrictedPortal = false;</script><script data-description="NOW vars set by properties, custom events, g_* globals">
-		window.g_ck = '973c7d012f4e0f50ef91884fafa4e323b05a9df63cead54715646d60c5279e80a20b61af';
+		window.g_ck = 'd010dc1d3bc24b90398acb8c24e45a7a42506b4247e83ff5da62281c67d33845f40ca193';
 		window.g_spd = '' === 'true';
 		window.logged_in = false;
 		if (!window.NOW)
@@ -7029,7 +7029,7 @@ sn-search-results-container {
 	    window.NOW.sp.widgetCSSIncludes = {};
 		window.NOW.sp.uxfThemeEnable = 'false' === 'true';
 		window.NOW.sp.aisDeferLoadEnabled = 'false' == 'true';
-		window.NOW.sp.uxpcb = '1783751582877';
+		window.NOW.sp.uxpcb = '1783751583023';
 		window.NOW.sp.isPortalMesp = 'false' == 'true';
 		window.NOW.currency = {};
 		window.NOW.currency.code = 'USD';
@@ -7062,7 +7062,7 @@ sn-search-results-container {
 		var g_date_picker_first_day_of_week = parseInt(0, 10);
 		var g_notif_timeout = parseInt(10, 10);
 		var g_notification_threshold = parseInt(5, 10);
-		var g_ck = '973c7d012f4e0f50ef91884fafa4e323b05a9df63cead54715646d60c5279e80a20b61af';
+		var g_ck = 'd010dc1d3bc24b90398acb8c24e45a7a42506b4247e83ff5da62281c67d33845f40ca193';
 		var g_searchWaitTime = 100;
 		var g_amb_on_login = false;
 
@@ -7183,7 +7183,7 @@ sn-search-results-container {
 						window.aiex = {};
 					}
 					if(!window.aiex.cacheBuster) {
-						window.aiex.cacheBuster = 1783751582877;
+						window.aiex.cacheBuster = 1783751583023;
 					}
 
 					window.aiex.VERSION = "3.2.6";</script><script type="text/javascript" src="/scripts/js_includes_now_canvas.jsx?v=06-19-2026_0859&amp;lp=Thu_May_28_15_47_58_PDT_2026&amp;c=33_847"></script><script type="text/javascript">'use strict';
@@ -7829,4 +7829,4 @@ sn-search-results-container {
 			"Reorder item": 'Reorder item',
 			"Checkbox text": 'Checkbox text',
 			"Remove item": 'Remove item'
-		};</script><script src="/uxasset/externals/@servicenow/ui-mega/index.jsdbx?sysparm_use_cache_buster=true&amp;uxpcb=1783751582877" type="module"></script><script src="/uxasset/externals/amb-client-js/index.jsdbx?sysparm_use_cache_buster=true&amp;uxpcb=1783751582877" type="module"></script><script src="/uxasset/externals/@servicenow/now-icon/icons/magnifyingGlass.jsdbx?sysparm_use_cache_buster=true&amp;uxpcb=1783751582877" type="module"></script><script src="/uxasset/externals/ais-ux-bundle/index.jsdbx?sysparm_use_cache_buster=true&amp;uxpcb=1783751582877" type="module"></script></body></html>
+		};</script><script src="/uxasset/externals/@servicenow/ui-mega/index.jsdbx?sysparm_use_cache_buster=true&amp;uxpcb=1783751583023" type="module"></script><script src="/uxasset/externals/amb-client-js/index.jsdbx?sysparm_use_cache_buster=true&amp;uxpcb=1783751583023" type="module"></script><script src="/uxasset/externals/@servicenow/now-icon/icons/magnifyingGlass.jsdbx?sysparm_use_cache_buster=true&amp;uxpcb=1783751583023" type="module"></script><script src="/uxasset/externals/ais-ux-bundle/index.jsdbx?sysparm_use_cache_buster=true&amp;uxpcb=1783751583023" type="module"></script></body></html>
