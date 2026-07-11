@@ -1,0 +1,986 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+  <meta charset="utf-8" />
+  <!-- refs-tags-v27616 -->
+
+
+  <title>NBA Help Center</title>
+
+  
+
+  <link rel="canonical" href="https://support.watch.nba.com/hc/en-us">
+<link rel="alternate" hreflang="de" href="https://support.watch.nba.com/hc/de">
+<link rel="alternate" hreflang="en-us" href="https://support.watch.nba.com/hc/en-us">
+<link rel="alternate" hreflang="es" href="https://support.watch.nba.com/hc/es">
+<link rel="alternate" hreflang="es-mx" href="https://support.watch.nba.com/hc/es-mx">
+<link rel="alternate" hreflang="fr" href="https://support.watch.nba.com/hc/fr">
+<link rel="alternate" hreflang="it" href="https://support.watch.nba.com/hc/it">
+<link rel="alternate" hreflang="ja" href="https://support.watch.nba.com/hc/ja">
+<link rel="alternate" hreflang="ko" href="https://support.watch.nba.com/hc/ko">
+<link rel="alternate" hreflang="pt" href="https://support.watch.nba.com/hc/pt">
+<link rel="alternate" hreflang="pt-br" href="https://support.watch.nba.com/hc/pt-br">
+<link rel="alternate" hreflang="th" href="https://support.watch.nba.com/hc/th">
+<link rel="alternate" hreflang="tr" href="https://support.watch.nba.com/hc/tr">
+<link rel="alternate" hreflang="x-default" href="https://support.watch.nba.com/hc/en-us">
+<link rel="alternate" hreflang="zh-tw" href="https://support.watch.nba.com/hc/zh-tw">
+
+  <link rel="stylesheet" href="//static.zdassets.com/hc/assets/application-9728c5319eba0423daea7e82ae8a1641.css" media="all" id="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="/hc/theming_assets/1965822/114094187314/style.css?digest=35437224361367">
+
+  <link rel="icon" type="image/x-icon" href="/hc/theming_assets/01HZPEEAA95QF60EG88QMZ6AR7">
+
+    
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="preconnect" href="https://fonts.gstatic.com" />
+
+
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap"
+      rel="stylesheet">
+
+
+
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;700&display=swap" rel="stylesheet">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+
+
+
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
+<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.7.2/build/styles/github.min.css">
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/magnific-popup@1.1.0/dist/magnific-popup.min.css">
+<link rel="stylesheet" href="/hc/theming_assets/01HZPEE86GP11YKDF38SJE5HDN" />
+<script src="//cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/magnific-popup@1.1.0/dist/jquery.magnific-popup.min.js"></script>
+<script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.7.2/build/highlight.min.js"></script>
+<script>
+  window.LotusConfig = {};
+  LotusConfig.css = {
+    activeClass: 'is-active',
+    hiddenClass: 'is-hidden'
+  };
+  LotusConfig.popularSearchesKeywords = "installation, branding, customization";
+  LotusConfig.signedIn = false;
+  LotusConfig.customBlocks = [
+    {
+      id: 1,
+      show: true,
+      type: "custom",
+      url: 
+            
+              "nba_app_url"
+            
+          ,
+      imageUrl: "/hc/theming_assets/01HZPEEAM3CGPGY804V5R1EPF1",
+      title: 
+                "NBA APP"
+              ,
+      text: 
+              "Features and Supported Devices"
+            ,
+    },
+    {
+      id: 2,
+      show: true,
+      type: "custom",
+      url: 
+              
+                "nba_league_pass_url"
+              
+          ,
+      imageUrl: "/hc/theming_assets/01HZPEEAQQGJCGY5957XPT0CFA",
+      title: 
+              "NBA LEAGUE PASS"
+            ,
+      text: 
+              "Plans, Partners, and Billing"
+            ,
+    },
+    {
+      id: 3,
+      show: true,
+      type: "custom",
+      url: 
+              
+                "nba_id_url"
+              
+            ,
+      imageUrl: "/hc/theming_assets/01HZPEEAW277YEM0R2B08E18JF",
+      title: 
+                "NBA ID"
+              ,
+      text: 
+              "Log In and Benefits"
+            ,
+    },
+    {
+      id: 4,
+      show: true,
+      type: "custom",
+      url: 
+              
+                "technical_support_url"
+              
+            ,
+      imageUrl: "/hc/theming_assets/01HZPEEAZD42JWPQNJPQNT8YJM",
+      title: 
+                "Technical Support"
+              ,
+      text: 
+              "Troubleshooting Tips"
+            ,
+    },
+    {
+      id: 5,
+      show: false,
+      type: "custom",
+      url: 
+              
+                ""
+              
+            ,
+      imageUrl: "/hc/theming_assets/01HZPEEB4EPAJA9F26461MEESP",
+      title: 
+              "Technical Support"
+            ,
+      text: 
+              "Technical Support"
+            ,
+    },
+    {
+      id: 6,
+      show: false,
+      type: "custom",
+      url: 
+              
+                "#"
+              
+          ,
+      imageUrl: "/hc/theming_assets/01HZPEEB8EHZ0CZ4MEM3PENDJD",
+      title: 
+                "Technical Support"
+              ,
+      text: 
+              "Technical Support"
+            ,
+    }
+  ]
+
+</script>
+<script src="https://cdn.jsdelivr.net/npm/@ryangjchandler/spruce@2.x.x/dist/spruce.umd.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.8.2/dist/alpine.min.js"></script>
+<script>
+  window.Spruce.store('mobileMenu', {
+    isOpen: false,
+  });
+</script>
+<script src="/hc/theming_assets/01HZPEE9YCCYGBGQ46H20B34XG"></script>
+<script src="/hc/theming_assets/01HZPEE3TVS3TPW3TCFJ2YZPV3"></script>
+<script src="/hc/theming_assets/01HZPEE2KXHKVX22EPN4FD1RN6"></script>
+<script src="/hc/theming_assets/01HZPEE66AK0YJQMAY58W9GWCM"></script>
+<script src="/hc/theming_assets/01HZPEE9HFV8C89VNN64Y8BCKH"></script>
+<script src="/hc/theming_assets/01HZPEE7D45FS2R249REJQRTE7"></script>
+<script src="/hc/theming_assets/01HZPEE7V0BMDZFYW80B1GHZX7"></script>
+<script src="/hc/theming_assets/01HZPEE10AV49S4ZG2ANT4AZT2"></script>
+<script src="/hc/theming_assets/01HZPEE6QZ764ZWRD08ZMCD5B6"></script>
+<script src="/hc/theming_assets/01HZPEE93W2B1826Q4E58XT0X1"></script>
+<script src="/hc/theming_assets/01HZPEE3EC6ENP5BSFZ0TVGSQ3"></script>
+<script src="/hc/theming_assets/01HZPEE3JEDQ6VE82DMCCPBB46"></script>
+<!-- NBA International League Pass Support Site Container -->
+<!-- Default Pageview Config Overrides  -->
+<script type="text/javascript">
+    window.utag_cfg_ovrd = window.utag_cfg_ovrd || {};
+   window.utag_cfg_ovrd.noview = true;
+</script>
+
+<!-- Loading script asynchronously -->
+<script type="text/javascript">
+    (function(a,b,c,d){
+    a='https://tags.nba.com/nba-customer-support/prod/utag.js';
+    b=document;c='script';d=b.createElement(c);d.src=a;d.type='text/java'+c;d.async=true;
+    a=b.getElementsByTagName(c)[0];a.parentNode.insertBefore(d,a);
+    })();
+</script>
+ <script type="text/javascript">
+    window.zESettings = {
+         webWidget: {       
+   					chat: {
+              suppress: false
+             },
+            contactForm: {
+              suppress: true
+             },
+             helpCenter: {
+              suppress: true
+             },
+             talk: {
+               suppress: true
+              },
+              answerBot: {
+                suppress: true
+   						},
+   					position: { 
+   							horizontal: 'right' 
+   						}
+           }
+         };
+</script>
+<script type="text/javascript">
+var requestInfo = {
+  inquiryType: "<inquiry type>",
+  attachment: "[true, false]",
+  linkName: "nba:support:request:submit-success"
+}  
+    if ( window.location.href === "https://support.watch.nba.com/hc/en-us?return_to=%2Fhc%2Frequests"){
+       _satellite.track('submit_request_success', requestInfo);
+    }
+</script>
+  
+</head>
+<body class="">
+  
+  
+  
+
+  <div id="nba-nav"></div>
+<a class="lt-skip-navigation" tabindex="1" href="#main-content">Skip to main content</a>
+<div class="lt-layout">
+  <header class="lt-topbar lt-container lt-d-print-none" data-topbar>
+    <div class="lt-container-inner lt-d-flex nav-container lt-w-100">
+      <div class="lt-d-flex">
+        
+          <div class="lt-d-sm-inline-flex nav-title">
+            
+             <a title="Home" href="/hc/en-us" class="class-name"
+
+
+  
+  data-track="click"
+  data-type="link"
+  data-id="nba:support:main:home:link"
+                data-text="NBA Help Center"> NBA HELP CENTER</a>
+            
+          </div>
+        
+      </div>
+
+      <button
+        class="lt-menu-toggle"
+        aria-label="Toggle navigation menu"
+        aria-controls="user-nav"
+        x-data="{}"
+        x-bind:aria-expanded="$store.mobileMenu.isOpen"
+        x-bind:class="{'is-active': $store.mobileMenu.isOpen}"
+        x-on:click="$store.mobileMenu.isOpen = !$store.mobileMenu.isOpen"
+        x-on:keydown.escape="$store.mobileMenu.isOpen = false"
+        >
+        <span></span>
+      </button>
+
+      <nav
+        class="lt-topbar__controls lt-d-flex lt-flex-column lt-align-items-start lt-flex-lg-row lt-align-items-lg-center"
+        id="user-nav"
+        x-data="{}"
+        x-bind:class="{'is-active': $store.mobileMenu.isOpen}"
+        x-on:keydown.escape="$store.mobileMenu.isOpen = false">
+        
+          <a class="lt-topbar__link" data-track="click"
+  data-type="link"
+  data-id="nba:support:navigation:link"
+  data-text="NBA APP" data-pos="1"
+              href="/hc/en-us/categories/115000088834-NBA-App">
+            
+              NBA APP
+            
+          </a>
+        
+
+        
+          <a class="lt-topbar__link" data-track="click"
+  data-type="link"
+  data-id="nba:support:navigation:link"
+  data-text="NBA LEAGUE PASS" data-pos="2"
+              href="/hc/en-us/categories/115000088814-NBA-League-Pass">
+            
+              NBA LEAGUE PASS
+            
+          </a>
+        
+
+        
+          <a class="lt-topbar__link" data-track="click"
+  data-type="link"
+  data-id="nba:support:navigation:link"
+  data-text="NBA ID" data-pos="3"
+              href="/hc/en-us/sections/8417799181975-NBA-ID">
+            
+              NBA ID
+            
+          </a>
+        
+       
+
+        
+          <a class="lt-topbar__link" data-track="click"
+  data-type="link"
+  data-id="nba:support:navigation:link"
+  data-text="Technical Support" data-pos="4"
+              href="/hc/en-us/categories/115000088874-Technical-Support">
+            
+              Technical Support
+            
+          </a>
+        
+       
+        
+        
+
+        
+          <div class="lt-dropdown lt-dropdown--topbar lt-dropdown--language-selector language-selector">
+            <button class="lt-dropdown-toggle lt-btn lt-btn--topbar" aria-haspopup="true">
+              English (United States)
+            </button>
+            <span class="lt-dropdown-menu lt-dropdown-menu--topbar" role="menu">
+              
+                <a href="/hc/change_language/de?return_to=%2Fhc%2Fde" dir="ltr" rel="nofollow" role="menuitem" data-track="click"
+  											data-type="selection"
+  											data-id="nba:support:navigation:language:selection"
+  											data-pos="0"
+  											data-text="Deutsch">
+                  Deutsch
+                </a>
+              
+                <a href="/hc/change_language/es?return_to=%2Fhc%2Fes" dir="ltr" rel="nofollow" role="menuitem" data-track="click"
+  											data-type="selection"
+  											data-id="nba:support:navigation:language:selection"
+  											data-pos="1"
+  											data-text="Español">
+                  Español
+                </a>
+              
+                <a href="/hc/change_language/es-mx?return_to=%2Fhc%2Fes-mx" dir="ltr" rel="nofollow" role="menuitem" data-track="click"
+  											data-type="selection"
+  											data-id="nba:support:navigation:language:selection"
+  											data-pos="2"
+  											data-text="Español (México)">
+                  Español (México)
+                </a>
+              
+                <a href="/hc/change_language/fr?return_to=%2Fhc%2Ffr" dir="ltr" rel="nofollow" role="menuitem" data-track="click"
+  											data-type="selection"
+  											data-id="nba:support:navigation:language:selection"
+  											data-pos="3"
+  											data-text="Français">
+                  Français
+                </a>
+              
+                <a href="/hc/change_language/it?return_to=%2Fhc%2Fit" dir="ltr" rel="nofollow" role="menuitem" data-track="click"
+  											data-type="selection"
+  											data-id="nba:support:navigation:language:selection"
+  											data-pos="4"
+  											data-text="Italiano">
+                  Italiano
+                </a>
+              
+                <a href="/hc/change_language/ja?return_to=%2Fhc%2Fja" dir="ltr" rel="nofollow" role="menuitem" data-track="click"
+  											data-type="selection"
+  											data-id="nba:support:navigation:language:selection"
+  											data-pos="5"
+  											data-text="日本語">
+                  日本語
+                </a>
+              
+                <a href="/hc/change_language/ko?return_to=%2Fhc%2Fko" dir="ltr" rel="nofollow" role="menuitem" data-track="click"
+  											data-type="selection"
+  											data-id="nba:support:navigation:language:selection"
+  											data-pos="6"
+  											data-text="한국어">
+                  한국어
+                </a>
+              
+                <a href="/hc/change_language/pt?return_to=%2Fhc%2Fpt" dir="ltr" rel="nofollow" role="menuitem" data-track="click"
+  											data-type="selection"
+  											data-id="nba:support:navigation:language:selection"
+  											data-pos="7"
+  											data-text="Português">
+                  Português
+                </a>
+              
+                <a href="/hc/change_language/pt-br?return_to=%2Fhc%2Fpt-br" dir="ltr" rel="nofollow" role="menuitem" data-track="click"
+  											data-type="selection"
+  											data-id="nba:support:navigation:language:selection"
+  											data-pos="8"
+  											data-text="Português do Brasil">
+                  Português do Brasil
+                </a>
+              
+                <a href="/hc/change_language/th?return_to=%2Fhc%2Fth" dir="ltr" rel="nofollow" role="menuitem" data-track="click"
+  											data-type="selection"
+  											data-id="nba:support:navigation:language:selection"
+  											data-pos="9"
+  											data-text="ไทย">
+                  ไทย
+                </a>
+              
+                <a href="/hc/change_language/tr?return_to=%2Fhc%2Ftr" dir="ltr" rel="nofollow" role="menuitem" data-track="click"
+  											data-type="selection"
+  											data-id="nba:support:navigation:language:selection"
+  											data-pos="10"
+  											data-text="Türkçe">
+                  Türkçe
+                </a>
+              
+                <a href="/hc/change_language/zh-tw?return_to=%2Fhc%2Fzh-tw" dir="ltr" rel="nofollow" role="menuitem" data-track="click"
+  											data-type="selection"
+  											data-id="nba:support:navigation:language:selection"
+  											data-pos="11"
+  											data-text="繁體中文">
+                  繁體中文
+                </a>
+              
+            </span>
+          </div>
+        
+        
+        
+        
+          
+        
+      </nav>
+    </div>
+  </header>
+  <div class="lt-layout__main">
+
+
+  <main role="main">
+    <div class="hero-container">
+
+  <div class="hero-bg"></div>
+  <div class="hero-player-silos"></div>
+  <div class="hero-h1">NBA HELP CENTER</div>
+
+  <div class="lt-search-box lt-search-box--hero-unit lt-container" data-search-box>
+    <div class="h1 lt-hero-unit__title">
+      
+        HOW CAN WE HELP YOU?
+      
+    </div>
+    <form role="search" class="search" data-search="" data-instant="true" autocomplete="off" action="/hc/en-us/search" accept-charset="UTF-8" method="get"><input type="hidden" name="utf8" value="&#x2713;" autocomplete="off" /><input type="search" name="query" id="query" placeholder="Search" autocomplete="off" aria-label="Search" />
+<input type="submit" name="commit" value="Search" /></form>
+    
+  </div>
+
+</div>
+
+<div id="main-content">
+  
+
+
+  
+
+  
+    <div class="lt-container lt-custom-blocks lt-mb-9" id="custom-blocks">
+      <div class="lt-container-inner">
+        <div class="custom-block-title">Choose a category below for more information
+</div>
+        <hr class="light-divider">
+        <div class="lt-row lt-row-cols-sm-4 lt-justify-content-center lt-custom-blocks__items lt-gy-5" x-data='{customBlocks: LotusConfig.customBlocks}' x-cloak>
+          
+                
+      <div class="lt-custom-block lt-d-flex">
+          <a class="lt-custom-block__link lt-d-flex lt-flex-sm-column"
+              href="/hc/en-us/categories/115000088834-NBA-App"                  data-track="click"
+                 data-type="button"
+                 data-id="nba:support:main:category:button"
+                 data-pos="1"
+                  data-text="nba_app">
+                  <img class="lt-custom-block__icon lt-flex-shrink-0" 
+                  data-svg
+                  src="/hc/theming_assets/01HZPEEAM3CGPGY804V5R1EPF1"/>
+            <div class="lt-custom-block__content lt-ms-3 lt-ms-sm-0 lt-mt-sm-3">
+              
+              <div class="h4 lt-custom-block__title lt-mb-2"> NBA APP</div>
+              <div class="lt-custom-block__text lt-meta">Features and Supported Devices</div>
+              
+            </div>
+          </a>
+          </div>
+        
+
+
+          
+      <div class="lt-custom-block lt-d-flex">
+          <a class="lt-custom-block__link lt-d-flex lt-flex-sm-column"
+              href="/hc/en-us/categories/115000088814-NBA-League-Pass"                  data-track="click"
+                 data-type="button"
+                 data-id="nba:support:main:category:button"
+                 data-pos="2"
+                  data-text="nba_league_pass">
+                  <img class="lt-custom-block__icon lt-flex-shrink-0" 
+                  data-svg
+                  src="/hc/theming_assets/01HZPEEAQQGJCGY5957XPT0CFA"/>
+            <div class="lt-custom-block__content lt-ms-3 lt-ms-sm-0 lt-mt-sm-3">
+              
+              <div class="h4 lt-custom-block__title lt-mb-2"> NBA LEAGUE PASS</div>
+              <div class="lt-custom-block__text lt-meta">Plans, Partners, and Billing</div>
+              
+            </div>
+          </a>
+          </div>
+        
+
+            
+      <div class="lt-custom-block lt-d-flex">
+          <a class="lt-custom-block__link lt-d-flex lt-flex-sm-column"
+              href="/hc/en-us/sections/8417799181975-NBA-ID"                  data-track="click"
+                 data-type="button"
+                 data-id="nba:support:main:category:button"
+                 data-pos="3"
+                  data-text="nba_id">
+                  <img class="lt-custom-block__icon lt-flex-shrink-0" 
+                  data-svg
+                  src="/hc/theming_assets/01HZPEEAW277YEM0R2B08E18JF"/>
+            <div class="lt-custom-block__content lt-ms-3 lt-ms-sm-0 lt-mt-sm-3">
+              
+              <div class="h4 lt-custom-block__title lt-mb-2"> NBA ID</div>
+              <div class="lt-custom-block__text lt-meta">Log In and Benefits</div>
+              
+            </div>
+          </a>
+          </div>
+        
+
+              
+      <div class="lt-custom-block lt-d-flex">
+          <a class="lt-custom-block__link lt-d-flex lt-flex-sm-column"
+              href="/hc/en-us/categories/115000088874-Technical-Support"                  data-track="click"
+                 data-type="button"
+                 data-id="nba:support:main:category:button"
+                 data-pos="4"
+                  data-text="technical_support">
+                  <img class="lt-custom-block__icon lt-flex-shrink-0" 
+                  data-svg
+                  src="/hc/theming_assets/01HZPEEAZD42JWPQNJPQNT8YJM"/>
+            <div class="lt-custom-block__content lt-ms-3 lt-ms-sm-0 lt-mt-sm-3">
+              
+              <div class="h4 lt-custom-block__title lt-mb-2"> Technical Support</div>
+              <div class="lt-custom-block__text lt-meta">Troubleshooting Tips</div>
+              
+            </div>
+          </a>
+          </div>
+        
+
+      
+
+
+      
+
+          
+          
+          
+        </div>
+      </div>
+    </div>
+  
+  
+  
+  
+ <!--new manually updated promoted article sections -->
+ 
+  <div class="lt-container lt-mb-9 lt-home-container" id="promoted-articles">
+      <div class="lt-container-inner articles-container">
+    
+    
+      
+        <section class="articles-list" id="promo1">
+        <h2>Getting Started</h2>
+              <hr class="light-divider">
+        <ul class="promo-sec-1-list lt-list-unstyled lt-gy-5"></ul>
+      
+        
+        </section>
+        
+         <!--promoted article #2 -->
+    
+      
+        <section class="articles-list" id="promo1">
+        <h2>ACCOUNT AND BILLING</h2>
+              <hr class="light-divider">
+        <ul class="promo-sec-2-list lt-list-unstyled lt-gy-5"></ul>
+      
+        
+        </section>
+        
+          
+          <!--end promoted article#2-->
+ 
+     <!--promoted article #3-->
+              
+      
+        <section class="articles-list" id="promo1">
+        <h2>TROUBLESHOOTING</h2>
+              <hr class="light-divider">
+        <ul class="promo-sec-3-list lt-list-unstyled lt-gy-5"></ul>
+      
+        
+        </section>
+        
+	<!--end promoted article #3-->
+  
+  <!--promoted article #4-->
+            
+      
+        <section class="articles-list" id="promoted-articles-list">
+        <h2>FEATURED ARTICLES</h2>
+              <hr class="light-divider">
+        
+                  <ul class="lt-list-unstyled lt-gy-5">
+                    
+                  <li class="lt-promoted-articles-item">
+                    <a class="lt-promoted-articles-item__title lt-d-block lt-mb-1" href="/hc/en-us/articles/26849702436247-Multiview" data-track="click"
+                data-type="link"
+                data-id="nba:support:main:featured-article:link"
+                data-pos="0"
+                data-text="Multiview">Multiview </a>
+                  
+                  </li>
+                
+                  <li class="lt-promoted-articles-item">
+                    <a class="lt-promoted-articles-item__title lt-d-block lt-mb-1" href="/hc/en-us/articles/36176296389911-Samsung-TV" data-track="click"
+                data-type="link"
+                data-id="nba:support:main:featured-article:link"
+                data-pos="1"
+                data-text="Samsung TV">Samsung TV </a>
+                  
+                  </li>
+                
+                  <li class="lt-promoted-articles-item">
+                    <a class="lt-promoted-articles-item__title lt-d-block lt-mb-1" href="/hc/en-us/articles/17296501656343-WhatsApp-Support" data-track="click"
+                data-type="link"
+                data-id="nba:support:main:featured-article:link"
+                data-pos="2"
+                data-text="WhatsApp Support">WhatsApp Support </a>
+                  
+                  </li>
+                
+                  <li class="lt-promoted-articles-item">
+                    <a class="lt-promoted-articles-item__title lt-d-block lt-mb-1" href="/hc/en-us/articles/360060600773-US-Phone-Support" data-track="click"
+                data-type="link"
+                data-id="nba:support:main:featured-article:link"
+                data-pos="3"
+                data-text="US Phone Support">US Phone Support </a>
+                  
+                  </li>
+                
+              </ul>
+            
+        
+        
+        </section>
+        
+        <!-- end promoted article #4-->
+          
+          
+          
+          
+          
+          
+          
+      
+          </div>
+    </div>
+ <!--end -->
+
+  
+
+  
+
+  
+
+  
+    <div class="lt-container lt-home-container lt-mb-9" id="contact-boxes">
+
+        <div class="lt-row lt-row-cols-sm-3 lt-gy-5">
+          
+
+          
+
+
+
+          
+
+        </div>
+      </div>
+    </div>
+  
+
+  
+</div>
+<script>
+var digitalData = {
+  page: {
+    pageInfo: {
+      pageName: "nba:support:main",
+      siteSection: "nba:support",
+      subSection1: "nba:support:main",
+      subSection2: "nba:support:main",
+      primaryCategory: "support"
+    },
+  },
+  site: {
+    league: "nba",
+    propertyName: "nba:web"
+  }
+};
+</script>
+<script>
+//Add tracking to search button
+const button = document.querySelectorAll(".search input[type='submit']");
+console.log(button);
+button[0].setAttribute("data-track", "click");
+button[0].setAttribute("data-type", "button");
+button[0].setAttribute("data-id", "nba:support:main:search:button");
+button[0].setAttribute("data-text", "Search");
+</script>
+        
+<script>
+// Function to pull translated articles by label //
+
+var prom1 = "Getting Started";
+var prom2 = "Account and Billing";
+var prom3 = "Troubleshooting";
+var prom4 = "";
+var pathArray = window.location.pathname.split('/');
+var lang = pathArray[2];
+  var promo1 = "/api/v2/help_center/"+lang+"/articles.json?label_names="+prom1;
+  var promo2 = "/api/v2/help_center/"+lang+"/articles.json?label_names="+prom2;
+  var promo3 = "/api/v2/help_center/"+lang+"/articles.json?label_names="+prom3;
+  var promo4 = "/api/v2/help_center/"+lang+"/articles.json?label_names="+prom4;
+
+$.getJSON(promo1 , function(el){
+    console.log(el)
+    var _x = '';
+    $.each(el.articles, function (idx, itm){
+      _x += '<li class="how-to-article-list-item">';
+      _x += '<a href = "'+itm.html_url+'" class="how-to-article-list-link">' + itm.title + '</a>';
+      _x += '</li>';
+    });
+
+  if("ul.promo-sec-1-list"){
+    $(".promo-sec-1-list").html(_x);
+    }
+  });
+
+$.getJSON(promo2 , function(el){
+    console.log(el)
+    var _x = '';
+    $.each(el.articles, function (idx, itm){
+      _x += '<li class="article-list-item">';
+      _x += '<a href = "'+itm.html_url+'" class="how-to-article-list-link" data-type="link" data-id="nba:support:main:featured-article:link" data-text=' + itm.title +'>' + itm.title + '</a>';
+
+      _x += '</li>';
+    });
+
+  if("ul.promo-sec-2-list"){
+    $(".promo-sec-2-list").html(_x);
+    }
+  });
+
+  $.getJSON(promo3 , function(el){
+    console.log(el)
+    var _x = '';
+    $.each(el.articles, function (idx, itm){
+      _x += '<li class="article-list-item">';
+      _x += '<a href = "'+itm.html_url+'" class="article-list-link">' + itm.title + '</a>';
+      _x += '</li>';
+    });
+
+  if("ul.promo-sec-3-list"){
+    $(".promo-sec-3-list").html(_x);
+    }
+  });
+  
+    $.getJSON(promo4 , function(el){
+    console.log(el)
+    var _x = '';
+    $.each(el.articles, function (idx, itm){
+      _x += '<li class="article-list-item">';
+      _x += '<a href = "'+itm.html_url+'" class="article-list-link">' + itm.title + '</a>';
+      _x += '</li>';
+    });
+
+  if("ul.promo-sec-4-list"){
+    $(".promo-sec-4-list").html(_x);
+    }
+  });
+  
+        </script>
+  </main>
+
+  </div>
+
+    <div class="lt-container lt-footer-submit-ticket" id="footer-submit-ticket">
+      <div class="lt-container-inner">
+        <section class="lt-p-7">
+          <div class="h2 lt-footer-submit-ticket__title">
+            
+              Can’t find what you’re looking for?
+            
+          </div>
+          <div class="h2 lt-footer-submit-ticket__title">
+            
+              Let us help you!
+            
+          </div>
+          <div class="cta-container">
+<a href="/hc/en-us/requests/new?ticket_form_id=114093964473" class="cta-btn" data-track="click"
+  data-type="social"
+  data-id="nba:support:main:social"
+  data-pos="1"
+  data-text="Email US"><i class="fa fa-envelope" aria-hidden="true" ></i> EMAIL US</a>
+<!--l-->
+</div>
+          
+        </section>
+      </div>
+    </div>
+  
+  <footer class="lt-footer lt-container lt-d-print-none">
+    <div class="lt-container-inner lt-d-flex lt-flex-column lt-flex-sm-row lt-justify-content-between">
+      <div class="lt-footer__copyright copyright lt-mb-4 lt-mb-sm-0">
+        
+      </div>
+      <div>
+        
+        
+        
+        
+        
+      </div>
+    </div>
+  </footer>
+</div>
+
+<button class="lt-scroll-to-top fa fa-angle-up lt-d-print-none lt-p-0 lt-d-none lt-d-md-flex lt-justify-content-center lt-align-items-center" data-scroll-to-top>
+  <div class="sr-only">Return to top</div>
+</button>
+
+
+  <div hidden data-lt-i18n-dictionary>
+    <div data-lt-i18n="search_placeholder">search...
+    </div>
+  </div>
+
+  <script>
+    var $ltDictionary = $('[data-lt-i18n-dictionary]');
+    $('[role="search"] input[type="search"]').each(function (index, el) {
+      $(el).attr('placeholder', $ltDictionary.find('[data-lt-i18n="search_placeholder"]').html());
+    });
+  </script>
+
+
+<div 
+  class="lt-backdrop"
+  x-data=""
+  x-bind:class="{'is-active': $store.mobileMenu.isOpen}"
+  x-on:click="$store.mobileMenu.isOpen = false">
+</div>
+
+<script src="/hc/theming_assets/01HZPEE6D10625TVR7855XCP0X"></script>
+<script src="/hc/theming_assets/01HZPEE36NM2KE0BK4BTEBB76Y"></script>
+<script src="/hc/theming_assets/01HZPEE5YP47FJ530F8VB9Y4HR"></script>
+  <div id="nba-footer"></div>
+<script async src="https://www.nba.com/include/nav-footer.js"></script>
+<script>
+async function getUserData() {
+  console.log('method triggered!')
+  let isProactiveGreetingDisplayed = false;
+  let keysArr = Object.keys(sessionStorage);
+  let userId = "";
+  isProactiveGreetingDisplayed = localStorage.getItem("proactive_greeting_displayed", "true")
+  for (let key of keysArr) {
+    if(key.includes('appUserId')){
+        userId = sessionStorage[key];
+    }
+  }
+  if(!isProactiveGreetingDisplayed){
+    let response = await fetch('https://api-us.netomi.io/v1/webhook/ae7fa9d3-a1dd-4f90-b733-b8b79029992e', {
+      method: "post",
+      headers: {
+        'Accept': 'application/json',
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+        "userId":userId
+      })
+    });
+    let data = await response.json();
+    localStorage.setItem("proactive_greeting_displayed", "true");
+  }
+}
+function executeWithDelay(fn, delay) {
+    return function() {
+        setTimeout(fn, delay);
+    };
+}
+// Modify the open event to include a delay
+  const myTimeout = setTimeout(loadZD, 2000);
+  function loadZD(){
+		zE('messenger:on', 'open', executeWithDelay(getUserData, 3000));
+  }
+</script>
+
+
+  <!-- / -->
+
+  
+  <script src="//static.zdassets.com/hc/assets/en-us.0e832d1f12a557e875e9.js"></script>
+  
+
+  <script type="text/javascript">
+  /*
+
+    Greetings sourcecode lurker!
+
+    This is for internal Zendesk and legacy usage,
+    we don't support or guarantee any of these values
+    so please don't build stuff on top of them.
+
+  */
+
+  HelpCenter = {};
+  HelpCenter.account = {"subdomain":"nbasupportcenter","environment":"production","name":"NBA Customer Support"};
+  HelpCenter.user = {"identifier":"da39a3ee5e6b4b0d3255bfef95601890afd80709","email":null,"name":"","role":"anonymous","avatar_url":"https://assets.zendesk.com/hc/assets/default_avatar.png","is_admin":false,"organizations":[],"groups":[]};
+  HelpCenter.internal = {"asset_url":"//static.zdassets.com/hc/assets/","web_widget_asset_composer_url":"https://static.zdassets.com/ekr/snippet.js","current_session":{"locale":"en-us","csrf_token":"hc:hcobject:server:LoTxJ0gQ62v2zO3FvRuzSZZroyqcCHjeUnZhTQ8FpFWaeWb2nH8FEHxw9JSjVe1mfoC5wBUriGMCrdRpb5U-IQ","shared_csrf_token":null},"usage_tracking":{"event":"front_page_viewed","data":"BAh7BjoKX21ldGF7DDoPYWNjb3VudF9pZGkD/v4dOhNoZWxwX2NlbnRlcl9pZGwrCIo3icYaADoNYnJhbmRfaWRsKwgyI4uQGgA6DHVzZXJfaWQwOhN1c2VyX3JvbGVfbmFtZUkiDkFOT05ZTU9VUwY6BkVUOgtsb2NhbGVJIgplbi11cwY7C1Q6GmFub255bW91c190cmFja2luZ19pZDA=--8e6ed9c1e9d2dd942626f146500a6a8d654dcc47","url":"https://support.watch.nba.com/hc/activity"},"current_record_id":null,"current_record_url":null,"current_record_title":null,"current_text_direction":"ltr","current_brand_id":114094187314,"current_brand_name":"NBA Customer Support","current_brand_url":"https://nbasupportcenter.zendesk.com","current_brand_active":true,"current_path":null,"show_autocomplete_breadcrumbs":true,"user_info_changing_enabled":false,"has_user_profiles_enabled":true,"has_end_user_attachments":true,"user_aliases_enabled":false,"has_anonymous_kb_voting":false,"has_multi_language_help_center":true,"show_at_mentions":true,"embeddables_config":{"embeddables_web_widget":true,"embeddables_help_center_auth_enabled":false,"embeddables_connect_ipms":false},"answer_bot_subdomain":"static","gather_plan_state":"subscribed","has_article_verification":true,"has_gather":true,"has_ckeditor":false,"has_community_enabled":false,"has_community_badges":true,"has_community_post_content_tagging":false,"has_gather_content_tags":true,"has_guide_content_tags":true,"has_user_segments":true,"has_answer_bot_web_form_enabled":false,"has_garden_modals":false,"theming_cookie_key":"hc-da39a3ee5e6b4b0d3255bfef95601890afd80709-2-preview","is_preview":false,"has_search_settings_in_plan":true,"theming_api_version":2,"theming_settings":{"toggle_translations":true,"body_bg":"#fff","brand_primary":"#ff6f48","text_color":"#282f48","link_color":"#1078ce","button_color":"rgba(0, 0, 0, 1)","border_color":"#eceeef","block_bg":"#19214d","block_hover_bg":"#ff6f48","brand_info":"#5bc0de","brand_success":"#0c9","brand_warning":"#fad782","brand_danger":"#ff5252","font_size_base":"16px","heading_font":"Montserrat, sans-serif","heading_font_weight":"360","font_family_base":"'Open Sans', sans-serif","line_height_base":"1.5","logo":"/hc/theming_assets/01HZPEEA6R355DQSSYC1S83322","logo_height":"25px","favicon":"/hc/theming_assets/01HZPEEAA95QF60EG88QMZ6AR7","border_radius_base":"4px","border_width":"2px","topbar_bg":"rgba(255, 255, 255, 1)","topbar_text_color":"rgba(0, 0, 0, 1)","topbar_link_color":"rgba(0, 0, 0, 1)","topbar_button_color":"rgba(0, 0, 0, 1)","show_help_center_name":true,"help_center_name":"nba_help_center","show_category_menu":false,"show_sign_in":false,"show_submit_a_request":false,"topbar_link_1_toggle":true,"topbar_link_1_title":"nba_app","topbar_link_1_url":"nba_app_url","topbar_link_2_toggle":true,"topbar_link_2_title":"nba_league_pass","topbar_link_2_url":"nba_league_pass_url","topbar_link_3_toggle":true,"topbar_link_3_title":"nba_id","topbar_link_3_url":"nba_id_url","topbar_link_4_toggle":true,"topbar_link_4_title":"technical_support","topbar_link_4_url":"technical_support_url","footer_bg":"#f7f7f9","footer_text_color":"#101010","footer_link_color":"#101010","footer_social_link_color":"#101010","toggle_footer_creator_text":false,"footer_social_icon_height":"16px","alert_message_toggle":false,"alert_message_title":"League Pass Renewal","alert_message":"Prefer to cancel your subscription for this season? Cancel from My Account to receive an automatic refund","alert_message_cta_toggle":true,"alert_cta_url":"https://support.watch.nba.com/hc/en-us/articles/115000590674-Cancelling-your-NBA-League-Pass","show_info_block":false,"toggle_custom_blocks":true,"toggle_promoted_articles":true,"promoted_articles_type":"list","category_tree_type":"boxes","toggle_recent_activities":false,"toggle_contact_boxes":true,"toggle_bottom_cta":true,"categories_per_line":3,"promoted_articles_per_line":3,"hero_unit_mask_bg":"rgba(0, 0, 0, 0.3)","hero_homepage_image":"/hc/theming_assets/01HZPEEAGRTVY3FC7JRJT2VXQK","hero_unit_bg":"#19214d","hero_title":"how_can_we_help_you","search_placeholder":"search","show_hero_unit_button":true,"show_popular_searches":false,"popular_searches_label":"Popular","popular_searches_keywords":"installation, branding, customization","info_block_title":"","info_block_text":"","custom_blocks_per_line":4,"icon_color":"#33ccc2","icon_height":"64px","custom_block_1_toggle":true,"custom_block_1_type":"custom","custom_block_1_icon":"/hc/theming_assets/01HZPEEAM3CGPGY804V5R1EPF1","custom_block_1_title":"nba_app","custom_block_1_text":"features_and_supported_devices","custom_block_1_url":"nba_app_url","custom_block_2_toggle":true,"custom_block_2_type":"custom","custom_block_2_icon":"/hc/theming_assets/01HZPEEAQQGJCGY5957XPT0CFA","custom_block_2_title":"nba_league_pass","custom_block_2_text":"plans_partners_and_billing","custom_block_2_url":"nba_league_pass_url","custom_block_3_toggle":true,"custom_block_3_type":"custom","custom_block_3_icon":"/hc/theming_assets/01HZPEEAW277YEM0R2B08E18JF","custom_block_3_title":"nba_id","custom_block_3_text":"log_in_and_benefits","custom_block_3_url":"nba_id_url","custom_block_4_toggle":true,"custom_block_4_type":"custom","custom_block_4_icon":"/hc/theming_assets/01HZPEEAZD42JWPQNJPQNT8YJM","custom_block_4_title":"technical_support","custom_block_4_text":"troubleshooting_tips","custom_block_4_url":"technical_support_url","custom_block_5_toggle":false,"custom_block_5_type":"custom","custom_block_5_icon":"/hc/theming_assets/01HZPEEB4EPAJA9F26461MEESP","custom_block_5_title":"technical_support","custom_block_5_text":"technical_support","custom_block_5_url":"","custom_block_6_toggle":false,"custom_block_6_type":"custom","custom_block_6_icon":"/hc/theming_assets/01HZPEEB8EHZ0CZ4MEM3PENDJD","custom_block_6_title":"technical_support","custom_block_6_text":"technical_support","custom_block_6_url":"#","promoted_article_1_toggle":true,"promoted_article_1_ft_toggle":false,"promoted_article_1_title":"getting_started","promoted_article_1_category":"Getting Started","promoted_article_2_toggle":true,"promoted_article_2_ft_toggle":false,"promoted_article_2_title":"account_and_billing","promoted_article_2_category":"Account and Billing","promoted_article_3_toggle":true,"promoted_article_3_ft_toggle":false,"promoted_article_3_title":"troubleshooting","promoted_article_3_category":"Troubleshooting","promoted_article_4_toggle":true,"promoted_article_4_ft_toggle":true,"promoted_article_4_title":"featured_articles","promoted_article_4_category":"","bottom_cta_bg":"rgba(29, 66, 138, 1)","bottom_cta_title_color":"rgba(255, 255, 255, 1)","bottom_cta_subtitle_color":"rgba(255, 255, 255, 1)","bottom_cta_button_color":"#33ccc2","bottom_cta_title":"cant_find_what_looking_for","bottom_cta_subtitle":"let_us_help_you","toggle_call_button":false,"contact_boxes_title":"","contact_boxes_per_line":3,"contact_boxes_icon_size":"2rem","contact_box_1_toggle":false,"contact_box_1_link_toggle":false,"contact_box_1_url":"#","contact_box_1_icon":"/hc/theming_assets/01HZPEEBCXAYB73H09VTZ9NV8W","contact_box_1_title":"Register your product","contact_box_1_text":"You can get support that’s tailored to you, owner exclusives and more","contact_box_2_toggle":false,"contact_box_2_link_toggle":false,"contact_box_2_url":"#","contact_box_2_icon":"/hc/theming_assets/01HZPEEBGF8A1K2HP9VHDVRFGC","contact_box_2_title":"Our helpline hours:","contact_box_2_text":"8:00am - 8:00pm CST Monday to Friday; 9:00am - 6:00pm CST Saturday","contact_box_4_toggle":false,"contact_box_4_link_toggle":true,"contact_box_4_url":"#","contact_box_4_icon":"/hc/theming_assets/01HZPEEBPBVH6FY4F9T7W66MST","contact_box_4_title":"YouTube Support","contact_box_4_text":"For how-to and support videos please visit our channel","toggle_facebook_icon":false,"facebook_url":"https://facebook.com","toggle_twitter_icon":false,"twitter_url":"https://twitter.com","toggle_youtube_icon":false,"youtube_url":"https://youtube.com","toggle_linkedin_icon":false,"linkedin_url":"https://linkedin.com","toggle_instagram_icon":false,"instagram_url":"https://www.instagram.com/","show_articles_in_section":true,"show_article_author":false,"show_article_comments":false,"show_follow_article":false,"show_print_article":true,"show_article_sharing":false,"show_article_boxes":false,"show_follow_section":true,"show_follow_community_post":true,"show_print_post":true,"show_community_post_sharing":true,"show_follow_community_topic":true,"show_new_request_tip":true,"new_request_tip_background":"#f3fafc","new_request_tip_text":"Aim to include as much information and detail in your request as possible to reduce delays between replies","error_page_articles_title":"These articles might be helpful","info_block_color":"rgba(220, 219, 219, 1)","info_block_text_color":"#333333","info_block_link_color":"#183af9","dropdown_field_id":"114095871074"},"has_pci_credit_card_custom_field":true,"help_center_restricted":false,"is_assuming_someone_else":false,"flash_messages":[],"user_photo_editing_enabled":true,"user_preferred_locale":"en-us","base_locale":"en-us","login_url":"https://nbasupportcenter.zendesk.com/access?locale=en-us\u0026brand_id=114094187314\u0026return_to=https%3A%2F%2Fsupport.watch.nba.com%2Fhc%2Fen-us","has_alternate_templates":true,"has_custom_statuses_enabled":false,"has_hc_generative_answers_setting_enabled":true,"has_suggested_initial_questions_enabled":false,"has_lisbon_theme_eap":false,"has_lisbon_theme_eap_eligible":false,"has_contentful_eap":false,"has_contentful_eap_eligible":false,"has_pdf_ingestion_eap":true,"has_pdf_ingestion_eap_eligible":true,"has_guide_saas_management":false,"has_guide_service_catalog":true,"has_service_catalog_search_poc":true,"has_service_catalog_multibranding":false,"has_csat_reverse_2_scale_in_mobile":false,"has_trial_presumptive_setup":true,"has_unified_navigation":true,"has_unified_navigation_eap_access":true,"has_knowledge_locale_display_names":false,"has_csat_bet365_branding":false,"has_csat_theming_integration_phase_1":false,"has_help_center_gen_search_follow_up_conversation":true,"version":"refs-tags-v27616","dev_mode":false};
+</script>
+
+  
+  
+  <script src="//static.zdassets.com/hc/assets/hc_enduser-05d0815ddff73370f8c163b99ecad0e3.js"></script>
+  <script type="text/javascript" src="/hc/theming_assets/1965822/114094187314/script.js?digest=35437224361367"></script>
+  
+</body>
+</html>
