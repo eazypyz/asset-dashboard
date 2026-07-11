@@ -6933,7 +6933,7 @@ sn-search-results-container {
 		window.snWebaConfig.ambClient = (window.g_ambClient) ? window.g_ambClient : ((window.amb)? window.amb.getClient(): "");
 		window.snWebaConfig.subscribed = false;</script><script data-description="NOW session, user_name, etc">window.NOW = window.NOW || {};
 		// record watch / presence
-		window.NOW.session_id = '8ED3637C47CA47D0542B4D6C716D4379';
+		window.NOW.session_id = 'EBC87BF4478E47D0542B4D6C716D43EA';
 		window.NOW.user_name = 'guest';
 		window.NOW.user_id = '5136503cc611227c0183e96598c4f706';
 		window.NOW.user_display_name = 'Guest';
@@ -6983,7 +6983,7 @@ sn-search-results-container {
 		window.NOW.instance_id = 'de0f54794a36231b015607f8d28d5eeb';
 		window.NOW.instance_name = 'nba';
 		window.NOW.domain_id = '';window.NOW.unauthenticated_user_tracking_enabled = false;window.NOW.isForceRestrictedPortal = false;</script><script data-description="NOW vars set by properties, custom events, g_* globals">
-		window.g_ck = '02d3637c47ca47d0542b4d6c716d437a49dfaf1f82722cc4930074564a3f3669cfa20c92';
+		window.g_ck = '6fc87bf4478e47d0542b4d6c716d43eace347e2acbfc66b6d0b15fe929be38c4bdad5c00';
 		window.g_spd = '' === 'true';
 		window.logged_in = false;
 		if (!window.NOW)
@@ -7062,7 +7062,7 @@ sn-search-results-container {
 		var g_date_picker_first_day_of_week = parseInt(0, 10);
 		var g_notif_timeout = parseInt(10, 10);
 		var g_notification_threshold = parseInt(5, 10);
-		var g_ck = '02d3637c47ca47d0542b4d6c716d437a49dfaf1f82722cc4930074564a3f3669cfa20c92';
+		var g_ck = '6fc87bf4478e47d0542b4d6c716d43eace347e2acbfc66b6d0b15fe929be38c4bdad5c00';
 		var g_searchWaitTime = 100;
 		var g_amb_on_login = false;
 

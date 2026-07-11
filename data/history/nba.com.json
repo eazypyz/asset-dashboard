@@ -21348,5 +21348,360 @@
     "type": "new_subdomain",
     "host": "xmpp.connect.nba.com",
     "timestamp": "2026-07-10T23:49:26.729Z"
+  },
+  {
+    "type": "subdomain_disappeared",
+    "host": "www.njvcse.nba.com",
+    "timestamp": "2026-07-11T01:21:01.955Z"
+  },
+  {
+    "type": "robots_changed",
+    "host": "ar.nba.com",
+    "timestamp": "2026-07-11T01:21:01.955Z",
+    "previous": "e06a35ee8443d99d06884ff9f4dd61e89bc2cf2d4e80b108dd2a7a1a31ad49df",
+    "current": "2fc9403f3c2bab6917a13c5f91d3091d8bd6dc060e6c89eb37747711f600b92a"
+  },
+  {
+    "type": "security_txt_changed",
+    "host": "ar.nba.com",
+    "timestamp": "2026-07-11T01:21:01.955Z",
+    "previous": "52f5aeeb232ae746008a40ff94de3e6e13f846f479cef404f78e36e7cfd46102",
+    "current": "b93a8466b121e99137f96ea87d59023e9970ddfcff4a0d5651be30c3997a4cbd"
+  },
+  {
+    "type": "sitemap_changed",
+    "host": "ar.nba.com",
+    "timestamp": "2026-07-11T01:21:01.955Z",
+    "previous": "1f6d9fca16576cf78794bc828dd2cf139170a5ea2ab4b112bcf439bca5e85aa3",
+    "current": "803b604774e7f928caed2bec8cdda17fb3536e34897552ce8ed1bed7ad204de9"
+  },
+  {
+    "type": "security_txt_changed",
+    "host": "aspera.nba.com",
+    "timestamp": "2026-07-11T01:21:01.955Z",
+    "previous": "6e0079357f67dc97114f8b4d8622cbf683cefb6ceb4ff26a5e515d30b1bde1a3",
+    "current": "d44719969bf071ea45cb290d3d01209b2017e3e8ac776684ba4b7ee417699dc1"
+  },
+  {
+    "type": "sitemap_changed",
+    "host": "aspera.nba.com",
+    "timestamp": "2026-07-11T01:21:01.955Z",
+    "previous": "1beb5f57e09ee23a43d0a7687a4af251051094b167d3fe746891e36795e978e5",
+    "current": "3a9fbf9fd3b9d13f95d581cbc0a57034d394981efe083640667b791f5da22e7a"
+  },
+  {
+    "type": "robots_changed",
+    "host": "es.nba.com",
+    "timestamp": "2026-07-11T01:21:01.955Z",
+    "previous": "22e77c4a9ec4fb0d6bcd7d66e020497c0940b9ad35c7941b80b79c04b72a067c",
+    "current": "b4f374dea0f96df61db5a43d1b6f9aec3d80eac40160d666d257ff981ffb5c1e"
+  },
+  {
+    "type": "security_txt_changed",
+    "host": "es.nba.com",
+    "timestamp": "2026-07-11T01:21:01.955Z",
+    "previous": "5f893e330e43242f1f1d5d05149ccfbe4e47be1c08457d95d9f468a80a41b002",
+    "current": "d2069ec9d30bb8ca38471714f576ac6cf1f75efdd4aaa25cd8717aad1e66906d"
+  },
+  {
+    "type": "sitemap_changed",
+    "host": "es.nba.com",
+    "timestamp": "2026-07-11T01:21:01.955Z",
+    "previous": "4c4dfc8a28dba9e082d9ba217cf066fa807d52d88ad1ef4a81c5b2219293d970",
+    "current": "e2fd25b9129932bdda111c213d6c95e153c29face6e8328760a6884f2eca6ccd"
+  },
+  {
+    "type": "robots_changed",
+    "host": "fidelity.nba.com",
+    "timestamp": "2026-07-11T01:21:01.955Z",
+    "previous": "b11bd0a88f3ac6f50df2fa5fdf2023918df73736ab418b9130c5154a9119b074",
+    "current": "6ae942d7bdbe484b6fab9837a2d49252b3a02817061457c5a7d9b7ebe38d62c7"
+  },
+  {
+    "type": "security_txt_changed",
+    "host": "fidelity.nba.com",
+    "timestamp": "2026-07-11T01:21:01.955Z",
+    "previous": "ff10b5000fa9c96f501a73232d85b4b7f9a3b833615d9a44bdc1df007fcf5243",
+    "current": "6cdf1d37ee4eacb4ce55ce781c85a8bb56ea87435a40451df874f6dfa8d33901"
+  },
+  {
+    "type": "sitemap_changed",
+    "host": "fidelity.nba.com",
+    "timestamp": "2026-07-11T01:21:01.955Z",
+    "previous": "003442eb717c4548c4f8a2f6bb6d9f541566b16f3da2dd7de6fa935739d5baa4",
+    "current": "17814689bbbcf09d227023725ad59793baf7bdd2380cd230d15322da4e87f7b6"
+  },
+  {
+    "type": "robots_changed",
+    "host": "homecourt.nba.com",
+    "timestamp": "2026-07-11T01:21:01.955Z",
+    "previous": "25a4a2895238ffc008bdf29c26ce6b6609e85ef17510173ed0bde594a14954b9",
+    "current": "55c9f8a2b9a22ab7f22e8ed39d9b376ae3e58ad8e90f38764ee229982792acad"
+  },
+  {
+    "type": "security_txt_changed",
+    "host": "homecourt.nba.com",
+    "timestamp": "2026-07-11T01:21:01.955Z",
+    "previous": "d72dadf9058896e45d794ff8fc5388dddacb0c81761274408c718fe235c6620a",
+    "current": "3d227277943afa7807dc9ebef9439bb363bc6aa638ef36404ead77f62b9b873a"
+  },
+  {
+    "type": "sitemap_changed",
+    "host": "homecourt.nba.com",
+    "timestamp": "2026-07-11T01:21:01.955Z",
+    "previous": "2d72ff4b14fa2c4c8ce868f6bd09d93206320124b9645d76ab101a184a8dbadb",
+    "current": "d9a8d604c9e147cac0a0f0b70005e79900034dda1fc8957acd60245569361db1"
+  },
+  {
+    "type": "robots_changed",
+    "host": "in.nba.com",
+    "timestamp": "2026-07-11T01:21:01.955Z",
+    "previous": "76096522bf6fcf3583e318c629fbff9c83e54ec720a87528847df6bc98107947",
+    "current": "4666029feca7263eb6f7f61f5baf5736e1df689c4e3f19216e039fceb9db0fcf"
+  },
+  {
+    "type": "security_txt_changed",
+    "host": "in.nba.com",
+    "timestamp": "2026-07-11T01:21:01.955Z",
+    "previous": "d6aa40e524cc60576d063c149860f24b8714bcd1e3c3e79896a5712ff95819bc",
+    "current": "fe4750d2089e57dad82d49f60b8e5a9f87ea9d1e128aa0fedf9dadc91e5b0f97"
+  },
+  {
+    "type": "sitemap_changed",
+    "host": "in.nba.com",
+    "timestamp": "2026-07-11T01:21:01.955Z",
+    "previous": "d5742465c68c8df9cb29a26c7917c459cc7699cd318e5ff596ca6184a94e2c7c",
+    "current": "293c0e8a4cf5a1caa0bcd7555a37ee001255a0b4f2bb893ccccab9828018b51d"
+  },
+  {
+    "type": "robots_changed",
+    "host": "mediaarchive.nba.com",
+    "timestamp": "2026-07-11T01:21:01.955Z",
+    "previous": "",
+    "current": "8c3f846da881ad6765482395607b3a587ac7f8c3f662cec4f922ff7a6ac8bc4d"
+  },
+  {
+    "type": "security_txt_changed",
+    "host": "mediaarchive.nba.com",
+    "timestamp": "2026-07-11T01:21:01.955Z",
+    "previous": "",
+    "current": "8c3f846da881ad6765482395607b3a587ac7f8c3f662cec4f922ff7a6ac8bc4d"
+  },
+  {
+    "type": "sitemap_changed",
+    "host": "mediaarchive.nba.com",
+    "timestamp": "2026-07-11T01:21:01.955Z",
+    "previous": "",
+    "current": "8c3f846da881ad6765482395607b3a587ac7f8c3f662cec4f922ff7a6ac8bc4d"
+  },
+  {
+    "type": "status_changed",
+    "host": "mediaarchive.nba.com",
+    "timestamp": "2026-07-11T01:21:01.955Z",
+    "previous": 404,
+    "current": 200
+  },
+  {
+    "type": "robots_changed",
+    "host": "mx.nba.com",
+    "timestamp": "2026-07-11T01:21:01.955Z",
+    "previous": "dbd8bf23f94f77b3cdcdbb6817e1a54bc5e11123dec28df6a70e2ffb76f802f0",
+    "current": "5560c5b6a83efa6050bf6a6aeb54a7f161e900d4884989761e3c6c9a56045445"
+  },
+  {
+    "type": "security_txt_changed",
+    "host": "mx.nba.com",
+    "timestamp": "2026-07-11T01:21:01.955Z",
+    "previous": "0e14cb2ca05cba2b55b835b3ec43d0119c987e0f1f2336ccee167e70f017e99c",
+    "current": "7f9f85578aa0b22af4c810c3cf4c7c903a710a8e6d4da5f191be834e97b7f281"
+  },
+  {
+    "type": "sitemap_changed",
+    "host": "mx.nba.com",
+    "timestamp": "2026-07-11T01:21:01.955Z",
+    "previous": "e00e1f336beb345bff229e95c650dbcfa62f40a28442c56fd63cbbecd6da2ae6",
+    "current": "725e5c53da869c2746ae6a54b1be372a64573d0f8663e1793a4d6fe88e558f8b"
+  },
+  {
+    "type": "robots_changed",
+    "host": "mycigna.nba.com",
+    "timestamp": "2026-07-11T01:21:01.955Z",
+    "previous": "beaa84c4313b2e278d237fbcd2c7f8f4eaee3bac6ae98a46679b5b43d3ee534d",
+    "current": "50ec4c073dd7a833dd35c7d66cb1845f8503ef72c49b2c8351dbc84bac42bfb9"
+  },
+  {
+    "type": "security_txt_changed",
+    "host": "mycigna.nba.com",
+    "timestamp": "2026-07-11T01:21:01.955Z",
+    "previous": "b24bd5783f78cf97c9382ad45fea5ae73760a85d9a7ae24fe141cff8fe72a1ee",
+    "current": "8023a92d6a6f134692b1b3c151995ce2839df0632fc72d175fac566fd886c28a"
+  },
+  {
+    "type": "sitemap_changed",
+    "host": "mycigna.nba.com",
+    "timestamp": "2026-07-11T01:21:01.955Z",
+    "previous": "cc910b1dbd8494d4732e92e79ddbaf8b6869570179f1c09459be92959b1ad484",
+    "current": "baa9f0e6b2a89d7696fcc91efb2dbe3f63ff2110d1c2541b8cd0110000d8c010"
+  },
+  {
+    "type": "robots_changed",
+    "host": "now.nba.com",
+    "timestamp": "2026-07-11T01:21:01.955Z",
+    "previous": "8738af88b8da74c0b2aced8510ff805e2c3997e6ed282d8bdb695358704347c9",
+    "current": "402c8b6d53415f2d9db55eea64e042f4adee0706a8a913600168555f450b3d8a"
+  },
+  {
+    "type": "security_txt_changed",
+    "host": "now.nba.com",
+    "timestamp": "2026-07-11T01:21:01.955Z",
+    "previous": "08089182ca5279685079f65860d5e87a92268621994e1bb9217aad9c57ee9109",
+    "current": "618186fde1e29baf4397f454c3ba12f1f410ba5467f940fe29088b4b74f6f0dd"
+  },
+  {
+    "type": "sitemap_changed",
+    "host": "now.nba.com",
+    "timestamp": "2026-07-11T01:21:01.955Z",
+    "previous": "3168030e14a0cd1e2016434e78520454ac2ebedbb55ade4a13e56e136a76ac3f",
+    "current": "1f4c522e40013e4d119f4788082af33434565732c12a1433c67fec87728c6b00"
+  },
+  {
+    "type": "robots_changed",
+    "host": "qa-sapfinance.nba.com",
+    "timestamp": "2026-07-11T01:21:01.955Z",
+    "previous": "29048697ab18a2098ffcb67c8bb3569e4c43696ac8abb558a7a332124a4d65b1",
+    "current": "adbaf6741f9f6e3afd04a73e3f96a9f97014049ab8c66e22f850fda32c21c387"
+  },
+  {
+    "type": "security_txt_changed",
+    "host": "qa-sapfinance.nba.com",
+    "timestamp": "2026-07-11T01:21:01.955Z",
+    "previous": "84acf11f8075d131a69690c4224f3bc1bdb5606c3572e9118a3d825535ce6e53",
+    "current": "320df361a6a57bb1c128b9b32f8c3e858aa0cd6fa51b3cfd26069ac9972015a1"
+  },
+  {
+    "type": "sitemap_changed",
+    "host": "qa-sapfinance.nba.com",
+    "timestamp": "2026-07-11T01:21:01.955Z",
+    "previous": "e8d343820ff42e122c0effb1b2f5c49844d289fc4ba525fc6baf75fdb404339c",
+    "current": "f19ab960fa6e6c618f0095950704c059f8b47df31ae1d9bb462637962243f135"
+  },
+  {
+    "type": "robots_changed",
+    "host": "sapfinance.nba.com",
+    "timestamp": "2026-07-11T01:21:01.955Z",
+    "previous": "356d3bf0fce8d4780f95d4ed4849a4fa1b13249095da2cecb283c6b56a7e70f1",
+    "current": "55a01bdd7293f5b75fe15c8b735fed1e903be3cc7da65bdb3f48b36a2891c52f"
+  },
+  {
+    "type": "security_txt_changed",
+    "host": "sapfinance.nba.com",
+    "timestamp": "2026-07-11T01:21:01.955Z",
+    "previous": "c28a1a7a5bd97adc9cd52f6e9432d7aab21a88c5cd83173f49c7e03f4b6a6739",
+    "current": "765499f62d7d016a464798315802108ab9d36b1ef4958cfd92b6713eb3ce613b"
+  },
+  {
+    "type": "sitemap_changed",
+    "host": "sapfinance.nba.com",
+    "timestamp": "2026-07-11T01:21:01.955Z",
+    "previous": "aad182ad296728df26a6ab28ffcef86db9390e5476650d16bafd2d92c471e34e",
+    "current": "d652af5b8123484ab3a55c8fe3cd913271913c0eb1faee8f71ace31763793af2"
+  },
+  {
+    "type": "status_changed",
+    "host": "smm.events.nba.com",
+    "timestamp": "2026-07-11T01:21:01.955Z",
+    "previous": 200,
+    "current": 403
+  },
+  {
+    "type": "robots_changed",
+    "host": "teamvideo.nba.com",
+    "timestamp": "2026-07-11T01:21:01.955Z",
+    "previous": "",
+    "current": "8c3f846da881ad6765482395607b3a587ac7f8c3f662cec4f922ff7a6ac8bc4d"
+  },
+  {
+    "type": "security_txt_changed",
+    "host": "teamvideo.nba.com",
+    "timestamp": "2026-07-11T01:21:01.955Z",
+    "previous": "",
+    "current": "8c3f846da881ad6765482395607b3a587ac7f8c3f662cec4f922ff7a6ac8bc4d"
+  },
+  {
+    "type": "sitemap_changed",
+    "host": "teamvideo.nba.com",
+    "timestamp": "2026-07-11T01:21:01.955Z",
+    "previous": "",
+    "current": "8c3f846da881ad6765482395607b3a587ac7f8c3f662cec4f922ff7a6ac8bc4d"
+  },
+  {
+    "type": "status_changed",
+    "host": "teamvideo.nba.com",
+    "timestamp": "2026-07-11T01:21:01.955Z",
+    "previous": 404,
+    "current": 200
+  },
+  {
+    "type": "robots_changed",
+    "host": "theplaybook.nba.com",
+    "timestamp": "2026-07-11T01:21:01.955Z",
+    "previous": "b688f1349ca6702c7c83657a41c328aa8e0fa7952a5a0364d27e9836c00796fc",
+    "current": "d525fb8cfea0d9f288617e679201a69128ed83ed9321a782d3e38fa9d3342a37"
+  },
+  {
+    "type": "security_txt_changed",
+    "host": "theplaybook.nba.com",
+    "timestamp": "2026-07-11T01:21:01.955Z",
+    "previous": "2b8b8d4b1205ac89094778a132dbfb18d80adab9fae6e4c8cc6944d3dee83b6d",
+    "current": "145562efc0c84ed54fa002bcb16a2039575fe6fe1a9b780d2a53614b7f16ff18"
+  },
+  {
+    "type": "sitemap_changed",
+    "host": "theplaybook.nba.com",
+    "timestamp": "2026-07-11T01:21:01.955Z",
+    "previous": "ae03d980271c82bca34e4ed06cab3bb7cf66d764426db7bb5e34163feea3f8cf",
+    "current": "ecdd62a7d5d00847cd17ff6bcfcd43d098acb8d2aa62ad75fff6e4915f8ec31c"
+  },
+  {
+    "type": "robots_changed",
+    "host": "webmail.hk.nba.com",
+    "timestamp": "2026-07-11T01:21:01.955Z",
+    "previous": "e956fcd06656e004c95348cb5ae22045ce9e1e6f045754c8a09d31d734d9628b",
+    "current": "5cb46ea71ff13c66a2c5dd1806a1d8e9f0fe5d0abbd6dcbd592fa72622db724c"
+  },
+  {
+    "type": "security_txt_changed",
+    "host": "webmail.hk.nba.com",
+    "timestamp": "2026-07-11T01:21:01.955Z",
+    "previous": "7bb0961d3bef0183c019ac981f706c4c8361b15717c0cb3a5e8a8e1e59318199",
+    "current": "dc5bcf5d8ed716ee712fa73d82619c8a51b551c71f679fb1194d374247cc8b59"
+  },
+  {
+    "type": "sitemap_changed",
+    "host": "webmail.hk.nba.com",
+    "timestamp": "2026-07-11T01:21:01.955Z",
+    "previous": "e72a3cc2dbde879f5230cd5355f07bca51c5fccf48899aa8708702729d1dd08f",
+    "current": "d4293405af512606826e442e618e6d9d4e99a8a2f50c218ca5072b45d5d81fe4"
+  },
+  {
+    "type": "robots_changed",
+    "host": "webmail.nba.com",
+    "timestamp": "2026-07-11T01:21:01.955Z",
+    "previous": "e3f2c585728ad83ceb7c9f2701d57d9518b31cd3b2f97b477a3afb0243bd40ec",
+    "current": "f2179c4cd6342e94d379ed9183bfa888ac9647fc0c4f6da400373067e100055d"
+  },
+  {
+    "type": "security_txt_changed",
+    "host": "webmail.nba.com",
+    "timestamp": "2026-07-11T01:21:01.955Z",
+    "previous": "1999fdd56f39d0c3c3a2dc7bd63251734123360ac6c974f34089ffc594b95440",
+    "current": "26b1845aa844cda5e80f59611cd3e03b419d44c005e52edcc14de9888edb33e1"
+  },
+  {
+    "type": "sitemap_changed",
+    "host": "webmail.nba.com",
+    "timestamp": "2026-07-11T01:21:01.955Z",
+    "previous": "d69002be2ee838fcf76cb694211f0b722168e9bd09457876b6d7871fb2ef2f10",
+    "current": "be8ba8ebf2096ba7bb5fe1e6a8f8ec992aa5773de1486735cab984997a346939"
   }
 ]
