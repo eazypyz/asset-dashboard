@@ -29,7 +29,7 @@
     <meta name="robots" content="noindex, nofollow"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
-    <link rel="shortcut icon" type="image/x-icon" href="/brand/rv/3b7be/resources/common/favicon.ico"/>
+    <link rel="shortcut icon" type="image/x-icon" href="/brand/rv/3b343/resources/common/favicon.ico"/>
 
     <title>  Sign In - AT&amp;T SecureMail powered by Voltage Security
 </title>
@@ -41,7 +41,7 @@
         </script>
 
     
-    <link rel="stylesheet" type="text/css" href="/brand/rv/3b7be/shared/styles.css"/>
+    <link rel="stylesheet" type="text/css" href="/brand/rv/3b343/shared/styles.css"/>
 
    
         <script  type="text/javascript">
@@ -79,7 +79,7 @@
                     }
                 }
                 if (!isCookieEnabled) {
-                    window.location = "/brand/rv/3b7be/shared/cookiesDisabled.ftl";
+                    window.location = "/brand/rv/3b343/shared/cookiesDisabled.ftl";
                 }
     
                     window.onload = function() {
@@ -109,7 +109,7 @@
                      <a id="refblk" 
                            href="http://www.att.com" target="logo"
                      >
-                         <img class="logo" id="logoblk" src="/brand/rv/3b7be/resources/common/logo.png"   alt="http://www.att.com"/>
+                         <img class="logo" id="logoblk" src="/brand/rv/3b343/resources/common/logo.png"   alt="http://www.att.com"/>
                      </a>
               </td>
           
@@ -127,7 +127,7 @@
                     <td id="startblk3">       
                       <ul class="shortcuts">
                           <li>
-                            <a href="/brand/rv/3b7be/zdm/help.ftl" target="help">Help</a>
+                            <a href="/brand/rv/3b343/zdm/help.ftl" target="help">Help</a>
                           </li>
                       </ul>
                     </td>
@@ -220,12 +220,12 @@
          <table width="100%" border="0" cellspacing="0" cellpadding="0" role="presentation">
           <tr>
            <td width="5%" align="right">
-    	      <img src="/brand/rv/3b7be/resources/common/icon_encrypted.png"  border="0"  alt=""/>
+    	      <img src="/brand/rv/3b343/resources/common/icon_encrypted.png"  border="0"  alt=""/>
            </td>
            <td align="left">
     	      <div id="end1">
                 AT&amp;T SecureMail powered by Voltage Security.
-                <a href="/brand/rv/3b7be/zdm/about.ftl" target="about">
+                <a href="/brand/rv/3b343/zdm/about.ftl" target="about">
                 Learn More<span class="v_hidden">about secure email and identity based encryption</span>
                 </a>
             </div>
@@ -250,7 +250,7 @@
    dv1.style.color="#979797";
 </script>
 
-     <script language="javascript" type="text/javascript" src="/brand/rv/3b7be/resources/common/jquery.js" ></script>
-    <script language="javascript" type="text/javascript" src="/brand/rv/3b7be/resources/common/util.js" ></script>
+     <script language="javascript" type="text/javascript" src="/brand/rv/3b343/resources/common/jquery.js" ></script>
+    <script language="javascript" type="text/javascript" src="/brand/rv/3b343/resources/common/util.js" ></script>
 </body>
 </html>
