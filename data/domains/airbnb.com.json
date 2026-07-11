@@ -1,13 +1,5267 @@
 {
   "domain": "airbnb.com",
-  "last_update": "2026-07-11T17:52:43.670Z",
+  "last_update": "2026-07-11T18:41:43.649Z",
   "stats": {
-    "total": 0,
-    "dns_resolved": 0,
-    "alive": 0,
-    "has_robots": 0,
-    "has_security": 0,
-    "has_sitemap": 0
+    "total": 309,
+    "dns_resolved": 230,
+    "alive": 212,
+    "has_robots": 177,
+    "has_security": 178,
+    "has_sitemap": 41
   },
-  "subdomains": []
+  "subdomains": [
+    {
+      "host": "8c9be.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "admin-lite-next.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "6d7998ad1d70f438d223570bb7099488de8409ece01ce9cc576025aa338d34cf",
+      "security_hash": "5daacad18fc7c79157ed7c391b14eff3d8e5049e9a15c5331b6969d8afd1d8c6",
+      "sitemap_hash": "9677d929024a5a54c5dbecdc1d258f23dc8498693e2faa1871de24dc1b26da0a",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "admin-lite-staging.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "d2382fa1e3f1893fbf8856e7dfc8494a744799185ecff17fdc8862c4f6ec8886",
+      "security_hash": "728b29aca508b4ad8dc990e2296120a3a17d0dfd92ecabe1df51b4407103c2d9",
+      "sitemap_hash": "bf0f2b1a17ee72648bddf39b033310c9a4d301fdd48df42dae166b6dbaf3d83a",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "admin-lite.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "6bd2adbe9163ff8c239861c93a6b3ab37db80cb4a140cad70f49e94fc0f23e59",
+      "security_hash": "0b1a5d40ad354ad621614f9f33f54ce00426e3ab39a0a35edca36e8827d41a2c",
+      "sitemap_hash": "cbd9f27a9133664bdf710ab8241c2f48e11694810e8970bc8dd200fa7c1506c2",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "admin-next.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "a7fd9b7c0cc0bfda277d9d4a94c9c5fad090d4acfffa0d349fca634cb97d9f24",
+      "security_hash": "8f598f4ee877a7464f36fe7d6c06a9f3645fbc7e628d45031806cdd791322d06",
+      "sitemap_hash": "a974dab22eaa20c6c5bde53e4477fdc4c99c4bf7d1564894fd8e9b0a64c1fe28",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "admin-staging.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "f9890e4d4df03bce9110a02ca9718816ceb79c7e38a0326b75390264a590b4c3",
+      "security_hash": "fa7db3915260dee462dc374f0a3b23975f0a23eac12c9101855753337ffeb1f3",
+      "sitemap_hash": "8f498fd843cf6a3717d8560197cda725688861e5011a00b29175d35b6f22172f",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "admin.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "bab2e1a4646ea96d2fd362d776a7c3905676e53be613fc12b389902d991febd8",
+      "security_hash": "1642484f65a537c15881a28c549273ad018df94f4717ccecc10e1e96fe447a83",
+      "sitemap_hash": "02aa0c7686f365a101c6dd0247d2cd4e48458803fe06fe34ef7cbc91b4e86d8e",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "admin.dev.staging.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "6cd70105a9639fa9a34bfc5942cc01cf7b2475181b14f60538ed2cf5039293e8",
+      "security_hash": "2d770a78c60f0324cb3546ed60bb6bd9fd43764465fd45ecf4add93fef41f830",
+      "sitemap_hash": "37de256a7225599940854c43dca213655137b4401e5c732c67902fb675258cda",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "af.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "eee43f42bb76d3f0466014b8598e1cf60fa87944298a507ad31840390474f355",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "akamai-ci.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "akamai-dev.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "akamai-staging.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "49d4819d567698c8ef5f48fc19c652e1989abc221e7c92a882bf2c466411967c",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "api-fastly-staging.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "api-fastly.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "api.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "518880bab06dd91b0b842f864c9e3a91a8665b42a5bc1c3a86667e7825e3ead8",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "api.akamai-ci.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "518880bab06dd91b0b842f864c9e3a91a8665b42a5bc1c3a86667e7825e3ead8",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "api.akamai-dev.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "518880bab06dd91b0b842f864c9e3a91a8665b42a5bc1c3a86667e7825e3ead8",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "api.dev.staging.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "3aa6ef66ca9a023b9961a67e4cdf7af2e5ba9a570cb0f89adff5e353e3c21fa6",
+      "security_hash": "6a31f93ea664f6228e66a4ef181723cd0204422a14fab39754fd36456f7849d7",
+      "sitemap_hash": "9a133bb707f95aa52685a0fedfa333e873191f9d7292def3bc310e2b5a69cee8",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "api.next.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "518880bab06dd91b0b842f864c9e3a91a8665b42a5bc1c3a86667e7825e3ead8",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "api.preprod.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "ar.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "14227aff831527a8057e2b2e04efa4246a85abb51f7c2ffbef19993fc8a3bd2d",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "ar.next.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "49d4819d567698c8ef5f48fc19c652e1989abc221e7c92a882bf2c466411967c",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "az.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "49d4819d567698c8ef5f48fc19c652e1989abc221e7c92a882bf2c466411967c",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "az.next.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "49d4819d567698c8ef5f48fc19c652e1989abc221e7c92a882bf2c466411967c",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "beyond.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "bg.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "ee627710cf9fa978829ae0256e4cd846767fa31a47b162783e444cbc699c41fb",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "bg.next.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "49d4819d567698c8ef5f48fc19c652e1989abc221e7c92a882bf2c466411967c",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "blog.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "brand.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 405,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "813ae5b5a6d68ee700f0070d9a96374d4d3daf365a54a25be57b1f8e0e94df2e",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "bs.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "49d4819d567698c8ef5f48fc19c652e1989abc221e7c92a882bf2c466411967c",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "bs.next.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "49d4819d567698c8ef5f48fc19c652e1989abc221e7c92a882bf2c466411967c",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "ca.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "49d4819d567698c8ef5f48fc19c652e1989abc221e7c92a882bf2c466411967c",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "ca.next.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "49d4819d567698c8ef5f48fc19c652e1989abc221e7c92a882bf2c466411967c",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "callbacks.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "careers.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "28ec4158b9bcdb9ae9dd4e29a87985a92a0f7cfc06b91498d813dbae4c7221e8",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "65c98431a1f38b7755f6d4baf690124f3d03031a763b6a837e8b95ad90a5be61",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "careers.next.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 401,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "642eb25b0fb8306d8743c38a5042b68876e7a41aa4382965b8ee4802ea282392",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "d7b766ff94fd56e1407099a6934ea65cb0a0ff1bbb86fe43facd21e356f49744",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "click.mail.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "cloud.mail.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "cnr.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "49d4819d567698c8ef5f48fc19c652e1989abc221e7c92a882bf2c466411967c",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "cnr.next.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "49d4819d567698c8ef5f48fc19c652e1989abc221e7c92a882bf2c466411967c",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "cohostsuccess.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "a0205d61b02deee36a3ac48869f0fd8eb8574460f9e9a2adbbc1861721bf4009",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "1214c52cace28c40b45da48b46ef96fe9ad1bb0584cde1ba6f66c9a70a5ed5df",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "community-staging.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 401,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "7c1c602269d1f0ce623f50ebd81002ac1c75a751739016f1f2c741c88da87817",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "community.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "communitycenter.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "49d4819d567698c8ef5f48fc19c652e1989abc221e7c92a882bf2c466411967c",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "communitycenter.akamai-ci.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "49d4819d567698c8ef5f48fc19c652e1989abc221e7c92a882bf2c466411967c",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "communitycenter.akamai-dev.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "49d4819d567698c8ef5f48fc19c652e1989abc221e7c92a882bf2c466411967c",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "create.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "2fdd9d55f99fa69867927c15c72d5622caa8f3cdf49bc307083530f8e67c13ca",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "bf95edbb513c4e944f5b4f76495e065facf4b9558c349d9a97e75c0c8ef36951",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "cs.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "49d4819d567698c8ef5f48fc19c652e1989abc221e7c92a882bf2c466411967c",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "cs.next.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "49d4819d567698c8ef5f48fc19c652e1989abc221e7c92a882bf2c466411967c",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "d0a7e.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "d0a7e.akamai-ci.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "da.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "49d4819d567698c8ef5f48fc19c652e1989abc221e7c92a882bf2c466411967c",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "da.next.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "49d4819d567698c8ef5f48fc19c652e1989abc221e7c92a882bf2c466411967c",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "de.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "49d4819d567698c8ef5f48fc19c652e1989abc221e7c92a882bf2c466411967c",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "de.next.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "49d4819d567698c8ef5f48fc19c652e1989abc221e7c92a882bf2c466411967c",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "deployboard.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "dev.staging.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "4ee7c46df61e140c5b0b2c9d6769709719c15a6bd5d0e1b2dde8d9243068ff7e",
+      "security_hash": "70738649f1bc0c99ba1ce015643740165d564a23acbfabc65633d4f1b8f5597c",
+      "sitemap_hash": "4e4900d99aad84b7b63d5d2e8a611dde1cd304ea84bd37c2a87207d5b1c92ec7",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "developer.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "efdb5938a9736727f5cce2b60355588e4fa541d19d022d222d8a09b8efd5dcce",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "7b03a757a8bc23a72698f04b61d0f9720f5197f594837049f37a54f488076f45",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "dr.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "dr.staging.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "640f53dc8f382b78745d96d515cb356ac7fce9bae94eb2a979d23a1fbe907177",
+      "security_hash": "d3f3916bca8361d68e4f14db5b14bc600581da96ffb3bcb282f9dad59edc8c41",
+      "sitemap_hash": "d78ed4a4f97d10341098fcf8369cb43ba450b25c47d3f7363aa0a46e062f7fe2",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "e.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "el.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "49d4819d567698c8ef5f48fc19c652e1989abc221e7c92a882bf2c466411967c",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "el.next.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "49d4819d567698c8ef5f48fc19c652e1989abc221e7c92a882bf2c466411967c",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "en.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "es-l.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "aff3778199cc789d5e70559a226cad7bea732542ec8192cdd385d313bdef5241",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "es-l.next.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "49d4819d567698c8ef5f48fc19c652e1989abc221e7c92a882bf2c466411967c",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "es.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "4c534fb72cf20edf93dda2be497fe6e2c8a7543a1dbcf2ea7b2ef25a2e193b1c",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "es.next.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "49d4819d567698c8ef5f48fc19c652e1989abc221e7c92a882bf2c466411967c",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "et.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "49d4819d567698c8ef5f48fc19c652e1989abc221e7c92a882bf2c466411967c",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "et.next.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "49d4819d567698c8ef5f48fc19c652e1989abc221e7c92a882bf2c466411967c",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "f02aa.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "f02aa.akamai-ci.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "f02aa.akamai-dev.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "fastly-dev.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "fastly-staging.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "fastly.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "fi.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "49d4819d567698c8ef5f48fc19c652e1989abc221e7c92a882bf2c466411967c",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "fi.next.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "49d4819d567698c8ef5f48fc19c652e1989abc221e7c92a882bf2c466411967c",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "fr.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "49d4819d567698c8ef5f48fc19c652e1989abc221e7c92a882bf2c466411967c",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "fr.next.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "49d4819d567698c8ef5f48fc19c652e1989abc221e7c92a882bf2c466411967c",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "ga.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "49d4819d567698c8ef5f48fc19c652e1989abc221e7c92a882bf2c466411967c",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "ga.next.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "49d4819d567698c8ef5f48fc19c652e1989abc221e7c92a882bf2c466411967c",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "git.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "c7ac20c44a536ec52ca66c7183caa90d85f7a7885cf217966f53f6a572110991",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "755ca3aeea5595dc9a8947bf96f421527a8c0b950d5a8368b0f472f0086fec9d",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "grafana-iap.iac-dev.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "grafana-iap.iac.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "grafana.iac-dev.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "066f6f40a1e1b6e17c2377cc51f354d81987b860534ffce70a7f9cd8d579707d",
+      "security_hash": "d112d406e16c9539e42df9bd5576b993b44e612ec3262221daab9a672284f458",
+      "sitemap_hash": "d6b650ccb78b71b44c737deabc36c3d5c38c5eafb38e99ac17d42a4fed4111fe",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "grafana.iac.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "14f7b7dd526dc1e69c66ad4808c674bbdb5dbc6d6e0813e42e2645c5f41059aa",
+      "security_hash": "269ad6b7d39abaef00f1e43106e52884035066a6346c9efd8c52deb0284badbf",
+      "sitemap_hash": "de70780cdf9bb87e05ebad1382e04b50d946cc878b166078b365768fe804c430",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "he.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "4382ec589055ed3014a539d9183109e7d6c211de0386cf235fb796fe1344e087",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "he.next.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "49d4819d567698c8ef5f48fc19c652e1989abc221e7c92a882bf2c466411967c",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "helpdesk.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "hi.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "49d4819d567698c8ef5f48fc19c652e1989abc221e7c92a882bf2c466411967c",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "hi.next.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "49d4819d567698c8ef5f48fc19c652e1989abc221e7c92a882bf2c466411967c",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "homer-iap.iac-dev.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "homer-iap.iac.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "homer.iac-dev.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "7c34e3bc4006d43b5ec88c50e3d8bf9b679177d6b6209955e27754d6d58c26ea",
+      "security_hash": "665fb4f103c70a83dfd637c9ee3492dbffdd9e9e88323a84c88199a3ba058043",
+      "sitemap_hash": "a79cf38c562ea3eb3b8910c1a487c28f1ab69f66762d3bc9f5f711bc6c3a7979",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "homer.iac.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "00b40d1c2146f3254ec71b00ee93d0f6f56528fdea351bbaef2c57062768e4bd",
+      "security_hash": "4e1f2010de3e0d78e0bfd135547e6fd3951ee99cd8a21fb8083506da0684541b",
+      "sitemap_hash": "6990e86756e427870b6f0c44ac5af8503a8b19cd26d1d3f2fd524c41b4d1d1a3",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "hostcommunity.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "hostcommunity.akamai-ci.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "hostcommunity.akamai-dev.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "hostsuccess.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "a0205d61b02deee36a3ac48869f0fd8eb8574460f9e9a2adbbc1861721bf4009",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "1214c52cace28c40b45da48b46ef96fe9ad1bb0584cde1ba6f66c9a70a5ed5df",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "hr.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "3d323c6857e9fdd240e3abe1a356c4137cbb94bc6f83333899c252d7f37bd3e1",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "hr.next.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "49d4819d567698c8ef5f48fc19c652e1989abc221e7c92a882bf2c466411967c",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "hu.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "49d4819d567698c8ef5f48fc19c652e1989abc221e7c92a882bf2c466411967c",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "hu.next.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "49d4819d567698c8ef5f48fc19c652e1989abc221e7c92a882bf2c466411967c",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "hy.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "49d4819d567698c8ef5f48fc19c652e1989abc221e7c92a882bf2c466411967c",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "hy.next.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "49d4819d567698c8ef5f48fc19c652e1989abc221e7c92a882bf2c466411967c",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "iac-dev.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "iac.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "iackam-euwest1.iac-dev.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "iackam-euwest1.iac.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "iackam-uswest2.iac-dev.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "iackam-uswest2.iac.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "iackamload-euwest1.iac-dev.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "iackamload-uswest2.iac-dev.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "id.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "49d4819d567698c8ef5f48fc19c652e1989abc221e7c92a882bf2c466411967c",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "id.next.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "49d4819d567698c8ef5f48fc19c652e1989abc221e7c92a882bf2c466411967c",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "image.mail.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "133e4db054e73a10017a1f429c80c35cd5bfa9c3a1aba581b364ecc459c48a4b",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "impact.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "b6a931abfb5b86b4b2e5d05033996286ce050dba555dc26593dbd68cfd5c3353",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "db5144e85d332f9423c1d7cd76631fd74fbb4692dc60f0d648f1c08c160ee02a",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "impact.next.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 401,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "8efb9978db575fa618aa692716440ba3d016084d783c968ae212d1fb439feae9",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "35cde3f37cd50186cb3cd6b24358e6555baf09f48a95394caa49d8cc9739c04c",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "internal.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "investors.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "de73d32142f114b8d18bbfd7fa5779ccee5f7a1753873402cfdab59444834ccd",
+      "security_hash": "ee172faa9c17e8e5f4b63ef56d6d6863a48c223de152be43781305c99e143200",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "is.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "49d4819d567698c8ef5f48fc19c652e1989abc221e7c92a882bf2c466411967c",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "is.next.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "49d4819d567698c8ef5f48fc19c652e1989abc221e7c92a882bf2c466411967c",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "it.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "49d4819d567698c8ef5f48fc19c652e1989abc221e7c92a882bf2c466411967c",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "it.next.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "49d4819d567698c8ef5f48fc19c652e1989abc221e7c92a882bf2c466411967c",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "iw.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "ja.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "49d4819d567698c8ef5f48fc19c652e1989abc221e7c92a882bf2c466411967c",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "ja.next.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "49d4819d567698c8ef5f48fc19c652e1989abc221e7c92a882bf2c466411967c",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "jira.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "ka.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "579efa0b901911ace405fee9dfd6564a865126aa1f855c35859178d4c7123bf9",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "ka.next.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "49d4819d567698c8ef5f48fc19c652e1989abc221e7c92a882bf2c466411967c",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "kn.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 429,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "49d4819d567698c8ef5f48fc19c652e1989abc221e7c92a882bf2c466411967c",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "kn.next.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "49d4819d567698c8ef5f48fc19c652e1989abc221e7c92a882bf2c466411967c",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "ko.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "49d4819d567698c8ef5f48fc19c652e1989abc221e7c92a882bf2c466411967c",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "ko.next.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "49d4819d567698c8ef5f48fc19c652e1989abc221e7c92a882bf2c466411967c",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "launchpad.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "ldp.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "lt.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "49d4819d567698c8ef5f48fc19c652e1989abc221e7c92a882bf2c466411967c",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "lt.next.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "49d4819d567698c8ef5f48fc19c652e1989abc221e7c92a882bf2c466411967c",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "lv.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 429,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "49d4819d567698c8ef5f48fc19c652e1989abc221e7c92a882bf2c466411967c",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "lv.next.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "49d4819d567698c8ef5f48fc19c652e1989abc221e7c92a882bf2c466411967c",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "m.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "cf2eda01f3b11358847468355d0ab33105c6925432e68715651ce6fc1794e19b",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "9f3f8ecaa44efea132f2d943212f9dbc7a90c36b580fcc7229d9be17a40e2f59",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "mk.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "f7165a7370f76b3f44a6a6862eccfe830e116092c930ede190dd0fe7fd8851b5",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "mk.next.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "49d4819d567698c8ef5f48fc19c652e1989abc221e7c92a882bf2c466411967c",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "mr.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "49d4819d567698c8ef5f48fc19c652e1989abc221e7c92a882bf2c466411967c",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "mr.next.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "49d4819d567698c8ef5f48fc19c652e1989abc221e7c92a882bf2c466411967c",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "ms.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "49d4819d567698c8ef5f48fc19c652e1989abc221e7c92a882bf2c466411967c",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "ms.next.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "49d4819d567698c8ef5f48fc19c652e1989abc221e7c92a882bf2c466411967c",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "mt.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "49d4819d567698c8ef5f48fc19c652e1989abc221e7c92a882bf2c466411967c",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "mt.next.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "49d4819d567698c8ef5f48fc19c652e1989abc221e7c92a882bf2c466411967c",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "nerds.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "news.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "636985cfad11e67d88e0c5cc0a587f983831904c7d522189bd473664a3b8d253",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "news.akamai-ci.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "news.akamai-dev.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "news.next.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 401,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "57f24c923e72185da2efd13d3f4dc6a70ce23cba7513e704ec285b5744ce821e",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "2c19bb5ff8ccc45378563f0f2c50432db4d9610a7e09f2ac964f50b08e765ebf",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "newsroom.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "newsroom.next.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 401,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "next-branch.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "next.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "49d4819d567698c8ef5f48fc19c652e1989abc221e7c92a882bf2c466411967c",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "nl.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "49d4819d567698c8ef5f48fc19c652e1989abc221e7c92a882bf2c466411967c",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "nl.next.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 429,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "49d4819d567698c8ef5f48fc19c652e1989abc221e7c92a882bf2c466411967c",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "no.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "49d4819d567698c8ef5f48fc19c652e1989abc221e7c92a882bf2c466411967c",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "no.next.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 429,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "49d4819d567698c8ef5f48fc19c652e1989abc221e7c92a882bf2c466411967c",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "ogma.iac-dev.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "ogma.iac.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "omgpro.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "one-next.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "919a8f80e79e0102ad3d303fbd884dcfe1d7c30578455a434116927821ad3d23",
+      "security_hash": "b116e9e40032792ec41bbb77cccbac373a04d3401b5af62a6ec4632bf5738d72",
+      "sitemap_hash": "5a4e7191533e2d56d15a5f3e1fd2936b314924d6e77efcae8a4905872343acc7",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "one.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "ec2c26c34f572b2de8c05c9a636351c5b1a2e979a5cfbc3d6c233ad7b78ee600",
+      "security_hash": "36a9e2554a952073bb76f653161a1f30af1573670fb865d8d66a721b94cd5c83",
+      "sitemap_hash": "99f8fe92f1f3221e09fce98946954fdbfa1b247d199763467ac45c50a4fd89f2",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "one.dev.staging.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "8bea7d96ea0900553a0793fbb464e448872e132bb12ed1c9839438269b489a80",
+      "security_hash": "08a9e226c25ce53dcaa7f3abdd7aeece11168c0a3325201478ff646e24be3206",
+      "sitemap_hash": "0a83ffba7fff33971fcc043b4a86630f7f682691fba5f3e81ff54bfa9e916701",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "open.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "origin-events.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "origin-images.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "origin-vendorlogs.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "pages.mail.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "pl.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "49d4819d567698c8ef5f48fc19c652e1989abc221e7c92a882bf2c466411967c",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "pl.next.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "49d4819d567698c8ef5f48fc19c652e1989abc221e7c92a882bf2c466411967c",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "platform.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "d3b25aba03016882fba6d0eadc3d4111fd12131b7a8b8234a6572dd3e8080975",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "4857cb1b0fee7fd3b3338249f106d39737354658b42bbc56639939f701a4963b",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "preprod.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "press.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "636985cfad11e67d88e0c5cc0a587f983831904c7d522189bd473664a3b8d253",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "protools.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "prototype-internal-next.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "fe9b9d28864d976a95209e35fb68487effc05d36ef5fa700377bbfb0bf39da73",
+      "security_hash": "697a8ba0b4c70a05f033d02359cb9225a5d4ba1f6e9baed7ae4747f613d2162d",
+      "sitemap_hash": "00a1809412baf8b15b161b53f431f9d1b7a0955810c295254257efcb90c9177e",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "prototype-internal-staging.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "f6a38254a305a208e49b877e0c4352c8d8b47e698c99bedf4a4bb7ae426f1d30",
+      "security_hash": "ccd455654e3fc4db851fe3a94c50a36befe29dde57d63646856988d6642e9558",
+      "sitemap_hash": "aeda5938055b5466b69f8704822ee97cf4d9eff92974d2aca5e9263e43e39a73",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "prototype-internal.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "5dfa967e6288da8b07450c2405801e734cdbf94ef3554e50a2190cb25ab2cc31",
+      "security_hash": "65de7c6935f95e527309018f2f6fe8192684219fd98457708830f3e9974b9d39",
+      "sitemap_hash": "66875f68b9939d82ab5391fb7332f8d6b146fbf6b4dba3ad3bb37d362f3f86e4",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "prototype-next.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "prototype-staging.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "prototype.admin-lite-next.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "5c3f7f2b222fbf6b1b57e5e00dc03e416473054532890a59259180b66f798e3c",
+      "security_hash": "7661fb28d0f38768edc0b5bdd93ebbb66ac0a3da8cdf3e87cd71f6d14c7b768d",
+      "sitemap_hash": "8d5fae95555388550d0d0ef50427044706d04047688d35e761b94fe3751e987d",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "prototype.admin-lite-staging.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "da9d6b2dfd326d1d9c75c6a665cab864417165d5e99e219030327cffd9e0500d",
+      "security_hash": "20fbd90624156cbad00ce664e7a170e21474f7ba1f988a9388829f3564b5e924",
+      "sitemap_hash": "ad809b332ad116b2401204d8b1febe54224a41b64c5efd2b76f747b70e57505f",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "prototype.admin-lite.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "319d2a422de07d58a36cbe9193f38e37dc8fff6440612e06c602237a2d1b628c",
+      "security_hash": "33ab7e755e144a60d024211934e25c0d5077ab3c637df8caa5a230931a94be6e",
+      "sitemap_hash": "4c3d6a270e5a1ca9b4ee6a5085dcdc3697bbf7bc1da072dec0d44cc734c01c47",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "prototype.admin-next.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "22b12c6002544ce4769225ab404133e115d52c3c7daf72501a91ee228dc0d19e",
+      "security_hash": "47ab58db2ce84b54b2e4fca17dfccc281c82a3de1d9d151a245525442f2e2386",
+      "sitemap_hash": "b37c5c9e7d7c0787de1dbdd2a5a9864b77601f75cd1af3c0a74a2c056a1395c6",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "prototype.admin-staging.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "bfbce60059675b289d018098e9c1bac7a492c96cefb62111a8ec717451470fd0",
+      "security_hash": "060ac420b075ab2bedc04d21bfef1f780c5c0d75f586ed4abf010d11fb7e0c90",
+      "sitemap_hash": "40b2fe8c655e0a60ab13819a260a0069d8060e1722fae9a9ff5ed52a305f481d",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "prototype.admin.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "914579da66197bf6f7c773ccc1930ef7367d0f077d9a516dfae86e66863a92ed",
+      "security_hash": "2d3a69c38653a651541c5cd0f0dee0372ffe04a420225a5455134cbaa94ed547",
+      "sitemap_hash": "6e2cfd726ead82c21d9952f9df890b2c58c8a1ee742c3d48b3e920d8a8c2a512",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "prototype.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "pt.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 429,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "49d4819d567698c8ef5f48fc19c652e1989abc221e7c92a882bf2c466411967c",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "pt.next.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "49d4819d567698c8ef5f48fc19c652e1989abc221e7c92a882bf2c466411967c",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "public.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "r.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "ro.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "49d4819d567698c8ef5f48fc19c652e1989abc221e7c92a882bf2c466411967c",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "ro.next.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "49d4819d567698c8ef5f48fc19c652e1989abc221e7c92a882bf2c466411967c",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "rtpe-euwest1-01.iac-dev.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "rtpe-euwest1-01.iac.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "rtpe-euwest1-02.iac-dev.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "rtpe-euwest1-02.iac.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "rtpe-euwest1-03.iac-dev.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "rtpe-euwest1-03.iac.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "rtpe-euwest1-04.iac-dev.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "rtpe-euwest1-04.iac.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "rtpe-euwest1-05.iac-dev.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "rtpe-euwest1-05.iac.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "rtpe-prod-euwest1-03.iac.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "rtpe-prod-euwest1-04.iac.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "rtpe-prod-uswest2-03.iac.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "rtpe-prod-uswest2-04.iac.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "rtpe-uswest2-01.iac-dev.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "rtpe-uswest2-01.iac.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "rtpe-uswest2-02.iac-dev.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "rtpe-uswest2-02.iac.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "rtpe-uswest2-03.iac-dev.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "rtpe-uswest2-03.iac.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "rtpe-uswest2-04.iac-dev.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "rtpe-uswest2-04.iac.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "rtpe-uswest2-05.iac.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "ru.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "49d4819d567698c8ef5f48fc19c652e1989abc221e7c92a882bf2c466411967c",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "ru.next.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "49d4819d567698c8ef5f48fc19c652e1989abc221e7c92a882bf2c466411967c",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "s.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 429,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "7ba884c95be4d7b2fa0ad70412c8ef870f1ce90d32c50990d6b3e9535d4731e5",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "samara.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "0556d66385c1e98cf8de86ded28877c1e575e59632e15cf176ed0c323254d79e",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "ad5c86c1ac1b7c577b9fe62396d932cd1efd8968792796632351536ba6524af2",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "sip-capture-euwest1.iac-dev.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "sip-capture-euwest1.iac.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "sip-capture-uswest2.iac-dev.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "sip-capture-uswest2.iac.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "sk.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "79a8afb81fa9f296e86f576b2216817da1431f3039b86767e4b29c868ca5676d",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "sk.next.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "49d4819d567698c8ef5f48fc19c652e1989abc221e7c92a882bf2c466411967c",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "skywalker.us.isit.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "sl.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 429,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "49d4819d567698c8ef5f48fc19c652e1989abc221e7c92a882bf2c466411967c",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "sl.next.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "49d4819d567698c8ef5f48fc19c652e1989abc221e7c92a882bf2c466411967c",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "sq.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "72a8949b5786e46e5837b7b65910f1e881dac98dddf6caebcf8aa462765544d6",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "sq.next.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "49d4819d567698c8ef5f48fc19c652e1989abc221e7c92a882bf2c466411967c",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "sr.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "49d4819d567698c8ef5f48fc19c652e1989abc221e7c92a882bf2c466411967c",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "sr.next.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "49d4819d567698c8ef5f48fc19c652e1989abc221e7c92a882bf2c466411967c",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "staging.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "support.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 409,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "sv.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "49d4819d567698c8ef5f48fc19c652e1989abc221e7c92a882bf2c466411967c",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "sv.next.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "49d4819d567698c8ef5f48fc19c652e1989abc221e7c92a882bf2c466411967c",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "sw.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "66a1a02f87798d457c4c8483b1bbe10678727415c4ef149d064ca3c5aaf0eff5",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "sw.next.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "49d4819d567698c8ef5f48fc19c652e1989abc221e7c92a882bf2c466411967c",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "test.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "th.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "e7488c42f5e0efdaca1f7fb07cf5e282de9be87c32a8ad0e5c105b2a6a1a944c",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "th.next.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "49d4819d567698c8ef5f48fc19c652e1989abc221e7c92a882bf2c466411967c",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "tl.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "49d4819d567698c8ef5f48fc19c652e1989abc221e7c92a882bf2c466411967c",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "tl.next.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 429,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "49d4819d567698c8ef5f48fc19c652e1989abc221e7c92a882bf2c466411967c",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "tr-integration.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "tr.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "49d4819d567698c8ef5f48fc19c652e1989abc221e7c92a882bf2c466411967c",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "tr.next.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 429,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "49d4819d567698c8ef5f48fc19c652e1989abc221e7c92a882bf2c466411967c",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "transparency.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "turn.iac-dev.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "turn.iac.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "uk.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "49d4819d567698c8ef5f48fc19c652e1989abc221e7c92a882bf2c466411967c",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "uk.next.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "49d4819d567698c8ef5f48fc19c652e1989abc221e7c92a882bf2c466411967c",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "upload.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "vi.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 429,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "49d4819d567698c8ef5f48fc19c652e1989abc221e7c92a882bf2c466411967c",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "vi.next.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "49d4819d567698c8ef5f48fc19c652e1989abc221e7c92a882bf2c466411967c",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "video.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "b022bd2966f9cbf191a706cae9ecd7db2f4113ee5607a276cac6cf1b30dedbe4",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "vidyo.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "view.mail.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "vip-testing.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "widgets.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "widgets.akamai-ci.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "widgets.akamai-dev.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "work.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 429,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "867a290dbeeeff9bf3f25b1bc9605b1de0f6faf6ed966d40a7cd42ffb9bc16e4",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "836c1fcf5d5b7b70b783f313bb9ff70009d3d0f7c931f1f6420251a728f5057b",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "worldpay.callbacks.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "worldpay.callbacks.staging.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "ws.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "ws.dr.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "ws.next.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "ws.staging.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "www.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "eee43f42bb76d3f0466014b8598e1cf60fa87944298a507ad31840390474f355",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "www.akamai-ci.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "49d4819d567698c8ef5f48fc19c652e1989abc221e7c92a882bf2c466411967c",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "www.akamai-dev.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "49d4819d567698c8ef5f48fc19c652e1989abc221e7c92a882bf2c466411967c",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "www.api.preprod.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "www.dr.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "www.homer.iac-dev.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "www.iac-dev.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "www.iackam-euwest1.iac-dev.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "www.iackam-uswest2.iac-dev.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "www.ogma.iac-dev.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "www.ogma.iac.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "www.preprod.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "www.support.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "www.tr-integration.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "www.turn.iac-dev.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "xh.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "49d4819d567698c8ef5f48fc19c652e1989abc221e7c92a882bf2c466411967c",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "xh.next.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "49d4819d567698c8ef5f48fc19c652e1989abc221e7c92a882bf2c466411967c",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "xx.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 429,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "49d4819d567698c8ef5f48fc19c652e1989abc221e7c92a882bf2c466411967c",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "xx.next.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "49d4819d567698c8ef5f48fc19c652e1989abc221e7c92a882bf2c466411967c",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "xxkey.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "49d4819d567698c8ef5f48fc19c652e1989abc221e7c92a882bf2c466411967c",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "xxkey.next.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "49d4819d567698c8ef5f48fc19c652e1989abc221e7c92a882bf2c466411967c",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "xxlong.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "49d4819d567698c8ef5f48fc19c652e1989abc221e7c92a882bf2c466411967c",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "xxlong.next.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 429,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "49d4819d567698c8ef5f48fc19c652e1989abc221e7c92a882bf2c466411967c",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "xxmix.next.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "xxrtl.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 429,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "49d4819d567698c8ef5f48fc19c652e1989abc221e7c92a882bf2c466411967c",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "xxrtl.next.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "49d4819d567698c8ef5f48fc19c652e1989abc221e7c92a882bf2c466411967c",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "zh-cn.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 429,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "zh-cn.next.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "zh-t.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 429,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "49d4819d567698c8ef5f48fc19c652e1989abc221e7c92a882bf2c466411967c",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "zh-t.next.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "49d4819d567698c8ef5f48fc19c652e1989abc221e7c92a882bf2c466411967c",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "zh.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 429,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "df9aca8fb693889107f3bb468312866da08d8b393d808df45a4ed52bbb45cd84",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "zh.next.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "49d4819d567698c8ef5f48fc19c652e1989abc221e7c92a882bf2c466411967c",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "zu.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 429,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "49d4819d567698c8ef5f48fc19c652e1989abc221e7c92a882bf2c466411967c",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    },
+    {
+      "host": "zu.next.airbnb.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "5162f56eaf01620484393b8159301138b754902b6d49323a9e3c3b5815145a9e",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-11T18:41:43.318Z",
+      "last_seen": "2026-07-11T18:41:43.318Z"
+    }
+  ]
 }
