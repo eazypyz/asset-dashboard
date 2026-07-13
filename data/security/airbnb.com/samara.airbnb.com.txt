@@ -1,6 +1,543 @@
-Contact: https://hackerone.com/airbnb/
-Policy: https://hackerone.com/airbnb#overview
-Hiring: https://careers.airbnb.com/positions/?_search_input=security
-Preferred-Languages: en
-Canonical: https://www.airbnb.com/.well-known/security.txt
-Expires: 2027-06-01T04:59:00.000Z
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Samara - New homes and Backyard ADUs</title>
+
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org",
+                "@type": "Organization",
+                "name": "Samara",
+                "legalName": "Samara Living, Inc.",
+                "url": "https://www.samara.com",
+                "logo": "https://www.samara.com/assets/images/logo-bimi.svg",
+                "description": "Discover Samara’s Backyard homes and ADUs. Elevated design, expertly crafted. Fast and easy installation. Solar-powered and future-ready.",
+                "email": "customercare@samara.com",
+                "telephone": "+1-650-260-6503",
+                "address": [{
+                    "@type": "PostalAddress",
+                    "streetAddress": "2840 Bay Road",
+                    "addressLocality": "Redwood City",
+                    "addressCountry": "US",
+                    "addressRegion": "CA",
+                    "postalCode": "94063"
+                }],
+                "image": [
+                    "https://www.samara.com/assets/remote/e58d3876-3093-4be9-a717-35f8070e4400",
+                    "https://www.samara.com/assets/remote/6536502d-8c91-4e1a-0eee-e70ade6ccd00",
+                    "https://www.samara.com/assets/remote/e7244590-13c9-431e-69f4-a2242a352700",
+                    "https://www.samara.com/assets/remote/83cfff3f-2f56-4a5e-80c3-55c52978e200",
+                    "https://www.samara.com/assets/remote/dba03306-df3d-4421-92a3-d9989e2caf00"
+                ]
+            }
+        </script>
+
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="initial-scale=1, width=device-width, viewport-fit=cover"
+        />
+
+            <meta name="description" content="Samara designs and builds homes, ADUs, and multifamily solutions." />
+
+        <meta name="author" content="Samara" />
+        <meta name="copyright" content="Samara, Inc." />
+
+        <meta property="og:site_name" content="Samara" />
+        <meta property="og:title" content="Samara - New homes and Backyard ADUs" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://www.samara.com/assets/remote/b6bff50c-df2e-442c-2106-c4f0e553b100/w=1200" />
+        <meta
+            property="og:url"
+            content="https://www.samara.com/"
+        />
+
+            <meta property="og:description" content="Samara designs and builds homes, ADUs, and multifamily solutions." />
+
+        <meta property="fb:app_id" content="495582180645280" />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@samara" />
+        <meta name="twitter:title" content="Samara - New homes and Backyard ADUs" />
+
+            <meta name="twitter:description" content="Samara designs and builds homes, ADUs, and multifamily solutions." />
+
+        <meta name="twitter:image" content="https://www.samara.com/assets/remote/b6bff50c-df2e-442c-2106-c4f0e553b100/w=1200" />
+
+        <meta name="theme-color" content="#000000" />
+
+
+        <link
+            rel="apple-touch-icon"
+            href="/assets/images/favicons/icon76x.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            href="/assets/images/favicons/icon180x.png"
+            sizes="180x180"
+        />
+        <link
+            rel="apple-touch-icon"
+            href="/assets/images/favicons/icon152x.png"
+            sizes="152x152"
+        />
+        <link
+            rel="apple-touch-icon"
+            href="/assets/images/favicons/icon120x.png"
+            sizes="120x120"
+        />
+        <link
+            rel="shortcut icon"
+            href="/assets/images/favicons/icon64x.png"
+            sizes="64x64"
+            type="image/png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            href="/assets/images/favicons/favicon.png"
+        />
+        <link
+            rel="preload"
+            href="/assets/fonts/regola-book.woff2"
+            as="font"
+            type="font/woff2"
+            crossorigin
+        />
+        <link
+            rel="preload"
+            href="/assets/fonts/regola-light.woff2"
+            as="font"
+            type="font/woff2"
+            crossorigin
+        />
+
+        <script>
+            window.SITE = {
+                variant: "default",
+                isLocale: false,
+                origin: "https://www.samara.com"
+            };
+        </script>
+
+        <style>
+            html {
+                opacity: 0;
+            }
+        </style>
+
+        <link rel="preconnect" href="https://api.mapbox.com" crossorigin />
+
+        <link href="/assets/stylesheets/index.css?46e98769679e2e435ad0164c400d0c7c.css" rel="stylesheet" />
+
+            <script
+                id="sentry-script"
+                defer
+                src="https://js.sentry-cdn.com/6239eb46ed1b0d72b5c7186827b1f830.min.js"
+                crossorigin="anonymous"
+            ></script>
+
+            <script
+                defer
+                src="https://www.googletagmanager.com/gtag/js?id=AW-11027142108"
+            ></script>
+            <script
+                defer
+                src="https://www.googletagmanager.com/gtag/js?id=G-Y1SW8E75MN"
+            ></script>
+            <script src="/assets/javascripts/trackers.js?46e98769679e2e435ad0164c400d0c7c.js"></script>
+
+	            <script src="/assets/javascripts/bootstrap.js?46e98769679e2e435ad0164c400d0c7c.js"></script>
+	            <script src="/assets/javascripts/index.js?46e98769679e2e435ad0164c400d0c7c.js"></script>
+	            <script src="/assets/javascripts/contact/bundle.js?46e98769679e2e435ad0164c400d0c7c.js" defer="defer"></script>
+	            <script src="/assets/javascripts/tour/bundle.js?46e98769679e2e435ad0164c400d0c7c.js" defer="defer"></script>
+	            <script src="/assets/javascripts/map/bundle.js?46e98769679e2e435ad0164c400d0c7c.js" defer="defer"></script>
+    </head>
+
+    <body class="no-javascript backyard" data-slug="/">
+    
+<nav
+    class="main-navigation  "
+    data-navigation
+    data-navigation-mode="main"
+    data-tooltip-disabled
+>
+    <div class="main-navigation-panel mobile-hidden" aria-hidden="true">
+        <div class="main-navigation-panel-content " data-navigation-panel="adus">
+            <a class="main-navigation-panel-blurb" href="/adus">
+                <div class="main-navigation-panel-media main-navigation-panel-media-adus">
+                    <img src="/assets/images/navigation/backyard-menu/backyard-menu-390.webp" alt="Backyard ADU" width="168" height="109" />
+                </div>
+                <h2><span class="type-alt">Backyard</span></h2>
+                <p>The easy, elegant, smartly customizable ADU, delivered.</p>
+                <span class="main-navigation-panel-blurb-link type-regola-regular">Explore <span class="type-alt">Backyard</span></span>
+            </a>
+            <div class="main-navigation-panel-main-column">
+                <div class="main-navigation-panel-list main-navigation-panel-list-primary">
+                    <p>Models</p>
+                    <a href="/adus/studio"><span class="type-alt">Backyard</span> Studio</a>
+                    <a href="/adus/one-bedroom"><span class="type-alt">Backyard</span> One Bedroom</a>
+                    <a href="/adus/two-bedroom"><span class="type-alt">Backyard</span> Two Bedroom</a>
+                    <a href="/adus/xl-8"><span class="type-alt">Backyard</span> XL 8</a>
+                    <a href="/adus/xl-10"><span class="type-alt">Backyard</span> XL 10</a>
+                </div>
+                <div class="main-navigation-panel-list main-navigation-panel-actions">
+                    <a href="/adus/configure" class="main-navigation-panel-action-design" data-navigation-cta>Design yours</a>
+                    <a href="/" onclick="getQuickEstimate(event)">Check your property</a>
+                </div>
+            </div>
+            <div class="main-navigation-panel-list main-navigation-panel-list-secondary">
+                <p aria-hidden="true">&nbsp;</p>
+                <a href="/adus/how-it-works">How it works</a>
+                <a href="/adus/financing">Financing</a>
+                <a href="/adus/showrooms">Showrooms</a>
+                <a href="/adus/faq">FAQ</a>
+                <a href="/adus/guides">Local guides</a>
+            </div>
+        </div>
+
+        <div class="main-navigation-panel-content " data-navigation-panel="homes">
+            <a class="main-navigation-panel-blurb" href="/homes">
+                <div class="main-navigation-panel-media main-navigation-panel-media-homes">
+                    <img src="/assets/images/navigation/homes-menu/homes-menu-390.webp" alt="Locale by Samara" width="168" height="109" />
+                </div>
+                <h2><span class="type-alt">Locale</span> by <span class="type-alt">Samara</span></h2>
+                <p>Homes designed for<br /> the life you’re building.</p>
+                <span class="main-navigation-panel-blurb-link type-regola-regular">Explore <span class="type-alt">Locale</span></span>
+            </a>
+            <div class="main-navigation-panel-main-column">
+                <div class="main-navigation-panel-list main-navigation-panel-list-primary">
+                    <p>Latest projects</p>
+                    <a href="https://trentadue.samara.com" data-samara-map-open="trentadue" data-samara-map-source="navigation">Trentadue, Healdsburg, CA <span>Available now</span></a>
+                    <a href="https://34ward.samara.com" data-samara-map-open="34ward" data-samara-map-source="navigation">34 Ward, Healdsburg, CA <span>Coming September 2026</span></a>
+                    <a href="/homes/locations" class="main-navigation-panel-link-muted">View all <span class="type-alt">Locales</span></a>
+                </div>
+                <div class="main-navigation-panel-list main-navigation-panel-actions">
+                    <a href="/homes">Learn more about <span class="type-alt">Locale</span></a>
+                    <a href="/" onclick="event.stopPropagation(); event.preventDefault(); Contact.show()">Get on the list</a>
+                </div>
+            </div>
+            <div class="main-navigation-panel-list main-navigation-panel-list-secondary">
+                <p aria-hidden="true">&nbsp;</p>
+                <a href="/la-fires">Standing with LA</a>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="main-navigation-bar">
+        <a class="main-navigation-brand main-navigation-standard-brand type-alt" href="/"><span class="type-alt">Samara</span></a>
+        <a class="main-navigation-brand main-navigation-homes-brand type-alt" href="/homes">
+            <span><span class="type-alt">Locale</span></span>
+            <span>by <span class="type-alt">Samara</span></span>
+        </a>
+
+        <div class="main-navigation-menu main-navigation-main-menu mobile-hidden" role="navigation" aria-label="Primary">
+            <a class="main-navigation-menu-link " href="/adus" data-navigation-item="adus">ADUs</a>
+            <a class="main-navigation-menu-link " href="/homes" data-navigation-item="homes" data-samara-map-warm>Homes</a>
+            <a class="main-navigation-menu-link " href="/multifamily" data-navigation-item="multifamily">Multifamily</a>
+        </div>
+
+        <div class="main-navigation-menu main-navigation-homes-menu mobile-hidden" role="navigation" aria-label="Locale">
+            <a class="main-navigation-menu-link " href="/homes/design" data-navigation-homes-link>Design</a>
+            <a class="main-navigation-menu-link " href="/homes/specs" data-navigation-homes-link>Specs</a>
+            <a class="main-navigation-menu-link " href="/homes/gallery" data-navigation-homes-link>Gallery</a>
+        </div>
+
+        <a class="main-navigation-primary-cta" href="/start">Get started</a>
+            <a class="main-navigation-homes-cta" href="/" onclick="event.stopPropagation(); event.preventDefault(); Contact.show()">Get in touch</a>
+    </div>
+
+    <div class="mobile-navigation" data-mobile-navigation>
+        <div class="mobile-navigation-bar">
+            <button class="mobile-navigation-hamburger mobile-navigation-square" type="button" data-mobile-nav-open aria-label="Open menu"></button>
+            <a class="mobile-navigation-cta mobile-navigation-main-cta" href="/start">Get started</a>
+                <a class="mobile-navigation-cta mobile-navigation-homes-cta-mobile" href="/" onclick="event.stopPropagation(); event.preventDefault(); Contact.show()">Get in touch</a>
+        </div>
+
+        <div class="mobile-navigation-overlay" data-mobile-nav-screen="root" aria-hidden="true">
+            <div class="mobile-navigation-card">
+                <button class="mobile-navigation-back" type="button" data-mobile-nav-back aria-label="Back"></button>
+                <button class="mobile-navigation-close" type="button" data-mobile-nav-close aria-label="Close menu"></button>
+
+                <div class="mobile-navigation-screens">
+                    <div class="mobile-navigation-screen mobile-navigation-screen-root mobile-navigation-main-root">
+                        <button class="mobile-navigation-card-link" type="button" data-mobile-nav-to="adus" data-nav-section="adus">
+                            <div class="mobile-navigation-card-media">
+                                <img src="/assets/images/navigation/backyard-menu/backyard-menu-390.webp" alt="Backyard ADU" width="192" height="144" />
+                            </div>
+                            <div class="mobile-navigation-card-text">
+                                <h2 class="type-18">ADUs</h2>
+                                <p class="type-12"><span class="type-alt">Backyard</span>. The effortless ADU<br /> designed for your next chapter.</p>
+                            </div>
+                        </button>
+                        <div class="mobile-navigation-rule"></div>
+                        <button class="mobile-navigation-card-link" type="button" data-mobile-nav-to="homes" data-nav-section="homes" data-samara-map-warm>
+                            <div class="mobile-navigation-card-media">
+                                <img src="/assets/images/navigation/homes-menu/homes-menu-390.webp" alt="Locale by Samara" width="192" height="144" />
+                            </div>
+                            <div class="mobile-navigation-card-text">
+                                <h2 class="type-18">Homes</h2>
+                                <p class="type-12"><span class="type-alt">Locale by Samara</span>. Beautiful<br /> homes, perfectly located.</p>
+                            </div>
+                        </button>
+                        <div class="mobile-navigation-rule"></div>
+                        <a class="mobile-navigation-card-link" href="/multifamily" data-nav-section="multifamily">
+                            <div class="mobile-navigation-card-media">
+                                <img src="/assets/images/multiunit/community/community-390.webp" alt="Multifamily by Samara" width="192" height="144" />
+                            </div>
+                            <div class="mobile-navigation-card-text">
+                                <h2 class="type-18">Multifamily</h2>
+                                <p class="type-12">A smart kit of parts for<br /> higher-yield infill.</p>
+                            </div>
+                        </a>
+                        <div class="mobile-navigation-rule"></div>
+                        <a class="mobile-navigation-wordmark type-24 type-alt" href="/"><span class="type-alt">Samara</span></a>
+                    </div>
+
+                    <div class="mobile-navigation-screen mobile-navigation-screen-root mobile-navigation-homes-root">
+                        <a class="mobile-navigation-brand mobile-navigation-brand-homes type-21 type-alt" href="/homes">
+                            <span><span class="type-alt">Locale</span></span>
+                            <span>by <span class="type-alt">Samara</span></span>
+                        </a>
+                        <div class="mobile-navigation-primary">
+                            <a class="mobile-navigation-primary-item type-24 " href="/homes/design">Design</a>
+                            <a class="mobile-navigation-primary-item type-24 " href="/homes/specs">Specs</a>
+                            <a class="mobile-navigation-primary-item type-24 " href="/homes/gallery">Gallery</a>
+                        </div>
+                    </div>
+
+                    <div class="mobile-navigation-screen mobile-navigation-screen-secondary mobile-navigation-screen-adus">
+                        <a class="mobile-navigation-blurb" href="/adus">
+                            <div class="mobile-navigation-media mobile-navigation-media-adus">
+                                <img src="/assets/images/navigation/backyard-menu/backyard-menu-390.webp" alt="Backyard ADU" width="168" height="109" />
+                            </div>
+                            <div class="mobile-navigation-blurb-text">
+                                <h2 class="type-24 type-alt"><span class="type-alt">Backyard</span></h2>
+                                <p class="type-15">The easy, elegant, smartly<br /> customizable ADU, delivered.</p>
+                                <span class="mobile-navigation-blurb-link type-18 type-regola-regular">Learn more</span>
+                            </div>
+                        </a>
+                        <div class="mobile-navigation-list-block">
+                            <p class="mobile-navigation-list-label type-18">Models</p>
+                            <div class="mobile-navigation-link-list">
+                                <a class="type-24" href="/adus/studio"><span class="type-alt">Backyard</span> Studio</a>
+                                <a class="type-24" href="/adus/one-bedroom"><span class="type-alt">Backyard</span> One Bedroom</a>
+                                <a class="type-24" href="/adus/two-bedroom"><span class="type-alt">Backyard</span> Two Bedroom</a>
+                                <a class="type-24" href="/adus/xl-8"><span class="type-alt">Backyard</span> XL 8</a>
+                                <a class="type-24" href="/adus/xl-10"><span class="type-alt">Backyard</span> XL 10</a>
+                            </div>
+                        </div>
+                        <div class="mobile-navigation-sublist">
+                            <a class="type-18" href="/adus/how-it-works">How it works</a>
+                            <a class="type-18" href="/adus/financing">Financing</a>
+                            <a class="type-18" href="/adus/showrooms">Showrooms</a>
+                            <a class="type-18" href="/adus/faq">FAQ</a>
+                            <a class="type-18" href="/adus/guides">Local guides</a>
+                        </div>
+                        <div class="mobile-navigation-actions">
+                            <a class="mobile-navigation-action mobile-navigation-action-design type-18" href="/adus/configure" data-navigation-cta>Design yours</a>
+                            <a class="mobile-navigation-action type-18" href="/" onclick="getQuickEstimate(event)">Check your property</a>
+                        </div>
+                        <a class="mobile-navigation-wordmark type-24 type-alt" href="/"><span class="type-alt">Samara</span></a>
+                    </div>
+
+                    <div class="mobile-navigation-screen mobile-navigation-screen-secondary mobile-navigation-screen-homes">
+                        <a class="mobile-navigation-blurb" href="/homes">
+                            <div class="mobile-navigation-media mobile-navigation-media-homes">
+                                <img src="/assets/images/navigation/homes-menu/homes-menu-390.webp" alt="Locale by Samara" width="168" height="109" />
+                            </div>
+                            <div class="mobile-navigation-blurb-text">
+                                <h2 class="type-24"><span class="type-alt">Locale</span> by <span class="type-alt">Samara</span></h2>
+                                <p class="type-15">Homes designed for<br /> the life you’re building.</p>
+                                <span class="mobile-navigation-blurb-link type-18 type-regola-regular">Learn more</span>
+                            </div>
+                        </a>
+                        <div class="mobile-navigation-list-block">
+                            <p class="mobile-navigation-list-label type-18">Projects</p>
+                            <div class="mobile-navigation-link-list">
+                                <a class="mobile-navigation-project type-21" href="https://trentadue.samara.com" data-samara-map-open="trentadue" data-samara-map-source="mobile-navigation">Trentadue, Healdsburg, CA <span class="type-18">Available now</span></a>
+                                <a class="mobile-navigation-project type-21" href="https://34ward.samara.com" data-samara-map-open="34ward" data-samara-map-source="mobile-navigation">34 Ward, Healdsburg, CA <span class="type-18">Coming September 2026</span></a>
+                                <a class="mobile-navigation-link-muted type-21" href="/homes/locations">View all projects</a>
+                            </div>
+                        </div>
+                        <div class="mobile-navigation-sublist">
+                            <a class="type-18" href="/la-fires">Standing with LA</a>
+                        </div>
+                        <div class="mobile-navigation-actions">
+                            <a class="mobile-navigation-action type-18" href="/homes">Learn more about <span class="type-alt">Locale</span></a>
+                            <a class="mobile-navigation-action type-18" href="/" onclick="event.stopPropagation(); event.preventDefault(); Contact.show()">Get on the list</a>
+                        </div>
+                        <a class="mobile-navigation-wordmark type-24 type-alt" href="/"><span class="type-alt">Samara</span></a>
+                    </div>
+                </div>
+                <div class="mobile-navigation-fade" aria-hidden="true"></div>
+            </div>
+        </div>
+    </div>
+</nav>
+
+
+    <main>
+        <div class="page">
+                
+<div class="doorway-home doorway-loading">
+	<div
+		class="doorway-slideshow"
+		data-auto-advance-interval="10000"
+		data-click-to-jump="true"
+		data-gap="20"
+		data-initial-index="0"
+		data-scroll-animation="smart">
+			<div
+				class="doorway-slide doorway-slide-image doorway-slide-wide"
+				data-section="adus"
+				style="--doorway-blur-image: url('/assets/images/doorway/home-adus/home-adus-480-blur.webp'); --doorway-blur-image-mobile: url('/assets/images/doorway/home-adus-mobile/home-adus-mobile-480-blur.webp')">
+				<a class="doorway-slide-image-link" href="/adus">
+					<picture>
+						<source
+							class="doorway-slide-source"
+							media="(max-width: 768px)"
+								srcset="/assets/images/doorway/home-adus-mobile/home-adus-mobile-726.webp"
+						/>
+						<img
+							class="doorway-slide-background"
+								src="/assets/images/doorway/home-adus/home-adus-2736.webp"
+								alt="Backyard ADU in a meadow"
+								fetchpriority="high"
+							width="1368"
+							height="784"
+							loading="eager" />
+					</picture>
+				</a>
+				<div class="doorway-slide-footer">
+					<span class="doorway-slide-caption type-15"
+						><span class="type-alt">Backyard</span>.
+						<span class="color-white-60">The effortless ADU designed<br class="desktop-hidden" /> for your next chapter.</span
+					></span>
+					<a
+						class="doorway-slide-learn-more type-12 type-regola-regular"
+						href="/adus">
+						Learn more
+					</a>
+				</div>
+			</div>
+			<div
+				class="doorway-slide doorway-slide-image doorway-slide-medium"
+				data-section="homes"
+				style="--doorway-blur-image: url('/assets/images/doorway/home-homes/home-homes-480-blur.webp'); --doorway-blur-image-mobile: url('/assets/images/doorway/home-homes-mobile/home-homes-mobile-480-blur.webp')">
+				<a class="doorway-slide-image-link" href="/homes">
+					<picture>
+						<source
+							class="doorway-slide-source"
+							media="(max-width: 768px)"
+								data-srcset="/assets/images/doorway/home-homes-mobile/home-homes-mobile-726.webp"
+						/>
+						<img
+							class="doorway-slide-background"
+								data-src="/assets/images/doorway/home-homes/home-homes-2052.webp"
+								data-alt="Homes by Samara on a California street"
+								alt=""
+							width="1026"
+							height="784"
+							loading="eager" />
+					</picture>
+				</a>
+				<div class="doorway-slide-footer">
+					<span class="doorway-slide-caption type-15"
+						><span class="type-alt">Locale</span>.
+						<span class="color-white-60">Beautiful homes,<br class="desktop-hidden" /> perfectly located.</span
+					></span>
+					<a
+						class="doorway-slide-learn-more type-12 type-regola-regular"
+						href="/homes">
+						Learn more
+					</a>
+				</div>
+			</div>
+			<div
+				class="doorway-slide doorway-slide-image doorway-slide-narrow"
+				data-section="multifamily"
+				style="--doorway-blur-image: url('/assets/images/doorway/home-multifamily/home-multifamily-480-blur.webp'); --doorway-blur-image-mobile: url('/assets/images/doorway/home-multifamily-mobile/home-multifamily-mobile-480-blur.webp')">
+				<a class="doorway-slide-image-link" href="/multifamily">
+					<picture>
+						<source
+							class="doorway-slide-source"
+							media="(max-width: 768px)"
+								data-srcset="/assets/images/doorway/home-multifamily-mobile/home-multifamily-mobile-726.webp"
+						/>
+						<img
+							class="doorway-slide-background"
+								data-src="/assets/images/doorway/home-multifamily/home-multifamily-1772.webp"
+								data-alt="Samara multifamily community from above"
+								alt=""
+							width="886"
+							height="784"
+							loading="eager" />
+					</picture>
+				</a>
+				<div class="doorway-slide-footer">
+					<span class="doorway-slide-caption type-15"
+						>Multifamily.
+						<span class="color-white-60">A smart kit of parts<br class="desktop-hidden" /> for higher-yield infill.</span
+					></span>
+					<a
+						class="doorway-slide-learn-more type-12 type-regola-regular"
+						href="/multifamily">
+						Learn more
+					</a>
+				</div>
+			</div>
+
+		<div class="doorway-slide doorway-slide-text">
+			<p class="doorway-slide-statement type-72 m-type-48">
+				<span class="alt">Samara</span><br class="desktop-hidden" />
+				designs<br class="desktop-hidden" />
+				and builds<br class="desktop-hidden" />
+				<a href="/homes">homes</a>,<br class="desktop-hidden" />
+				<a href="/adus">ADUs</a>, and<br class="desktop-hidden" />
+				<a href="/multifamily">multifamily&nbsp;<br class="desktop-hidden" />solutions</a>.
+			</p>
+		</div>
+	</div>
+</div>
+
+        </div>
+    </main>
+
+    <div id="calculator"></div>
+    <div id="contact"></div>
+    <div id="tour"></div>
+    <div id="samara-map"></div>
+    <div id="financing-application"></div>
+
+    <div id="tooltip" >
+    <div class="tooltip-container">
+        <svg class="arrow-left" width="15" height="11" viewBox="0 0 15 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M4.87021 0.000151566L5.8403 1.01123L2.57369 4.46575L15 4.46575L15 5.89811L2.57369 5.89811L5.8601 9.37369L4.89001 10.3848L-4.54847e-07 5.18193L4.87021 0.000151566Z" fill="black" style="fill:black;fill:black;fill-opacity:1;"/>
+        </svg>
+        <svg class="xmark" width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0.219527 11.4185C0.131636 11.3354 0.0730424 11.2378 0.0437456 11.1255C0.0193315 11.0132 0.0217729 10.9009 0.0510698 10.7886C0.0803667 10.6763 0.136519 10.5786 0.219527 10.4956L4.90703 5.80078L0.219527 1.11328C0.136519 1.03027 0.0803667 0.932617 0.0510698 0.820312C0.0266557 0.708008 0.0266557 0.595703 0.0510698 0.483398C0.0803667 0.371094 0.136519 0.273438 0.219527 0.19043C0.302535 0.102539 0.400191 0.0463867 0.512496 0.0219727C0.6248 -0.00732422 0.737105 -0.00732422 0.84941 0.0219727C0.966597 0.0463867 1.06669 0.102539 1.1497 0.19043L5.8372 4.87793L10.5247 0.19043C10.6077 0.102539 10.7054 0.0463867 10.8177 0.0219727C10.93 -0.00732422 11.0423 -0.00732422 11.1546 0.0219727C11.2669 0.0463867 11.367 0.102539 11.4549 0.19043C11.5379 0.273438 11.594 0.371094 11.6233 0.483398C11.6526 0.595703 11.6526 0.708008 11.6233 0.820312C11.594 0.932617 11.5379 1.03027 11.4549 1.11328L6.76738 5.80078L11.4549 10.4956C11.5379 10.5786 11.5916 10.6763 11.616 10.7886C11.6453 10.9009 11.6453 11.0132 11.616 11.1255C11.5916 11.2378 11.5379 11.3354 11.4549 11.4185C11.3719 11.5063 11.2718 11.5625 11.1546 11.5869C11.0423 11.6162 10.93 11.6162 10.8177 11.5869C10.7054 11.5576 10.6077 11.5015 10.5247 11.4185L5.8372 6.73096L1.1497 11.4185C1.06669 11.5015 0.969039 11.5576 0.856734 11.5869C0.744429 11.6162 0.632124 11.6162 0.51982 11.5869C0.407515 11.5576 0.307417 11.5015 0.219527 11.4185Z" fill="black" />
+        </svg>
+        <svg class="pause" width="12" height="13" viewBox="0 0 7 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0.904419 12.769C0.733521 12.769 0.587036 12.7104 0.464966 12.5933C0.342896 12.4761 0.28186 12.3296 0.28186 12.1538V1.2627C0.28186 1.0918 0.342896 0.947754 0.464966 0.830566C0.587036 0.713379 0.733521 0.654785 0.904419 0.654785C1.0802 0.654785 1.22913 0.713379 1.3512 0.830566C1.47327 0.947754 1.5343 1.0918 1.5343 1.2627V12.1538C1.5343 12.3296 1.47327 12.4761 1.3512 12.5933C1.22913 12.7104 1.0802 12.769 0.904419 12.769ZM5.74573 12.769C5.57483 12.769 5.42834 12.7104 5.30627 12.5933C5.1842 12.4761 5.12317 12.3296 5.12317 12.1538V1.2627C5.12317 1.0918 5.1842 0.947754 5.30627 0.830566C5.42834 0.713379 5.57483 0.654785 5.74573 0.654785C5.92151 0.654785 6.07043 0.713379 6.1925 0.830566C6.31458 0.947754 6.37561 1.0918 6.37561 1.2627V12.1538C6.37561 12.3296 6.31458 12.4761 6.1925 12.5933C6.07043 12.7104 5.92151 12.769 5.74573 12.769Z" fill="black" />
+        </svg>
+        <svg class="play" width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0.414185 11.2354V1.06934C0.414185 0.703125 0.504517 0.43457 0.685181 0.263672C0.865845 0.0878906 1.08069 0 1.32971 0C1.54944 0 1.77405 0.0634766 2.00354 0.19043L10.5363 5.17822C10.839 5.354 11.049 5.5127 11.1661 5.6543C11.2882 5.79102 11.3492 5.95703 11.3492 6.15234C11.3492 6.34277 11.2882 6.50879 11.1661 6.65039C11.049 6.79199 10.839 6.95068 10.5363 7.12646L2.00354 12.1143C1.77405 12.2412 1.54944 12.3047 1.32971 12.3047C1.08069 12.3047 0.865845 12.2168 0.685181 12.041C0.504517 11.8652 0.414185 11.5967 0.414185 11.2354ZM1.59338 10.7153C1.59338 10.7788 1.6178 10.8252 1.66663 10.8545C1.71545 10.8789 1.76672 10.874 1.82043 10.8398L9.65002 6.26953C9.70374 6.24023 9.73059 6.20117 9.73059 6.15234C9.73059 6.09375 9.70374 6.05469 9.65002 6.03516L1.82043 1.46484C1.76672 1.43066 1.71545 1.42822 1.66663 1.45752C1.6178 1.48193 1.59338 1.52588 1.59338 1.58936V10.7153Z" fill="black"/>
+        </svg>
+        <svg class="globe" width="21" height="22" viewBox="0 0 21 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M7.0957 11.0972C7.0957 9.59326 7.18115 8.21582 7.35205 6.96484C7.52295 5.70703 7.76562 4.62012 8.08008 3.7041C8.40137 2.78125 8.77393 2.06689 9.19775 1.56104C9.62842 1.05518 10.1001 0.802246 10.6128 0.802246V2.26855C10.3667 2.26855 10.1206 2.45996 9.87451 2.84277C9.63525 3.21875 9.41309 3.7793 9.20801 4.52441C9.00977 5.2627 8.85254 6.18213 8.73633 7.28271C8.62012 8.3833 8.56201 9.65479 8.56201 11.0972C8.56201 12.5396 8.62012 13.811 8.73633 14.9116C8.85254 16.0122 9.00977 16.9351 9.20801 17.6802C9.41309 18.4185 9.63525 18.9756 9.87451 19.3516C10.1206 19.7344 10.3667 19.9258 10.6128 19.9258V21.3921C10.1001 21.3921 9.62842 21.1392 9.19775 20.6333C8.77393 20.1274 8.40137 19.4165 8.08008 18.5005C7.76562 17.5776 7.52295 16.4907 7.35205 15.2397C7.18115 13.9819 7.0957 12.6011 7.0957 11.0972ZM10.6333 14.604C9.12939 14.604 7.74854 14.5186 6.49072 14.3477C5.23975 14.1699 4.15283 13.9238 3.22998 13.6094C2.30713 13.2949 1.59277 12.9258 1.08691 12.502C0.581055 12.0713 0.328125 11.603 0.328125 11.0972H1.79443C1.79443 11.3433 1.98242 11.5859 2.3584 11.8252C2.74121 12.0645 3.30518 12.2832 4.05029 12.4814C4.79541 12.6797 5.71826 12.8403 6.81885 12.9634C7.91943 13.0796 9.19092 13.1377 10.6333 13.1377C12.0757 13.1377 13.3438 13.0796 14.4375 12.9634C15.5381 12.8403 16.4609 12.6797 17.2061 12.4814C17.9512 12.2832 18.5117 12.0645 18.8877 11.8252C19.2705 11.5859 19.4619 11.3433 19.4619 11.0972H20.9282C20.9282 11.603 20.6753 12.0713 20.1694 12.502C19.6636 12.9258 18.9492 13.2949 18.0264 13.6094C17.1104 13.9238 16.0234 14.1699 14.7656 14.3477C13.5078 14.5186 12.1304 14.604 10.6333 14.604ZM10.623 21.4741C9.1875 21.4741 7.84082 21.2041 6.58301 20.6641C5.33203 20.124 4.23145 19.3789 3.28125 18.4287C2.33789 17.4785 1.59619 16.3779 1.05615 15.127C0.516113 13.8691 0.246094 12.5259 0.246094 11.0972C0.246094 9.66846 0.516113 8.32861 1.05615 7.07764C1.59619 5.81982 2.33789 4.71582 3.28125 3.76562C4.23145 2.80859 5.33203 2.06348 6.58301 1.53027C7.84082 0.990234 9.1875 0.720215 10.623 0.720215C12.0518 0.720215 13.3916 0.990234 14.6426 1.53027C15.9004 2.06348 17.0044 2.80859 17.9546 3.76562C18.9048 4.71582 19.6499 5.81982 20.1899 7.07764C20.73 8.32861 21 9.66846 21 11.0972C21 12.5259 20.73 13.8691 20.1899 15.127C19.6499 16.3779 18.9048 17.4785 17.9546 18.4287C17.0044 19.3789 15.9004 20.124 14.6426 20.6641C13.3916 21.2041 12.0518 21.4741 10.623 21.4741ZM10.623 19.9258C11.8398 19.9258 12.9814 19.6968 14.0479 19.2388C15.1143 18.7876 16.0508 18.1553 16.8574 17.3418C17.6709 16.5283 18.3066 15.5884 18.7646 14.522C19.2227 13.4556 19.4517 12.314 19.4517 11.0972C19.4517 9.88037 19.2227 8.73877 18.7646 7.67236C18.3066 6.59912 17.6709 5.65918 16.8574 4.85254C16.0508 4.03906 15.1143 3.40674 14.0479 2.95557C12.9814 2.49756 11.8398 2.26855 10.623 2.26855C9.39941 2.26855 8.25439 2.49756 7.18799 2.95557C6.12158 3.40674 5.18164 4.03906 4.36816 4.85254C3.56152 5.65918 2.9292 6.59912 2.47119 7.67236C2.01318 8.73877 1.78418 9.88037 1.78418 11.0972C1.78418 12.314 2.01318 13.4556 2.47119 14.522C2.9292 15.5884 3.56152 16.5283 4.36816 17.3418C5.18164 18.1553 6.12158 18.7876 7.18799 19.2388C8.25439 19.6968 9.39941 19.9258 10.623 19.9258Z" fill="#0096F7"/>
+        </svg>
+        <span class="type-18"></span>
+        <svg class="arrow-right" width="15" height="11" viewBox="0 0 15 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M10.1298 10.3846L9.1597 9.37354L12.4263 5.91902H0V4.48666H12.4263L9.1399 1.01108L10.11 0L15 5.20284L10.1298 10.3846Z" fill="black" style="fill:black;fill:black;fill-opacity:1;"/>
+        </svg>
+        <svg class="arrow-down" width="15" height="11" viewBox="0 0 15 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M10.1298 10.3846L9.1597 9.37354L12.4263 5.91902H0V4.48666H12.4263L9.1399 1.01108L10.11 0L15 5.20284L10.1298 10.3846Z" fill="black" style="fill:black;fill:black;fill-opacity:1;"/>
+        </svg>
+    </div>
+</div>
+
+</body>
+
+</html>
