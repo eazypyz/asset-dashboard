@@ -17,8 +17,9 @@ export const config = {
     .filter(Boolean)
     .concat([
       // ← Add your domains here
-      "swiggy.com",
-      "paytm.com"
+      "smile.io",
+      "kimai.org",
+      "sydbank.com"
     ])
     .filter((v, i, a) => a.indexOf(v) === i), // deduplicate
 
