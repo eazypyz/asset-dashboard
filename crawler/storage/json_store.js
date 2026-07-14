@@ -75,3 +75,23 @@ export async function updateManifest(domains) {
 async function ensureDir(dirPath) {
   await fs.mkdir(dirPath, { recursive: true });
 }
+
+export async function updateManifest(scannedDomains) {
+  const file = abs("data/manifest.json");
+
+  // Baca manifest lama untuk ambil domain yang sudah pernah ada
+  let existingDomains = [];
+  try {
+    const raw = await fs.readFile(file, "utf8");
+    existingDomains = JSON.parse(raw).domains ?? [];
+  } catch { /* manifest belum ada, first run */ }
+
+  // Gabungkan domain lama + baru, deduplicate
+  const allDomains = [...new Set([...existingDomains, ...scannedDomains])].sort();
+
+  const manifest = {
+    updated: new Date().toISOString(),
+    domains: allDomains,
+  };
+  await fs.writeFile(file, JSON.stringify(manifest, null, 2), "utf8");
+}
