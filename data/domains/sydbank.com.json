@@ -1,0 +1,99 @@
+{
+  "domain": "sydbank.com",
+  "last_update": "2026-07-14T14:57:23.181Z",
+  "stats": {
+    "total": 5,
+    "dns_resolved": 4,
+    "alive": 4,
+    "has_robots": 3,
+    "has_security": 3,
+    "has_sitemap": 0
+  },
+  "subdomains": [
+    {
+      "host": "beta.sydbank.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T14:57:23.179Z",
+      "last_seen": "2026-07-14T14:57:23.179Z"
+    },
+    {
+      "host": "fx.sydbank.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T14:57:23.179Z",
+      "last_seen": "2026-07-14T14:57:23.179Z"
+    },
+    {
+      "host": "sydbank.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "01bd7ca550f7be49bb1a37b0fce297b46ff6430f9ee1500a4cf40efac33b69e0",
+      "security_hash": "3b6d536ab719c4ce0bdac1ed3b712ae01b8474a9c709a22ce6520aec753508a4",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T14:57:23.179Z",
+      "last_seen": "2026-07-14T14:57:23.179Z"
+    },
+    {
+      "host": "systembesked.sydbank.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "9f565a7a9607add3df25b5392dc7abe24d8a868fb21be537da6d294081cb9ed8",
+      "security_hash": "3b6d536ab719c4ce0bdac1ed3b712ae01b8474a9c709a22ce6520aec753508a4",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T14:57:23.179Z",
+      "last_seen": "2026-07-14T14:57:23.179Z"
+    },
+    {
+      "host": "www.sydbank.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "01bd7ca550f7be49bb1a37b0fce297b46ff6430f9ee1500a4cf40efac33b69e0",
+      "security_hash": "3b6d536ab719c4ce0bdac1ed3b712ae01b8474a9c709a22ce6520aec753508a4",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T14:57:23.179Z",
+      "last_seen": "2026-07-14T14:57:23.179Z"
+    }
+  ]
+}

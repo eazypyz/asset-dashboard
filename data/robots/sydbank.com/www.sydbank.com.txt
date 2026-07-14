@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /*
+Disallow: /api/*
+Disallow: /*.PDF
+Disallow: /*.pdf
+Disallow: /*.xls
+Disallow: /*.xlsx
+Disallow: /*.doc
+Disallow: /*.docx
+Disallow: /*.zip
+Disallow: /cdn-cgi/

@@ -1,0 +1,337 @@
+{
+  "domain": "kimai.org",
+  "last_update": "2026-07-14T14:57:14.634Z",
+  "stats": {
+    "total": 19,
+    "dns_resolved": 12,
+    "alive": 12,
+    "has_robots": 9,
+    "has_security": 3,
+    "has_sitemap": 5
+  },
+  "subdomains": [
+    {
+      "host": "demo-branch.kimai.org",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T14:57:14.627Z",
+      "last_seen": "2026-07-14T14:57:14.627Z"
+    },
+    {
+      "host": "demo-empty.kimai.org",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "331ea9090db0c9f6f597bd9840fd5b171830f6e0b3ba1cb24dfa91f0c95aedc1",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T14:57:14.627Z",
+      "last_seen": "2026-07-14T14:57:14.627Z"
+    },
+    {
+      "host": "demo-lts.kimai.org",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T14:57:14.627Z",
+      "last_seen": "2026-07-14T14:57:14.627Z"
+    },
+    {
+      "host": "demo-plugins.kimai.org",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T14:57:14.627Z",
+      "last_seen": "2026-07-14T14:57:14.627Z"
+    },
+    {
+      "host": "demo-stable.kimai.org",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "331ea9090db0c9f6f597bd9840fd5b171830f6e0b3ba1cb24dfa91f0c95aedc1",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T14:57:14.627Z",
+      "last_seen": "2026-07-14T14:57:14.627Z"
+    },
+    {
+      "host": "demo-v1.kimai.org",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T14:57:14.627Z",
+      "last_seen": "2026-07-14T14:57:14.627Z"
+    },
+    {
+      "host": "demo-v2.kimai.org",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T14:57:14.627Z",
+      "last_seen": "2026-07-14T14:57:14.627Z"
+    },
+    {
+      "host": "demo.kimai.org",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "331ea9090db0c9f6f597bd9840fd5b171830f6e0b3ba1cb24dfa91f0c95aedc1",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T14:57:14.627Z",
+      "last_seen": "2026-07-14T14:57:14.627Z"
+    },
+    {
+      "host": "forum.kimai.org",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T14:57:14.627Z",
+      "last_seen": "2026-07-14T14:57:14.627Z"
+    },
+    {
+      "host": "kimai.org",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": true,
+      "robots_hash": "432b5dca56a8955ffde1e217b4d7bad39a135a794954d624a39dd58044b02bb9",
+      "security_hash": "",
+      "sitemap_hash": "64d53b7365c3e8688b19c2b5b5a3a65a60b584ff1d3cab91549af3c873f9f1f1",
+      "first_seen": "2026-07-14T14:57:14.627Z",
+      "last_seen": "2026-07-14T14:57:14.627Z"
+    },
+    {
+      "host": "license.kimai.org",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "331ea9090db0c9f6f597bd9840fd5b171830f6e0b3ba1cb24dfa91f0c95aedc1",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T14:57:14.627Z",
+      "last_seen": "2026-07-14T14:57:14.627Z"
+    },
+    {
+      "host": "love.kimai.org",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "cbd2c349f04047ef29eaa4fb46db1426624f5469f1a763a0ecb6c76203992e31",
+      "security_hash": "cbd2c349f04047ef29eaa4fb46db1426624f5469f1a763a0ecb6c76203992e31",
+      "sitemap_hash": "cbd2c349f04047ef29eaa4fb46db1426624f5469f1a763a0ecb6c76203992e31",
+      "first_seen": "2026-07-14T14:57:14.627Z",
+      "last_seen": "2026-07-14T14:57:14.627Z"
+    },
+    {
+      "host": "sa.kimai.org",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T14:57:14.627Z",
+      "last_seen": "2026-07-14T14:57:14.627Z"
+    },
+    {
+      "host": "status.kimai.org",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "efdb5938a9736727f5cce2b60355588e4fa541d19d022d222d8a09b8efd5dcce",
+      "security_hash": "d079b4da4f2b0514676dac68c505ea9729d33710e3d06dae6b188e9c484fcdf2",
+      "sitemap_hash": "d079b4da4f2b0514676dac68c505ea9729d33710e3d06dae6b188e9c484fcdf2",
+      "first_seen": "2026-07-14T14:57:14.627Z",
+      "last_seen": "2026-07-14T14:57:14.627Z"
+    },
+    {
+      "host": "store.kimai.org",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "a269ef35f56b305062191dddf2beaa0b1c49218bffb6df46afd09be58a1b6bc3",
+      "security_hash": "a269ef35f56b305062191dddf2beaa0b1c49218bffb6df46afd09be58a1b6bc3",
+      "sitemap_hash": "a269ef35f56b305062191dddf2beaa0b1c49218bffb6df46afd09be58a1b6bc3",
+      "first_seen": "2026-07-14T14:57:14.627Z",
+      "last_seen": "2026-07-14T14:57:14.627Z"
+    },
+    {
+      "host": "support.kimai.org",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T14:57:14.627Z",
+      "last_seen": "2026-07-14T14:57:14.627Z"
+    },
+    {
+      "host": "u.kimai.org",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T14:57:14.627Z",
+      "last_seen": "2026-07-14T14:57:14.627Z"
+    },
+    {
+      "host": "v2.kimai.org",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T14:57:14.627Z",
+      "last_seen": "2026-07-14T14:57:14.627Z"
+    },
+    {
+      "host": "www.kimai.org",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": true,
+      "robots_hash": "432b5dca56a8955ffde1e217b4d7bad39a135a794954d624a39dd58044b02bb9",
+      "security_hash": "",
+      "sitemap_hash": "64d53b7365c3e8688b19c2b5b5a3a65a60b584ff1d3cab91549af3c873f9f1f1",
+      "first_seen": "2026-07-14T14:57:14.627Z",
+      "last_seen": "2026-07-14T14:57:14.627Z"
+    }
+  ]
+}
