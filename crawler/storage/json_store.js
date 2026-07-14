@@ -59,16 +59,6 @@ export async function saveFileContent(type, domain, host, content) {
   await fs.writeFile(path.join(dir, `${safe}.txt`), content, "utf8");
 }
 
-/** ── Manifest (index for the frontend) ─────────────────────────────────── */
-
-export async function updateManifest(domains) {
-  const file = abs("data/manifest.json");
-  const manifest = {
-    updated: new Date().toISOString(),
-    domains,
-  };
-  await fs.writeFile(file, JSON.stringify(manifest, null, 2), "utf8");
-}
 
 /** ── Helpers ────────────────────────────────────────────────────────────── */
 
