@@ -1,12 +1,11 @@
 // crawler/providers/crtsh.js
-// Queries crt.sh (Certificate Transparency) for subdomain discovery.
-// No API key required; rate-limited by the public endpoint.
-
 import fetch from "node-fetch";
 import { ProviderInterface } from "./provider_interface.js";
 
 const CRTSH_URL = "https://crt.sh/?q=%25.{domain}&output=json";
 const TIMEOUT_MS = 30_000;
+const MAX_RETRIES = 4;
+const RETRY_DELAYS = [3_000, 8_000, 15_000, 30_000]; // backoff bertahap
 
 export class CrtshProvider extends ProviderInterface {
   constructor() {
@@ -15,38 +14,75 @@ export class CrtshProvider extends ProviderInterface {
 
   async fetchSubdomains(domain) {
     const url = CRTSH_URL.replace("{domain}", encodeURIComponent(domain));
-    this._log(`Querying ${url}`);
+
+    for (let attempt = 1; attempt <= MAX_RETRIES; attempt++) {
+      this._log(`Query attempt ${attempt}/${MAX_RETRIES} for ${domain}`);
+      try {
+        const rows = await this._fetch(url);
+
+        // crt.sh kadang balik array kosong padahal domain valid
+        // kalau kosong dan masih ada retry, coba lagi
+        if (rows.length === 0 && attempt < MAX_RETRIES) {
+          this._log(`Empty result on attempt ${attempt}, retrying...`);
+          await sleep(RETRY_DELAYS[attempt - 1]);
+          continue;
+        }
+
+        const raw = rows.flatMap((row) =>
+          String(row.name_value ?? "").split("\n"),
+        );
+        const hosts = this._normalise(raw, domain);
+        this._log(`Found ${hosts.length} unique subdomains`);
+        return hosts;
+
+      } catch (err) {
+        this._error(`Attempt ${attempt} failed: ${err.message}`);
+        if (attempt < MAX_RETRIES) {
+          const delay = RETRY_DELAYS[attempt - 1];
+          this._log(`Waiting ${delay / 1000}s before retry...`);
+          await sleep(delay);
+        }
+      }
+    }
+
+    this._error(`All ${MAX_RETRIES} attempts failed for ${domain}`);
+    return [];
+  }
+
+  async _fetch(url) {
+    const controller = new AbortController();
+    const timer = setTimeout(() => controller.abort(), TIMEOUT_MS);
 
     try {
-      const controller = new AbortController();
-      const timer = setTimeout(() => controller.abort(), TIMEOUT_MS);
-
       const res = await fetch(url, {
         signal: controller.signal,
-        headers: { Accept: "application/json" },
+        headers: {
+          Accept: "application/json",
+          // User-Agent membantu menghindari block dari crt.sh
+          "User-Agent": "Mozilla/5.0 (compatible; AssetScanner/1.0)",
+        },
       });
       clearTimeout(timer);
 
+      if (res.status === 429) {
+        throw new Error("Rate limited (429) by crt.sh");
+      }
       if (!res.ok) {
-        this._error(`HTTP ${res.status} from crt.sh`);
-        return [];
+        throw new Error(`HTTP ${res.status} from crt.sh`);
       }
 
-      const rows = await res.json();
-      if (!Array.isArray(rows)) return [];
+      const text = await res.text();
+      // crt.sh kadang return HTML error page bukan JSON
+      if (!text.trim().startsWith("[")) {
+        throw new Error("Non-JSON response from crt.sh (likely server error)");
+      }
 
-      // crt.sh returns {name_value} which may contain newline-separated SANs
-      const raw = rows.flatMap((row) =>
-        String(row.name_value ?? "").split("\n"),
-      );
-
-      const hosts = this._normalise(raw, domain);
-      this._log(`Found ${hosts.length} unique subdomains`);
-      return hosts;
-
+      return JSON.parse(text);
     } catch (err) {
-      this._error(err.message);
-      return [];
+      clearTimeout(timer);
+      throw err;
     }
   }
 }
+
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
