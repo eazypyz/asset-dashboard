@@ -1,0 +1,34 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name="theme-color" content="#000000"><link rel="manifest" href="/manifest.json"><link rel="shortcut icon" href="/favicon.ico"><style class="_styletron_hydrate_"></style><title>Fastag Issuer | Paytm</title><script data-env="production" data-version="1.37.0">const { env, version } = document.currentScript.dataset;
+    window.env = {
+      ENV: env,
+      VERSION: version
+    }</script><link rel="prefetch" href="/images/loading-large.gif"/><script defer="defer" src="/js/bundle.8af56d.js"></script><link href="/static/css/main.52e5f3aa.css" rel="stylesheet"></head><body><div id="root"></div><script>const paytmDomain = ["production", "bank-staging"].includes(window.env.ENV) ? "https://accounts.paytm.com" : "https://accounts-staging.paytm.in";
+  (function (w, d, q, o, t, s, f, se, js, fjs) {
+    w[o] = w[o] || { init: function () { w[o][q] = arguments } }
+    js = d.createElement(s), fjs = d.getElementsByTagName(s)[0]
+    js.type = t; js.async = 1; js.src = f; fjs.parentNode.insertBefore(js, fjs);
+  })(window, document, '_beforeLoadConfig', 'Oauth', 'text/javascript', 'script', `${paytmDomain}/oauth-js-sdk/shim/bundle.js`);</script><script>(function () {
+    try {
+      var script = document.createElement("script");
+      script.src =
+        window.env.ENV === "production"
+          ? "https://webappsstatic.paytm.com/hawkeyeweb/v1/hawkeye.min.js"
+          : "https://webappsstatic-stg.paytmdgt.io/hawkeyeweb/v1/hawkeye.min.js";
+      script.async = true;
+      script.crossorigin = "anonymous";
+      script.onload = function () {
+        window.Hawkeye.configure({
+          appVersionCode: window.env.VERSION,
+          env:
+            window.env.ENV === "beta"
+              ? "production"
+              : window.env.ENV || "staging",
+          verticalName: "FASTAG_OCL_ISSUER_FRONTEND",
+          enableConsoleLogging: true,
+        });
+      };
+      document.head.appendChild(script);
+    } catch (error) {
+      throw new Error("hawkeye third party error", error);
+    }
+  })();</script></body></html>

@@ -1,0 +1,37 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"/><link rel="icon" href="/food/favicon.ico"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="theme-color" content="#000000"/><meta name="description" content="Swiggy Partner App V2"/><base href="/food/"/><link rel="manifest" href="/food/manifest.json"/><title>Swiggy Partner App</title><link rel="preconnect" href="https://rms.swiggy.com" crossorigin/><link rel="preconnect" href="https://media-assets.swiggy.com" crossorigin/><link rel="preconnect" href="https://vhc-composer.swiggy.com" crossorigin/><link rel="preconnect" href="https://d3qckg8fw71fwh.cloudfront.net" crossorigin/><script>dataLayer = [];</script><script>;window.NREUM||(NREUM={});NREUM.init={performance:{capture_measures:true},browser_consent_mode:{enabled:false},privacy:{cookies_enabled:true},ajax:{capture_payloads:'none'}};
+      ;NREUM.loader_config={accountID:"737486",trustKey:"737486",agentID:"57746944",licenseKey:"a9dd66e24a",applicationID:"29223403"};
+      ;NREUM.info={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",licenseKey:"a9dd66e24a",applicationID:"29223403",sa:1};
+      if (NREUM.info.licenseKey) {
+        var s = document.createElement('script');
+        s.async = true;
+        s.src = 'https://js-agent.newrelic.com/nr-loader-spa-1.313.1.min.js';
+        document.head.appendChild(s);
+      }</script><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-PJN8WSX');</script><script type="module">import React from "https://vendor-media-assets.swiggy.com/static-assets/js/react@19.1.0.mjs";
+        import ReactDOM from "https://vendor-media-assets.swiggy.com/static-assets/js/react-dom@19.1.0.mjs";
+        import ReactDOMClient from "https://vendor-media-assets.swiggy.com/static-assets/js/react-dom-client@19.1.0.mjs";
+        window.React = React;
+        window.ReactDOMClient = ReactDOMClient;
+        window.ReactDOM = {
+            ...ReactDOM,
+            // ✅ Polyfill ReactDOM.render for backward compatibility
+            render: (element, container) => {
+                if (!container.__root) {
+                    container.__root = ReactDOMClient.createRoot(container);
+                }
+                container.__root.render(element);
+            },
+            unmountComponentAtNode: (container) => {
+                container.__root?.unmount();
+                delete container.__root;
+            },
+            createRoot: (container) => {
+                return ReactDOMClient.createRoot(container);
+            },
+        };</script><script src="/food/polyfills.js"></script><script>if (window.location.pathname === "/" || (window.location.pathname.startsWith('/register'))) {
+        const pathName = window.location.pathname.substring(1);
+        window.location.href = window.location.origin + "/food/" + pathName;
+      }</script><script defer="defer" src="/food/main.4385aea880e2282d1eef.1.js"></script></head><body><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PJN8WSX" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"></div></body></html>

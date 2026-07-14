@@ -1,0 +1,345 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="APP_PATH" content=""/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+        <link href="./css/campaign_bs.css" rel="stylesheet">
+        <link href="./css/bootstrap-5.1.3.min.css" rel="stylesheet">
+
+        <link href="./css/login_bs.css" rel="stylesheet">
+        <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self';
+  script-src 'self' https://cdn.jsdelivr.net/;
+  font-src *;
+  style-src 'self' https://cdn.jsdelivr.net/ https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css https://fonts.googleapis.com;
+  img-src 'self' data:;"> -->
+    </head>
+
+    <body class="hide">
+        
+
+<div class="d-flex justify-content-center align-items-center p-4 align-middle b-w position-header">
+    <div class="header-container">
+        <div class="row p-0">
+            <div class="col-12">
+                <nav class="navbar navbar-expand-lg navbar-light nav-l">
+                    <div class="container-fluid p-0">
+                        <a class="navbar-brand" href="#" onclick="redirectToAdsManagerHome()">
+                            <img src="images/logo.png"  class="nav-logo-l landPage">
+                        </a>
+                        <div class="sales">
+                            <div class="salesHeader">Connect With Sales:</div>
+                            <div class="number">paytmconnectplus@paytm.com </div>
+                        </div>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav  mb-2 mb-lg-0">
+
+                                
+
+                                <li class="nav-item dropdown item-l">
+                                    <a class="nav-link dropdown-toggle dropdown-border" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Platform
+                                        <img src="images/header-arrow.svg" class="arrow-login">
+                                    </a>
+                                    <ul class="dropdown-menu dd-horizantal mtu" aria-labelledby="navbarDropdown">
+                                        <div class="d-flex">
+                                            <li class="p-0" >
+                                                <a class="dropdown-item dropdown-hover">
+                                                    <div class="nav-box d-flex mar-tp-20">
+                                                        <div class="width-box border-right">
+                                                            <div class="hover-background omnichannel" >
+                                                                <div class="font-size-18 font-weight-bold">Engagement</div>
+                                                                <div class="white-space-option font-size-16 mar-tp-12">Tocom provides you marketing strategies to create meaningful interactions</div>
+
+                                                            </div>
+                                                           </div>
+                                                        <div class="width-box border-right">
+                                                            <div class="hover-background iautomation" >
+                                                                <div class="font-size-18 font-weight-bold">Automation</div>
+                                                                <div class="white-space-option font-size-16 mar-tp-12">You can choose Automation with Tocom. Make your campaigns smarter, not harder!</div>
+
+                                                            </div>
+                                                            </div>
+                                                        <div class="width-box border-right">
+                                                            <div class="hover-background ab-testing">
+                                                                <div class="font-size-18 font-weight-bold">A/B Testing</div>
+                                                                <div class="white-space-option font-size-16 mar-tp-12">A/B testing allows you to convert more visitors to customers and maximise the user interface
+                                                                </div>
+                                                            </div>
+                                                            </div>
+
+                                                    </div>
+                                                </a>
+                                            </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                        </div>
+                                    </ul>
+                                </li>
+                                <li class="nav-item item-l">
+                                    <a class="nav-link dropdown-toggle dropdown-border" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Industry
+                                        <img src="images/header-arrow.svg" class="arrow-login">
+                                    </a>
+                                    <ul class="dropdown-menu dd-horizantal mtu left" aria-labelledby="navbarDropdown">
+                                        <div class="d-flex">
+                                            <li class="p-0">
+                                                <a class="dropdown-item dropdown-hover" >
+                                                    <div class="nav-box d-flex mar-tp-20">
+                                                        <div class="width-box border-right">
+                                                            <div class="hover-background industry-use-case" >
+                                                                <div class="font-size-18 font-weight-bold">Finance</div>
+                                                                <div class="white-space-option font-size-16 mar-tp-12">Tocom provides digital financial services from online lending to digital wallets</div>
+
+                                                            </div>
+                                                        </div>
+                                                        <div class="width-box border-right">
+                                                            <div class="hover-background ecommerce" >
+                                                                <div class="font-size-18 font-weight-bold">Ecommerce</div>
+                                                                <div class="white-space-option font-size-16 mar-tp-12">Get personalised app push notifications, SMS and Emails for shoppers</div>
+
+                                                            </div>
+                                                        </div>
+                                                        <div class="width-box border-right">
+                                                            <div class="hover-background entertainment">
+                                                                <div class="font-size-18 font-weight-bold">Media & Entertainment
+                                                                </div>
+                                                                <div class="white-space-option font-size-16 mar-tp-12">Tell your most compelling stories for media & entertainment companies</div>
+                                                            </div>
+                                                        </div>
+
+
+
+
+
+
+
+
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="#">
+                                                    <div class="nav-box"></div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="#">
+                                                    <div class="nav-box"></div>
+                                                </a>
+                                            </li>
+                                        </div>
+                                    </ul>
+
+                                </li>
+                                <li class="nav-item item-l">
+                                    <a class="nav-link  dropdown-border" aria-current="page" href="./#connectJourney">Company</a>
+                                </li>
+
+
+                                <!--
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Dropdown
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <li><a class="dropdown-item" href="#">Action</a></li>
+                              <li><a class="dropdown-item" href="#">Another action</a></li>
+                              <li><hr class="dropdown-divider"></li>
+                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                          </li>
+                          -->
+                            </ul>
+                            <div id="login-head" class="d-flex">
+
+                                <a  href="./login" class="login-tab">
+                                    <div class="image-login"></div>
+                                    <span class="item-l pad-login-text login-text">Login</span>
+                                </a>
+
+
+                                <a class="demo-tab header-demo-btn" href="#">
+                                    <button type="button " class="new-button" >Request a demo</button>
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+function getAdsManagerHostPublic() {
+    const currentHost = window.location.hostname;
+    if (currentHost.includes('tocom-ui-tocom-qa-internal.mypaytm.com')) {
+        return 'ads-manager-qa-internal.mypaytm.com';
+    } else if (currentHost.includes('tocom-ui-tocom-qa.paytm.com')) {
+        return 'adsmanager-qa.paytm.com';
+    } else if (currentHost.includes('tocom.paytm.com')) {
+        return 'adsmanager.paytm.com';
+    } else {
+        return 'ads-manager-qa-internal.mypaytm.com';
+    }
+}
+
+function redirectToAdsManagerHome() {
+    const adsManagerHost = getAdsManagerHostPublic();
+    const adsManagerUrl = "https://" + adsManagerHost;
+    window.open(adsManagerUrl, 'myWindow');
+}
+
+function redirectToAdsManagerRequestDemo() {
+    const adsManagerHost = getAdsManagerHostPublic();
+    const adsManagerUrl = "https://" + adsManagerHost + "/request-demo";
+    window.open(adsManagerUrl, 'myWindow');
+}
+</script>
+
+        <div class="d-flex align-items-center align-middle flexBar">
+            <form class="login-form" id="loginForm" method="post" action="j_spring_security_check">
+                <input type="hidden" name="_csrf" value="9091e0d7-c58f-42ff-bf3a-5cda17296a03" />
+                <input type="hidden" name="request-origin" id="request-origin" value="" />
+                <div class="login-main wd-400-px">
+                    <div class="heading">Log in</div>
+                    <div class="sub-heading">Use your Tocom account</div>
+                    <div class="h-1">
+                        <div class="error" id="email-error"></div>
+                        <div class="error" id="password-error">
+                            
+                        </div>
+                    </div>
+
+                    <div class="label">Username</div>
+                    <input type="text" name="j_username" id="email" placeholder="Enter your email ID" />
+                    <div class="label mt-h">Password</div>
+                    <div class="position-relative">
+                        <input type="password" name="j_password" id="password" placeholder="Enter your password" />
+                        <img src="images/password.svg" class="eye-image-show hide" id="showPassword" />
+                        <img src="images/hidepassword.svg" class="eye-image" id="hidePassword" />
+
+                    </div>
+
+                    <div class="mt-h mb-h">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <label class="checkbox d-flex align-items-center"> <input class="remember-me"
+                                    type="checkbox" /> <span>Remember me</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class=" d-flex justify-content-center align-items-center mt-1">
+                        <button id="loginBtn" type="submit" class="new-button">Continue</button>
+                    </div>
+                </div>
+            </form>
+            <div class="forgot-login-text"><a href="./forgotPassword" class="forgot">Forgot your password?</a></div>
+            <div class="demo-login-text"><a href="#" onClick="redirectToAdsManagerRequestDemo()" class="forgot">Request a demo </a>to get started.</div>
+
+
+        </div>
+        
+<div class="d-flex flex-column footer-position">
+<footer class="bg-white">
+    <div  class=" bottomBarContainer container">
+        <div  class="flex-no-wrap row py-4"> <!--style="flex-wrap: nowrap"-->
+            <div class=" footer-head col-lg-4 col-md-6 mb-4 mb-lg-0"><img src="images/logo.png" class="loginImage" >
+                <p class="footerUrl"> &copy; 2026 One97 Communications Limited.<br> All rights reserved.</p>
+                <ul class="list-inline">
+                    <li class="list-inline-item"><a href="#" target="_blank" title="facebook"><img class="squareLoginImage" src="images/icons/facebookIcon.svg"></a></li>
+                    <li class="list-inline-item"><a href="#" target="_blank" title="Linkedin"><img class="squareLoginImage" src="images/icons/linkedinIcon.svg"></a></li>
+                    <li class="list-inline-item"><a href="#" target="_blank" title="Youtube"><img class="squareLoginImage" src="images/icons/youtubeIcon.svg"></a></li>
+                </ul>
+            </div>
+            <div  class="p-0 fit col-lg-2 col-md-6 mb-4 mb-lg-0">
+                <h6  class="font-size-16 font-weight-bold">Contact</h6>
+                <p class="cg font-size-14">
+                    One Skymark, Sector 98 noida Floor <br>No.6 to 22, Tower-D, Plot no H-10 B,<br> Noida, Uttar Pradesh 201301
+                </p>
+                
+            </div>
+            <div  class=" contact col-lg-2 col-md-6 mb-4 mb-lg-0">
+                <h6  class="font-weight-bold vishide font-size-16">Contact</h6>
+                <p class="font-size-14 cg">
+                    Sales:<br> paytmconnectplus@paytm.com
+                </p>
+                <p class="font-size-14 cg" >Customer care:<br> paytmconnectplus@paytm.com </p>
+            </div>
+
+            <div  class="news col-lg-2 col-md-6 mb-4 mb-lg-0">
+                <h6  class=" font-size-14 font-weight-bold">Sign up to get the latest news on our product.</h6>
+                <div class="input-container-bar">
+                    <input  type="text" class="form-input small demoinput" id="mobileNumber"
+                           placeholder="Enter your email id" />
+                    <button id="sendOtpBtn" class="input-button subscribe">Subscribe</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+</footer>
+    <footer class="bg-white">
+        <div class="footer-terms"><a target="_blank" href="./terms">Terms of Service</a>  | <a target="_blank" href="./privacy">Privacy Policy</a> </div>
+
+
+
+
+    </footer>
+</div>
+
+
+
+
+        <script src="js/popper-2.10.2.min.js"></script>
+        <script src="js/jquery-3.6.0.min.js"></script>
+        <script src="js/bootstrap-5.1.3.min.js"></script>
+        <script src="js/login.js"></script>
+        <script src="js/headerFooter.js"></script>
+    </body>
+
+    </html>

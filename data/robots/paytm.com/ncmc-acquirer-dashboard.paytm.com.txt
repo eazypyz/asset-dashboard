@@ -1,0 +1,39 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name="theme-color" content="#000000"><link rel="manifest" href="/manifest.json"><link rel="shortcut icon" href="/favicon.ico"><style class="_styletron_hydrate_"></style><title>NCMC NOS Dashboard | Paytm</title><script>window.env={}</script><link rel="icon" href="/paytm.ico"><script defer="defer" src="/js/bundle.a3b26f.js"></script><link href="/static/css/main.24d6957b.css" rel="stylesheet"></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"></div><script id="removeScript">(function () {
+          if (window.frameElement) {
+            document.getElementById("root").remove();
+          }
+
+          var queryParams = new URLSearchParams(window.location.search);
+          var data = {};
+          queryParams.forEach(function (value, key) {
+            data[key] = value;
+          });
+
+          if (Object.keys(data).length > 0) {
+            data.source = "NCMC_NOS_DASHBOARD";
+            window.parent.postMessage(data, window.location.origin);
+          }
+        })();
+      document.getElementById("removeScript").remove();</script><script>(function () {
+          const REACT_NODE_ENV = 'production';
+          var script = document.createElement('script')
+          script.src = 'https://webappsstatic.paytm.com/hawkeyeweb/hawkeye_1.2.0.min.js'
+          script.async = true
+          script.crossorigin = "anonymous"
+          script.onload = function () {
+            window.Hawkeye.configure({
+              appVersionCode: '1.0.0',
+              release: 'v1',
+              env: REACT_NODE_ENV === 'production' ? "production" : (window.env.ENV || "staging"),
+              verticalName: 'NCMC_NOS_DASHBOARD',
+              enableConsoleLogging: true,
+            })
+          }
+          document.head.appendChild(script)
+        })();</script><script>const REACT_NODE_ENV = "production";
+      const paytmDomain = REACT_NODE_ENV === "production" ? "https://accounts.paytmpayments.com" : "https://accounts-staging.paytmpayments.com";
+      (function (w, d, q, o, t, s, f, se, js, fjs) {
+        w[o] = w[o] || { init: function () { w[o][q] = arguments } }
+        js = d.createElement(s), fjs = d.getElementsByTagName(s)[0]
+        js.type = t; js.async = 1; js.src = f; fjs.parentNode.insertBefore(js, fjs);
+      })(window, document, '_beforeLoadConfig', 'Oauth', 'text/javascript', 'script', `${paytmDomain}/oauth-js-sdk/shim/bundle.js`);</script></body></html>

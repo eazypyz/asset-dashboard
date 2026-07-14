@@ -1,0 +1,13 @@
+# www.robotstxt.org/
+
+# disable crawling of contact page
+
+User-agent: Googlebot
+User-agent: AdsBot-Google
+User-agent: AdsBot-Google-Mobile-Apps
+Disallow: /contacts
+
+# Allow crawling of all content
+
+User-agent: *
+Disallow:

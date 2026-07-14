@@ -1,0 +1,270 @@
+<!doctype html><html lang="en" class="web fonts-loaded"> <head><script type="text/javascript">window.chunkUrl="https://just-media-assets.swiggy.com/just-front-assets/js/"</script>  <link rel="preconnect" href="//instamart-media-assets.swiggy.com">  <link rel="preconnect" href="//just-media-assets.swiggy.com">  <link rel="preconnect" href="//analytics.swiggy.com">  <link rel="preconnect" href="//payments.swiggy.com">  <link rel="preconnect" href="//media-assets.swiggy.com">   <link rel="dns-prefetch" href="//instamart-media-assets.swiggy.com">  <link rel="dns-prefetch" href="//just-media-assets.swiggy.com">  <link rel="dns-prefetch" href="//analytics.swiggy.com">  <link rel="dns-prefetch" href="//media-assets.swiggy.com"> <meta name="viewport" content="height=device-height,width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"><meta name="full-screen" content="yes"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="mobile-web-app-capable" content="yes"><meta property="og:site_name" content="Just"><meta name="twitter:site" content="@instamart_it"><meta name="og:type" property="og:type" content="website">  <link rel="icon" sizes="192x192" href="https://media-assets.swiggy.com/IM-PD-Assets/Instamart-App-Logo/IM%20Icon%20Light%20192%20x%20192.png"><link rel="icon" sizes="32x32" href="https://media-assets.swiggy.com/IM-PD-Assets/Instamart-App-Logo/IM%20Icon%20Light%2032%20x%2032.png"><link rel="icon" sizes="16x16" href="https://media-assets.swiggy.com/IM-PD-Assets/Instamart-App-Logo/IM%20Icon%20Light%2016%20x%2016.png">  <title>Just</title>              <link rel="preload" as="script" href="https://just-media-assets.swiggy.com/just-front-assets/js/manifest.es6.798b7b47a28167f7.js">  <link rel="preload" as="script" href="https://just-media-assets.swiggy.com/just-front-assets/js/vendors.es6.239bebb5ac927af7.js">  <link rel="preload" as="script" href="https://just-media-assets.swiggy.com/just-front-assets/js/app.es6.c086fe15119e8d57.js">        <link rel="preload" href="https://media-assets.swiggy.com/dls-web-assets/dls/fonts/Gilroy-ExtraBold-Rupee.woff2" as="font" type="font/woff2" crossorigin="anonymous">  <link rel="preload" href="https://media-assets.swiggy.com/dls-web-assets/dls/fonts/Gilroy-Bold-Rupee.woff2" as="font" type="font/woff2" crossorigin="anonymous">  <link rel="preload" href="https://media-assets.swiggy.com/dls-web-assets/dls/fonts/Gilroy-SemiBold-Rupee.woff2" as="font" type="font/woff2" crossorigin="anonymous">  <link rel="preload" href="https://media-assets.swiggy.com/dls-web-assets/dls/fonts/Gilroy-Medium-Rupee.woff2" as="font" type="font/woff2" crossorigin="anonymous">   <link rel="prefetch" as="image" href="/images/sandstone_bg.png">  <style>:root {
+        --app-statusbar-height: 0px;
+        --app-bottom-offset: 0px;
+        --sat: 0px;
+        --sab: 0px;
+        --web-bottom-bar-height: 0px;
+        /* for backwards compatibility */
+        --status-bar-height: 0px;
+    }
+
+    #root > div[data-theme] {
+       height: 100%;
+    }     </style> <script>!function(c,f){var t,o,i,e=[],r={passive:!0,capture:!0},n=new Date,a="pointerup",u="pointercancel";function p(n,e){t||(t=e,o=n,i=new Date,w(f),s())}function s(){0<=o&&o<i-n&&(e.forEach(function(n){n(o,t)}),e=[])}function l(n){if(n.cancelable){var e=(1e12<n.timeStamp?new Date:performance.now())-n.timeStamp;"pointerdown"==n.type?function(n,e){function t(){p(n,e),i()}function o(){i()}function i(){f(a,t,r),f(u,o,r)}c(a,t,r),c(u,o,r)}(e,n):p(e,n)}}function w(e){["click","mousedown","keydown","touchstart","pointerdown"].forEach(function(n){e(n,l,r)})}w(c),self.perfMetrics=self.perfMetrics||{},self.perfMetrics.onFirstInputDelay=function(n){e.push(n),s()}}(addEventListener,removeEventListener)</script>  <script>window.initializeNewRelic=function(){"undefined"!=typeof window&&window.NREUM&&(window.NREUM.init={distributed_tracing:{enabled:!0},privacy:{cookies_enabled:!0},ajax:{deny_list:["bam.nr-data.net"]}},window.NREUM.loader_config={accountID:"737486",trustKey:"737486",agentID:"601604133",licenseKey:"a9dd66e24a",applicationID:"601604133"},window.NREUM.info={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",licenseKey:"a9dd66e24a",applicationID:"601604133",sa:1}),"undefined"!=typeof window&&window.newrelic&&window.newrelic.setApplicationVersion("just-front-1.0.0")}</script><script src="https://media-assets.swiggy.com/portal/static-assets/js/nr-mini-v1.js?v=10" crossorigin="anonymous" async onload="window.initializeNewRelic&&window.initializeNewRelic()"></script> </head> <body><div id="root" style="height: 100%;">  </div><div id="errorDiv" style="display: none; height: 100%; position: fixed; top: 0;left: 0;right: 0;bottom: 0;"><style>.errorContainer {
+            padding-top: 0px;
+            font-family: Gilroy, Roboto, Helvetica, Arial, sans-serif;
+            height: 100%;
+            width: 100%;
+            z-index: 1047899;
+            display: flex;
+            flex-direction: column;
+            /* background: #ffffff; */
+        }
+
+        .header {
+            display: flex;
+            height: 64px;
+            width: 100%;
+            align-items: center;
+            padding: 0 24px;
+        }
+
+        .wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            flex: 1;
+            gap: 24px;
+            padding: 24px 16px;
+            width: 100%;
+        }
+
+        .imageContainer {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 200px;
+            width: 200px;
+            flex-shrink: 0;
+        }
+
+        .img {
+            height: 200px;
+            width: 200px;
+            object-fit: contain;
+            background: transparent;
+        }
+
+        .content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 2px;
+            width: 100%;
+            text-align: center;
+        }
+
+        .messageTitle {
+            text-align: center;
+            width: 292px;
+            font-weight: 800;
+            font-size: 18px;
+            line-height: 24px;
+            letter-spacing: -0.3px;
+            color: rgba(2, 6, 12, 0.92);
+            margin: 0;
+        }
+
+        .messageBody {
+            text-align: center;
+            white-space: pre-wrap;
+            max-width: 100%;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 20px;
+            letter-spacing: -0.1px;
+            color: rgba(2, 6, 12, 0.6);
+            margin: 0;
+        }
+
+        .action {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 160px;
+            height: 44px;
+            background: linear-gradient(163deg, #c03200 5.57%, #912400 95.23%);
+            box-shadow: 0px 2px 2px rgba(153, 33, 39, 0.1);
+            border: 2.4px solid rgba(255, 255, 255, 0.5);
+            border-radius: 8px;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 20px;
+            letter-spacing: -0.1px;
+            color: rgba(255, 255, 255, 0.92);
+            cursor: pointer;
+        }</style><div class="errorContainer"><div class="header"><svg width="24px" height="24px" viewbox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" onclick="handleExit()"><g id="Back/grey-Copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="Group" transform="translate(3.000000, 6.000000)" fill="#282C3F" fill-rule="nonzero"><path d="M2.60660875,6.65 L6.48591423,10.5408315 C6.7393782,10.7950486 6.7387677,11.2066053 6.48455065,11.4600693 C6.2303336,11.7135333 5.81877682,11.7129228 5.56531285,11.4587057 L0.558746832,6.43726442 C0.305037647,6.18280143 0.305930696,5.77076007 0.560740527,5.51739923 L5.56730654,0.539303292 C5.82187009,0.286187329 6.23342566,0.287360831 6.48654162,0.541924382 C6.73965758,0.796487934 6.73848408,1.2080435 6.48392053,1.46115946 L2.57283944,5.35 L16.883868,5.35 C17.2428531,5.35 17.533868,5.64101491 17.533868,6 C17.533868,6.35898509 17.2428531,6.65 16.883868,6.65 L2.60660875,6.65 Z" id="Combined-Shape"></path></g></g></svg></div><div class="wrapper"><div class="imageContainer"><img class="img" src="https://instamart-media-assets.swiggy.com/INSTAMART%20IMAGES/Illustrations.svg" alt=""></div><div class="content"><p class="messageTitle">Kuch toh gadbad hai</p><p class="messageBody">We're setting things up for you. Please try again in a bit</p></div><button type="button" class="action" onclick="reloadPage()">Try Again</button></div></div></div><script type="text/javascript">function _getRequestString(type, payload={}) {
+        return JSON.stringify({
+                requestId: String(Math.random()),
+                type: type,
+                payload: payload
+        });
+    }
+
+    var WebBridgeSdk = window.WebBridgeSdk || {
+        nativeRequest: function nativeRequest(payload) {
+            if (window.AndroidBridge && window.AndroidBridge.nativeRequest) {
+                window
+                    .AndroidBridge
+                    .nativeRequest(payload);
+                return true;
+            } else if (window.webkit && window.webkit.messageHandlers && window.webkit.messageHandlers.nativeRequest) {
+                window
+                    .webkit
+                    .messageHandlers
+                    .nativeRequest
+                    .postMessage({message: payload});
+                return true;
+            }
+            return false;
+        },
+        toggleNativeBar: function toggleNativeBar(show) {
+            var reqString = _getRequestString("TOGGLE_NATIVE_BOTTOM_BAR", { show: show });
+            return WebBridgeSdk.nativeRequest(reqString);
+        },
+        exit: function exit() {
+            var reqString = _getRequestString("CLOSE_WEBVIEW");
+            return WebBridgeSdk.nativeRequest(reqString);
+        }
+    }</script><script>function reloadPage(){window.location.reload()}</script><script>function handleExit(){WebBridgeSdk.exit()||(window.location.href="/")}window.handleHardwareBack=handleExit</script><script type="text/javascript">function loadJS(n,e){var a,o=document.createElement("script");o.src=n,o.async=!0,o.crossorigin="anonymous",e&&(o.onreadystatechange=o.onload=function(){a||e(window),a=!0}),document.getElementsByTagName("head")[0].appendChild(o)}window.keyboardStateChanged=function(n,e){}</script><script type="text/javascript">if (typeof window !== "undefined") {
+        window.captureError = function (message) {
+            var errorDiv = document.getElementById("errorDiv");
+            if (errorDiv) {
+                errorDiv.style.display = "block";
+                errorDiv.style.zIndex = 2;
+                errorDiv.style.background = "#ffffff";
+            }
+
+            if (typeof message === "string" && typeof window.onerror === "function") {
+                window
+                    .onerror
+                    .apply(window, arguments);
+                return;
+            }
+
+            if (typeof window.newrelic !== "undefined" && typeof window.newrelic.noticeError === "function") {
+                // Create Error object if message is a string to ensure we have stack trace
+                const errorToReport = typeof message === "string" ? new Error(message) : message;
+                window.newrelic.noticeError(errorToReport);
+            }
+        };
+
+        window.__newrelic__ = {
+            endpoint: "https://insights-collector.newrelic.com/v1/accounts/737486/events",
+            key: "CPDMQSXvjxGCdL_E02P9eZ-NJcEg-uGk"
+        };
+
+        window.__sendNREvents = function(events) {
+            var endpoint = window && window.__newrelic__ && window.__newrelic__.endpoint;
+            var key = window && window.__newrelic__ && window.__newrelic__.key;
+
+            if (!endpoint || !key) {
+                return;
+            }
+
+            var _events = Object.assign({}, events, {
+                deviceId: (App && App.deviceId) || "-",
+                tid: (App && App.tid) || "-",
+                sid: (App && App.sid) || "-",
+                buildVersion: (App && App.buildVersion) || "-",
+                versionCode: (App && App.versionCode) || "-",
+                platform: (App && App.platform) || "-",
+                userId: (App && App.userId) || "-",
+                userAgent: (window && window.navigator && window.navigator.userAgent) || "-"
+            });
+
+            try {
+                fetch(endpoint || "", {
+                    body: JSON.stringify([_events]),
+                    headers: {
+                        "Content-Type": "application/json",
+                        "X-Insert-Key": key || "",
+                    },
+                    method: "POST",
+                    mode: "cors",
+                }).then(function(res) {
+                    return res.json();
+                });
+            } catch (err) {
+                // do nothing
+            }
+        };
+
+        window.captureScriptError = function(message) {
+            if (typeof window.captureError !== "undefined") {
+                window.captureError(message);
+            }
+
+            if (typeof window.__sendNREvents !== "undefined") {
+                window.__sendNREvents({
+                    context: "just",
+                    eventType: "just_front_debugging_events",
+                    type: "SERVER_SCRIPT_ERROR",
+                    message: message
+                });
+            }
+        }
+    }</script><noscript><img src="/telemetry/js-disabled" width="1" height="1" style="display:none" alt=""></noscript> <script type="text/javascript">  window.___INITIAL_STATE___ = {"userLocation":{"lat":12.92909,"lng":77.70326,"address":"Bhoganhalli, Bengaluru, Karnataka, India","originalLocationSource":"seo"},"misc":{"abExperiments":{},"options":{"dfInstamartNuxSkipDelayInSeconds":"5","dfInstamartAutoScrollDelayInSeconds":"1","dfFirebasePerfEnabled":"1","dfMaxAndroidVersionForGenieVideoOB":"834","dfMaxAndroidVersionForOAPayment":"809","dfShowAttachmentUpload":"1","dfShowGenieVideoOnboarding":"1","dfShowGoogleUpload":"0","dfStoresImageRightAlignedItemEnabled":"1","dfStoresSearchConfigData":"{\"initialDisplayItemsInStore\":4,\"itemLayout\":\"horizontal\",\"minimumQueryLength\":3,\"searchDebounceDelay\":200}","swEnabled":"1","dfPudoTncConfig":"{\"enabled\":\"0\",\"showCountPerUser\":2}","dfAlcoholMinAndroidAppVersion":"835","dfTelSupportEnabledVersionIOS":"335","dfInstamartEnabledIOSVersion":"343","dfInstamartEnabledAndroidVersion":"880","dfAndroidVideoVoiceOverSupportedVersion":"922","dfAndroidVersionWhtsappBridge":"935","dfInstamartTrackV2Enabled":"1","dfInstamartTrackV2MwebEnabled":"1","dfInstamartTrackV2AndroidEnabledVersion":"998","dfInstamartTrackV2IOSEnabledVersion":"399","dfInstamartTrackV2PLCardsEnabled":"1","dfMinIMNativeCartSynchEnabledAndroidVersion":"1017","dfMinIMNativeCartSynchEnabledIOSVersion":"407","dfAnalyticsEventsMaxRetries":"3","dfMinPermissionBridgeEnabledAndroidVersion":"1045","dfAndroidNewPostOrderEventEnabledVersion":"1045","dfIOSNewPostOrderEventEnabledVersion":"422","dfAcceptBuildCartCallFromApp":"1","dfAdEventsBatchSize":"1","dfAdEventsDispatchIntervalInMinutes":"0.0835","dfIMNoRushNudgeCount":"1","dfMinIosLocationEnabledVersion":"1500","dfMinAndroidLocationEnabledVersion":"1112","dfIMStaleRefreshEnabled":"1","dfIMStaleRefreshIntervalInMinutes":"5","dfIMStaleRefreshPathConfig":"{\"*\": 1 }","dfInstamartCPInterventionsDiffTimeInSecs":"3600","dfInstamartCPIntentBoosterEnableAndroidVCode":"1112","dfInstamartCPIntentBoosterEnableIOSVCode":"454","dfEnablePWALocationCheck":"1","dfEnableCartCacheClear":"1","dfEnableCancelHomePageReload":"1","dfComplimentryItemsTimeout":"700","dfIMMultiCollectionWidgetAnimationCounter":"5","dfEnableIMHTMLCaching":"1","dfSeoDefaultLocation":"12.929097899042114,77.70326501230915","dfIMMaxSearchResults":"8","dfIMSearchAnimationData":"{\"status\":true,\"interval\":2000,\"prefix\":\"Search for\",\"itemsTiming\":{\"04-07\":[\"Poha\",\"Shampoo\",\"Biscuit\",\"Toor dal\",\"Loose atta\",\"Toothpaste\",\"Chai\",\"Makhana\",\"Oil\",\"Chips\"],\"07-11\":[\"Poha\",\"Shampoo\",\"Biscuit\",\"Toor dal\",\"Loose atta\",\"Toothpaste\",\"Chai\",\"Makhana\",\"Oil\",\"Chips\"],\"11-15\":[\"Poha\",\"Shampoo\",\"Biscuit\",\"Toor dal\",\"Loose atta\",\"Toothpaste\",\"Chai\",\"Makhana\",\"Oil\",\"Chips\"],\"15-18\":[\"Poha\",\"Shampoo\",\"Biscuit\",\"Toor dal\",\"Loose atta\",\"Toothpaste\",\"Chai\",\"Makhana\",\"Oil\",\"Chips\"],\"18-20\":[\"Poha\",\"Shampoo\",\"Biscuit\",\"Toor dal\",\"Loose atta\",\"Toothpaste\",\"Chai\",\"Makhana\",\"Oil\",\"Chips\"],\"20-24\":[\"Poha\",\"Shampoo\",\"Biscuit\",\"Toor dal\",\"Loose atta\",\"Toothpaste\",\"Chai\",\"Makhana\",\"Oil\",\"Chips\"],\"00-04\":[\"Poha\",\"Shampoo\",\"Biscuit\",\"Toor dal\",\"Loose atta\",\"Toothpaste\",\"Chai\",\"Makhana\",\"Oil\",\"Chips\"]}}","dfMaxPreviousSearchStorage":"20","dfAllowUIDrivenPastSearch":"1","dfUIDrivenPastSearchesBreakpoint":"4","dfIMLauncherIconConfig":"{\"lottie\":\"https://instamart-media-assets.swiggy.com/IM-app-launcher/explainer_lottie_launcher_compressed.json\",\"enableLauncher\":true,\"androidAppVersion\":\"1400\",\"dialogBoxCount\":\"200\"}","dfUseDDSAutoSuggestions":"1","dfInstamartCartRateLimitEnabled":"1","DF_GTM_EVENTS_DEPRECATED":"true","DF_ENABLE_ORDER_DETAILS_V2":"true","DF_IM_LAUNCH_API_V2_ENABLE":"true","DF_IM_ALLOW_HOME_BYPASS":"true","DF_IM_BE_DRIVEN_BILL_DETAILS":"true","DF_IM_WEBVIEW_REFRESH_PERSIST_STATE_ENABLED":"true","dfJustTrackCroutonPollingEnabled":"true","DF_FILTERS_ENABLED":"false"},"sessionHistory":[],"settings":{"abSettings":{"searchSettings":{"autosuggestEnabled":false},"homeSettings":{"enableNewLayout":false},"addressSettings":{"enableNewAddressFlow":false},"genieSettings":{"orderAnythingEnabled":false,"cancellationFee":"20","covidMapEnabled":false,"pudoEnabled":true,"pudoDisableMessage":"Due to high demand, our delivery executives are currently unavailable to pickup items","orderAnythingDisableMessage":"Due to high volume of orders \"Buy Anything\" is currently unavailable","pudoPaymentCalloutEnabled":true,"pudoPaymentCityDisabled":true,"pudoPaymentCityDisabledMessage":"For orders involving payments, please pay to the store or seller directly.","ux4Enabled":true,"genieDelFeeCommEnabled":true,"deliveryCommsVariant":"pO2Ar_range","genieAddressPrefillEnabled":true},"instamartSettings":{"showOnboardingVideoVariant":"0","ux4Enabled":false,"openKeyboardOnPreSearch":false,"cpIntentBoosterEnabled":false,"searchAutoSuggestEnabled":false,"ux4CartEnabled":false,"searchComplementaryItemsEnabled":false,"skipCouponlessDiscountForMovCalculation":true,"showAddonWidgetAboveCartItems":false,"modularSearchEnabled":false,"imCheckoutEnabled":false,"highlightSuperSaverItemEnabled":false,"isCouponV2Enabled":false,"turboCheckoutEnabled":false,"taxonomyDesignVersion":"v1","sosNudgeXPEnabled":false,"showNotifyForOos":false,"voiceSearchEnabled":false,"couponUnlockNudgeEnabled":false,"showIMLauncherDialog":false,"autoSuggestPersonalizationEnabled":false,"autoSuggestThumbnailDisabled":false,"autoSuggestDestinationPagesRevampEnabled":false,"compactHeaderEnabled":false,"bottomBarEnabled":true,"newCouponlessNudgeFlowEnabled":false,"brandItemsOnPDPEnabled":false,"reviewCartEnabled":false,"campaignCollectionV2Enabled":false,"clearCartEnabled":false,"browseFilterEnabled":false,"searchFilterEnabled":false,"trackRevampEnabled":false,"complementaryDesignChangeEnabled":false,"splitCartEnabled":false,"trackSplitCartRevampEnabled":false,"autoSuggestEnrichedSuggestions":false,"collapsibleBillDetailsEnabled":false,"beDrivenCartAndSavingHighlight":false,"cartPageOptimisationEnabled":false,"cartFreebieRemovalEnabled":false,"reviewCartSavingTitleEnabled":false,"prenudgeV2Enabled":false,"saveForLaterEnabled":false,"wishlistEnabled":false,"maxSaverEnabled":false,"handpickedFeatureFlagEnabled":false,"filterWithTwoRowDesignEnabled":false},"instamaxSettings":{"searchAutoSuggestEnabled":false,"ux4CartEnabled":false,"searchFiltersEnabled":false,"autoSuggestFiltersEnabled":false,"progressiveNudgeEnabled":true}},"paymentEndpointUrl":"https://payments.swiggy.com","paymentHostUrl":"https://chkout.swiggy.com","newrelicKey":"CPDMQSXvjxGCdL_E02P9eZ-NJcEg-uGk","newrelicEndpoint":"https://insights-collector.newrelic.com/v1/accounts/737486/events","analyticsHost":"https://analytics.swiggy.com","enablePublicApi":true},"alertDialog":null,"firstPageLoad":true,"versionCode":"1200","isNativeBottomBarEnabled":false,"genieWebTrackEnabled":false,"platform":"web","subplatform":"dweb","isQuicks":false,"webBottomBarRoutesConfig":[],"isDefaultLocationSelected":true}};  var App = {
+        env: "production",
+        segmentedImAggregator: "-",
+        imCartUrlPreheating: "-",
+        platform: "web",
+        subplatform: "dweb",
+        statusBarHeight: Number(0),
+        bottomOffset: Number(0),
+        webBottomBarHeight:  Number(0),
+        isWebBottomBarEnabled: Boolean(),
+        isNativeInstamart: Boolean(false),
+        storeId: "",
+        instamartExitOption: Boolean(false),
+        isNativeBottomBarEnabled: Boolean(false),
+        isAccessbilityEnabled: Boolean(false),
+        versionCode: "1200",
+        swuid: "",
+        deviceId: "b14e3f60-50fc-4cee-a0ba-f3ecd9bfb9e9",
+        tid: "eyJLSUQiOiIyIiwiYWxnIjoiSFMyNTYiLCJ0eXAiOiJKV1QifQ.eyJleHAiOjE3ODQwMjg0MDIsImlhdCI6MTc4NDAyNDgwMiwic2Vzc2lvbl9kYXRhIjoiZ1diUGxYUlR6KzNDR01UWlN4SnBqTDVjdkRudWtMVGhOY3VnRmd1TDkxbkdiZ2d2bnlhK1F6ZXM4TUxrTC8reHdXZXlvS0tyYVppOGw5alpCamRZTElTdGU2MTdmVG13VnZYYTJLQmxQcDhUeWRPTUNhOGFBTzZFenBLN0V2S0RBUk1ySjZmbWVpOXFqOG5LUGV1clFMMGcvbHBpbXF1UW9yS2tZZThhaVRScTByMWFHOEtoMHVqS0dCaUtISnM5R2taVXcybXlwREtXQmVTY0tOSTZRUT09Iiwic2lkIjoic2gzMTlhYjEzNzItYTNiZi00MDE4LWFkOTctYzM5MGRiMjg4Iiwic3ViIjoiNDFkMTZkZmEtOTNlMC00MjkzLWFiNjgtMGU4MGE4OGNmYTZiIiwidXNlcl9pZCI6IjAifQ.oqfS8M1C7aPeQDTqNTxjLHIOZIHgkjS03yhmcOV4YVQ",
+        sid: "sh319ab1372-a3bf-4018-ad97-c390db288",
+        token: "",
+        userId: "0",
+        paymentSecretKey: "",  userLocation: {"lat":12.92909,"lng":77.70326,"address":"Bhoganhalli, Bengaluru, Karnataka, India","originalLocationSource":"seo"},  analytics: {
+            endpoint: "https://analytics.swiggy.com",
+            swiggyliticsEndpoint: "https://analytics.swiggy.com",
+            platform: "web",
+            sequenceNumber: 1,
+            appVersionCode: "1200",
+            deviceId: "b14e3f60-50fc-4cee-a0ba-f3ecd9bfb9e9",
+            tid: "eyJLSUQiOiIyIiwiYWxnIjoiSFMyNTYiLCJ0eXAiOiJKV1QifQ.eyJleHAiOjE3ODQwMjg0MDIsImlhdCI6MTc4NDAyNDgwMiwic2Vzc2lvbl9kYXRhIjoiZ1diUGxYUlR6KzNDR01UWlN4SnBqTDVjdkRudWtMVGhOY3VnRmd1TDkxbkdiZ2d2bnlhK1F6ZXM4TUxrTC8reHdXZXlvS0tyYVppOGw5alpCamRZTElTdGU2MTdmVG13VnZYYTJLQmxQcDhUeWRPTUNhOGFBTzZFenBLN0V2S0RBUk1ySjZmbWVpOXFqOG5LUGV1clFMMGcvbHBpbXF1UW9yS2tZZThhaVRScTByMWFHOEtoMHVqS0dCaUtISnM5R2taVXcybXlwREtXQmVTY0tOSTZRUT09Iiwic2lkIjoic2gzMTlhYjEzNzItYTNiZi00MDE4LWFkOTctYzM5MGRiMjg4Iiwic3ViIjoiNDFkMTZkZmEtOTNlMC00MjkzLWFiNjgtMGU4MGE4OGNmYTZiIiwidXNlcl9pZCI6IjAifQ.oqfS8M1C7aPeQDTqNTxjLHIOZIHgkjS03yhmcOV4YVQ",
+            sid: "sh319ab1372-a3bf-4018-ad97-c390db288",
+            userId: 0
+        },
+        frequencyCapping: {
+            endpoint: "https://profile.swiggy.com"
+        },
+        newrelic: {
+            endpoint: "https://insights-collector.newrelic.com/v1/accounts/737486/events",
+            key: "CPDMQSXvjxGCdL_E02P9eZ-NJcEg-uGk"
+        },
+        tnsApiEndpoint: "https://fna.swiggy.com",
+        isShuttleCI: true,
+        isBlockPushEnabled: true,
+        blockPushIosMinVersion: 430,
+        bottomBarEnabledPaths: {"app":{"/just/":1,"/go":1,"/go/":1,"/listing/30/":1,"/listing/30":1,"/listing/203/":1,"/listing/203":1},"web":{"/just/":1}},
+        buildVersion: "1.0.0",
+        initialMatcher: "aabe78efb79bf79gg7dd8ac",
+        isRock: false
+    };
+    var AppHeaders = {
+        'x-channel': "",
+        application_name: ""
+    };</script><script type="text/javascript">window.GOOGLE_MAPS_API_KEY = "";</script>   <script src="https://just-media-assets.swiggy.com/just-front-assets/js/manifest.es6.798b7b47a28167f7.js" onerror='captureScriptError("https://just-media-assets.swiggy.com/just-front-assets/js/manifest.es6.798b7b47a28167f7.js")' defer="defer"></script>  <script src="https://just-media-assets.swiggy.com/just-front-assets/js/vendors.es6.239bebb5ac927af7.js" onerror='captureScriptError("https://just-media-assets.swiggy.com/just-front-assets/js/vendors.es6.239bebb5ac927af7.js")' defer="defer"></script>  <script src="https://just-media-assets.swiggy.com/just-front-assets/js/app.es6.c086fe15119e8d57.js" onerror='captureScriptError("https://just-media-assets.swiggy.com/just-front-assets/js/app.es6.c086fe15119e8d57.js")' defer="defer"></script>   <script type="text/javascript">"serviceWorker"in navigator&&"www.swiggy.com"!==window.location.host&&"staging.swiggy.com"!==window.location.host&&navigator.serviceWorker.register("/sw.js").then(function(o){console.log("Service Worker Registered!")}).catch(function(o){console.log("Service Worker registration failed: ",o)})</script> </body></html>

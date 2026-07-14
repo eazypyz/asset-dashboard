@@ -1,0 +1,6049 @@
+{
+  "domain": "swiggy.com",
+  "last_update": "2026-07-14T10:27:11.592Z",
+  "stats": {
+    "total": 355,
+    "dns_resolved": 185,
+    "alive": 160,
+    "has_robots": 30,
+    "has_security": 21,
+    "has_sitemap": 14
+  },
+  "subdomains": [
+    {
+      "host": "3p-integration.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "6.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "admin-group.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "adpg.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "ads.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "analytics-test.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "analytics-uat.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "analytics.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "anobis-v3.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "anobis.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "apg-p.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "apg.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "api-endpoint.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "api-haproxy.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "api-instachef.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "api-origin.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "api-preorder.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "api.preorder.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "api.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "apicorp.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "app-endpoint.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "app-haproxy-03.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "app-haproxy-14.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "app-haproxy-20.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "app-haproxy.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "app-kong.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "app-stage.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "app.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "app2.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "app3-haproxy.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "app4.devops-haproxy.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "asset-caching.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "assets.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 502,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "assure-media-assets.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 400,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "assure.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "331ea9090db0c9f6f597bd9840fd5b171830f6e0b3ba1cb24dfa91f0c95aedc1",
+      "security_hash": "829f62e818a81673d341c839def92574ecf0141567662e630b05ad802aa804ac",
+      "sitemap_hash": "b11f1a513945dd351057cb230165408cb50c43d9bd2500fc379c5120990c1c51",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "awsvpn.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "backend-haproxy.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "backendhaproxy-1.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "backendhaproxy-2.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "backendhaproxy-3.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "backendhaproxy-4.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "backendhaproxy-5.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "backendhaproxy-6.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "bifrost.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "birthdaybash.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "blog-origin.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "blog.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "blognew.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "bot.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "brand-portal-service-http.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 503,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "bytes.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "careers-demo.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "careers.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "carousels-ads.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "cash.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "cbcc-card.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "cbcc-external.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "cbcc-redirect.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "cbcc.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "cc.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "ccfs.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "cconeview-services.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 503,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "cconeview.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "chat-engine.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "chat.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "chkout.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "click.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "clientmetrics.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "cloud-menu-cms.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "cloudinary-backup.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "cmp.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "cms-endpoint.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "cms-haproxy-02.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "cms-haproxy-03.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "cms-haproxy-04.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "cms-haproxy.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "cms.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "comm-engine-haproxy.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "comm-platform-endpoint.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "commengine-es-monitor.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "commengine-log.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "communication.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "communities.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 502,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "competitive-intelligence-haproxy-01.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "competitive-intelligence-haproxy-02.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "connect.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "corporate.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "2cdaca175cdb0f291c30458c7759cef0e60486c4b7f6b9ef5b58a719ce19eaf2",
+      "security_hash": "2cdaca175cdb0f291c30458c7759cef0e60486c4b7f6b9ef5b58a719ce19eaf2",
+      "sitemap_hash": "2cdaca175cdb0f291c30458c7759cef0e60486c4b7f6b9ef5b58a719ce19eaf2",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "crm-haproxy-v2.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "crm-haproxy.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "daily-haproxy.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "daily.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "dash-endpoint.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "dash-front-caching.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 502,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "dash-haproxy.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "dash.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "data-gateway.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "ddpg.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "de-api.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "de-endpoint.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "de-haproxy-01.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "de-haproxy-02.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "de-haproxy-03.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "de-haproxy-04.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "de-haproxy-05.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "de-haproxy.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "debazaar.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "dec-api.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 503,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "delivery-websocket-haproxy.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "demo-test.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "demo.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "developers.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "devxl.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "dineout-media-assets.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 400,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "dinersone-proxy.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 503,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "disc-akamai-2.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "disc-akamai.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "disc-cf.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 503,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "disc.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 503,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "dp.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "driver-media-assets.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 400,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "dummy.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "email.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "ethics.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "events-proxy.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 503,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "events.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "everything.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "file-instachef.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "finance-haproxy-01.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "finance-haproxy-02.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "finance-haproxy.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "finance-images.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "finance-vas.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "finance.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "flux.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "fm-app.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 401,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "fm.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "fna.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "food-media-assets.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 400,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "5d716fc9e75fd1d9082f6ea0dba3fc85fa1bfb14a4b204d2c436e232cbb52c2f",
+      "security_hash": "84ca0a6fd574da97c5089ff48dd401d488a72cac0625b3f311eeb69f924a740f",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "foodios-media-assets.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 400,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "5d716fc9e75fd1d9082f6ea0dba3fc85fa1bfb14a4b204d2c436e232cbb52c2f",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "foodxp-media-assets.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 400,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "5d716fc9e75fd1d9082f6ea0dba3fc85fa1bfb14a4b204d2c436e232cbb52c2f",
+      "security_hash": "84ca0a6fd574da97c5089ff48dd401d488a72cac0625b3f311eeb69f924a740f",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "fulfillment-middleware.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "fulfillment.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "genie-media-assets.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 400,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "5d716fc9e75fd1d9082f6ea0dba3fc85fa1bfb14a4b204d2c436e232cbb52c2f",
+      "security_hash": "84ca0a6fd574da97c5089ff48dd401d488a72cac0625b3f311eeb69f924a740f",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "go-staging.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "go.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "graylog-es-monitor.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "graylog.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "h2.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "hackathon.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "handpicked.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 502,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "haproxy-kibana.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "hyperlink.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "3d64ceeba2717dc7c20feb13e33f05f979fade6c30603b080ac043f4d8284477",
+      "security_hash": "a8898e111f97a14369657543da7d006a73536aa77c4f4dc554c92003df0bc8f6",
+      "sitemap_hash": "a8898e111f97a14369657543da7d006a73536aa77c4f4dc554c92003df0bc8f6",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "idp-employees.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 503,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "im-com-app.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "image-gen.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "img.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "impresario.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "inc-portal.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "insanelygood-media-assets.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 400,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "insanelygood.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "insights.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "insightsvi.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "instachef.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "instamart-beta.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "instamart-media-assets.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 400,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "5d716fc9e75fd1d9082f6ea0dba3fc85fa1bfb14a4b204d2c436e232cbb52c2f",
+      "security_hash": "84ca0a6fd574da97c5089ff48dd401d488a72cac0625b3f311eeb69f924a740f",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "instamart.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "331ea9090db0c9f6f597bd9840fd5b171830f6e0b3ba1cb24dfa91f0c95aedc1",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "instamax-front-caching.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 502,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "instamax-media-assets.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 400,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "3c88966dce02f7aebfeafc922f5cdbe293347ed2cbdba7cdb55adcc3bf4aa87f",
+      "security_hash": "84ca0a6fd574da97c5089ff48dd401d488a72cac0625b3f311eeb69f924a740f",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "instamax.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "integration.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "internal.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "inventory-endpoint.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "inventory.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "ipay-qa.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "ipay.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "ipay2.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "just.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "331ea9090db0c9f6f597bd9840fd5b171830f6e0b3ba1cb24dfa91f0c95aedc1",
+      "security_hash": "338ebd93fe2e9ad2415f8b32ad504461991039bd4df9ef8332f3ee6512d72fab",
+      "sitemap_hash": "d474369314dd22e1762e433406f8bcd61a2b7abc7096c4eee44c814d62a1c8a2",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "kiosk.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "kitchen.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "klaxon.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "labs.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "launchpad.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "learn.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "listonscenes.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "lms.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "loom.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "makemesuper.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "maps.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "marketing-2.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "marketing-comm.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "marketing-endpoint.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "marketing-media-assets.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 400,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "marketing-old.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "marketing.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "matchdaymania.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "mcp.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 401,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "mdm.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "media-assets.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 400,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "5d716fc9e75fd1d9082f6ea0dba3fc85fa1bfb14a4b204d2c436e232cbb52c2f",
+      "security_hash": "84ca0a6fd574da97c5089ff48dd401d488a72cac0625b3f311eeb69f924a740f",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "media-assets4.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 400,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "5d716fc9e75fd1d9082f6ea0dba3fc85fa1bfb14a4b204d2c436e232cbb52c2f",
+      "security_hash": "84ca0a6fd574da97c5089ff48dd401d488a72cac0625b3f311eeb69f924a740f",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "mediaplatform.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "membership.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "minis-media-assets.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 400,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "mitra.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "moments-marketing.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "moments-store.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 400,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "moments.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "2cdaca175cdb0f291c30458c7759cef0e60486c4b7f6b9ef5b58a719ce19eaf2",
+      "security_hash": "2cdaca175cdb0f291c30458c7759cef0e60486c4b7f6b9ef5b58a719ce19eaf2",
+      "sitemap_hash": "2cdaca175cdb0f291c30458c7759cef0e60486c4b7f6b9ef5b58a719ce19eaf2",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "momentsatwork.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "2cdaca175cdb0f291c30458c7759cef0e60486c4b7f6b9ef5b58a719ce19eaf2",
+      "security_hash": "2cdaca175cdb0f291c30458c7759cef0e60486c4b7f6b9ef5b58a719ce19eaf2",
+      "sitemap_hash": "2cdaca175cdb0f291c30458c7759cef0e60486c4b7f6b9ef5b58a719ce19eaf2",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "moneta.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "myvalendine.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "njord.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "npi.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "oms-crm-endpoint.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "oms-endpoint.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "oms-haproxy-01.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "oms-haproxy-02.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "oneview-assets.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "oneview.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 503,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "ops.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "origin-klaxon.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "origin-www.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "ozone-idp-brands-im-kba.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "p.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "packpro.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "partner-alt.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "partner-api.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 503,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "partner-canary.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "partner-client-assets.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "partner-client.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "partner-helpcenter-dev.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "9804581a76d3c75e807a210889336afd136a325b6a22691041e48e233d314b92",
+      "security_hash": "9804581a76d3c75e807a210889336afd136a325b6a22691041e48e233d314b92",
+      "sitemap_hash": "9804581a76d3c75e807a210889336afd136a325b6a22691041e48e233d314b92",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "partner-helpcenter-uat.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "7e9f64ee9e082ab77ac557641625d8c87f966cdffafc21cc820090c435eff683",
+      "security_hash": "7e9f64ee9e082ab77ac557641625d8c87f966cdffafc21cc820090c435eff683",
+      "sitemap_hash": "7e9f64ee9e082ab77ac557641625d8c87f966cdffafc21cc820090c435eff683",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "partner-helpcenter.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "6230e9a23757f69e63ff58b0250e65ebeb806f47c4e41cba47474683cfd22d37",
+      "security_hash": "6230e9a23757f69e63ff58b0250e65ebeb806f47c4e41cba47474683cfd22d37",
+      "sitemap_hash": "6230e9a23757f69e63ff58b0250e65ebeb806f47c4e41cba47474683cfd22d37",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "partner-metrics.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "partner-self-client.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "partner-staging.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "90d24bc3bf698ac1e173739502298ccca72adf1f564fab05f484b8c48d1cadd2",
+      "security_hash": "69a805f2ab6d9c99616856419763b2c277fc5726af8b649d1c92a4838c6d2b10",
+      "sitemap_hash": "69a805f2ab6d9c99616856419763b2c277fc5726af8b649d1c92a4838c6d2b10",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "partner-uat1.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "partner-uat2.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "partner-with-us-test.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "partner-with-us.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "a8898e111f97a14369657543da7d006a73536aa77c4f4dc554c92003df0bc8f6",
+      "security_hash": "a8898e111f97a14369657543da7d006a73536aa77c4f4dc554c92003df0bc8f6",
+      "sitemap_hash": "a8898e111f97a14369657543da7d006a73536aa77c4f4dc554c92003df0bc8f6",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "partner.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "90d24bc3bf698ac1e173739502298ccca72adf1f564fab05f484b8c48d1cadd2",
+      "security_hash": "a8898e111f97a14369657543da7d006a73536aa77c4f4dc554c92003df0bc8f6",
+      "sitemap_hash": "a8898e111f97a14369657543da7d006a73536aa77c4f4dc554c92003df0bc8f6",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "payments-canary.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "payments-staging.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 405,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "payments.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 405,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "picker-api-gateway.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "picker-beta.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 503,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "picker.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "portal-endpoint.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "portal-h2.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "portal-haproxy-02.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "portal-haproxy-04.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "portal-haproxy-05.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "portal-haproxy-07.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "portal-haproxy-08.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "portal-haproxy.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "portal-helpcenter-assets.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "pos.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 503,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "preorder.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "preprod-anobis.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "presto.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "profile.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "promos-api.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "promos.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "proxy.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "pu.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "pyng-media-assets.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 400,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "qv.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "r.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 202,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "redirects-haproxy.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "remote.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "rest-service.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "restaurant-feed.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 401,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "restaurants.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "retool-embed-assets.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "reviews.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "rich-media-assets.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "ride.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": true,
+      "robots_hash": "40fc06e50f33f461884bd902c512faa8ebb4d22cd52877a5011d5f5cfb773eb7",
+      "security_hash": "",
+      "sitemap_hash": "52c89d734a5d1b40390c8a31db7dca465b5dfd3c0b67824bcfd9bfa7d366fdc6",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "rms.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "rng-endpoint.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "roadrunner-cdn.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "sales.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "sandbox.cloud-menu.api.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "sanemobileuat.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "scm-apps-assets.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 502,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "scm-apps-beta-assets.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 502,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "selfdelivery.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "serviceability-rule-ui-test.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "serviceability-rule-ui.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "sf-chat-widget.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "sfom.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "sit.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "snacc-media-assets.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 400,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "3c88966dce02f7aebfeafc922f5cdbe293347ed2cbdba7cdb55adcc3bf4aa87f",
+      "security_hash": "84ca0a6fd574da97c5089ff48dd401d488a72cac0625b3f311eeb69f924a740f",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "spns.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "staging-api-origin.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "staging-assure.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "331ea9090db0c9f6f597bd9840fd5b171830f6e0b3ba1cb24dfa91f0c95aedc1",
+      "security_hash": "9b5acadbae700e49710cc06d5c9abac6d0a13c43ba6e0670b619acbf572658dc",
+      "sitemap_hash": "9ae044f512a306f3e12e9a1c040347a091575c220db1e58b2e901f533a739fe6",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "staging-insanelygood.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "staging-instamax.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "staging.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "staples-plus.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 400,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "static-vendor.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "storejobs.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "stores-staging.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "stores.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "331ea9090db0c9f6f597bd9840fd5b171830f6e0b3ba1cb24dfa91f0c95aedc1",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "stubs.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "super-app-2.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "super-app-akamai.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "super-app-cf.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "super-app-haproxy.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "super-app-ozone.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "super-app.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "surprise.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "swiggyvaluesuat.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "td-haproxy-02.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "telephony-haproxy.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "telephony-service.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "temp.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "test-cert.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "test.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "tfc.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "thefoodclub.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "ticketing-workbench-stats.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "ticketing-workbench.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "tickit.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "tns-dashboard.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "tns.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "toing-media-assets.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 400,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "5d716fc9e75fd1d9082f6ea0dba3fc85fa1bfb14a4b204d2c436e232cbb52c2f",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "tracking-comm.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "tracking-communication.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "uat.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "usub.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "valuesmasterclass.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "vas-admin.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 400,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "vas-maalik.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "vas-portal.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 400,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "vendor-endpoint.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "vendor-h2.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "vendor-haproxy.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "vendor-integration-endpoint.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 503,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "vendor-integration.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "vendor-media-assets.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 400,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "3c88966dce02f7aebfeafc922f5cdbe293347ed2cbdba7cdb55adcc3bf4aa87f",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "vendor-nudge-assets.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "vendor.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "vendorhaproxy-6.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "vhc-app-admin.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "vhc-app.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "90d24bc3bf698ac1e173739502298ccca72adf1f564fab05f484b8c48d1cadd2",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "vhc-composer.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "vms-static.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "vymo-adapter.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "webviews-canary.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "webviews-staging.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "webviews.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "whatthefalooda.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "workbench.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "ws-uat.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "ws.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "www.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 202,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "8aade282cbf07a52bbe3178df6f3ceabe7a82ff3ee0583d3cbedff7c5ebd152c",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    },
+    {
+      "host": "xl.swiggy.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-14T10:27:11.505Z",
+      "last_seen": "2026-07-14T10:27:11.505Z"
+    }
+  ]
+}
