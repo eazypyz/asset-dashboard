@@ -1,0 +1,125 @@
+
+
+<!doctype html>
+<html dir="ltr" lang="en" class="no-js">
+<head>
+    <title>Sign in</title>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8" />
+    <meta name="robots" content="noindex">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+    <link rel="shortcut icon" href="https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/mark-content_hub" type="image/x-icon" />
+    <script>
+        window.M = window.M || {};
+        window.M.signalREnabled = true;
+        window.M.afterDefinition = null;
+        window.M.afterDatasources = null;
+    </script>
+    <script src="https://ch-webapp-v1-4.sitecorecontenthub.cloud/js/vendor/modernizr/modernizr.js" ></script>
+    <!-- spliting files in different bundles for max file/selector size in ie9 -->
+    <!-- CSS FILES -->
+    <link href="https://ch-webapp-v1-4.sitecorecontenthub.cloud/bundles/css/main.css" rel="stylesheet"  />
+        <link href="https://ch-webapp-v1-4.sitecorecontenthub.cloud/bundles/css/base-style.css" rel="stylesheet"/>
+        <link href="https://ch-webapp-v1-4.sitecorecontenthub.cloud/bundles/css/base-print.css" rel="stylesheet"/>
+    <!-- / END OF CSS FILES -->
+
+    <script src="https://ch-webapp-v1-4.sitecorecontenthub.cloud/bundles/js/minimal.js" ></script>
+
+
+    <!-- css files for the social buttons -->
+    <link href="https://ch-webapp-v1-4.sitecorecontenthub.cloud/css/social-buttons/bootstrap-social.css" rel="stylesheet" />
+</head>
+<body class="login skin-m-default" style="">
+
+    <div class="container">
+        
+
+<div id="login" class="hide">
+    <div class="login-wrapper">
+        <div class="login-logo-wrapper">
+            <img src="https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/logo-content_hub" class="login-logo" />
+        </div>
+<form action="/en-US/Account?ReturnUrl=%2Fsitemap.xml" method="post">
+<div class="form-group">
+
+    <div class="user-name">
+        <input autofocus="" class="form-control" data-val="true" data-val-required="Username required" id="SignInDetails_UserName" name="SignInDetails.UserName" placeholder="Username" type="text" value="" />
+        <span class="field-validation-valid" data-valmsg-for="SignInDetails.UserName" data-valmsg-replace="true"></span>
+    </div>
+</div>
+<div class="form-group">
+
+    <div class="password">
+        <input class="form-control" data-val="true" data-val-required="Password required" id="SignInDetails_Password" name="SignInDetails.Password" placeholder="Password" type="password" />
+        <span class="field-validation-valid" data-valmsg-for="SignInDetails.Password" data-valmsg-replace="true"></span>
+    </div>
+</div>
+
+                    <input type="submit" value="Sign in" id="SignInDetails_SubmitButton" class="btn btn-primary btn-block" />
+                    <div class="login-error-wrapper grid--justify-center">
+                        
+                    </div>
+<input name="__RequestVerificationToken" type="hidden" value="CfDJ8AMKqEsi0LBBpls3lfMpH1qC8wwX9Yw37tCkNnGmGpMMvu-s-ovBz1JWNc1q2t3WTANfKc1vyUNZAochH9yfHHP7UAZrCajN52Y6cH7kvKxLxl1LXmYNrB6rJdRYfthXMxDYGayDq1LFs-AEEzZVjS0" /></form>
+        <div class="text-align-center login-extra-links">
+
+        </div>
+
+            <div>
+                
+        <hr class="login-separator" />
+<form action="/en-US/Account/ExternalLogin?ReturnUrl=%2Fsitemap.xml&amp;CloseWindowOnLogin=False" method="post">            <div id="socialLoginList">
+                <p class="margin-bottom-half">
+                        <button type="submit"
+                                class="btn btn-default btn-block btn-social"
+                                id="SitecoreContentHubProd"
+                                name="provider"
+                                value="SitecoreContentHubProd"
+                                title=" Sign in using your Saml account">
+
+                            <span class="m-icon m-icon-logo-saml"></span>
+
+                            <span>
+                                Sign in with SSO
+                            </span>
+                        </button>
+                        <div class="help-block text-center margin-bottom-default">
+                            
+                        </div>
+                </p>
+            </div>
+<input name="__RequestVerificationToken" type="hidden" value="CfDJ8AMKqEsi0LBBpls3lfMpH1qC8wwX9Yw37tCkNnGmGpMMvu-s-ovBz1JWNc1q2t3WTANfKc1vyUNZAochH9yfHHP7UAZrCajN52Y6cH7kvKxLxl1LXmYNrB6rJdRYfthXMxDYGayDq1LFs-AEEzZVjS0" /></form>
+<script>
+    if (false && 1 === 1)
+    {
+        document.getElementById("sitecoreidentity")?.click();
+    }
+</script>
+
+            </div>
+    </div>
+    <div class="login-bg"></div>
+</div>
+
+<div id="openInWindow" class="hide">
+    <div class="text-align-center">
+        <p id="mainExplanationText">A pop-up window will ask you to authenticate to Content Hub</p>
+        <p><a href="#" class="font-size-s" id="openAuthWindow">If no pop-up has been opened, please click here to open it manually</a></p>
+        <p><a href="#" class="font-size-s" id="requestStorageAccess">Click here to allow third party cookie access</a></p>
+    </div>
+</div>
+
+<script>
+    const loginInWindowUrl = "/en-US/Account?closeWindowOnLogin=True&returnUrl=%2Fsitemap.xml&forcePassive=True";
+    const windowTitle = "";
+
+    window.translations = {"NoEmailError":"The specified user has no e-mail address.","Register":"Register","ForgotPasswordQuestion":"Forgot password?","RequestResetPassword":"If you want to set or reset your password, ","PasswordDoesNotConformToPattern":"Password does not conform to policy","UserNotFoundError":"The specified user could not be found.","Reset":"Reset","UnabletoGetUsernameFromExternalLoginInfoError":"Unable to get username from external login provider.","EmailDoesNotConformToPattern":"Email address is invalid","NoAccount":"Don't have an account?","UnabletoGetEmailFromExternalLoginInfoError":"Unable to get email address from external login provider.","ExternalRedirectLoginWarning":"This will close the current window, so make sure to <b>save any changes</b> before clicking the login button.","ConfirmationMailSentInfo":"Check your email to activate your account","UsingExternalAccount":"Sign in using your {account} account","OldPassword":"Old password","ClickToLogin":"click here to login.","RegisterAccountFailed":"Unable to register account.","DuplicateEmail":"The email is already taken.","storageAccessWasNotGranted":"Storage access was not granted. Please allow storage access to continue.","AllowStorageAccess":"Click here to allow third party cookie access","AssociateAccountFailed":"Failed to link external account to existing user. Status: {status}","ResetPasswordError":"Password reset failed. If the problem persists, please contact support.","Cancel":"Cancel","ConfirmationMailSent":"Confirmation email sent","Create":"Create account","UnableToLogin":"Unable to sign in","SpecifyUsername":"Username required","InvalidUserName":"The User name is invalid, can only contain letters or digits.","ResetPassword":"Reset password","UnconfirmedEmailInfo":"Check your email to activate your account","ComparePasswordError":"Password and confirmation password do not match","UsernamePasswordNotFoundError":"Unable to find a user with specified username and password.","ChangePassword":"Change password","EmailAddressNotAllowed":"The email address is not allowed for account creation.","CreateExternalAccountFailed":"Failed to create account from external credentials. Status: {status}","PasswordIsInvalid":"Choose a valid password","CheckEmail":"Check your email","ExternalRedirectLoginLink":"Go to login","PasswordHelpText":"At least 6 characters, one lowercase character, one uppercase character, one number and one special character","UsernameDescription":"This is typically the active directory account","YouAreNotAllowedError":"Your account is not allowed to access the system. Please contact an administrator.","SignInWith":"Sign in with {type}","SignInError":"Authentication failed. Make sure your username and password are correct. If the problem persists, please contact support.","UsernameFieldRequired":"Username is required","RequestResetPasswordClickHere":"click here.","ReturnToLogin":"Return to sign in","ClickHereToOpenWindow":"If no pop-up has been opened, please click here to open it manually","ResetPasswordSuccess":"Password reset","Email":"Email","verifying":"verifying...","UnconfirmedEmailError":"Your email address hasn't been confirmed yet. Please check your email and activate your account.","EmailTooShort":"Email cannot be null or empty.","DuplicateUserName":"The username is already taken.","CloseThisTab":"You can now close this tab or ","UnableToRetrieveExternalLoginInfoError":"Unable to retrieve external login information.","ConfirmPassword":"Confirm password","theUsernameIsAlreadyTaken":"The username is already taken.","LoginFailure":"Sign-in failed","ForgotPassword":"Forgot password","EmailLink":"Reset password","ExternalLoginFailed":"Unexpected result returned from authentication provider","ExternalSignInError":"Authentication failed. If the problem persists, please contact support.","InvalidToken":"Please request a new password reset.","ApplicationNeedsThirdPartyCookies":"This application needs to read third party cookies to function properly","EnterUsername":"Username","AssociateExistingAccount":"Link existing account","RememberMeDescription":"To indicate whether the session should be remembered","LoginConfirmation":"Sign-in confirmation","ConfirmPasswordFieldRequired":"Confirm password is required","InvalidEmail":"The email is invalid, can only contain letters or digits.","UnableToConfirmEmail":"Unable to confirm email address","Change":"Change","ConfirmEmail":"Confirm email","ExternalLoginInfo":"You’ve signed in with {provider}. You can create a new account below. Alternatively, you can link an existing account to your {provider} login by clicking Associate.","PasswordErrorMessage":"At least 6 characters, one lowercase character, one uppercase character, one number and one special character.","UserName":"Username","CreateNewAccount":"Create account","WrongCredentialsError":"The provided username or password are incorrect.","CheckEmailToResetPassword":"If the username '{username}' exists, you should receive an email with further instructions on how to reset your password.","Password":"Password","ExternalRedirectLogin":"You need to log in to Sitecore DAM before you can access this page. Please follow the link to log in and try again.","PasswordFieldRequired":"Password is required","FailedToChangePasswordError":"Failed to change password. If the problem persists, please contact support.","AuthenticateToOpenWindow":"A pop-up window will ask you to authenticate to Content Hub","UsernameTooShort":"Username cannot be null or empty.","ResetPasswordEmailSent":"Reset password email sent. You can now close this tab.","OldPasswordFieldRequired":"Old password is required","EmailFieldRequired":"Email is required","RememberMe":"Keep me signed in","UnconfirmedEmail":"Unconfirmed email","SignIn":"Sign in","CreateAccount":"Create account","ConfirmEmailSuccess":"Thank you for confirming your email address.","SpecifyPassword":"Password required","LockedOutErrorMessage":"Your account has been locked out. Please try again later or contact your administrator."};
+</script>
+<script src="https://ch-webapp-v1-4.sitecorecontenthub.cloud/sign-in.js"></script>
+
+
+
+    </div>
+    
+</body>
+</html>

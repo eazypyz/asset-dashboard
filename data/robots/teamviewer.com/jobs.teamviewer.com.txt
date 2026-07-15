@@ -1,0 +1,2104 @@
+<!DOCTYPE html>
+
+<html
+  lang="en"
+  dir="ltr"
+  class="h-screen"
+>
+  <head>
+    <script src="https://assets-aws.teamtailor-cdn.com/assets/packs/js/runtime-e6b539f0de36c8f24e0e.js" crossorigin="anonymous" data-turbo-track="reload" nonce="" defer="defer" integrity="sha384-3HDXM9vcSBqtJ6PnEzNDIgJ0AkkegTtW+kYWNLTqo0jdFw+kXyKmhxgVnfv7iT5I"></script>
+<script src="https://assets-aws.teamtailor-cdn.com/assets/packs/js/5217-d722161248a86ef021eb.js" crossorigin="anonymous" data-turbo-track="reload" nonce="" defer="defer" integrity="sha384-3uhEwc9uRPhLRiFZuyE1+fXG2cPfzR9U79Emaqi+mAfXU4IoMzhLyJlcm/7r1wQE"></script>
+<script src="https://assets-aws.teamtailor-cdn.com/assets/packs/js/cookies-a135f52d0a68c93f4012.js" crossorigin="anonymous" data-turbo-track="reload" nonce="" defer="defer" integrity="sha384-0sL6GTF8sTKsSFPNxAGm6429n1teKKhy573MDp74v/UIVHe/z//4JrnBZWLBIJZQ"></script>
+<script src="https://assets-aws.teamtailor-cdn.com/assets/packs/js/601-7d3383e7a375dc1aaa1b.js" crossorigin="anonymous" data-turbo-track="reload" nonce="" defer="defer" integrity="sha384-l5I801Pjg1EBg2KQZqeHOLGUzdhI7+PBvRsMqdEOUrzi+WANH250/E7d/ntAKPkC"></script>
+<script src="https://assets-aws.teamtailor-cdn.com/assets/packs/js/8559-d931dd583b4bb79d0e2a.js" crossorigin="anonymous" data-turbo-track="reload" nonce="" defer="defer" integrity="sha384-9pmZ0INZG4vdr7arMaCamElHv26NrYEKOvqhf9yjMS5zyzkA40w7ExDWqxGcv2vE"></script>
+<script src="https://assets-aws.teamtailor-cdn.com/assets/packs/js/7107-2c8b0452b1096d40d889.js" crossorigin="anonymous" data-turbo-track="reload" nonce="" defer="defer" integrity="sha384-F6jpFzRjsKwuSo3AQM4sFVxNTUvURcCz99PinP+Ioe6ku9FF/btyL6hHI9n3qsl9"></script>
+<script src="https://assets-aws.teamtailor-cdn.com/assets/packs/js/7328-a90e9b50bbe4ad94fa86.js" crossorigin="anonymous" data-turbo-track="reload" nonce="" defer="defer" integrity="sha384-Pflrvh82gtE0Snhhc4LDPCFmxwCnfndAZbEL7+P8QKqp1cR2/u+OnWeg1erI6CWc"></script>
+<script src="https://assets-aws.teamtailor-cdn.com/assets/packs/js/3065-7de401fba7d360a4a095.js" crossorigin="anonymous" data-turbo-track="reload" nonce="" defer="defer" integrity="sha384-+Ek/FR5NwYYU5s0qoU+8osFiFq9wQH0ZgVqSB1PLK3DoJQmTDwF1eUhgt0n/eUDv"></script>
+<script src="https://assets-aws.teamtailor-cdn.com/assets/packs/js/careersite-f93812d99b448ae08b14.js" crossorigin="anonymous" data-turbo-track="reload" nonce="" defer="defer" integrity="sha384-E76rg8Z5rzKMBc81+hW3BgtkQ6ZkFKpHIys3AZwzPrcxvQGpI5BaHDiLJ3TrQN+2"></script>
+<script src="https://assets-aws.teamtailor-cdn.com/assets/packs/js/4254-36483d07810e9f3d712b.js" crossorigin="anonymous" data-turbo-track="reload" nonce="" defer="defer" integrity="sha384-6DGicZElWapzelOZ2AnXkF6txQxMobBcMQLBhDO5JL0XOa6j59wTsj+NeLizXlSe"></script>
+<script src="https://assets-aws.teamtailor-cdn.com/assets/packs/js/8454-dbf266e51a6e251adb2a.js" crossorigin="anonymous" data-turbo-track="reload" nonce="" defer="defer" integrity="sha384-A6FFhV6mQEn+IefDPrBc5e9k8qqwO2FTh+VgMw+X1AsYAA+kGwRNYPGbRetoV0sO"></script>
+<script src="https://assets-aws.teamtailor-cdn.com/assets/packs/js/font-awesome-145f74e601b47a3e23cc.js" crossorigin="anonymous" data-turbo-track="reload" nonce="" defer="defer" integrity="sha384-1rbhckhq8TFzpPe3ZngylJAXQbZiU8vFxsSZ4140VRxrwwF1m6UwmlIelHSdM4we"></script>
+
+    <link rel="stylesheet" crossorigin="anonymous" href="https://assets-aws.teamtailor-cdn.com/assets/packs/css/careersite-39221891.css" data-turbo-track="reload" media="all" integrity="sha384-lPoHub3usQ+naG51u4ETIcx3Yf37DbGjsY0rb8eoOTNrQltakcK3oPRH4knx4auv" />
+
+      
+      
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="turbo-cache-control" content="">
+
+    <meta name="turbo-prefetch" content="false">
+
+    <title>
+      Freie Stellen - TeamViewer Germany GmbH
+    </title>
+
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="dIi3mJ9nDlLpWs-8kgP1M74fEAezMb5FhvVIqFCppeinvfeftxR7XrdnGoKCNdvrd-XHr_YUat0FieAQYWMIIw" />
+    
+
+    
+    <link rel='icon' type='image/png' href='https://images.teamtailor-cdn.com/images/s3/teamtailor-production/favicon-v3/image_uploads/d6c1f503-225f-427e-ac20-1aa3af85c4f5/original.png'><link rel='apple-touch-icon' href='https://images.teamtailor-cdn.com/images/s3/teamtailor-production/favicon_apple-v3/image_uploads/d6c1f503-225f-427e-ac20-1aa3af85c4f5/original.png' sizes='180x180'>
+    <meta name="description" content="Job openings at TeamViewer Germany GmbH" />
+    <meta name="keywords" content="Job opportunities, Jobs, Career, Career site" />
+    
+    <meta name="content-signal" content="search=yes, ai-train=no, ai-input=yes">
+    
+    
+    <link rel="alternate" type="application/rss+xml" title="Blog Posts" href="/blog/posts.rss" /><link rel="alternate" type="application/rss+xml" title="Jobs" href="/jobs.rss" />
+
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Freie Stellen - TeamViewer Germany GmbH" />
+    <meta property="og:site_name" content="TeamViewer Germany GmbH" />
+    <meta property="og:url" content="https://careers.teamviewer.com/jobs" />
+    <meta property="og:description" content="Job openings at TeamViewer Germany GmbH" />
+    
+        <meta property="og:image" content="https://screenshots.teamtailor-cdn.com/41d427a8-7c0b-416d-88bd-6e85c268e3bb-facebook.png?update=1779955675" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:image" content="https://screenshots.teamtailor-cdn.com/41d427a8-7c0b-416d-88bd-6e85c268e3bb-twitter.png?update=1779955675" />
+        <meta name="twitter:title" content="Freie Stellen - TeamViewer Germany GmbH" />
+        <meta name="twitter:description" content="Job openings at TeamViewer Germany GmbH" />
+      
+    
+    
+
+    <style media="all">
+  :root {
+    --company-primary-bg-color: 255, 255, 255;
+    --company-primary-bg-contrast-color: #000000;
+    --company-secondary-bg-color: 5, 10, 82;
+    --company-secondary-bg-light-5-color: 6, 13, 106;
+    --company-secondary-bg-fallback-color: 5, 10, 82;
+    --company-primary-text-color: 20, 20, 20;
+    --company-primary-text-dark-5-color: 7, 7, 7;
+    --company-primary-text-dark-10-color: 0, 0, 0;
+    --company-primary-text-light-50-color: 147, 147, 147;
+    --company-primary-text-light-77-color: 216, 216, 216;
+    --company-secondary-text-color: 255, 255, 255;
+    --company-secondary-text-light-5-color: 255, 255, 255;
+    --company-secondary-text-light-15-color: 255, 255, 255;
+    --company-link-color: 5, 10, 82;
+    --company-link-color-on-white: 5, 10, 82;
+    --company-color: 20, 20, 20;
+
+    --company-button-text-color: 255, 255, 255;
+    --company-button-bg-color: 48, 86, 239;
+
+    --company-button-bg-light-5-color: 72, 105, 241;
+    --company-button-bg-light-15-color: 119, 144, 244;
+
+    --company-button-bg-color-on-white: 48, 86, 239;
+    --company-secondary-text-color-on-white: 77, 77, 77;
+
+    --company-border-radius: 4px;
+
+    --company-header-font-family: "Roboto";
+    --company-header-font-weight: 700;
+    --company-body-font-family: "Inter";
+    --company-body-font-weight: 400;
+  }
+    footer a[href="/sso_login"] {
+  display: none !important;
+}
+.z-career-header-menu-content a[href*="sso_login"] {
+  display: none !important;
+}
+.z-career-header-menu-content span.text-lg.font-bold:has(+ a[href*="sso_login"]) {
+  display: none !important;
+}
+
+section[data-controller="blocks--cover--scroll"] .delay-\[100ms\].w-full {
+  padding: 0px;
+}
+@media (max-width: 1023px) {
+  section[data-controller="blocks--cover--scroll"]
+  > .relative.flex.flex-col.items-center.min-h-\[inherit\].justify-center.w-full.h-full.px-4.text-lg.text-center.z-career-block-content {
+    padding-bottom: 8rem !important;
+  }
+}
+
+section[data-controller="blocks--cover--scroll"] > .relative.flex.flex-col.items-center.min-h-\[inherit\].justify-center.w-full.h-full.px-4.text-lg.text-center.z-career-block-content {
+  justify-content: end !important;
+  padding-bottom: 16rem;
+}
+
+</style>
+
+  <meta name="theme-color" content="#141414">
+
+      <link rel="preload" href="https://assets-aws.teamtailor-cdn.com/assets/careersite/Roboto-latin-basic-620dfa2113d7e0c481107c8cc189dcb0cade09f198119893ca24cef05dff31b4.woff2" as="font" type="font/woff2" crossorigin="true">
+  <link rel="preload" href="https://assets-aws.teamtailor-cdn.com/assets/careersite/Inter-latin-basic-489518744403b52ed52e9a4f6cf7a50d62b62daf4c6443c3a4015169dc52e622.woff2" as="font" type="font/woff2" crossorigin="true">
+
+  <style>
+      @font-face {
+        font-family: "Roboto";
+        src: url("https://assets-aws.teamtailor-cdn.com/assets/careersite/Roboto-latin-basic-620dfa2113d7e0c481107c8cc189dcb0cade09f198119893ca24cef05dff31b4.woff2") format("woff2");
+        unicode-range: U+0020-007F,U+2000-206F;
+      }
+
+      @font-face {
+        font-family: "Roboto";
+        src: url("https://assets-aws.teamtailor-cdn.com/assets/careersite/Roboto-latin-supplement-1805984dc2cb5c1337cbeef0eb28f12ee41737b5c600c6907a55fcb0ab1d526c.woff2") format("woff2");
+        unicode-range: U+00A0-00FF;
+      }
+
+      @font-face {
+        font-family: "Roboto";
+        src: url("https://assets-aws.teamtailor-cdn.com/assets/careersite/Roboto-other-4ae4eb664f91e2e81a891564520094152e18eb28d9f5bb99b929c6a6bb7ffde1.woff2") format("woff2");
+        unicode-range: U+0100-1FFF,U+2070-E007F;
+      }
+      @font-face {
+        font-family: "Inter";
+        src: url("https://assets-aws.teamtailor-cdn.com/assets/careersite/Inter-latin-basic-489518744403b52ed52e9a4f6cf7a50d62b62daf4c6443c3a4015169dc52e622.woff2") format("woff2");
+        unicode-range: U+0020-007F,U+2000-206F;
+      }
+
+      @font-face {
+        font-family: "Inter";
+        src: url("https://assets-aws.teamtailor-cdn.com/assets/careersite/Inter-latin-supplement-45357258adee2412721bf717a9560910e5fc0c14607a2fae48fee415863c0e67.woff2") format("woff2");
+        unicode-range: U+00A0-00FF;
+      }
+
+      @font-face {
+        font-family: "Inter";
+        src: url("https://assets-aws.teamtailor-cdn.com/assets/careersite/Inter-other-2003ab3ea3c24f30390f2c0bd6bfbfbf4a469b3d6149e498c6be8bd62bc49faf.woff2") format("woff2");
+        unicode-range: U+0100-1FFF,U+2070-E007F;
+      }
+  </style>
+
+
+  </head>
+
+  <body class="font-company-body min-h-dvh flex flex-col text-company-primary bg-company-primary overflow-x-clip @container company-link-style--underline jobs index" data-controller="careersite--ready careersite--referrer-cookie careersite--preload" data-careersite--referrer-cookie-disabled-value="false" data-careersite--ready-in-editor-value="false" data-block-scripts="false">
+    
+
+    
+
+      <dialog data-controller="common--cookies--alert" data-common--cookies--alert-block-scripts-value="false" data-common--cookies--alert-takeover-modal-value="false" data-common--cookies--alert-show-cookie-widget-value="false" class="company-links fixed shadow-form w-auto items-center rounded p-4 bg-company-primary text-company-primary overflow-y-auto border-none max-h-[80vh] z-cookie-alert lg:gap-x-6 lg:max-h-[calc(100vh-40px)] flex-col inset-x-4 bottom-4 mb-0 mt-auto justify-between !translate-y-0 !top-0 lg:p-10 lg:flex-row lg:inset-x-[40px] lg:mb-6">
+
+    <div class="w-full max-w-screen-xl overflow-y-auto">
+      <h2 class="font-bold block text-md mb-2">This website uses cookies to ensure you get the best experience.</h2>
+
+      <p class="mb-2">
+        TeamViewer Germany GmbH and our selected partners use cookies and similar technologies (together “cookies”) that are necessary to present this website, and to ensure you get the best experience of it.
+
+          If you consent to it, we will also use cookies for analytics purposes.
+      </p>
+
+      <p class="mb-2">See our <a class='company-link' href='https://careers.teamviewer.com/cookie-policy'>Cookie Policy</a> to read more about the cookies we set.</p>
+
+      <p>You can withdraw and manage your consent at any time, by clicking “Manage cookies” at the bottom of each website page.</p>
+</div>
+    <div
+      class="
+        flex flex-col items-center gap-[10px] mt-6 flex-shrink-0 mb-2 w-full
+        md:flex-row md:w-auto lg:flex-col
+      "
+    >
+      <button class="careersite-button w-full" aria-label="Accept all cookies" data-action="click-&gt;common--cookies--alert#acceptAll">Accept all cookies</button>
+
+        <button class="careersite-button w-full" aria-label="Decline all non-necessary cookies" data-action="click-&gt;common--cookies--alert#disableAll">Decline all non-necessary cookies</button>
+
+      <button class="careersite-button w-full" aria-label="Cookie preferences" data-action="click-&gt;common--cookies--alert#openPreferences">Cookie preferences</button>
+    </div>
+</dialog>
+
+
+
+    <a href="#main-content" class="careersite-button min-w-[13.75rem] group 
+          absolute top-0 left-0 py-2 px-4 z-[50] transform
+          -translate-y-full -translate-x-full focus:translate-y-2 focus:translate-x-2 transition">
+  <span class="flex items-center justify-center gap-x-3">
+    
+    <span class="truncate">Skip to main content</span>
+
+      <i class="transition duration-200 transform fas mt-[-1px] fa-chevron-right group-hover:translate-x-1 rtl:group-hover:-translate-x-1 rtl:-scale-x-100"></i>
+  </span>
+</a>
+
+    
+  <header class="header z-career-header flex w-full h-20   hover:after:top-0 !relative" data-section-model="header" style="--header-text-color: #ffffff;--header-background-color: #050a52;--navigation-background-color: #050a52;--navigation-highlight-color: #3056ef;">
+    <div
+  class="
+    header__logo absolute @md:inset-0 @md:flex @md:items-center @md:justify-start w-full
+    @md:mx-6 @md:relative
+  "
+>
+          
+<a class="relative h-[72px] flex items-center justify-center text-center focus-visible-header" id="e29a9ee5edc594f587ade6840f9b7ab32" data-test="company-logo" data-turbo-permanent="true" href="https://www.teamviewer.com/careers/">
+    <img alt="TeamViewer Germany GmbH career site" class="mx-auto max-w-[180px] @sm:max-w-[200px] max-h-[90%]" src="https://images.teamtailor-cdn.com/images/s3/teamtailor-production/logotype-v3/image_uploads/e7eee368-23fe-4c48-973b-f4bcc7e4a085/original.svg" />
+</a>
+
+</div>
+
+<div class="flex-grow hidden @md:block"></div>
+
+<div class="flex items-center h-full flex-row-reverse">
+              <div class="flex items-center h-full ltr:ml-2 rtl:mr-2" data-controller="common--header--menu" data-common--header--menu-open-value="false" data-test="header-menu">
+  <button
+    class="
+      relative flex items-center gap-4 px-4 no-underline cursor-pointer h-14
+      @sm:w-auto bg-opacity-80 @sm:bg-transparent z-career-header-menu-button
+      focus-visible-header
+    "
+    aria-expanded="false"
+    data-action="click->common--header--menu#toggle"
+    data-common--header--menu-target="button"
+  >
+    <span class="header-menu-burger" data-common--header--menu-target="burger">
+        <span class="header-menu-burger__item"></span>
+        <span class="header-menu-burger__item"></span>
+        <span class="header-menu-burger__item"></span>
+        <span class="header-menu-burger__item"></span>
+    </span>
+
+    <span class="sr-only @sm:not-sr-only text-sm leading-normal tracking-wider uppercase !whitespace-nowrap">Career menu</span>
+  </button>
+
+  <div
+    class="
+      absolute flex-col @sm:flex-row inset-0 hidden w-full h-screen m-0 overflow-y-auto overscroll-contain pt-20 pb-8 @sm:py-20
+      bottom header__nav z-career-header-menu-content
+    "
+    data-common--header--menu-target="menu"
+  >
+    <nav class="w-full main-nav-menu @sm:h-full">
+      <ul class="w-full @sm:pb-20">
+      </ul>
+    </nav>
+
+    <div class="header-menu__secondary flex flex-col items-start @sm:items-end py-9 px-8 @md:max-h-full @sm:text-right ltr:pr-8 rtl:pl-8 @sm:px-0 @sm:pt-4">
+      <span class="text-lg font-bold">
+        Employee
+      </span>
+
+      <a class="hover:underline focus-visible-header whitespace-nowrap" href="https://careers.teamviewer.com/sso_login">Log in as employee</a>
+
+
+        <span class="mt-12 text-lg font-bold">
+          Candidate
+        </span>
+        <a class="hover:underline focus-visible-header whitespace-nowrap" href="https://careers.teamviewer.com/connect/login">Log in to Connect</a>
+
+        <span class="mt-12 text-lg font-bold">Homepage</span>
+        <a class="hover:underline focus-visible-header" href="https://www.teamviewer.com/en/legal/imprint/">teamviewer.com</a>
+</div>  </div>
+</div>
+
+
+</div>
+</header>
+
+<main class="flex flex-col flex-grow" id="main-content">
+  
+    
+  <section id="section-58077136" style="--block-base-text-color: var(--company-primary-text-color);--block-base-link-color: var(--company-link-color);--block-base-background-color: var(--company-primary-bg-color);--block-base-highlight-color: var(--company-color);--block-title-color: rgba(var(--block-base-text-color), 1);--block-image-background: #050a52;" class="block--jobs  jobs-page block-padding bg-block-preset-primary bg-company-primary text-company-primary" data-section-route="section" data-section-model="58077136" data-section-name="jobs" data-section-label="Jobs">
+    <turbo-frame id="jobs_list">
+
+
+
+
+
+  <div class="w-full text-lg relative -mt-12 @sm:-mt-16 @lg:-mt-20" data-layout="card" data-controller="blocks--jobs" data-blocks--jobs-show-map-value="false" data-blocks--jobs-split-view-value="false" data-blocks--jobs-language-code-value="en" data-blocks--jobs-first-block-value="true" data-blocks--jobs-overflow-auto-class="@lg:overflow-auto" data-blocks--jobs-overflow-hidden-class="@lg:overflow-hidden" data-blocks--jobs-sibling-element-padding-class="@lg:[&amp;.bg-block-preset-primary:not(.keep-block-padding)]:!pt-20" data-blocks--jobs-disabled-map-view-toggle-class="cursor-not-allowed" id="jobs">
+
+    <div class="relative" data-blocks--jobs-target="jobsContainer">
+          <form id="blocks-jobs-filters-form" class="flex text-block-text flex-row block-px @lg:py-3 @lg:items-start @lg:border-b @lg:border-t @lg:border-block-base-text @lg:border-opacity-15 @lg:bg-company-primary col-span-2 sticky z-[20] top-4 @lg:top-0" data-turbo-frame="jobs_list" data-turbo-action="replace" data-controller="blocks--jobs--filters" data-action="submit-&gt;blocks--jobs--filters#handleBefore jobs-map-changed@window-&gt;blocks--jobs--filters#handleMapChange jobs-filters-mobile-submit@window-&gt;blocks--jobs--filters#handleExternalSubmit" data-blocks--jobs--filters-common--options-widget-outlet=".options-widget" data-blocks--jobs--filters-using-map-value="false" data-blocks--jobs--filters-has-search-value="true" data-blocks--jobs--filters-visible-mobile-filters-value="{&quot;department&quot;:&quot;Departments&quot;,&quot;country&quot;:&quot;Countries&quot;,&quot;region&quot;:&quot;Regions&quot;,&quot;location&quot;:&quot;Locations&quot;,&quot;remote_status_id&quot;:&quot;Remote Statuses&quot;,&quot;employment_type&quot;:&quot;Employment Types&quot;,&quot;type-of-job&quot;:&quot;Type of Job&quot;}" data-blocks--jobs--filters-default-mobile-filters-value="{&quot;department&quot;:&quot;Departments&quot;,&quot;country&quot;:&quot;Countries&quot;,&quot;region&quot;:&quot;Regions&quot;,&quot;location&quot;:&quot;Locations&quot;,&quot;remote_status_id&quot;:&quot;Remote Statuses&quot;,&quot;employment_type&quot;:&quot;Employment Types&quot;,&quot;type-of-job&quot;:&quot;Type of Job&quot;}" data-blocks--jobs--filters-more-count-text-value="nbr more" data-blocks--jobs--filters-desktop-dropdown-options-divider-class="w-full bg-zinc-200 pb-px mb-1" data-blocks--jobs-target="filtersForm" action="/jobs" accept-charset="UTF-8" method="get">
+
+      <div data-blocks--jobs--filters-target="searchContainer" class="hidden @lg:flex items-center pl-2 pr-3 rounded text-opacity-85 focus-within:company-colors-dependant-outline bg-company-primary flex items-center pl-2 pr-3 rounded text-opacity-85 w-fit border border-block-base-text border-opacity-15">
+        <i class="text-xs fas fa-search text-opacity-85"></i>
+
+        <label for="query" class="sr-only">
+          Search
+</label>
+        <input role="search" placeholder="Search" class="bg-transparent !outline-none !ring-0 border-none text-sm text-opacity-85 pl-2 pr-0 leading-[19px] font-medium placeholder-block-base-text" data-name="query" data-action="input-&gt;blocks--jobs--filters#handleSearchInputChange" data-blocks--jobs--filters-target="searchInput" data-turbo-permanent="true" type="text" name="query" id="query" />
+</div>
+    <input type="submit" value="search" class="sr-only" inert="inert" data-blocks--jobs--filters-target="submitButton" data-disable-with="search" />
+
+    <fieldset class="w-full @lg:flex @lg:flex-row @lg:flex-row @lg:items-center @lg:justify-end @lg:flex-wrap hidden gap-3">
+  <legend class="sr-only">
+    Job filters
+</legend>
+
+
+    <div class="relative focus-within:company-colors-dependant-outline common-select" data-controller="common--select" data-common--select-null-value="Departments" data-common--select-options-value="[{&quot;value&quot;:&quot;Corporate&quot;,&quot;label&quot;:&quot;Corporate&quot;},{&quot;value&quot;:&quot;Customer Engineering&quot;,&quot;label&quot;:&quot;Customer Engineering&quot;},{&quot;value&quot;:&quot;Customer Support&quot;,&quot;label&quot;:&quot;Customer Support&quot;},{&quot;value&quot;:&quot;Finance&quot;,&quot;label&quot;:&quot;Finance&quot;},{&quot;value&quot;:&quot;Human Resources&quot;,&quot;label&quot;:&quot;Human Resources&quot;},{&quot;value&quot;:&quot;IT&quot;,&quot;label&quot;:&quot;IT&quot;},{&quot;value&quot;:&quot;Marketing&quot;,&quot;label&quot;:&quot;Marketing&quot;},{&quot;value&quot;:&quot;Product Management&quot;,&quot;label&quot;:&quot;Product Management&quot;},{&quot;value&quot;:&quot;Research \u0026 Development&quot;,&quot;label&quot;:&quot;Research \u0026 Development&quot;},{&quot;value&quot;:&quot;Sales&quot;,&quot;label&quot;:&quot;Sales&quot;}]">
+  <label for="department-select" class="sr-only">
+    Departments
+</label>
+  <select class="opacity-[0.0001] absolute [inline-size:100%]" id="department-select" data-name="department" data-action="change-&gt;common--select#handleChange change-&gt;blocks--jobs--filters#handleChange" data-turbo-permanent="true">
+    <option value="">
+      All
+</option>
+      <option value="Corporate">
+        Corporate
+</option>      <option value="Customer Engineering">
+        Customer Engineering
+</option>      <option value="Customer Support">
+        Customer Support
+</option>      <option value="Finance">
+        Finance
+</option>      <option value="Human Resources">
+        Human Resources
+</option>      <option value="IT">
+        IT
+</option>      <option value="Marketing">
+        Marketing
+</option>      <option value="Product Management">
+        Product Management
+</option>      <option value="Research &amp; Development">
+        Research &amp; Development
+</option>      <option value="Sales">
+        Sales
+</option></select>
+  <button type="button" inert="inert" class="rounded leading-[19px] text-sm font-medium py-2 px-3 flex items-center gap-3 border border-solid border-block-base-text border-opacity-15 bg-white text-gray-700">
+    <span class="truncate inline-block max-w-[200px]" data-common--select-target="buttonText">
+      Departments
+</span>
+    <i class="fas fa-chevron-down size-3 opacity-50"></i>
+</button></div>
+
+
+    <div class="relative focus-within:company-colors-dependant-outline common-select" data-controller="common--select" data-common--select-null-value="Countries" data-common--select-options-value="[{&quot;value&quot;:&quot;Australia&quot;,&quot;label&quot;:&quot;Australia&quot;},{&quot;value&quot;:&quot;Jordan&quot;,&quot;label&quot;:&quot;Jordan&quot;},{&quot;value&quot;:&quot;Germany&quot;,&quot;label&quot;:&quot;Germany&quot;},{&quot;value&quot;:&quot;United States&quot;,&quot;label&quot;:&quot;United States&quot;},{&quot;value&quot;:&quot;United Arab Emirates&quot;,&quot;label&quot;:&quot;United Arab Emirates&quot;},{&quot;value&quot;:&quot;Mexico&quot;,&quot;label&quot;:&quot;Mexico&quot;},{&quot;value&quot;:&quot;Greece&quot;,&quot;label&quot;:&quot;Greece&quot;},{&quot;value&quot;:&quot;Malaysia&quot;,&quot;label&quot;:&quot;Malaysia&quot;},{&quot;value&quot;:&quot;Austria&quot;,&quot;label&quot;:&quot;Austria&quot;},{&quot;value&quot;:&quot;United Kingdom&quot;,&quot;label&quot;:&quot;United Kingdom&quot;},{&quot;value&quot;:&quot;India&quot;,&quot;label&quot;:&quot;India&quot;},{&quot;value&quot;:&quot;France&quot;,&quot;label&quot;:&quot;France&quot;},{&quot;value&quot;:&quot;Portugal&quot;,&quot;label&quot;:&quot;Portugal&quot;},{&quot;value&quot;:&quot;Brazil&quot;,&quot;label&quot;:&quot;Brazil&quot;},{&quot;value&quot;:&quot;South Korea&quot;,&quot;label&quot;:&quot;South Korea&quot;},{&quot;value&quot;:&quot;China&quot;,&quot;label&quot;:&quot;China&quot;},{&quot;value&quot;:&quot;Singapore&quot;,&quot;label&quot;:&quot;Singapore&quot;},{&quot;value&quot;:&quot;Japan&quot;,&quot;label&quot;:&quot;Japan&quot;},{&quot;value&quot;:&quot;Canada&quot;,&quot;label&quot;:&quot;Canada&quot;},{&quot;value&quot;:&quot;Armenia&quot;,&quot;label&quot;:&quot;Armenia&quot;}]">
+  <label for="country-select" class="sr-only">
+    Countries
+</label>
+  <select class="opacity-[0.0001] absolute [inline-size:100%]" id="country-select" data-name="country" data-action="change-&gt;common--select#handleChange change-&gt;blocks--jobs--filters#handleChange" data-turbo-permanent="true">
+    <option value="">
+      All
+</option>
+      <option value="Australia">
+        Australia
+</option>      <option value="Jordan">
+        Jordan
+</option>      <option value="Germany">
+        Germany
+</option>      <option value="United States">
+        United States
+</option>      <option value="United Arab Emirates">
+        United Arab Emirates
+</option>      <option value="Mexico">
+        Mexico
+</option>      <option value="Greece">
+        Greece
+</option>      <option value="Malaysia">
+        Malaysia
+</option>      <option value="Austria">
+        Austria
+</option>      <option value="United Kingdom">
+        United Kingdom
+</option>      <option value="India">
+        India
+</option>      <option value="France">
+        France
+</option>      <option value="Portugal">
+        Portugal
+</option>      <option value="Brazil">
+        Brazil
+</option>      <option value="South Korea">
+        South Korea
+</option>      <option value="China">
+        China
+</option>      <option value="Singapore">
+        Singapore
+</option>      <option value="Japan">
+        Japan
+</option>      <option value="Canada">
+        Canada
+</option>      <option value="Armenia">
+        Armenia
+</option></select>
+  <button type="button" inert="inert" class="rounded leading-[19px] text-sm font-medium py-2 px-3 flex items-center gap-3 border border-solid border-block-base-text border-opacity-15 bg-white text-gray-700">
+    <span class="truncate inline-block max-w-[200px]" data-common--select-target="buttonText">
+      Countries
+</span>
+    <i class="fas fa-chevron-down size-3 opacity-50"></i>
+</button></div>
+
+    <div class="relative focus-within:company-colors-dependant-outline common-select" data-controller="common--select" data-common--select-null-value="Regions" data-common--select-options-value="[{&quot;value&quot;:&quot;APAC&quot;,&quot;label&quot;:&quot;APAC&quot;},{&quot;value&quot;:&quot;Americas&quot;,&quot;label&quot;:&quot;Americas&quot;},{&quot;value&quot;:&quot;EMEA&quot;,&quot;label&quot;:&quot;EMEA&quot;}]">
+  <label for="region-select" class="sr-only">
+    Regions
+</label>
+  <select class="opacity-[0.0001] absolute [inline-size:100%]" id="region-select" data-name="region" data-action="change-&gt;common--select#handleChange change-&gt;blocks--jobs--filters#handleChange" data-turbo-permanent="true">
+    <option value="">
+      All
+</option>
+      <option value="APAC">
+        APAC
+</option>      <option value="Americas">
+        Americas
+</option>      <option value="EMEA">
+        EMEA
+</option></select>
+  <button type="button" inert="inert" class="rounded leading-[19px] text-sm font-medium py-2 px-3 flex items-center gap-3 border border-solid border-block-base-text border-opacity-15 bg-white text-gray-700">
+    <span class="truncate inline-block max-w-[200px]" data-common--select-target="buttonText">
+      Regions
+</span>
+    <i class="fas fa-chevron-down size-3 opacity-50"></i>
+</button></div>
+
+    <div class="relative focus-within:company-colors-dependant-outline common-select" data-controller="common--select" data-common--select-null-value="Locations" data-common--select-options-value="[{&quot;value&quot;:&quot;Adelaide&quot;,&quot;label&quot;:&quot;Adelaide&quot;},{&quot;value&quot;:&quot;Amman&quot;,&quot;label&quot;:&quot;Amman&quot;},{&quot;value&quot;:&quot;Berlin&quot;,&quot;label&quot;:&quot;Berlin&quot;},{&quot;value&quot;:&quot;Bremen&quot;,&quot;label&quot;:&quot;Bremen&quot;},{&quot;value&quot;:&quot;Clearwater&quot;,&quot;label&quot;:&quot;Clearwater&quot;},{&quot;value&quot;:&quot;Dubai&quot;,&quot;label&quot;:&quot;Dubai&quot;},{&quot;value&quot;:&quot;Guadalajara&quot;,&quot;label&quot;:&quot;Guadalajara&quot;},{&quot;value&quot;:&quot;Göppingen&quot;,&quot;label&quot;:&quot;Göppingen&quot;},{&quot;value&quot;:&quot;Ioannina&quot;,&quot;label&quot;:&quot;Ioannina&quot;},{&quot;value&quot;:&quot;Karlsruhe&quot;,&quot;label&quot;:&quot;Karlsruhe&quot;},{&quot;value&quot;:&quot;Kuala Lumpur&quot;,&quot;label&quot;:&quot;Kuala Lumpur&quot;},{&quot;value&quot;:&quot;Linz&quot;,&quot;label&quot;:&quot;Linz&quot;},{&quot;value&quot;:&quot;London&quot;,&quot;label&quot;:&quot;London&quot;},{&quot;value&quot;:&quot;Melbourne&quot;,&quot;label&quot;:&quot;Melbourne&quot;},{&quot;value&quot;:&quot;Mumbai&quot;,&quot;label&quot;:&quot;Mumbai&quot;},{&quot;value&quot;:&quot;München&quot;,&quot;label&quot;:&quot;München&quot;},{&quot;value&quot;:&quot;New York&quot;,&quot;label&quot;:&quot;New York&quot;},{&quot;value&quot;:&quot;Noida&quot;,&quot;label&quot;:&quot;Noida&quot;},{&quot;value&quot;:&quot;Paris&quot;,&quot;label&quot;:&quot;Paris&quot;},{&quot;value&quot;:&quot;Porto&quot;,&quot;label&quot;:&quot;Porto&quot;},{&quot;value&quot;:&quot;São Paulo&quot;,&quot;label&quot;:&quot;São Paulo&quot;},{&quot;value&quot;:&quot;Seoul&quot;,&quot;label&quot;:&quot;Seoul&quot;},{&quot;value&quot;:&quot;Shanghai&quot;,&quot;label&quot;:&quot;Shanghai&quot;},{&quot;value&quot;:&quot;Singapore&quot;,&quot;label&quot;:&quot;Singapore&quot;},{&quot;value&quot;:&quot;Stuttgart&quot;,&quot;label&quot;:&quot;Stuttgart&quot;},{&quot;value&quot;:&quot;Tampa&quot;,&quot;label&quot;:&quot;Tampa&quot;},{&quot;value&quot;:&quot;Tokyo&quot;,&quot;label&quot;:&quot;Tokyo&quot;},{&quot;value&quot;:&quot;Toronto&quot;,&quot;label&quot;:&quot;Toronto&quot;},{&quot;value&quot;:&quot;Yerevan&quot;,&quot;label&quot;:&quot;Yerevan&quot;}]">
+  <label for="location-select" class="sr-only">
+    Locations
+</label>
+  <select class="opacity-[0.0001] absolute [inline-size:100%]" id="location-select" data-name="location" data-action="change-&gt;common--select#handleChange change-&gt;blocks--jobs--filters#handleChange" data-turbo-permanent="true">
+    <option value="">
+      All
+</option>
+      <option value="Adelaide">
+        Adelaide
+</option>      <option value="Amman">
+        Amman
+</option>      <option value="Berlin">
+        Berlin
+</option>      <option value="Bremen">
+        Bremen
+</option>      <option value="Clearwater">
+        Clearwater
+</option>      <option value="Dubai">
+        Dubai
+</option>      <option value="Guadalajara">
+        Guadalajara
+</option>      <option value="Göppingen">
+        Göppingen
+</option>      <option value="Ioannina">
+        Ioannina
+</option>      <option value="Karlsruhe">
+        Karlsruhe
+</option>      <option value="Kuala Lumpur">
+        Kuala Lumpur
+</option>      <option value="Linz">
+        Linz
+</option>      <option value="London">
+        London
+</option>      <option value="Melbourne">
+        Melbourne
+</option>      <option value="Mumbai">
+        Mumbai
+</option>      <option value="München">
+        München
+</option>      <option value="New York">
+        New York
+</option>      <option value="Noida">
+        Noida
+</option>      <option value="Paris">
+        Paris
+</option>      <option value="Porto">
+        Porto
+</option>      <option value="São Paulo">
+        São Paulo
+</option>      <option value="Seoul">
+        Seoul
+</option>      <option value="Shanghai">
+        Shanghai
+</option>      <option value="Singapore">
+        Singapore
+</option>      <option value="Stuttgart">
+        Stuttgart
+</option>      <option value="Tampa">
+        Tampa
+</option>      <option value="Tokyo">
+        Tokyo
+</option>      <option value="Toronto">
+        Toronto
+</option>      <option value="Yerevan">
+        Yerevan
+</option></select>
+  <button type="button" inert="inert" class="rounded leading-[19px] text-sm font-medium py-2 px-3 flex items-center gap-3 border border-solid border-block-base-text border-opacity-15 bg-white text-gray-700">
+    <span class="truncate inline-block max-w-[200px]" data-common--select-target="buttonText">
+      Locations
+</span>
+    <i class="fas fa-chevron-down size-3 opacity-50"></i>
+</button></div>
+
+
+    <div class="relative focus-within:company-colors-dependant-outline common-select" data-controller="common--select" data-common--select-null-value="Remote Statuses" data-common--select-options-value="[{&quot;value&quot;:&quot;none&quot;,&quot;label&quot;:&quot;No Remote Work&quot;},{&quot;value&quot;:&quot;temporary&quot;,&quot;label&quot;:&quot;Temporarily Remote&quot;},{&quot;value&quot;:&quot;hybrid&quot;,&quot;label&quot;:&quot;Hybrid&quot;},{&quot;value&quot;:&quot;fully&quot;,&quot;label&quot;:&quot;Fully Remote&quot;}]">
+  <label for="remote_status_id-select" class="sr-only">
+    Remote Statuses
+</label>
+  <select class="opacity-[0.0001] absolute [inline-size:100%]" id="remote_status_id-select" data-name="remote_status_id" data-action="change-&gt;common--select#handleChange change-&gt;blocks--jobs--filters#handleChange" data-turbo-permanent="true">
+    <option value="">
+      All
+</option>
+      <option value="none">
+        No Remote Work
+</option>      <option value="temporary">
+        Temporarily Remote
+</option>      <option value="hybrid">
+        Hybrid
+</option>      <option value="fully">
+        Fully Remote
+</option></select>
+  <button type="button" inert="inert" class="rounded leading-[19px] text-sm font-medium py-2 px-3 flex items-center gap-3 border border-solid border-block-base-text border-opacity-15 bg-white text-gray-700">
+    <span class="truncate inline-block max-w-[200px]" data-common--select-target="buttonText">
+      Remote Statuses
+</span>
+    <i class="fas fa-chevron-down size-3 opacity-50"></i>
+</button></div>
+
+    <div class="relative focus-within:company-colors-dependant-outline common-select" data-controller="common--select" data-common--select-null-value="Employment Types" data-common--select-options-value="[{&quot;value&quot;:&quot;fully&quot;,&quot;label&quot;:&quot;Full-time&quot;},{&quot;value&quot;:&quot;part&quot;,&quot;label&quot;:&quot;Part-time&quot;},{&quot;value&quot;:&quot;contract&quot;,&quot;label&quot;:&quot;Contract&quot;},{&quot;value&quot;:&quot;temporary&quot;,&quot;label&quot;:&quot;Temporary&quot;},{&quot;value&quot;:&quot;apprenticeship&quot;,&quot;label&quot;:&quot;Apprenticeship&quot;},{&quot;value&quot;:&quot;internship&quot;,&quot;label&quot;:&quot;Internship&quot;},{&quot;value&quot;:&quot;volunteer&quot;,&quot;label&quot;:&quot;Volunteer&quot;}]">
+  <label for="employment_type-select" class="sr-only">
+    Employment Types
+</label>
+  <select class="opacity-[0.0001] absolute [inline-size:100%]" id="employment_type-select" data-name="employment_type" data-action="change-&gt;common--select#handleChange change-&gt;blocks--jobs--filters#handleChange" data-turbo-permanent="true">
+    <option value="">
+      All
+</option>
+      <option value="fully">
+        Full-time
+</option>      <option value="part">
+        Part-time
+</option>      <option value="contract">
+        Contract
+</option>      <option value="temporary">
+        Temporary
+</option>      <option value="apprenticeship">
+        Apprenticeship
+</option>      <option value="internship">
+        Internship
+</option>      <option value="volunteer">
+        Volunteer
+</option></select>
+  <button type="button" inert="inert" class="rounded leading-[19px] text-sm font-medium py-2 px-3 flex items-center gap-3 border border-solid border-block-base-text border-opacity-15 bg-white text-gray-700">
+    <span class="truncate inline-block max-w-[200px]" data-common--select-target="buttonText">
+      Employment Types
+</span>
+    <i class="fas fa-chevron-down size-3 opacity-50"></i>
+</button></div>
+
+
+      <div class="relative focus-within:company-colors-dependant-outline common-select" data-controller="common--select" data-common--select-null-value="Type of Job" data-common--select-options-value="[{&quot;value&quot;:&quot;Non Student&quot;,&quot;label&quot;:&quot;Non Student&quot;},{&quot;value&quot;:&quot;Student&quot;,&quot;label&quot;:&quot;Student&quot;}]">
+  <label for="type-of-job-select" class="sr-only">
+    Type of Job
+</label>
+  <select class="opacity-[0.0001] absolute [inline-size:100%]" id="type-of-job-select" data-name="type-of-job" data-action="change-&gt;common--select#handleChange change-&gt;blocks--jobs--filters#handleChange" data-turbo-permanent="true">
+    <option value="">
+      All
+</option>
+      <option value="Non Student">
+        Non Student
+</option>      <option value="Student">
+        Student
+</option></select>
+  <button type="button" inert="inert" class="rounded leading-[19px] text-sm font-medium py-2 px-3 flex items-center gap-3 border border-solid border-block-base-text border-opacity-15 bg-white text-gray-700">
+    <span class="truncate inline-block max-w-[200px]" data-common--select-target="buttonText">
+      Type of Job
+</span>
+    <i class="fas fa-chevron-down size-3"></i>
+</button></div>
+</fieldset>
+
+      <div id="filters-mobile-modal" data-controller="common--modal" data-common--modal-turbo-value="true" data-common--modal-modal-name-value="filters-mobile-turbo-modal" style="display: none;" class="@lg:hidden w-full">
+  <div data-common--modal-target="linkContainer">
+        <button type="button" class="bg-gray-300 bg-opacity-50 w-full px-5 py-3 mb-0 @lg:mb-4 flex items-center text-left rounded-full backdrop-blur-2xl">
+          <i class="text-md fas fa-search text-gray-700"></i>
+
+          <div class="ml-4 w-full">
+            <span class="mb-1 text-base font-semibold text-gray-700">Looking for</span>
+
+            <div class="text-sm text-gray-600 flex gap-1">
+              <span class="max-w-[70%] text-ellipsis overflow-hidden whitespace-nowrap activeFiltersContent">
+</span>
+              <span class="extraActiveFiltersCount"></span>
+</div>          </div>
+</button>
+
+</div>
+
+  <template data-common--modal-target="spinnerTemplate">
+    <div class="flex items-center justify-center h-full" id="spinner">
+  <div
+    class="animate-[spin_3s_linear_infinite] inline-block size-6 border-6 border-current border-t-transparent text-neutral-weak rounded-full "
+    role="status"
+    aria-label="Loading"
+  ></div>
+</div>
+
+  </template>
+
+
+  <template data-common--modal-target="template">
+    <dialog aria-modal="true" class="text-company-primary bg-company-primary company-links company-links-on-white overflow-y-auto border-0 p-0 backdrop:bg-black/50 backdrop:backdrop-blur-md h-screen w-screen max-w-full max-h-full">
+      <div class="relative w-full h-full py-12 px-4 bg-[rgba(var(--company-link-color),0.03)]">
+                  <div
+            class="flex justify-between items-center pb-4"
+            data-controller="blocks--jobs--filters-mobile"
+          >
+            <button
+              tabindex="0"
+              type="button"
+              class="
+                company-link cursor-pointer focus-visible:outline-offset-2
+                focus-within:outline-company-secondary-bg
+              "
+              data-action="click->blocks--jobs--filters-mobile#resetAllWidgets"
+            >
+              Clear all
+            </button>
+
+            <button
+              type="button"
+              class="
+                company-link bg-company-link bg-opacity-15 size-8
+                rounded-full flex items-center justify-center cursor-pointer
+              "
+              data-close="close"
+            >
+              <i class="text-xl fas fa-regular fa-xmark"></i>
+            </button>
+          </div>
+
+
+        <div class="modal-content default-style">
+                    <div id="jobs-filters-mobile" class="h-full" data-controller="blocks--jobs--filters-mobile" data-blocks--jobs--filters-mobile-common--modal-outlet="#filters-mobile-modal" data-blocks--jobs--filters-mobile-blocks--jobs--filters-outlet="#blocks-jobs-filters-form">
+  <div class="flex flex-col gap-5 pb-50">
+      <div class="bg-company-primary flex items-center px-4 py-5 rounded w-full cursor-pointer shadow-option">
+        <i class="text-sm fas fa-search text-company-primary"></i>
+
+        <input placeholder="Search" class="placeholder:opacity-50 placeholder:text-company-primary text-company-primary bg-company-primary !outline-none border-none font-medium focus:ring-0 p-0 pl-2 text-[16px] w-full" data-blocks--jobs--filters-mobile-target="searchField" data-action="input-&gt;blocks--jobs--filters-mobile#handleSearchInputChange jobs-filters-mobile-reset-all@window-&gt;blocks--jobs--filters-mobile#resetSearchField" type="text" name="query[]" id="query_" />
+</div>
+
+
+      <div class="options-widget py-5 text-md text-company-primary rounded bg-company-primary cursor-pointer shadow-option" tabindex="0" data-common--options-widget-blocks--jobs--filters-outlet="#blocks-jobs-filters-form" data-common--options-widget-target-field-value="department" data-controller="common--options-widget" data-action="click-&gt;common--options-widget#toggleWidget keydown.enter-&gt;common--options-widget#toggleWidget keydown.space-&gt;common--options-widget#toggleWidget jobs-filters-mobile-reset-all@window-&gt;common--options-widget#reset options-widget-open@window-&gt;common--options-widget#handleToggleOpenedEvent" data-common--options-widget-default-label-value="Any" data-common--options-widget-is-geobound-filter-present-value="false" data-common--options-widget-map-area-translation-value="(Map area)">
+  <div
+    class="hidden labels flex flex-col gap-3"
+    data-common--options-widget-target="labels"
+  >
+    <div class="font-semibold px-5">Departments</div>
+
+    <div class="flex gap-3 overflow-auto scrollbar-hide p-1 px-5">
+        <button name="button" type="submit" class="flex align-center rounded py-2 px-3 font-normal text-smcompany-link bg-company-link bg-opacity-3 shrink-0 border border-transparent" data-action="click-&gt;common--options-widget#toggleOption" data-label-value="Corporate" data-common--options-widget-value-param="Corporate">
+          Corporate
+          <span class="opacity-50 ml-1 pointer-events-none"></span>
+
+          <div class="icon-wrapper ml-2 hidden">
+            <i class="fa-regular fa-xmark"></i>
+</div></button>        <button name="button" type="submit" class="flex align-center rounded py-2 px-3 font-normal text-smcompany-link bg-company-link bg-opacity-3 shrink-0 border border-transparent" data-action="click-&gt;common--options-widget#toggleOption" data-label-value="Customer Engineering" data-common--options-widget-value-param="Customer Engineering">
+          Customer Engineering
+          <span class="opacity-50 ml-1 pointer-events-none"></span>
+
+          <div class="icon-wrapper ml-2 hidden">
+            <i class="fa-regular fa-xmark"></i>
+</div></button>        <button name="button" type="submit" class="flex align-center rounded py-2 px-3 font-normal text-smcompany-link bg-company-link bg-opacity-3 shrink-0 border border-transparent" data-action="click-&gt;common--options-widget#toggleOption" data-label-value="Customer Support" data-common--options-widget-value-param="Customer Support">
+          Customer Support
+          <span class="opacity-50 ml-1 pointer-events-none"></span>
+
+          <div class="icon-wrapper ml-2 hidden">
+            <i class="fa-regular fa-xmark"></i>
+</div></button>        <button name="button" type="submit" class="flex align-center rounded py-2 px-3 font-normal text-smcompany-link bg-company-link bg-opacity-3 shrink-0 border border-transparent" data-action="click-&gt;common--options-widget#toggleOption" data-label-value="Finance" data-common--options-widget-value-param="Finance">
+          Finance
+          <span class="opacity-50 ml-1 pointer-events-none"></span>
+
+          <div class="icon-wrapper ml-2 hidden">
+            <i class="fa-regular fa-xmark"></i>
+</div></button>        <button name="button" type="submit" class="flex align-center rounded py-2 px-3 font-normal text-smcompany-link bg-company-link bg-opacity-3 shrink-0 border border-transparent" data-action="click-&gt;common--options-widget#toggleOption" data-label-value="Human Resources" data-common--options-widget-value-param="Human Resources">
+          Human Resources
+          <span class="opacity-50 ml-1 pointer-events-none"></span>
+
+          <div class="icon-wrapper ml-2 hidden">
+            <i class="fa-regular fa-xmark"></i>
+</div></button>        <button name="button" type="submit" class="flex align-center rounded py-2 px-3 font-normal text-smcompany-link bg-company-link bg-opacity-3 shrink-0 border border-transparent" data-action="click-&gt;common--options-widget#toggleOption" data-label-value="IT" data-common--options-widget-value-param="IT">
+          IT
+          <span class="opacity-50 ml-1 pointer-events-none"></span>
+
+          <div class="icon-wrapper ml-2 hidden">
+            <i class="fa-regular fa-xmark"></i>
+</div></button>        <button name="button" type="submit" class="flex align-center rounded py-2 px-3 font-normal text-smcompany-link bg-company-link bg-opacity-3 shrink-0 border border-transparent" data-action="click-&gt;common--options-widget#toggleOption" data-label-value="Marketing" data-common--options-widget-value-param="Marketing">
+          Marketing
+          <span class="opacity-50 ml-1 pointer-events-none"></span>
+
+          <div class="icon-wrapper ml-2 hidden">
+            <i class="fa-regular fa-xmark"></i>
+</div></button>        <button name="button" type="submit" class="flex align-center rounded py-2 px-3 font-normal text-smcompany-link bg-company-link bg-opacity-3 shrink-0 border border-transparent" data-action="click-&gt;common--options-widget#toggleOption" data-label-value="Product Management" data-common--options-widget-value-param="Product Management">
+          Product Management
+          <span class="opacity-50 ml-1 pointer-events-none"></span>
+
+          <div class="icon-wrapper ml-2 hidden">
+            <i class="fa-regular fa-xmark"></i>
+</div></button>        <button name="button" type="submit" class="flex align-center rounded py-2 px-3 font-normal text-smcompany-link bg-company-link bg-opacity-3 shrink-0 border border-transparent" data-action="click-&gt;common--options-widget#toggleOption" data-label-value="Research &amp; Development" data-common--options-widget-value-param="Research &amp; Development">
+          Research &amp; Development
+          <span class="opacity-50 ml-1 pointer-events-none"></span>
+
+          <div class="icon-wrapper ml-2 hidden">
+            <i class="fa-regular fa-xmark"></i>
+</div></button>        <button name="button" type="submit" class="flex align-center rounded py-2 px-3 font-normal text-smcompany-link bg-company-link bg-opacity-3 shrink-0 border border-transparent" data-action="click-&gt;common--options-widget#toggleOption" data-label-value="Sales" data-common--options-widget-value-param="Sales">
+          Sales
+          <span class="opacity-50 ml-1 pointer-events-none"></span>
+
+          <div class="icon-wrapper ml-2 hidden">
+            <i class="fa-regular fa-xmark"></i>
+</div></button>    </div>
+  </div>
+
+  <div
+    class="headline flex justify-between px-5"
+    data-common--options-widget-target="headline"
+  >
+    <div class="title font-normal text-sm leading-5 text-company-primary opacity-50">
+      Departments
+    </div>
+
+    <div
+      class="value font-normal text-sm leading-5 text-company-primary"
+      data-common--options-widget-target="selectedOptionLabelContainer"
+    ></div>
+  </div>
+</div>
+
+
+      <div class="options-widget py-5 text-md text-company-primary rounded bg-company-primary cursor-pointer shadow-option" tabindex="0" data-common--options-widget-blocks--jobs--filters-outlet="#blocks-jobs-filters-form" data-common--options-widget-target-field-value="location" data-controller="common--options-widget" data-action="click-&gt;common--options-widget#toggleWidget keydown.enter-&gt;common--options-widget#toggleWidget keydown.space-&gt;common--options-widget#toggleWidget jobs-filters-mobile-reset-all@window-&gt;common--options-widget#reset options-widget-open@window-&gt;common--options-widget#handleToggleOpenedEvent" data-common--options-widget-default-label-value="Any" data-common--options-widget-is-geobound-filter-present-value="false" data-common--options-widget-map-area-translation-value="(Map area)">
+  <div
+    class="hidden labels flex flex-col gap-3"
+    data-common--options-widget-target="labels"
+  >
+    <div class="font-semibold px-5">Locations</div>
+
+    <div class="flex gap-3 overflow-auto scrollbar-hide p-1 px-5">
+        <button name="button" type="submit" class="flex align-center rounded py-2 px-3 font-normal text-smcompany-link bg-company-link bg-opacity-3 shrink-0 border border-transparent" data-action="click-&gt;common--options-widget#toggleOption" data-label-value="Adelaide" data-common--options-widget-value-param="Adelaide">
+          Adelaide
+          <span class="opacity-50 ml-1 pointer-events-none"></span>
+
+          <div class="icon-wrapper ml-2 hidden">
+            <i class="fa-regular fa-xmark"></i>
+</div></button>        <button name="button" type="submit" class="flex align-center rounded py-2 px-3 font-normal text-smcompany-link bg-company-link bg-opacity-3 shrink-0 border border-transparent" data-action="click-&gt;common--options-widget#toggleOption" data-label-value="Amman" data-common--options-widget-value-param="Amman">
+          Amman
+          <span class="opacity-50 ml-1 pointer-events-none"></span>
+
+          <div class="icon-wrapper ml-2 hidden">
+            <i class="fa-regular fa-xmark"></i>
+</div></button>        <button name="button" type="submit" class="flex align-center rounded py-2 px-3 font-normal text-smcompany-link bg-company-link bg-opacity-3 shrink-0 border border-transparent" data-action="click-&gt;common--options-widget#toggleOption" data-label-value="Berlin" data-common--options-widget-value-param="Berlin">
+          Berlin
+          <span class="opacity-50 ml-1 pointer-events-none"></span>
+
+          <div class="icon-wrapper ml-2 hidden">
+            <i class="fa-regular fa-xmark"></i>
+</div></button>        <button name="button" type="submit" class="flex align-center rounded py-2 px-3 font-normal text-smcompany-link bg-company-link bg-opacity-3 shrink-0 border border-transparent" data-action="click-&gt;common--options-widget#toggleOption" data-label-value="Bremen" data-common--options-widget-value-param="Bremen">
+          Bremen
+          <span class="opacity-50 ml-1 pointer-events-none"></span>
+
+          <div class="icon-wrapper ml-2 hidden">
+            <i class="fa-regular fa-xmark"></i>
+</div></button>        <button name="button" type="submit" class="flex align-center rounded py-2 px-3 font-normal text-smcompany-link bg-company-link bg-opacity-3 shrink-0 border border-transparent" data-action="click-&gt;common--options-widget#toggleOption" data-label-value="Clearwater" data-common--options-widget-value-param="Clearwater">
+          Clearwater
+          <span class="opacity-50 ml-1 pointer-events-none"></span>
+
+          <div class="icon-wrapper ml-2 hidden">
+            <i class="fa-regular fa-xmark"></i>
+</div></button>        <button name="button" type="submit" class="flex align-center rounded py-2 px-3 font-normal text-smcompany-link bg-company-link bg-opacity-3 shrink-0 border border-transparent" data-action="click-&gt;common--options-widget#toggleOption" data-label-value="Dubai" data-common--options-widget-value-param="Dubai">
+          Dubai
+          <span class="opacity-50 ml-1 pointer-events-none"></span>
+
+          <div class="icon-wrapper ml-2 hidden">
+            <i class="fa-regular fa-xmark"></i>
+</div></button>        <button name="button" type="submit" class="flex align-center rounded py-2 px-3 font-normal text-smcompany-link bg-company-link bg-opacity-3 shrink-0 border border-transparent" data-action="click-&gt;common--options-widget#toggleOption" data-label-value="Guadalajara" data-common--options-widget-value-param="Guadalajara">
+          Guadalajara
+          <span class="opacity-50 ml-1 pointer-events-none"></span>
+
+          <div class="icon-wrapper ml-2 hidden">
+            <i class="fa-regular fa-xmark"></i>
+</div></button>        <button name="button" type="submit" class="flex align-center rounded py-2 px-3 font-normal text-smcompany-link bg-company-link bg-opacity-3 shrink-0 border border-transparent" data-action="click-&gt;common--options-widget#toggleOption" data-label-value="Göppingen" data-common--options-widget-value-param="Göppingen">
+          Göppingen
+          <span class="opacity-50 ml-1 pointer-events-none"></span>
+
+          <div class="icon-wrapper ml-2 hidden">
+            <i class="fa-regular fa-xmark"></i>
+</div></button>        <button name="button" type="submit" class="flex align-center rounded py-2 px-3 font-normal text-smcompany-link bg-company-link bg-opacity-3 shrink-0 border border-transparent" data-action="click-&gt;common--options-widget#toggleOption" data-label-value="Ioannina" data-common--options-widget-value-param="Ioannina">
+          Ioannina
+          <span class="opacity-50 ml-1 pointer-events-none"></span>
+
+          <div class="icon-wrapper ml-2 hidden">
+            <i class="fa-regular fa-xmark"></i>
+</div></button>        <button name="button" type="submit" class="flex align-center rounded py-2 px-3 font-normal text-smcompany-link bg-company-link bg-opacity-3 shrink-0 border border-transparent" data-action="click-&gt;common--options-widget#toggleOption" data-label-value="Karlsruhe" data-common--options-widget-value-param="Karlsruhe">
+          Karlsruhe
+          <span class="opacity-50 ml-1 pointer-events-none"></span>
+
+          <div class="icon-wrapper ml-2 hidden">
+            <i class="fa-regular fa-xmark"></i>
+</div></button>        <button name="button" type="submit" class="flex align-center rounded py-2 px-3 font-normal text-smcompany-link bg-company-link bg-opacity-3 shrink-0 border border-transparent" data-action="click-&gt;common--options-widget#toggleOption" data-label-value="Kuala Lumpur" data-common--options-widget-value-param="Kuala Lumpur">
+          Kuala Lumpur
+          <span class="opacity-50 ml-1 pointer-events-none"></span>
+
+          <div class="icon-wrapper ml-2 hidden">
+            <i class="fa-regular fa-xmark"></i>
+</div></button>        <button name="button" type="submit" class="flex align-center rounded py-2 px-3 font-normal text-smcompany-link bg-company-link bg-opacity-3 shrink-0 border border-transparent" data-action="click-&gt;common--options-widget#toggleOption" data-label-value="Linz" data-common--options-widget-value-param="Linz">
+          Linz
+          <span class="opacity-50 ml-1 pointer-events-none"></span>
+
+          <div class="icon-wrapper ml-2 hidden">
+            <i class="fa-regular fa-xmark"></i>
+</div></button>        <button name="button" type="submit" class="flex align-center rounded py-2 px-3 font-normal text-smcompany-link bg-company-link bg-opacity-3 shrink-0 border border-transparent" data-action="click-&gt;common--options-widget#toggleOption" data-label-value="London" data-common--options-widget-value-param="London">
+          London
+          <span class="opacity-50 ml-1 pointer-events-none"></span>
+
+          <div class="icon-wrapper ml-2 hidden">
+            <i class="fa-regular fa-xmark"></i>
+</div></button>        <button name="button" type="submit" class="flex align-center rounded py-2 px-3 font-normal text-smcompany-link bg-company-link bg-opacity-3 shrink-0 border border-transparent" data-action="click-&gt;common--options-widget#toggleOption" data-label-value="Melbourne" data-common--options-widget-value-param="Melbourne">
+          Melbourne
+          <span class="opacity-50 ml-1 pointer-events-none"></span>
+
+          <div class="icon-wrapper ml-2 hidden">
+            <i class="fa-regular fa-xmark"></i>
+</div></button>        <button name="button" type="submit" class="flex align-center rounded py-2 px-3 font-normal text-smcompany-link bg-company-link bg-opacity-3 shrink-0 border border-transparent" data-action="click-&gt;common--options-widget#toggleOption" data-label-value="Mumbai" data-common--options-widget-value-param="Mumbai">
+          Mumbai
+          <span class="opacity-50 ml-1 pointer-events-none"></span>
+
+          <div class="icon-wrapper ml-2 hidden">
+            <i class="fa-regular fa-xmark"></i>
+</div></button>        <button name="button" type="submit" class="flex align-center rounded py-2 px-3 font-normal text-smcompany-link bg-company-link bg-opacity-3 shrink-0 border border-transparent" data-action="click-&gt;common--options-widget#toggleOption" data-label-value="München" data-common--options-widget-value-param="München">
+          München
+          <span class="opacity-50 ml-1 pointer-events-none"></span>
+
+          <div class="icon-wrapper ml-2 hidden">
+            <i class="fa-regular fa-xmark"></i>
+</div></button>        <button name="button" type="submit" class="flex align-center rounded py-2 px-3 font-normal text-smcompany-link bg-company-link bg-opacity-3 shrink-0 border border-transparent" data-action="click-&gt;common--options-widget#toggleOption" data-label-value="New York" data-common--options-widget-value-param="New York">
+          New York
+          <span class="opacity-50 ml-1 pointer-events-none"></span>
+
+          <div class="icon-wrapper ml-2 hidden">
+            <i class="fa-regular fa-xmark"></i>
+</div></button>        <button name="button" type="submit" class="flex align-center rounded py-2 px-3 font-normal text-smcompany-link bg-company-link bg-opacity-3 shrink-0 border border-transparent" data-action="click-&gt;common--options-widget#toggleOption" data-label-value="Noida" data-common--options-widget-value-param="Noida">
+          Noida
+          <span class="opacity-50 ml-1 pointer-events-none"></span>
+
+          <div class="icon-wrapper ml-2 hidden">
+            <i class="fa-regular fa-xmark"></i>
+</div></button>        <button name="button" type="submit" class="flex align-center rounded py-2 px-3 font-normal text-smcompany-link bg-company-link bg-opacity-3 shrink-0 border border-transparent" data-action="click-&gt;common--options-widget#toggleOption" data-label-value="Paris" data-common--options-widget-value-param="Paris">
+          Paris
+          <span class="opacity-50 ml-1 pointer-events-none"></span>
+
+          <div class="icon-wrapper ml-2 hidden">
+            <i class="fa-regular fa-xmark"></i>
+</div></button>        <button name="button" type="submit" class="flex align-center rounded py-2 px-3 font-normal text-smcompany-link bg-company-link bg-opacity-3 shrink-0 border border-transparent" data-action="click-&gt;common--options-widget#toggleOption" data-label-value="Porto" data-common--options-widget-value-param="Porto">
+          Porto
+          <span class="opacity-50 ml-1 pointer-events-none"></span>
+
+          <div class="icon-wrapper ml-2 hidden">
+            <i class="fa-regular fa-xmark"></i>
+</div></button>        <button name="button" type="submit" class="flex align-center rounded py-2 px-3 font-normal text-smcompany-link bg-company-link bg-opacity-3 shrink-0 border border-transparent" data-action="click-&gt;common--options-widget#toggleOption" data-label-value="São Paulo" data-common--options-widget-value-param="São Paulo">
+          São Paulo
+          <span class="opacity-50 ml-1 pointer-events-none"></span>
+
+          <div class="icon-wrapper ml-2 hidden">
+            <i class="fa-regular fa-xmark"></i>
+</div></button>        <button name="button" type="submit" class="flex align-center rounded py-2 px-3 font-normal text-smcompany-link bg-company-link bg-opacity-3 shrink-0 border border-transparent" data-action="click-&gt;common--options-widget#toggleOption" data-label-value="Seoul" data-common--options-widget-value-param="Seoul">
+          Seoul
+          <span class="opacity-50 ml-1 pointer-events-none"></span>
+
+          <div class="icon-wrapper ml-2 hidden">
+            <i class="fa-regular fa-xmark"></i>
+</div></button>        <button name="button" type="submit" class="flex align-center rounded py-2 px-3 font-normal text-smcompany-link bg-company-link bg-opacity-3 shrink-0 border border-transparent" data-action="click-&gt;common--options-widget#toggleOption" data-label-value="Shanghai" data-common--options-widget-value-param="Shanghai">
+          Shanghai
+          <span class="opacity-50 ml-1 pointer-events-none"></span>
+
+          <div class="icon-wrapper ml-2 hidden">
+            <i class="fa-regular fa-xmark"></i>
+</div></button>        <button name="button" type="submit" class="flex align-center rounded py-2 px-3 font-normal text-smcompany-link bg-company-link bg-opacity-3 shrink-0 border border-transparent" data-action="click-&gt;common--options-widget#toggleOption" data-label-value="Singapore" data-common--options-widget-value-param="Singapore">
+          Singapore
+          <span class="opacity-50 ml-1 pointer-events-none"></span>
+
+          <div class="icon-wrapper ml-2 hidden">
+            <i class="fa-regular fa-xmark"></i>
+</div></button>        <button name="button" type="submit" class="flex align-center rounded py-2 px-3 font-normal text-smcompany-link bg-company-link bg-opacity-3 shrink-0 border border-transparent" data-action="click-&gt;common--options-widget#toggleOption" data-label-value="Stuttgart" data-common--options-widget-value-param="Stuttgart">
+          Stuttgart
+          <span class="opacity-50 ml-1 pointer-events-none"></span>
+
+          <div class="icon-wrapper ml-2 hidden">
+            <i class="fa-regular fa-xmark"></i>
+</div></button>        <button name="button" type="submit" class="flex align-center rounded py-2 px-3 font-normal text-smcompany-link bg-company-link bg-opacity-3 shrink-0 border border-transparent" data-action="click-&gt;common--options-widget#toggleOption" data-label-value="Tampa" data-common--options-widget-value-param="Tampa">
+          Tampa
+          <span class="opacity-50 ml-1 pointer-events-none"></span>
+
+          <div class="icon-wrapper ml-2 hidden">
+            <i class="fa-regular fa-xmark"></i>
+</div></button>        <button name="button" type="submit" class="flex align-center rounded py-2 px-3 font-normal text-smcompany-link bg-company-link bg-opacity-3 shrink-0 border border-transparent" data-action="click-&gt;common--options-widget#toggleOption" data-label-value="Tokyo" data-common--options-widget-value-param="Tokyo">
+          Tokyo
+          <span class="opacity-50 ml-1 pointer-events-none"></span>
+
+          <div class="icon-wrapper ml-2 hidden">
+            <i class="fa-regular fa-xmark"></i>
+</div></button>        <button name="button" type="submit" class="flex align-center rounded py-2 px-3 font-normal text-smcompany-link bg-company-link bg-opacity-3 shrink-0 border border-transparent" data-action="click-&gt;common--options-widget#toggleOption" data-label-value="Toronto" data-common--options-widget-value-param="Toronto">
+          Toronto
+          <span class="opacity-50 ml-1 pointer-events-none"></span>
+
+          <div class="icon-wrapper ml-2 hidden">
+            <i class="fa-regular fa-xmark"></i>
+</div></button>        <button name="button" type="submit" class="flex align-center rounded py-2 px-3 font-normal text-smcompany-link bg-company-link bg-opacity-3 shrink-0 border border-transparent" data-action="click-&gt;common--options-widget#toggleOption" data-label-value="Yerevan" data-common--options-widget-value-param="Yerevan">
+          Yerevan
+          <span class="opacity-50 ml-1 pointer-events-none"></span>
+
+          <div class="icon-wrapper ml-2 hidden">
+            <i class="fa-regular fa-xmark"></i>
+</div></button>    </div>
+  </div>
+
+  <div
+    class="headline flex justify-between px-5"
+    data-common--options-widget-target="headline"
+  >
+    <div class="title font-normal text-sm leading-5 text-company-primary opacity-50">
+      Locations
+    </div>
+
+    <div
+      class="value font-normal text-sm leading-5 text-company-primary"
+      data-common--options-widget-target="selectedOptionLabelContainer"
+    ></div>
+  </div>
+</div>
+
+
+      <div class="options-widget py-5 text-md text-company-primary rounded bg-company-primary cursor-pointer shadow-option" tabindex="0" data-common--options-widget-blocks--jobs--filters-outlet="#blocks-jobs-filters-form" data-common--options-widget-target-field-value="remote_status_id" data-controller="common--options-widget" data-action="click-&gt;common--options-widget#toggleWidget keydown.enter-&gt;common--options-widget#toggleWidget keydown.space-&gt;common--options-widget#toggleWidget jobs-filters-mobile-reset-all@window-&gt;common--options-widget#reset options-widget-open@window-&gt;common--options-widget#handleToggleOpenedEvent" data-common--options-widget-default-label-value="Any" data-common--options-widget-is-geobound-filter-present-value="false" data-common--options-widget-map-area-translation-value="(Map area)">
+  <div
+    class="hidden labels flex flex-col gap-3"
+    data-common--options-widget-target="labels"
+  >
+    <div class="font-semibold px-5">Remote Statuses</div>
+
+    <div class="flex gap-3 overflow-auto scrollbar-hide p-1 px-5">
+        <button name="button" type="submit" class="flex align-center rounded py-2 px-3 font-normal text-smcompany-link bg-company-link bg-opacity-3 shrink-0 border border-transparent" data-action="click-&gt;common--options-widget#toggleOption" data-label-value="No Remote Work" data-common--options-widget-value-param="none">
+          No Remote Work
+          <span class="opacity-50 ml-1 pointer-events-none"></span>
+
+          <div class="icon-wrapper ml-2 hidden">
+            <i class="fa-regular fa-xmark"></i>
+</div></button>        <button name="button" type="submit" class="flex align-center rounded py-2 px-3 font-normal text-smcompany-link bg-company-link bg-opacity-3 shrink-0 border border-transparent" data-action="click-&gt;common--options-widget#toggleOption" data-label-value="Temporarily Remote" data-common--options-widget-value-param="temporary">
+          Temporarily Remote
+          <span class="opacity-50 ml-1 pointer-events-none"></span>
+
+          <div class="icon-wrapper ml-2 hidden">
+            <i class="fa-regular fa-xmark"></i>
+</div></button>        <button name="button" type="submit" class="flex align-center rounded py-2 px-3 font-normal text-smcompany-link bg-company-link bg-opacity-3 shrink-0 border border-transparent" data-action="click-&gt;common--options-widget#toggleOption" data-label-value="Hybrid" data-common--options-widget-value-param="hybrid">
+          Hybrid
+          <span class="opacity-50 ml-1 pointer-events-none"></span>
+
+          <div class="icon-wrapper ml-2 hidden">
+            <i class="fa-regular fa-xmark"></i>
+</div></button>        <button name="button" type="submit" class="flex align-center rounded py-2 px-3 font-normal text-smcompany-link bg-company-link bg-opacity-3 shrink-0 border border-transparent" data-action="click-&gt;common--options-widget#toggleOption" data-label-value="Fully Remote" data-common--options-widget-value-param="fully">
+          Fully Remote
+          <span class="opacity-50 ml-1 pointer-events-none"></span>
+
+          <div class="icon-wrapper ml-2 hidden">
+            <i class="fa-regular fa-xmark"></i>
+</div></button>    </div>
+  </div>
+
+  <div
+    class="headline flex justify-between px-5"
+    data-common--options-widget-target="headline"
+  >
+    <div class="title font-normal text-sm leading-5 text-company-primary opacity-50">
+      Remote Statuses
+    </div>
+
+    <div
+      class="value font-normal text-sm leading-5 text-company-primary"
+      data-common--options-widget-target="selectedOptionLabelContainer"
+    ></div>
+  </div>
+</div>
+
+      <div class="options-widget py-5 text-md text-company-primary rounded bg-company-primary cursor-pointer shadow-option" tabindex="0" data-common--options-widget-blocks--jobs--filters-outlet="#blocks-jobs-filters-form" data-common--options-widget-target-field-value="country" data-controller="common--options-widget" data-action="click-&gt;common--options-widget#toggleWidget keydown.enter-&gt;common--options-widget#toggleWidget keydown.space-&gt;common--options-widget#toggleWidget jobs-filters-mobile-reset-all@window-&gt;common--options-widget#reset options-widget-open@window-&gt;common--options-widget#handleToggleOpenedEvent" data-common--options-widget-default-label-value="Any" data-common--options-widget-is-geobound-filter-present-value="false" data-common--options-widget-map-area-translation-value="(Map area)">
+  <div
+    class="hidden labels flex flex-col gap-3"
+    data-common--options-widget-target="labels"
+  >
+    <div class="font-semibold px-5">Countries</div>
+
+    <div class="flex gap-3 overflow-auto scrollbar-hide p-1 px-5">
+        <button name="button" type="submit" class="flex align-center rounded py-2 px-3 font-normal text-smcompany-link bg-company-link bg-opacity-3 shrink-0 border border-transparent" data-action="click-&gt;common--options-widget#toggleOption" data-label-value="Australia" data-common--options-widget-value-param="Australia">
+          Australia
+          <span class="opacity-50 ml-1 pointer-events-none"></span>
+
+          <div class="icon-wrapper ml-2 hidden">
+            <i class="fa-regular fa-xmark"></i>
+</div></button>        <button name="button" type="submit" class="flex align-center rounded py-2 px-3 font-normal text-smcompany-link bg-company-link bg-opacity-3 shrink-0 border border-transparent" data-action="click-&gt;common--options-widget#toggleOption" data-label-value="Jordan" data-common--options-widget-value-param="Jordan">
+          Jordan
+          <span class="opacity-50 ml-1 pointer-events-none"></span>
+
+          <div class="icon-wrapper ml-2 hidden">
+            <i class="fa-regular fa-xmark"></i>
+</div></button>        <button name="button" type="submit" class="flex align-center rounded py-2 px-3 font-normal text-smcompany-link bg-company-link bg-opacity-3 shrink-0 border border-transparent" data-action="click-&gt;common--options-widget#toggleOption" data-label-value="Germany" data-common--options-widget-value-param="Germany">
+          Germany
+          <span class="opacity-50 ml-1 pointer-events-none"></span>
+
+          <div class="icon-wrapper ml-2 hidden">
+            <i class="fa-regular fa-xmark"></i>
+</div></button>        <button name="button" type="submit" class="flex align-center rounded py-2 px-3 font-normal text-smcompany-link bg-company-link bg-opacity-3 shrink-0 border border-transparent" data-action="click-&gt;common--options-widget#toggleOption" data-label-value="United States" data-common--options-widget-value-param="United States">
+          United States
+          <span class="opacity-50 ml-1 pointer-events-none"></span>
+
+          <div class="icon-wrapper ml-2 hidden">
+            <i class="fa-regular fa-xmark"></i>
+</div></button>        <button name="button" type="submit" class="flex align-center rounded py-2 px-3 font-normal text-smcompany-link bg-company-link bg-opacity-3 shrink-0 border border-transparent" data-action="click-&gt;common--options-widget#toggleOption" data-label-value="United Arab Emirates" data-common--options-widget-value-param="United Arab Emirates">
+          United Arab Emirates
+          <span class="opacity-50 ml-1 pointer-events-none"></span>
+
+          <div class="icon-wrapper ml-2 hidden">
+            <i class="fa-regular fa-xmark"></i>
+</div></button>        <button name="button" type="submit" class="flex align-center rounded py-2 px-3 font-normal text-smcompany-link bg-company-link bg-opacity-3 shrink-0 border border-transparent" data-action="click-&gt;common--options-widget#toggleOption" data-label-value="Mexico" data-common--options-widget-value-param="Mexico">
+          Mexico
+          <span class="opacity-50 ml-1 pointer-events-none"></span>
+
+          <div class="icon-wrapper ml-2 hidden">
+            <i class="fa-regular fa-xmark"></i>
+</div></button>        <button name="button" type="submit" class="flex align-center rounded py-2 px-3 font-normal text-smcompany-link bg-company-link bg-opacity-3 shrink-0 border border-transparent" data-action="click-&gt;common--options-widget#toggleOption" data-label-value="Greece" data-common--options-widget-value-param="Greece">
+          Greece
+          <span class="opacity-50 ml-1 pointer-events-none"></span>
+
+          <div class="icon-wrapper ml-2 hidden">
+            <i class="fa-regular fa-xmark"></i>
+</div></button>        <button name="button" type="submit" class="flex align-center rounded py-2 px-3 font-normal text-smcompany-link bg-company-link bg-opacity-3 shrink-0 border border-transparent" data-action="click-&gt;common--options-widget#toggleOption" data-label-value="Malaysia" data-common--options-widget-value-param="Malaysia">
+          Malaysia
+          <span class="opacity-50 ml-1 pointer-events-none"></span>
+
+          <div class="icon-wrapper ml-2 hidden">
+            <i class="fa-regular fa-xmark"></i>
+</div></button>        <button name="button" type="submit" class="flex align-center rounded py-2 px-3 font-normal text-smcompany-link bg-company-link bg-opacity-3 shrink-0 border border-transparent" data-action="click-&gt;common--options-widget#toggleOption" data-label-value="Austria" data-common--options-widget-value-param="Austria">
+          Austria
+          <span class="opacity-50 ml-1 pointer-events-none"></span>
+
+          <div class="icon-wrapper ml-2 hidden">
+            <i class="fa-regular fa-xmark"></i>
+</div></button>        <button name="button" type="submit" class="flex align-center rounded py-2 px-3 font-normal text-smcompany-link bg-company-link bg-opacity-3 shrink-0 border border-transparent" data-action="click-&gt;common--options-widget#toggleOption" data-label-value="United Kingdom" data-common--options-widget-value-param="United Kingdom">
+          United Kingdom
+          <span class="opacity-50 ml-1 pointer-events-none"></span>
+
+          <div class="icon-wrapper ml-2 hidden">
+            <i class="fa-regular fa-xmark"></i>
+</div></button>        <button name="button" type="submit" class="flex align-center rounded py-2 px-3 font-normal text-smcompany-link bg-company-link bg-opacity-3 shrink-0 border border-transparent" data-action="click-&gt;common--options-widget#toggleOption" data-label-value="India" data-common--options-widget-value-param="India">
+          India
+          <span class="opacity-50 ml-1 pointer-events-none"></span>
+
+          <div class="icon-wrapper ml-2 hidden">
+            <i class="fa-regular fa-xmark"></i>
+</div></button>        <button name="button" type="submit" class="flex align-center rounded py-2 px-3 font-normal text-smcompany-link bg-company-link bg-opacity-3 shrink-0 border border-transparent" data-action="click-&gt;common--options-widget#toggleOption" data-label-value="France" data-common--options-widget-value-param="France">
+          France
+          <span class="opacity-50 ml-1 pointer-events-none"></span>
+
+          <div class="icon-wrapper ml-2 hidden">
+            <i class="fa-regular fa-xmark"></i>
+</div></button>        <button name="button" type="submit" class="flex align-center rounded py-2 px-3 font-normal text-smcompany-link bg-company-link bg-opacity-3 shrink-0 border border-transparent" data-action="click-&gt;common--options-widget#toggleOption" data-label-value="Portugal" data-common--options-widget-value-param="Portugal">
+          Portugal
+          <span class="opacity-50 ml-1 pointer-events-none"></span>
+
+          <div class="icon-wrapper ml-2 hidden">
+            <i class="fa-regular fa-xmark"></i>
+</div></button>        <button name="button" type="submit" class="flex align-center rounded py-2 px-3 font-normal text-smcompany-link bg-company-link bg-opacity-3 shrink-0 border border-transparent" data-action="click-&gt;common--options-widget#toggleOption" data-label-value="Brazil" data-common--options-widget-value-param="Brazil">
+          Brazil
+          <span class="opacity-50 ml-1 pointer-events-none"></span>
+
+          <div class="icon-wrapper ml-2 hidden">
+            <i class="fa-regular fa-xmark"></i>
+</div></button>        <button name="button" type="submit" class="flex align-center rounded py-2 px-3 font-normal text-smcompany-link bg-company-link bg-opacity-3 shrink-0 border border-transparent" data-action="click-&gt;common--options-widget#toggleOption" data-label-value="South Korea" data-common--options-widget-value-param="South Korea">
+          South Korea
+          <span class="opacity-50 ml-1 pointer-events-none"></span>
+
+          <div class="icon-wrapper ml-2 hidden">
+            <i class="fa-regular fa-xmark"></i>
+</div></button>        <button name="button" type="submit" class="flex align-center rounded py-2 px-3 font-normal text-smcompany-link bg-company-link bg-opacity-3 shrink-0 border border-transparent" data-action="click-&gt;common--options-widget#toggleOption" data-label-value="China" data-common--options-widget-value-param="China">
+          China
+          <span class="opacity-50 ml-1 pointer-events-none"></span>
+
+          <div class="icon-wrapper ml-2 hidden">
+            <i class="fa-regular fa-xmark"></i>
+</div></button>        <button name="button" type="submit" class="flex align-center rounded py-2 px-3 font-normal text-smcompany-link bg-company-link bg-opacity-3 shrink-0 border border-transparent" data-action="click-&gt;common--options-widget#toggleOption" data-label-value="Singapore" data-common--options-widget-value-param="Singapore">
+          Singapore
+          <span class="opacity-50 ml-1 pointer-events-none"></span>
+
+          <div class="icon-wrapper ml-2 hidden">
+            <i class="fa-regular fa-xmark"></i>
+</div></button>        <button name="button" type="submit" class="flex align-center rounded py-2 px-3 font-normal text-smcompany-link bg-company-link bg-opacity-3 shrink-0 border border-transparent" data-action="click-&gt;common--options-widget#toggleOption" data-label-value="Japan" data-common--options-widget-value-param="Japan">
+          Japan
+          <span class="opacity-50 ml-1 pointer-events-none"></span>
+
+          <div class="icon-wrapper ml-2 hidden">
+            <i class="fa-regular fa-xmark"></i>
+</div></button>        <button name="button" type="submit" class="flex align-center rounded py-2 px-3 font-normal text-smcompany-link bg-company-link bg-opacity-3 shrink-0 border border-transparent" data-action="click-&gt;common--options-widget#toggleOption" data-label-value="Canada" data-common--options-widget-value-param="Canada">
+          Canada
+          <span class="opacity-50 ml-1 pointer-events-none"></span>
+
+          <div class="icon-wrapper ml-2 hidden">
+            <i class="fa-regular fa-xmark"></i>
+</div></button>        <button name="button" type="submit" class="flex align-center rounded py-2 px-3 font-normal text-smcompany-link bg-company-link bg-opacity-3 shrink-0 border border-transparent" data-action="click-&gt;common--options-widget#toggleOption" data-label-value="Armenia" data-common--options-widget-value-param="Armenia">
+          Armenia
+          <span class="opacity-50 ml-1 pointer-events-none"></span>
+
+          <div class="icon-wrapper ml-2 hidden">
+            <i class="fa-regular fa-xmark"></i>
+</div></button>    </div>
+  </div>
+
+  <div
+    class="headline flex justify-between px-5"
+    data-common--options-widget-target="headline"
+  >
+    <div class="title font-normal text-sm leading-5 text-company-primary opacity-50">
+      Countries
+    </div>
+
+    <div
+      class="value font-normal text-sm leading-5 text-company-primary"
+      data-common--options-widget-target="selectedOptionLabelContainer"
+    ></div>
+  </div>
+</div>
+
+      <div class="options-widget py-5 text-md text-company-primary rounded bg-company-primary cursor-pointer shadow-option" tabindex="0" data-common--options-widget-blocks--jobs--filters-outlet="#blocks-jobs-filters-form" data-common--options-widget-target-field-value="employment_type" data-controller="common--options-widget" data-action="click-&gt;common--options-widget#toggleWidget keydown.enter-&gt;common--options-widget#toggleWidget keydown.space-&gt;common--options-widget#toggleWidget jobs-filters-mobile-reset-all@window-&gt;common--options-widget#reset options-widget-open@window-&gt;common--options-widget#handleToggleOpenedEvent" data-common--options-widget-default-label-value="Any" data-common--options-widget-is-geobound-filter-present-value="false" data-common--options-widget-map-area-translation-value="(Map area)">
+  <div
+    class="hidden labels flex flex-col gap-3"
+    data-common--options-widget-target="labels"
+  >
+    <div class="font-semibold px-5">Employment Types</div>
+
+    <div class="flex gap-3 overflow-auto scrollbar-hide p-1 px-5">
+        <button name="button" type="submit" class="flex align-center rounded py-2 px-3 font-normal text-smcompany-link bg-company-link bg-opacity-3 shrink-0 border border-transparent" data-action="click-&gt;common--options-widget#toggleOption" data-label-value="Full-time" data-common--options-widget-value-param="fully">
+          Full-time
+          <span class="opacity-50 ml-1 pointer-events-none"></span>
+
+          <div class="icon-wrapper ml-2 hidden">
+            <i class="fa-regular fa-xmark"></i>
+</div></button>        <button name="button" type="submit" class="flex align-center rounded py-2 px-3 font-normal text-smcompany-link bg-company-link bg-opacity-3 shrink-0 border border-transparent" data-action="click-&gt;common--options-widget#toggleOption" data-label-value="Part-time" data-common--options-widget-value-param="part">
+          Part-time
+          <span class="opacity-50 ml-1 pointer-events-none"></span>
+
+          <div class="icon-wrapper ml-2 hidden">
+            <i class="fa-regular fa-xmark"></i>
+</div></button>        <button name="button" type="submit" class="flex align-center rounded py-2 px-3 font-normal text-smcompany-link bg-company-link bg-opacity-3 shrink-0 border border-transparent" data-action="click-&gt;common--options-widget#toggleOption" data-label-value="Contract" data-common--options-widget-value-param="contract">
+          Contract
+          <span class="opacity-50 ml-1 pointer-events-none"></span>
+
+          <div class="icon-wrapper ml-2 hidden">
+            <i class="fa-regular fa-xmark"></i>
+</div></button>        <button name="button" type="submit" class="flex align-center rounded py-2 px-3 font-normal text-smcompany-link bg-company-link bg-opacity-3 shrink-0 border border-transparent" data-action="click-&gt;common--options-widget#toggleOption" data-label-value="Temporary" data-common--options-widget-value-param="temporary">
+          Temporary
+          <span class="opacity-50 ml-1 pointer-events-none"></span>
+
+          <div class="icon-wrapper ml-2 hidden">
+            <i class="fa-regular fa-xmark"></i>
+</div></button>        <button name="button" type="submit" class="flex align-center rounded py-2 px-3 font-normal text-smcompany-link bg-company-link bg-opacity-3 shrink-0 border border-transparent" data-action="click-&gt;common--options-widget#toggleOption" data-label-value="Apprenticeship" data-common--options-widget-value-param="apprenticeship">
+          Apprenticeship
+          <span class="opacity-50 ml-1 pointer-events-none"></span>
+
+          <div class="icon-wrapper ml-2 hidden">
+            <i class="fa-regular fa-xmark"></i>
+</div></button>        <button name="button" type="submit" class="flex align-center rounded py-2 px-3 font-normal text-smcompany-link bg-company-link bg-opacity-3 shrink-0 border border-transparent" data-action="click-&gt;common--options-widget#toggleOption" data-label-value="Internship" data-common--options-widget-value-param="internship">
+          Internship
+          <span class="opacity-50 ml-1 pointer-events-none"></span>
+
+          <div class="icon-wrapper ml-2 hidden">
+            <i class="fa-regular fa-xmark"></i>
+</div></button>        <button name="button" type="submit" class="flex align-center rounded py-2 px-3 font-normal text-smcompany-link bg-company-link bg-opacity-3 shrink-0 border border-transparent" data-action="click-&gt;common--options-widget#toggleOption" data-label-value="Volunteer" data-common--options-widget-value-param="volunteer">
+          Volunteer
+          <span class="opacity-50 ml-1 pointer-events-none"></span>
+
+          <div class="icon-wrapper ml-2 hidden">
+            <i class="fa-regular fa-xmark"></i>
+</div></button>    </div>
+  </div>
+
+  <div
+    class="headline flex justify-between px-5"
+    data-common--options-widget-target="headline"
+  >
+    <div class="title font-normal text-sm leading-5 text-company-primary opacity-50">
+      Employment Types
+    </div>
+
+    <div
+      class="value font-normal text-sm leading-5 text-company-primary"
+      data-common--options-widget-target="selectedOptionLabelContainer"
+    ></div>
+  </div>
+</div>
+
+
+      <div class="options-widget py-5 text-md text-company-primary rounded bg-company-primary cursor-pointer shadow-option" tabindex="0" data-common--options-widget-blocks--jobs--filters-outlet="#blocks-jobs-filters-form" data-common--options-widget-target-field-value="region" data-controller="common--options-widget" data-action="click-&gt;common--options-widget#toggleWidget keydown.enter-&gt;common--options-widget#toggleWidget keydown.space-&gt;common--options-widget#toggleWidget jobs-filters-mobile-reset-all@window-&gt;common--options-widget#reset options-widget-open@window-&gt;common--options-widget#handleToggleOpenedEvent" data-common--options-widget-default-label-value="Any" data-common--options-widget-is-geobound-filter-present-value="false" data-common--options-widget-map-area-translation-value="(Map area)">
+  <div
+    class="hidden labels flex flex-col gap-3"
+    data-common--options-widget-target="labels"
+  >
+    <div class="font-semibold px-5">Regions</div>
+
+    <div class="flex gap-3 overflow-auto scrollbar-hide p-1 px-5">
+        <button name="button" type="submit" class="flex align-center rounded py-2 px-3 font-normal text-smcompany-link bg-company-link bg-opacity-3 shrink-0 border border-transparent" data-action="click-&gt;common--options-widget#toggleOption" data-label-value="APAC" data-common--options-widget-value-param="APAC">
+          APAC
+          <span class="opacity-50 ml-1 pointer-events-none"></span>
+
+          <div class="icon-wrapper ml-2 hidden">
+            <i class="fa-regular fa-xmark"></i>
+</div></button>        <button name="button" type="submit" class="flex align-center rounded py-2 px-3 font-normal text-smcompany-link bg-company-link bg-opacity-3 shrink-0 border border-transparent" data-action="click-&gt;common--options-widget#toggleOption" data-label-value="Americas" data-common--options-widget-value-param="Americas">
+          Americas
+          <span class="opacity-50 ml-1 pointer-events-none"></span>
+
+          <div class="icon-wrapper ml-2 hidden">
+            <i class="fa-regular fa-xmark"></i>
+</div></button>        <button name="button" type="submit" class="flex align-center rounded py-2 px-3 font-normal text-smcompany-link bg-company-link bg-opacity-3 shrink-0 border border-transparent" data-action="click-&gt;common--options-widget#toggleOption" data-label-value="EMEA" data-common--options-widget-value-param="EMEA">
+          EMEA
+          <span class="opacity-50 ml-1 pointer-events-none"></span>
+
+          <div class="icon-wrapper ml-2 hidden">
+            <i class="fa-regular fa-xmark"></i>
+</div></button>    </div>
+  </div>
+
+  <div
+    class="headline flex justify-between px-5"
+    data-common--options-widget-target="headline"
+  >
+    <div class="title font-normal text-sm leading-5 text-company-primary opacity-50">
+      Regions
+    </div>
+
+    <div
+      class="value font-normal text-sm leading-5 text-company-primary"
+      data-common--options-widget-target="selectedOptionLabelContainer"
+    ></div>
+  </div>
+</div>
+
+        <div class="options-widget py-5 text-md text-company-primary rounded bg-company-primary cursor-pointer shadow-option" tabindex="0" data-common--options-widget-blocks--jobs--filters-outlet="#blocks-jobs-filters-form" data-common--options-widget-target-field-value="type-of-job" data-controller="common--options-widget" data-action="click-&gt;common--options-widget#toggleWidget keydown.enter-&gt;common--options-widget#toggleWidget keydown.space-&gt;common--options-widget#toggleWidget jobs-filters-mobile-reset-all@window-&gt;common--options-widget#reset options-widget-open@window-&gt;common--options-widget#handleToggleOpenedEvent" data-common--options-widget-default-label-value="Any" data-common--options-widget-is-geobound-filter-present-value="false" data-common--options-widget-map-area-translation-value="(Map area)">
+  <div
+    class="hidden labels flex flex-col gap-3"
+    data-common--options-widget-target="labels"
+  >
+    <div class="font-semibold px-5">Type of Job</div>
+
+    <div class="flex gap-3 overflow-auto scrollbar-hide p-1 px-5">
+        <button name="button" type="submit" class="flex align-center rounded py-2 px-3 font-normal text-smcompany-link bg-company-link bg-opacity-3 shrink-0 border border-transparent" data-action="click-&gt;common--options-widget#toggleOption" data-label-value="Non Student" data-common--options-widget-value-param="Non Student">
+          Non Student
+          <span class="opacity-50 ml-1 pointer-events-none"></span>
+
+          <div class="icon-wrapper ml-2 hidden">
+            <i class="fa-regular fa-xmark"></i>
+</div></button>        <button name="button" type="submit" class="flex align-center rounded py-2 px-3 font-normal text-smcompany-link bg-company-link bg-opacity-3 shrink-0 border border-transparent" data-action="click-&gt;common--options-widget#toggleOption" data-label-value="Student" data-common--options-widget-value-param="Student">
+          Student
+          <span class="opacity-50 ml-1 pointer-events-none"></span>
+
+          <div class="icon-wrapper ml-2 hidden">
+            <i class="fa-regular fa-xmark"></i>
+</div></button>    </div>
+  </div>
+
+  <div
+    class="headline flex justify-between px-5"
+    data-common--options-widget-target="headline"
+  >
+    <div class="title font-normal text-sm leading-5 text-company-primary opacity-50">
+      Type of Job
+    </div>
+
+    <div
+      class="value font-normal text-sm leading-5 text-company-primary"
+      data-common--options-widget-target="selectedOptionLabelContainer"
+    ></div>
+  </div>
+</div>
+  </div>
+
+  <button name="button" type="submit" class="careersite-button rounded shadow-button p-4 fixed left-1/2 -translate-x-1/2 bottom-5" data-action="click-&gt;blocks--jobs--filters-mobile#handleSubmit">Show jobs</button>
+</div>
+
+</div></div></dialog>  </template>
+</div></form>
+
+
+        <div class="bg-company-primary relative z-career-jobs-list @lg:col-span-2 pt-4 @lg:pt-8 block-px pt-10" data-blocks--jobs-target="jobsListContainer">
+            <div class="px-2 @lg:px-0 mx-auto mb-8 flex justify-center @lg:justify-start block-max-w--md">
+
+              <p>
+                <span class="text-lg font-medium">
+                  174 jobs
+                </span>
+
+                <span class="text-md opacity-50">
+                  
+                </span>
+              </p>
+</div>
+          <div>
+              <div class="mx-auto text-lg block-max-w--md">
+    <ul class="block-grid" id="jobs_list_container">
+        <li
+  class="
+    group transition-opacity duration-150 border rounded block-grid-item overflow-hidden
+    border-block-base-text border-opacity-15
+  "
+>
+  <a class="min-h-[11.25rem] h-full w-full p-4 flex flex-col justify-center text-center no-company-style transition group-hover:text-company-primary-text group-hover:bg-primary-text-background" data-turbo="false" href="https://careers.teamviewer.com/jobs/8063044-working-student-governance-audit-data-protection">
+    <span
+      class="
+        text-block-base-link company-link-style hyphens-auto
+        group-hover:text-company-primary-text
+      "
+      title="Working Student Governance, Audit &amp; Data Protection"
+    >
+      Working Student Governance, Audit &amp; Data Protection
+    </span>
+
+    <div class="mt-1 text-md">
+<span>Finance</span>
+
+  <span class="mx-[2px]">&middot;</span>
+
+    <span>Göppingen</span>
+
+</div>
+</a></li>
+
+        <li
+  class="
+    group transition-opacity duration-150 border rounded block-grid-item overflow-hidden
+    border-block-base-text border-opacity-15
+  "
+>
+  <a class="min-h-[11.25rem] h-full w-full p-4 flex flex-col justify-center text-center no-company-style transition group-hover:text-company-primary-text group-hover:bg-primary-text-background" data-turbo="false" href="https://careers.teamviewer.com/jobs/8056870-intern-revenue-operations">
+    <span
+      class="
+        text-block-base-link company-link-style hyphens-auto
+        group-hover:text-company-primary-text
+      "
+      title="Intern, Revenue Operations"
+    >
+      Intern, Revenue Operations
+    </span>
+
+    <div class="mt-1 text-md">
+<span>Sales</span>
+
+  <span class="mx-[2px]">&middot;</span>
+
+    <span>Adelaide</span>
+
+</div>
+</a></li>
+
+        <li
+  class="
+    group transition-opacity duration-150 border rounded block-grid-item overflow-hidden
+    border-block-base-text border-opacity-15
+  "
+>
+  <a class="min-h-[11.25rem] h-full w-full p-4 flex flex-col justify-center text-center no-company-style transition group-hover:text-company-primary-text group-hover:bg-primary-text-background" data-turbo="false" href="https://careers.teamviewer.com/jobs/8055459-work-student-quality-assurance">
+    <span
+      class="
+        text-block-base-link company-link-style hyphens-auto
+        group-hover:text-company-primary-text
+      "
+      title="Work Student, Quality Assurance"
+    >
+      Work Student, Quality Assurance
+    </span>
+
+    <div class="mt-1 text-md">
+<span>Research &amp; Development</span>
+
+  <span class="mx-[2px]">&middot;</span>
+
+    <span>Stuttgart</span>
+
+</div>
+</a></li>
+
+        <li
+  class="
+    group transition-opacity duration-150 border rounded block-grid-item overflow-hidden
+    border-block-base-text border-opacity-15
+  "
+>
+  <a class="min-h-[11.25rem] h-full w-full p-4 flex flex-col justify-center text-center no-company-style transition group-hover:text-company-primary-text group-hover:bg-primary-text-background" data-turbo="false" href="https://careers.teamviewer.com/jobs/8055070-work-student-product-management">
+    <span
+      class="
+        text-block-base-link company-link-style hyphens-auto
+        group-hover:text-company-primary-text
+      "
+      title="Work Student, Product Management"
+    >
+      Work Student, Product Management
+    </span>
+
+    <div class="mt-1 text-md">
+<span>Product Management</span>
+
+  <span class="mx-[2px]">&middot;</span>
+
+    <span>Göppingen</span>
+
+</div>
+</a></li>
+
+        <li
+  class="
+    group transition-opacity duration-150 border rounded block-grid-item overflow-hidden
+    border-block-base-text border-opacity-15
+  "
+>
+  <a class="min-h-[11.25rem] h-full w-full p-4 flex flex-col justify-center text-center no-company-style transition group-hover:text-company-primary-text group-hover:bg-primary-text-background" data-turbo="false" href="https://careers.teamviewer.com/jobs/8054939-intern-software-engineering-ai-assisted-development">
+    <span
+      class="
+        text-block-base-link company-link-style hyphens-auto
+        group-hover:text-company-primary-text
+      "
+      title="Intern, Software Engineering &amp; AI-Assisted Development"
+    >
+      Intern, Software Engineering &amp; AI-Assisted Development
+    </span>
+
+    <div class="mt-1 text-md">
+<span>Research &amp; Development</span>
+
+  <span class="mx-[2px]">&middot;</span>
+
+    <span>Göppingen</span>
+
+</div>
+</a></li>
+
+        <li
+  class="
+    group transition-opacity duration-150 border rounded block-grid-item overflow-hidden
+    border-block-base-text border-opacity-15
+  "
+>
+  <a class="min-h-[11.25rem] h-full w-full p-4 flex flex-col justify-center text-center no-company-style transition group-hover:text-company-primary-text group-hover:bg-primary-text-background" data-turbo="false" href="https://careers.teamviewer.com/jobs/8054891-intern-qa">
+    <span
+      class="
+        text-block-base-link company-link-style hyphens-auto
+        group-hover:text-company-primary-text
+      "
+      title="Intern, QA"
+    >
+      Intern, QA
+    </span>
+
+    <div class="mt-1 text-md">
+<span>Research &amp; Development</span>
+
+  <span class="mx-[2px]">&middot;</span>
+
+    <span>Yerevan</span>
+
+    <span class="mx-[2px]">&middot;</span>
+  <span class="inline-flex items-center gap-x-2">
+    Hybrid
+    <i class="w-4 h-5 text-xs fas fa-wifi"></i>
+</span></div>
+</a></li>
+
+        <li
+  class="
+    group transition-opacity duration-150 border rounded block-grid-item overflow-hidden
+    border-block-base-text border-opacity-15
+  "
+>
+  <a class="min-h-[11.25rem] h-full w-full p-4 flex flex-col justify-center text-center no-company-style transition group-hover:text-company-primary-text group-hover:bg-primary-text-background" data-turbo="false" href="https://careers.teamviewer.com/jobs/8053118-enterprise-account-executive">
+    <span
+      class="
+        text-block-base-link company-link-style hyphens-auto
+        group-hover:text-company-primary-text
+      "
+      title="Enterprise Account Executive"
+    >
+      Enterprise Account Executive
+    </span>
+
+    <div class="mt-1 text-md">
+<span>Sales</span>
+
+  <span class="mx-[2px]">&middot;</span>
+
+    <span>Amsterdam</span>
+
+    <span class="mx-[2px]">&middot;</span>
+  <span class="inline-flex items-center gap-x-2">
+    Fully Remote
+    <i class="w-4 h-5 text-xs fas fa-wifi"></i>
+</span></div>
+</a></li>
+
+        <li
+  class="
+    group transition-opacity duration-150 border rounded block-grid-item overflow-hidden
+    border-block-base-text border-opacity-15
+  "
+>
+  <a class="min-h-[11.25rem] h-full w-full p-4 flex flex-col justify-center text-center no-company-style transition group-hover:text-company-primary-text group-hover:bg-primary-text-background" data-turbo="false" href="https://careers.teamviewer.com/jobs/8052905-technical-account-manager">
+    <span
+      class="
+        text-block-base-link company-link-style hyphens-auto
+        group-hover:text-company-primary-text
+      "
+      title="Technical Account Manager"
+    >
+      Technical Account Manager
+    </span>
+
+    <div class="mt-1 text-md">
+<span>Customer Engineering</span>
+
+  <span class="mx-[2px]">&middot;</span>
+
+    <span title="London, Porto, Berlin, Barcelona, Bremen, Copenhagen, Dublin, Linz, Madrid, Stockholm, München, Stuttgart">Multiple locations</span>
+
+    <span class="mx-[2px]">&middot;</span>
+  <span class="inline-flex items-center gap-x-2">
+    Hybrid
+    <i class="w-4 h-5 text-xs fas fa-wifi"></i>
+</span></div>
+</a></li>
+
+        <li
+  class="
+    group transition-opacity duration-150 border rounded block-grid-item overflow-hidden
+    border-block-base-text border-opacity-15
+  "
+>
+  <a class="min-h-[11.25rem] h-full w-full p-4 flex flex-col justify-center text-center no-company-style transition group-hover:text-company-primary-text group-hover:bg-primary-text-background" data-turbo="false" href="https://careers.teamviewer.com/jobs/8044114-senior-devops-engineer">
+    <span
+      class="
+        text-block-base-link company-link-style hyphens-auto
+        group-hover:text-company-primary-text
+      "
+      title="Senior DevOps Engineer"
+    >
+      Senior DevOps Engineer
+    </span>
+
+    <div class="mt-1 text-md">
+<span>Research &amp; Development</span>
+
+  <span class="mx-[2px]">&middot;</span>
+
+    <span>Porto</span>
+
+    <span class="mx-[2px]">&middot;</span>
+  <span class="inline-flex items-center gap-x-2">
+    Hybrid
+    <i class="w-4 h-5 text-xs fas fa-wifi"></i>
+</span></div>
+</a></li>
+
+        <li
+  class="
+    group transition-opacity duration-150 border rounded block-grid-item overflow-hidden
+    border-block-base-text border-opacity-15
+  "
+>
+  <a class="min-h-[11.25rem] h-full w-full p-4 flex flex-col justify-center text-center no-company-style transition group-hover:text-company-primary-text group-hover:bg-primary-text-background" data-turbo="false" href="https://careers.teamviewer.com/jobs/8041310-intern-web-qa-content">
+    <span
+      class="
+        text-block-base-link company-link-style hyphens-auto
+        group-hover:text-company-primary-text
+      "
+      title="Intern, Web QA &amp; Content"
+    >
+      Intern, Web QA &amp; Content
+    </span>
+
+    <div class="mt-1 text-md">
+<span>Marketing</span>
+
+  <span class="mx-[2px]">&middot;</span>
+
+    <span>Göppingen</span>
+
+</div>
+</a></li>
+
+        <li
+  class="
+    group transition-opacity duration-150 border rounded block-grid-item overflow-hidden
+    border-block-base-text border-opacity-15
+  "
+>
+  <a class="min-h-[11.25rem] h-full w-full p-4 flex flex-col justify-center text-center no-company-style transition group-hover:text-company-primary-text group-hover:bg-primary-text-background" data-turbo="false" href="https://careers.teamviewer.com/jobs/8041074-intern-inside-sales">
+    <span
+      class="
+        text-block-base-link company-link-style hyphens-auto
+        group-hover:text-company-primary-text
+      "
+      title="Intern, Inside Sales"
+    >
+      Intern, Inside Sales
+    </span>
+
+    <div class="mt-1 text-md">
+<span>Sales</span>
+
+  <span class="mx-[2px]">&middot;</span>
+
+    <span>Göppingen</span>
+
+</div>
+</a></li>
+
+        <li
+  class="
+    group transition-opacity duration-150 border rounded block-grid-item overflow-hidden
+    border-block-base-text border-opacity-15
+  "
+>
+  <a class="min-h-[11.25rem] h-full w-full p-4 flex flex-col justify-center text-center no-company-style transition group-hover:text-company-primary-text group-hover:bg-primary-text-background" data-turbo="false" href="https://careers.teamviewer.com/jobs/8037343-intern-procurement">
+    <span
+      class="
+        text-block-base-link company-link-style hyphens-auto
+        group-hover:text-company-primary-text
+      "
+      title="Intern, Procurement"
+    >
+      Intern, Procurement
+    </span>
+
+    <div class="mt-1 text-md">
+<span>Corporate</span>
+
+  <span class="mx-[2px]">&middot;</span>
+
+    <span>Yerevan</span>
+
+    <span class="mx-[2px]">&middot;</span>
+  <span class="inline-flex items-center gap-x-2">
+    Hybrid
+    <i class="w-4 h-5 text-xs fas fa-wifi"></i>
+</span></div>
+</a></li>
+
+        <li
+  class="
+    group transition-opacity duration-150 border rounded block-grid-item overflow-hidden
+    border-block-base-text border-opacity-15
+  "
+>
+  <a class="min-h-[11.25rem] h-full w-full p-4 flex flex-col justify-center text-center no-company-style transition group-hover:text-company-primary-text group-hover:bg-primary-text-background" data-turbo="false" href="https://careers.teamviewer.com/jobs/8036269-intern-sustainability-management">
+    <span
+      class="
+        text-block-base-link company-link-style hyphens-auto
+        group-hover:text-company-primary-text
+      "
+      title="Intern, Sustainability Management"
+    >
+      Intern, Sustainability Management
+    </span>
+
+    <div class="mt-1 text-md">
+<span>Corporate</span>
+
+  <span class="mx-[2px]">&middot;</span>
+
+    <span>Göppingen</span>
+
+</div>
+</a></li>
+
+        <li
+  class="
+    group transition-opacity duration-150 border rounded block-grid-item overflow-hidden
+    border-block-base-text border-opacity-15
+  "
+>
+  <a class="min-h-[11.25rem] h-full w-full p-4 flex flex-col justify-center text-center no-company-style transition group-hover:text-company-primary-text group-hover:bg-primary-text-background" data-turbo="false" href="https://careers.teamviewer.com/jobs/8033679-sales-development-representative-hybrid-midtown-tampa-fl">
+    <span
+      class="
+        text-block-base-link company-link-style hyphens-auto
+        group-hover:text-company-primary-text
+      "
+      title="Sales Development Representative - Hybrid - (Midtown - Tampa, FL)"
+    >
+      Sales Development Representative - Hybrid - (Midtown - Tampa, FL)
+    </span>
+
+    <div class="mt-1 text-md">
+<span>Sales</span>
+
+  <span class="mx-[2px]">&middot;</span>
+
+    <span>Tampa</span>
+
+</div>
+</a></li>
+
+        <li
+  class="
+    group transition-opacity duration-150 border rounded block-grid-item overflow-hidden
+    border-block-base-text border-opacity-15
+  "
+>
+  <a class="min-h-[11.25rem] h-full w-full p-4 flex flex-col justify-center text-center no-company-style transition group-hover:text-company-primary-text group-hover:bg-primary-text-background" data-turbo="false" href="https://careers.teamviewer.com/jobs/8033374-senior-enterprise-solutions-engineer">
+    <span
+      class="
+        text-block-base-link company-link-style hyphens-auto
+        group-hover:text-company-primary-text
+      "
+      title="Senior Enterprise Solutions Engineer"
+    >
+      Senior Enterprise Solutions Engineer
+    </span>
+
+    <div class="mt-1 text-md">
+<span>Sales</span>
+
+  <span class="mx-[2px]">&middot;</span>
+
+    <span>Clearwater</span>
+
+    <span class="mx-[2px]">&middot;</span>
+  <span class="inline-flex items-center gap-x-2">
+    Fully Remote
+    <i class="w-4 h-5 text-xs fas fa-wifi"></i>
+</span></div>
+</a></li>
+
+        <li
+  class="
+    group transition-opacity duration-150 border rounded block-grid-item overflow-hidden
+    border-block-base-text border-opacity-15
+  "
+>
+  <a class="min-h-[11.25rem] h-full w-full p-4 flex flex-col justify-center text-center no-company-style transition group-hover:text-company-primary-text group-hover:bg-primary-text-background" data-turbo="false" href="https://careers.teamviewer.com/jobs/8032929-jr-customer-support-specialist-english-spanish-required-midtown-tampa-fl">
+    <span
+      class="
+        text-block-base-link company-link-style hyphens-auto
+        group-hover:text-company-primary-text
+      "
+      title="Jr. Customer Support Specialist (English/Spanish Required) - Midtown - Tampa, FL"
+    >
+      Jr. Customer Support Specialist (English/Spanish Required) - Midtown - T...
+    </span>
+
+    <div class="mt-1 text-md">
+<span>Customer Support</span>
+
+  <span class="mx-[2px]">&middot;</span>
+
+    <span>Tampa</span>
+
+</div>
+</a></li>
+
+        <li
+  class="
+    group transition-opacity duration-150 border rounded block-grid-item overflow-hidden
+    border-block-base-text border-opacity-15
+  "
+>
+  <a class="min-h-[11.25rem] h-full w-full p-4 flex flex-col justify-center text-center no-company-style transition group-hover:text-company-primary-text group-hover:bg-primary-text-background" data-turbo="false" href="https://careers.teamviewer.com/jobs/8010045-senior-project-manager">
+    <span
+      class="
+        text-block-base-link company-link-style hyphens-auto
+        group-hover:text-company-primary-text
+      "
+      title="Senior Project Manager"
+    >
+      Senior Project Manager
+    </span>
+
+    <div class="mt-1 text-md">
+<span>Research &amp; Development</span>
+
+  <span class="mx-[2px]">&middot;</span>
+
+    <span>Stuttgart, Göppingen</span>
+
+    <span class="mx-[2px]">&middot;</span>
+  <span class="inline-flex items-center gap-x-2">
+    Hybrid
+    <i class="w-4 h-5 text-xs fas fa-wifi"></i>
+</span></div>
+</a></li>
+
+        <li
+  class="
+    group transition-opacity duration-150 border rounded block-grid-item overflow-hidden
+    border-block-base-text border-opacity-15
+  "
+>
+  <a class="min-h-[11.25rem] h-full w-full p-4 flex flex-col justify-center text-center no-company-style transition group-hover:text-company-primary-text group-hover:bg-primary-text-background" data-turbo="false" href="https://careers.teamviewer.com/jobs/8006591-student-collection-specialist">
+    <span
+      class="
+        text-block-base-link company-link-style hyphens-auto
+        group-hover:text-company-primary-text
+      "
+      title="Student, Collection Specialist"
+    >
+      Student, Collection Specialist
+    </span>
+
+    <div class="mt-1 text-md">
+<span>Finance</span>
+
+  <span class="mx-[2px]">&middot;</span>
+
+    <span>Porto</span>
+
+</div>
+</a></li>
+
+        <li
+  class="
+    group transition-opacity duration-150 border rounded block-grid-item overflow-hidden
+    border-block-base-text border-opacity-15
+  "
+>
+  <a class="min-h-[11.25rem] h-full w-full p-4 flex flex-col justify-center text-center no-company-style transition group-hover:text-company-primary-text group-hover:bg-primary-text-background" data-turbo="false" href="https://careers.teamviewer.com/jobs/8006060-work-student-marketing-localization">
+    <span
+      class="
+        text-block-base-link company-link-style hyphens-auto
+        group-hover:text-company-primary-text
+      "
+      title="Work Student, Marketing Localization"
+    >
+      Work Student, Marketing Localization
+    </span>
+
+    <div class="mt-1 text-md">
+<span>Marketing</span>
+
+  <span class="mx-[2px]">&middot;</span>
+
+    <span>Berlin, Göppingen</span>
+
+</div>
+</a></li>
+
+        <li
+  class="
+    group transition-opacity duration-150 border rounded block-grid-item overflow-hidden
+    border-block-base-text border-opacity-15
+  "
+>
+  <a class="min-h-[11.25rem] h-full w-full p-4 flex flex-col justify-center text-center no-company-style transition group-hover:text-company-primary-text group-hover:bg-primary-text-background" data-turbo="false" href="https://careers.teamviewer.com/jobs/8004373-jr-customer-support-specialist-level-1-guadalajara-mx">
+    <span
+      class="
+        text-block-base-link company-link-style hyphens-auto
+        group-hover:text-company-primary-text
+      "
+      title="Jr. Customer Support Specialist (Level 1) - Guadalajara, MX"
+    >
+      Jr. Customer Support Specialist (Level 1) - Guadalajara, MX
+    </span>
+
+    <div class="mt-1 text-md">
+<span>Customer Support</span>
+
+  <span class="mx-[2px]">&middot;</span>
+
+    <span>Guadalajara</span>
+
+</div>
+</a></li>
+
+</ul></div>
+
+          </div>
+
+
+            <div id="show_more_button" class="flex justify-center mx-auto mt-12">
+              <a href="/jobs/show_more?page=2" class="careersite-button min-w-[13.75rem] group" data-turbo-stream="true">
+  <span class="flex items-center justify-center gap-x-3">
+    
+    <span class="truncate">Show 20 more</span>
+
+  </span>
+</a>
+</div></div>
+</div></div></turbo-frame>
+</section>
+
+  
+  <section id="section-58077137" style="--block-base-text-color: var(--company-primary-text-color);--block-base-link-color: var(--company-link-color);--block-base-background-color: var(--company-primary-bg-color);--block-base-highlight-color: var(--company-color);--block-title-color: rgba(var(--block-base-text-color), 1);--block-image-background: #050a52;" class="block--locations-map  jobs-page bg-company-primary text-company-primary" data-section-route="section" data-section-model="58077137" data-section-name="locations-map" data-section-label="Locations map">
+    <div id="locations-map" class="text-lg locations-map" data-controller="blocks--locations-map" data-blocks--locations-map-selected-location-value="1209808" data-blocks--locations-map-locations-value="[{&quot;id&quot;:1209808,&quot;lat&quot;:&quot;48.7007227&quot;,&quot;long&quot;:&quot;9.6513794&quot;},{&quot;id&quot;:1209884,&quot;lat&quot;:&quot;-34.92475340000001&quot;,&quot;long&quot;:&quot;138.5995687&quot;},{&quot;id&quot;:4661189,&quot;lat&quot;:&quot;31.9729098&quot;,&quot;long&quot;:&quot;35.8343689&quot;},{&quot;id&quot;:4655657,&quot;lat&quot;:&quot;52.50701&quot;,&quot;long&quot;:&quot;13.4399749&quot;},{&quot;id&quot;:4655642,&quot;lat&quot;:&quot;53.0867484&quot;,&quot;long&quot;:&quot;8.777214299999999&quot;},{&quot;id&quot;:1209872,&quot;lat&quot;:&quot;27.919815&quot;,&quot;long&quot;:&quot;-82.7124565&quot;},{&quot;id&quot;:4661899,&quot;lat&quot;:&quot;25.2048493&quot;,&quot;long&quot;:&quot;55.2707828&quot;},{&quot;id&quot;:1209876,&quot;lat&quot;:&quot;20.6956169&quot;,&quot;long&quot;:&quot;-103.3760315&quot;},{&quot;id&quot;:1209870,&quot;lat&quot;:&quot;39.6518585&quot;,&quot;long&quot;:&quot;20.8474366&quot;},{&quot;id&quot;:4655660,&quot;lat&quot;:&quot;48.9964862&quot;,&quot;long&quot;:&quot;8.465317899999999&quot;},{&quot;id&quot;:4857258,&quot;lat&quot;:&quot;3.1319197&quot;,&quot;long&quot;:&quot;101.6840589&quot;},{&quot;id&quot;:1209863,&quot;lat&quot;:&quot;48.3059198&quot;,&quot;long&quot;:&quot;14.2901909&quot;},{&quot;id&quot;:1209885,&quot;lat&quot;:&quot;51.5169297&quot;,&quot;long&quot;:&quot;-0.07801709999999999&quot;},{&quot;id&quot;:4770253,&quot;lat&quot;:&quot;-37.8136276&quot;,&quot;long&quot;:&quot;144.9630576&quot;},{&quot;id&quot;:1209882,&quot;lat&quot;:&quot;19.0736991&quot;,&quot;long&quot;:&quot;72.870487&quot;},{&quot;id&quot;:4655661,&quot;lat&quot;:&quot;48.1446041&quot;,&quot;long&quot;:&quot;11.5207961&quot;},{&quot;id&quot;:4673470,&quot;lat&quot;:&quot;40.7127753&quot;,&quot;long&quot;:&quot;-74.0059728&quot;},{&quot;id&quot;:1209892,&quot;lat&quot;:&quot;28.5006604&quot;,&quot;long&quot;:&quot;77.41030839999999&quot;},{&quot;id&quot;:1209866,&quot;lat&quot;:&quot;48.8318682&quot;,&quot;long&quot;:&quot;2.3860553&quot;},{&quot;id&quot;:1209867,&quot;lat&quot;:&quot;41.1764506&quot;,&quot;long&quot;:&quot;-8.650923200000001&quot;},{&quot;id&quot;:4673468,&quot;lat&quot;:&quot;-23.5557714&quot;,&quot;long&quot;:&quot;-46.6395571&quot;},{&quot;id&quot;:4661893,&quot;lat&quot;:&quot;37.550263&quot;,&quot;long&quot;:&quot;126.9970831&quot;},{&quot;id&quot;:1209878,&quot;lat&quot;:&quot;31.1972204&quot;,&quot;long&quot;:&quot;121.4375907&quot;},{&quot;id&quot;:1209877,&quot;lat&quot;:&quot;1.2947503&quot;,&quot;long&quot;:&quot;103.8597341&quot;},{&quot;id&quot;:4655659,&quot;lat&quot;:&quot;48.7388746&quot;,&quot;long&quot;:&quot;9.1116614&quot;},{&quot;id&quot;:4898744,&quot;lat&quot;:&quot;27.9516896&quot;,&quot;long&quot;:&quot;-82.45875269999999&quot;},{&quot;id&quot;:1209880,&quot;lat&quot;:&quot;35.6827101&quot;,&quot;long&quot;:&quot;139.7642505&quot;},{&quot;id&quot;:1209875,&quot;lat&quot;:&quot;43.6486524&quot;,&quot;long&quot;:&quot;-79.3819382&quot;},{&quot;id&quot;:1209807,&quot;lat&quot;:&quot;40.1678457&quot;,&quot;long&quot;:&quot;44.5142205&quot;}]">
+  <template data-blocks--locations-map-target="largeMarkerIcon">
+    <i class="text-3xl filter drop-shadow fas fa-location-dot text-company-link"></i>
+  </template>
+
+  <template data-blocks--locations-map-target="smallMarkerIcon">
+    <i class="filter drop-shadow fas fa-circle-small fa-xs text-company-link"></i>
+  </template>
+
+  <div class="flex flex-col @lg:flex-row">
+    <div
+      class="
+        flex flex-col items-center justify-start w-full py-20 @lg:w-half
+        bg-company-secondary block-px
+      "
+    >
+        <select class="truncate pr-10 mb-6 min-w-full @lg:min-w-[300px] max-w-full @lg:max-w-[420px] @md:mx-4 p-4 rounded-2 border-0 cursor-pointer bg-company-secondary-text text-company-secondary-bg " data-blocks--locations-map-target="locationSelect" name="Select location" title="Select location">
+            <option value="1209808">
+              Göppingen
+</option>            <option value="1209884">
+              Adelaide
+</option>            <option value="4661189">
+              Amman
+</option>            <option value="4655657">
+              Berlin
+</option>            <option value="4655642">
+              Bremen
+</option>            <option value="1209872">
+              Clearwater
+</option>            <option value="4661899">
+              Dubai
+</option>            <option value="1209876">
+              Guadalajara
+</option>            <option value="1209870">
+              Ioannina
+</option>            <option value="4655660">
+              Karlsruhe
+</option>            <option value="4857258">
+              Kuala Lumpur
+</option>            <option value="1209863">
+              Linz
+</option>            <option value="1209885">
+              London
+</option>            <option value="4770253">
+              Melbourne
+</option>            <option value="1209882">
+              Mumbai
+</option>            <option value="4655661">
+              München
+</option>            <option value="4673470">
+              New York
+</option>            <option value="1209892">
+              Noida
+</option>            <option value="1209866">
+              Paris
+</option>            <option value="1209867">
+              Porto
+</option>            <option value="4673468">
+              São Paulo
+</option>            <option value="4661893">
+              Seoul
+</option>            <option value="1209878">
+              Shanghai
+</option>            <option value="1209877">
+              Singapore
+</option>            <option value="4655659">
+              Stuttgart
+</option>            <option value="4898744">
+              Tampa
+</option>            <option value="1209880">
+              Tokyo
+</option>            <option value="1209875">
+              Toronto
+</option>            <option value="1209807">
+              Yerevan
+</option></select>
+      <turbo-frame id="location_details" src="https://careers.teamviewer.com/locations/map_details?editor=false&amp;location_id=1209808" loading="lazy" data-blocks--locations-map-target="details"></turbo-frame>
+    </div>
+
+    <div class="w-full @lg:w-half h-[320px] @md:h-[450px] z-career-locations-map" data-blocks--locations-map-target="map"></div>
+</div></div>
+</section>
+
+
+
+</main>
+  <div class="" data-section-model="footer">
+
+    
+
+    <footer class="bg-company-primary text-company-primary block-px">
+        <div class="text-lg block-padding">
+  <div class="w-full mx-auto @sm:flex block-max-w--lg">
+      <div class="w-full @lg:flex-shrink-0 @md:w-[47%] @md:text-center @lg:text-unset @lg:w-[25%] @md:pr-[3%] mb-10 @lg:mb-0 last:mb-0 footer-nav-menu">
+  <h2 class="mb-4 text-xl font-company-header text-company-primary">
+    Career site
+  </h2>
+
+  <ul class="flex flex-col gap-y-3">
+      <li class="w-full text-md leading-tight">
+        <a class="py-1 w-full company-link" href="/data-privacy">Data &amp; privacy</a>
+
+</li>  </ul>
+</div>
+
+
+
+    <div class="flex flex-col items-center justify-center grow shrink-0 text-base @sm:items-end @sm:justify-end">
+      <a class="text-company-primary hover:text-company-link text-ellipsis py-1" href="https://www.teamviewer.com/en/legal/imprint/">teamviewer.com/en/legal/imprint/</a>
+      
+
+        <div class="flex mt-2">
+            <a class="text-company-primary hover:text-company-link gap-x-1" target="_blank" title="Facebook" href="https://www.facebook.com/teamviewer/">
+              <i class="fab fa-facebook-square size-6 p-1 text-lg"></i>
+</a>            <a class="text-company-primary hover:text-company-link gap-x-1" target="_blank" title="LinkedIn" href="https://www.linkedin.com/company/teamviewer/">
+              <i class="fab fa-linkedin size-6 p-1 text-lg"></i>
+</a>            <a class="text-company-primary hover:text-company-link gap-x-1" target="_blank" title="Instagram" href="https://www.instagram.com/teamviewer/">
+              <i class="fab fa-instagram size-6 p-1 text-lg"></i>
+</a>        </div>
+</div></div></div>
+
+
+      <div
+        class="
+          flex flex-col py-4 mx-auto text-center border-t @sm:text-unset
+          block-max-w--lg border-company-primary-text border-opacity-15
+          @sm:justify-between @sm:flex-row
+        "
+      >
+        <div class="flex justify-center w-full @sm:w-auto">
+    <a class="text-company-primary hover:text-company-link" href="/sso_login">Employee login</a>
+</div>
+
+
+        <div class="flex justify-center w-full @sm:w-auto">
+            <a class="text-company-primary hover:text-company-link" href="/connect/login">Candidate Connect login</a>
+
+        </div>
+      </div>
+</footer></div>
+
+
+
+
+
+    <script nonce="">
+  function trackPageView(url) {
+    var searchParams = new URLSearchParams(window.location.search);
+    var utmSource = searchParams.get('utm_source');
+    window.referrer = window.referrer || utmSource || document.referrer
+    var payload = {
+      ed: 'd6MM5kimUHO7pz/k6BsvvrTXJvb/hwpNSraag/milRfZUOQ8iHzvjjZ5yLAxTTru8CajrzfcPCbGvMY5qtFZIuT8xN9xCRisOJ48VPfhwzLB2rpuRi8p1u1Je8L+KfukTHCdNhRNbUUXzQhoDpi7J0VSwH5KhFxgW+Eei69P66j+2WdY7kmgpjgaQUGkjbuFGHELnzOk5D3nVQVz7YBkPy5Wi8VvSlQuSFXeKVfCvfYtSw2i9CfG631JIWacEhreqJMBjVkActMO59H4Ysq3--MIhXyOL8RT7E88Op--6kXFVKTT0s9kQezvpMNWug==',
+      visitor_uuid: window.visitor_uuid,
+      referrer: window.referrer,
+      data: {
+        ua: navigator.userAgent,
+        referrer: document.referrer,
+      },
+      url: url,
+    };
+
+    var xmlhttp = new XMLHttpRequest();
+    xmlhttp.open('POST', '/pageview', true);
+    xmlhttp.setRequestHeader('Content-Type', 'application/json;charset=UTF-8');
+    xmlhttp.withCredentials = true;
+    xmlhttp.addEventListener('readystatechange', function () {
+      if (xmlhttp.readyState === XMLHttpRequest.DONE) {
+        const status = xmlhttp.status;
+        if (status === 0 || (status >= 200 && status < 400)) {
+          window.visitor_uuid = xmlhttp.responseText;
+        }
+      }
+    })
+
+    xmlhttp.send(JSON.stringify(payload));
+  }
+
+  window.trackPageView = trackPageView;
+
+  if (!window.analyticsPageviewCallback) {
+    window.analyticsPageviewCallback = true;
+    window.addEventListener('turbo:load', function(data){
+      window.trackPageView();
+    });
+  }
+</script>
+
+    
+
+      <script nonce='' src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" data-document-language="true" type="text/javascript" charset="UTF-8" data-domain-script="9c53b460-d634-4756-b40e-d03f1508a38f" ></script>
+
+      <div class="opacity-0 transition-opacity duration-100 ease-in-out z-candidate-chat" data-controller="common--chat" data-common--chat-subdomain-host-value="careers.teamviewer.com">
+</div>
+</body></html>

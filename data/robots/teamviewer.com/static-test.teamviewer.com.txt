@@ -1,0 +1,23 @@
+User-agent: *
+Disallow: /
+Disallow: /GenericStatisticsWS.asmx
+Disallow: /GenericStatisticsWS.asmx/*
+Disallow: /ws/
+Disallow: /*.aspx?licenses
+Disallow: /*.aspx?currency
+Disallow: /*.aspx?Currency
+Disallow: /*.aspx?module
+Disallow: /*module=
+Disallow: /*.aspx?page
+Disallow: /*page=
+Disallow: /*.aspx?runtimeinterval
+Disallow: /*.aspx?case
+Disallow: /*case=
+Allow: */resources_shop/
+Allow: */resources/
+Allow: /resources/
+Allow: /styles/
+Allow: /images/
+Allow: /res/
+Allow: /components/
+#Changed on 2017-04-25 SeSi#

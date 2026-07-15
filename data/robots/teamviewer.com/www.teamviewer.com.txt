@@ -1,0 +1,19 @@
+#Valid for all user agents
+User-agent: *
+ 
+#Disallow Global Website#
+Disallow: /link/
+Disallow: /api/
+Disallow: /libs/
+Disallow: /bin/
+Disallow: /etc/
+Disallow: /showcase/
+Disallow: /content/
+Disallow: /etc.clientlibs/
+Disallow: /*?*mail=
+Disallow: /*?*code=
+Disallow: /*?*id=
+Disallow: /*?*ic=
+ 
+#Sitemap#
+Sitemap: https://www.teamviewer.com/sitemap-index.xml

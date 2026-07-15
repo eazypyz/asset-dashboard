@@ -1,0 +1,120 @@
+{
+  "domain": "grayback.es",
+  "last_update": "2026-07-15T16:10:09.161Z",
+  "stats": {
+    "total": 6,
+    "dns_resolved": 6,
+    "alive": 5,
+    "has_robots": 5,
+    "has_security": 0,
+    "has_sitemap": 1
+  },
+  "subdomains": [
+    {
+      "host": "app.grayback.es",
+      "source": [
+        "crtsh",
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": true,
+      "robots_hash": "e98f7b9665f27279d1c4c2852012df07a7105661e69de7d07f3619f57740f988",
+      "security_hash": "",
+      "sitemap_hash": "b39e1ff98770f296ce023480e141541d6d31950fd83589346ee34a408ab939a5",
+      "first_seen": "2026-07-15T16:10:09.158Z",
+      "last_seen": "2026-07-15T16:10:09.158Z"
+    },
+    {
+      "host": "auth.grayback.es",
+      "source": [
+        "crtsh",
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "842b34303164ead41bccb7c05d1707422e98d108753b397b6dcc19683eb02101",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-15T16:10:09.158Z",
+      "last_seen": "2026-07-15T16:10:09.158Z"
+    },
+    {
+      "host": "grayback.es",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "842b34303164ead41bccb7c05d1707422e98d108753b397b6dcc19683eb02101",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-15T16:10:09.158Z",
+      "last_seen": "2026-07-15T16:10:09.158Z"
+    },
+    {
+      "host": "pre.grayback.es",
+      "source": [
+        "crtsh",
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "842b34303164ead41bccb7c05d1707422e98d108753b397b6dcc19683eb02101",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-15T16:10:09.158Z",
+      "last_seen": "2026-07-15T16:10:09.158Z"
+    },
+    {
+      "host": "vpn.grayback.es",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-15T16:10:09.158Z",
+      "last_seen": "2026-07-15T16:10:09.158Z"
+    },
+    {
+      "host": "www.grayback.es",
+      "source": [
+        "crtsh",
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "842b34303164ead41bccb7c05d1707422e98d108753b397b6dcc19683eb02101",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-15T16:10:09.158Z",
+      "last_seen": "2026-07-15T16:10:09.158Z"
+    }
+  ]
+}

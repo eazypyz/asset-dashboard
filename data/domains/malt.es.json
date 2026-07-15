@@ -1,0 +1,643 @@
+{
+  "domain": "malt.es",
+  "last_update": "2026-07-15T16:11:10.433Z",
+  "stats": {
+    "total": 37,
+    "dns_resolved": 15,
+    "alive": 15,
+    "has_robots": 3,
+    "has_security": 0,
+    "has_sitemap": 1
+  },
+  "subdomains": [
+    {
+      "host": "blog.malt.es",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-15T16:11:10.431Z",
+      "last_seen": "2026-07-15T16:11:10.431Z"
+    },
+    {
+      "host": "calculadora.malt.es",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-15T16:11:10.431Z",
+      "last_seen": "2026-07-15T16:11:10.431Z"
+    },
+    {
+      "host": "cms-marketing.integration.malt.es",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-15T16:11:10.431Z",
+      "last_seen": "2026-07-15T16:11:10.431Z"
+    },
+    {
+      "host": "covid19.malt.es",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-15T16:11:10.431Z",
+      "last_seen": "2026-07-15T16:11:10.431Z"
+    },
+    {
+      "host": "devops.malt.es",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-15T16:11:10.431Z",
+      "last_seen": "2026-07-15T16:11:10.431Z"
+    },
+    {
+      "host": "email.integration.malt.es",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-15T16:11:10.431Z",
+      "last_seen": "2026-07-15T16:11:10.431Z"
+    },
+    {
+      "host": "email.malt.es",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-15T16:11:10.431Z",
+      "last_seen": "2026-07-15T16:11:10.431Z"
+    },
+    {
+      "host": "en-cms-marketing.integration.malt.es",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-15T16:11:10.431Z",
+      "last_seen": "2026-07-15T16:11:10.431Z"
+    },
+    {
+      "host": "en.demo.malt.es",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-15T16:11:10.431Z",
+      "last_seen": "2026-07-15T16:11:10.431Z"
+    },
+    {
+      "host": "en.integration.malt.es",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-15T16:11:10.431Z",
+      "last_seen": "2026-07-15T16:11:10.431Z"
+    },
+    {
+      "host": "en.malt.es",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-15T16:11:10.431Z",
+      "last_seen": "2026-07-15T16:11:10.431Z"
+    },
+    {
+      "host": "f-es6.malt.es",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-15T16:11:10.431Z",
+      "last_seen": "2026-07-15T16:11:10.431Z"
+    },
+    {
+      "host": "f-sbu.malt.es",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-15T16:11:10.431Z",
+      "last_seen": "2026-07-15T16:11:10.431Z"
+    },
+    {
+      "host": "f-smartcat.malt.es",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-15T16:11:10.431Z",
+      "last_seen": "2026-07-15T16:11:10.431Z"
+    },
+    {
+      "host": "f-workshop.malt.es",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-15T16:11:10.431Z",
+      "last_seen": "2026-07-15T16:11:10.431Z"
+    },
+    {
+      "host": "fms-integration.malt.es",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-15T16:11:10.431Z",
+      "last_seen": "2026-07-15T16:11:10.431Z"
+    },
+    {
+      "host": "fms-springboot2.malt.es",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-15T16:11:10.431Z",
+      "last_seen": "2026-07-15T16:11:10.431Z"
+    },
+    {
+      "host": "fms.malt.es",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-15T16:11:10.431Z",
+      "last_seen": "2026-07-15T16:11:10.431Z"
+    },
+    {
+      "host": "insights.demo.malt.es",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-15T16:11:10.431Z",
+      "last_seen": "2026-07-15T16:11:10.431Z"
+    },
+    {
+      "host": "insights.f-kube.malt.es",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-15T16:11:10.431Z",
+      "last_seen": "2026-07-15T16:11:10.431Z"
+    },
+    {
+      "host": "insights.integration.malt.es",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-15T16:11:10.431Z",
+      "last_seen": "2026-07-15T16:11:10.431Z"
+    },
+    {
+      "host": "insights.malt.es",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-15T16:11:10.431Z",
+      "last_seen": "2026-07-15T16:11:10.431Z"
+    },
+    {
+      "host": "integration.malt.es",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-15T16:11:10.431Z",
+      "last_seen": "2026-07-15T16:11:10.431Z"
+    },
+    {
+      "host": "landing.malt.es",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-15T16:11:10.431Z",
+      "last_seen": "2026-07-15T16:11:10.431Z"
+    },
+    {
+      "host": "mandrillbounce.malt.es",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "1d7248fcf65987767098d633583d2e732ac60d9fe65c4b8e565868f33820c7ed",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-15T16:11:10.431Z",
+      "last_seen": "2026-07-15T16:11:10.431Z"
+    },
+    {
+      "host": "news.malt.es",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-15T16:11:10.431Z",
+      "last_seen": "2026-07-15T16:11:10.431Z"
+    },
+    {
+      "host": "ops.malt.es",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-15T16:11:10.431Z",
+      "last_seen": "2026-07-15T16:11:10.431Z"
+    },
+    {
+      "host": "pages.malt.es",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": true,
+      "robots_hash": "ea8e85a2b5420fc4539c4997c85a6821500c4e4a4ebb410b0c926f648fddb5ce",
+      "security_hash": "",
+      "sitemap_hash": "c8555d47073ea3edfb6cb02b443c1d60fab2f436a46cef49b8bcd3ec8da1191a",
+      "first_seen": "2026-07-15T16:11:10.431Z",
+      "last_seen": "2026-07-15T16:11:10.431Z"
+    },
+    {
+      "host": "resources.malt.es",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-15T16:11:10.431Z",
+      "last_seen": "2026-07-15T16:11:10.431Z"
+    },
+    {
+      "host": "springboot2.malt.es",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-15T16:11:10.431Z",
+      "last_seen": "2026-07-15T16:11:10.431Z"
+    },
+    {
+      "host": "wayra-tmp.malt.es",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-15T16:11:10.431Z",
+      "last_seen": "2026-07-15T16:11:10.431Z"
+    },
+    {
+      "host": "wayra.malt.es",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-15T16:11:10.431Z",
+      "last_seen": "2026-07-15T16:11:10.431Z"
+    },
+    {
+      "host": "www.demo.malt.es",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-15T16:11:10.431Z",
+      "last_seen": "2026-07-15T16:11:10.431Z"
+    },
+    {
+      "host": "www.f-spring.malt.es",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-15T16:11:10.431Z",
+      "last_seen": "2026-07-15T16:11:10.431Z"
+    },
+    {
+      "host": "www.f-xmaster-2020.malt.es",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-15T16:11:10.431Z",
+      "last_seen": "2026-07-15T16:11:10.431Z"
+    },
+    {
+      "host": "www.integration.malt.es",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-15T16:11:10.431Z",
+      "last_seen": "2026-07-15T16:11:10.431Z"
+    },
+    {
+      "host": "www.malt.es",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-15T16:11:10.431Z",
+      "last_seen": "2026-07-15T16:11:10.431Z"
+    }
+  ]
+}

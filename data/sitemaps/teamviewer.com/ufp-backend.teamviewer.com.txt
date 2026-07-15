@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:ng="http://angularjs.org" lang="de" ng-app="app" n>
+
+<head>
+    <meta charset="utf-8">
+    <base href="/">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <title>Contentfly CMS - Let your content fly!</title>
+
+</head>
+<body ng-class="{emotionalBackground: !userLoggedIn}">
+<h1>UFP by TeamViewer</h1>
+
+
+</body>
+</html>

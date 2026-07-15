@@ -1,0 +1,221 @@
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <!-- The "none" directive is equivalent to using both the noindex and nofollow tags simultaneously -->
+  <meta name="robots" content="none, noarchive">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="icon" type="image/png" href="https://sentry.teamviewer.com/_static/1783822295/sentry/images/favicon.png">
+
+  <link rel="apple-touch-icon" href="https://sentry.teamviewer.com/_static/1783822295/sentry/images/logos/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="https://sentry.teamviewer.com/_static/1783822295/sentry/images/logos/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="https://sentry.teamviewer.com/_static/1783822295/sentry/images/logos/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="https://sentry.teamviewer.com/_static/1783822295/sentry/images/logos/apple-touch-icon-152x152.png">
+  
+
+  
+
+  
+
+  <link rel="mask-icon" sizes="any" href="https://sentry.teamviewer.com/_static/1783822295/sentry/images/logos/logo-sentry.svg" color="#FB4226">
+
+  <link rel="preload" href="/_static/dist/sentry/entrypoints/app.js" as="script" crossorigin="anonymous" nonce="Fwk4dNpG+XzvXO9Rj2Bd5Q==" />
+
+  <link href="/_static/dist/sentry/entrypoints/sentry.css" rel="stylesheet"/>
+
+  <title>Sign In | Sentry</title>
+
+  
+    <script nonce="Fwk4dNpG+XzvXO9Rj2Bd5Q==">window.__initialData = {"initialTrace":{"sentry_trace":"4166154e5d764339a419e3a34493aa65-885ef79a75cc1a6b-0","baggage":"sentry-trace_id=4166154e5d764339a419e3a34493aa65,sentry-sample_rand=0.028291,sentry-environment=production,sentry-release=backend%4026.6.0%2B9dae1494d25162bb1e2770627f39430edcb0893a,sentry-transaction=/auth/login/%7Borganization_slug%7D/,sentry-sample_rate=0.0,sentry-sampled=false"},"customerDomain":null,"singleOrganization":true,"supportEmail":"dominic.eschbach@teamviewer.com","urlPrefix":"https://sentry.teamviewer.com","version":{"current":"26.6.0","latest":"26.2.1","build":"9dae1494d25162bb1e2770627f39430edcb0893a","upgradeAvailable":false},"features":[],"distPrefix":"/_static/dist/sentry/","needsUpgrade":false,"dsn":"https://aa453208cd4b4d458b2e86ce74be688b@sentry.teamviewer.com/1","statuspage":null,"messages":[],"apmSampling":0.0,"isOnPremise":true,"isSelfHosted":true,"isSelfHostedErrorsOnly":false,"sentryMode":"SELF_HOSTED","shouldPreloadData":false,"shouldShowBeaconConsentPrompt":false,"invitesEnabled":true,"gravatarBaseUrl":"https://gravatar.com","termsUrl":null,"privacyUrl":null,"lastOrganization":null,"languageCode":"en","cells":[],"localities":[{"name":"--monolith--","url":"https://sentry.teamviewer.com"}],"userIdentity":{"ip_address":"10.130.148.201"},"csrfCookieName":"sc","superUserCookieName":"su","superUserCookieDomain":null,"sentryConfig":{"dsn":"https://aa453208cd4b4d458b2e86ce74be688b@sentry.teamviewer.com/1","release":"frontend@26.6.0+9dae1494d25162bb1e2770627f39430edcb0893a","environment":"production","whitelistUrls":[],"allowUrls":[],"tracePropagationTargets":[]},"relocationConfig":{"selectableRegions":[]},"demoMode":false,"enableAnalytics":false,"validateSUForm":true,"disableU2FForSUForm":false,"links":{"organizationUrl":null,"regionUrl":null,"sentryUrl":"https://sentry.teamviewer.com"},"user":null,"isAuthenticated":false};</script>
+  
+
+  <script nonce="Fwk4dNpG+XzvXO9Rj2Bd5Q==">// if the ads.js file loads below it will mark this variable as false
+    window.adblockSuspected = true;
+    // Initialize this so that we can queue up tasks when Sentry SPA is initialized
+    window.__onSentryInit = window.__onSentryInit || [];</script>
+
+  
+
+
+  
+
+
+  
+    
+    <script crossorigin="anonymous" nonce="Fwk4dNpG+XzvXO9Rj2Bd5Q==" src="/_static/dist/sentry/entrypoints/app.js"></script>
+  
+
+  
+  
+
+  
+  <script crossorigin="anonymous" nonce="Fwk4dNpG+XzvXO9Rj2Bd5Q==" src="/_static/1783822295/sentry/js/ads.js"></script>
+  
+<script nonce="Fwk4dNpG+XzvXO9Rj2Bd5Q==">// HACK(jferge+claude): Sync CSRF tokens from cookie to form fields for multi-tab scenarios.
+  // When users have multiple auth tabs open and one tab logs in (rotating the CSRF token),
+  // other tabs need to pick up the new token before form submission.
+  (function() {
+    function getCookie(name) {
+      if (document.cookie && document.cookie !== '') {
+        var cookies = document.cookie.split(';');
+        for (var i = 0; i < cookies.length; i++) {
+          var cookie = cookies[i].trim();
+          if (cookie.substring(0, name.length + 1) === name + '=') {
+            return decodeURIComponent(cookie.substring(name.length + 1));
+          }
+        }
+      }
+      return null;
+    }
+
+    function syncCsrfTokens() {
+      var csrfCookieVal = getCookie(window.csrfCookieName || 'sc');
+      // combine strings for csrf name as some tests grep on the token name :(
+      var csrfName = 'csrf' + 'middleware' + 'token';
+      var csrfEls = document.getElementsByName(csrfName);
+      if (csrfEls.length > 0 && csrfCookieVal) {
+        for (var i = 0; i < csrfEls.length; i++) {
+          csrfEls[i].value = csrfCookieVal;
+        }
+      }
+    }
+
+    // Periodic sync for visual consistency (user sees correct token in DevTools)
+    setInterval(syncCsrfTokens, 200);
+
+    // Sync on form submit to guarantee fresh token even if submit happens
+    // within the 200ms polling window. Capture phase ensures this runs
+    // before the form's default submit action.
+    document.addEventListener('submit', function(e) {
+      if (e.target && e.target.tagName === 'FORM') {
+        syncCsrfTokens();
+      }
+    }, true);
+  })();</script>
+
+
+<script nonce="Fwk4dNpG+XzvXO9Rj2Bd5Q==">window.__onSentryInit = window.__onSentryInit || [];
+  window.__onSentryInit.push({
+    name: 'passwordStrength',
+    input: '#id_registration_password',
+    element: '.password-strength',
+  });</script>
+
+</head>
+
+
+<body class="narrow auth org-login">
+  
+  <div class="app">
+    
+
+    
+    
+
+
+
+
+
+
+<div id="blk_indicators"></div>
+
+<script nonce="Fwk4dNpG+XzvXO9Rj2Bd5Q==">window.__onSentryInit = window.__onSentryInit || [];
+  window.__onSentryInit.push({
+    name: 'renderReact ',
+    component: 'Indicators',
+    container: '#blk_indicators',
+    props: {
+      className: 'indicators-container',
+    },
+  });</script>
+
+
+
+
+    
+
+    <div class="container">
+      <div class="content">
+        
+<div class="pattern-bg"></div>
+
+<div class="box">
+  <div class="auth-sidebar">
+    <a href="https://sentry.io/welcome/">
+      <span class="icon-sentry-logo"></span>
+    </a>
+  </div>
+  <section class="org-login">
+    
+<div>
+  <div class="align-center p-t-2">
+    <img src="/_static/1783822295/sentry/images/logos/default-organization-logo.png" class="org-avatar">
+    <h3>TeamViewer</h3>
+  </div>
+
+  
+    <form class="form-stacked m-b-2" action="" method="post" autocomplete="off">
+      <input type="hidden" name="csrfmiddlewaretoken" value="KITNZFfDkUjdl41EEI6oEqpNkvXgwiGPu7ni7ZnLuSdB72WqIcOmxDEnOtapewOK">
+      <input type="hidden" name="init" value="1" />
+      <!-- NOTE: the form input referrer value is currently not being utilized -->
+      <input type="hidden" name="referrer" value="None" />
+
+      <div class="align-center">
+        <p>
+          
+          Sign in with your Active Directory account to continue.
+          
+        </p>
+
+        <p><button type="submit" class="btn btn-default btn-login-active-directory">
+          <span class="provider-logo active-directory"></span> Login with Active Directory
+        </button></p>
+      </div>
+    </form>
+  
+</div>
+
+  </section>
+</div>
+
+
+      </div>
+    </div>
+  </div>
+  
+
+  
+  
+  <script nonce="Fwk4dNpG+XzvXO9Rj2Bd5Q==">function insertTimezone() {
+      const timezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
+      const timezoneInput = document.querySelector('input[name=timezone]');
+      if (timezoneInput) {
+        timezoneInput.value = timezone
+      }
+
+    }
+
+    function signOutListener() {
+      const el = document.querySelector('#sign-out');
+      if (el) {
+        el.addEventListener('click', function() {
+          document.modalLogoutForm.submit();
+        });
+      }
+    }
+
+    document.addEventListener('DOMContentLoaded', function() {
+      insertTimezone();
+      signOutListener();
+    });</script>
+
+</body>
+</html>
