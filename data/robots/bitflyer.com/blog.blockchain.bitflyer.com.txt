@@ -1,0 +1,35 @@
+User-agent: *
+Allow: /n/*
+Allow: /m/*
+Allow: /p/*
+Allow: /archives/*
+Allow: /followings
+Allow: /followers
+Allow: /likes
+Allow: /membership/*
+Allow: /sitemap.xml.gz
+Disallow: /*/
+Disallow: /embed/*
+Disallow: /intent/*
+Disallow: /m/*/archive
+
+User-agent: bingbot
+Allow: /n/*
+Allow: /m/*
+Allow: /p/*
+Allow: /archives/*
+Allow: /followings
+Allow: /followers
+Allow: /likes
+Allow: /sitemap.xml.gz
+Disallow: /*/
+Disallow: /embed/*
+Disallow: /intent/*
+
+User-agent: Megalodon
+Disallow: /
+
+User-agent: ia_archiver
+Disallow: /
+
+Sitemap: https://blog.blockchain.bitflyer.com/sitemap.xml.gz

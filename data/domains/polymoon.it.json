@@ -1,0 +1,303 @@
+{
+  "domain": "polymoon.it",
+  "last_update": "2026-07-17T19:46:46.600Z",
+  "stats": {
+    "total": 17,
+    "dns_resolved": 10,
+    "alive": 1,
+    "has_robots": 0,
+    "has_security": 0,
+    "has_sitemap": 0
+  },
+  "subdomains": [
+    {
+      "host": "browserbox-poc-ec2.corp.polymoon.it",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:46:46.600Z",
+      "last_seen": "2026-07-17T19:46:46.600Z"
+    },
+    {
+      "host": "browserbox-poc-ph.corp.polymoon.it",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:46:46.600Z",
+      "last_seen": "2026-07-17T19:46:46.600Z"
+    },
+    {
+      "host": "connectivity-noc.polymoon.it",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:46:46.600Z",
+      "last_seen": "2026-07-17T19:46:46.600Z"
+    },
+    {
+      "host": "internal.polymoon.it",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:46:46.600Z",
+      "last_seen": "2026-07-17T19:46:46.600Z"
+    },
+    {
+      "host": "kape-pii-sanitizer.polymoon.it",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:46:46.600Z",
+      "last_seen": "2026-07-17T19:46:46.600Z"
+    },
+    {
+      "host": "kp-it-sg-dc-01.polymoon.it",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:46:46.600Z",
+      "last_seen": "2026-07-17T19:46:46.600Z"
+    },
+    {
+      "host": "n8n-cs.polymoon.it",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:46:46.600Z",
+      "last_seen": "2026-07-17T19:46:46.600Z"
+    },
+    {
+      "host": "n8n-fin.polymoon.it",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:46:46.600Z",
+      "last_seen": "2026-07-17T19:46:46.600Z"
+    },
+    {
+      "host": "n8n-hr.polymoon.it",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:46:46.600Z",
+      "last_seen": "2026-07-17T19:46:46.600Z"
+    },
+    {
+      "host": "n8n-ops.polymoon.it",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:46:46.600Z",
+      "last_seen": "2026-07-17T19:46:46.600Z"
+    },
+    {
+      "host": "n8n-sec.polymoon.it",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:46:46.600Z",
+      "last_seen": "2026-07-17T19:46:46.600Z"
+    },
+    {
+      "host": "n8n.polymoon.it",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:46:46.600Z",
+      "last_seen": "2026-07-17T19:46:46.600Z"
+    },
+    {
+      "host": "netbox.polymoon.it",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:46:46.600Z",
+      "last_seen": "2026-07-17T19:46:46.600Z"
+    },
+    {
+      "host": "onboarding.polymoon.it",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:46:46.600Z",
+      "last_seen": "2026-07-17T19:46:46.600Z"
+    },
+    {
+      "host": "polymoon.it",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:46:46.600Z",
+      "last_seen": "2026-07-17T19:46:46.600Z"
+    },
+    {
+      "host": "tunnels.polymoon.it",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:46:46.600Z",
+      "last_seen": "2026-07-17T19:46:46.600Z"
+    },
+    {
+      "host": "www.kp-it-sg-dc-01.polymoon.it",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:46:46.600Z",
+      "last_seen": "2026-07-17T19:46:46.600Z"
+    }
+  ]
+}

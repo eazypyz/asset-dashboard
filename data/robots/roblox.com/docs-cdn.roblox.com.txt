@@ -1,0 +1,28 @@
+# *
+User-Agent: *
+Disallow: /en-us
+Disallow: /id-id
+Disallow: /de-de
+Disallow: /es-es
+Disallow: /fr-fr
+Disallow: /it-it
+Disallow: /pl-pl
+Disallow: /pt-br
+Disallow: /vi-vn
+Disallow: /tr-tr
+Disallow: /ar-001
+Disallow: /th-th
+Disallow: /zh-cn
+Disallow: /zh-tw
+Disallow: /ja-jp
+Disallow: /ko-kr
+
+#Host
+Host: https://create.roblox.com/docs
+
+#Sitemaps
+Sitemap: https://create.roblox.com/docs/sitemap.xml
+
+#LLMs-Txt
+LLMs-Txt: https://create.roblox.com/docs/llms.txt
+LLMs-Txt: https://create.roblox.com/docs/llms-full.txt

@@ -1,19 +1,36 @@
 {
   "domain": "malt.es",
-  "last_update": "2026-07-15T16:11:10.433Z",
+  "last_update": "2026-07-17T19:48:39.671Z",
   "stats": {
-    "total": 37,
+    "total": 49,
     "dns_resolved": 15,
     "alive": 15,
-    "has_robots": 3,
+    "has_robots": 2,
     "has_security": 0,
     "has_sitemap": 1
   },
   "subdomains": [
     {
+      "host": "aton.malt.es",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:48:39.669Z",
+      "last_seen": "2026-07-17T19:48:39.669Z"
+    },
+    {
       "host": "blog.malt.es",
       "source": [
-        "securitytrails"
+        "crtsh"
       ],
       "dns": true,
       "alive": true,
@@ -25,12 +42,29 @@
       "security_hash": "",
       "sitemap_hash": "",
       "first_seen": "2026-07-15T16:11:10.431Z",
-      "last_seen": "2026-07-15T16:11:10.431Z"
+      "last_seen": "2026-07-17T19:48:39.669Z"
+    },
+    {
+      "host": "blog2.malt.es",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:48:39.669Z",
+      "last_seen": "2026-07-17T19:48:39.669Z"
     },
     {
       "host": "calculadora.malt.es",
       "source": [
-        "securitytrails"
+        "crtsh"
       ],
       "dns": true,
       "alive": true,
@@ -42,12 +76,12 @@
       "security_hash": "",
       "sitemap_hash": "",
       "first_seen": "2026-07-15T16:11:10.431Z",
-      "last_seen": "2026-07-15T16:11:10.431Z"
+      "last_seen": "2026-07-17T19:48:39.669Z"
     },
     {
       "host": "cms-marketing.integration.malt.es",
       "source": [
-        "securitytrails"
+        "crtsh"
       ],
       "dns": false,
       "alive": false,
@@ -59,12 +93,12 @@
       "security_hash": "",
       "sitemap_hash": "",
       "first_seen": "2026-07-15T16:11:10.431Z",
-      "last_seen": "2026-07-15T16:11:10.431Z"
+      "last_seen": "2026-07-17T19:48:39.669Z"
     },
     {
       "host": "covid19.malt.es",
       "source": [
-        "securitytrails"
+        "crtsh"
       ],
       "dns": false,
       "alive": false,
@@ -76,12 +110,29 @@
       "security_hash": "",
       "sitemap_hash": "",
       "first_seen": "2026-07-15T16:11:10.431Z",
-      "last_seen": "2026-07-15T16:11:10.431Z"
+      "last_seen": "2026-07-17T19:48:39.669Z"
+    },
+    {
+      "host": "demo.malt.es",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:48:39.669Z",
+      "last_seen": "2026-07-17T19:48:39.669Z"
     },
     {
       "host": "devops.malt.es",
       "source": [
-        "securitytrails"
+        "crtsh"
       ],
       "dns": false,
       "alive": false,
@@ -93,12 +144,12 @@
       "security_hash": "",
       "sitemap_hash": "",
       "first_seen": "2026-07-15T16:11:10.431Z",
-      "last_seen": "2026-07-15T16:11:10.431Z"
+      "last_seen": "2026-07-17T19:48:39.669Z"
     },
     {
       "host": "email.integration.malt.es",
       "source": [
-        "securitytrails"
+        "crtsh"
       ],
       "dns": true,
       "alive": true,
@@ -110,12 +161,12 @@
       "security_hash": "",
       "sitemap_hash": "",
       "first_seen": "2026-07-15T16:11:10.431Z",
-      "last_seen": "2026-07-15T16:11:10.431Z"
+      "last_seen": "2026-07-17T19:48:39.669Z"
     },
     {
       "host": "email.malt.es",
       "source": [
-        "securitytrails"
+        "crtsh"
       ],
       "dns": true,
       "alive": true,
@@ -127,12 +178,12 @@
       "security_hash": "",
       "sitemap_hash": "",
       "first_seen": "2026-07-15T16:11:10.431Z",
-      "last_seen": "2026-07-15T16:11:10.431Z"
+      "last_seen": "2026-07-17T19:48:39.669Z"
     },
     {
       "host": "en-cms-marketing.integration.malt.es",
       "source": [
-        "securitytrails"
+        "crtsh"
       ],
       "dns": false,
       "alive": false,
@@ -144,12 +195,12 @@
       "security_hash": "",
       "sitemap_hash": "",
       "first_seen": "2026-07-15T16:11:10.431Z",
-      "last_seen": "2026-07-15T16:11:10.431Z"
+      "last_seen": "2026-07-17T19:48:39.669Z"
     },
     {
       "host": "en.demo.malt.es",
       "source": [
-        "securitytrails"
+        "crtsh"
       ],
       "dns": false,
       "alive": false,
@@ -161,12 +212,12 @@
       "security_hash": "",
       "sitemap_hash": "",
       "first_seen": "2026-07-15T16:11:10.431Z",
-      "last_seen": "2026-07-15T16:11:10.431Z"
+      "last_seen": "2026-07-17T19:48:39.669Z"
     },
     {
       "host": "en.integration.malt.es",
       "source": [
-        "securitytrails"
+        "crtsh"
       ],
       "dns": true,
       "alive": true,
@@ -178,12 +229,12 @@
       "security_hash": "",
       "sitemap_hash": "",
       "first_seen": "2026-07-15T16:11:10.431Z",
-      "last_seen": "2026-07-15T16:11:10.431Z"
+      "last_seen": "2026-07-17T19:48:39.669Z"
     },
     {
       "host": "en.malt.es",
       "source": [
-        "securitytrails"
+        "crtsh"
       ],
       "dns": true,
       "alive": true,
@@ -195,12 +246,46 @@
       "security_hash": "",
       "sitemap_hash": "",
       "first_seen": "2026-07-15T16:11:10.431Z",
-      "last_seen": "2026-07-15T16:11:10.431Z"
+      "last_seen": "2026-07-17T19:48:39.669Z"
+    },
+    {
+      "host": "f-aton.malt.es",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:48:39.669Z",
+      "last_seen": "2026-07-17T19:48:39.669Z"
+    },
+    {
+      "host": "f-deps.malt.es",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:48:39.669Z",
+      "last_seen": "2026-07-17T19:48:39.669Z"
     },
     {
       "host": "f-es6.malt.es",
       "source": [
-        "securitytrails"
+        "crtsh"
       ],
       "dns": false,
       "alive": false,
@@ -212,12 +297,12 @@
       "security_hash": "",
       "sitemap_hash": "",
       "first_seen": "2026-07-15T16:11:10.431Z",
-      "last_seen": "2026-07-15T16:11:10.431Z"
+      "last_seen": "2026-07-17T19:48:39.669Z"
     },
     {
       "host": "f-sbu.malt.es",
       "source": [
-        "securitytrails"
+        "crtsh"
       ],
       "dns": false,
       "alive": false,
@@ -229,12 +314,29 @@
       "security_hash": "",
       "sitemap_hash": "",
       "first_seen": "2026-07-15T16:11:10.431Z",
-      "last_seen": "2026-07-15T16:11:10.431Z"
+      "last_seen": "2026-07-17T19:48:39.669Z"
+    },
+    {
+      "host": "f-sec1.malt.es",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:48:39.669Z",
+      "last_seen": "2026-07-17T19:48:39.669Z"
     },
     {
       "host": "f-smartcat.malt.es",
       "source": [
-        "securitytrails"
+        "crtsh"
       ],
       "dns": false,
       "alive": false,
@@ -246,12 +348,12 @@
       "security_hash": "",
       "sitemap_hash": "",
       "first_seen": "2026-07-15T16:11:10.431Z",
-      "last_seen": "2026-07-15T16:11:10.431Z"
+      "last_seen": "2026-07-17T19:48:39.669Z"
     },
     {
       "host": "f-workshop.malt.es",
       "source": [
-        "securitytrails"
+        "crtsh"
       ],
       "dns": false,
       "alive": false,
@@ -263,12 +365,12 @@
       "security_hash": "",
       "sitemap_hash": "",
       "first_seen": "2026-07-15T16:11:10.431Z",
-      "last_seen": "2026-07-15T16:11:10.431Z"
+      "last_seen": "2026-07-17T19:48:39.669Z"
     },
     {
       "host": "fms-integration.malt.es",
       "source": [
-        "securitytrails"
+        "crtsh"
       ],
       "dns": false,
       "alive": false,
@@ -280,12 +382,12 @@
       "security_hash": "",
       "sitemap_hash": "",
       "first_seen": "2026-07-15T16:11:10.431Z",
-      "last_seen": "2026-07-15T16:11:10.431Z"
+      "last_seen": "2026-07-17T19:48:39.669Z"
     },
     {
       "host": "fms-springboot2.malt.es",
       "source": [
-        "securitytrails"
+        "crtsh"
       ],
       "dns": false,
       "alive": false,
@@ -297,12 +399,12 @@
       "security_hash": "",
       "sitemap_hash": "",
       "first_seen": "2026-07-15T16:11:10.431Z",
-      "last_seen": "2026-07-15T16:11:10.431Z"
+      "last_seen": "2026-07-17T19:48:39.669Z"
     },
     {
       "host": "fms.malt.es",
       "source": [
-        "securitytrails"
+        "crtsh"
       ],
       "dns": false,
       "alive": false,
@@ -314,12 +416,12 @@
       "security_hash": "",
       "sitemap_hash": "",
       "first_seen": "2026-07-15T16:11:10.431Z",
-      "last_seen": "2026-07-15T16:11:10.431Z"
+      "last_seen": "2026-07-17T19:48:39.669Z"
     },
     {
       "host": "insights.demo.malt.es",
       "source": [
-        "securitytrails"
+        "crtsh"
       ],
       "dns": false,
       "alive": false,
@@ -331,12 +433,12 @@
       "security_hash": "",
       "sitemap_hash": "",
       "first_seen": "2026-07-15T16:11:10.431Z",
-      "last_seen": "2026-07-15T16:11:10.431Z"
+      "last_seen": "2026-07-17T19:48:39.669Z"
     },
     {
       "host": "insights.f-kube.malt.es",
       "source": [
-        "securitytrails"
+        "crtsh"
       ],
       "dns": false,
       "alive": false,
@@ -348,12 +450,12 @@
       "security_hash": "",
       "sitemap_hash": "",
       "first_seen": "2026-07-15T16:11:10.431Z",
-      "last_seen": "2026-07-15T16:11:10.431Z"
+      "last_seen": "2026-07-17T19:48:39.669Z"
     },
     {
       "host": "insights.integration.malt.es",
       "source": [
-        "securitytrails"
+        "crtsh"
       ],
       "dns": true,
       "alive": true,
@@ -365,12 +467,12 @@
       "security_hash": "",
       "sitemap_hash": "",
       "first_seen": "2026-07-15T16:11:10.431Z",
-      "last_seen": "2026-07-15T16:11:10.431Z"
+      "last_seen": "2026-07-17T19:48:39.669Z"
     },
     {
       "host": "insights.malt.es",
       "source": [
-        "securitytrails"
+        "crtsh"
       ],
       "dns": true,
       "alive": true,
@@ -382,12 +484,12 @@
       "security_hash": "",
       "sitemap_hash": "",
       "first_seen": "2026-07-15T16:11:10.431Z",
-      "last_seen": "2026-07-15T16:11:10.431Z"
+      "last_seen": "2026-07-17T19:48:39.669Z"
     },
     {
       "host": "integration.malt.es",
       "source": [
-        "securitytrails"
+        "crtsh"
       ],
       "dns": false,
       "alive": false,
@@ -399,12 +501,12 @@
       "security_hash": "",
       "sitemap_hash": "",
       "first_seen": "2026-07-15T16:11:10.431Z",
-      "last_seen": "2026-07-15T16:11:10.431Z"
+      "last_seen": "2026-07-17T19:48:39.669Z"
     },
     {
       "host": "landing.malt.es",
       "source": [
-        "securitytrails"
+        "crtsh"
       ],
       "dns": true,
       "alive": true,
@@ -416,29 +518,46 @@
       "security_hash": "",
       "sitemap_hash": "",
       "first_seen": "2026-07-15T16:11:10.431Z",
-      "last_seen": "2026-07-15T16:11:10.431Z"
+      "last_seen": "2026-07-17T19:48:39.669Z"
     },
     {
-      "host": "mandrillbounce.malt.es",
+      "host": "levelup.malt.es",
       "source": [
-        "securitytrails"
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:48:39.669Z",
+      "last_seen": "2026-07-17T19:48:39.669Z"
+    },
+    {
+      "host": "malt.es",
+      "source": [
+        "crtsh"
       ],
       "dns": true,
       "alive": true,
-      "status": 200,
-      "robots": true,
+      "status": 403,
+      "robots": false,
       "security_txt": false,
       "sitemap": false,
-      "robots_hash": "1d7248fcf65987767098d633583d2e732ac60d9fe65c4b8e565868f33820c7ed",
+      "robots_hash": "",
       "security_hash": "",
       "sitemap_hash": "",
-      "first_seen": "2026-07-15T16:11:10.431Z",
-      "last_seen": "2026-07-15T16:11:10.431Z"
+      "first_seen": "2026-07-17T19:48:39.669Z",
+      "last_seen": "2026-07-17T19:48:39.669Z"
     },
     {
       "host": "news.malt.es",
       "source": [
-        "securitytrails"
+        "crtsh"
       ],
       "dns": false,
       "alive": false,
@@ -450,12 +569,29 @@
       "security_hash": "",
       "sitemap_hash": "",
       "first_seen": "2026-07-15T16:11:10.431Z",
-      "last_seen": "2026-07-15T16:11:10.431Z"
+      "last_seen": "2026-07-17T19:48:39.669Z"
+    },
+    {
+      "host": "old-resources.malt.es",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:48:39.669Z",
+      "last_seen": "2026-07-17T19:48:39.669Z"
     },
     {
       "host": "ops.malt.es",
       "source": [
-        "securitytrails"
+        "crtsh"
       ],
       "dns": false,
       "alive": false,
@@ -467,12 +603,12 @@
       "security_hash": "",
       "sitemap_hash": "",
       "first_seen": "2026-07-15T16:11:10.431Z",
-      "last_seen": "2026-07-15T16:11:10.431Z"
+      "last_seen": "2026-07-17T19:48:39.669Z"
     },
     {
       "host": "pages.malt.es",
       "source": [
-        "securitytrails"
+        "crtsh"
       ],
       "dns": true,
       "alive": true,
@@ -484,12 +620,12 @@
       "security_hash": "",
       "sitemap_hash": "c8555d47073ea3edfb6cb02b443c1d60fab2f436a46cef49b8bcd3ec8da1191a",
       "first_seen": "2026-07-15T16:11:10.431Z",
-      "last_seen": "2026-07-15T16:11:10.431Z"
+      "last_seen": "2026-07-17T19:48:39.669Z"
     },
     {
       "host": "resources.malt.es",
       "source": [
-        "securitytrails"
+        "crtsh"
       ],
       "dns": true,
       "alive": true,
@@ -501,12 +637,29 @@
       "security_hash": "",
       "sitemap_hash": "",
       "first_seen": "2026-07-15T16:11:10.431Z",
-      "last_seen": "2026-07-15T16:11:10.431Z"
+      "last_seen": "2026-07-17T19:48:39.669Z"
+    },
+    {
+      "host": "resources2.malt.es",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:48:39.669Z",
+      "last_seen": "2026-07-17T19:48:39.669Z"
     },
     {
       "host": "springboot2.malt.es",
       "source": [
-        "securitytrails"
+        "crtsh"
       ],
       "dns": false,
       "alive": false,
@@ -518,12 +671,46 @@
       "security_hash": "",
       "sitemap_hash": "",
       "first_seen": "2026-07-15T16:11:10.431Z",
-      "last_seen": "2026-07-15T16:11:10.431Z"
+      "last_seen": "2026-07-17T19:48:39.669Z"
+    },
+    {
+      "host": "upgrade-spring-2.6.malt.es",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:48:39.669Z",
+      "last_seen": "2026-07-17T19:48:39.669Z"
+    },
+    {
+      "host": "upgrade-spring.malt.es",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:48:39.669Z",
+      "last_seen": "2026-07-17T19:48:39.669Z"
     },
     {
       "host": "wayra-tmp.malt.es",
       "source": [
-        "securitytrails"
+        "crtsh"
       ],
       "dns": false,
       "alive": false,
@@ -535,12 +722,12 @@
       "security_hash": "",
       "sitemap_hash": "",
       "first_seen": "2026-07-15T16:11:10.431Z",
-      "last_seen": "2026-07-15T16:11:10.431Z"
+      "last_seen": "2026-07-17T19:48:39.669Z"
     },
     {
       "host": "wayra.malt.es",
       "source": [
-        "securitytrails"
+        "crtsh"
       ],
       "dns": true,
       "alive": true,
@@ -552,12 +739,12 @@
       "security_hash": "",
       "sitemap_hash": "",
       "first_seen": "2026-07-15T16:11:10.431Z",
-      "last_seen": "2026-07-15T16:11:10.431Z"
+      "last_seen": "2026-07-17T19:48:39.669Z"
     },
     {
       "host": "www.demo.malt.es",
       "source": [
-        "securitytrails"
+        "crtsh"
       ],
       "dns": false,
       "alive": false,
@@ -569,12 +756,12 @@
       "security_hash": "",
       "sitemap_hash": "",
       "first_seen": "2026-07-15T16:11:10.431Z",
-      "last_seen": "2026-07-15T16:11:10.431Z"
+      "last_seen": "2026-07-17T19:48:39.669Z"
     },
     {
       "host": "www.f-spring.malt.es",
       "source": [
-        "securitytrails"
+        "crtsh"
       ],
       "dns": false,
       "alive": false,
@@ -586,12 +773,12 @@
       "security_hash": "",
       "sitemap_hash": "",
       "first_seen": "2026-07-15T16:11:10.431Z",
-      "last_seen": "2026-07-15T16:11:10.431Z"
+      "last_seen": "2026-07-17T19:48:39.669Z"
     },
     {
       "host": "www.f-xmaster-2020.malt.es",
       "source": [
-        "securitytrails"
+        "crtsh"
       ],
       "dns": false,
       "alive": false,
@@ -603,12 +790,12 @@
       "security_hash": "",
       "sitemap_hash": "",
       "first_seen": "2026-07-15T16:11:10.431Z",
-      "last_seen": "2026-07-15T16:11:10.431Z"
+      "last_seen": "2026-07-17T19:48:39.669Z"
     },
     {
       "host": "www.integration.malt.es",
       "source": [
-        "securitytrails"
+        "crtsh"
       ],
       "dns": true,
       "alive": true,
@@ -620,12 +807,12 @@
       "security_hash": "",
       "sitemap_hash": "",
       "first_seen": "2026-07-15T16:11:10.431Z",
-      "last_seen": "2026-07-15T16:11:10.431Z"
+      "last_seen": "2026-07-17T19:48:39.669Z"
     },
     {
       "host": "www.malt.es",
       "source": [
-        "securitytrails"
+        "crtsh"
       ],
       "dns": true,
       "alive": true,
@@ -637,7 +824,24 @@
       "security_hash": "",
       "sitemap_hash": "",
       "first_seen": "2026-07-15T16:11:10.431Z",
-      "last_seen": "2026-07-15T16:11:10.431Z"
+      "last_seen": "2026-07-17T19:48:39.669Z"
+    },
+    {
+      "host": "xmaster-2021.malt.es",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:48:39.669Z",
+      "last_seen": "2026-07-17T19:48:39.669Z"
     }
   ]
 }

@@ -1,0 +1,5097 @@
+{
+  "domain": "expressvpn.com",
+  "last_update": "2026-07-17T19:40:58.781Z",
+  "stats": {
+    "total": 299,
+    "dns_resolved": 59,
+    "alive": 48,
+    "has_robots": 38,
+    "has_security": 2,
+    "has_sitemap": 3
+  },
+  "subdomains": [
+    {
+      "host": "affiliates.api.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "affiliates.recov.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "api-recovery.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "api-v2-jwks.integration.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "api.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "api.payments.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "api.payments.recov.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "apis-recovery.recov.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "apis.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "apis.recov.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "auth.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "backend-recovery.recov.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "backend-restricted.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "backend.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "backend.recov.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "be-okta-recovery.recov.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "be-okta.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "be-okta.recov.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "beta.repo.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "30b9ad16dcd028c2dfcaadfb6996f9180e24b9cc1f7cf8bdacaf9f09b0f0b13b",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "billing-portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 405,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "a9bb024416b6ff3679097911782c4e92d71d2d6eaca4e3ecbf644e636170cea4",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "billing.api.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "billing.recov.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "blog.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": true,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "1896455273011a671eb01779a407828761021930b5fabefe18021c3570271199",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "cdn.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "842b34303164ead41bccb7c05d1707422e98d108753b397b6dcc19683eb02101",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "checkout.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "842b34303164ead41bccb7c05d1707422e98d108753b397b6dcc19683eb02101",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "clicks.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "connectivitycheck.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "desktop.updates.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "enterprise.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "expresscloud.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "b06af473d1b9519b94a9908f463253a341717cd9a3dbfd466e526fe2d0e4122a",
+      "security_hash": "906e3404169ba3190ae888cc2bd5d84b940318997edc67c8a85c102d4032c088",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "frontend-recovery.recov.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "frontend.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "frontend.recov.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "go.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "331ea9090db0c9f6f597bd9840fd5b171830f6e0b3ba1cb24dfa91f0c95aedc1",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "hotfix.checkout.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "integration.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "integration.recov.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "internal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "link.clicks.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "main-worker.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "origin-wp.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "origin.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "payments.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "842b34303164ead41bccb7c05d1707422e98d108753b397b6dcc19683eb02101",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "prod-rewrite.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "842b34303164ead41bccb7c05d1707422e98d108753b397b6dcc19683eb02101",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "prod-test.teams.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "public.payments.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "public.payments.recov.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "rc.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "842b34303164ead41bccb7c05d1707422e98d108753b397b6dcc19683eb02101",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "releasemaster.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "renue-integration.checkout.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "842b34303164ead41bccb7c05d1707422e98d108753b397b6dcc19683eb02101",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "repo.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "30b9ad16dcd028c2dfcaadfb6996f9180e24b9cc1f7cf8bdacaf9f09b0f0b13b",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "sandbox.checkout.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "serveradmin.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "smon.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "speedtest.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-business.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-cdn-com.checkout.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-1000.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-102.teams.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-105.teams.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-125.teams.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-133.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-150.teams.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-159.teams.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-168.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-172.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-174.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-174.teams.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-176.teams.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-181.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-181.teams.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-187.teams.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "842b34303164ead41bccb7c05d1707422e98d108753b397b6dcc19683eb02101",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-191.teams.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-195.teams.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-196.teams.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-197.teams.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-198.teams.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-199.teams.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-20.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-200.teams.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-201.teams.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-202.teams.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-203.teams.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-205.teams.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-207.teams.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-209.teams.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-210.teams.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-211.teams.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-212.teams.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-213.teams.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-216.teams.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-217.teams.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-220.teams.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-221.teams.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-226.teams.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-228.teams.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "842b34303164ead41bccb7c05d1707422e98d108753b397b6dcc19683eb02101",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-230.teams.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-231.teams.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-233.teams.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-236.teams.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-237.teams.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-238.teams.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-240.teams.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-246.teams.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-247.teams.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "842b34303164ead41bccb7c05d1707422e98d108753b397b6dcc19683eb02101",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-251.teams.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "842b34303164ead41bccb7c05d1707422e98d108753b397b6dcc19683eb02101",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-265.checkout.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-293.checkout.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-293.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-300.checkout.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-303.checkout.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-333.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-355.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-369.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-370.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-382.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-386.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-387.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-391.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-393.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-394.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-395.checkout.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "842b34303164ead41bccb7c05d1707422e98d108753b397b6dcc19683eb02101",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-395.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "842b34303164ead41bccb7c05d1707422e98d108753b397b6dcc19683eb02101",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-397.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-398.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-400.checkout.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-400.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-401.checkout.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "842b34303164ead41bccb7c05d1707422e98d108753b397b6dcc19683eb02101",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-410.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-413.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-418.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-420.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-427.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-429.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-430.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-432.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-433.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-434.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-44.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-442.checkout.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 401,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "842b34303164ead41bccb7c05d1707422e98d108753b397b6dcc19683eb02101",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-443.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-447.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-451.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-453.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-458.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-461.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-462.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-463.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-465.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-468.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-470.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-471.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-472.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-473.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "842b34303164ead41bccb7c05d1707422e98d108753b397b6dcc19683eb02101",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-474.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-484.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-489.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-490.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-491.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-502.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "842b34303164ead41bccb7c05d1707422e98d108753b397b6dcc19683eb02101",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-522.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-534.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-546.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-547.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "842b34303164ead41bccb7c05d1707422e98d108753b397b6dcc19683eb02101",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-548.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-549.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-566.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-567.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-572.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "842b34303164ead41bccb7c05d1707422e98d108753b397b6dcc19683eb02101",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-573.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-575.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-577.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-587.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-595.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-597.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-609.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-614.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-618.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-619.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "842b34303164ead41bccb7c05d1707422e98d108753b397b6dcc19683eb02101",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-62.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-625.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "842b34303164ead41bccb7c05d1707422e98d108753b397b6dcc19683eb02101",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-627.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-630.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "842b34303164ead41bccb7c05d1707422e98d108753b397b6dcc19683eb02101",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-634.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "842b34303164ead41bccb7c05d1707422e98d108753b397b6dcc19683eb02101",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-635.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 401,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "842b34303164ead41bccb7c05d1707422e98d108753b397b6dcc19683eb02101",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-639.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-640.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "842b34303164ead41bccb7c05d1707422e98d108753b397b6dcc19683eb02101",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-646.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "842b34303164ead41bccb7c05d1707422e98d108753b397b6dcc19683eb02101",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-647.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "842b34303164ead41bccb7c05d1707422e98d108753b397b6dcc19683eb02101",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-653.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-661.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-664.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-671.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-678.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-683.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-687.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-69.teams.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-696.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-699.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-703.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-707.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-71.teams.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-710.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-712.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-715.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-718.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-72.teams.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-722.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-729.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-73.teams.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-730.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-732-2.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-732.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-736.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-740.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-743.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-745.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-746.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-75.teams.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-753.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-754.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-755.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-76.teams.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-77.teams.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-774.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-775.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-78.teams.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-784.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-790.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-791.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-792.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-798.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-809.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-811.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-812.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-815.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-817.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-819.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-821.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-834.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-839.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-844.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-848.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-855.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-857.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-861.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-862.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-867.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-873.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-876.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-885.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-886.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-892.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-895.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-898.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-9.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-902.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-904.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-906.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-908.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-911.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-914.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-925.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-934.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-938.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-95.teams.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-958.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-960.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-961.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-962.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-965.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-981.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-988.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-pr-995.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-renue-integration.checkout.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-rewrite.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "842b34303164ead41bccb7c05d1707422e98d108753b397b6dcc19683eb02101",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-test.checkout.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-wrkr-tunnel.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging-wrkr.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging.checkout.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "842b34303164ead41bccb7c05d1707422e98d108753b397b6dcc19683eb02101",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging.portal.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "842b34303164ead41bccb7c05d1707422e98d108753b397b6dcc19683eb02101",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "staging.teams.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "842b34303164ead41bccb7c05d1707422e98d108753b397b6dcc19683eb02101",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "store.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": true,
+      "robots_hash": "d4121b3f213571a6d8f9ed0dc9e163e2370ee4d69a3d06eac0c2750aba3582d7",
+      "security_hash": "",
+      "sitemap_hash": "a31f8c70827d82eeb0f1d76f833175d4a2123bca97fd1db8c65a80abbc115d5e",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "support.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": true,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "7bd0916df4331d7a8e146f11ee98a21e78a4ee296efa6dc5c284fff9ca429f71",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "teams.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "842b34303164ead41bccb7c05d1707422e98d108753b397b6dcc19683eb02101",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "test.checkout.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "updates.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "vpn-control-plane.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "www.backend-restricted.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "www.backend.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "www.blog.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "www.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "b06af473d1b9519b94a9908f463253a341717cd9a3dbfd466e526fe2d0e4122a",
+      "security_hash": "906e3404169ba3190ae888cc2bd5d84b940318997edc67c8a85c102d4032c088",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "www.origin.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "www.releasemaster.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "www.smon.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    },
+    {
+      "host": "www.support.expressvpn.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:40:58.764Z",
+      "last_seen": "2026-07-17T19:40:58.764Z"
+    }
+  ]
+}

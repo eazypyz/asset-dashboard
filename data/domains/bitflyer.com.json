@@ -1,0 +1,728 @@
+{
+  "domain": "bitflyer.com",
+  "last_update": "2026-07-17T19:37:43.388Z",
+  "stats": {
+    "total": 42,
+    "dns_resolved": 31,
+    "alive": 26,
+    "has_robots": 7,
+    "has_security": 3,
+    "has_sitemap": 3
+  },
+  "subdomains": [
+    {
+      "host": "about-n2r5h7wflh.bitflyer.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:37:43.384Z",
+      "last_seen": "2026-07-17T19:37:43.384Z"
+    },
+    {
+      "host": "about.bitflyer.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:37:43.384Z",
+      "last_seen": "2026-07-17T19:37:43.384Z"
+    },
+    {
+      "host": "analytics.bitflyer.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:37:43.384Z",
+      "last_seen": "2026-07-17T19:37:43.384Z"
+    },
+    {
+      "host": "api.bitflyer.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:37:43.384Z",
+      "last_seen": "2026-07-17T19:37:43.384Z"
+    },
+    {
+      "host": "api.lightchart.bitflyer.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:37:43.384Z",
+      "last_seen": "2026-07-17T19:37:43.384Z"
+    },
+    {
+      "host": "api.trust.bitflyer.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:37:43.384Z",
+      "last_seen": "2026-07-17T19:37:43.384Z"
+    },
+    {
+      "host": "bitcoindonations.bitflyer.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:37:43.384Z",
+      "last_seen": "2026-07-17T19:37:43.384Z"
+    },
+    {
+      "host": "bitflyer.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:37:43.384Z",
+      "last_seen": "2026-07-17T19:37:43.384Z"
+    },
+    {
+      "host": "blockchain.bitflyer.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:37:43.384Z",
+      "last_seen": "2026-07-17T19:37:43.384Z"
+    },
+    {
+      "host": "blog-eu.bitflyer.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": true,
+      "robots_hash": "19e066b6ba0566985c3349ac846efd626214567dd7a47aceac5563ca60b69b5a",
+      "security_hash": "",
+      "sitemap_hash": "bd0e5ee20a4d1fd7657369c8c4daa6d6889f2fafa0a91510f9bb31e553d04f7b",
+      "first_seen": "2026-07-17T19:37:43.384Z",
+      "last_seen": "2026-07-17T19:37:43.384Z"
+    },
+    {
+      "host": "blog-jp.bitflyer.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:37:43.384Z",
+      "last_seen": "2026-07-17T19:37:43.384Z"
+    },
+    {
+      "host": "blog.bitflyer.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:37:43.384Z",
+      "last_seen": "2026-07-17T19:37:43.384Z"
+    },
+    {
+      "host": "blog.blockchain.bitflyer.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "48b397de90d08cc4b897696a7de1adc758f6a402bf853cb2aaf3ed75f8255737",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:37:43.384Z",
+      "last_seen": "2026-07-17T19:37:43.384Z"
+    },
+    {
+      "host": "chainflyer.bitflyer.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "b9c34b5d45fbd4e601a40c263d2cc70264b1b71ecc7bcda94ecc9b587db00c55",
+      "security_hash": "5f98ce497855424d83d14e9d5815d60499c29462cab950f87b8b09e8da6ecc98",
+      "sitemap_hash": "5f98ce497855424d83d14e9d5815d60499c29462cab950f87b8b09e8da6ecc98",
+      "first_seen": "2026-07-17T19:37:43.384Z",
+      "last_seen": "2026-07-17T19:37:43.384Z"
+    },
+    {
+      "host": "charon.bitflyer.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:37:43.384Z",
+      "last_seen": "2026-07-17T19:37:43.384Z"
+    },
+    {
+      "host": "corp.bitflyer.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:37:43.384Z",
+      "last_seen": "2026-07-17T19:37:43.384Z"
+    },
+    {
+      "host": "fundflyer.bitflyer.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:37:43.384Z",
+      "last_seen": "2026-07-17T19:37:43.384Z"
+    },
+    {
+      "host": "gui.playground.blockchain.bitflyer.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:37:43.384Z",
+      "last_seen": "2026-07-17T19:37:43.384Z"
+    },
+    {
+      "host": "hikyaku.bitflyer.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:37:43.384Z",
+      "last_seen": "2026-07-17T19:37:43.384Z"
+    },
+    {
+      "host": "hub.bitflyer.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:37:43.384Z",
+      "last_seen": "2026-07-17T19:37:43.384Z"
+    },
+    {
+      "host": "ightning.bitflyer.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:37:43.384Z",
+      "last_seen": "2026-07-17T19:37:43.384Z"
+    },
+    {
+      "host": "lightchart.bitflyer.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:37:43.384Z",
+      "last_seen": "2026-07-17T19:37:43.384Z"
+    },
+    {
+      "host": "lightning.bitflyer.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:37:43.384Z",
+      "last_seen": "2026-07-17T19:37:43.384Z"
+    },
+    {
+      "host": "lightstream.bitflyer.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:37:43.384Z",
+      "last_seen": "2026-07-17T19:37:43.384Z"
+    },
+    {
+      "host": "lp.bitflyer.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "7e089d6dc57b741b08c7977604efd111c5dbe042c0f61d05f448c39e40800273",
+      "security_hash": "a344fd102bad8c41c9655dbf493e99b15fdaeec9386f3e92c2f380c2cb0dd8c3",
+      "sitemap_hash": "f2d8d93397b5e92b02c64e9c7e9ebe76d90c994dd95db46399576a517036c9a4",
+      "first_seen": "2026-07-17T19:37:43.384Z",
+      "last_seen": "2026-07-17T19:37:43.384Z"
+    },
+    {
+      "host": "mobileapp.bitflyer.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "a8f31103361fca68bef71fc69cff844b7c23bd3d64d2b872d74690cbda656bfc",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:37:43.384Z",
+      "last_seen": "2026-07-17T19:37:43.384Z"
+    },
+    {
+      "host": "msm07s-cdn.bitflyer.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:37:43.384Z",
+      "last_seen": "2026-07-17T19:37:43.384Z"
+    },
+    {
+      "host": "payment.bitflyer.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:37:43.384Z",
+      "last_seen": "2026-07-17T19:37:43.384Z"
+    },
+    {
+      "host": "playground-node0.blockchain.bitflyer.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:37:43.384Z",
+      "last_seen": "2026-07-17T19:37:43.384Z"
+    },
+    {
+      "host": "playground-node1.blockchain.bitflyer.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:37:43.384Z",
+      "last_seen": "2026-07-17T19:37:43.384Z"
+    },
+    {
+      "host": "playground-node2.blockchain.bitflyer.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:37:43.384Z",
+      "last_seen": "2026-07-17T19:37:43.384Z"
+    },
+    {
+      "host": "playground.blockchain.bitflyer.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:37:43.384Z",
+      "last_seen": "2026-07-17T19:37:43.384Z"
+    },
+    {
+      "host": "ppe.api.trust.bitflyer.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:37:43.384Z",
+      "last_seen": "2026-07-17T19:37:43.384Z"
+    },
+    {
+      "host": "signal.bitflyer.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:37:43.384Z",
+      "last_seen": "2026-07-17T19:37:43.384Z"
+    },
+    {
+      "host": "status.bitflyer.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "5a0024467fe2c0539394b9fff28b0c20a7998f79f2eabd656a276f27c39e1aba",
+      "security_hash": "717894f81698c9f99f97b7ba38553619381173bc07ce17fa9afbd7533c4096e9",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:37:43.384Z",
+      "last_seen": "2026-07-17T19:37:43.384Z"
+    },
+    {
+      "host": "support-us.bitflyer.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "3e76527499d849e4581b8aeb2fdee23b8e79a189afefb1f0064e15c47d1a9e91",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:37:43.384Z",
+      "last_seen": "2026-07-17T19:37:43.384Z"
+    },
+    {
+      "host": "techblog.blockchain.bitflyer.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:37:43.384Z",
+      "last_seen": "2026-07-17T19:37:43.384Z"
+    },
+    {
+      "host": "tpoint-zjegwfvt.bitflyer.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:37:43.384Z",
+      "last_seen": "2026-07-17T19:37:43.384Z"
+    },
+    {
+      "host": "www.bitflyer.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:37:43.384Z",
+      "last_seen": "2026-07-17T19:37:43.384Z"
+    },
+    {
+      "host": "www.blockchain.bitflyer.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:37:43.384Z",
+      "last_seen": "2026-07-17T19:37:43.384Z"
+    },
+    {
+      "host": "www.blog.blockchain.bitflyer.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:37:43.384Z",
+      "last_seen": "2026-07-17T19:37:43.384Z"
+    },
+    {
+      "host": "www.tpoint-zjegwfvt.bitflyer.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-17T19:37:43.384Z",
+      "last_seen": "2026-07-17T19:37:43.384Z"
+    }
+  ]
+}

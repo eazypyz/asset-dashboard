@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<!--[if IE 7]><html lang="en" class="lt-ie10 lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="en" class="lt-ie10 lt-ie9"> <![endif]-->
+<!--[if IE 9]><html lang="en" class="lt-ie10"><![endif]-->
+<!--[if gt IE 9]><html lang="en"><![endif]-->
+<!--[if !IE]><!--><html lang="en"><!--<![endif]-->
+<head>
+    <meta charset="UTF-8">
+
+    <script nonce="CD9h8OwvUOKVxzlc2XeXPg">if (typeof module === 'object') {window.module = module; module = undefined;}</script><style type="text/css" nonce="CD9h8OwvUOKVxzlc2XeXPg">
+        .bgStyle {
+          background-image: url('https://ok1static2.oktacdn.com/fs/bco/7/fs01hv78yp8ry6f1K0h8')
+        }
+        .bgStyleIE8 {
+          filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='https://ok1static2.oktacdn.com/fs/bco/7/fs01hv78yp8ry6f1K0h8', sizingMethod='scale')
+        }
+        .copyright a:focus-visible, 
+        .privacy-policy a:focus-visible {
+          border-radius: 6px;
+          outline: rgb(84, 107, 231) solid 1px;
+          outline-offset: 2px;
+          text-decoration: none !important;
+        }
+    </style><title>Roblox - Sign In</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex,nofollow" />
+
+    <script nonce="CD9h8OwvUOKVxzlc2XeXPg">window.cspNonce = 'CD9h8OwvUOKVxzlc2XeXPg';</script><script src="https://ok1static2.oktacdn.com/assets/js/sdk/okta-signin-widget/7.47.0/js/okta-sign-in.min.js" type="text/javascript" integrity="sha384-enGMHgLwYVsM8pXRVYRKtR3TW738nRCE47uIH4JwyWgew+36RYVD8Fat9hlI48/Q" crossorigin="anonymous"></script>
+    <link href="https://ok1static2.oktacdn.com/assets/js/sdk/okta-signin-widget/7.47.0/css/okta-sign-in.min.css" type="text/css" rel="stylesheet" integrity="sha384-G3LkrU5P+NWxdaLO+Qze/Ka1mpYJ2hLxp/1GFFUawVYXb+Z/mFc87J2EDV5SXco4" crossorigin="anonymous"/>
+
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
+<link href="https://ok1static2.oktacdn.com/assets/loginpage/css/loginpage-theme.c8c15f6857642c257bcd94823d968bb1.css" rel="stylesheet" type="text/css"/><link href="/api/internal/brand/theme/style-sheet?touch-point=SIGN_IN_PAGE&v=135faf974f885678bc95d13ef1552b7e85853f731d706acd9f43fcdd8b85a3704c555b08dbd6b8a05cf850bd9db131e7" rel="stylesheet" type="text/css">
+
+    <script nonce="CD9h8OwvUOKVxzlc2XeXPg">
+        var okta = {
+            locale: 'en',
+            deployEnv: 'PROD'
+        };
+        
+            okta.supportedLocales = ["cs","da","de","el","en","es","eu","fi","fr","ht","hu","id","it","ja","ko","ms","nb","nl_NL","pl","pt_BR","ro","ru","sv","th","tr","uk","vi","zh_CN","zh_TW"];
+        </script><script nonce="CD9h8OwvUOKVxzlc2XeXPg">window.okta || (window.okta = {}); okta.cdnUrlHostname = "//ok1static2.oktacdn.com";</script><script nonce="CD9h8OwvUOKVxzlc2XeXPg">
+        window.onerror = function (msg, _url, _lineNo, _colNo, error) {
+            if (window.console && window.console.error) {
+                if (error) {
+                    console.error(error);
+                } else {
+                    console.error(msg);
+                }
+            }
+
+            // Return true to suppress "Script Error" alerts in IE
+            return true;
+        };
+    </script><script nonce="CD9h8OwvUOKVxzlc2XeXPg">
+    if (okta) {
+            okta.sentry = {
+                sentryDsn: 'https://728f6bd7e621314e88a26d7337d3fd61@o101443.ingest.sentry.io/4507506066849792',
+                orgId: '00o1hueh1xoJnSEcE0h8',
+                isCustomDomain: false,
+                deployEnv: window.okta && window.okta.deployEnv,
+                appName: 'okta-hosted-siw',
+                teamName: '951953394',
+                ignoreErrorTypes: '[]',
+                ignoreErrors: '[]',
+                filenamesAllowList: '["okta-sign-in.min.js","okta-sign-in.next.js"]',
+                tracesSampleRate: '0'
+            };
+        }
+    </script><script nonce="CD9h8OwvUOKVxzlc2XeXPg" src="https://ok1static2.oktacdn.com/assets/js/mvc/sentry-wrapper/sentry-wrapper.pack.df0341117f37a4556d86db4ca920273b.js" crossorigin="anonymous" integrity="sha384-Gk2LS7SYya17Q5rhmYWuf38ddvL6eRCdJ4LFl6PUxPPF4MbcmxXlXXiKE48liThv"></script><script nonce="CD9h8OwvUOKVxzlc2XeXPg">if (window.module) module = window.module;</script></head>
+<body class="auth okta-container">
+
+<!--[if gte IE 8]>
+<![if lte IE 10]>
+
+<style type="text/css" nonce="CD9h8OwvUOKVxzlc2XeXPg">
+    .unsupported-browser-banner-wrap {
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #f3fbff;
+    }
+    .unsupported-browser-banner-inner {
+    position: relative;
+    width: 735px;
+    margin: 0 auto;
+    text-align: left;
+    }
+    .unsupported-browser-banner-inner .icon {
+    vertical-align: top;
+    margin-right: 20px;
+    display: inline-block;
+    position: static !important;
+    }
+    .unsupported-browser-banner-inner a {
+    text-decoration: underline;
+    }
+</style><div class="unsupported-browser-banner-wrap">
+<div class="unsupported-browser-banner-inner">
+<span class="icon icon-16 icon-only warning-16-yellow"></span>You are using an unsupported browser. For the best experience, update to <a href="//help.okta.com/okta_help.htm?type=oie&locale=en&id=csh-browser-support">a supported browser</a>.</div>
+</div>
+
+<![endif]>
+<![endif]-->
+<!--[if IE 8]> <div id="login-bg-image-ie8" class="login-bg-image tb--background bgStyleIE8" data-se="login-bg-image"></div> <![endif]-->
+<!--[if (gt IE 8)|!(IE)]><!--> <div id="login-bg-image" class="login-bg-image tb--background bgStyle" data-se="login-bg-image"></div> <!--<![endif]-->
+
+<!-- hidden form for reposting fromURI for X509 auth -->
+<form action="/login/cert" method="post" id="x509_login" name="x509_login" class="hide">
+    <input type="hidden" id="fromURI" name="fromURI" class="hidden" value="https&#x3a;&#x2f;&#x2f;rbx.okta.com&#x2f;oauth2&#x2f;default&#x2f;v1&#x2f;authorize&#x3f;client_id&#x3d;0oa1sno8p6aPQgrJz0h8&amp;redirect_uri&#x3d;https&#x25;3A&#x25;2F&#x25;2Fconfluence.rbx.com&#x25;2Foauth2&#x25;2Fidpresponse&amp;response_type&#x3d;code&amp;scope&#x3d;openid&#x25;20profile&amp;state&#x3d;DnsEqNosp&#x25;2BW93UZZ1IPOKIm2AhQEQF06z5kTqA4oR2TJu8evadl6DUBLhz1wq4JIIjnjXjn1bvTBg49RC3MgPRMz4rf3btfZWsk4cZxhuKs5ICRbdZWQ&#x25;2F0YHq7llM&#x25;2FrxQi9oo0CdTaGLYA0UvatYcNlX5PIZ21AWk2rTCCvYsBGiEVxxkUfMqRocuTWYh8f1WcLAyc&#x25;2BILs8d&#x25;2BIund5r19xT&#x25;2FQxDPBkbe3o0TxNJZu2jtKNnl&#x25;2Fu9dCEqioW8sZAgP"/>
+</form>
+
+<div class="content">
+  <div class="applogin-banner">
+          <div class="applogin-background"></div>
+          <div class="applogin-container">
+              <h1>
+                  <span class="applogin-app-title">
+                    Connecting to</span>
+                  <div class="applogin-app-logo">
+                      <img src="https://ok1static2.oktacdn.com/assets/img/logos/default.6770228fb0dab49a1695ef440a5279bb.png" alt="Confluence&#x20;Redirect&#x20;-&#x20;ALB" class="logo oidc_client"/></div>
+              </h1>
+              <p>Sign in with your account to access Confluence Redirect - ALB</p>
+              </div>
+      </div>
+  <style type="text/css" nonce="CD9h8OwvUOKVxzlc2XeXPg">
+    .noscript-msg {
+        background-color: #fff;
+        border-color: #ddd #ddd #d8d8d8;
+        box-shadow:0 2px 0 rgba(175, 175, 175, 0.12);
+        text-align: center;
+        width: 398px;
+        min-width: 300px;
+        margin: 200px auto;
+        border-radius: 3px;
+        border-width: 1px;
+        border-style: solid;
+    }
+
+    .noscript-content {
+        padding: 42px;
+    }
+
+    .noscript-content h2 {
+        padding-bottom: 20px;
+    }
+
+    .noscript-content h1 {
+        padding-bottom: 25px;
+    }
+
+    .noscript-content a {
+        background: transparent;
+        box-shadow: none;
+        display: table-cell;
+        vertical-align: middle;
+        width: 314px;
+        height: 50px;
+        line-height: 36px;
+        color: #fff;
+        background: linear-gradient(#007dc1, #0073b2), #007dc1;
+        border: 1px solid;
+        border-color: #004b75;
+        border-bottom-color: #00456a;
+        box-shadow: rgba(0, 0, 0, 0.15) 0 1px 0, rgba(255, 255, 255, 0.1) 0 1px 0 0 inset;
+        -webkit-border-radius: 3px;
+        border-radius: 3px;
+    }
+
+    .noscript-content a:hover {
+        background: #007dc1;
+        cursor: hand;
+        text-decoration: none;
+    }
+ </style><noscript>
+    <div id="noscript-msg" class="noscript-msg">
+        <div class="noscript-content">
+            <h2>Javascript is required</h2>
+            <h1>Javascript is disabled on your browser.&nbspPlease enable Javascript and refresh this page.</h1>
+            <a href="." class="tb--button">Refresh</a>
+        </div>
+    </div>
+</noscript>
+<div id="signin-container"></div>
+  <div id="okta-sign-in" class="auth-container main-container hide">
+      <div id="unsupported-onedrive" class="unsupported-message hide">
+        <h2 class="o-form-head">Your OneDrive version is not supported</h2>
+        <p>Upgrade now by installing the OneDrive for Business Next Generation Sync Client to login to Okta</p>
+        <a class="button button-primary tb--button" target="_blank" href="https://support.okta.com/help/articles/Knowledge_Article/Upgrading-to-OneDrive-for-Business-Next-Generation-Sync-Client">
+          Learn how to upgrade</a>
+      </div>
+      <div id="unsupported-cookie" class="unsupported-message hide">
+          <h2 class="o-form-head">Cookies are required</h2>
+          <p>Cookies are disabled on your browser. Please enable Cookies and refresh this page.</p>
+          <a class="button button-primary tb--button" target="_blank" href=".">
+              Refresh</a>
+      </div>
+  </div>
+</div>
+
+<div class="footer">
+  <div class="footer-container clearfix">
+    <p class="privacy-policy"><a href="/privacy" target="_blank" class="inline-block margin-l-10">Privacy Policy</a></p>
+    </div>
+</div>
+
+<div id="inactive-tab-main-div" class="hide">
+    <div class="inactive-tab-container">
+    <div class="inactive-tab-header">
+        <img src="https://ok1static2.oktacdn.com/fs/bco/1/fs01psph4hbqCA0SS0h8" alt="Roblox" class="report-org-logo"/><div class="divider"></div>
+    </div>
+    <div class="inactive-tab-content">
+        <h2 class="inactive-tab-content-title">The page has timed out</h2>
+        <p class="inactive-tab-details">If this page does not reload automatically, please refresh your browser.</p>
+    </div>
+</div>
+</div>
+<script nonce="CD9h8OwvUOKVxzlc2XeXPg" type="text/javascript">function runLoginPage (fn) {var mainScript = document.createElement('script');mainScript.src = 'https://ok1static2.oktacdn.com/assets/js/mvc/loginpage/initLoginPage.pack.f45aba2fcd86049fdc0a4446a0b4aa60.js';mainScript.crossOrigin = 'anonymous';mainScript.integrity = 'sha384-Ti1AVzmYlM/NMC9etUiz87VUWhwg+Bo9yxzyhSC6H+BcvWDdE/RfZIEFxIsvkfcf';document.getElementsByTagName('head')[0].appendChild(mainScript);fn && mainScript.addEventListener('load', function () { setTimeout(fn, 1) });}</script><script nonce="CD9h8OwvUOKVxzlc2XeXPg" src="https://ok1static2.oktacdn.com/assets/loginpage-render/okta-loginpage-render-0.2.8-62-gf05a808.js" crossorigin="anonymous" integrity="sha384-Z00fKfDJ2AKOlQT77JK5ilDZ2FHCRWsOef32wvyalHwHfAL10IbeN6ImmF5pjCGw"></script><script nonce="CD9h8OwvUOKVxzlc2XeXPg">
+    var stateToken = 'eyJ6aXAiOiJERUYiLCJhbGlhcyI6ImVuY3J5cHRpb25rZXkiLCJ2ZXIiOiIxIiwib2lkIjoiMDBvMWh1ZWgxeG9KblNFY0UwaDgiLCJlbmMiOiJBMjU2R0NNIiwiYWxnIjoiZGlyIn0..gRBr7_GhN8W\x2DsjBe.r\x2D69rDsGSGSb9PezHftEgKwSPXalhc0\x2Dc3J\x2Dl8cvvo3\x2DaAlNAPut_iBtDnJWrMCAvLNTv231WK\x2DMXwMvF3cU5L\x2D1nloyB6ahKQbBmtrahE1HRy57wjD2x\x2Dil6QBZ7_TAfYSxXrPdvz0FC4RdeCPADbC6qOQXZyss3BGmhYbbMyII17IjB8K0ZbHYiZTmrAQzcgERJJb44wqLFjYfsnUf4TBt5zhS5I15Xyuh_oI57BCNeor7D6cQDkIHR14DIJVTZIbTrvAwJiZGJibMsLLnJaA1NH2m60y\x2DXIzfkRXNN8wup5JXaRIRNHrekbpMWGv7juAwhn93qW_5owaghzPJJgCRGCBeawB7if9LfXKq38clR6eOY4Dqs0iGW7aM8gnilbPQ6nQZReSRriChhYWHM8oog3SH8GVupb06q3kDWSOwCnh6I4ZlWdQR9l1RJRAJSpDD4p19C4xcf7ylM9Fhbg5J_qD8oEuQ0XYiCE5ycnq5d4Ua4JSFRSH2Y3MlMXUXJfpReC1etfzVqBX8rmFUMMYDawNPy8NdBSrUX6HqSotSzpo0j03ZK2muSoBdA0QfKFj_Ge3zrSMfzY4TRd5sxshNOVEO3ayxoGDbkiP4JXVG3OkWgLFFGuu3d7fHrD\x2DseDS8xusvQg6B0Y5nIYdmVFEIEbYjZL2I6dtFOBUNikOnqiT\x2DjnrlT581VD2ol9Df14vu9qE14Eb0e8DxR8kJOQxUROAzvXFeAhDr_7o53mKJ1GfLMjzDmK8Lwld2QWbqnDgnfMnpF9iNOnIq4UTLMGXfqG62QLZw3Y4XY_SRXRPzyh1ShmgZ5vf1CWlZ5lcQKrMH910SqsfIebX7B0i325lJPkMx9\x2D_zrDaI5COMGezr5GIZ\x2DiLIDTW_d1jPGdxiZjw663vAR6whj4H4Wz9pW8TK4tm4VC8dMeMISiJL3rJ\x2DNzvi4Fw5WDHdYcAOOWWFPHud9HuM2YHUB4hCoV7yS0uVpSnU0LNjsRKhKSXIFO6i9OFoNy57zu4wN2KBTF_dgykbH0CHis7XaL9opJWx3RD2meFrOPLBFDALjOHyViky2QqI316Mjw8Fwxy1_Uj7Detlf8yjxLosJjJy3Un6GJpbnOijepg48wBDb8l2TN5Bzcf1B3bO_6Hf4Pn2bL_1_UwPVb4Ny9UhpoYuLkWtsNyuWCZqScZLgkupf3AieoVQprgw\x2DbhvNv4gl_Uw3xAzsTuShfk1k4U6T1OHIBO1q506XaXzp_ymPKRET8D\x2D\x2Dzkgv7dwfUfFIATpBFUGs7lHKbOSJ2SvdWdRy7G2HiJunxeLu1A7RBvIFomHNyiNrhZVS7bNUgAueVv1EPM0yvr62CiUvuJwy63pkeUW29zsvTmdEdU77Ft3hUDFpXAqv0kFls9605\x2DZvjTNKy2p\x2Dy\x2D3EMCWiOeeGyr7ZfC23RkInyX7VtYtpPMvq5x2pRCbeMe69qpsqtZEsIYbzixj6HYYdUDRcViCV9N\x2Dwn3bpC_\x2DWKe86gH6x5LwKQ_mrQ6zkjKrww4t\x2DwH5WxKXcginoZ0bfDG91AHMn9sgYgEoioH5B82aBiWoBqycUi6syRMnBq2jxOy0aRowYwZOQlI4oVBb6cgt2bahHcpexPF4qrl_yjYR_xM5Cu2w84Kdaieo4tA6nGGZzoWbExC36MomVdFKiNwU9H9hwLVtWr2ZdP5p5tV6RYnL1676uoUjtjKOpFZHlrHAPwARpZwThX\x2D2ko4pYQLeoAEwU01ChX4nlSlShH\x2DFbPCxnzGWqt4Atl3DQF6sCFfpERPauCzhVOVwmTra8Q9sdfdGpFO1yqJzOROwzT1eR\x2DxoD5qYKFQ7vIE9e1aoxzvkcpmDdaGjgxsqg62H_hqcNBbGJI_6qdKdB5KkqSKUCDbIDYb6pCIxAb5QwOKxmxcHejelQkRPbAM84LPQuIhC6q6ugNwaTJxAQbyfHBlWHMN5ovb9LYfHjM8prbFcAmrVdddaNkHRyX3kZox282AcfI5Er_w2pPrd5YNnPMElEMLAwQxnlak7QUny2_KqPEjdpInXTj3FynMNpMwjIOBahJgAEs4pVzZpKCoF2HYkOMBgm50dMCEO_v8L3pEQ_pUOvTQS05BPl6pISEP\x2DRg90a6KyBJUloEn_h4oG13HUPF37FAkACyt5w4RjIuWW2jgJsm4YkSiWe3znSokmEOYFB4cO_FbbBuov\x2DgReYd2cWYC6XfNKIMMaOEXf307oIaIoHcjL2gjgtpXudWVda1lsUFzwraHVL9HyWaYV9psH405QOHoxoZ_NUenRkuYbGsiFQwqzsJg3hEahqpXNo2Sw\x2Dyc6Hw6hbZ0YXFqRSFiBzkd5qvfcjGa8YIodAHVEFEqU_SwtY\x2DNcnJo53HYDTph0GtQUPzbwp0TiuHWh4JpjLYTcGiqhU\x2DRjq7bRJuAhbAow5GEa871OokQOuoo5_lw_G2aUY0eIwtl6L0mOSOV1wjT60DIhC\x2DWioqJ_bEJCV5K1hINUgRkH\x2DDoNqVtuknOqqNf2cOQiGqRLAqQnPqnlS5mqA3dpmFQLlsiRs3D50ecmVdh557IVxTv2ka7JCMPr4vCa_YBKQNH4rzxf8_rXXh\x2DyyFfNtLOlH85eDb5xsgsOBUh4c1XpQZMAfD5\x2DY\x2D7etMQm7hWDbC_tyH6tevJ1J7\x2DREG0MXbS3ham\x2Dw0wD2HYqKKINECOPzfy2MNkcUoOV1R6GIt\x2DBZr60Lly_cqu8XY_2yGbSYx1ucOT_vc8UstnRmoB36bvnBeOBhNVO1TUTTZ8qEe0WTuyPN3h_JwliS39Sxdcni74qSKUYFabjHNn506q_AkxfQzy6Lp4jDQXniUPYLJ7uIzj22DODzx4AtFYOMwN_1TrJMF6O6LdJDIGkJzNTaYy6uXUnuoGgYCAPH2Gep3HdNee5qDgbOBdy08WbqxLnXqyu4w8OfLnMpOgZQUXJn_udnBBvB_WhqWcaGnZRCOr5bcCDSk932EnJBcz00\x2DSbWkQ6_c9OfIdyDgLLGB1qoNKisXHbvQWclU3ytXQtlHccNCozkHi6frIG13DEFuTwdOL_8dA2FVKjyySmZvTMB2NvHi1fve1ZjnBRYZR79EzvuLuHtExyhd0H6_1SZv3HU9YuOWPbtaaET\x2D1eTTA66isZVRh3mv7WpfjX8ksGLQ5ST2B2TcHM7WPd\x2DEzJsBX8wlQrBguzyiWoefNGQ4TPRSK6_VfvGcVuxu0bOh6uT9Tb7Qhfg8h5R46hy3zOjPwvo699Hf67jYy7mIDQqJvsKvBvcPO_e7Q\x2DJOF7jfNLB0yM1QtzKN85AwpzBb4B8_YFrSTEFr7TKaKFAEGLBVg68_g35jH5s3GjBw1I1ztFg8NaPnlkmfa7DCqF2gW2LJXzICAUCltCnP7E3EBXdGJUq0XO7QgSzSaESniBgNDrRUxZkld7oHKvv_FACBAPb6cuyJyr269NVjAzVdse7kHmNQZ938GyzM5BO8iUUk\x2DPYxim_5RT0R2DlvM2pzNj8djPI5NR__ONtkqR_1J0AvzGSnjlIZvI31_Ro7Li9GOH40mk_MLt\x2DIaRQK82hG\x2Dvz3bIZKqKp_bnZ2QJZ0RQKue_oB2ruXdfJ4Pg1yxjXXZm1AWVGj4XnS9VAWfRPyF7RX1tW30M3tZxlHQKxRuDX_HSeRfvQ\x2D_fkl4IiMun5p8x2huHcCgWS1AeVf91Ssn66aHYBorDUtrobadIRsJhCZLs\x2DpRDBepwK9kZjN_9RIsQ2pVBNZD6tmLtxl\x2D04eH5QPKEgpNu\x2D43f\x2Dkz\x2DEuIA6x2jBRNa6MmCouhZhq9DtA_ePh68cssyMdG2oF3XhZ86xBXr34Eqe\x2DXBXW4WIWUNKuvG2txF4knb4QaTuLkL_cAyMepj5nzS3DXH4OOS6NBmytE6yjWDAwLFNNhPV6U\x2DpNOOCYFdDNfMZcp0kCHFJi0vnCWb3YcuEDhzj_7Yp8X6luk\x2DzC1pA8r0Ox9bBkLlG1l4pLns9Z6oK_8a1lk\x2DGLj7BJpqbzJO6RGTlBjqJslZpnRH43MafZXKpYfZrIjbmp3CrvxgF8NZLdCaqjoT1AmBWW_Zx1Yw8ToPZvGgpETesA08Jn47pDMEUW1FEVb3\x2DwyttU6GrDXatf_fggI18PSTJKIR2TZYOEWDBFB7Bc_1yaUID5yolfR1yPhjLrmP2OlossgpCzQxJjh0oc6ML9I7xMljFGIMg_vtHaQoRNc\x2DD7Jq82dJdH8fsd4eJcaQca2zwh2Qu1VDcac_ni08Lv5Q7FhiiIBoiMSXA60rFP1C3xOq9zA_uH9eCNdu1kfrBaHuXencO7p1bDT9H7vTvrK1P_MyaG89sfi9yFpj48nrvtk_yOU5T6ICPAC5hhlup_Z\x2D2qLDHP7aFKwO85j19mHRyb4r2w6qGnyzbw49MXMy7WHzqWAsw5CJVEz4Od6sojzZ\x2DihgiXULdmK1E7\x2D2sv7F9LIHVaKCHpC82VQf3zY2QR4pd3m08EiTEkpDCwwpHU3MC4Yjw_XXxdmuM\x2DrkDYlk\x2D27ugdmMugNZwL6ZhYxA0V1j9iFA4\x2DxLIkjoajTzMVgY55Qe0PUMENxHK_hDgcwtQ43_CnhQYcPb9xOOuX47yt3dzo9JzWzn0UZKAv7Hq3Hv2OC7AWunqdRKq\x2Dj5yRdWZ96SpfDcJg.KaJwWEA2MXxr5cVzejTl7A';
+
+    
+    var idpDiscovery;
+    
+
+    var modelDataBag = '\x7B\x22stateToken\x22\x3A\x22eyJ6aXAiOiJERUYiLCJhbGlhcyI6ImVuY3J5cHRpb25rZXkiLCJ2ZXIiOiIxIiwib2lkIjoiMDBvMWh1ZWgxeG9KblNFY0UwaDgiLCJlbmMiOiJBMjU2R0NNIiwiYWxnIjoiZGlyIn0..gRBr7_GhN8W\x2DsjBe.r\x2D69rDsGSGSb9PezHftEgKwSPXalhc0\x2Dc3J\x2Dl8cvvo3\x2DaAlNAPut_iBtDnJWrMCAvLNTv231WK\x2DMXwMvF3cU5L\x2D1nloyB6ahKQbBmtrahE1HRy57wjD2x\x2Dil6QBZ7_TAfYSxXrPdvz0FC4RdeCPADbC6qOQXZyss3BGmhYbbMyII17IjB8K0ZbHYiZTmrAQzcgERJJb44wqLFjYfsnUf4TBt5zhS5I15Xyuh_oI57BCNeor7D6cQDkIHR14DIJVTZIbTrvAwJiZGJibMsLLnJaA1NH2m60y\x2DXIzfkRXNN8wup5JXaRIRNHrekbpMWGv7juAwhn93qW_5owaghzPJJgCRGCBeawB7if9LfXKq38clR6eOY4Dqs0iGW7aM8gnilbPQ6nQZReSRriChhYWHM8oog3SH8GVupb06q3kDWSOwCnh6I4ZlWdQR9l1RJRAJSpDD4p19C4xcf7ylM9Fhbg5J_qD8oEuQ0XYiCE5ycnq5d4Ua4JSFRSH2Y3MlMXUXJfpReC1etfzVqBX8rmFUMMYDawNPy8NdBSrUX6HqSotSzpo0j03ZK2muSoBdA0QfKFj_Ge3zrSMfzY4TRd5sxshNOVEO3ayxoGDbkiP4JXVG3OkWgLFFGuu3d7fHrD\x2DseDS8xusvQg6B0Y5nIYdmVFEIEbYjZL2I6dtFOBUNikOnqiT\x2DjnrlT581VD2ol9Df14vu9qE14Eb0e8DxR8kJOQxUROAzvXFeAhDr_7o53mKJ1GfLMjzDmK8Lwld2QWbqnDgnfMnpF9iNOnIq4UTLMGXfqG62QLZw3Y4XY_SRXRPzyh1ShmgZ5vf1CWlZ5lcQKrMH910SqsfIebX7B0i325lJPkMx9\x2D_zrDaI5COMGezr5GIZ\x2DiLIDTW_d1jPGdxiZjw663vAR6whj4H4Wz9pW8TK4tm4VC8dMeMISiJL3rJ\x2DNzvi4Fw5WDHdYcAOOWWFPHud9HuM2YHUB4hCoV7yS0uVpSnU0LNjsRKhKSXIFO6i9OFoNy57zu4wN2KBTF_dgykbH0CHis7XaL9opJWx3RD2meFrOPLBFDALjOHyViky2QqI316Mjw8Fwxy1_Uj7Detlf8yjxLosJjJy3Un6GJpbnOijepg48wBDb8l2TN5Bzcf1B3bO_6Hf4Pn2bL_1_UwPVb4Ny9UhpoYuLkWtsNyuWCZqScZLgkupf3AieoVQprgw\x2DbhvNv4gl_Uw3xAzsTuShfk1k4U6T1OHIBO1q506XaXzp_ymPKRET8D\x2D\x2Dzkgv7dwfUfFIATpBFUGs7lHKbOSJ2SvdWdRy7G2HiJunxeLu1A7RBvIFomHNyiNrhZVS7bNUgAueVv1EPM0yvr62CiUvuJwy63pkeUW29zsvTmdEdU77Ft3hUDFpXAqv0kFls9605\x2DZvjTNKy2p\x2Dy\x2D3EMCWiOeeGyr7ZfC23RkInyX7VtYtpPMvq5x2pRCbeMe69qpsqtZEsIYbzixj6HYYdUDRcViCV9N\x2Dwn3bpC_\x2DWKe86gH6x5LwKQ_mrQ6zkjKrww4t\x2DwH5WxKXcginoZ0bfDG91AHMn9sgYgEoioH5B82aBiWoBqycUi6syRMnBq2jxOy0aRowYwZOQlI4oVBb6cgt2bahHcpexPF4qrl_yjYR_xM5Cu2w84Kdaieo4tA6nGGZzoWbExC36MomVdFKiNwU9H9hwLVtWr2ZdP5p5tV6RYnL1676uoUjtjKOpFZHlrHAPwARpZwThX\x2D2ko4pYQLeoAEwU01ChX4nlSlShH\x2DFbPCxnzGWqt4Atl3DQF6sCFfpERPauCzhVOVwmTra8Q9sdfdGpFO1yqJzOROwzT1eR\x2DxoD5qYKFQ7vIE9e1aoxzvkcpmDdaGjgxsqg62H_hqcNBbGJI_6qdKdB5KkqSKUCDbIDYb6pCIxAb5QwOKxmxcHejelQkRPbAM84LPQuIhC6q6ugNwaTJxAQbyfHBlWHMN5ovb9LYfHjM8prbFcAmrVdddaNkHRyX3kZox282AcfI5Er_w2pPrd5YNnPMElEMLAwQxnlak7QUny2_KqPEjdpInXTj3FynMNpMwjIOBahJgAEs4pVzZpKCoF2HYkOMBgm50dMCEO_v8L3pEQ_pUOvTQS05BPl6pISEP\x2DRg90a6KyBJUloEn_h4oG13HUPF37FAkACyt5w4RjIuWW2jgJsm4YkSiWe3znSokmEOYFB4cO_FbbBuov\x2DgReYd2cWYC6XfNKIMMaOEXf307oIaIoHcjL2gjgtpXudWVda1lsUFzwraHVL9HyWaYV9psH405QOHoxoZ_NUenRkuYbGsiFQwqzsJg3hEahqpXNo2Sw\x2Dyc6Hw6hbZ0YXFqRSFiBzkd5qvfcjGa8YIodAHVEFEqU_SwtY\x2DNcnJo53HYDTph0GtQUPzbwp0TiuHWh4JpjLYTcGiqhU\x2DRjq7bRJuAhbAow5GEa871OokQOuoo5_lw_G2aUY0eIwtl6L0mOSOV1wjT60DIhC\x2DWioqJ_bEJCV5K1hINUgRkH\x2DDoNqVtuknOqqNf2cOQiGqRLAqQnPqnlS5mqA3dpmFQLlsiRs3D50ecmVdh557IVxTv2ka7JCMPr4vCa_YBKQNH4rzxf8_rXXh\x2DyyFfNtLOlH85eDb5xsgsOBUh4c1XpQZMAfD5\x2DY\x2D7etMQm7hWDbC_tyH6tevJ1J7\x2DREG0MXbS3ham\x2Dw0wD2HYqKKINECOPzfy2MNkcUoOV1R6GIt\x2DBZr60Lly_cqu8XY_2yGbSYx1ucOT_vc8UstnRmoB36bvnBeOBhNVO1TUTTZ8qEe0WTuyPN3h_JwliS39Sxdcni74qSKUYFabjHNn506q_AkxfQzy6Lp4jDQXniUPYLJ7uIzj22DODzx4AtFYOMwN_1TrJMF6O6LdJDIGkJzNTaYy6uXUnuoGgYCAPH2Gep3HdNee5qDgbOBdy08WbqxLnXqyu4w8OfLnMpOgZQUXJn_udnBBvB_WhqWcaGnZRCOr5bcCDSk932EnJBcz00\x2DSbWkQ6_c9OfIdyDgLLGB1qoNKisXHbvQWclU3ytXQtlHccNCozkHi6frIG13DEFuTwdOL_8dA2FVKjyySmZvTMB2NvHi1fve1ZjnBRYZR79EzvuLuHtExyhd0H6_1SZv3HU9YuOWPbtaaET\x2D1eTTA66isZVRh3mv7WpfjX8ksGLQ5ST2B2TcHM7WPd\x2DEzJsBX8wlQrBguzyiWoefNGQ4TPRSK6_VfvGcVuxu0bOh6uT9Tb7Qhfg8h5R46hy3zOjPwvo699Hf67jYy7mIDQqJvsKvBvcPO_e7Q\x2DJOF7jfNLB0yM1QtzKN85AwpzBb4B8_YFrSTEFr7TKaKFAEGLBVg68_g35jH5s3GjBw1I1ztFg8NaPnlkmfa7DCqF2gW2LJXzICAUCltCnP7E3EBXdGJUq0XO7QgSzSaESniBgNDrRUxZkld7oHKvv_FACBAPb6cuyJyr269NVjAzVdse7kHmNQZ938GyzM5BO8iUUk\x2DPYxim_5RT0R2DlvM2pzNj8djPI5NR__ONtkqR_1J0AvzGSnjlIZvI31_Ro7Li9GOH40mk_MLt\x2DIaRQK82hG\x2Dvz3bIZKqKp_bnZ2QJZ0RQKue_oB2ruXdfJ4Pg1yxjXXZm1AWVGj4XnS9VAWfRPyF7RX1tW30M3tZxlHQKxRuDX_HSeRfvQ\x2D_fkl4IiMun5p8x2huHcCgWS1AeVf91Ssn66aHYBorDUtrobadIRsJhCZLs\x2DpRDBepwK9kZjN_9RIsQ2pVBNZD6tmLtxl\x2D04eH5QPKEgpNu\x2D43f\x2Dkz\x2DEuIA6x2jBRNa6MmCouhZhq9DtA_ePh68cssyMdG2oF3XhZ86xBXr34Eqe\x2DXBXW4WIWUNKuvG2txF4knb4QaTuLkL_cAyMepj5nzS3DXH4OOS6NBmytE6yjWDAwLFNNhPV6U\x2DpNOOCYFdDNfMZcp0kCHFJi0vnCWb3YcuEDhzj_7Yp8X6luk\x2DzC1pA8r0Ox9bBkLlG1l4pLns9Z6oK_8a1lk\x2DGLj7BJpqbzJO6RGTlBjqJslZpnRH43MafZXKpYfZrIjbmp3CrvxgF8NZLdCaqjoT1AmBWW_Zx1Yw8ToPZvGgpETesA08Jn47pDMEUW1FEVb3\x2DwyttU6GrDXatf_fggI18PSTJKIR2TZYOEWDBFB7Bc_1yaUID5yolfR1yPhjLrmP2OlossgpCzQxJjh0oc6ML9I7xMljFGIMg_vtHaQoRNc\x2DD7Jq82dJdH8fsd4eJcaQca2zwh2Qu1VDcac_ni08Lv5Q7FhiiIBoiMSXA60rFP1C3xOq9zA_uH9eCNdu1kfrBaHuXencO7p1bDT9H7vTvrK1P_MyaG89sfi9yFpj48nrvtk_yOU5T6ICPAC5hhlup_Z\x2D2qLDHP7aFKwO85j19mHRyb4r2w6qGnyzbw49MXMy7WHzqWAsw5CJVEz4Od6sojzZ\x2DihgiXULdmK1E7\x2D2sv7F9LIHVaKCHpC82VQf3zY2QR4pd3m08EiTEkpDCwwpHU3MC4Yjw_XXxdmuM\x2DrkDYlk\x2D27ugdmMugNZwL6ZhYxA0V1j9iFA4\x2DxLIkjoajTzMVgY55Qe0PUMENxHK_hDgcwtQ43_CnhQYcPb9xOOuX47yt3dzo9JzWzn0UZKAv7Hq3Hv2OC7AWunqdRKq\x2Dj5yRdWZ96SpfDcJg.KaJwWEA2MXxr5cVzejTl7A\x22,\x22useDeviceFingerprintForSecurityImage\x22\x3Atrue,\x22refreshPageWhenPageBecomesActive\x22\x3Afalse,\x22isMfa\x22\x3Afalse,\x22appName\x22\x3A\x22oidc_client\x22,\x22appLogoUrl\x22\x3A\x22\x2Fimg\x2Flogos\x2Fdefault.png\x22,\x22appInstanceName\x22\x3A\x22Confluence\x20Redirect\x20\x2D\x20ALB\x22,\x22orgLoginPageSettings\x22\x3A\x7B\x22locale\x22\x3A\x22en\x22,\x22defaultForgottenPasswordHrefDisplay\x22\x3A\x22\x2Freset\x2Dpassword\x22,\x22defaultUnlockAccountHrefDisplay\x22\x3A\x22\x2Fuser\x2Funlock\x2Frequest\x22,\x22defaultOktaHelpHrefDisplay\x22\x3A\x22\x2Fhelp\x2Flogin\x22,\x22signinLabel\x22\x3A\x22Roblox\x22,\x22usernameLabel\x22\x3A\x22Username\x22,\x22usernameInlineLabel\x22\x3A\x22\x22,\x22passwordLabel\x22\x3A\x22Password\x22,\x22passwordInlineLabel\x22\x3A\x22\x22,\x22unlockAccountLabel\x22\x3A\x22Unlock\x20account\x3F\x22,\x22unlockAccountHref\x22\x3A\x22\x22,\x22forgottenPasswordLabel\x22\x3A\x22Forgot\x20password\x3F\x22,\x22forgottenPasswordHref\x22\x3A\x22\x22,\x22oktaHelpLabel\x22\x3A\x22Help\x22,\x22oktaHelpHref\x22\x3A\x22\x22,\x22customLinkOneText\x22\x3A\x22\x22,\x22customLinkOneHref\x22\x3A\x22\x22,\x22customLinkTwoText\x22\x3A\x22\x22,\x22customLinkTwoHref\x22\x3A\x22\x22,\x22footerHelpTitle\x22\x3A\x22Need\x20help\x20signing\x20in\x3F\x22,\x22factorPageCustomLinkText\x22\x3A\x22\x22,\x22factorPageCustomLinkHref\x22\x3A\x22\x22,\x22recoveryFlowPlaceholder\x22\x3A\x22Email\x20or\x20Username\x22,\x22showPasswordVisibilityToggle\x22\x3Atrue,\x22showIdentifier\x22\x3Atrue,\x22widgetGeneration\x22\x3A\x22G2\x22,\x22postAuthKeepMeSignedInPrompt\x22\x3Anull,\x22gracePeriodRequiredSoon\x22\x3A\x7B\x22gracePeriodRequiredSoonDescription\x22\x3A\x22When\x20the\x20deadline\x20passes,\x20you\x20won\x27t\x20be\x20able\x20to\x20sign\x20in\x20until\x20you\x20complete\x20setup.\x22,\x22gracePeriodRequiredSoonCustomLinkLabel\x22\x3A\x22\x22,\x22gracePeriodRequiredSoonCustomLinkUrl\x22\x3A\x22\x22\x7D,\x22defaultOrgLoginPageSettingsView\x22\x3A\x7B\x22locale\x22\x3A\x22en\x22,\x22defaultForgottenPasswordHrefDisplay\x22\x3A\x22\x2Freset\x2Dpassword\x22,\x22defaultUnlockAccountHrefDisplay\x22\x3A\x22\x2Fuser\x2Funlock\x2Frequest\x22,\x22defaultOktaHelpHrefDisplay\x22\x3A\x22\x2Fhelp\x2Flogin\x22,\x22signinLabel\x22\x3A\x22Sign\x20In\x22,\x22usernameLabel\x22\x3A\x22Username\x22,\x22usernameInlineLabel\x22\x3A\x22\x22,\x22passwordLabel\x22\x3A\x22Password\x22,\x22passwordInlineLabel\x22\x3A\x22\x22,\x22unlockAccountLabel\x22\x3A\x22Unlock\x20account\x3F\x22,\x22unlockAccountHref\x22\x3A\x22\x22,\x22forgottenPasswordLabel\x22\x3A\x22Forgot\x20password\x3F\x22,\x22forgottenPasswordHref\x22\x3A\x22\x22,\x22oktaHelpLabel\x22\x3A\x22Help\x22,\x22oktaHelpHref\x22\x3A\x22\x22,\x22customLinkOneText\x22\x3A\x22\x22,\x22customLinkOneHref\x22\x3A\x22\x22,\x22customLinkTwoText\x22\x3A\x22\x22,\x22customLinkTwoHref\x22\x3A\x22\x22,\x22footerHelpTitle\x22\x3A\x22Need\x20help\x20signing\x20in\x3F\x22,\x22factorPageCustomLinkText\x22\x3A\x22\x22,\x22factorPageCustomLinkHref\x22\x3A\x22\x22,\x22recoveryFlowPlaceholder\x22\x3A\x22Email\x20or\x20Username\x22,\x22showPasswordVisibilityToggle\x22\x3Atrue,\x22showIdentifier\x22\x3Atrue,\x22widgetGeneration\x22\x3A\x22G2\x22,\x22postAuthKeepMeSignedInPrompt\x22\x3A\x7B\x22title\x22\x3A\x22Keep\x20me\x20signed\x20in\x22,\x22subtitle\x22\x3A\x22Sign\x20in\x20and\x20enter\x20security\x20methods\x20less\x20frequently.\x22,\x22acceptButtonText\x22\x3A\x22Stay\x20signed\x20in\x22,\x22rejectButtonText\x22\x3A\x22Don\x27t\x20stay\x20signed\x20in\x22\x7D,\x22gracePeriodRequiredSoon\x22\x3A\x7B\x22gracePeriodRequiredSoonDescription\x22\x3A\x22When\x20the\x20deadline\x20passes,\x20you\x20won\x27t\x20be\x20able\x20to\x20sign\x20in\x20until\x20you\x20complete\x20setup.\x22,\x22gracePeriodRequiredSoonCustomLinkLabel\x22\x3A\x22\x22,\x22gracePeriodRequiredSoonCustomLinkUrl\x22\x3A\x22\x22\x7D\x7D\x7D,\x22interstitialBeforeLoginRedirect\x22\x3A\x22DEFAULT\x22,\x22orgSupportPhoneNumber\x22\x3Anull,\x22orgOptionalUserAccountFields\x22\x3A\x7B\x22hideSecondEmail\x22\x3Afalse,\x22hideSecurityImage\x22\x3Afalse\x7D,\x22selfServiceUnlockEnabled\x22\x3Atrue,\x22brandName\x22\x3A\x22Roblox\x22,\x22themedStylesUrl\x22\x3A\x22\x2Fapi\x2Finternal\x2Fbrand\x2Ftheme\x2Fstyle\x2Dsheet\x3Ftouch\x2Dpoint\x3DSIGN_IN_PAGE\x26v\x3D135faf974f885678bc95d13ef1552b7e85853f731d706acd9f43fcdd8b85a3704c555b08dbd6b8a05cf850bd9db131e7\x22,\x22faviconUrl\x22\x3A\x22\x2Ffavicon.ico\x22,\x22orgLogo\x22\x3A\x22https\x3A\x2F\x2Fok1static2.oktacdn.com\x2Ffs\x2Fbco\x2F1\x2Ffs01psph4hbqCA0SS0h8\x22,\x22bgImageUrl\x22\x3A\x22https\x3A\x2F\x2Fok1static2.oktacdn.com\x2Ffs\x2Fbco\x2F7\x2Ffs01hv78yp8ry6f1K0h8\x22,\x22hidePoweredByOkta\x22\x3Atrue,\x22brandPrimaryColor\x22\x3A\x22\x22,\x22brandPrimaryColorContrast\x22\x3A\x22\x22,\x22brandSecondaryColor\x22\x3A\x22\x22,\x22brandSecondaryColorContrast\x22\x3A\x22\x22,\x22fromURI\x22\x3A\x22https\x3A\x2F\x2Frbx.okta.com\x2Foauth2\x2Fdefault\x2Fv1\x2Fauthorize\x3Fclient_id\x3D0oa1sno8p6aPQgrJz0h8\x26redirect_uri\x3Dhttps\x253A\x252F\x252Fconfluence.rbx.com\x252Foauth2\x252Fidpresponse\x26response_type\x3Dcode\x26scope\x3Dopenid\x2520profile\x26state\x3DDnsEqNosp\x252BW93UZZ1IPOKIm2AhQEQF06z5kTqA4oR2TJu8evadl6DUBLhz1wq4JIIjnjXjn1bvTBg49RC3MgPRMz4rf3btfZWsk4cZxhuKs5ICRbdZWQ\x252F0YHq7llM\x252FrxQi9oo0CdTaGLYA0UvatYcNlX5PIZ21AWk2rTCCvYsBGiEVxxkUfMqRocuTWYh8f1WcLAyc\x252BILs8d\x252BIund5r19xT\x252FQxDPBkbe3o0TxNJZu2jtKNnl\x252Fu9dCEqioW8sZAgP\x22,\x22usingDeviceFlow\x22\x3Afalse,\x22baseUrl\x22\x3A\x22https\x3A\x2F\x2Frbx.okta.com\x22,\x22isMobileClientLogin\x22\x3Afalse,\x22rememberDevice\x22\x3Afalse,\x22smsSelfServiceEnabled\x22\x3Afalse,\x22callSelfServiceEnabled\x22\x3Afalse,\x22emailSelfServiceEnabled\x22\x3Atrue,\x22passwordlessAuth\x22\x3Atrue,\x22consentCancelUrl\x22\x3A\x22https\x3A\x2F\x2Frbx.okta.com\x2Flogin\x2Fstep\x2Dup\x2Fredirect\x3FstateToken\x3DeyJ6aXAiOiJERUYiLCJhbGlhcyI6ImVuY3J5cHRpb25rZXkiLCJ2ZXIiOiIxIiwib2lkIjoiMDBvMWh1ZWgxeG9KblNFY0UwaDgiLCJlbmMiOiJBMjU2R0NNIiwiYWxnIjoiZGlyIn0..gRBr7_GhN8W\x2DsjBe.r\x2D69rDsGSGSb9PezHftEgKwSPXalhc0\x2Dc3J\x2Dl8cvvo3\x2DaAlNAPut_iBtDnJWrMCAvLNTv231WK\x2DMXwMvF3cU5L\x2D1nloyB6ahKQbBmtrahE1HRy57wjD2x\x2Dil6QBZ7_TAfYSxXrPdvz0FC4RdeCPADbC6qOQXZyss3BGmhYbbMyII17IjB8K0ZbHYiZTmrAQzcgERJJb44wqLFjYfsnUf4TBt5zhS5I15Xyuh_oI57BCNeor7D6cQDkIHR14DIJVTZIbTrvAwJiZGJibMsLLnJaA1NH2m60y\x2DXIzfkRXNN8wup5JXaRIRNHrekbpMWGv7juAwhn93qW_5owaghzPJJgCRGCBeawB7if9LfXKq38clR6eOY4Dqs0iGW7aM8gnilbPQ6nQZReSRriChhYWHM8oog3SH8GVupb06q3kDWSOwCnh6I4ZlWdQR9l1RJRAJSpDD4p19C4xcf7ylM9Fhbg5J_qD8oEuQ0XYiCE5ycnq5d4Ua4JSFRSH2Y3MlMXUXJfpReC1etfzVqBX8rmFUMMYDawNPy8NdBSrUX6HqSotSzpo0j03ZK2muSoBdA0QfKFj_Ge3zrSMfzY4TRd5sxshNOVEO3ayxoGDbkiP4JXVG3OkWgLFFGuu3d7fHrD\x2DseDS8xusvQg6B0Y5nIYdmVFEIEbYjZL2I6dtFOBUNikOnqiT\x2DjnrlT581VD2ol9Df14vu9qE14Eb0e8DxR8kJOQxUROAzvXFeAhDr_7o53mKJ1GfLMjzDmK8Lwld2QWbqnDgnfMnpF9iNOnIq4UTLMGXfqG62QLZw3Y4XY_SRXRPzyh1ShmgZ5vf1CWlZ5lcQKrMH910SqsfIebX7B0i325lJPkMx9\x2D_zrDaI5COMGezr5GIZ\x2DiLIDTW_d1jPGdxiZjw663vAR6whj4H4Wz9pW8TK4tm4VC8dMeMISiJL3rJ\x2DNzvi4Fw5WDHdYcAOOWWFPHud9HuM2YHUB4hCoV7yS0uVpSnU0LNjsRKhKSXIFO6i9OFoNy57zu4wN2KBTF_dgykbH0CHis7XaL9opJWx3RD2meFrOPLBFDALjOHyViky2QqI316Mjw8Fwxy1_Uj7Detlf8yjxLosJjJy3Un6GJpbnOijepg48wBDb8l2TN5Bzcf1B3bO_6Hf4Pn2bL_1_UwPVb4Ny9UhpoYuLkWtsNyuWCZqScZLgkupf3AieoVQprgw\x2DbhvNv4gl_Uw3xAzsTuShfk1k4U6T1OHIBO1q506XaXzp_ymPKRET8D\x2D\x2Dzkgv7dwfUfFIATpBFUGs7lHKbOSJ2SvdWdRy7G2HiJunxeLu1A7RBvIFomHNyiNrhZVS7bNUgAueVv1EPM0yvr62CiUvuJwy63pkeUW29zsvTmdEdU77Ft3hUDFpXAqv0kFls9605\x2DZvjTNKy2p\x2Dy\x2D3EMCWiOeeGyr7ZfC23RkInyX7VtYtpPMvq5x2pRCbeMe69qpsqtZEsIYbzixj6HYYdUDRcViCV9N\x2Dwn3bpC_\x2DWKe86gH6x5LwKQ_mrQ6zkjKrww4t\x2DwH5WxKXcginoZ0bfDG91AHMn9sgYgEoioH5B82aBiWoBqycUi6syRMnBq2jxOy0aRowYwZOQlI4oVBb6cgt2bahHcpexPF4qrl_yjYR_xM5Cu2w84Kdaieo4tA6nGGZzoWbExC36MomVdFKiNwU9H9hwLVtWr2ZdP5p5tV6RYnL1676uoUjtjKOpFZHlrHAPwARpZwThX\x2D2ko4pYQLeoAEwU01ChX4nlSlShH\x2DFbPCxnzGWqt4Atl3DQF6sCFfpERPauCzhVOVwmTra8Q9sdfdGpFO1yqJzOROwzT1eR\x2DxoD5qYKFQ7vIE9e1aoxzvkcpmDdaGjgxsqg62H_hqcNBbGJI_6qdKdB5KkqSKUCDbIDYb6pCIxAb5QwOKxmxcHejelQkRPbAM84LPQuIhC6q6ugNwaTJxAQbyfHBlWHMN5ovb9LYfHjM8prbFcAmrVdddaNkHRyX3kZox282AcfI5Er_w2pPrd5YNnPMElEMLAwQxnlak7QUny2_KqPEjdpInXTj3FynMNpMwjIOBahJgAEs4pVzZpKCoF2HYkOMBgm50dMCEO_v8L3pEQ_pUOvTQS05BPl6pISEP\x2DRg90a6KyBJUloEn_h4oG13HUPF37FAkACyt5w4RjIuWW2jgJsm4YkSiWe3znSokmEOYFB4cO_FbbBuov\x2DgReYd2cWYC6XfNKIMMaOEXf307oIaIoHcjL2gjgtpXudWVda1lsUFzwraHVL9HyWaYV9psH405QOHoxoZ_NUenRkuYbGsiFQwqzsJg3hEahqpXNo2Sw\x2Dyc6Hw6hbZ0YXFqRSFiBzkd5qvfcjGa8YIodAHVEFEqU_SwtY\x2DNcnJo53HYDTph0GtQUPzbwp0TiuHWh4JpjLYTcGiqhU\x2DRjq7bRJuAhbAow5GEa871OokQOuoo5_lw_G2aUY0eIwtl6L0mOSOV1wjT60DIhC\x2DWioqJ_bEJCV5K1hINUgRkH\x2DDoNqVtuknOqqNf2cOQiGqRLAqQnPqnlS5mqA3dpmFQLlsiRs3D50ecmVdh557IVxTv2ka7JCMPr4vCa_YBKQNH4rzxf8_rXXh\x2DyyFfNtLOlH85eDb5xsgsOBUh4c1XpQZMAfD5\x2DY\x2D7etMQm7hWDbC_tyH6tevJ1J7\x2DREG0MXbS3ham\x2Dw0wD2HYqKKINECOPzfy2MNkcUoOV1R6GIt\x2DBZr60Lly_cqu8XY_2yGbSYx1ucOT_vc8UstnRmoB36bvnBeOBhNVO1TUTTZ8qEe0WTuyPN3h_JwliS39Sxdcni74qSKUYFabjHNn506q_AkxfQzy6Lp4jDQXniUPYLJ7uIzj22DODzx4AtFYOMwN_1TrJMF6O6LdJDIGkJzNTaYy6uXUnuoGgYCAPH2Gep3HdNee5qDgbOBdy08WbqxLnXqyu4w8OfLnMpOgZQUXJn_udnBBvB_WhqWcaGnZRCOr5bcCDSk932EnJBcz00\x2DSbWkQ6_c9OfIdyDgLLGB1qoNKisXHbvQWclU3ytXQtlHccNCozkHi6frIG13DEFuTwdOL_8dA2FVKjyySmZvTMB2NvHi1fve1ZjnBRYZR79EzvuLuHtExyhd0H6_1SZv3HU9YuOWPbtaaET\x2D1eTTA66isZVRh3mv7WpfjX8ksGLQ5ST2B2TcHM7WPd\x2DEzJsBX8wlQrBguzyiWoefNGQ4TPRSK6_VfvGcVuxu0bOh6uT9Tb7Qhfg8h5R46hy3zOjPwvo699Hf67jYy7mIDQqJvsKvBvcPO_e7Q\x2DJOF7jfNLB0yM1QtzKN85AwpzBb4B8_YFrSTEFr7TKaKFAEGLBVg68_g35jH5s3GjBw1I1ztFg8NaPnlkmfa7DCqF2gW2LJXzICAUCltCnP7E3EBXdGJUq0XO7QgSzSaESniBgNDrRUxZkld7oHKvv_FACBAPb6cuyJyr269NVjAzVdse7kHmNQZ938GyzM5BO8iUUk\x2DPYxim_5RT0R2DlvM2pzNj8djPI5NR__ONtkqR_1J0AvzGSnjlIZvI31_Ro7Li9GOH40mk_MLt\x2DIaRQK82hG\x2Dvz3bIZKqKp_bnZ2QJZ0RQKue_oB2ruXdfJ4Pg1yxjXXZm1AWVGj4XnS9VAWfRPyF7RX1tW30M3tZxlHQKxRuDX_HSeRfvQ\x2D_fkl4IiMun5p8x2huHcCgWS1AeVf91Ssn66aHYBorDUtrobadIRsJhCZLs\x2DpRDBepwK9kZjN_9RIsQ2pVBNZD6tmLtxl\x2D04eH5QPKEgpNu\x2D43f\x2Dkz\x2DEuIA6x2jBRNa6MmCouhZhq9DtA_ePh68cssyMdG2oF3XhZ86xBXr34Eqe\x2DXBXW4WIWUNKuvG2txF4knb4QaTuLkL_cAyMepj5nzS3DXH4OOS6NBmytE6yjWDAwLFNNhPV6U\x2DpNOOCYFdDNfMZcp0kCHFJi0vnCWb3YcuEDhzj_7Yp8X6luk\x2DzC1pA8r0Ox9bBkLlG1l4pLns9Z6oK_8a1lk\x2DGLj7BJpqbzJO6RGTlBjqJslZpnRH43MafZXKpYfZrIjbmp3CrvxgF8NZLdCaqjoT1AmBWW_Zx1Yw8ToPZvGgpETesA08Jn47pDMEUW1FEVb3\x2DwyttU6GrDXatf_fggI18PSTJKIR2TZYOEWDBFB7Bc_1yaUID5yolfR1yPhjLrmP2OlossgpCzQxJjh0oc6ML9I7xMljFGIMg_vtHaQoRNc\x2DD7Jq82dJdH8fsd4eJcaQca2zwh2Qu1VDcac_ni08Lv5Q7FhiiIBoiMSXA60rFP1C3xOq9zA_uH9eCNdu1kfrBaHuXencO7p1bDT9H7vTvrK1P_MyaG89sfi9yFpj48nrvtk_yOU5T6ICPAC5hhlup_Z\x2D2qLDHP7aFKwO85j19mHRyb4r2w6qGnyzbw49MXMy7WHzqWAsw5CJVEz4Od6sojzZ\x2DihgiXULdmK1E7\x2D2sv7F9LIHVaKCHpC82VQf3zY2QR4pd3m08EiTEkpDCwwpHU3MC4Yjw_XXxdmuM\x2DrkDYlk\x2D27ugdmMugNZwL6ZhYxA0V1j9iFA4\x2DxLIkjoajTzMVgY55Qe0PUMENxHK_hDgcwtQ43_CnhQYcPb9xOOuX47yt3dzo9JzWzn0UZKAv7Hq3Hv2OC7AWunqdRKq\x2Dj5yRdWZ96SpfDcJg.KaJwWEA2MXxr5cVzejTl7A\x22,\x22registrationEnabledForSignInWidget\x22\x3Afalse,\x22useSiwGen3\x22\x3Afalse,\x22sdkBaseURL\x22\x3A\x22https\x3A\x2F\x2Fok1static2.oktacdn.com\x2Fassets\x2Fjs\x2Fsdk\x2Fokta\x2Dsignin\x2Dwidget\x2F7.47.0\x22,\x22majorVersion\x22\x3A\x227\x22,\x22minorVersion\x22\x3A\x2247\x22,\x22oktaSignInJs\x22\x3A\x22https\x3A\x2F\x2Fok1static2.oktacdn.com\x2Fassets\x2Fjs\x2Fsdk\x2Fokta\x2Dsignin\x2Dwidget\x2F7.47.0\x2Fjs\x2Fokta\x2Dsign\x2Din.min.js\x22,\x22oktaSignInJsSRI\x22\x3A\x22sha384\x2DenGMHgLwYVsM8pXRVYRKtR3TW738nRCE47uIH4JwyWgew\x2B36RYVD8Fat9hlI48\x2FQ\x22,\x22oktaSignInCss\x22\x3A\x22https\x3A\x2F\x2Fok1static2.oktacdn.com\x2Fassets\x2Fjs\x2Fsdk\x2Fokta\x2Dsignin\x2Dwidget\x2F7.47.0\x2Fcss\x2Fokta\x2Dsign\x2Din.min.css\x22,\x22oktaSignInCssSRI\x22\x3A\x22sha384\x2DG3LkrU5P\x2BNWxdaLO\x2BQze\x2FKa1mpYJ2hLxp\x2F1GFFUawVYXb\x2BZ\x2FmFc87J2EDV5SXco4\x22,\x22oktaPluginA11yJs\x22\x3A\x22https\x3A\x2F\x2Fok1static2.oktacdn.com\x2Fassets\x2Fjs\x2Fsdk\x2Fokta\x2Dsignin\x2Dwidget\x2F7.47.0\x2Fjs\x2Fokta\x2Dplugin\x2Da11y.js\x22,\x22oktaPluginA11yJsSRI\x22\x3A\x22sha384\x2Dk\x2FaUt\x2BhGSqe7ZU8II4FoN70bSGCeZBXqBNw69\x2BFpVCrEgyFIwWnXND5KB\x2Fh8RyZD\x22,\x22oktaPluginA11yCss\x22\x3A\x22https\x3A\x2F\x2Fok1static2.oktacdn.com\x2Fassets\x2Fjs\x2Fsdk\x2Fokta\x2Dsignin\x2Dwidget\x2F7.47.0\x2Fcss\x2Fokta\x2Dplugin\x2Da11y.css\x22,\x22oktaPluginA11yCssSRI\x22\x3A\x22sha384\x2DaPKc\x2F1ZiR6BI0yvzeC7ABp\x2BJZO3md32nOQ61SAxAz3POJLxUq3CtQTbrG3E4xTVN\x22,\x22oktaPluginDebuggerJs\x22\x3A\x22https\x3A\x2F\x2Fok1static2.oktacdn.com\x2Fassets\x2Fjs\x2Fsdk\x2Fokta\x2Dsignin\x2Dwidget\x2F7.47.0\x2Fjs\x2Fokta\x2Dsign\x2Din.debugger.min.js\x22,\x22oktaPluginDebuggerJsSRI\x22\x3A\x22sha384\x2De9A5GGAq1gVKaLC3H3fPEH12T1QeD\x2BsXCp58fMyU3Z\x2BFlikdVySEBVErCmc3buhD\x22,\x22customSignInCss\x22\x3A\x22https\x3A\x2F\x2Fok1static2.oktacdn.com\x2Fassets\x2Floginpage\x2Fcss\x2Fcustom\x2Dsignin.a91af2abfd04662e499bd3e151150dbf.css\x22,\x22customSignInCssSRI\x22\x3A\x22sha384\x2DBhMidK4jYIQaVFKNVHUvbfdgrt4NVlnlTZMsOMWLdWkme3j1JcshKDNQiMssd7sN\x22,\x22initLoginPagePackJs\x22\x3A\x22https\x3A\x2F\x2Fok1static2.oktacdn.com\x2Fassets\x2Fjs\x2Fmvc\x2Floginpage\x2FinitLoginPage.pack.f45aba2fcd86049fdc0a4446a0b4aa60.js\x22,\x22initLoginPagePackJsSRI\x22\x3A\x22sha384\x2DTi1AVzmYlM\x2FNMC9etUiz87VUWhwg\x2BBo9yxzyhSC6H\x2BBcvWDdE\x2FRfZIEFxIsvkfcf\x22,\x22SignInWidgetResources\x22\x3A\x22\x3C\x21\x2D\x2D\x20Core\x20widget\x20js\x20and\x20css\x20\x2D\x2D\x3E\x5Cn\x3Cscript\x20type\x3D\x5C\x22text\x2Fjavascript\x5C\x22\x5Cn\x20\x20\x20\x20\x20\x20\x20\x20src\x3D\x5C\x22https\x3A\x2F\x2Fok1static2.oktacdn.com\x2Fassets\x2Fjs\x2Fsdk\x2Fokta\x2Dsignin\x2Dwidget\x2F7.47.0\x2Fjs\x2Fokta\x2Dsign\x2Din.min.js\x5C\x22\x20integrity\x3D\x5C\x22sha384\x2DenGMHgLwYVsM8pXRVYRKtR3TW738nRCE47uIH4JwyWgew\x2B36RYVD8Fat9hlI48\x2FQ\x5C\x22\x20crossorigin\x3D\x5C\x22anonymous\x5C\x22\x3E\x3C\x2Fscript\x3E\x5Cn\x3Clink\x20rel\x3D\x5C\x22stylesheet\x5C\x22\x5Cn\x20\x20\x20\x20\x20\x20type\x3D\x5C\x22text\x2Fcss\x5C\x22\x5Cn\x20\x20\x20\x20\x20\x20href\x3D\x5C\x22https\x3A\x2F\x2Fok1static2.oktacdn.com\x2Fassets\x2Fjs\x2Fsdk\x2Fokta\x2Dsignin\x2Dwidget\x2F7.47.0\x2Fcss\x2Fokta\x2Dsign\x2Din.min.css\x5C\x22\x5Cn\x20\x20\x20\x20\x20\x20integrity\x3D\x5C\x22sha384\x2DG3LkrU5P\x2BNWxdaLO\x2BQze\x2FKa1mpYJ2hLxp\x2F1GFFUawVYXb\x2BZ\x2FmFc87J2EDV5SXco4\x5C\x22\x5Cn\x20\x20\x20\x20\x20\x20crossorigin\x3D\x5C\x22anonymous\x5C\x22\x3E\x5Cn\x5Cn\x3C\x21\x2D\x2D\x20Customizable\x20css\x20theme\x20options.\x20Link\x20your\x20own\x20stylesheet\x20or\x20override\x20styles\x20inline.\x20\x2D\x2D\x3E\x5Cn\x3Clink\x20rel\x3D\x5C\x22stylesheet\x5C\x22\x5Cn\x20\x20\x20\x20\x20\x20type\x3D\x5C\x22text\x2Fcss\x5C\x22\x20href\x3D\x5C\x22\x5C\x22\x20integrity\x3D\x5C\x22\x5C\x22\x20crossorigin\x3D\x5C\x22anonymous\x5C\x22\x3E\x5Cn\x5Cn\x3C\x21\x2D\x2D\x20styles\x20for\x20custom\x20sign\x20in\x20\x2D\x2D\x3E\x5Cn\x3Clink\x20rel\x3D\x5C\x22stylesheet\x5C\x22\x20type\x3D\x5C\x22text\x2Fcss\x5C\x22\x20href\x3D\x5C\x22https\x3A\x2F\x2Fok1static2.oktacdn.com\x2Fassets\x2Floginpage\x2Fcss\x2Fcustom\x2Dsignin.a91af2abfd04662e499bd3e151150dbf.css\x5C\x22\x20integrity\x3D\x5C\x22sha384\x2DBhMidK4jYIQaVFKNVHUvbfdgrt4NVlnlTZMsOMWLdWkme3j1JcshKDNQiMssd7sN\x5C\x22\x20crossorigin\x3D\x5C\x22anonymous\x5C\x22\x3E\x5Cn\x5Cn\x5Cn\x3Cscript\x20type\x3D\x5C\x22text\x2Fjavascript\x5C\x22\x20nonce\x3D\x5C\x22\x5C\x22\x3E\x5Cn\x20\x20\x20\x20window.onerror\x20\x3D\x20function\x20\x28msg,\x20_url,\x20_lineNo,\x20_colNo,\x20error\x29\x20\x7B\x5Cn\x20\x20\x20\x20\x20\x20\x20\x20if\x20\x28window.console\x20\x26\x26\x20window.console.error\x29\x20\x7B\x5Cn\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20if\x20\x28error\x29\x20\x7B\x5Cn\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20console.error\x28error\x29\x3B\x5Cn\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x7D\x20else\x20\x7B\x5Cn\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20console.error\x28msg\x29\x3B\x5Cn\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x7D\x5Cn\x20\x20\x20\x20\x20\x20\x20\x20\x7D\x5Cn\x5Cn\x20\x20\x20\x20\x20\x20\x20\x20\x2F\x2F\x20Return\x20true\x20to\x20suppress\x20\x5C\x22Script\x20Error\x5C\x22\x20alerts\x20in\x20IE\x5Cn\x20\x20\x20\x20\x20\x20\x20\x20return\x20true\x3B\x5Cn\x20\x20\x20\x20\x7D\x3B\x5Cn\x3C\x2Fscript\x3E\x5Cn\x22,\x22featureFlags\x22\x3A\x5B\x22SEND_EMAIL_FOR_SIGNON_FROM_NEW_DEVICE\x22,\x22API_ACCESS_MANAGEMENT_CONSENT\x22,\x22THIRD_PARTY_DEVICE_TRUST_IOS_DEVICE\x22,\x22VALIDATED_SESSION_EVENT_FIRING\x22,\x22X509_LOGIN_BUTTON_IN_SIGN_IN_WIDGET\x22,\x22IDP_DISCOVERY\x22,\x22ENG_EML_FOR_SSR\x22,\x22THIRD_PARTY_DEVICE_TRUST_ANDROID_DEVICE\x22,\x22ENG_ENABLE_AUTOMATED_SESSION_REVOCATION\x22,\x22IDENTITY_ENGINE\x22,\x22MULTIBRAND\x22,\x22SKIP_IDP_FACTOR_VERIFICATION_BUTTON\x22,\x22POST_AUTH_KMSI_IN_AUTH_POLICY\x22,\x22ENROLLMENT_POLICY_GRACE_PERIOD_V2\x22,\x22OKTA_VERIFY_AUTO_PUSH\x22,\x22IDP_BASED_SIGN_ON_POLICY\x22,\x22MFA_ATTESTATION\x22\x5D,\x22orgctx\x22\x3A\x7B\x22org\x22\x3A\x7B\x22rememberMeEnabled\x22\x3Atrue,\x22name\x22\x3A\x22Roblox\x22\x7D\x7D,\x22appProperties\x22\x3A\x7B\x22accountChooserDiscoveryUrl\x22\x3A\x22https\x3A\x2F\x2Flogin.okta.com\x2Fdiscovery\x2Fiframe.html\x22\x7D,\x22pageTitle\x22\x3A\x22Roblox\x20\x2D\x20Sign\x20In\x22,\x22countryIso\x22\x3A\x22US\x22,\x22redirectByFormSubmit\x22\x3Afalse,\x22i18n\x22\x3A\x7B\x22invalidTokenErrorMsg\x22\x3A\x22Your\x20session\x20expired.\x20Refresh\x20the\x20page\x20to\x20sign\x20in.\x22,\x22pivCardButton\x22\x3A\x22PIV\x20Card\x22,\x22idpBasedPivCardButton\x22\x3A\x22Sign\x20in\x20with\x20CAC\x20\x2F\x20PIV\x20card\x22,\x22countryTranslationJabil\x22\x3A\x7B\x22MO\x22\x3A\x22Macao,\x20China\x22,\x22HK\x22\x3A\x22Hong\x20Kong,\x20China\x22,\x22TW\x22\x3A\x22Taiwan,\x20China\x22,\x22CN\x22\x3A\x22China\x20Mainland\x22\x7D\x7D,\x22orgSyncToAccountChooserEnabled\x22\x3Atrue,\x22telemetryOktaHostedHeaderEnabled\x22\x3Atrue\x7D';
+
+    
+    var jspDataBag = {
+      idpDiscovery: idpDiscovery,
+      isMobileSSO: false,
+      hasChromeOSFeature: false,
+      showInactiveTabIfDocumentIsHidden: true,
+    };
+    window.OktaLoginPageRender.render(modelDataBag, jspDataBag, runLoginPage);
+  </script></body>
+</html>

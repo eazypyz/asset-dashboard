@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: /login
+Disallow: /activation
+Disallow: /call
+Disallow: /events
+Disallow: /integrations
+Disallow: /viewOnly
+Disallow: /widgets
+
+Sitemap: https://roblox.gradual.us/sitemap.xml
