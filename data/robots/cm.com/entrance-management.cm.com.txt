@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en" data-beasties-container>
+  <head>
+    <meta charset="utf-8">
+    <meta content="ie=edge" http-equiv="x-ua-compatible">
+    <meta content name="description">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta content="none" name="robots">
+    <title>Entrance Management - CM.com</title>
+    <base href="/"> <!-- no self-closing because of apps proxy replacement -->
+    <link href="https://www.cm.com/app/header/css/header.min.css" rel="stylesheet">
+    <link href="https://www.cm.com/app/aurora/css/v2/aurora.css" rel="stylesheet">
+    <link href="https://cdn.cm.com/cm/favicon-32x32.png" rel="icon">
+    <link href="https://cdn.cm.com/cm/apple-touch-icon.png" rel="apple-touch-icon">
+    <link href="https://api.entrance-management.cm.com" rel="preconnect">
+    <link crossorigin="use-credentials" href="https://api.cm.com" rel="preconnect">
+    <link as="fetch" crossorigin="use-credentials" href="https://api.cm.com/translations/v1.0/scopes/entrance-management/app-data/en-GB" rel="preload">
+  <style>:root{--enma-elevation-level-medium:0 0 5px 0 rgba(22, 29, 41, .1), 0 0 7px 0 rgba(22, 29, 41, .15), 0 0 9px 0 rgba(22, 29, 41, .1);--platform-header-height:80px;--sticky-table-footer-height:3.5rem}.container{margin-bottom:calc(var(--sticky-table-footer-height) + .25rem)}@media(min-width:1800px){.container{width:calc(100vw - 640px - 2rem)!important;max-width:unset!important;min-width:auto!important;margin-left:auto}}</style><link rel="stylesheet" href="styles-UGPFR4XN.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles-UGPFR4XN.css"></noscript></head>
+
+  <body class="no-cm-chat">
+    <input id="cm-sidenav-toggle" checked type="checkbox">
+    <label for="cm-sidenav-toggle"></label>
+    <div class="container">
+      <entrance-management-root></entrance-management-root>
+    </div>
+    <platform-header class="inverted" app-icon="fa fa-gamepad" force-logicalaccount="false" module-switchaccount-path="/[localization]/app/entrance-management/[logicalaccount]" title-text="Entrance Management" module-help-path="https://knowledgecenter.cm.com/knowledge-center/ticketing/entrance-management"></platform-header>
+
+    <script>
+      document.querySelector('platform-header').addEventListener('loaded', function (event) {
+        const angularRoot = document.querySelector('entrance-management-root');
+
+        // If Angular has already rendered content, dispatch immediately
+        if (angularRoot.children.length > 0) {
+          const loadedEvent = new CustomEvent('loadedEvent', { detail: event.detail });
+          window.dispatchEvent(loadedEvent);
+        } else {
+          // Otherwise, wait for Angular to render using MutationObserver
+          const observer = new MutationObserver(function (mutations, obs) {
+            if (angularRoot.children.length > 0) {
+              const loadedEvent = new CustomEvent('loadedEvent', { detail: event.detail });
+              window.dispatchEvent(loadedEvent);
+              obs.disconnect(); // Stop observing once done
+            }
+          });
+
+          observer.observe(angularRoot, {
+            childList: true,
+            subtree: true,
+          });
+        }
+      });
+    </script>
+
+    <script src="https://www.cm.com/app/aurora/js/libphonenumber-min.js" type="text/javascript"></script>
+    <script src="https://www.cm.com/app/aurora/js/moment-with-locales.min.js" type="text/javascript"></script>
+    <script src="https://www.cm.com/app/aurora/js/moment-timezone-with-data.min.js" type="text/javascript"></script>
+    <script src="https://www.cm.com/app/aurora/js/chart.min.js" type="text/javascript"></script>
+    <script src="https://www.cm.com/app/header/js/header.min.js" type="text/javascript"></script>
+    <script src="https://www.cm.com/app/aurora/js/webcomponents-loader.js" type="text/javascript"></script>
+    <script src="https://www.cm.com/app/aurora/js/aurora-components-legacy.js" type="text/javascript"></script>
+    <script src="https://www.cm.com/app/aurora/js/cm-date-time-service.js" type="text/javascript"></script>
+
+    <cm-overlay></cm-overlay>
+  <link rel="modulepreload" href="chunk-HPCLWZFP.js"><link rel="modulepreload" href="chunk-GAPIA5FX.js"><script src="main-S7T7J5VG.js" type="module"></script></body>
+</html>

@@ -1,0 +1,623 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+
+            <title>Promedia | Portdirectory</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="language" content="english">
+        <link rel="icon" href="/icons/pmg-favicon.png" sizes="32x32">
+        <link rel="icon" href="/icons/pmg-favicon.png" sizes="192x192">
+        <link rel="apple-touch-icon" href="/icons/pmg-favicon.png">
+        <meta name="msapplication-TileImage" content="/icons/pmg-favicon.png">
+    <link rel="stylesheet" type="text/css" href="/css/style.css?v=9">
+    <link rel="stylesheet" type="text/css" href="/css/jquery.fancybox.css?v=2.1.5" media="screen" />
+    <link rel="stylesheet" type="text/css" href="/css/jquery.fancybox-buttons.css?v=1.0.5" />
+    <link rel="stylesheet" type="text/css" href="/css/jquery.fancybox-thumbs.css?v=1.0.7" />
+    <link rel="stylesheet" type="text/css" href="/css/spectrum.css" />
+    <link rel="stylesheet" type="text/css" href="/css/jquery.datetimepicker.css" />
+    <link href="/css/swiper.min.css" rel="stylesheet" />
+
+    <!--[if IE]>
+        <link rel="stylesheet" type="text/css" href="/css/ie.css" />
+    <![endif]-->
+
+    <script type="text/javascript" src="/scripts/respond.min.js"></script>
+    <script type="text/javascript" src="/scripts/libs/json3.js"></script>
+    <script type="text/javascript" src="/scripts/libs/es5-shim.js"></script>
+    <script type="text/javascript" src="/scripts/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="/scripts/jquery.unobtrusive-ajax.min.js"></script>
+    <script type="text/javascript" src="/scripts/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="/scripts/jquery.validate.unobtrusive.min.js"></script>
+    <script type="text/javascript" src="/scripts/scripts.js"></script>
+    <script type="text/javascript" src="/scripts/subscriptions.js?v=3"></script>
+    <script type="text/javascript" src="/scripts/slimmage.min.js"></script>
+    <script type="text/javascript" src="/scripts/flexbox/jquery.fancybox.js?v=2.1.5"></script>
+    <script type="text/javascript" src="/scripts/flexbox/jquery.fancybox-buttons.js?v=1.0.5"></script>
+    <script type="text/javascript" src="/scripts/flexbox/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+    <script type="text/javascript" src="/scripts/flexbox/jquery.fancybox-media.js?v=1.0.6"></script>
+    <script type="text/javascript" src='/scripts/spectrum.js'></script>
+    <script src="/scripts/libs/swiper.jquery.min.js"></script>
+
+
+<script type="text/javascript" src="/scripts/libs/json3.js"></script>
+<script type="text/javascript" src="/scripts/libs/es5-shim.js"></script>
+<script type="text/javascript" src="/scripts/libs/lodash.js"></script>
+
+    <script>
+            
+                (function (i, s, o, g, r, a, m) {
+                    i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                        (i[r].q = i[r].q || []).push(arguments)
+                    }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                    m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+                })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+                ga('create', 'UA-42308051-1', 'auto');
+                ga('send', 'pageview');
+            
+    </script>
+</head>
+<body>
+    
+    <div class="navOverlay"></div>
+
+    <div class="container portalPage textPage navSlide listView stickySearch portdirectory" id="container">
+
+
+ 
+<div class="PDV2HomePage">
+        <div id="headerBar" class="headerBar logo login clearfix">
+                <a class="button login" href="/en/account/login/" title="Login">Login</a>
+            <a class="logo" href="https://tools.promedia.be/" title="Portdepartures">Port Departures</a>
+            
+        </div>
+    
+    
+</div>
+        
+
+
+<style>
+    #headerBar {
+        display: none;
+    }
+</style>
+
+<div data-ng-app="portDirectory" data-ng-controller="appController" class="directoryController" ng-class="data.portOfAntwerp ? '' : 'isNotAntwerp'" ng-cloak>
+
+<!-- BEGIN SELECT PORTS VIEW-->
+    <div class="container navSlide directoryPorts" data-ng-show="status.showListView == false" ng-class="status.showListView ? '' : 'showPortsScreen'">
+        <div class="contentBlock">
+            <h1>PortDirectory</h1>
+            <p>Please select your port(s) to start searching the directory</p>
+            <div class="ports">
+                <div data-ng-show="loading.pdiPorts" class="loading">Loading ports...</div>
+                <ul data-ng-show="!loading.pdiPorts">
+                    <li data-ng-repeat="port in portsService.ports" data-ng-click="togglePort(port, true)" data-ng-class="{'active' : port.selected}" ng-style="{'background-image': portsService.getPortImage(port)}">
+                        <div>
+                            <span>Port of</span>
+                            <span>{{ port.PortName }}</span>
+                            <span class="iconChecked"></span>
+                        </div>
+                        <div data-ng-if="port.PdiPortId == 'a26ae6ab-4a2d-e411-80b9-00505699541d' || port.PdiPortId == 'c4f5f5c0-4a2d-e411-80b9-00505699541d'" class="port-name">
+                            <span>{{ port.PortName }}</span>
+                        </div>
+                    </li>
+                    <li data-ng-click="toggleAll('port', null, true)" data-ng-if="status.selectedPorts.length < 7">
+                        <div style="display:block;"><span>Select All</span></div>
+                    </li>
+                    <li data-ng-click="toggleAll('port', null, false)" data-ng-if="status.selectedPorts.length == 7">
+                        <div style="display:block;"><span>Deselect All</span></div>
+                    </li>
+                </ul>
+
+                <a class="button go" data-ng-click="status.showListView = true" data-ng-show="portsService.selectedPorts.length > 0">Go</a>
+            </div>
+        </div>
+    </div>
+    <!-- END SELECT PORTS VIEW-->
+    <!-- BEGIN LIST COMPANIES VIEW-->
+
+    <div class="container navSlide directoryList" data-ng-show="status.showListView == true">
+        <div id="contentArea" class="contentArea headed" style="height: 100%">
+
+            <div class="portdirectoryV2Container" ng-class="status.searchResultsMobile ? 'searchResultsMobile' : ''">
+                <header ng-class="data.portOfAntwerp ? 'headerPortOfAntwerp' : ''">
+                    <img src="/images/ports/portOfAntwerpLogo.png" alt="logoPortOfAntwerp" onclick="location.href = 'http://www.portofantwerp.com/'">
+                    <a ng-show="data.portOfAntwerp" href="http://www.portofantwerp.com/en/connectivity" class="iconGreaterThan GoToPortOfAntwerp">Find a transport operator</a>
+                </header>
+                <div class="content">
+                    <nav>
+                        <div class="filterContainerMobile">
+                            <p class="infoMobile addSearchTerm">Search for</p>
+                            <div class="dropdownFilter">
+                                <div class="dropbtn" ng-click="hover='block'">
+                                    <span class="activeFilter" data-ng-if="getActiveFilter() == 'Company Names'">Company</span>
+                                    <span class="activeFilter" data-ng-if="getActiveFilter() == 'Personal names'">Person</span>
+
+                                    <span class="dropdownFilterIcon icon-pp-icof-63"></span>
+                                </div>
+                                <div class="dropdownFilter-content" ng-style="{display: hover}" ng-click="hover='none'">
+                                    <span data-ng-click="setActiveFilter('person')">Person</span>
+                                    <span data-ng-click="setActiveFilter('company')">Company</span>
+                                </div>
+                            </div>
+                            <div class="searchInputContainer">
+                                <div>
+                                    <input type="text" placeholder="search..." data-ng-model="searchService.searchVars.term" class="inputPDV2" />
+                                    <span class="searchIconFilter icon-pp-icof-09" ng-click="addContainsFilter()"></span>
+                                </div>
+                            </div>
+                            <div class="buttonContainer">
+                                <div class="showResultButton" ng-click="addContainsFilter();status.searchResultsMobile=true">
+                                    <p>Show results</p>
+                                    <span class="icon-uniE612"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <hr class="horizontalSeperator">
+
+                        <div class="filterContainerMobile">
+                            <p class="infoMobile">Select sector</p>
+                            <hr class="horizontalSeperator">
+                        </div>
+
+                        <span class="havensContainer">
+                            <div class="navTitle" ng-click="showSlideContainer('havens')">
+                                <p>Ports</p>
+                                <span class="icon-pp-icof-62" ng-show="!data.displayHavens"></span>
+                                <span class="icon-pp-icof-61" ng-show="data.displayHavens"></span>
+                            </div>
+                            <div class="slideContainer" ng-class="{'active':data.displayHavens}">
+                                <hr class="horizontalSeperator">
+                                <p class="navSelectAll"
+                                   data-ng-click="toggleAll('port', null, true)"
+                                   data-ng-if="portsService.selectedPorts.length != portsService.ports.length">select all</p>
+                                <p class="navSelectAll"
+                                   data-ng-click="toggleAll('port', null, false)"
+                                   data-ng-if="portsService.selectedPorts.length == portsService.ports.length">deselect all</p>
+                                <div class="checkboxContainer" data-ng-repeat="port in portsService.ports">
+                                    <input type="checkbox" id="{{port.PdiPortId}}" ng-model="port.selected" ng-change="togglePort(port, false)" />
+                                    <label for="{{port.PdiPortId}}">{{port.PortName}}</label>
+                                </div>
+                            </div>
+                        </span>
+
+                        <div data-ng-repeat="sectorCatergory in sectorsService.sectorMapping | orderBy: 'category'">
+                            <div ng-if="sectorCatergory.category == 'Warehousing , Terminals & Logistics' || data.portOfAntwerp == false">
+                                <hr class="horizontalSeperator" ng-if="data.portOfAntwerp == false">
+                                <div class="navTitle" ng-click="showSlideContainer(sectorCatergory)">
+                                    <p title="{{sectorCatergory.category}}">{{sectorCatergory.category}}</p>
+                                    <span class="icon-pp-icof-61" ng-show="sectorCatergory.show"></span>
+                                    <span class="icon-pp-icof-62" ng-show="!sectorCatergory.show"></span>
+                                </div>
+                                <div class="slideContainer" ng-class="{'active':sectorCatergory.show}">
+                                    <hr class="horizontalSeperator">
+                                    <p class="navSelectAll"
+                                       data-ng-click="toggleAll('sector', sectorCatergory.category, true)"
+                                       data-ng-if="(sectorCatergory.sectors | filter:{selected:true}).length == 0">select all</p>
+                                    <p class="navSelectAll"
+                                       data-ng-click="toggleAll('sector', sectorCatergory.category, false)"
+                                       data-ng-if="(sectorCatergory.sectors | filter:{selected:true}).length > 0">deselect all</p>
+                                    <div class="checkboxContainer"
+                                         data-ng-repeat="sector in sectorCatergory.sectors | orderBy: 'name' | limitTo: sectorCatergory.amount">
+                                        <input type="checkbox" id="{{sector.name}}" ng-model="sector.selected" ng-change="toggleFilter('sector', sector)" />
+                                        <label for="{{sector.name}}" title="{{sector.name}}">{{sector.name}}</label>
+                                        <span ng-if="sectorsService.mappingResults == true">({{sector.count}})</span>
+                                        <span ng-if="sectorsService.mappingResults == false">(...)</span>
+                                    </div>
+                                    <p class="navShowAll"
+                                       ng-click="sectorCatergory.amount = 100"
+                                       ng-if="sectorCatergory.amount == 4 && sectorCatergory.sectors.length > 4">show all</p>
+                                    <p class="navShowAll" ng-click="sectorCatergory.amount = 4" ng-if="sectorCatergory.amount == 100">hide all</p>
+
+                                    <!-- Commodities and Accessibilities  -->
+                                    <div ng-if="sectorCatergory.category == 'Warehousing , Terminals & Logistics'">
+                                        <div class="navTitle AccessibilitiesCommoditiesTitle" ng-click="showSlideContainer('commodities')">
+                                            <p>Commodities</p>
+                                            <span class="icon-pp-icof-62" ng-show="!data.displayCommodities"></span>
+                                            <span class="icon-pp-icof-61" ng-show="data.displayCommodities"></span>
+                                        </div>
+                                        <div class="slideContainer" ng-class="{'active':data.displayCommodities}">
+                                            <p class="navSelectAll"
+                                               data-ng-click="toggleAll('commodity', none, true)"
+                                               data-ng-if="(sectorsService.allCommodities | filter:{selected:true}).length == 0">select all</p>
+                                            <p class="navSelectAll"
+                                               data-ng-click="toggleAll('commodity', none, false)"
+                                               data-ng-if="(sectorsService.allCommodities | filter:{selected:true}).length > 0">deselect all</p>
+                                            <div class="checkboxContainer" data-ng-repeat="commodity in sectorsService.allCommodities | orderBy: 'SectorName' | limitTo: sectorsService.allCommodities.amount">
+                                                <input type="checkbox" id="{{commodity.SectorName}}" ng-model="commodity.selected" ng-change="toggleFilter('commodity', commodity)" />
+                                                <label for="{{commodity.SectorName}}">{{commodity.SectorName}}</label>
+                                                <span ng-if="sectorsService.mappingResults == true">({{commodity.Count}})</span>
+                                                <span ng-if="sectorsService.mappingResults == false">(...)</span>
+                                            </div>
+                                            <p class="navShowAll"
+                                               ng-click="sectorsService.allCommodities.amount = 100"
+                                               ng-if="sectorsService.allCommodities.amount == 4 &&
+        		        				    sectorsService.allCommodities.length > 4">show all</p>
+                                            <p class="navShowAll" ng-click="sectorsService.allCommodities.amount = 4" ng-if="sectorsService.allCommodities.amount == 100">hide all</p>
+                                        </div>
+
+                                        <div class="navTitle AccessibilitiesCommoditiesTitle" ng-click="showSlideContainer('accessibilities')">
+                                            <p>Accessibilities</p>
+                                            <span class="icon-pp-icof-62" ng-show="!data.displayAccessibilities"></span>
+                                            <span class="icon-pp-icof-61" ng-show="data.displayAccessibilities"></span>
+                                        </div>
+                                        <div class="slideContainer" ng-class="{'active':data.displayAccessibilities}">
+                                            <p class="navSelectAll"
+                                               data-ng-click="toggleAll('accessibility', none, true)"
+                                               data-ng-if="(sectorsService.allAccessibilities | filter:{selected:true}).length == 0">select all</p>
+                                            <p class="navSelectAll"
+                                               data-ng-click="toggleAll('accessibility', none, false)"
+                                               data-ng-if="(sectorsService.allAccessibilities | filter:{selected:true}).length > 0">deselect all</p>
+                                            <div class="checkboxContainer" data-ng-repeat="accessibility in sectorsService.allAccessibilities | orderBy: 'SectorName' | limitTo: sectorsService.allAccessibilities.amount">
+                                                <input type="checkbox" id="{{accessibility.SectorName}}" ng-model="accessibility.selected" ng-change="toggleFilter('accessibility', accessibility)" />
+                                                <label for="{{accessibility.SectorName}}">{{accessibility.SectorName}}</label>
+                                                <span ng-if="sectorsService.mappingResults == true">({{accessibility.Count}})</span>
+                                                <span ng-if="sectorsService.mappingResults == false">(...)</span>
+                                            </div>
+                                            <p class="navShowAll"
+                                               ng-click="sectorsService.allAccessibilities.amount = 100"
+                                               ng-if="sectorsService.allAccessibilities.amount == 4 &&
+        		        				    sectorsService.allAccessibilities.length > 4">show all</p>
+                                            <p class="navShowAll" ng-click="sectorsService.allAccessibilities.amount = 4" ng-if="sectorsService.allAccessibilities.amount == 100">hide all</p>
+                                        </div>
+                                    </div>
+                                    <!-- Commodities and Accessibilities  -->
+
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                    <div class="view">
+                        <div class="bannerContent" data-ng-if="!data.portOfAntwerp && searchService.banner.BannerMobile != null" data-ng-cloak>
+                            <a href="{{searchService.banner.Url}}" target="_blank" data-ng-click="trackClick(searchService.banner.Url)">
+                                <div class="banner">
+                                    <span class="trusted">
+                                        portdepartures partner
+                                    </span>
+                                </div>
+                            </a>
+
+                            <style type="text/css">
+                                .banner {
+                                    background-image: url('{{searchService.banner.BannerMobile}}');
+                                }
+                                @media screen and (min-width: 768px) {
+                                    .banner {
+                                        background-image: url('{{searchService.banner.BannerTablet}}') !important;
+                                    }
+                                }
+                                @media screen and (min-width: 1024px) {
+                                    .banner {
+                                        background-image: url('{{searchService.banner.BannerDesktop}}') !important;
+                                    }
+                                }
+                            </style>
+                        </div>
+
+                        <!-- For mobile -->
+                        <div class="view-filter" ng-show="status.searchResultsMobile" style="min-height: 0px;">
+                            <p class="returnToFilters" ng-show="status.searchResultsMobile" ng-click="status.searchResultsMobile=false">
+                                <span class="icon-uniE611"></span>Return to filters
+                            </p>
+                        </div>
+
+                        <div class="view-filter view-filter-desktop" ng-show="!status.searchResultsMobile">
+
+                            <div class="filterContainer">
+                                <div class="dropdownFilter">
+                                    <p data-ng-if="getActiveFilter() == 'Company Names'">Company</p>
+                                    <p data-ng-if="getActiveFilter() == 'Personal names'">Person</p>
+                                    <span class="dropdownFilterIcon icon-pp-icof-63"></span>
+                                    <div class="dropdownFilter-content">
+                                        <p data-ng-click="setActiveFilter('person')">Person</span>
+                                        <p data-ng-click="setActiveFilter('company')">Company</span>
+                                    </div>
+                                </div>
+
+                                <div class="verticalSeperator"></div>
+                                <div data-outside-click="hideSearch()" class="search">
+                                    <span class="searchIconFilter icon-pp-icof-09" ng-click="addContainsFilter()"></span>
+                                    <input type="text" placeholder="search..." data-ng-model="searchService.searchVars.term" data-ng-focus="showSearch();" data-ng-change="searchSuggestions()" class="inputPDV2"
+                                           data-ng-click="searchSuggestions()" ng-keypress="enterSearch($event)">
+                                </div>
+
+                                <div class="searchResults" data-ng-show="status.searchShown">
+                                    <div class="searchingSuggestions" data-ng-show="getActiveFilter() != 'Sectors' && searchService.searchVars.term.length < 2">
+                                        <p class="title">Start searching</p>
+                                        <p class="description">Enter <span class="bold">{{2 - searchService.searchVars.term.length}}</span> character<span data-ng-show="searchService.searchVars.term.length.length != 1">s</span> to search.</p>
+                                    </div>
+                                    <div class="searchingSuggestions" data-ng-show="searchService.searchingSuggestions == true;">
+                                        <p class="title">Processing search</p>
+                                        <p class="description">Searching for <span class="bold">{{searchService.searchVars.term}}</span>.</p>
+                                    </div>
+                                    <div class="noSuggestions" data-ng-show="!search.isSearching && searchService.results.suggestions.length == 0 && searchService.searchVars.term.length > 1 && searchService.searchingSuggestions == false">
+                                        <p class="title">No results</p>
+                                        <p class="description">No results for <span class="bold">{{searchService.searchVars.term}}</span></p>
+                                    </div>
+                                    <ul class="resultsList" data-ng-show="(getActiveFilter() == 'Sectors' || searchService.results.suggestions.length > 0) && !searchService.searchingSuggestions">
+                                        <li class="searchResult" ng-click="addContainsFilter()" ng-show="searchService.searchVars.term.length >= 2"><a><p class="resultTitle">Search for "{{searchService.searchVars.term}}"</p></a></li>
+                                        <li class="searchResult" data-ng-repeat="suggestion in searchService.results.suggestions" data-ng-class="{selected: suggestion.selec}" data-ng-mouseenter="handleHover(); suggestion.selec = true;" data-ng-mouseleave="handleHover(); suggestion.selec = false;">
+                                            <a data-ng-click="searchService.addFilter('suggestion', suggestion);hideSearch();" data-ng-if="searchService.searchVars.filter=='company'">
+                                                <p class="resultTitle">
+                                                    {{suggestion.Name}}
+                                                </p>
+                                            </a>
+                                            <a data-ng-click="searchService.addFilter('suggestion', suggestion);hideSearch();" data-ng-if="searchService.searchVars.filter=='person'">
+                                                <p class="resultTitle">
+                                                    {{suggestion.Name}}
+                                                </p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </div>
+
+                            <div class="selectedFiltersContainer">
+                                <div style="height:1px;opacity:0">.</div>
+                                <div class="cities" data-ng-if="portsService.selectedPorts.length > 0">
+                                    <span class="bold">Selected ports: </span>
+                                    <span data-ng-repeat="port in portsService.selectedPorts">{{ port.PortName }}<span data-ng-if="!$last"> | </span></span>
+                                </div>
+
+                                <div class="selectedFilter" ng-repeat="filter in searchService.searchVars.filters track by $index">
+                                    <p class="filterType">
+                                        <span ng-if="filter.obj.PdiSectorId!='11111111-1111-1111-1111-111111111111'">{{filter.type}}</span>
+                                        <span ng-if="filter.obj.PdiSectorId=='11111111-1111-1111-1111-111111111111' && filter.type=='personal'">person name contains</span>
+                                        <span ng-if="filter.obj.PdiSectorId=='11111111-1111-1111-1111-111111111111' && filter.type=='company'">company name contains</span>
+                                    </p>
+                                    <p class="filterName">{{filter.obj.Name}}</p>
+                                    <p class="filterIcon">
+                                        <span class="icon-pp-icof-64" ng-click="removeFilter('filter', filter)"></span>
+                                    </p>
+                                </div>
+
+                                <div class="clearAllFilters" data-ng-click="removeAllFilters()" data-ng-if="searchService.searchVars.filters.length > 0" style="display: block">
+                                    <span>clear all</span>
+                                    <span class="iconDelete"></span>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="searching loadingOverlay" data-ng-if="searchService.searchingResults == true" ng-class="data.portOfAntwerp ? 'loadingAntwerp' : 'loadingNotAntwerp'">
+                            <div class="loadingBox">
+                                <div class="loadingIcon loadingAnimation"></div>
+                                <div class="loadingText">Loading...</div>
+                            </div>
+                        </div>
+
+                        <div class="view-results">
+                            <div class="result directoryList">
+
+                                <!-- For mobilbe -->
+                                <div ng-show="status.searchResultsMobile" class="mobileFilterContainer">
+                                    <p class="selectedFilters">Selected filters:</p>
+
+                                    <div class="selectedFiltersContainer">
+                                        <div class="selectedFilter" ng-repeat="filter in searchService.searchVars.filters track by $index">
+                                            <p class="filterName">{{filter.obj.Name}}</p>
+                                            <p class="filterIcon">
+                                                <span class="icon-pp-icof-64" ng-click="removeFilter('filter', filter)"></span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <hr class="horizontalSeperator">
+
+                                <div class="noResults clearfix"
+                                     data-ng-if="searchService.searchingResults == false && searchService.results.search.length < 1 && searchService.searchVars.filters.length > 0"
+                                     ng-class="status.searchResultsMobile ? 'noresultsMobile' : ''">
+                                    <div class="title">No results found</div>
+                                    <div class="description">
+                                        Our apologies, no search results can be found matching your criteria.
+                                    </div>
+                                </div>
+
+                                <div class="noResults clearfix" data-ng-if="searchService.searchingResults == false && searchService.results.search.length < 1 && searchService.searchVars.filters.length == 0">
+                                    <div class="title">No selection made</div>
+                                    <div class="description">
+                                        To start searching, select at least one sector or type your search keyword(s).
+                                    </div>
+                                </div>
+
+                                <div class="results" data-ng-if="searchService.searchingResults == false && searchService.results.search.length >= 1">
+                                    <div class="row" data-ng-repeat="result in searchService.results.search | orderBy: 'CompanyName'">
+                                        <div class="main-container">
+                                            <div class="col-md-3 col-xs-5">
+                                                <p class="subtitle">{{result.CompanyName}}</p>
+                                                <div class="url">
+                                                    <a href="{{result.FullUrl}}" data-ng-if="result.FullUrl!=''">
+                                                        {{result.DisplayUrl || ''}}
+                                                    </a>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-md-3 address">
+                                                <p>{{result.Address}}</p>
+                                                <p>{{result.ZipCode + ' ' + result.City}}</p>
+                                                <p>{{result.Country}}</p>
+                                                <p>
+                                                    <a href="mailto:{{result.Email || ''}}">
+                                                        {{result.Email || ''}}
+                                                    </a>
+                                                </p>
+                                                <p ng-hide="!result.Phone">
+                                                    T: <a href="tel:{{result.Phone || ''}}">{{result.Phone || ''}}</a>
+                                                </p>
+                                                <p ng-hide="!result.Fax">F: {{result.Fax || ''}}</p>
+                                                <p ng-hide="!result.DocExchange">DE: {{result.DocExchange || ''}}</p>
+                                            </div>
+
+                                            <div class="vis_phone col-xs-2 ">
+                                                <a href="mailto:{{result.Email || ''}}"><span class="icon-small iconEnveloppe"></span></a>
+                                            </div>
+                                            <div class="vis_phone col-xs-2 ">
+                                                <a href="tel:{{result.Phone || ''}}"><span class="icon-small iconPhone"></span></a>
+                                            </div>
+
+                                            <div class="col-md-5 portdirectorySector">
+                                                <p class="subtitle">Detailed info</p>
+                                                <div class="icons">
+                                                    <div ng-class="{'enabled':(result.CompanyFacilities.indexOf(1) > -1)}" class="popup disabled">
+                                                        <a href="/portdirectory/en/detail/?id={{result.SearchId}}#company"><span class="icon-small iconArrow"></span></a>
+                                                        <div class="tooltip">
+                                                            <div class="tooltip_normal">
+                                                                <p class="tooltiptitle">Company</p>
+                                                                <i>Unavailable for this company</i>
+                                                                <p>General contact info: address, phone numbers, ...</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div ng-class="{'enabled':(result.CompanyFacilities.indexOf(3) > -1)}" class="popup disabled">
+                                                        <a href="/portdirectory/en/detail/?id={{result.SearchId}}#activities"><span class="icon-small iconBeat"></span></a>
+                                                        <div class="tooltip">
+                                                            <div class="tooltip_normal">
+                                                                <p class="tooltiptitle">Activities</p>
+                                                                <i>Unavailable for this company</i>
+                                                                <p>Company activities and memberships</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div ng-class="{'enabled':(result.CompanyFacilities.indexOf(7) > -1)}" class="popup disabled">
+                                                        <a href="/portdirectory/en/detail/?id={{result.SearchId}}#logistic"><span class="icon-small icon-uniE62C"></span></a>
+                                                        <div class="tooltip">
+                                                            <div class="tooltip_normal">
+                                                                <p class="tooltiptitle">Logistics</p>
+                                                                <i>Unavailable for this company</i>
+                                                                <p>Warehousing, terminals &amp; logistics</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div ng-class="{'enabled':(result.CompanyFacilities.indexOf(6) > -1)}" class="popup disabled">
+                                                        <a href="/portdirectory/en/detail/?id={{result.SearchId}}#waterclerck"><span class="icon-small iconWaterklerk"></span></a>
+                                                        <div class="tooltip">
+                                                            <div class="tooltip_normal">
+                                                                <p class="tooltiptitle">Ship Agency</p>
+                                                                <i>Unavailable for this company</i>
+                                                                <p>Ship agency representation and shipping clerks contact details</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div ng-class="{'enabled':(result.CompanyFacilities.indexOf(4) > -1)}" class="popup disabled">
+                                                        <a href="/portdirectory/en/detail/?id={{result.SearchId}}#board"><span class="icon-small iconDirection"></span></a>
+                                                        <div class="tooltip">
+                                                            <div class="tooltip_normal">
+                                                                <p class="tooltiptitle">Management</p>
+                                                                <i>Unavailable for this company</i>
+                                                                <p>Company management contact info</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div ng-class="{'enabled':(result.CompanyFacilities.indexOf(5) > -1)}" class="popup disabled">
+                                                        <a href="/portdirectory/en/detail/?id={{result.SearchId}}#openinghours"><span class="icon-small iconClock"></span></a>
+                                                        <div class="tooltip">
+                                                            <div class="tooltip_normal">
+                                                                <p class="tooltiptitle">Opening Hours</p>
+                                                                <i>Unavailable for this company</i>
+                                                                <p>Opening  hours and contact details after hours</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div ng-class="{'enabled':(result.CompanyFacilities.indexOf(2) > -1)}" class="popup disabled">
+                                                        <a href="/portdirectory/en/detail/?id={{result.SearchId}}#financial"><span class="icon-small iconMoney"></span></a>
+                                                        <div class="tooltip">
+                                                            <div class="tooltip_normal">
+                                                                <p class="tooltiptitle">Financial</p>
+                                                                <i>Unavailable for this company</i>
+                                                                <p>Bank account numbers</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <p class="subtitle">Sector</p>
+                                                <div data-ng-repeat="sector in result.SectorNames track by $index">
+                                                    <p>{{ sector }}</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-1 col-xs-2 icon_center">
+                                                <a href="/portdirectory/en/detail/?id={{result.SearchId}}">
+                                                    <span class="iconGreaterThan"></span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <hr class="horizontalSeperator">
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+
+
+
+
+    </div>
+
+    <div class="toTop">
+        <a href="" title="Scroll to Top" class="iconArrowUp"></a>
+    </div>
+
+
+    <!-- ANGULAR -->
+    <script type="text/javascript" src="/scripts/libs/angular-1.3.0-beta.8/angular.min.js"></script>
+    <script type="text/javascript" src="/scripts/libs/angular-1.3.0-beta.8/angular-cookies.js"></script>
+
+    <!-- ANGULAR SETUP-->
+    <script src="/scripts/angular/portdirectory/init.js?v=5"></script>
+
+    <!-- CONTROLLERS -->
+    <script src="/scripts/angular/portdirectory/controllers/appController.js?v=5"></script>
+    <!-- <script src="app/controllers/pages/example.js"></script> -->
+    <!-- <script src="app/controllers/partials/example.js"></script> -->
+    <!-- SERVICES -->
+    <script src="/scripts/angular/portdirectory/services/configService.js?v=5"></script>
+    <script src="/scripts/angular/portdirectory/services/portsService.js?v=5"></script>
+    <script src="/scripts/angular/portdirectory/services/sectorsService.js?v=5"></script>
+    <script src="/scripts/angular/portdirectory/services/activitiesService.js?v=5"></script>
+    <script src="/scripts/angular/portdirectory/services/companiesService.js?v=5"></script>
+    <script src="/scripts/angular/portdirectory/services/personsService.js?v=5"></script>
+    <script src="/scripts/angular/portdirectory/services/searchService.js?v=5"></script>
+    <script src="/scripts/angular/portdirectory/services/analyticsService.js?v=5"></script>
+
+    <!-- FACTORIES -->
+    <script src="/scripts/angular/portdirectory/factories/portsFactory.js?v=5"></script>
+    <script src="/scripts/angular/portdirectory/factories/sectorsFactory.js?v=5"></script>
+    <script src="/scripts/angular/portdirectory/factories/activitiesFactory.js?v=5"></script>
+    <script src="/scripts/angular/portdirectory/factories/companiesFactory.js?v=5"></script>
+    <script src="/scripts/angular/portdirectory/factories/personsFactory.js?v=5"></script>
+    <script src="/scripts/angular/portdirectory/factories/directoryFactory.js?v=5"></script>
+
+    <!-- DIRECTIVES -->
+    <script src="/scripts/angular/portdirectory/directives/click-outside.js"></script>
+
+    <!-- FILTERS -->
+    <script src="/scripts/angular/portdirectory/filters/convertSectorId.js"></script>
+    <script src="/scripts/angular/portdirectory/filters/convertFacilityId.js"></script>
+
+    <script>
+        function ping() {
+            $.get("/umbraco/api/portplusapi/ping");
+            window.setTimeout("ping();", 300000); 
+        }
+
+        window.setTimeout("ping();", 300000);
+    </script>
+</body>
+</html>

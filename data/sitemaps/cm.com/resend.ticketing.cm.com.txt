@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+    <meta name="robots" content="index, follow">
+    <meta name="description" content="Lost your tickets? Quickly resend your event tickets to your email using the event date and email that was used to buy the tickets">
+    <meta name="title" content="Resend Tickets - CM.com">
+    <title>Resend Tickets - CM.com</title>
+
+    
+    <meta itemprop="name" content="Resend Tickets - CM.com">
+    <meta itemprop="description" content="Lost your tickets? Quickly resend your event tickets to your email using the event date and email that was used to buy the tickets">
+
+    
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Resend Tickets - CM.com">
+    <meta property="og:description" content="Lost your tickets? Quickly resend your event tickets to your email using the event date and email that was used to buy the tickets">
+    <meta property="og:site_name" content="CM.com Ticketing">
+    <meta property="og:locale" content="EN">
+
+    
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Resend Tickets - CM.com">
+    <meta name="twitter:description" content="Lost your tickets? Quickly resend your event tickets to your email using the event date and email that was used to buy the tickets">
+
+    
+        <link rel="alternate" hreflang="en" href="https://resend.ticketing.cm.com/en">
+    
+        <link rel="alternate" hreflang="nl" href="https://resend.ticketing.cm.com/nl">
+    
+        <link rel="alternate" hreflang="de" href="https://resend.ticketing.cm.com/de">
+    
+        <link rel="alternate" hreflang="fr" href="https://resend.ticketing.cm.com/fr">
+    
+        <link rel="alternate" hreflang="es" href="https://resend.ticketing.cm.com/es">
+    
+
+    
+        <link href="https://www.cm.com/app/aurora/css/v2/aurora.css" rel="stylesheet">
+    
+
+    <link href="https://cdn.cm.com/cm/favicon-32x32.png" rel="icon">
+    <link href="https://cdn.cm.com/cm/apple-touch-icon.png" rel="apple-touch-icon">
+    <link href="/css/selfservice-resend.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://www.google.com" crossorigin>
+    <link rel="preconnect" href="https://unpkg.com" crossorigin>
+    
+        <link rel="preconnect" href="https://www.cm.com">
+    
+
+    
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+<body>
+<div class="row navigation-container">
+    <div class="col-12 search-grid">
+        <div class="color-banner">
+            <div class="shader-1 user-select-none"><img src="/img/banner-images/shader_1.png" alt="shader-1"></div>
+            <div class="shader-2 user-select-none d-none d-sm-block"><img src="/img/banner-images/shader_2.png" alt="shader-2"></div>
+            <div class="shader-3 user-select-none d-none d-lg-block"><img src="/img/banner-images/shader_3.png" alt="shader-3"></div>
+            <div class="shader-4 user-select-none"><img src="/img/banner-images/shader_4.png" alt="shader-4"></div>
+            <div class="pill-a user-select-none"><img src="/img/banner-images/pill_A.svg" alt="Pill-A"></div>
+            <div class="pill-b user-select-none"><img src="/img/banner-images/pill_B.svg" alt="Pill-B"></div>
+            <div class="pill-c user-select-none"><img src="/img/banner-images/pill_C.svg" alt="Pill-C"></div>
+            <div class="pill-d user-select-none d-none d-lg-block"><img src="/img/banner-images/pill_D.svg" alt="Pill-D"></div>
+            <div class="pill-e user-select-none d-none d-lg-block"><img src="/img/banner-images/pill_E.svg" alt="Pill-E"></div>
+            <div class="pill-f user-select-none"><img src="/img/banner-images/pill_F.svg" alt="Pill-F"></div>
+            <div class="pill-g user-select-none"><img src="/img/banner-images/pill_G.svg" alt="Pill-G"></div>
+
+            <div class="cm-container">
+                <img src="https://api.ticketing.cm.com/ticketingresourceapi/v1.0/resource/fb9602fc-3a71-40f2-8552-ba07e2fb65b8/content" class="cm-logo" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row channels">
+    <div class="card">
+        <div id="resend-container">
+        
+    
+    <div class="card-input">
+        <div class="title-text">Lost your ticket(s)?</div>
+
+        
+        <div>Please fill in the fields below to receive your ticket(s).</div>
+
+        <div class="m-t-40" style="max-width: 600px;">
+            <div class="form-group">
+                <form id="resend-form"
+                      hx-post="EN/send"
+                      hx-target="#resend-container"
+                      hx-indicator="#loading-indicator">
+                <cm-input
+                        id="email-input"
+                        name="email"
+                        type="text"
+                        data-label="Email"
+                        placeholder="  Email"
+                        data-icons-left="email"
+                        required
+                >
+                </cm-input>
+                <div id="email-error" class="error-message">Invalid email</div>
+                <div class="m-t-16">
+                    <cm-date-time-picker
+                            id="date-picker"
+                            placeholder="dd-mm-yyyy"
+                            data-label="Event date"
+                            data-format="dd-MM-yyyy"
+                            required
+                    >
+                    </cm-date-time-picker>
+                </div>
+                <input type="hidden" id="date-input" name="date" value="">
+
+                <div class="recaptcha-button-grid m-t-32">
+                    
+                    <div class="g-recaptcha"
+                         data-sitekey="6Ldpzu0dAAAAALwA6eQ1wLZ0DBEa-pXnT7dwWNJE"
+                         data-callback="onRecaptchaSuccess">
+                    </div>
+
+
+                    <div class="button-container">
+                        <cm-button
+                                id="send-button"
+                                data-icon="send"
+                                data-label="Send my tickets"
+                                data-button-style="cta"
+                                data-button-type="icon-text"
+                                data-button-size="medium"
+                                type="submit"
+                                disabled
+                        >
+                        </cm-button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    </div>
+
+        </div>
+    </div>
+</div>
+<div class="language-selector-wrapper">
+    <cm-select id="language-select" data-flags>
+        
+            <cm-option slot="option" data-display="English" value="EN" data-flag="GB"></cm-option>
+        
+            <cm-option slot="option" data-display="Nederlands" value="NL" data-flag="NL"></cm-option>
+        
+            <cm-option slot="option" data-display="Deutsch" value="DE" data-flag="DE"></cm-option>
+        
+            <cm-option slot="option" data-display="Français" value="FR" data-flag="FR"></cm-option>
+        
+            <cm-option slot="option" data-display="Español" value="ES" data-flag="ES"></cm-option>
+        
+    </cm-select>
+</div>
+
+
+<script src="https://unpkg.com/htmx.org@2.0.4"></script>
+
+
+<script>
+    const scripts = [
+        'https://www.cm.com/app/aurora/js/cm-date-time-service.js',
+        'https://www.cm.com/app/aurora/js/webcomponents-loader.js',
+        'https://www.cm.com/app/aurora/js/aurora-components-legacy.js'
+    ];
+    scripts.forEach(src => {
+        const script = document.createElement('script');
+        script.src = src;
+        document.body.appendChild(script);
+    });
+</script>
+
+
+<script>
+    
+    customElements.whenDefined('cm-date-time-picker').then(() => {
+        document.getElementById('date-picker').addEventListener('change', (e) => {
+            document.getElementById('date-input').value = e.detail.date;
+            state.hasDate = true;
+            updateResendButton();
+        });
+    });
+
+    
+    const state = {
+        hasValidOrderId: false,
+        hasValidEmail: false,
+        hasDate: false,
+        hasRecaptcha: false
+    };
+
+    
+    function onRecaptchaSuccess(token) {
+        state.hasRecaptcha = true;
+        if (document.getElementById('email-input') && document.getElementById('date-picker')) {
+            updateResendButton();
+        } else if (document.getElementById('order-id-input')) {
+            updateResaleButton();
+        }
+    }
+
+    
+    function updateResaleButton() {
+        const sendButton = document.getElementById('send-button');
+        if (state.hasValidOrderId && state.hasRecaptcha) {
+            sendButton.removeAttribute('disabled');
+        } else {
+            sendButton.setAttribute('disabled', 'true');
+        }
+    }
+
+    function updateResendButton() {
+        const sendButton = document.getElementById('send-button');
+        if (state.hasValidEmail && state.hasDate && state.hasRecaptcha) {
+            sendButton.removeAttribute('disabled');
+        } else {
+            sendButton.setAttribute('disabled', 'true');
+        }
+    }
+
+    
+    const emailInput = document.getElementById('email-input');
+    const emailError = document.getElementById('email-error');
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+    if (emailInput) {
+        emailInput.addEventListener('input', e => {
+            const email = e.target.value.trim();
+            const valid = email !== '' && emailRegex.test(email);
+
+            if (email !== '' && !valid) {
+                e.target.setAttribute('data-error', 'true');
+                emailError.classList.add('show');
+            } else {
+                e.target.removeAttribute('data-error');
+                emailError.classList.remove('show');
+            }
+
+            state.hasValidEmail = valid;
+            updateResendButton();
+        });
+    }
+
+    
+    const orderIdInput = document.getElementById('order-id-input');
+    const orderIdError = document.getElementById('order-id-error');
+    const orderIdRegex = /^[A-Z]{2}.{8}$/;
+
+    if(orderIdInput) {
+        orderIdInput.addEventListener('input', e => {
+            const orderId = e.target.value.trim();
+            const valid = orderId !== '' && orderIdRegex.test(orderId);
+
+            if (orderId !== '' && !valid) {
+                e.target.setAttribute('data-error', 'true');
+                orderIdError.classList.add('show');
+            } else {
+                e.target.removeAttribute('data-error');
+                orderIdError.classList.remove('show');
+            }
+
+            state.hasValidOrderId = valid;
+            updateResaleButton();
+        })
+    }
+
+    
+    customElements.whenDefined('cm-select').then(() => {
+        const languageSelect = document.getElementById('language-select');
+
+        
+        const currentLanguage = 'EN';
+        if (currentLanguage) {
+            languageSelect.value = currentLanguage;
+        }
+
+        
+        languageSelect.addEventListener('change', (e) => {
+            const selectedLanguage = e.detail.value.toLowerCase();
+
+            const isResalePage = window.location.pathname.startsWith('/resale');
+            const basePath = isResalePage ? '/resale/' : '/';
+            window.location.href = basePath + selectedLanguage;
+        });
+    });
+</script>
+</body>
+</html>

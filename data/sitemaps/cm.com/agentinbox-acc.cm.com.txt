@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Agent Inbox - Login to your account</title>
+    <link rel="stylesheet" href="/css/site.css?v=v7QEnPZTknLTjjIptQLLq3xh0BUUsvVUVV4cInGZQ4I" />
+    <link href="https://cdn.cm.com/cm/favicon-32x32.png" rel="icon">
+    <link href="https://cdn.cm.com/cm/apple-touch-icon.png" rel="apple-touch-icon">
+</head>
+<body>
+<platform-header b-ai41fja5zy title-text="" app-icon="fa fa-gamepad"></platform-header>
+
+<header b-ai41fja5zy class="header">
+    <div b-ai41fja5zy class="row">
+        <div b-ai41fja5zy class="col-6">
+            <div b-ai41fja5zy class="header-logo">
+                <span b-ai41fja5zy class="d-sm-inline-block">Agent Inbox</span>
+            </div>
+        </div>
+        <div b-ai41fja5zy class="col-6">
+            <div b-ai41fja5zy class="header-right">
+                <a b-ai41fja5zy href="https://www.cm.com" class="d-sm-inline">Back to CM.com</a>
+            </div>
+        </div>
+    </div>
+</header>
+<div b-ai41fja5zy class="container">
+    <main b-ai41fja5zy role="main" class="pb-3">
+        
+
+<div class="login-box">
+    <div class="inner-box">
+        <a class="btn btn-ghost cl-white" href="https://www.cm.com/register/">Sign Up</a>
+    </div>
+    <div class="inner-box">
+        <div class="form-container">
+            <div class="col-12 m-b-24 d-none d-sm-block m-t-144">
+                <h1 class="signin-title">Sign In</h1>
+            </div>
+            <div class="col-12 d-sm-none">
+                <h3>Sign In</h3>
+            </div>
+                
+<form method="post" action="/">
+    <input type="hidden" value="Username" data-val="true" data-val-required="The CurrentView field is required." id="CurrentView" name="CurrentView">
+    <div class="form-group col-12">
+        <div class="form-row">
+            <div class="form-input">
+                <input class="form-control" placeholder="Email address" autofocus="autofocus" autocomplete="username" type="text" id="Username" name="Username" value="" />
+                <label for="Username">Email address</label>
+                <div class="form-input-validation d-none ">
+                    <div class="form-input-notes-left" title="Error message">
+                        <span class="field-validation-valid" data-valmsg-for="Username" data-valmsg-replace="true"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <button class="btn btn-primary" name="Button" value="Login" id="submit">Next</button>
+<input name="__RequestVerificationToken" type="hidden" value="CfDJ8Jjw7qGW1bZAmWo5J3WZptMzir4vfuYnCkmJhUQrI2jmA6ByiBdHO_Z0UBHKfDTs10sp6kFj8x_LNqN4GTTJthKQ1bNwxEa0wNb1SSNNTZLTsdt1DJBMmyPzDGeYhiaS1PPjdlJCbTD1K7aSCl32AAc" /></form>
+
+            <div class="row text-center mobile-signup m-t-16">
+                <div class="col-12">
+                    <p class="p-r-8">
+                        <strong>Don&#x27;t have an account?</strong>
+                        <a class="p-l-0 p-r-0 btn btn-secondary full-width" href="https://www.cm.com/register/">Sign Up</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    </main>
+</div>
+
+<script type="text/javascript" src="/js/site.js"></script>
+<script src="https://www.cm.com/app/aurora/js/webcomponents-loader.js"></script>
+<script type="text/javascript" src="https://www.cm.com/app/aurora/js/aurora-components-legacy.js"></script>
+
+    <script type="text/javascript">
+        preventFormResubmissionBehaviour();
+    </script>
+
+</body>
+</html>

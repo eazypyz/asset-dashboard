@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="Configure the CM.com MCP Server in your AI assistant.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="none">
+    <title>CM.com MCP Server</title>
+    <base href="/">
+    <link href="https://www.cm.com/app/header/css/header.min.css" rel="stylesheet">
+    <link href="https://www.cm.com/app/aurora/css/v2/aurora.css" rel="stylesheet">
+    <link href="https://cdn.cm.com/cm/favicon-32x32.png" rel="icon">
+    <link href="https://cdn.cm.com/cm/apple-touch-icon.png" rel="apple-touch-icon">
+    <style>
+        html, body {
+            height: 100%;
+            box-sizing: content-box;
+        }
+
+        code, pre {
+            background: var(--black-140);
+            color: var(--white);
+        }
+
+        code {
+            display: inline-block;
+            padding: 2px 8px;
+            border-radius: 4px;
+        }
+
+        pre {
+            border-radius: 12px;
+            padding: 8px 16px;
+            font-size: 13px;
+            line-height: 1.6;
+        }
+
+        .dark p {
+            color: var(--white-80);
+        }
+
+        .mcp-page {
+            padding-top: 80px;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .mcp-card {
+            margin: 0 auto;
+            max-width: 720px;
+            width: 100%;
+            border-radius: 24px;
+            background-color: var(--cm-dialog-modal-content-background-color);
+            border: var(--cm-dialog-modal-content-border);
+            box-shadow: var(--cm-dialog-modal-content-shadow);
+            padding: 40px;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        .mcp-card-lead {
+            text-align: center;
+            margin: 0 auto 32px;
+        }
+
+        .mcp-step {
+            display: flex;
+            gap: 16px;
+            align-items: flex-start;
+            padding: 20px 0;
+        }
+
+        .mcp-step-num {
+            flex: 0 0 auto;
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            color: var(--white);
+            background: var(--blue-110);
+        }
+
+        .mcp-step-body {
+            flex: 1;
+            min-width: 0;
+        }
+
+        .mcp-step-body h6 {
+            margin: 4px 0 4px;
+        }
+
+        .mcp-step-body p {
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body class="dark">
+<div class="mcp-page">
+    <div class="mcp-card">
+        <h2>CM.com MCP Server</h2>
+        <p class="mcp-card-lead">
+            Connect your AI assistant the CM.com MCP Server in three steps.
+        </p>
+
+        <hr>
+
+        <div class="mcp-step">
+            <div class="mcp-step-num">1</div>
+            <div class="mcp-step-body">
+                <h6>Add the MCP server</h6>
+                <p>Register <code><span class="mcp-host">https://ai.cm.com</span>/mcp</code> in your AI assistant.</p>
+                <p>For example, for Claude Code, run:</p>
+                <pre>claude mcp add --transport http cmcom-mcp-gateway <span class="mcp-host">https://ai.cm.com</span>/mcp</pre>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="mcp-step">
+            <div class="mcp-step-num">2</div>
+            <div class="mcp-step-body">
+                <h6>Follow the browser prompt</h6>
+                <p>Your AI assistant opens your browser and starts the login flow automatically.</p>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="mcp-step">
+            <div class="mcp-step-num">3</div>
+            <div class="mcp-step-body">
+                <h6>Log in with your CM.com account</h6>
+                <p>Once authenticated, your AI assistant is granted access to the MCP server.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<platform-header title-text="MCP Server Documentation"></platform-header>
+
+<script type="text/javascript" src="https://www.cm.com/app/header/js/header.min.js"></script>
+<script>
+    document.querySelectorAll('.mcp-host').forEach(el => el.innerText = location.origin);
+</script>
+</body>
+</html>

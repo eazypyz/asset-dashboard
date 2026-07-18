@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html data-ng-app="app" ng-strict-di update-language>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+    <style>
+        /* This helps the ng-show/ng-hide animations start at the right place. */
+        /* Since Angular has this but needs to load, this gives us the class early. */
+        .ng-hide {
+            display: none!important;
+        }
+        /* 
+          Allow angular.js to be loaded in body, hiding cloaked elements until 
+          templates compile.  The !important is important given that there may be 
+          other selectors that are more specific or come later and might alter display.  
+         */
+        [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+            display: none !important;
+        }
+    </style>
+    <title>ORTEC Workforce Scheduling for Employees</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+
+    <script>
+        // Must be first. IE10 mobile viewport fix
+        if ("-ms-user-select" in document.documentElement.style && navigator.userAgent.match(/IEMobile\/10\.0/)) {
+            var msViewportStyle = document.createElement("style");
+            var mq = "@-ms-viewport{width:auto!important}";
+            msViewportStyle.appendChild(document.createTextNode(mq));
+            document.getElementsByTagName("head")[0].appendChild(msViewportStyle);
+        }
+    </script>
+    <!--Fix for login page icon-->
+    <link rel="preload" href="./minifiedApp/fonts/MaterialIcons-Regular.woff2" as="font">
+
+	<!--Favicon-->
+    <link rel="shortcut icon" href="./minifiedApp/Content/images/favicon.ico" alt=""/>
+	
+    <link href="./minifiedApp/app/all.min.css" rel="stylesheet" />
+    <script src="./minifiedApp/app/oidc-client.min.js"></script>
+</head>
+<body>
+	<div id="loader" class="bol-app-loading">
+        <!-- Inlined css to display spinner asap -->
+        <style type="text/css">
+            div.bol-app-loading div.bol-app-loading-display .bol-spinner {
+                border: 5px solid #000000;
+                -moz-border-radius: 50%;
+                -webkit-border-radius: 50%;
+                border-radius: 50%;
+                border-top: 13px solid #00accd;
+                border-right: 13px solid #8cc63f;
+                border-bottom: 13px solid #f58025;
+                border-left: 13px solid #a41681;
+                width: 165px;
+                height: 165px;
+                display: inline-block;
+                -webkit-animation-name: spin;
+                -webkit-animation-duration: 3000ms;
+                -webkit-animation-iteration-count: infinite;
+                -webkit-transform-origin: 50% 50%;
+                -webkit-animation-timing-function: cubic-bezier(0.3, 0.5, 0.6, 0.2);
+                -moz-animation-name: spin;
+                -moz-animation-duration: 3000ms;
+                -moz-animation-iteration-count: infinite;
+                -moz-transform-origin: 50% 50%;
+                -moz-animation-timing-function: cubic-bezier(0.3, 0.5, 0.6, 0.2);
+                animation-name: spin;
+                animation-duration: 3000ms;
+                animation-iteration-count: infinite;
+                -ms-transform-origin: 50% 50%;
+                transform-origin: 50% 50%;
+                animation-timing-function: cubic-bezier(0.3, 0.5, 0.6, 0.2);
+                box-sizing: content-box;
+            }
+
+            @keyframes spin {
+                0% {
+                    -moz-transform: rotate(0deg);
+                    -ms-transform: rotate(0deg);
+                    -webkit-transform: rotate(0deg);
+                    transform: rotate(0deg);
+                }
+
+                100% {
+                    -moz-transform: rotate(720deg);
+                    -ms-transform: rotate(720deg);
+                    -webkit-transform: rotate(720deg);
+                    transform: rotate(720deg);
+                }
+            }
+
+            div.bol-app-loading {
+                position: fixed;
+                background-color: #efefef;
+                bottom: 0px;
+                left: 0px;
+                opacity: 1.0;
+                right: 0px;
+                top: 0px;
+                z-index: 999999;
+            }
+
+                div.bol-app-loading div.bol-app-loading-display {
+                    left: 0px;
+                    margin-top: -102px;
+                    position: absolute;
+                    right: 0px;
+                    text-align: center;
+                    top: 50%;
+                }
+        </style>
+
+        <div class="bol-app-loading-display">
+            <div class="bol-spinner"></div>
+        </div>
+    </div>
+    <div data-ng-controller="index as vm">
+        <div data-ui-view data-ng-if="$root.hasPermissions || !vm.authentication.isAuth"></div>
+        <div id="splash-page" data-ng-show="false">
+            <div class="page-splash">
+                <div class="progress progress-striped active page-progress-bar">
+                    <div class="bar"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Vendor Scripts -->    
+    <script src="./minifiedApp/app/allVendor.min.js"></script>
+
+	<!-- Bootstrapping -->
+    <script src="./minifiedApp/app/all.min.js"></script>
+
+     <!-- Script used for app insights -->
+    <script src="Scripts/customised/appInsights.js"></script>
+</body>
+</html>

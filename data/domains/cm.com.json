@@ -1,0 +1,6542 @@
+{
+  "domain": "cm.com",
+  "last_update": "2026-07-18T14:39:54.263Z",
+  "stats": {
+    "total": 384,
+    "dns_resolved": 308,
+    "alive": 177,
+    "has_robots": 91,
+    "has_security": 146,
+    "has_sitemap": 76
+  },
+  "subdomains": [
+    {
+      "host": "01.turn.voip.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "01.webrtc.voip.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "02.turn.voip.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "02.webrtc.voip.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "03.turn.voip.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "03.webrtc.voip.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "04.webrtc.voip.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "05.webrtc.voip.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "06.webrtc.voip.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "07.webrtc.voip.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "08.webrtc.voip.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "3cx.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "9c711a3c-4e6a-4aba-8a3d-da086f15910f.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "agentinbox-acc.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "c23dea6aa8e6890b9308bab8e73906139e4a6d22c126d39a8c8b41ae1e778a92",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "ba07de9df0da7dafff5fce8d9181adfe595faa30cc0816969f1d946d40e5c105",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "agentinbox-dev.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 525,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "agentinbox-tst.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 525,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "agentinbox.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "ai.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "08472306826a08722a9a8416f0e2cdebdd742c8e731e947f242846ac80562de2",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "08472306826a08722a9a8416f0e2cdebdd742c8e731e947f242846ac80562de2",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "annualreport.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "annualreview.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "6f02f2ce0ea4453e92c0394c41f3ded6d57fb29bef0ed19597144b1499f52330",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "6f02f2ce0ea4453e92c0394c41f3ded6d57fb29bef0ed19597144b1499f52330",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "api.acceptance.ecr.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "api.cdp.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "api.cdp.kz.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "api.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 401,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "api.conversational.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "api.ecr.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "api.entrance-management.acceptance.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "api.entrance-management.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "api.pages.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "api.pay.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "81cce0655758593f020fa160a3c3c346d86868a1615a942c94d2fb25ab17f3ed",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "api.payhub.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "api.robinhq.kz.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "api.router.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "api.sfof.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "api.ticketing.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "api2.pay.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "apishadow.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 401,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "apps.pay.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 405,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "db011f62cd203bc784de2838ce576677b6800f62750935c7215292f668b19f6b",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "0553f84f18f1c50df5d9da4ba017c632f821cc0d60d47ac3e6ee3ac1df218026",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "arithmetic.botsupport.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "assets.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "efdb5938a9736727f5cce2b60355588e4fa541d19d022d222d8a09b8efd5dcce",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "auth.botsupport.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "auth.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "authorization.ecr.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "autodiscover.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "autodiscover.email.email.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "autodiscover.mx.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "automations.test.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "backoffice.pay.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "backoffice.sandbox.pay.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "backoffice2.pay.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "balance.acceptance.ecr.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "7291eed84673b7d237460124306bd0e8e683638797b8b2d4753eceaa27a6c843",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "7291eed84673b7d237460124306bd0e8e683638797b8b2d4753eceaa27a6c843",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "balance.ecr.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "d70c8dfb03e8b6ccdecaaf2dd1c5ae58ac1b6ada2d0e19d41c572ef56a06d6d6",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "d70c8dfb03e8b6ccdecaaf2dd1c5ae58ac1b6ada2d0e19d41c572ef56a06d6d6",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "beta.pages.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "botsupport.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "business.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "92604bf8a7e5c87bb5bd18ecd273f18e2d717d3b3532b2a990a4caf157b9c8ab",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "63aa0cd5f97fa7de0ab0db6deec5fa57d4a06b39f6a570524a656b2594965477",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "cardprocessing.acc.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "cardprocessing.acc.pay.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "cardprocessing.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "cardprocessing.pay.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "cdn-1.messaging.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "cdn-2.messaging.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "cdn-3.messaging.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "cdn.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "e5b0ced34aa0387b2ffc898873fd0f73deed3e2b30c6163b8713f9c7fc629f05",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "cdp.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "cfsupport.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "c5febf4cd706e7c8ea50c369b9c488d02e5aa58e804c0236e82caa136e327d97",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "201a102fc89f9a710a2a1370eabab8e1c13b2be989b9c6fb382c0ffb235a42a6",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "checkout-acceptance.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "90d24bc3bf698ac1e173739502298ccca72adf1f564fab05f484b8c48d1cadd2",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "checkout.acceptance.pay.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "checkout.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "90d24bc3bf698ac1e173739502298ccca72adf1f564fab05f484b8c48d1cadd2",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "checkout.pay.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "90d24bc3bf698ac1e173739502298ccca72adf1f564fab05f484b8c48d1cadd2",
+      "security_hash": "81cce0655758593f020fa160a3c3c346d86868a1615a942c94d2fb25ab17f3ed",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "cmint.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "fef9ed7183ae611063b2b1a660c76d76dee41a181cc93cdc4e70aa60b4ba217a",
+      "security_hash": "2a90929ea458a6424770e0ecdfbf0a49b90fec1fb014fee3b317a06314cad112",
+      "sitemap_hash": "4211c01aaa57773f246c85860d6c4a0d452bb67e1c6da6583f5d18b98f54f250",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "cmknowledge.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "cms.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "cmtag.live.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "coda.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "codatest.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "conversational.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "3ff0048f3edebfe57ead4ccbb645660094be33f7df63b6f4ee65f631f91c5d35",
+      "security_hash": "ee6496a8ec4b64c1750f73f1fdffd4cf1ad78d7609dd79fab06e8382d58371c2",
+      "sitemap_hash": "ee6496a8ec4b64c1750f73f1fdffd4cf1ad78d7609dd79fab06e8382d58371c2",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "creditmanager.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "crm-ext.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "crm-ext.officeapps.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "crm-int.officeapps.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "crm.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "c5febf4cd706e7c8ea50c369b9c488d02e5aa58e804c0236e82caa136e327d97",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "201a102fc89f9a710a2a1370eabab8e1c13b2be989b9c6fb382c0ffb235a42a6",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "crm.officeapps.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "customer.support.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 202,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "0d2373e573292f1b813271f2d9b06ce2de7981724062481265ead6ad1ee1ee4b",
+      "security_hash": "717894f81698c9f99f97b7ba38553619381173bc07ce17fa9afbd7533c4096e9",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "darktrace.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "dbo.pay.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "dbo.sandbox.pay.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "developers.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "90fd94ae43efdb8894192fb240a36a4ce78d2dfc2bcf091b91f1c0814f39a0ca",
+      "security_hash": "39706d802dfe26140fd454aac3717c67d89e0cd24462e18ab0e02b109ef54437",
+      "sitemap_hash": "39706d802dfe26140fd454aac3717c67d89e0cd24462e18ab0e02b109ef54437",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "disp.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "e153ca7c27fea590971a281fca2b2828.order.ticketing.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "ebms.voip.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "editor.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "email.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "enterpriseenrollment.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 405,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "enterpriseenrollment.mx.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 405,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "enterpriseregistration.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "enterpriseregistration.mx.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "entrance-management.acceptance.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "ba5d431f6d2d4de8d47375f7f2c5fedb91f92b47f1013d691eb84bdeb9d0e7f2",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "ba5d431f6d2d4de8d47375f7f2c5fedb91f92b47f1013d691eb84bdeb9d0e7f2",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "entrance-management.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "887cd7056c5fc3902ad5c501e94f39cea03b7407e09bc83a2045c2c0e3577e45",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "887cd7056c5fc3902ad5c501e94f39cea03b7407e09bc83a2045c2c0e3577e45",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "entrance-scanning-new.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "59504493621afdd79df24f13749abd0d2b2f5edc39abf3a6c79bcd980cabd943",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "59504493621afdd79df24f13749abd0d2b2f5edc39abf3a6c79bcd980cabd943",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "entrance-scanning.acceptance.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "10a4e744971c283221f1e83f0708ffe6f372ad7707764e8dc11af8781ff191d3",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "10a4e744971c283221f1e83f0708ffe6f372ad7707764e8dc11af8781ff191d3",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "entrance-scanning.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "0956a381fe8505249f55fe05586ab4ae1b4c3835efb1bb5111c0c4095a4c7a2b",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "0956a381fe8505249f55fe05586ab4ae1b4c3835efb1bb5111c0c4095a4c7a2b",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "events.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "0dffc2c9327ada3c13f7950369e877258eb64a8c74968930eeacb48bcf71d32b",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "2a0dd451a48de575ce35171662cc9c0deb027587c7441c15c036222d058e104b",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "fps.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "fs.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "gandalf.botsupport.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "gateway.acceptance.pay.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "get.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "globalops.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "c5febf4cd706e7c8ea50c369b9c488d02e5aa58e804c0236e82caa136e327d97",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "201a102fc89f9a710a2a1370eabab8e1c13b2be989b9c6fb382c0ffb235a42a6",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "go.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "go.tickets.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "guest-manager-2.ticketing.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "cca542869655ea32a371cbc8a4ccf5265ec8fa5410d54335420a74c771756583",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "cca542869655ea32a371cbc8a4ccf5265ec8fa5410d54335420a74c771756583",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "gw.messaging.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "gw01.hk.voip.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "gw01.nl.voip.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "gw01.sg.voip.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "gw01.us.voip.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "gw01.za.voip.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "gw02.hk.voip.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "gw02.nl.voip.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "gw02.sg.voip.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "gw02.us.voip.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "gw02.za.voip.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "gw03.nl.voip.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "gw04.nl.voip.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "gw05.nl.voip.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "gw06.nl.voip.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "hk.voip.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "hostedcheckout.sandbox.pay.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "iaasjira.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "c5febf4cd706e7c8ea50c369b9c488d02e5aa58e804c0236e82caa136e327d97",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "201a102fc89f9a710a2a1370eabab8e1c13b2be989b9c6fb382c0ffb235a42a6",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "iaassupport.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "c5febf4cd706e7c8ea50c369b9c488d02e5aa58e804c0236e82caa136e327d97",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "201a102fc89f9a710a2a1370eabab8e1c13b2be989b9c6fb382c0ffb235a42a6",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "id-scan-trial.identity.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "5815be121e796a5835ca96b8a1cd277e057fbb0ffe67ce3d8afc25c3e19e58d8",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "5815be121e796a5835ca96b8a1cd277e057fbb0ffe67ce3d8afc25c3e19e58d8",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "id-scan.identity.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "5815be121e796a5835ca96b8a1cd277e057fbb0ffe67ce3d8afc25c3e19e58d8",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "5815be121e796a5835ca96b8a1cd277e057fbb0ffe67ce3d8afc25c3e19e58d8",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "inbound.nl.voip.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "inbound.sg.voip.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "inbound.us.voip.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "inspires.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "ip1.emailcampaigns.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "ip10.emailcampaigns.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "ip11.emailcampaigns.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "ip12.emailcampaigns.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "ip13.emailcampaigns.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "ip14.emailcampaigns.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "ip15.emailcampaigns.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "ip16.emailcampaigns.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "ip17.emailcampaigns.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "ip18.emailcampaigns.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "ip19.emailcampaigns.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "ip2.emailcampaigns.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "ip20.emailcampaigns.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "ip21.emailcampaigns.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "ip22.emailcampaigns.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "ip3.emailcampaigns.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "ip4.emailcampaigns.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "ip5.emailcampaigns.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "ip6.emailcampaigns.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "ip7.emailcampaigns.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "ip8.emailcampaigns.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "ip9.emailcampaigns.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "itoperationsjira.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 202,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "c5febf4cd706e7c8ea50c369b9c488d02e5aa58e804c0236e82caa136e327d97",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "201a102fc89f9a710a2a1370eabab8e1c13b2be989b9c6fb382c0ffb235a42a6",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "itoperationssupport.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "c5febf4cd706e7c8ea50c369b9c488d02e5aa58e804c0236e82caa136e327d97",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "itoperationswiki.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 202,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "c5febf4cd706e7c8ea50c369b9c488d02e5aa58e804c0236e82caa136e327d97",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "201a102fc89f9a710a2a1370eabab8e1c13b2be989b9c6fb382c0ffb235a42a6",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "itopsjira.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 202,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "c5febf4cd706e7c8ea50c369b9c488d02e5aa58e804c0236e82caa136e327d97",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "201a102fc89f9a710a2a1370eabab8e1c13b2be989b9c6fb382c0ffb235a42a6",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "itopssupport.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "c5febf4cd706e7c8ea50c369b9c488d02e5aa58e804c0236e82caa136e327d97",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "201a102fc89f9a710a2a1370eabab8e1c13b2be989b9c6fb382c0ffb235a42a6",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "itopswiki.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 202,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "c5febf4cd706e7c8ea50c369b9c488d02e5aa58e804c0236e82caa136e327d97",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "201a102fc89f9a710a2a1370eabab8e1c13b2be989b9c6fb382c0ffb235a42a6",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "itsupport.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "c5febf4cd706e7c8ea50c369b9c488d02e5aa58e804c0236e82caa136e327d97",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "201a102fc89f9a710a2a1370eabab8e1c13b2be989b9c6fb382c0ffb235a42a6",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "jobs.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "kiosk.acceptance.ecr.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "43e27a3b1d11bc19c2f8553e1b90144335fc779ae4e1479371a41289caa2a6d6",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "43e27a3b1d11bc19c2f8553e1b90144335fc779ae4e1479371a41289caa2a6d6",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "kiosk.ecr.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "dc63accee9e5867082c8c8ef7af30eff87d206a001e817bb133ed616902e27af",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "dc63accee9e5867082c8c8ef7af30eff87d206a001e817bb133ed616902e27af",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "kitchen-display.acceptance.ecr.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "6a8d58caf37a29bec8736416eed80196887508054bfec4214ae9e129cf96d26f",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "6a8d58caf37a29bec8736416eed80196887508054bfec4214ae9e129cf96d26f",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "kitchen-display.ecr.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "4afdaa3e10dfd0e07788c646300843c8e37b25688f86cb0c9ebe31b4b7f8b4a5",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "4afdaa3e10dfd0e07788c646300843c8e37b25688f86cb0c9ebe31b4b7f8b4a5",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "knowledgecenter.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "e4286c7db6b2d37843c5e3008cef48cafb8342881ef0c44a4d0b82be1927539a",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "f226e2625e87ba7ad189f94cf4713e474abb7bf2a48a33514bb7fbf3c22b94b7",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "kz.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "learn.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "bc87881fe7cf8cb23244e5ce8285ad69b8347f812a036b5bd0cd4c8fb36adbaf",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "bc87881fe7cf8cb23244e5ce8285ad69b8347f812a036b5bd0cd4c8fb36adbaf",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "links.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 405,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "links.ticketing.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "localhost.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "login.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 405,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "login2.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "lp3tplyrudxhsbppj4.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "lyncdiscover.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "lyncdiscover.mx.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "mail-146-224.email.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "mail-146-248.email.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "mail-146-29.email.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "maintenance.ticketing.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "c49cff78ef2184b65f0881e0c0fb23d82d11f6f482b72b2f302af1f38c535700",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "c49cff78ef2184b65f0881e0c0fb23d82d11f6f482b72b2f302af1f38c535700",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "management.acceptance.ecr.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "27db1940ed7c7c8aa8928e6a75fd022e9bafe317781bcebcd8f4bc16f1a0fadc",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "27db1940ed7c7c8aa8928e6a75fd022e9bafe317781bcebcd8f4bc16f1a0fadc",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "management.ecr.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "716c2019510c4312f3b1993fda9ecaecc6bdbe0b34afa472a4aac14658368159",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "716c2019510c4312f3b1993fda9ecaecc6bdbe0b34afa472a4aac14658368159",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "mmc.cdn.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "mmc.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "mobile-order.acceptance.ecr.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "a579c4f9e5b8f9597c7dea737dc2567a60b2e81a63e34f700c42a9c349397ac3",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "a579c4f9e5b8f9597c7dea737dc2567a60b2e81a63e34f700c42a9c349397ac3",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "mobile-order.ecr.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "17aa4a291988fb36ac07c33b397dd210708e9e66ce2808d958e9bfd62c5d0d85",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "17aa4a291988fb36ac07c33b397dd210708e9e66ce2808d958e9bfd62c5d0d85",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "museum-demo.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "03a718d7888ad7334cc7c0494ccb04589101839e8ca9becbe489eacb7db9b490",
+      "security_hash": "b6703c946e2d641f5d13a5a8c87a58c1b9df93fb34fc71a93463e127dcadac2d",
+      "sitemap_hash": "ea80dd45bc3d85fe30a6143bd6c528bccd942c1dbb68b6d8046d80928e9c40ff",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "mx.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "mx.email.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "mx.emailcampaigns.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "mx1.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "mx10-out.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "mx10.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "mx11-out.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "mx11.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "mx12-out.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "mx12.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "mx2.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "mx3.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "mx4.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "mx5.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "mx6.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "mx7.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "mx8.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "mx9.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "my.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "0c0e1d3bc28de33a9359699f4591c11cd84b7f5097583f33be5b887eccd55b65",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "my.test.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "31589c9679d123105a586c724834abd6274736726fc3bf1b06dd32fbfe412ef3",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "my.tickets.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "331ea9090db0c9f6f597bd9840fd5b171830f6e0b3ba1cb24dfa91f0c95aedc1",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "f23e1064caf3f77b46dea31a5a785606f22e19271fb6b6e2b0afd2fdf545e372",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "net3ds-sim.sandbox.pay.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "net3ds-sim.sandbox.payments.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "nl.stun.voip.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "nl.turn.voip.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "nl.voip.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "ns1.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "ns2.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "ns3.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "o10.sg.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "o11.sg.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "o12.sg.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "office-api.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "oktopost.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "order.ticketing.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "331ea9090db0c9f6f597bd9840fd5b171830f6e0b3ba1cb24dfa91f0c95aedc1",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "ourproposal.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "paasjira.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 202,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "c5febf4cd706e7c8ea50c369b9c488d02e5aa58e804c0236e82caa136e327d97",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "201a102fc89f9a710a2a1370eabab8e1c13b2be989b9c6fb382c0ffb235a42a6",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "paassupport.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "c5febf4cd706e7c8ea50c369b9c488d02e5aa58e804c0236e82caa136e327d97",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "201a102fc89f9a710a2a1370eabab8e1c13b2be989b9c6fb382c0ffb235a42a6",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "paaswiki.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 202,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "c5febf4cd706e7c8ea50c369b9c488d02e5aa58e804c0236e82caa136e327d97",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "201a102fc89f9a710a2a1370eabab8e1c13b2be989b9c6fb382c0ffb235a42a6",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "pages.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "partners.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "pay-acceptance.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "pay.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "payhub.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 405,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "payplaza.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "paysftp.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "paysftp.test.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "pin-terminal-api.acceptance.ecr.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "pin-terminal-api.ecr.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "piwik.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "f711cc35ab752b2be2173cd9562ba4453a03ae812b6c8441fed952468df3ec04",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "7357129fad21909104bdeb372df8ecfdbe5d07c13b3136cefe4f00f193ef52fd",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "pki-office.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "pki001.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "pos.acceptance.ecr.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "6e26f74f5e67c29c7fa46e5793e534f524789e51af15002fdeb107e0333e87a1",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "6e26f74f5e67c29c7fa46e5793e534f524789e51af15002fdeb107e0333e87a1",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "pos.ecr.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "d4964afccaef881adc383cec449f6de554bed6fe68c77d2a89dae4c02d550069",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "d4964afccaef881adc383cec449f6de554bed6fe68c77d2a89dae4c02d550069",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "preview.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "proquro.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 401,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "2ed2695fae03f7926dd31fb84ec52299fadd3b9afb43d8cb37030c2dc4d28e91",
+      "security_hash": "74a7217b3d4670fe490565b9ec5e2d36954f82e3d0b08f7786873eec340b8433",
+      "sitemap_hash": "87bd8767d9f1ad643b37212fe544e0df4e4050c4d7e7ac996291a9e4c97dff0b",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "proqurotest.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "qi.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "queue-api.ticketing.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "queue.ticketing.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "r-sbc.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "r01.nl.voip.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "r01.sg.voip.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "r01.us.voip.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "r02.nl.voip.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "r02.sg.voip.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "r02.us.voip.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "r03.nl.voip.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "r03.sg.voip.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "r03.us.voip.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "r04.nl.voip.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "r05.nl.voip.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "r06.nl.voip.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "rdgw.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "rdsgateway.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "receipt.acceptance.ecr.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "56bfaf801f3ef85bff6124278454daecad777a81887425ffd3ce1e1d54c2ea57",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "56bfaf801f3ef85bff6124278454daecad777a81887425ffd3ce1e1d54c2ea57",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "receipt.ecr.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "7807718d75755959c515df11a30f1084ca57f639a6e6434a5956101d97aae110",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "7807718d75755959c515df11a30f1084ca57f639a6e6434a5956101d97aae110",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "redirect.acceptance.pay.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "redirect.pay.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "81cce0655758593f020fa160a3c3c346d86868a1615a942c94d2fb25ab17f3ed",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "releasenotes.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "2552965c1201ad8d2840f87b0fbb3380301b0a2074eef613965a79c38800fb68",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "d3e6d215f7af2fa81b07991a12e67df7f79587b3c948239164e8257b38ae7d06",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "reports.pay.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "resale.ticketing.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "7498ab84f7a158385733f87f419ed589536a4d87680a36329472261ba20b330d",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "4354121878333e8e62bae9eee3d3814a61583869637db3b581d842a092c627f1",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "resend.ticketing.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "16ceb5ee3e0dc13aa9adf31a3ebbe45a1d965b8c2b9f72eaf84e5911e140ed95",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "824888dcedfb9d49092ea52f34c0cefc8b505e59147a897f5b98dcbc7debacdc",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "reserve.ticketing.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "revenueoperations.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "c5febf4cd706e7c8ea50c369b9c488d02e5aa58e804c0236e82caa136e327d97",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "201a102fc89f9a710a2a1370eabab8e1c13b2be989b9c6fb382c0ffb235a42a6",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "riverty.acceptance.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "riverty.acceptance.pay.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "riverty.pay.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "router.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "safezone.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "sales.ticketing.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "283cdba10a62c0fbe78eba21ff65868efd3173f09b7ae7951d02534c02d8e7fb",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "9379186d6810664c3587fa6b85c731fec0c3c9717a86e4adea6f43dee1792716",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "salesoperations.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "c5febf4cd706e7c8ea50c369b9c488d02e5aa58e804c0236e82caa136e327d97",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "201a102fc89f9a710a2a1370eabab8e1c13b2be989b9c6fb382c0ffb235a42a6",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "sandbox.pay.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "sbc.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "schedule.ticketing.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "secinfoexch.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "secondary.ticketing.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "secure.pay.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "secure.sanbox.pay.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "secure.sandbox.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "secure.sandbox.pay.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "secure2.pay.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "securitysupport.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "8ab44b085f7d4b493677970a48267c522ae60613f4eda9309d03e20c88072500",
+      "security_hash": "14527d18e32e84b50286879d1da1d2026dbdf7a550cbdbb447a641a9ea1e6a52",
+      "sitemap_hash": "e63b243f009f996decf98387721c9600c45b9fcc1d87679e679f15919655d921",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "server.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "servicecloud-acc.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "servicecloud.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "services.pay.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "services.sandbox.pay.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "services2.pay.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "settings-auth.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 503,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "sg.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "sg.voip.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "sgp-gw.messaging.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "shadow.api.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 401,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "shadow.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "shadow.www.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "c5febf4cd706e7c8ea50c369b9c488d02e5aa58e804c0236e82caa136e327d97",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "201a102fc89f9a710a2a1370eabab8e1c13b2be989b9c6fb382c0ffb235a42a6",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "share.ticketing.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "0f230582d72fef1d9a0eee00314e25c5b163e2406fd87cdba17eefeb578041b5",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "c07eb209b4830ed94778513b57e95d4ac7ed9972401607ca7073678d89ecaa86",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "shop.live.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "shop.ticketing.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "64a8fe77ce9f3a01405f383b6de9f923c7e7f9bc585c5654c5480d73c914ca95",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "64a8fe77ce9f3a01405f383b6de9f923c7e7f9bc585c5654c5480d73c914ca95",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "shop.tickets.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "2a28f1e7e47038f2cc85f55346d96b755540f473ee643d7e4368ee2b4317b6bb",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "2a28f1e7e47038f2cc85f55346d96b755540f473ee643d7e4368ee2b4317b6bb",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "sip.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "sip.mx.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "smpp.messaging.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "smpp178.messaging.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "smpp179.messaging.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "smpp180.messaging.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "smpp181.messaging.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "smpp182.messaging.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "smpp183.messaging.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "smpp184.messaging.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "smpp185.messaging.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "smpp186.messaging.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "smpp187.messaging.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "smpp188.messaging.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "smpp189.messaging.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "smpp190.messaging.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "smpp191.messaging.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "smpp192.messaging.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "smpp193.messaging.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "smpp201.messaging.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "smpp202.messaging.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "smpp203.messaging.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "smpp204.messaging.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "smpp208.messaging.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "smpp_gw.messaging.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "smpp_sgw.messaging.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "smtp02.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "smtp12.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "smtp22.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "solutiontest.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 418,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "sso.pay.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "efdb5938a9736727f5cce2b60355588e4fa541d19d022d222d8a09b8efd5dcce",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "sso.sandbox.pay.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "efdb5938a9736727f5cce2b60355588e4fa541d19d022d222d8a09b8efd5dcce",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "sso2.pay.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "ssr-sales.ticketing.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "static.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "e5b0ced34aa0387b2ffc898873fd0f73deed3e2b30c6163b8713f9c7fc629f05",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "status.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "5a0024467fe2c0539394b9fff28b0c20a7998f79f2eabd656a276f27c39e1aba",
+      "security_hash": "717894f81698c9f99f97b7ba38553619381173bc07ce17fa9afbd7533c4096e9",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "store.ticketing.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "c6871091d89beaa63413f81a339efee3b4fe1169e6a6921a0cb8813cfa47ccff",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "e1b54d54f6507ea4f25ba1498868e949a4030e8aaec9591f96e1c82b0f77e07c",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "support.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "86f3a0f3dcf1ba99ffd07bf0cf6abf17e58c43478a39d7b3163db4b644027cd4",
+      "security_hash": "d05776e54c64aac75e1a226125f2e13e8fe243a3763723a5e339952e046ca3f4",
+      "sitemap_hash": "8fda4573efed2d0b0be397151ada8a8c9aaa779bb6db96978061ffc367063c69",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "support.ticketing.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "9db37a628ae8b84e7e326d6d502f651a7d4dc1cc544cbd8ef89f2db69f5a75ce",
+      "security_hash": "9db37a628ae8b84e7e326d6d502f651a7d4dc1cc544cbd8ef89f2db69f5a75ce",
+      "sitemap_hash": "9db37a628ae8b84e7e326d6d502f651a7d4dc1cc544cbd8ef89f2db69f5a75ce",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "tables.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "8ceca07641ef2182e76c553228b5c4796fd49fd042b247f91d09ee9abbd85075",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "teams-sbc.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "teams.voip.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "ticket-support-go-en.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": true,
+      "robots_hash": "959b51148b5129b269014cea738128fbf9b0382c4af53bedc10e70b6e6d0977e",
+      "security_hash": "",
+      "sitemap_hash": "dd26cb2cc1eed6cb16fd33783ac5043b7b96b299e33082d1904e3671f8610802",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "ticket-support-go-nl.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": true,
+      "robots_hash": "f3a47db0fa7462ea537fedd823dc2b5326521ad4c144816391d66d31aeb3ba76",
+      "security_hash": "",
+      "sitemap_hash": "82306df962b6f7bb6f9f5c6797671deb0ce247cbf1062e0856b4ab4437b5bc26",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "ticket-support-pro-de.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": true,
+      "robots_hash": "860d299e878be4b10a085b625a805176082d17cf4ffd76e74a84685297ed32c1",
+      "security_hash": "",
+      "sitemap_hash": "c04dc4443ee0fd736da024e3bde09b2e2879afc33b7f721f8e2f80b94bd426e7",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "ticket-support-pro-en.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": true,
+      "robots_hash": "3bd44d7b75251324c29d1ad9e84eabc9e15c9285d27a7519e55a588a38aa14b2",
+      "security_hash": "",
+      "sitemap_hash": "4c5e1fb74dd81db491f337734791140a11845f95eee2428460dcbdc68341298d",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "ticket-support-pro-es.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": true,
+      "robots_hash": "9127ea02accdf6c06aea4844ecedf837786fd5d84afd0fb296e62f47a82b54a2",
+      "security_hash": "",
+      "sitemap_hash": "6097aa17218f8aca338c54a1baf3704cfcf8656070fc904124767680bd52d4ae",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "ticket-support-pro-fr.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": true,
+      "robots_hash": "e0a3f60b3d442ec626e190083298e305e0da643ec59c76d13deba398b7389f22",
+      "security_hash": "",
+      "sitemap_hash": "52c3f5559d93e0486aafa5218093efd7170718ff69588632c3f4bae34fbb65e1",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "ticket-support-pro-nl.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": true,
+      "robots_hash": "089f3828fa7560e8feb06751c44b7b61d423b09df13df96fa2728d7203a365eb",
+      "security_hash": "",
+      "sitemap_hash": "309597a031d80fb6a97890e1c77f40c45db26377b3a95e0cac5bdc27b446b377",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "tickets-museum-demo.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "50078983104d1524aac2c28450f18c4fbb744034e4c0e612857706702bdfa2d8",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "ticketsupport.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "tma-assets.pay.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "tma-assets2.pay.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "tmi-simulator.sandbox.pay.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 503,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "togetherweek.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "tools.cdp.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "0a8a58bd6582aa27a367bef2a96275089ac4ecd1f3bd4c4db233b38c20690ee5",
+      "security_hash": "39d9d7b5ffe566e35dc60b612ca616b080f8343d15b2888e86963ee9ce2996f4",
+      "sitemap_hash": "35502576755196e18529637aecc8e94b3c50d1592d715d7aa213a950eec8b4c1",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "two.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "update.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "us.voip.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "verify.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "vpn.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "vts-16000-acc.pay.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "wa.nl.voip.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "web2app.pay.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 400,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "webmail.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "webmail2.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "webrtcgw01.nl.voip.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "webrtcgw02.nl.voip.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "webrtcgw03.nl.voip.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "workday.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "c5febf4cd706e7c8ea50c369b9c488d02e5aa58e804c0236e82caa136e327d97",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "201a102fc89f9a710a2a1370eabab8e1c13b2be989b9c6fb382c0ffb235a42a6",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "www.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "c5febf4cd706e7c8ea50c369b9c488d02e5aa58e804c0236e82caa136e327d97",
+      "security_hash": "568f94981b63ce0bf4596c71dd67719030169124d562624ffa7a6675b53d001a",
+      "sitemap_hash": "201a102fc89f9a710a2a1370eabab8e1c13b2be989b9c6fb382c0ffb235a42a6",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    },
+    {
+      "host": "za.voip.cm.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:39:54.072Z",
+      "last_seen": "2026-07-18T14:39:54.072Z"
+    }
+  ]
+}

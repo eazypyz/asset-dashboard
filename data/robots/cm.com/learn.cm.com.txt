@@ -1,0 +1,371 @@
+<!-- <!DOCTYPE html> --><html data-beasties-container=""><!--  ******************** DOCEBO LIBRARIES ********************  -->
+<!--  **                                                      **  -->
+<!--  **  Docebo UI: v1.149.0                                 **  -->
+<!--  **  Docebo Format: v2.0.0                               **  -->
+<!--  **  Docebo Training Elements: v2.0.0                    **  -->
+<!--  **  Elemental Icons: v2.0.1                             **  -->
+<!--  **  Elemental Illustrations: v2.0.1                     **  -->
+<!--  **  Elemental Common: v2.0.1                            **  -->
+<!--  **  Elemental UI: v2.0.1                                **  -->
+<!--  **  Docebo Course Player: v2.4.3                        **  -->
+<!--  **  Docebo Shared: v2.0.0                               **  -->
+<!--  **  Docebo Common Elements: v2.0.0                      **  -->
+<!--  **  Docebo MFE DI Tokens: v2.2.0                        **  -->
+<!--  **  Translation: 2026.27.1                              **  -->
+<!--  **                                                      **  -->
+<!--  **********************************************************  -->
+<head>
+        <title>Loading</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <base href="/">
+        <script id="init-script" src="https://cdn2.dcbstatic.com/public/static-content/init.js" integrity="sha384-rGk7tUdEl89x7PdqBzwGix93oroiypSKEEkPdACR6qtlWrgr6jG++ubhVDCN6Btz" crossorigin="anonymous"></script>
+        <style id="loading-learning-experience-style">
+            body {
+                background-color: var(--ui-color-dialog-background-neutral);
+            }
+
+            .doc-layout-loading-learning-experience {
+                position: fixed;
+                height: 100vh;
+                width: 100vw;
+                top: 0;
+                left: 0;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                font-family: 'Open Sans', sans-serif;
+                opacity: 0;
+                transition: opacity 0.5s linear;
+                animation: loading-learning-experience-fade-in 0.5s linear 0.5s forwards;
+            }
+
+            .doc-layout-loading-learning-experience.doc-layout-loading-learning-experience-invisible {
+                animation: loading-learning-experience-fade-out 0.5s linear forwards;
+            }
+
+            .loading-learning-experience-spinner {
+                margin-bottom: 8px;
+            }
+
+            .hyd-spinner-container {
+                display: inline-block;
+            }
+
+            .hyd-spinner-container,
+            .hyd-spinner-container .hyd-spinner {
+                width: 2rem;
+                height: 2rem;
+            }
+
+            .hyd-spinner-container .hyd-spinner-circle {
+                border-width: 0.13rem;
+            }
+
+            .hyd-spinner-container .hyd-spinner-layer {
+                border-color: rgba(4, 101, 172, 1);
+            }
+
+            .hyd-spinner-container .hyd-spinner {
+                display: inline-block;
+                position: relative;
+                animation: hyd-spinner-container-rotate 1.5s linear infinite;
+            }
+
+            .hyd-spinner-container .hyd-spinner-layer {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                opacity: 0;
+            }
+
+            .hyd-spinner-container .hyd-spinner-layer:nth-child(1) {
+                animation:
+                    hyd-spinner-fill-unfill-rotate 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both,
+                    hyd-spinner-layer-1-fade-in-out 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
+            }
+
+            .hyd-spinner-container .hyd-spinner-layer:nth-child(2) {
+                animation:
+                    hyd-spinner-fill-unfill-rotate 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both,
+                    hyd-spinner-layer-2-fade-in-out 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
+            }
+
+            .hyd-spinner-container .hyd-spinner-layer:nth-child(3) {
+                animation:
+                    hyd-spinner-fill-unfill-rotate 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both,
+                    hyd-spinner-layer-3-fade-in-out 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
+            }
+
+            .hyd-spinner-container .hyd-spinner-layer:nth-child(4) {
+                animation:
+                    hyd-spinner-fill-unfill-rotate 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both,
+                    hyd-spinner-layer-4-fade-in-out 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
+            }
+
+            .hyd-spinner-container .hyd-spinner-gap-patch {
+                position: absolute;
+                box-sizing: border-box;
+                top: 0;
+                left: 45%;
+                width: 10%;
+                height: 100%;
+                overflow: hidden;
+                border-color: inherit;
+            }
+
+            .hyd-spinner-container .hyd-spinner-gap-patch .hyd-spinner-circle {
+                width: 1000%;
+                left: -450%;
+            }
+
+            .hyd-spinner-container .hyd-spinner-circle-clipper {
+                display: inline-block;
+                position: relative;
+                width: 50%;
+                height: 100%;
+                overflow: hidden;
+                border-color: inherit;
+            }
+
+            .hyd-spinner-container .hyd-spinner-circle-clipper.hyd-spinner-left {
+                float: left;
+            }
+
+            .hyd-spinner-container .hyd-spinner-circle-clipper.hyd-spinner-left .hyd-spinner-circle {
+                border-right-color: transparent !important;
+                transform: rotate(129deg);
+                animation: hyd-spinner-left-spin 1333ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
+            }
+
+            .hyd-spinner-container .hyd-spinner-circle-clipper.hyd-spinner-right {
+                float: right;
+            }
+
+            .hyd-spinner-container .hyd-spinner-circle-clipper.hyd-spinner-right .hyd-spinner-circle {
+                left: -100%;
+                border-left-color: transparent !important;
+                transform: rotate(-129deg);
+                animation: hyd-spinner-right-spin 1333ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
+            }
+
+            .hyd-spinner-container .hyd-spinner-circle-clipper .hyd-spinner-circle {
+                width: 200%;
+            }
+
+            .hyd-spinner-container .hyd-spinner-circle {
+                box-sizing: border-box;
+                height: 100%;
+                border-style: solid;
+                border-color: inherit;
+                border-bottom-color: transparent !important;
+                border-radius: 50%;
+                animation: none;
+                position: absolute;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+            }
+
+            @keyframes loading-learning-experience-fade-in {
+                0% {
+                    opacity: 0;
+                }
+                100% {
+                    opacity: 1;
+                }
+            }
+
+            @keyframes loading-learning-experience-fade-out {
+                0% {
+                    opacity: 1;
+                }
+                100% {
+                    opacity: 0;
+                }
+            }
+
+            @keyframes hyd-spinner-left-spin {
+                from {
+                    transform: rotate(130deg);
+                }
+                50% {
+                    transform: rotate(-5deg);
+                }
+                to {
+                    transform: rotate(130deg);
+                }
+            }
+
+            @keyframes hyd-spinner-right-spin {
+                from {
+                    transform: rotate(-130deg);
+                }
+                50% {
+                    transform: rotate(5deg);
+                }
+                to {
+                    transform: rotate(-130deg);
+                }
+            }
+
+            @keyframes hyd-spinner-container-rotate {
+                to {
+                    transform: rotate(360deg);
+                }
+            }
+
+            @keyframes hyd-spinner-fill-unfill-rotate {
+                12.5% {
+                    transform: rotate(135deg);
+                }
+                25% {
+                    transform: rotate(270deg);
+                }
+                37.5% {
+                    transform: rotate(405deg);
+                }
+                50% {
+                    transform: rotate(540deg);
+                }
+                62.5% {
+                    transform: rotate(675deg);
+                }
+                75% {
+                    transform: rotate(810deg);
+                }
+                87.5% {
+                    transform: rotate(945deg);
+                }
+                to {
+                    transform: rotate(1080deg);
+                }
+            }
+
+            @keyframes hyd-spinner-layer-1-fade-in-out {
+                from {
+                    opacity: 0.99;
+                }
+                25% {
+                    opacity: 0.99;
+                }
+                26% {
+                    opacity: 0;
+                }
+                89% {
+                    opacity: 0;
+                }
+                90% {
+                    opacity: 0.99;
+                }
+                100% {
+                    opacity: 0.99;
+                }
+            }
+
+            @keyframes hyd-spinner-layer-2-fade-in-out {
+                from {
+                    opacity: 0;
+                }
+                15% {
+                    opacity: 0;
+                }
+                25% {
+                    opacity: 0.99;
+                }
+                50% {
+                    opacity: 0.99;
+                }
+                51% {
+                    opacity: 0;
+                }
+            }
+
+            @keyframes hyd-spinner-layer-3-fade-in-out {
+                from {
+                    opacity: 0;
+                }
+                40% {
+                    opacity: 0;
+                }
+                50% {
+                    opacity: 0.99;
+                }
+                75% {
+                    opacity: 0.99;
+                }
+                76% {
+                    opacity: 0;
+                }
+            }
+
+            @keyframes hyd-spinner-layer-4-fade-in-out {
+                from {
+                    opacity: 0;
+                }
+                65% {
+                    opacity: 0;
+                }
+                75% {
+                    opacity: 0.99;
+                }
+                90% {
+                    opacity: 0.99;
+                }
+                100% {
+                    opacity: 0;
+                }
+            }
+        </style>
+    <link rel="stylesheet" href="https://cdn2.dcbstatic.com/styles.62c0026207a2e579.css" crossorigin="anonymous" integrity="sha384-ayAZbN8oMYu8RXASafXSGxekwe6HU/JNrzKUc62cAlGrCtgw3AuHx8Bdo7SSCxsg"></head>
+    <body class="quirks-mode" tabindex="-1">
+        <div id="doc-layout-loading-learning-experience" class="doc-layout-loading-learning-experience">
+            <div class="loading-learning-experience-spinner hyd-spinner-container">
+                <div class="hyd-spinner" dir="ltr">
+                    <div class="hyd-spinner-layer">
+                        <div class="hyd-spinner-circle-clipper hyd-spinner-left">
+                            <div class="hyd-spinner-circle"></div>
+                        </div>
+                        <div class="hyd-spinner-gap-patch"><div class="hyd-spinner-circle"></div></div>
+                        <div class="hyd-spinner-circle-clipper hyd-spinner-right">
+                            <div class="hyd-spinner-circle"></div>
+                        </div>
+                    </div>
+                    <div class="hyd-spinner-layer">
+                        <div class="hyd-spinner-circle-clipper hyd-spinner-left">
+                            <div class="hyd-spinner-circle"></div>
+                        </div>
+                        <div class="hyd-spinner-gap-patch"><div class="hyd-spinner-circle"></div></div>
+                        <div class="hyd-spinner-circle-clipper hyd-spinner-right">
+                            <div class="hyd-spinner-circle"></div>
+                        </div>
+                    </div>
+                    <div class="hyd-spinner-layer">
+                        <div class="hyd-spinner-circle-clipper hyd-spinner-left">
+                            <div class="hyd-spinner-circle"></div>
+                        </div>
+                        <div class="hyd-spinner-gap-patch"><div class="hyd-spinner-circle"></div></div>
+                        <div class="hyd-spinner-circle-clipper hyd-spinner-right">
+                            <div class="hyd-spinner-circle"></div>
+                        </div>
+                    </div>
+                    <div class="hyd-spinner-layer">
+                        <div class="hyd-spinner-circle-clipper hyd-spinner-left">
+                            <div class="hyd-spinner-circle"></div>
+                        </div>
+                        <div class="hyd-spinner-gap-patch"><div class="hyd-spinner-circle"></div></div>
+                        <div class="hyd-spinner-circle-clipper hyd-spinner-right">
+                            <div class="hyd-spinner-circle"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div her-root=""></div>
+    <script src="https://cdn2.dcbstatic.com/polyfills.e83f136e486976d6.js" type="module" crossorigin="anonymous" integrity="sha384-uvGdY2UVtoaVSW1sLQckaUCVLqOORPonxgqZJVMycpm53ZkblMJsNW1D9XaFJo4I"></script><script src="https://cdn2.dcbstatic.com/scripts.f4d75a8287dca065.js" defer="" crossorigin="anonymous" integrity="sha384-Hxynhnb9fUFRP3YAdgeNNkQQjuj9bV9gSm9dsrZ/pF9KJCbISILypvyedBuMcn8C"></script><script src="https://cdn2.dcbstatic.com/main.c359db4cf1a79558.js" type="module" crossorigin="anonymous" integrity="sha384-DaL5ljZG91HhPthczZABWjs+y55d7E2n7c5IIKwreupEAOIIyCizKq0q17GLrtlV"></script>
+
+</body></html>

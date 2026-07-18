@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en" translate="no" class="notranslate">
+<head>
+  <meta charset="utf-8">
+  <title>Register</title>
+  <base href="/account/">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- inline spinner styles to be able to display spinner right away -->
+    <style type="text/css">
+        body, html {
+            height: 100%;
+        }
+
+        .m-app-loading {
+            position: relative;
+            height: 100%;
+        }
+
+        .m-app-loading__logo {
+            font-size: 24px;
+            z-index: 1;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+
+            transform: translate(-50%, -50%);
+        }
+
+        .m-app-loading__spinner {
+            height: 200px;
+            width: 200px;
+            margin-left: -100px;
+            margin-top: -100px;
+            animation: rotate 2s linear infinite;
+            transform-origin: center center;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+        }
+
+        .m-app-loading__path {
+            stroke-dasharray: 1, 200;
+            stroke-dashoffset: 0;
+            animation: dash 1.5s ease-in-out infinite;
+            stroke-linecap: round;
+            stroke: #ddd;
+        }
+
+        @keyframes rotate {
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        @keyframes dash {
+            0% {
+                stroke-dasharray: 1, 200;
+                stroke-dashoffset: 0;
+            }
+            50% {
+                stroke-dasharray: 89, 200;
+                stroke-dashoffset: -35px;
+            }
+            100% {
+                stroke-dasharray: 89, 200;
+                stroke-dashoffset: -124px;
+            }
+        }
+    </style>
+<link rel="stylesheet" href="styles.644b3abab9f54439275d.css"></head>
+<body>
+  <app-root>
+      <!-- loading layout replaced by app after startup -->
+      <div class="m-app-loading">
+          <div class="m-app-loading__logo">Register</div>
+          <svg class="m-app-loading__spinner" viewBox="25 25 50 50">
+              <circle class="m-app-loading__path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10"></circle>
+          </svg>
+      </div>
+  </app-root>
+<script src="runtime.88481a3aaccae338e717.js" defer></script><script src="polyfills-es5.89e128c089744d801ff8.js" nomodule defer></script><script src="polyfills.6ae388f7179e9bbc3c21.js" defer></script><script src="main.fa5d8b3f634afed0fe58.js" defer></script></body>
+</html>

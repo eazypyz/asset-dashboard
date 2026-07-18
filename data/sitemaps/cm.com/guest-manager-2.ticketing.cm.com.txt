@@ -1,0 +1,547 @@
+
+    <!doctype html>
+    <html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="none">
+
+        <meta name="htmx-config" content='{"historyCacheSize": 0}'>
+
+        <title>Guest Manager - CM.com</title>
+        
+            <base href="https://guest-manager-2.ticketing.cm.com/">
+        
+
+        
+            <link href="https://www.cm.com/app/aurora/css/v2/aurora.css" rel="stylesheet"/>
+        
+
+        <link href="https://cdn.cm.com/cm/favicon-32x32.png" rel="icon">
+        <link href="https://cdn.cm.com/cm/apple-touch-icon.png" rel="apple-touch-icon">
+
+        <script src="https://unpkg.com/htmx.org@2.0.4"
+                integrity="sha384-HGfztofotfshcF7+8n44JQL2oJmowVChPTg48S+jvZoztPfvwD79OC/LTtG6dMp+"
+                crossorigin="anonymous"></script>
+
+        <script src="https://unpkg.com/htmx-ext-path-params@2.0.0/path-params.js"></script>
+
+        <style>
+            :root {
+                --header-height: 76px;
+            }
+
+            .page-header {
+                margin-bottom: 32px;
+            }
+
+            .template {
+                display: grid;
+                gap: 1rem;
+
+                @media (min-width: 768px) {
+                    &.two-cols {
+                        grid-template-columns: 1fr 1fr;
+                    }
+
+                    &.three-cols {
+                        grid-template-columns: 1fr 1fr 1fr;
+                    }
+
+                    &.four-cols {
+                        grid-template-columns: 1fr 1fr 1fr 1fr;
+                    }
+
+                    &.sidebar-right {
+                        grid-template-columns: 1fr 320px;
+                    }
+                }
+
+                &.sidebar-left {
+                    grid-template-columns: 320px 1fr;
+                }
+            }
+
+            cm-table-row[hx-get], .list-group-content[hx-get] {
+                cursor: pointer;
+            }
+
+            cm-table + cm-pagination, .list-group + cm-pagination {
+                display: block;
+                margin-block-start: 1rem;
+            }
+
+            dialog {
+                width: clamp(20rem, 60rem, 90vw);
+                height: clamp(20rem, 40rem, 90vh);
+                height: clamp(20rem, 40rem, 90dvh);
+                background-clip: padding-box;
+                background: var(--background);
+                border-radius: 24px;
+                border: var(--default-border);
+                box-shadow: var(--elevation-level-large);
+                box-sizing: border-box;
+                display: revert;
+                outline: 0;
+                padding: 1rem;
+                pointer-events: auto;
+                position: relative;
+                color: var(--text-color)
+            }
+
+            .table-column.text-right {
+                justify-content: end;
+            }
+
+            #dialogs {
+                inset: 0;
+                height: 100vh;
+                height: 100dvh;
+                width: 100vw;
+                position: absolute;
+                z-index: 999999;
+                display: flex;
+                pointer-events: none;
+
+                &:has(dialog[open]) {
+                    backdrop-filter: blur(2px);
+                    pointer-events: unset;
+                }
+
+                dialog {
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+
+            #main-container {
+                padding: 120px 0.5rem 4rem;
+            }
+
+            @media (min-width: 992px) {
+                #main-container {
+                    padding: 120px 2rem 4rem;
+                }
+            }
+
+            @media (min-width: 1400px) {
+                #main-container {
+                    padding: 120px 160px 4rem;
+                }
+            }
+
+            @media (min-width: 1600px) {
+                #main-container {
+                    padding: 120px 320px 4rem;
+                }
+            }
+
+             
+            .logo.no-menu {
+                position: absolute;
+                top: 10px;
+                left: 10px;
+                text-decoration: none;
+                color: inherit;
+                height: 40px;
+                display: flex;
+                align-items: center;
+                gap: 5px;
+            }
+
+            .logo.no-menu .title {
+                font-size: 14px;
+                font-weight: 500;
+            }
+
+            .logo.no-menu .logo-image {
+                height: 40px;
+            }
+
+            body {
+                overflow-x: hidden;
+            }
+
+            body.dark .logo.no-menu .logo-image {
+                content: url("https://www.cm.com/cdn/cm/cm-inverted.svg");
+            }
+
+            .cm-image {
+                min-width: 300px;
+                width: 100% !important;
+                overflow: visible !important;
+                background-size: contain !important;
+            }
+
+            .flex-grow-1 {
+                flex-grow: 1;
+            }
+
+            .flex-grow-0 {
+                flex-grow: 0;
+            }
+
+            .show-mobile {
+                @media (min-width: 768px) {
+                    display: none !important;
+                }
+            }
+
+            .hide-mobile {
+                @media (max-width: 767px) {
+                    display: none !important;
+                }
+            }
+
+            h1 {
+                font-size: clamp(2rem, 5vw, 2.5rem) !important;
+            }
+
+            h2 {
+                font-size: clamp(1.75rem, 4vw, 2rem) !important;
+            }
+
+            .half-form {
+                max-width: 100%;
+                @media (min-width: 768px) {
+                    max-width: 50%;
+                }
+            }
+        </style>
+    </head>
+
+    <body hx-on:keydown="if (event.key === 'Escape') { const dialog = document.querySelector('dialog'); if (dialog) { dialog.close(); } }">
+
+    
+
+    <div id="main-container" hx-boost="true">
+        
+    <div class="logo no-menu">
+        <img class="logo-image" src="https://www.cm.com/cdn/cm/cm.svg" alt="CM.com">
+        <div class="title">Guest Manager</div>
+    </div>
+
+    <div class="login-box">
+        <div class="inner-box"></div>
+
+        <div class="inner-box">
+            <div class="form-container">
+                <h1>Sign in</h1>
+
+                <form class="form-group"
+                      hx-post="/login"
+                      hx-target="#main-container">
+                    <div class="form-row">
+                        <cm-input
+                                name="email"
+                                type="email"
+                                
+                                value=""
+                                autocomplete="username"
+                                data-label="Email"
+                                placeholder="Type your email"
+                                
+                        ></cm-input>
+                    </div>
+
+                    
+                        <div class="text-right forgot-container">
+                            <cm-button
+                                    type="button"
+                                    hx-post="/forgot-password"
+                                    hx-target="#main-container"
+                                    data-button-size="small"
+                                    data-button-type="icon-text"
+                                    data-icon="help"
+                                    data-label="Forgot password"
+                                    data-button-style="secondary">
+                            </cm-button>
+                        </div>
+                    
+
+                    <div class="form-row">
+                        <cm-input
+                                name="password"
+                                type="password"
+                                
+                                value=""
+                                autocomplete="current-password"
+                                data-label="Password"
+                                placeholder="Type your password"
+                                
+                        ></cm-input>
+                    </div>
+
+                    
+
+                    <div class="form-row cl-error-color">
+                        
+                    </div>
+
+                    
+                        <cm-button
+                                class="wide-button"
+                                type="submit"
+                                data-label="Login"
+                                data-button-style="cta"
+                        ></cm-button>
+
+                        <hr/>
+
+                        <cm-button
+                                class="wide-button"
+                                type="button"
+                                hx-post="/login/activate"
+                                hx-target="#main-container"
+                                data-label="Activate account"
+                                data-button-style="primary"
+                        ></cm-button>
+                    
+                </form>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <style>
+        .wide-button .btn {
+            width: 100% !important;
+
+            span {
+                padding-right: 0 !important;
+                padding-left: 0 !important;
+            }
+        }
+
+         
+        .login-box {
+            margin: 0;
+            position: fixed;
+            display: block;
+            z-index: 9998;
+            top: 50vh;
+            top: 50dvh;
+            left: 50vw;
+            width: 900px;
+            height: 550px;
+            max-width: calc(100vw - 40px);
+            max-height: calc(100vh - 150px);
+            max-height: calc(100dvh - 150px);
+            transform: translate(-50%, -50%);
+            -webkit-transform: translate(-50%, -50%);
+            border: var(--default-border);
+            border-radius: 16px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, .2);
+        }
+
+         
+        .login-box > .inner-box {
+            position: absolute;
+            display: block;
+            width: 100%;
+            max-width: 50%;
+            height: 100%;
+            max-height: 100%;
+            border: 0;
+            overflow: hidden;
+            overflow-y: auto;
+            box-sizing: content-box;
+        }
+
+         
+        .login-box > .inner-box:first-child:not(:only-child) {
+            left: 0;
+            border-radius: 16px 0 0 16px;
+            border-right: var(--default-border);
+        }
+
+        .login-box > .inner-box:first-child:not(:only-child):before {
+            content: "";
+            position: absolute;
+            display: block;
+            width: 100%;
+            height: 100%;
+            left: 0;
+            bottom: 0;
+            background-color: #EFEFEF;
+            opacity: 0.3;
+        }
+
+        .dark .login-box > .inner-box:first-child:not(:only-child):before {
+            background-color: #121E1E;
+        }
+
+        .login-box > .inner-box:first-child:not(:only-child):after {
+            content: "";
+            position: absolute;
+            display: block;
+            width: 100%;
+            height: 100%;
+            left: 0;
+            bottom: 0;
+            background-repeat: no-repeat;
+            background-size: 95%;
+            background-position: center center;
+            background-blend-mode: multiply;
+            background-image: url("https://www.cm.com/app/aurora-static/svg/images/light/aurora-mailman.svg");
+        }
+
+        .dark .login-box > .inner-box:first-child:not(:only-child):after {
+            background-image: url("https://www.cm.com/app/aurora-static/svg/images/dark/aurora-mailman.svg");
+        }
+
+         
+        .login-box > .inner-box:last-child:not(:only-child) {
+            right: 0;
+            border-radius: 0 16px 16px 0;
+        }
+
+        .login-box > .inner-box:last-child:not(:only-child) > .form-container {
+            height: calc(100% - 160px);
+            min-height: calc(100% - 160px);
+            display: block;
+            margin: 80px;
+        }
+
+         
+        @media (max-width: 863px) {
+            .login-box > .inner-box:first-child:not(:only-child) {
+                display: none;
+            }
+
+            .login-box > .inner-box:last-child:not(:only-child) {
+                left: 0;
+                right: auto;
+                max-width: 100%;
+                background-color: transparent;
+            }
+        }
+
+        @media (max-width: 576px) {
+            .login-box > .inner-box:last-child:not(:only-child) > .form-container {
+                margin: 80px 24px;
+            }
+        }
+
+        .forgot-container {
+            position: relative;
+            top: -4px;
+            height: 0;
+            z-index: 10
+        }
+    </style>
+
+    </div>
+
+    <script hx-preserve="true">
+        if (!window.scriptsInitialized) {
+            window.scriptsInitialized = true;
+
+            let scripts = [];
+            
+            scripts = [
+                'https://www.cm.com/app/aurora/js/libphonenumber-min.js',
+                'https://www.cm.com/app/aurora/js/moment-with-locales.min.js',
+                'https://www.cm.com/app/aurora/js/moment-timezone-with-data.min.js',
+                'https://www.cm.com/app/aurora/js/chart.min.js',
+                'https://www.cm.com/app/aurora/js/webcomponents-loader.js',
+                'https://www.cm.com/app/aurora/js/aurora-components-legacy.js'
+            ];
+            
+
+            scripts.forEach(src => {
+                const script = document.createElement('script');
+                script.src = src;
+                document.body.appendChild(script);
+            });
+
+            document.body.addEventListener("showNotification", function (event) {
+                window.AddSuccessNotification(event.detail.value);
+            });
+
+            document.body.addEventListener("showErrorNotification", function (event) {
+                window.AddErrorNotification(event.detail.value);
+            });
+        }
+    </script>
+    <cm-overlay></cm-overlay>
+
+    <cm-dialog id="htmx-confirm-dialog">
+        <h4 slot="header" class="dialog-title">Confirm</h4>
+        <div slot="body">
+            <p id="htmx-confirm-message"></p>
+        </div>
+        <div slot="footer">
+            <cm-button
+                    id="htmx-confirm-cancel"
+                    data-label="Cancel"
+                    data-button-style="secondary"
+                    data-button-type="text">
+            </cm-button>
+            <cm-button
+                    id="htmx-confirm-ok"
+                    data-label="Confirm"
+                    data-button-style="cta"
+                    data-button-type="text">
+            </cm-button>
+        </div>
+    </cm-dialog>
+    <script hx-preserve="true">
+        window.showConfirmDialog = function (message) {
+            return new Promise((resolve) => {
+                const dialog = document.getElementById('htmx-confirm-dialog');
+                const messageEl = document.getElementById('htmx-confirm-message');
+                const cancelBtn = document.getElementById('htmx-confirm-cancel');
+                const okBtn = document.getElementById('htmx-confirm-ok');
+
+                messageEl.textContent = message;
+
+                const controller = new AbortController();
+
+                let resolved = false;
+
+                const cleanup = (result) => {
+                    if (resolved) return;
+                    resolved = true;
+                    controller.abort();
+                    resolve(result);
+                };
+
+                cancelBtn.addEventListener('click', () => {
+                    dialog.close();
+                }, {signal: controller.signal, once: true});
+
+                okBtn.addEventListener('click', () => {
+                    cleanup(true);
+                    dialog.close();
+                }, {signal: controller.signal, once: true});
+
+                dialog.addEventListener('cm-dialog-closed', () => {
+                    cleanup(false);
+                }, {signal: controller.signal, once: true});
+
+                dialog.open();
+            });
+        };
+
+        document.body.addEventListener('htmx:confirm', function (event) {
+            if (!event.detail.question) {
+                return;
+            }
+
+            event.preventDefault();
+
+            window.showConfirmDialog(event.detail.question).then((confirmed) => {
+                if (confirmed) {
+                    event.detail.issueRequest(true);
+                }
+            });
+        });
+    </script>
+    <div id="dialogs" hx-on:click="if (event.target === this) {document.querySelector('dialog').close();}">
+    </div>
+    </body>
+    </html>

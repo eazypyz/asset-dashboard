@@ -1,9 +1,9 @@
 {
   "domain": "grayback.es",
-  "last_update": "2026-07-17T19:47:34.455Z",
+  "last_update": "2026-07-18T14:40:38.280Z",
   "stats": {
-    "total": 5,
-    "dns_resolved": 5,
+    "total": 6,
+    "dns_resolved": 6,
     "alive": 5,
     "has_robots": 5,
     "has_security": 0,
@@ -13,7 +13,8 @@
     {
       "host": "app.grayback.es",
       "source": [
-        "crtsh"
+        "crtsh",
+        "securitytrails"
       ],
       "dns": true,
       "alive": true,
@@ -23,14 +24,15 @@
       "sitemap": true,
       "robots_hash": "e98f7b9665f27279d1c4c2852012df07a7105661e69de7d07f3619f57740f988",
       "security_hash": "",
-      "sitemap_hash": "bb051cacca0d72ce0ce948dd56a695d955de39d5cb5d5ed5fbcb7221ae6f2be2",
+      "sitemap_hash": "2049153f37e1e0db9791db8626c6435f6437ed76b815db986dae14198e0bf17c",
       "first_seen": "2026-07-15T16:10:09.158Z",
-      "last_seen": "2026-07-17T19:47:34.452Z"
+      "last_seen": "2026-07-18T14:40:38.277Z"
     },
     {
       "host": "auth.grayback.es",
       "source": [
-        "crtsh"
+        "crtsh",
+        "securitytrails"
       ],
       "dns": true,
       "alive": true,
@@ -42,7 +44,7 @@
       "security_hash": "",
       "sitemap_hash": "",
       "first_seen": "2026-07-15T16:10:09.158Z",
-      "last_seen": "2026-07-17T19:47:34.452Z"
+      "last_seen": "2026-07-18T14:40:38.277Z"
     },
     {
       "host": "grayback.es",
@@ -59,12 +61,13 @@
       "security_hash": "",
       "sitemap_hash": "",
       "first_seen": "2026-07-15T16:10:09.158Z",
-      "last_seen": "2026-07-17T19:47:34.452Z"
+      "last_seen": "2026-07-18T14:40:38.277Z"
     },
     {
       "host": "pre.grayback.es",
       "source": [
-        "crtsh"
+        "crtsh",
+        "securitytrails"
       ],
       "dns": true,
       "alive": true,
@@ -76,12 +79,30 @@
       "security_hash": "",
       "sitemap_hash": "",
       "first_seen": "2026-07-15T16:10:09.158Z",
-      "last_seen": "2026-07-17T19:47:34.452Z"
+      "last_seen": "2026-07-18T14:40:38.277Z"
+    },
+    {
+      "host": "vpn.grayback.es",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-18T14:40:38.277Z",
+      "last_seen": "2026-07-18T14:40:38.277Z"
     },
     {
       "host": "www.grayback.es",
       "source": [
-        "crtsh"
+        "crtsh",
+        "securitytrails"
       ],
       "dns": true,
       "alive": true,
@@ -93,7 +114,7 @@
       "security_hash": "",
       "sitemap_hash": "",
       "first_seen": "2026-07-15T16:10:09.158Z",
-      "last_seen": "2026-07-17T19:47:34.452Z"
+      "last_seen": "2026-07-18T14:40:38.277Z"
     }
   ]
 }
