@@ -1,0 +1,367 @@
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<link rel="stylesheet" href="/resources/css/bootstrap.min.css">
+	<link rel="stylesheet" href="/resources/css/min.css">
+	<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha384-1H217gwSVyLSIfaLxHbE7dRb3v4mYCKbpQvzx0cegeju1MVsGrX5xXxAvs/HgeFs" crossorigin="anonymous"></script>
+	<style>
+		.email-top { margin-bottom: 30px; display: flex; justify-content: center; }
+		.email-top-content { width: 100%; max-width: 500px; text-align: center; }
+		.email-top-content .form-group { text-align: left; }
+		.email-top .form-control { width: 100%; }
+		.bottom-section { margin-top: 20px; display: none; }
+		#signin-method-header { text-align: center; width: 100%; margin-bottom: 20px; }
+		.email-code-section, .password-section { border: 1px solid #ddd; border-radius: 8px; padding: 20px; }
+		.email-code-section h4, .password-section h4 { text-align: center; padding-bottom: 10px;}
+		.email-code-section.centered { margin: 0 auto; max-width: 500px; }
+		.code-inputs { display: flex; gap: 8px; justify-content: flex-start; }
+		.code-digit { width: 40px; height: 40px; text-align: center; font-size: 18px; border: 2px solid #ddd; border-radius: 4px; }
+		#btn-send-code { width: auto !important; display: inline-block; max-width: fit-content; }
+		.password-section { margin-bottom: 0; max-width: 500px; margin-left: auto; margin-right: auto; }
+		.email-code-section { max-width: 500px; margin-left: auto; margin-right: auto; }
+		.row-content { display: block !important; }
+		.divider { display: flex; align-items: center; text-align: center; margin: 20px auto; max-width: 500px; }
+		.divider::before, .divider::after { content: ''; flex: 1; border-bottom: 1px solid #ddd; }
+		.divider span { padding: 0 10px; color: #999; }
+	</style>
+	<title>Sign In</title>
+	
+<!--IGHF Header-->
+<!--GAATversion='50recode.2' date='10/02/2017 08:00:00' Version='2.0':CharacterEncoding:utf8--> 
+<div id="recode50header"></div>
+<script type="text/javascript">
+/*<![CDATA[*/
+INTELNAV = window.INTELNAV || {};INTELNAV.renderSettings={version:"2.0 - 10/02/2017 08:00:00",textDirection:"ltr",culture:"en_US",OutputId:"default"};
+/*]]>*/</script>
+<noscript><link rel="stylesheet" href="https://www.intel.com/ighf/50recode.2/css/ltr_nojsheader.css" type="text/css"><div id="smallfootprint-header"><a href="https://www.intel.com/content/www/us/en/homepage.html" class="gaat40-logo" title="Logo - Intel"></a><form method="get" id="user-bar-searchbox-form" name="user-bar-searchbox-form" action="https://www.intel.com/content/www/us/en/search.html"><input id="toplevelcategory" name="toplevelcategory" type="hidden" value="none" tabindex="0"><input id="query" name="query" type="hidden" value="" tabindex="0"><fieldset><legend></legend><label for="input-search">Search</label><input type="text" id="input-search" name="keyword" tabindex="0" autocomplete="off" /><input type="submit" id="input-submit" name="input-submit" value="Search" /></fieldset></form></div></noscript>
+<!--/IGHF Header-->
+
+</head>
+<body>
+	
+<!--IGHF Header-->
+<!--GAATversion='50recode.2' date='10/02/2017 08:00:00' Version='2.0':CharacterEncoding:utf8--> 
+<div id="recode50header"></div>
+<script type="text/javascript">
+/*<![CDATA[*/
+INTELNAV = window.INTELNAV || {};INTELNAV.renderSettings={version:"2.0 - 10/02/2017 08:00:00",textDirection:"ltr",culture:"en_US",OutputId:"default"};
+/*]]>*/</script>
+<noscript><link rel="stylesheet" href="https://www.intel.com/ighf/50recode.2/css/ltr_nojsheader.css" type="text/css"><div id="smallfootprint-header"><a href="https://www.intel.com/content/www/us/en/homepage.html" class="gaat40-logo" title="Logo - Intel"></a><form method="get" id="user-bar-searchbox-form" name="user-bar-searchbox-form" action="https://www.intel.com/content/www/us/en/search.html"><input id="toplevelcategory" name="toplevelcategory" type="hidden" value="none" tabindex="0"><input id="query" name="query" type="hidden" value="" tabindex="0"><fieldset><legend></legend><label for="input-search">Search</label><input type="text" id="input-search" name="keyword" tabindex="0" autocomplete="off" /><input type="submit" id="input-submit" name="input-submit" value="Search" /></fieldset></form></div></noscript>
+<!--/IGHF Header-->
+
+	
+	
+
+
+
+
+
+<nav id="head-nav" class="navbar navbar-expand-sm d-none">
+	<ul class="navbar-nav ml-auto" data-version="4.6.1">
+		
+		
+			
+			
+				
+					<li class="nav-item"><a class="nav-link" href="/login">Sign In</a></li>
+					
+			
+		
+	</ul>
+</nav>
+<form id="logout-form" action="/logout" method="post">
+	<input type="hidden" name="_csrf" value="Io6fDuMzRcbQ1nSlmNnuGmRNKe0JIvzl8b7m7hX66bc_gDfVErf9OoZQJPb9sEWdofTaKVV5BNU9QM7Iwo_e2ieY0IRauAG0" />
+</form>
+
+
+
+	<div class="container" style="padding-top: 20px; padding-bottom: 20px;">
+		
+		
+		<!-- Top Section: Email Input -->
+		<div class="row email-top">
+			<div class="email-top-content">
+				<h2>Welcome!</h2>
+				<div class="form-group">
+					<label for="email-input">Enter Your Email</label>
+					<div style="display: flex; gap: 8px;">
+						<input id="email-input" type="email" class="form-control" tabindex="1" style="flex: 1;" />
+						<button type="button" class="btn btn-primary" style="padding: 6px 12px;">&#x23CE;</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!-- Bottom Section -->
+		<div class="bottom-section">
+			<h3 id="signin-method-header" style="display:none;">How would you like to sign in?</h3>
+			
+			<div class="row row-content">
+			<!-- Password Section -->
+			<div class="col-xs-24 password-section">
+				<h4>Sign In with password</h4>
+				
+				<form id="login-form" action="/login" method="post" autocomplete="off">
+					<input type="hidden" name="_guid" value="c1a1cd40-bbde-48fe-bb9c-313268beed03" />
+					<input type="hidden" name="username" id="username-hidden" />
+					<div class="form-group">
+						<label for="password">Password</label>
+						<input id="password" type="password" name="password" class="form-control" tabindex="2" />
+					</div>
+					<input type="hidden" name="_csrf" value="Io6fDuMzRcbQ1nSlmNnuGmRNKe0JIvzl8b7m7hX66bc_gDfVErf9OoZQJPb9sEWdofTaKVV5BNU9QM7Iwo_e2ieY0IRauAG0" />
+					<!--  -->
+					
+					<button type="submit" id="btn-login" class="btn btn-primary" tabindex="3">Continue</button>
+					
+						<a href="/user/reset/password" style="margin-left: 10px;">Forgot Password</a>
+					
+					<!-- 
+						<div style="margin-top: 10px;">
+							<a href="/user/registration">Create New Account</a>
+						</div>
+					 -->
+				</form>
+			</div>
+			
+			
+			
+			<!-- Email Code Section -->
+			
+			<div class="divider"><span>OR</span></div>
+			<div class="col-xs-24 email-code-section">
+					<h4>Sign In with One Time Code</h4>
+					<button id="btn-send-code" class="btn btn-primary" tabindex="4">Email me a one time code</button>
+					<div id="email-code-message" style="margin-top:10px;"></div>
+					<div id="code-input-section" style="margin-top:15px; display:none;">
+						
+						<form action="/auth/email/verify-code" method="post">
+							<input type="hidden" name="email" id="email-hidden" />
+							<input type="hidden" name="code" id="code-hidden" />
+							<div class="form-group">
+								<label>Enter 6-digit code</label>
+								<div class="code-inputs">
+									<input type="text" class="code-digit" maxlength="1" pattern="[0-9]" />
+									<input type="text" class="code-digit" maxlength="1" pattern="[0-9]" />
+									<input type="text" class="code-digit" maxlength="1" pattern="[0-9]" />
+									<input type="text" class="code-digit" maxlength="1" pattern="[0-9]" />
+									<input type="text" class="code-digit" maxlength="1" pattern="[0-9]" />
+									<input type="text" class="code-digit" maxlength="1" pattern="[0-9]" />
+								</div>
+							</div>
+							<p id="resend-message" style="margin-top:10px; display: flex; gap: 8px;">
+								<button type="submit" id="btn-otp-continue" class="btn btn-primary" disabled>Continue</button>
+								<button type="button" id="btn-resend-code" class="btn btn-primary" disabled>Resend Code in 120 sec</button>
+							</p>
+							<input type="hidden" name="_csrf" value="Io6fDuMzRcbQ1nSlmNnuGmRNKe0JIvzl8b7m7hX66bc_gDfVErf9OoZQJPb9sEWdofTaKVV5BNU9QM7Iwo_e2ieY0IRauAG0" />
+						</form>
+					</div>
+				</div>
+			
+			</div>
+		</div>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<script type="text/javascript">
+	    $(document).ready(function() {
+	      $("#email-input").focus();
+	      
+	      // Check user function
+	      function checkUser() {
+	        var email = $("#email-input").val();
+	        if (email && email.includes('@')) {
+	          $.post("/auth/email/check-user", { email: email })
+	            .done(function(response) {
+	              var data = JSON.parse(response);
+	              $(".bottom-section").addClass('show').css('display', 'block');
+	              if (data.exists) {
+	                // Existing user - show both sections
+	                $("#signin-method-header").show();
+	                $(".email-code-section").removeClass('centered').show();
+	                $(".password-section").show();
+	                $(".divider").show();
+	              } else {
+	                // New user - show only OTP section
+	                $(".email-code-section").addClass('centered').show();
+	                $(".password-section").hide();
+	                $(".divider").hide();
+	              }
+	            });
+	        }
+	      }
+	      
+	      // Check user on email blur (only for emails)
+	      $("#email-input").on('blur', function() {
+	        var email = $(this).val();
+	        if (email && !email.includes('@')) {
+	          // Non-email username - show password section only
+	          $(".bottom-section").addClass('show').css('display', 'block');
+	          $(".password-section").show();
+	          $(".email-code-section").hide();
+	          $(".divider").hide();
+	          $("#signin-method-header").hide();
+			  $("#password").focus();
+	        } else if (email && email.includes('@')) {
+	          checkUser();
+	        }
+	      });
+	      
+	      // Show password section on enter key
+	      $("#email-input").on('keypress', function(e) {
+	        if (e.which === 13) {
+	          e.preventDefault();
+	          var email = $("#email-input").val();
+	          if (email && !email.includes('@')) {
+	            // Non-email username - show password section only
+	            $(".bottom-section").addClass('show').css('display', 'block');
+	            $(".password-section").show();
+	            $(".email-code-section").hide();
+	            $(".divider").hide();
+	            $("#signin-method-header").hide();
+	            $("#password").focus();
+	          } else if (email && email.includes('@')) {
+	            // Email format - validate user
+	            checkUser();
+	          }
+	        }
+	      });
+	      
+	      // Copy email to username field for login
+	      $("#email-input").on('input', function() {
+	        $("#username-hidden").val($(this).val());
+	      });
+	      
+	      var lastSendTime = 0;
+	      var countdownInterval = null;
+	      
+	      function startCountdown() {
+	        var remaining = 120;
+	        $("#btn-resend-code").prop("disabled", true).text("Resend Code in " + remaining + " sec");
+	        countdownInterval = setInterval(function() {
+	          remaining--;
+	          if (remaining > 0) {
+	            $("#btn-resend-code").text("Resend Code in " + remaining + " sec");
+	          } else {
+	            clearInterval(countdownInterval);
+	            $("#btn-resend-code").prop("disabled", false).text("Resend Code");
+	          }
+	        }, 1000);
+	      }
+	      
+	      $("#btn-send-code").click(function() {
+	        var email = $("#email-input").val();
+	        if (!email) {
+	          $("#email-code-message").text("Please enter an email").css("color", "red");
+	          return;
+	        }
+	        if (!email.includes('@')) {
+	          $("#email-code-message").text("Please enter a valid email then click 'Email me a one time code.'").css("color", "red");
+	          return;
+	        }
+	        $(this).prop("disabled", true).text("Sending...");
+	        lastSendTime = Date.now();
+	        checkUser();
+	        $.post("/auth/email/send-code", { email: email })
+	          .done(function() {
+	            $("#email-code-message").text("Code sent! Check your email. If you have not received email check your junk mail for email from info@xeonprocessoradvisor.com").css("color", "green");
+	            $("#btn-send-code").hide();
+	            $("#email-hidden").val(email);
+	            $("#code-input-section").show();
+	            $(".code-digit").first().focus();
+	            startCountdown();
+	          })
+	          .fail(function() {
+	            $("#email-code-message").text("Failed to send code").css("color", "red");
+	            $("#btn-send-code").prop("disabled", false).text("Email me a one time code");
+	          });
+	      });
+	      
+	      $("#btn-resend-code").click(function(e) {
+	        e.preventDefault();
+	        var email = $("#email-input").val();
+	        if (!email) return;
+	        
+	        lastSendTime = Date.now();
+	        $.post("/auth/email/send-code", { email: email })
+	          .done(function() {
+	            $("#email-code-message").text("Code resent! Check your email.").css("color", "green");
+	            startCountdown();
+	          })
+	          .fail(function() {
+	            $("#email-code-message").text("Failed to resend code").css("color", "red");
+	          });
+	      });
+	      
+	      // Handle code digit inputs
+	      $(".code-digit").on('input', function() {
+	        if (this.value.length === 1) {
+	          $(this).next('.code-digit').focus();
+	        }
+	        // Update hidden field with complete code
+	        var code = '';
+	        $('.code-digit').each(function() { code += $(this).val(); });
+	        $('#code-hidden').val(code);
+	        // Enable continue button when all 6 digits are entered
+	        $('#btn-otp-continue').prop('disabled', code.length !== 6);
+	      }).on('keydown', function(e) {
+	        if (e.key === 'Backspace' && this.value === '') {
+	          $(this).prev('.code-digit').focus();
+	        }
+	      }).on('paste', function(e) {
+	        e.preventDefault();
+	        var pastedData = e.originalEvent.clipboardData.getData('text').replace(/\D/g, '').slice(0, 6);
+	        $('.code-digit').each(function(i) {
+	          $(this).val(pastedData[i] || '');
+	        });
+	        $('#code-hidden').val(pastedData);
+	        $('#btn-otp-continue').prop('disabled', pastedData.length !== 6);
+	      });
+	    });
+  	</script>
+	
+
+
+
+
+
+
+
+<div class="container-fluid fixed-bottom" id="eXalt-footer">
+    <div class="row">
+		<div class="col-md-16" id="eXalt-footer-left">
+			<span>&copy;2007-2026 eXalt Solutions, Inc. All Rights Reserved</span>
+			<span style="margin-left:20px;"><a href="/doc/terms-of-use.html" target="_blank">Terms of Use</a></span>
+		</div>
+		<div class="col-md-8 text-right" id="eXalt-footer-right">
+			<span id="eXalt-footer-right-text"> <a href="https://www.exaltsolutions.com/"><img src="/resources/img/exalt_footer.png" alt="eXalt Solutions|KWaaS|Knowledge Work as a Service" style="width: 72px; height: 44px;"></a>
+			</span>
+		</div>
+    </div>
+</div>
+<!--IGHF Header-->
+<!--GAATversion='50recode.2' date='10/02/2017 08:00:00' Version='2.0':CharacterEncoding:utf8--> 
+<div id="recode50header"></div>
+<script type="text/javascript">
+/*<![CDATA[*/
+INTELNAV = window.INTELNAV || {};INTELNAV.renderSettings={version:"2.0 - 10/02/2017 08:00:00",textDirection:"ltr",culture:"en_US",OutputId:"default"};
+/*]]>*/</script>
+<noscript><link rel="stylesheet" href="https://www.intel.com/ighf/50recode.2/css/ltr_nojsheader.css" type="text/css"><div id="smallfootprint-header"><a href="https://www.intel.com/content/www/us/en/homepage.html" class="gaat40-logo" title="Logo - Intel"></a><form method="get" id="user-bar-searchbox-form" name="user-bar-searchbox-form" action="https://www.intel.com/content/www/us/en/search.html"><input id="toplevelcategory" name="toplevelcategory" type="hidden" value="none" tabindex="0"><input id="query" name="query" type="hidden" value="" tabindex="0"><fieldset><legend></legend><label for="input-search">Search</label><input type="text" id="input-search" name="keyword" tabindex="0" autocomplete="off" /><input type="submit" id="input-submit" name="input-submit" value="Search" /></fieldset></form></div></noscript>
+<!--/IGHF Header-->
+
+
+
+</body>
+</html>

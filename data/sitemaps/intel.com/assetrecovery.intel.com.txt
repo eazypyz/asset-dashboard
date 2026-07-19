@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta name="viewport" content="width=device-width" />
+	<title>Login - Asset Recovery</title>
+	<script type="text/javascript" src="https://www.intel.com/content/dam/www/global/wap/performance-config.js"></script>
+	<link rel="icon" href="/favicon.ico" />
+	<link rel="stylesheet" href="/css/site.css" />
+</head>
+<body>
+	
+<div class="login-page">
+	<nav class="nav">
+		<div class="nav-navbar">
+			<div class="nav-header">
+				<img src="/images/logo-energyblue-white.svg" style="height: 26px;">
+				<span>Asset Recovery</span>
+			</div>
+			<a class="nav-item" href="https://www.intel.com/content/www/us/en/support/contact-us.html">Contact Us</a>
+		</div>
+	</nav>
+	<div class="page-container">
+		<h1 class="jumbotron">
+			Do you have an Intel® Badge?
+		</h1>
+		<div class="choice-grid">
+			<div class="choice">
+				<h2 class="choice-text">YES</h2>
+				<div class="choice-action">
+					<div class="choice-action-text"></div>
+					<div>
+						<a class="btn btn-default" href="/MicrosoftIdentity/Account/SignIn">SIGN IN</a>
+					</div>
+				</div>
+			</div>
+			<div class="choice">
+				<h2 class="choice-text">NO</h2>
+				<div class="choice-action">
+					<div class="choice-action-text">DON'T HAVE A LOGIN YET?&nbsp; REGISTER FIRST!</div>
+					<div>
+						<a class="btn btn-default" href="/MicrosoftIdentity/Account/SignIn">SIGN IN</a>
+						<a class="btn btn-alt" href="https://supplier.intel.com/seem/register.aspx" style="margin-left: 10px;">REGISTER</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<a href="https://www.intel.com/content/www/us/en/legal/terms-of-use.html"
+		   target="_blank"
+		   rel="noreferrer">
+			Terms of Use
+		</a>
+		<a href="https://www.intel.com/content/www/us/en/legal/trademarks.html"
+		   target="_blank"
+		   rel="noreferrer">
+			Trademarks
+		</a>
+		<a href="https://www.intel.com/content/www/us/en/privacy/intel-cookie-notice.html"
+		   target="_blank"
+		   rel="noreferrer">
+			Cookies
+		</a>
+		<a href="https://www.intel.com/content/www/us/en/privacy/intel-privacy-notice.html"
+		   target="_blank"
+		   rel="noreferrer">
+			Privacy
+		</a>
+		</ul>
+	</footer>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Overview | Lab Operations Research</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/brand/lab-ops.css">
+  <link rel="stylesheet" href="assets/site.css">
+</head>
+<body class="site-shell" data-site-depth="0" data-nav-active="overview">
+  <header id="site-header" role="banner"></header>
+
+  <main class="site-main">
+    <section class="page-intro" aria-labelledby="hero-title">
+      <div class="page-intro-inner">
+        <p class="kicker">Research progress</p>
+        <h1 id="hero-title">Understand ramp-up, then <span class="accent">standardize</span> it</h1>
+        <p class="lead">
+          Lab Operations research maps how SOC and Platform labs bring systems online, surfaces friction and inconsistency, and uses a shared 9-stage model to compare practices across sites and domains.
+        </p>
+        <div class="page-intro-actions">
+          <a class="btn-primary" href="discovery.html">Discovery findings</a>
+          <a class="btn-primary btn-deep" href="deep-dives/index.html">Deep dives</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section" aria-labelledby="journey-title">
+      <p class="kicker">Three-stage journey</p>
+      <h2 id="journey-title">From ecosystem map to <span class="accent">focused</span> deep dives</h2>
+      <div class="stage-grid">
+        <article class="panel lo-rail">
+          <p class="stage-meta">Stage 1 · Dec 2025 to Jan 2026</p>
+          <h3>Discovery</h3>
+          <p>
+            Fifteen-plus semi-structured stakeholder interviews mapped the SSL lab-operations ecosystem. Analysis produced seven themes and actionable recommendations, shared with leadership.
+          </p>
+        </article>
+        <article class="panel lo-rail">
+          <p class="stage-meta">Stage 2 · May to Jun 2026</p>
+          <h3>Focus and questionnaire</h3>
+          <p>
+            A cross-functional scoping meeting narrowed the program to the ramp-up flow. A 9-stage model and a structured questionnaire translate Discovery themes into a focused, measurable study.
+          </p>
+        </article>
+        <article class="panel lo-rail">
+          <p class="stage-meta">Stage 3 · Active</p>
+          <h3>Pilot, collect, analyze</h3>
+          <p>
+            Outreach to lab managers and SMEs, response collection, cross-site comparison, and synthesis. The first deep dive is ramp-up flow; more may follow.
+          </p>
+        </article>
+      </div>
+      <p class="journey-cta">
+        <a class="btn-primary" href="focus-study.html">How we narrowed to ramp-up</a>
+      </p>
+    </section>
+
+    <section class="content-section" aria-labelledby="status-title">
+      <p class="kicker">Where we are now</p>
+      <div class="status-darkbar darkbar lo-rail">
+        <h2 id="status-title">Stage 3 is underway</h2>
+        <p>
+          Discovery and focus work are complete. We are now reaching out to lab personnel across sites and collecting questionnaire responses. Aggregated themes and recommendations are on the Discovery page; participation progress and early findings are under Deep Dives.
+        </p>
+        <div class="status-tags">
+          <span class="tag">Discovery shared</span>
+          <span class="tag">Ramp-up instrument v2</span>
+          <span class="tag">Outreach in progress</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="site-footer" role="contentinfo"></footer>
+  <script src="assets/nav.js"></script>
+</body>
+</html>

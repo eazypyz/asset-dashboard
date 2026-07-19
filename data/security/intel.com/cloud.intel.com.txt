@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png" />
+  <link rel="icon" href="favicon.ico" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+  <link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#16CFB1" />
+  <meta name="msapplication-TileColor" content="#16CFB1" />
+  <meta name="theme-color" content="#ffffff" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="Intel® Cloud Services"
+    content="Develop and run workloads in Intel®-optimized deployment environments with the latest Intel® processors and performance-optimized software stacks." />
+  <meta http-equiv="x-dns-prefetch-control" content="on" />
+  <meta name="title" content="Intel® Cloud Services" />
+  <meta name="description"
+    content="Get access to Intel computing for AI workloads, evaluate latest Intel computing platforms and learn about Intel's software for accelerated computing" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://cloud.intel.com/" />
+  <meta property="og:title" content="Intel® Cloud Services" />
+  <meta property="og:description"
+    content="Get access to Intel computing for AI workloads, evaluate latest Intel computing platforms and learn about Intel's software for accelerated computing" />
+  <meta property="og:image" content="/images/intel-header-logo-homepage.svg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:url" content="https://cloud.intel.com/" />
+  <meta name="twitter:title" content="Intel® Cloud Services" />
+  <meta name="twitter:description"
+    content="Get access to Intel computing for AI workloads, evaluate latest Intel computing platforms and learn about Intel's software for accelerated computing." />
+  <meta name="twitter:image" content="/images/intel-header-logo-homepage.svg" />
+  <!-- This file is overritten by index.html file of corresponging provider,
+    Don't do changes here instead made the changes on the index file of the provider folder-->
+  <title>Intel® Cloud Services</title>
+  <!-- Load ConfigMap -->
+  <script src="/setupConfigMap.js"></script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Intel® Cloud Services Pre-release Hardware",
+  "description": "Remotely Access Intel Pre-release Hardware for evaluation.",
+  "url": "https://prerelease.intel.com/"
+}
+</script>
+
+  <script type="module" crossorigin src="/assets/index-DA-HXFON.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-B8vxiCRT.css">
+</head>
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+  <div id="liveagent_online_indicator"></div>
+  <div id="liveagent_offline_indicator"></div>
+  <div id="detection" style="display: none; background-color: canvas; color-scheme: light"></div>
+</body>
+
+</html>

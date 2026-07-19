@@ -1,0 +1,13 @@
+
+User-agent: *
+
+Disallow: /*search=
+Disallow: /s/offering-create
+Disallow: /s/offering-edit
+Disallow: /s/offering-submit
+Disallow: /s/offering-preview
+Disallow: /s/partner-edit
+Disallow: /s/partner
+Disallow: /s/offering
+
+Sitemap: https://marketplace.intel.com/s/sitemap.xml

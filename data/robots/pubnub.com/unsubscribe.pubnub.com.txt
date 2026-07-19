@@ -1,0 +1,12 @@
+# AdsBot crawlers must be named explicitly
+# See https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers
+User-agent: AdsBot-Google
+User-agent: AdsBot-Google-Mobile
+User-agent: AdsBot-Google-Mobile-Apps
+Disallow: /c/
+Disallow: /calendar/
+
+
+User-agent: *
+Disallow: /c/
+Disallow: /calendar/

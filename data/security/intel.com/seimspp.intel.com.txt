@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>SEIMS</title>
+    <base href="/" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+  <link rel="stylesheet" href="styles.8813d87a75166bb8fde2.css">  <meta name="csp-nonce" content="CO6vpCZ2MfBCktFJQxaRxw==">
+</head>
+
+  <body>
+    <!-- <script
+      src="https://appusage.intel.com/Service/api/loguser/4839"
+      async
+    ></script> -->
+
+    <script nonce="CO6vpCZ2MfBCktFJQxaRxw==">
+      function addElement() {
+        var newDiv = document.createElement("div");
+        var newContent = document.createTextNode(
+          "SEIMS application is only compatible with Chrome/Edge browser. "
+        );
+        newDiv.appendChild(newContent);
+        var currentDiv = document.getElementById("div1");
+        document.body.insertBefore(newDiv, currentDiv);
+      }
+
+      function addAppRoot() {
+        var newApp = document.createElement("app-root");
+        document.body.appendChild(newApp);
+      }
+
+      if (navigator.userAgent.indexOf("Chrome") === -1) {
+        addElement();
+      } else {
+        addAppRoot();
+      }
+    </script>
+  <script type="text/javascript" src="runtime.4cd17dad50b0f888773e.js"></script><script type="text/javascript" src="polyfills.1577e3b9adcc467cf698.js"></script><script type="text/javascript" src="scripts.fe50cf8cd9807629b6b9.js"></script><script type="text/javascript" src="main.e5a00f1a14300de2ab07.js"></script></body>
+</html>
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>SEIMS</title>
+    <base href="/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+  </head>
+
+  <body>
+    <app-root></app-root>
+  </body>
+</html> -->

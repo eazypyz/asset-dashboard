@@ -1,0 +1,133 @@
+<!--[if IE]> <![endif]-->
+<!DOCTYPE html>
+<!--[if IE 7]>
+<html class="rwd no-js vis lt-ie10 lt-ie9 lt-ie8 no-rtl"><![endif]-->
+<!--[if IE 8]>
+<html class="rwd no-js vis lt-ie10 lt-ie9 no-rtl"><![endif]-->
+<!--[if IE 9]>
+<html class="rwd no-js vis lt-ie10 no-rtl"><![endif]-->
+<!--[if gt IE 9]><!-->
+<html lang="en" class="rwd no-js vis no-rtl">
+  <!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="/manifest.json" />
+    <title>Intel® Partner Marketing Studio</title>
+
+    <!-- IGHF (Performance tweaks for Mobile and Slow connections) -->
+    <meta http-equiv="x-dns-prefetch-control" content="on">
+    <link rel="dns-prefetch" href="https://www.intel.com" pr="1.0">
+    <link rel="dns-prefetch" href="https://www.google-analytics.com" pr="1.0">
+    <link rel="preconnect" href="https://www.intel.com" crossorigin="anonymous" pr="1.0">
+    <link rel="preconnect" href="https://www.google-analytics.com" crossorigin="anonymous" pr="1.0">
+    <!--/IGHF-->
+
+    <!-- IGHF Loader -->
+    <!--[if le IE 9]>
+    <script type="text/javascript" src="https://www.intel.com/ighf/50recode.2/js/headerchooser.js" ASYNC DEFER></script>
+    <![endif]-->
+    <!--[if gt IE 9]><!-->
+    <script type="text/javascript" src="https://www.intel.com/ighf/50recode.2/js/headerchooser.js" ASYNC></script>
+    <!--<![endif]-->
+    <!-- <script>
+      INTELNAV = window.INTELNAV || {};
+      INTELNAV.renderSettings = {
+        version: "2.0 - 03/12/2017 08:00:00",
+        textDirection: "--",
+        culture: "--",
+        OutputId: "--"
+      };
+    </script> -->
+    <!--/IGHF Loader-->
+
+    <meta
+      name="description"
+      content="If you sell or build products with Intel® technology, Intel® Partner Marketing Studio is your resource to access ready-to-use marketing assets and campaigns."
+    />
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,700&display=swap" rel="stylesheet" />
+
+
+    <script type="module" crossorigin src="/assets/index-DSyM6Fr_.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-Cp-TlmsQ.css">
+  </head>
+  <body style="margin: 0; padding: 0;">
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+
+    <!-- IGHF header container - Will be dynamically populated by headerchooser.js -->
+    <!--GAATversion='50recode.2' date='03/12/2017 08:00:00' Version='2.0':CharacterEncoding:utf8-->
+    <div id="recode50header"></div>
+    <script type="text/javascript">
+      const languageFromLocalStorage = localStorage.getItem('language')
+
+      /*<![CDATA[*/
+      INTELNAV = window.INTELNAV || {};
+      INTELNAV.renderSettings = {
+        version: "2.0 - 03/12/2017 08:00:00",
+        textDirection: "ltr",
+        culture: languageFromLocalStorage || "us_EN",
+        // culture: "fr_FR",
+        OutputId: "default",
+      };
+      /*]]>*/
+    </script>
+    <noscript>
+      <link rel="stylesheet" href="https://www.intel.com/ighf/50recode.2/css/ltr_nojsheader.css" type="text/css">
+      <div id="smallfootprint-header">
+        <a href="https://www.intel.com/content/www/us/en/homepage.html" class="gaat40-logo" title="Logo - Intel"></a>
+        <form method="get" id="user-bar-searchbox-form" name="user-bar-searchbox-form" action="https://www.intel.com/content/www/us/en/search.html">
+          <fieldset>
+            <legend></legend>
+            <label for="input-search">Search</label>
+            <input type="text" id="input-search" name="keyword" />
+            <input type="submit" id="input-submit" name="input-submit" value="Search" />
+          </fieldset>
+        </form>
+      </div>
+    </noscript>
+    <!--/IGHF header-->
+
+    <div id="root" style="min-height: 350px;"></div>
+    <div class="portal"></div>
+    <div id="customization-wrapper" style="display: block; position: relative; margin: 0; padding: 0"></div>
+
+    <!-- IGHF footer container - Will be dynamically populated by headerchooser.js -->
+    <!--GAATversion='50recode.2' date='03/12/2017 08:00:00' Version='2.0':CharacterEncoding:utf8-->
+    <div id="recode50footer"></div>
+    <script type="text/javascript">
+      /*<![CDATA[*/
+      INTELNAV = window.INTELNAV || {};
+      INTELNAV.renderSettingsFooter = {
+        version: "2.0 - 03/12/2017 08:00:00",
+        OutputId: "gf_default"
+      };
+      /*]]>*/
+    </script>
+    <noscript>
+      <div id="smallfootprint-footer">
+        <ul>
+          <li>©Intel Corporation</li>
+          <li><a href="https://www.intel.com/content/www/us/en/legal/terms-of-use.html" target="">Terms of Use</a></li>
+          <li><a href="https://www.intel.com/content/www/us/en/legal/trademarks.html" target="">*Trademarks</a></li>
+          <li><a href="https://www.intel.com/content/www/us/en/privacy/intel-privacy-notice.html" target="">Privacy</a></li>
+          <li><a href="https://www.intel.com/content/www/us/en/privacy/intel-cookie-notice.html" target="">Cookies</a></li>
+          <li><a href="https://www.intel.com/content/www/us/en/policy/policy-human-trafficking-and-slavery.html" target="">Supply Chain Transparency</a></li>
+          <li><a href="https://www.intel.com/content/www/us/en/siteindex.html" target="">Site Map</a></li>
+        </ul>
+      </div>
+    </noscript>
+    <!--/IGHF footer-->
+
+    <script>
+      var appversion = 'v1.3.2'
+    </script>
+  </body>
+</html>

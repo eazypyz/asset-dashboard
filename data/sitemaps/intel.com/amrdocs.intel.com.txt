@@ -1,0 +1,896 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="../../../" data-theme="auto">
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Autonomous Mobile Robot &#8212; Open Edge Platform Documentation</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "auto";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "auto";
+  </script>
+  <!--
+    this give us a css class that will be invisible only if js is disabled
+  -->
+  <noscript>
+    <style>
+      .pst-js-only { display: none !important; }
+
+    </style>
+  </noscript>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../../../_static/styles/theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
+<link href="../../../_static/styles/pydata-sphinx-theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
+
+    <link rel="stylesheet" type="text/css" href="../../../_static/pygments.css?v=8f2a1f02" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/togglebutton.css?v=13237357" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/asciinema-player_3.12.1.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/sphinx-design.min.css?v=95c83b7e" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/./css/customstyle.css?v=03db9f17" />
+  
+  <!-- So that users can add custom icons -->
+  <script src="../../../_static/scripts/fontawesome.js?digest=8878045cc6db502f8baf"></script>
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../../../_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf" />
+<link rel="preload" as="script" href="../../../_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf" />
+
+    <script src="../../../_static/jquery.js?v=5d32c60e"></script>
+    <script src="../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+    <script src="../../../_static/documentation_options.js?v=f2a433a1"></script>
+    <script src="../../../_static/doctools.js?v=9a2dae69"></script>
+    <script src="../../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../../_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="../../../_static/copybutton.js?v=f281be69"></script>
+    <script src="../../../_static/asciinema-player_3.12.1.js"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../../../_static/togglebutton.js?v=4a39c7ea"></script>
+    <script src="../../../_static/design-tabs.js?v=f930bc37"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'edge-ai-suites/robotics-ai-suite/robotics/index';</script>
+    <script>
+        DOCUMENTATION_OPTIONS.theme_version = '0.16.1';
+        DOCUMENTATION_OPTIONS.theme_switcher_json_url = 'https://docs.openedgeplatform.intel.com/switcher.json';
+        DOCUMENTATION_OPTIONS.theme_switcher_version_match = 'dev';
+        DOCUMENTATION_OPTIONS.show_version_warning_banner =
+            false;
+        </script>
+    <link rel="canonical" href="https://docs.openedgeplatform.intel.com/edge-ai-suites/robotics-ai-suite/robotics/index.html" />
+    <link rel="icon" href="../../../_static/logo.svg"/>
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+    <link rel="next" title="Get Started" href="gsg_robot/index.html" />
+    <link rel="prev" title="Robotics AI Suite" href="../../../ai-suite-robotics.html" />
+
+<!-- Central head bootstrap: manages GA, IGHF, and WAP/consent for all deployed documentation
+     versions. Update the hosted file to apply changes across all versions without rebuilding. -->
+<script src="https://docs.openedgeplatform.intel.com/template/common-includes/head-bootstrap.v1.js" defer></script>
+
+
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="auto">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <dialog id="pst-search-dialog">
+    
+<form class="bd-search d-flex align-items-center"
+      action="../../../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         placeholder="Search the docs ..."
+         aria-label="Search the docs ..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form>
+  </dialog>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+  <aside class="bd-header-announcement d-print-none d-none" aria-label="Announcement" data-pst-announcement-url="https://docs.openedgeplatform.intel.com/dev/_static/disclaimer-top-development.html"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+<div class="bd-header__inner bd-page-width">
+  <button class="pst-navbar-icon sidebar-toggle primary-toggle" aria-label="Site navigation">
+    <span class="fa-solid fa-bars"></span>
+  </button>
+  
+  
+  <div class="col-lg-3 navbar-header-items__start">
+    
+      <div class="navbar-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="../../../index.html">
+  
+  
+  
+  
+  
+  
+    <p class="title logo__title">Open Edge Platform</p>
+  
+</a></div>
+    
+      <div class="navbar-item">
+<div class="version-switcher__container dropdown pst-js-only">
+  <button id="pst-version-switcher-button-2"
+    type="button"
+    class="version-switcher__button btn btn-sm dropdown-toggle"
+    data-bs-toggle="dropdown"
+    aria-haspopup="listbox"
+    aria-controls="pst-version-switcher-list-2"
+    aria-label="Version switcher list"
+  >
+    Choose version  <!-- this text may get changed later by javascript -->
+    <span class="caret"></span>
+  </button>
+  <div id="pst-version-switcher-list-2"
+    class="version-switcher__menu dropdown-menu list-group-flush py-0"
+    role="listbox" aria-labelledby="pst-version-switcher-button-2">
+    <!-- dropdown will be populated by javascript on page load -->
+  </div>
+</div></div>
+    
+  </div>
+  
+  <div class="col-lg-9 navbar-header-items">
+    
+    <div class="me-auto navbar-header-items__center">
+      
+        <div class="navbar-item">
+<nav>
+  <ul class="bd-navbar-elements navbar-nav">
+    
+            <li class="nav-item dropdown">
+                <button class="btn dropdown-toggle nav-item" type="button"
+                data-bs-toggle="dropdown" aria-expanded="false"
+                aria-controls="pst-nav-more-links">
+                    Robotics AI Suite
+                </button>
+                <ul id="pst-nav-more-links" class="dropdown-menu">
+                    
+<li class=" ">
+  <a class="nav-link dropdown-item nav-internal" href="../../../OEP-articles.html">
+    Open Edge Platform
+  </a>
+</li>
+
+
+<li class=" ">
+  <a class="nav-link dropdown-item nav-internal" href="../../../ai-suite-metro.html">
+    Metro
+  </a>
+</li>
+
+
+<li class=" ">
+  <a class="nav-link dropdown-item nav-internal" href="../../../ai-suite-manufacturing.html">
+    Manufacturing
+  </a>
+</li>
+
+
+<li class=" ">
+  <a class="nav-link dropdown-item nav-internal" href="../../../ai-suite-retail.html">
+    Retail
+  </a>
+</li>
+
+
+<li class=" current active">
+  <a class="nav-link dropdown-item nav-internal" href="../../../ai-suite-robotics.html">
+    Robotics
+  </a>
+</li>
+
+
+<li class=" ">
+  <a class="nav-link dropdown-item nav-internal" href="../../../ai-suite-education.html">
+    Education
+  </a>
+</li>
+
+
+<li class=" ">
+  <a class="nav-link dropdown-item nav-internal" href="../../../ai-suite-health-and-life-sciences.html">
+    Health and Life Sciences
+  </a>
+</li>
+
+
+<li class=" ">
+  <a class="nav-link dropdown-item nav-internal" href="../../../ai-suite-fed-aero.html">
+    Federal and Aerospace
+  </a>
+</li>
+
+
+<li class=" ">
+  <a class="nav-link dropdown-item nav-internal" href="../../../ai-libraries.html">
+    Libraries, Tools, Services
+  </a>
+</li>
+
+
+<li class=" ">
+  <a class="nav-link dropdown-item nav-internal" href="../../../edge-microvisor-toolkit/index.html">
+    Edge Microvisor Toolkit
+  </a>
+</li>
+
+
+<li class=" ">
+  <a class="nav-link dropdown-item nav-internal" href="../../../image-composer-tool/index.html">
+    Image Composer Tool
+  </a>
+</li>
+
+                </ul>
+            </li>
+            
+  </ul>
+</nav></div>
+      
+    </div>
+    
+    
+    <div class="navbar-header-items__end">
+      
+        <div class="navbar-item navbar-persistent--container">
+          
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Search</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button>
+        </div>
+      
+      
+        <div class="navbar-item">
+
+<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
+  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
+  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
+</button></div>
+      
+    </div>
+    
+  </div>
+  
+  
+    <div class="navbar-persistent--mobile">
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Search</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button>
+    </div>
+  
+
+  
+    <button class="pst-navbar-icon sidebar-toggle secondary-toggle" aria-label="On this page">
+      <span class="fa-solid fa-outdent"></span>
+    </button>
+  
+</div>
+
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <dialog id="pst-primary-sidebar-modal"></dialog>
+      <div id="pst-primary-sidebar" class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+      <div class="sidebar-header-items__center">
+        
+          
+          
+            <div class="navbar-item">
+<nav>
+  <ul class="bd-navbar-elements navbar-nav">
+    
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../../../OEP-articles.html">
+    Open Edge Platform
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../../../ai-suite-metro.html">
+    Metro
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../../../ai-suite-manufacturing.html">
+    Manufacturing
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../../../ai-suite-retail.html">
+    Retail
+  </a>
+</li>
+
+
+<li class="nav-item current active">
+  <a class="nav-link nav-internal" href="../../../ai-suite-robotics.html">
+    Robotics
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../../../ai-suite-education.html">
+    Education
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../../../ai-suite-health-and-life-sciences.html">
+    Health and Life Sciences
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../../../ai-suite-fed-aero.html">
+    Federal and Aerospace
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../../../ai-libraries.html">
+    Libraries, Tools, Services
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../../../edge-microvisor-toolkit/index.html">
+    Edge Microvisor Toolkit
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../../../image-composer-tool/index.html">
+    Image Composer Tool
+  </a>
+</li>
+
+  </ul>
+</nav></div>
+          
+        
+      </div>
+    
+    
+    
+      <div class="sidebar-header-items__end">
+        
+          <div class="navbar-item">
+
+<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
+  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
+  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
+</button></div>
+        
+      </div>
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+<nav class="bd-docs-nav bd-links"
+     aria-label="Section Navigation">
+  <p class="bd-links__title" role="heading" aria-level="1">Section Navigation</p>
+  <div class="bd-toc-item navbar-nav"><ul class="current nav bd-sidenav">
+<li class="toctree-l1 current active has-children"><a class="current reference internal" href="#">Autonomous Mobile Robot</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2 has-children"><a class="reference internal" href="gsg_robot/index.html">Get Started</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l3"><a class="reference internal" href="gsg_robot/get-started/requirements_robot.html">System Requirements</a></li>
+</ul>
+</details></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="dev_guide/index_howitworks.html">How It Works</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l3"><a class="reference internal" href="dev_guide/how_it_works/robot-tools.html">AMR Tools</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dev_guide/how_it_works/robot-apps.html">AMR Applications</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dev_guide/how_it_works/robot-algorithms.html">AMR Algorithms</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dev_guide/how_it_works/robot-middleware.html">AMR Middleware</a></li>
+</ul>
+</details></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="dev_guide/index_tutorials.html">Tutorials</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l3 has-children"><a class="reference internal" href="dev_guide/tutorials_amr/developer_kit/index.html">Robot Kits</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l4"><a class="reference internal" href="dev_guide/tutorials_amr/developer_kit/create-your-robot-kit.html">Create Your Own Robot Kit</a></li>
+<li class="toctree-l4 has-children"><a class="reference internal" href="dev_guide/tutorials_amr/developer_kit/clearpath-jackal-robot.html">Clearpath Robotics Jackal Robot</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l5"><a class="reference internal" href="dev_guide/tutorials_amr/developer_kit/clearpath-jackal/jackal-intel-robotics-sdk.html">Install the Autonomous Mobile Robot on Jackal Robot’s Onboard Computer</a></li>
+<li class="toctree-l5"><a class="reference internal" href="dev_guide/tutorials_amr/developer_kit/clearpath-jackal/jackal-keyboard-teleop.html">Control the Jackal Motors Using a Keyboard</a></li>
+<li class="toctree-l5"><a class="reference internal" href="dev_guide/tutorials_amr/developer_kit/clearpath-jackal/jackal-wandering.html">Execute the Wandering Application on the Jackal Robot</a></li>
+<li class="toctree-l5"><a class="reference internal" href="dev_guide/tutorials_amr/navigation/follow_me/Tutorials/followme-on-clearpathjackal.html">Follow-me with ADBSCAN on Clearpath Robotics Jackal Robot</a></li>
+<li class="toctree-l5"><a class="reference internal" href="dev_guide/tutorials_amr/navigation/follow_me/Tutorials/followme-with-gesture-on-clearpathjackal.html">Follow-me with ADBSCAN and Gesture-based Control on Clearpath Robotics Jackal Robot</a></li>
+</ul>
+</details></li>
+<li class="toctree-l4 has-children"><a class="reference internal" href="dev_guide/tutorials_amr/developer_kit/irobot-create3-robot.html">iRobot Create 3</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l5"><a class="reference internal" href="dev_guide/tutorials_amr/navigation/wandering_app/wandering-irobot-tutorial.html">iRobot Create 3 Wandering tutorial</a></li>
+<li class="toctree-l5"><a class="reference internal" href="dev_guide/tutorials_amr/navigation/follow_me/Tutorials/followme-on-irobot.html">Follow-me with ADBSCAN on iRobot Create 3</a></li>
+</ul>
+</details></li>
+<li class="toctree-l4 has-children"><a class="reference internal" href="dev_guide/tutorials_amr/developer_kit/legacy-aaeon-developer-kit.html">AAEON Robotic Kits</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l5"><a class="reference internal" href="dev_guide/tutorials_amr/navigation/wandering_app/wandering-aaeon-tutorial.html">Wandering Application on AAEON robot with Intel® RealSense™ Camera and RTAB-Map SLAM</a></li>
+<li class="toctree-l5"><a class="reference internal" href="dev_guide/tutorials_amr/navigation/adbscan/adbscan_aaeon_robot.html">ADBSCAN on AAEON Robot Kit</a></li>
+<li class="toctree-l5"><a class="reference internal" href="dev_guide/tutorials_amr/navigation/follow_me/Tutorials/followme-on-aaeon.html">Follow-me with ADBSCAN on Aaeon Robot</a></li>
+<li class="toctree-l5"><a class="reference internal" href="dev_guide/tutorials_amr/navigation/follow_me/Tutorials/followme-with-gesture-on-aaeon.html">Follow-me with ADBSCAN and Gesture-based Control on Aaeon Robot</a></li>
+</ul>
+</details></li>
+<li class="toctree-l4"><a class="reference internal" href="dev_guide/tutorials_amr/developer_kit/robot-keyboard-teleop.html">Robot Teleop Using a Keyboard</a></li>
+</ul>
+</details></li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="dev_guide/tutorials_amr/perception/index.html">Perception</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l4"><a class="reference internal" href="dev_guide/tutorials_amr/perception/realsense-ros2-sample-application.html">RealSense Camera with ROS 2 Sample Application</a></li>
+<li class="toctree-l4"><a class="reference internal" href="dev_guide/tutorials_amr/perception/pointcloud-groundfloor-segmentation.html">3D Pointcloud Groundfloor Segmentation for RealSense™ Camera and 3D LiDAR</a></li>
+<li class="toctree-l4 has-children"><a class="reference internal" href="dev_guide/tutorials_amr/perception/orb-extractor/index.html">GPU ORB Extractor</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l5"><a class="reference internal" href="dev_guide/tutorials_amr/perception/orb-extractor/package-use.html">Overview and Deb packages</a></li>
+<li class="toctree-l5"><a class="reference internal" href="dev_guide/tutorials_amr/perception/orb-extractor/api-use.html">Use GPU ORB Extractor</a></li>
+<li class="toctree-l5"><a class="reference internal" href="dev_guide/tutorials_amr/perception/orb-extractor/orbocvfree-use.html">Use GPU ORB Extractor with OpenCV-free Library</a></li>
+<li class="toctree-l5"><a class="reference internal" href="dev_guide/tutorials_amr/perception/orb-extractor/limitation.html">GPU ORB Extractor Limitation</a></li>
+</ul>
+</details></li>
+<li class="toctree-l4 has-children"><a class="reference internal" href="dev_guide/tutorials_amr/perception/openvino/index.html">OpenVINO™</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l5"><a class="reference internal" href="dev_guide/tutorials_amr/perception/openvino/segmentation_realsense_tutorial.html">OpenVINO™ Tutorial with Segmentation</a></li>
+<li class="toctree-l5"><a class="reference internal" href="dev_guide/tutorials_amr/perception/openvino/object_detection_tutorial.html">OpenVINO™ Object Detection Tutorial</a></li>
+<li class="toctree-l5"><a class="reference internal" href="dev_guide/tutorials_amr/perception/openvino/pyrealsense2_d457_multicam_object_detection_tutorial.html">OpenVINO™ Tutorial on Multi-camera Object Detection using RealSense™ Depth Camera D457 and D3CMCXXX-115-084 Camera</a></li>
+<li class="toctree-l5"><a class="reference internal" href="dev_guide/tutorials_amr/perception/openvino/yolov8_openvino_tutorial.html">OpenVINO™ Yolov8 Tutorial</a></li>
+</ul>
+</details></li>
+<li class="toctree-l4 has-children"><a class="reference internal" href="dev_guide/tutorials_amr/perception/gmsl/index.html">GMSL Camera Ingestion</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l5"><a class="reference internal" href="dev_guide/tutorials_amr/perception/gmsl/icamera-usm.html">GMSL Ingestion Guide icamera-usm</a></li>
+</ul>
+</details></li>
+</ul>
+</details></li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="dev_guide/tutorials_amr/navigation/index.html">Navigation</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l4"><a class="reference internal" href="dev_guide/tutorials_amr/navigation/collaborative-slam.html">Collaborative Visual SLAM</a></li>
+<li class="toctree-l4"><a class="reference internal" href="dev_guide/tutorials_amr/navigation/run-fastmapping-algorithm.html">FastMapping Algorithm</a></li>
+<li class="toctree-l4 has-children"><a class="reference internal" href="dev_guide/tutorials_amr/navigation/adbscan/index.html">ADBSCAN Algorithm</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l5"><a class="reference internal" href="dev_guide/tutorials_amr/navigation/adbscan/adbscan-rplidar.html">ADBSCAN Algorithm with 2D RPLIDAR Input Demo</a></li>
+<li class="toctree-l5"><a class="reference internal" href="dev_guide/tutorials_amr/navigation/adbscan/adbscan-realsense.html">ADBSCAN Algorithm with Intel® RealSense™ Camera Input Demo</a></li>
+<li class="toctree-l5"><a class="reference internal" href="dev_guide/tutorials_amr/navigation/adbscan/adbscan_aaeon_robot.html">ADBSCAN on AAEON Robot Kit</a></li>
+<li class="toctree-l5"><a class="reference internal" href="dev_guide/tutorials_amr/navigation/adbscan/IA-optimized-adbscan-algorithm.html">Intel-optimized ADBSCAN Algorithm</a></li>
+</ul>
+</details></li>
+<li class="toctree-l4 has-children"><a class="reference internal" href="dev_guide/tutorials_amr/navigation/follow_me/index.html">Follow-me Algorithm</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l5 has-children"><a class="reference internal" href="dev_guide/tutorials_amr/navigation/follow_me/Simulation_demos/index.html">Simulation Demos</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l6"><a class="reference internal" href="dev_guide/tutorials_amr/navigation/follow_me/Simulation_demos/followme-with-gesture.html">Follow-me with ADBSCAN and Gesture Control</a></li>
+<li class="toctree-l6"><a class="reference internal" href="dev_guide/tutorials_amr/navigation/follow_me/Simulation_demos/followme-with-gesture-audio.html">Follow-me with ADBSCAN, Gesture and Audio Control</a></li>
+</ul>
+</details></li>
+<li class="toctree-l5 has-children"><a class="reference internal" href="dev_guide/tutorials_amr/navigation/follow_me/Tutorials/index.html">Tutorials</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l6"><a class="reference internal" href="dev_guide/tutorials_amr/navigation/follow_me/Tutorials/followme-on-aaeon.html">Follow-me with ADBSCAN on Aaeon Robot</a></li>
+<li class="toctree-l6"><a class="reference internal" href="dev_guide/tutorials_amr/navigation/follow_me/Tutorials/followme-with-gesture-on-aaeon.html">Follow-me with ADBSCAN and Gesture-based Control on Aaeon Robot</a></li>
+<li class="toctree-l6"><a class="reference internal" href="dev_guide/tutorials_amr/navigation/follow_me/Tutorials/followme-on-irobot.html">Follow-me with ADBSCAN on iRobot Create 3</a></li>
+<li class="toctree-l6"><a class="reference internal" href="dev_guide/tutorials_amr/navigation/follow_me/Tutorials/followme-on-clearpathjackal.html">Follow-me with ADBSCAN on Clearpath Robotics Jackal Robot</a></li>
+<li class="toctree-l6"><a class="reference internal" href="dev_guide/tutorials_amr/navigation/follow_me/Tutorials/followme-with-gesture-on-clearpathjackal.html">Follow-me with ADBSCAN and Gesture-based Control on Clearpath Robotics Jackal Robot</a></li>
+</ul>
+</details></li>
+</ul>
+</details></li>
+<li class="toctree-l4"><a class="reference internal" href="dev_guide/tutorials_amr/navigation/its-path-planner-plugin.html">ITS Path Planner ROS 2 Navigation Plugin</a></li>
+<li class="toctree-l4"><a class="reference internal" href="dev_guide/tutorials_amr/navigation/navigation-relocalization.html">Robot Re-localization Package for ROS 2 Navigation</a></li>
+<li class="toctree-l4 has-children"><a class="reference internal" href="dev_guide/tutorials_amr/navigation/wandering_app/index.html">Wandering App</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l5"><a class="reference internal" href="dev_guide/tutorials_amr/navigation/wandering_app/wandering-aaeon-tutorial.html">Wandering Application on AAEON robot with Intel® RealSense™ Camera and RTAB-Map SLAM</a></li>
+<li class="toctree-l5"><a class="reference internal" href="dev_guide/tutorials_amr/navigation/wandering_app/wandering-irobot-tutorial.html">iRobot Create 3 Wandering tutorial</a></li>
+<li class="toctree-l5"><a class="reference internal" href="dev_guide/tutorials_amr/developer_kit/clearpath-jackal/jackal-wandering.html">Execute the Wandering Application on the Jackal Robot</a></li>
+</ul>
+</details></li>
+</ul>
+</details></li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="dev_guide/tutorials_amr/simulation/index.html">Simulation</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l4"><a class="reference internal" href="dev_guide/tutorials_amr/simulation/turtlesim-ros2-sample-application.html">Turtlesim ROS 2 Sample Application</a></li>
+<li class="toctree-l4"><a class="reference internal" href="dev_guide/tutorials_amr/simulation/launch-wandering-application-gazebo-sim-waffle.html">Wandering Application in TurtleBot3 Waffle robot through Gazebo Simulation</a></li>
+<li class="toctree-l4"><a class="reference internal" href="dev_guide/tutorials_amr/simulation/picknplace.html">Gazebo Pick &amp; Place Demo</a></li>
+</ul>
+</details></li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="dev_guide/tutorials_amr/kpi_monitoring/index.html">ROS2 KPI Monitoring</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l4"><a class="reference internal" href="dev_guide/tutorials_amr/kpi_monitoring/overview.html">ROS2 KPI Monitoring Overview</a></li>
+<li class="toctree-l4"><a class="reference internal" href="dev_guide/tutorials_amr/kpi_monitoring/installation.html">Installation Guide</a></li>
+<li class="toctree-l4"><a class="reference internal" href="dev_guide/tutorials_amr/kpi_monitoring/quick-start.html">Quick Start Guide</a></li>
+<li class="toctree-l4"><a class="reference internal" href="dev_guide/tutorials_amr/kpi_monitoring/commands.html">Command Reference</a></li>
+<li class="toctree-l4"><a class="reference internal" href="dev_guide/tutorials_amr/kpi_monitoring/grafana.html">Grafana Dashboard</a></li>
+<li class="toctree-l4"><a class="reference internal" href="dev_guide/tutorials_amr/kpi_monitoring/wandering-benchmark.html">Wandering AMR Pipeline Benchmark</a></li>
+<li class="toctree-l4"><a class="reference internal" href="dev_guide/tutorials_amr/kpi_monitoring/picknplace-benchmark.html">Pick &amp; Place Pipeline Benchmark</a></li>
+<li class="toctree-l4"><a class="reference internal" href="dev_guide/tutorials_amr/kpi_monitoring/fastmapping-benchmark.html">FastMapping RGB-D Benchmark</a></li>
+<li class="toctree-l4"><a class="reference internal" href="dev_guide/tutorials_amr/kpi_monitoring/examples.html">Practical Examples</a></li>
+</ul>
+</details></li>
+<li class="toctree-l3"><a class="reference internal" href="dev_guide/tutorials_amr/robot-tutorials-troubleshooting.html">Troubleshooting for Autonomous Mobile Robot Tutorials</a></li>
+</ul>
+</details></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="dev_guide/index_systemintegrator.html">System Integrators</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l3 has-children"><a class="reference internal" href="dev_guide/system_integrator/benchmark_profiling/index.html">Benchmarking and Profiling</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l4"><a class="reference internal" href="dev_guide/system_integrator/benchmark_profiling/openvino-benchmarking.html">OpenVINO™ Benchmarking Tool</a></li>
+<li class="toctree-l4"><a class="reference internal" href="dev_guide/system_integrator/benchmark_profiling/vtune-profiler.html">VTune™ Profiler for CPU and GPU profiling</a></li>
+<li class="toctree-l4"><a class="reference internal" href="dev_guide/system_integrator/benchmark_profiling/benchtool.html">Benchtool</a></li>
+</ul>
+</details></li>
+<li class="toctree-l3"><a class="reference internal" href="dev_guide/system_integrator/performance.html">Optimize Performance</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dev_guide/system_integrator/security.html">Security</a></li>
+</ul>
+</details></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="dev_guide/index_gmslguide.html">GMSL Guide</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l3"><a class="reference internal" href="dev_guide/gmsl-guide/gmsl-aic-overview.html">GMSL Add-in-Card Overview</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dev_guide/gmsl-guide/configure-gmsl-serdes-acpi.html">Configure GMSL SerDes ACPI Devices</a></li>
+</ul>
+</details></li>
+<li class="toctree-l2"><a class="reference internal" href="release-notes.html">Release Notes</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../embodied/index.html">Humanoid Imitation Learning</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../embodied/get_started.html">Get Started</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l3"><a class="reference internal" href="../embodied/get-started/prerequisites/system_requirement.html">System Requirements</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../embodied/get-started/prerequisites/os_setup.html">OS Setup</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../embodied/get-started/installation/rt_linux.html">Real-Time Linux</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../embodied/get-started/installation/gpu_firmware.html">Install Intel® GPU firmware (Optional)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../embodied/get-started/installation/npu_firmware.html">Install Intel® NPU firmware</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../embodied/get-started/installation/client_gpu_driver.html">Install Client GPUs driver</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../embodied/get-started/installation/realsense.html">Install RealSense™ SDK</a></li>
+</ul>
+</details></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../embodied/model_tutorials.html">Model Tutorials</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l3"><a class="reference internal" href="../embodied/model_tutorials/model_act.html">Action Chunking with Transformers - ACT</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../embodied/model_tutorials/model_cns.html">Visual Servoing - CNS</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../embodied/model_tutorials/model_dp.html">Diffusion Policy</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../embodied/model_tutorials/model_idp3.html">Improved 3D Diffusion Policy (iDP3)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../embodied/model_tutorials/model_superpoint.html">Feature Extraction Model: SuperPoint</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../embodied/model_tutorials/model_lightglue.html">Feature Tracking Model: LightGlue</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../embodied/model_tutorials/model_fastbev.html">Bird’s Eye View Perception: Fast-BEV</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../embodied/model_tutorials/model_depthanythingv2.html">Monocular Depth Estimation: Depth Anything V2</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../embodied/model_tutorials/model_rdt.html">Robotics Diffusion Transformer (RDT-1B)</a></li>
+</ul>
+</details></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../embodied/developer_tools_tutorials.html">Developer Tools</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l3"><a class="reference internal" href="../embodied/developer_tools_tutorials/openvino.html">OpenVINO™</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../embodied/developer_tools_tutorials/ipex.html">Intel® Extension for PyTorch</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../embodied/developer_tools_tutorials/ipex-llm.html">Intel® LLM Library for PyTorch</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../embodied/developer_tools_tutorials/oneapi.html">Intel® oneAPI Toolkit</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../embodied/developer_tools_tutorials/iopenxla.html">Intel® Extension for OpenXLA</a></li>
+</ul>
+</details></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../embodied/packages_list.html">Packages List</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l3"><a class="reference internal" href="../embodied/packages/linuxbsp.html">Linux BSP</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../embodied/packages/mc_gateway.html">Industrial Motion-Control ROS2 Gateway</a></li>
+</ul>
+</details></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../embodied/sample_pipelines.html">Sample Pipelines</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l3"><a class="reference internal" href="../embodied/sample_pipelines/imitation_learning_act.html">Imitation Learning - ACT</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../embodied/sample_pipelines/mpc_demo.html">Model Predictive Control Demo</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../embodied/sample_pipelines/diffusion_policy.html">Diffusion Policy</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../embodied/sample_pipelines/ORB_VSLAM.html">VSLAM: ORB-SLAM3</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../embodied/sample_pipelines/llm_robotics.html">LLM Robotics Demo</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../embodied/sample_pipelines/robotics_diffusion_transformer.html">Robotics Diffusion Transformer (RDT)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../embodied/sample_pipelines/pi05_with_rtc.html">Pi0.5 with Real-Time Chunking</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../embodied/sample_pipelines/openclaw_agenticros_demo.html">OpenClaw + AgenticROS Deployment</a></li>
+</ul>
+</details></li>
+<li class="toctree-l2"><a class="reference internal" href="../embodied/heterogeneous_computing.html">Heterogeneous Computing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../embodied/openvino_optimization.html">OpenVINO Model Optimization</a></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../embodied/release-notes.html">Release Notes</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l3"><a class="reference internal" href="../embodied/release-notes/release-notes-2025.html">Release Notes 2025</a></li>
+</ul>
+</details></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../rvc/index.html">Stationary Robot Vision &amp; Control</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../rvc/getstarted.html">Get Started</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l3"><a class="reference internal" href="../rvc/getstarted/requirements.html">RVC Requirements</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../rvc/getstarted/supported_hw.html">Supported Peripherals</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../rvc/getstarted/camera_setup.html">Camera Setup</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../rvc/getstarted/prepare_system.html">Prepare the Target System</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../rvc/getstarted/install.html">Install RVC</a></li>
+</ul>
+</details></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../rvc/components.html">Components and Features of RVC</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l3 has-children"><a class="reference internal" href="../rvc/components/rvc_vision.html">Vision</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l4 has-children"><a class="reference internal" href="../rvc/components/rvc_vision/dynamic_vision.html">Dynamic Vision</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l5"><a class="reference internal" href="../rvc/components/rvc_vision/dynamic_vision/realsense_node.html">Realsense node</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../rvc/components/rvc_vision/dynamic_vision/object_detection.html">Object Detection</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../rvc/components/rvc_vision/dynamic_vision/pose_detector.html">Pose Detector</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../rvc/components/rvc_vision/dynamic_vision/profiler.html">RVC Profiler</a></li>
+</ul>
+</details></li>
+<li class="toctree-l4"><a class="reference internal" href="../rvc/components/rvc_vision/2.5d_vision/2.5d_vision.html">2.5D Vision</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../rvc/components/rvc_vision/rvc_vision_messages.html">RVC Vision Messages</a></li>
+</ul>
+</details></li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="../rvc/components/rvc_control.html">Control</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l4"><a class="reference internal" href="../rvc/components/rvc_control/parameters.html">Example Configuration</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../rvc/components/rvc_control/motion_controller_plugin.html">Motion Controller Plugin</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../rvc/components/rvc_control/grasp_plugin.html">Grasp Plugin</a></li>
+</ul>
+</details></li>
+<li class="toctree-l3"><a class="reference internal" href="../rvc/components/rvc_api.html">API messages</a></li>
+</ul>
+</details></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../rvc/use_cases.html">Exemplary Use Cases</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l3 has-children"><a class="reference internal" href="../rvc/use_cases/dynamic_use_case.html">Dynamic Vision Use Case</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l4"><a class="reference internal" href="../rvc/use_cases/dynamic_use_case/system_config.html">Preliminary System Configuration</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../rvc/use_cases/dynamic_use_case/visualization.html">RVC Visualization</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../rvc/use_cases/dynamic_use_case/state_machine_node.html">State Machine Main Node</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../rvc/use_cases/dynamic_use_case/vision_main_node.html">Vision Component Container</a></li>
+</ul>
+</details></li>
+<li class="toctree-l3"><a class="reference internal" href="../rvc/use_cases/static_use_case.html">Static Vision Use Case</a></li>
+</ul>
+</details></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../rvc/development.html">Developer Resources</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l3"><a class="reference internal" href="../rvc/development/main_application.html">Main Application</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../rvc/development/api.html">API Development</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../rvc/development/rvc_vision/rvc_vision_api.html">RVC Vision API</a></li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="../rvc/development/rvc_control.html">RVC Control API</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l4"><a class="reference internal" href="../rvc/development/rvc_control/rvc_interface_apis/interface_apis.html">RVC Control Plugin Interface APIs</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../rvc/development/rvc_control/grasp_interface.html">Grasp Interface Plugin</a></li>
+<li class="toctree-l4 has-children"><a class="reference internal" href="../rvc/development/rvc_control/motion_controller_interface.html">MotionController Plugins</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l5"><a class="reference internal" href="../rvc/development/rvc_control/rvc_interface_apis/interface_apis.html">RVC Control Plugin Interface APIs</a></li>
+</ul>
+</details></li>
+</ul>
+</details></li>
+<li class="toctree-l3"><a class="reference internal" href="../rvc/development/modify_hardware_setup.html">Modify Hardware Setup</a></li>
+</ul>
+</details></li>
+<li class="toctree-l2"><a class="reference internal" href="../rvc/releasenotes.html">Release Notes</a></li>
+</ul>
+</details></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">---------------</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../troubleshooting.html">Troubleshooting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../glossary.html">Glossary</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://docs.openedgeplatform.intel.com/dev/OEP-articles/contribution-guide.html">Get Help or Contribute</a></li>
+</ul>
+</div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+      <div class="sidebar-primary-item">
+<div id="ethical-ad-placement"
+      class="flat"
+      data-ea-publisher="readthedocs"
+      data-ea-type="readthedocs-sidebar"
+      data-ea-manual="true">
+</div></div>
+  </div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item">
+
+<nav aria-label="Breadcrumb" class="d-print-none">
+  <ul class="bd-breadcrumbs">
+    
+    <li class="breadcrumb-item breadcrumb-home">
+      <a href="../../../index.html" class="nav-link" aria-label="Home">
+        <i class="fa-solid fa-home"></i>
+      </a>
+    </li>
+    
+    <li class="breadcrumb-item"><a href="../../../ai-suite-robotics.html" class="nav-link">Robotics AI Suite</a></li>
+    
+    <li class="breadcrumb-item active" aria-current="page"><span class="ellipsis">Autonomous Mobile Robot</span></li>
+  </ul>
+</nav>
+</div>
+      
+    </div>
+  
+  
+</div>
+</div>
+              
+              
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <div class="component_card_widget">
+  <a class="icon_github" href="https://github.com/open-edge-platform/edge-ai-suites/tree/main/robotics-ai-suite">
+     GitHub
+  </a>
+  <a class="icon_document" href="https://github.com/open-edge-platform/edge-ai-suites/blob/main/robotics-ai-suite/docs/robotics/release-notes.md">
+     Release Notes
+  </a>
+  <a class="icon_document" href="https://github.com/open-edge-platform/edge-ai-suites/blob/main/robotics-ai-suite/README.md">
+     Readme
+  </a>
+</div>
+<section id="autonomous-mobile-robot">
+<h1>Autonomous Mobile Robot<a class="headerlink" href="#autonomous-mobile-robot" title="Link to this heading">#</a></h1>
+<p>The Autonomous Mobile Robot provides software packages and pre-validated hardware modules for sensor data ingestion, classification, environment modeling, action planning, action control. Built on the (ROS 2 Humble) robot operating system, it also features reference algorithms and working examples.</p>
+<p>Beyond autonomous mobility, this package demonstrates map building and Simultaneous Localization And Mapping (SLAM) loop closure functionality. It utilizes an open source version of visual SLAM with input from an Intel® RealSense™ camera. Optionally, the package allows you to run Light Detection and Ranging (LiDAR) based SLAM and compare those results with visual SLAM results on accuracy and performance indicators. Additionally, it detects and highlights the objects on the map. Depending on the platform that is used, workloads are executed on an integrated GPU or on Intel® CPU.</p>
+<p>The Autonomous Mobile Robot addresses industrial, manufacturing, consumer market, and smart cities use cases, facilitating data collection, storage, and analytics across various nodes on the factory floor.
+Develop, build, and deploy end-to-end mobile robot applications with this purpose-built, open, and modular software development kit that includes libraries, middleware, and sample applications based on the open source ROS 2 Humble robot operating system.</p>
+<section id="architecture">
+<h2>Architecture<a class="headerlink" href="#architecture" title="Link to this heading">#</a></h2>
+<p>The Autonomous Mobile Robot collection groups its components into <strong>sensing</strong>, <strong>perception</strong>, <strong>SLAM &amp; mapping</strong>, <strong>navigation</strong>, and the <strong>application</strong> layer — all on ROS 2 and accelerated on Intel® Core™ / Core™ Ultra. Intel-optimized components (marked ★) sit alongside upstream ROS 2 packages such as Nav2.</p>
+<p><img alt="Autonomous Mobile Robot application component grouping" src="../../../_images/AMR-Application-Grouping.png" /></p>
+<p>The reference <code class="docutils literal notranslate"><span class="pre">Wandering</span></code> application ties these together end-to-end. Sensors feed perception and SLAM; the Wandering application — two Intel ROS 2 nodes, <code class="docutils literal notranslate"><span class="pre">WanderingMapper</span></code> (builds the occupancy map and picks the next unexplored frontier) and <code class="docutils literal notranslate"><span class="pre">GoalCatcher</span></code> (issues <code class="docutils literal notranslate"><span class="pre">NavigateToPose</span></code> goals) — drives exploration through Nav2, while obstacles from Object Detection, ADBScan, and GroundFloor Segmentation continuously update the Nav2 costmap. Nav2 then commands the robot base.</p>
+<p><img alt="AMR reference application: Wandering plus Nav2" src="../../../_images/AMR-Reference-Application.png" /></p>
+<p>For how this collection fits into the full stack, see the <a class="reference external" href="https://docs.openedgeplatform.intel.com/dev/ai-suite-robotics.html">Robotics AI Suite architecture overview</a>.</p>
+<p>Click each icon to learn more.</p>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-1 sd-row-cols-xs-1 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover homepage-card-container-big docutils">
+<div class="sd-card-body docutils">
+<div class="sd-card-title sd-font-weight-bold docutils">
+Get Started with Autonomous Mobile Robot</div>
+<p class="sd-card-text">Install a Robot Kit.</p>
+</div>
+<a class="sd-stretched-link sd-hide-link-text reference external" href="./gsg_robot/index.html"><span>./gsg_robot/index.html</span></a></div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover homepage-card-container-big docutils">
+<div class="sd-card-body docutils">
+<div class="sd-card-title sd-font-weight-bold docutils">
+How it works</div>
+<p class="sd-card-text">Describes how the software works.</p>
+</div>
+<a class="sd-stretched-link sd-hide-link-text reference external" href="./dev_guide/index_howitworks.html"><span>./dev_guide/index_howitworks.html</span></a></div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover homepage-card-container-big docutils">
+<div class="sd-card-body docutils">
+<div class="sd-card-title sd-font-weight-bold docutils">
+Tutorials</div>
+<p class="sd-card-text">Provides a learning path for developers to use and configure Autonomous Mobile Robot.</p>
+</div>
+<a class="sd-stretched-link sd-hide-link-text reference external" href="./dev_guide/index_tutorials.html"><span>./dev_guide/index_tutorials.html</span></a></div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover homepage-card-container-big docutils">
+<div class="sd-card-body docutils">
+<div class="sd-card-title sd-font-weight-bold docutils">
+System Integrators</div>
+<p class="sd-card-text">Information specifically for System Integrators.</p>
+</div>
+<a class="sd-stretched-link sd-hide-link-text reference external" href="./dev_guide/index_systemintegrator.html"><span>./dev_guide/index_systemintegrator.html</span></a></div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover homepage-card-container-big docutils">
+<div class="sd-card-body docutils">
+<div class="sd-card-title sd-font-weight-bold docutils">
+GMSL Guide</div>
+<p class="sd-card-text">Using GMSL cameras with the Autonomous Mobile Robot.</p>
+</div>
+<a class="sd-stretched-link sd-hide-link-text reference external" href="./dev_guide/index_gmslguide.html"><span>./dev_guide/index_gmslguide.html</span></a></div>
+</div>
+</div>
+</div>
+<div class="toctree-wrapper compound">
+</div>
+</section>
+</section>
+
+
+                </article>
+              
+              
+              
+              
+              
+            </div>
+            
+            
+              
+                <dialog id="pst-secondary-sidebar-modal"></dialog>
+                <div id="pst-secondary-sidebar" class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+<div
+    id="pst-page-navigation-heading-2"
+    class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> On this page
+  </div>
+  <nav class="bd-toc-nav page-toc" aria-labelledby="pst-page-navigation-heading-2">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#architecture">Architecture</a></li>
+</ul>
+  </nav></div>
+
+  <div class="sidebar-secondary-item">
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../../../_sources/edge-ai-suites/robotics-ai-suite/robotics/index.md.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+          </footer>
+        
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script defer src="../../../_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf"></script>
+<script defer src="../../../_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf"></script>
+
+  <footer class="bd-footer"><!-- Placeholder for the common footer loaded from the central source.  -->
+<div id="footer-custom-content" data-include="footer-unified"></div>
+<script src="https://docs.openedgeplatform.intel.com/template/common-includes/include-html.js"></script>
+  </footer>
+  </body>
+</html>

@@ -1,0 +1,78 @@
+<!doctype html><html lang="en"><head><meta charset="UTF-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>Intel-CCE</title><style>/* html{
+            font-size: 16px !important;
+        }  */
+    @media (max-width: 1440px) {
+      html {
+        font-size: 12px !important;
+      }
+    }
+
+    @media (min-width: 1441px) {
+      html {
+        font-size: 16px !important;
+      }
+    }
+
+    html,
+    body,
+    #app {
+      /* height: 100%;
+            min-height: 100%; */
+      padding: 0;
+      margin: 0;
+      /* background-color:  */
+      /* background: #F8FAFB;; */
+    }
+
+    .scene {
+      width: 100%;
+      height: 100%;
+      -webkit-perspective: 600;
+      perspective: 600;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      background-color: #f3f3f3;
+      position: absolute;
+      z-index: 10000;
+    }
+
+    .scene>img {
+      width: 240px;
+      height: 240px;
+    }
+
+    .rbc-time-header>.rbc-row:last-of-type {
+      display: none !important;
+    }
+
+    .rbc-current-time-indicator {
+      display: none !important;
+    }
+
+    #recode50header .content {
+      display: none;
+    }</style><script>window.sysConfig = {
+      username: "",
+      photo: "",
+    };</script><script src="https://www.intel.com/content/dam/www/global/wap/performance-config.js"></script> <script src="../assets/js/flexible.js"></script><script src="../assets/js/qrcode.js"></script><script src="https://www.intel.com/content/dam/www/global/wap/performance-config.js"></script> <script type="module" src="/assets/js/vendors.js"></script><script type="module" src="/assets/js/main.js"></script><link href="/assets/css/vendors.css" rel="stylesheet"><link href="/assets/css/main.css" rel="stylesheet"></head><body><div id="svganimate" class="scene"><img src="../assets/images/loading.svg" alt=""/></div><div id="app" style="background-color: #fff"></div><script src="../assets/js/es6-shim.min.js" defer="defer"></script><script src="https://res.wx.qq.com/connect/zh_CN/htmledition/js/wxLogin.js"></script></body><script>// Configure TMS settings
+  window.wapProfile = 'profile-microsite'; // This is mapped by WAP authorize value
+  window.wapLocalCode = 'cn-zh'; // Dynamically set per localized site, see mapping table for values
+  window.wapSection = 'intel-customer-collaboration-environment'; // WAP team will give you a unique section for your site
+  window.wapEnv = 'prod'; // environment to be use in Adobe Tags. 
+  let wapSinglePage = false; // Include this variable only if your site is a single page application, such as one developed with the React framework
+  // Load TMS
+  (() => {
+    let url = 'https://www.intel.com/content/dam/www/global/wap/main/wap-microsite.js';
+    let po = document.createElement('script'); po.type = 'text/javascript'; po.async = true; po.src = url;
+    let s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();</script></html>

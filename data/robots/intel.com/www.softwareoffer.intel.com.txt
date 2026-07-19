@@ -1,0 +1,900 @@
+
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="application-name" content="Software Advantage Program">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <title>Intel | Software Advantage Program</title>
+
+    <link rel="icon" href="/favicon.ico?v=20201028" />
+    <link rel="shortcut icon" href="/images/favicon.ico?v=20201028" type="image/x-icon" />
+    <link rel="icon" href="/images/favicon.ico?v=20201028" type="image/x-icon" />
+
+    <link rel="stylesheet" href="/css/jquery-ui.min.css" />
+
+    <link id="siteStyle" rel="stylesheet" href="/css/consumer-redemption-2021-design.min.css?v=Upx6aCl_SdjX3_Sl7dcY5OJo3HU2KVHLB8sDIrB9sA8" />
+    <link id="downloadPlatformStyle" rel="stylesheet" href="/css/download-platform.min.css?v=MzCYGXJBYwrfl2L-AcsHoaLid39pSOgL0SOICwGdHsc" />
+    <link rel="stylesheet" href="/css/vendors.min.css?v=af98aRE4ELaxFQfnRhrGBHljhahfPFYxXlbo0o637vQ" />
+    <link rel="stylesheet" href="/font/fontawesome.min.css?v=AD7bAA_E3KABsLnLo0mo2GcK_Q8BzJFBItjm-rk34KA" />
+    <link rel="stylesheet" href="/css/vueComponents/tile.min.css?v=uG-zLlMtS6BTf3AJAqlglAsFpI6zY1rmFizHTVnlLBo" />
+    <link rel="stylesheet" href="/css/responsive-2021-design.min.css?v=wMhGCmIf_JK3YCmM2w-VnmT8cLJBAxanHfeNaXsdHkg" />
+
+    
+
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.1.min.js" crossorigin="anonymous">
+    </script>
+<script>(window.jQuery||document.write("\u003Cscript src=\u0022/lib/jquery/dist/jquery.min.js\u0022 crossorigin=\u0022anonymous\u0022\u003E\u003C/script\u003E"));</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.21.0/jquery.validate.min.js" crossorigin="anonymous" integrity="sha384-INLNT6YPpjCRFM2xpOexEE3T4i2mIigf+Kr19b7a59RFtrVBZQzZWXkGuiMA/q1r">
+    </script>
+<script>(window.jQuery && window.jQuery.validator||document.write("\u003Cscript src=\u0022/lib/jquery-validation/dist/jquery.validate.min.js\u0022 crossorigin=\u0022anonymous\u0022 integrity=\u0022sha384-INLNT6YPpjCRFM2xpOexEE3T4i2mIigf\u002BKr19b7a59RFtrVBZQzZWXkGuiMA/q1r\u0022\u003E\u003C/script\u003E"));</script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery.validation.unobtrusive/3.2.9/jquery.validate.unobtrusive.min.js" crossorigin="anonymous" integrity="sha384-ifv0TYDWxBHzvAk2Z0n8R434FL1Rlv/Av18DXE43N/1rvHyOG4izKst0f2iSLdds">
+    </script>
+<script>(window.jQuery && window.jQuery.validator && window.jQuery.validator.unobtrusive||document.write("\u003Cscript src=\u0022/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js\u0022 crossorigin=\u0022anonymous\u0022 integrity=\u0022sha384-ifv0TYDWxBHzvAk2Z0n8R434FL1Rlv/Av18DXE43N/1rvHyOG4izKst0f2iSLdds\u0022\u003E\u003C/script\u003E"));</script>
+
+
+    
+    <style type="text/css">
+            .bannerBackground {
+                background-image: url("https://intelredemptionstorage.blob.core.windows.net/assets/intelBannerBackground_637956826264868104.png");
+            }
+            .bannerBackgroundBefore::before {
+                background-image: url("https://intelredemptionstorage.blob.core.windows.net/assets/intelBannerBackground_637956826264868104.png");
+            }
+    </style>
+
+
+    <script src="/lib/jquery-ui/dist/jquery-ui.min.js"></script>
+
+    <script>
+        var isLanguageListShown = false;
+        var isAccountListShown = false;
+        function toggleLanguages() {
+            isLanguageListShown = !isLanguageListShown;
+            var languageList = document.getElementById("languageList");
+            var accountList = document.getElementById("accountList");
+            var accountLink = document.getElementById("accountLink");
+
+            if (isLanguageListShown) {
+                languageList.style.display = 'block';
+                isAccountListShown = false;
+
+                if (accountList) {
+                    accountList.style.display = 'none';
+                }
+
+                if (accountLink) {
+                    accountLink.style.backgroundColor = ' #FFFFFF';
+                    accountLink.style.color = '#0071C5';
+                }
+            } else {
+                languageList.style.display = 'none';
+            }
+
+            isMenuShown = false;
+        }
+
+        function toggleAccount() {
+            var languageList = document.getElementById("languageList");
+            var accountList = document.getElementById("accountList");
+            var accountLink = document.getElementById("accountLink");
+            var $accountMenuIcons = $('.accountMenuIcon');
+
+            isAccountListShown = !isAccountListShown;
+
+            if (isAccountListShown) {
+                accountList.style.display = 'block';
+                accountLink.style.backgroundColor = '#0071C5';
+                accountLink.style.color = 'white';
+                languageList.style.display = 'none';
+                isLanguageListShown = false;
+                $accountMenuIcons.addClass('open');
+            } else {
+                accountList.style.display = 'none';
+                accountLink.style.backgroundColor = ' #FFFFFF';
+                accountLink.style.color = '#0071C5';
+                $accountMenuIcons.removeClass('open');
+            }
+
+            isMenuShown = false;
+        }
+
+        var onSupportPage = false;
+
+        $(document).ready(function () {
+            masterKeyId = '';
+            surveyId = '';
+            languageId = '';
+
+            if (onSupportPage) {
+                $('.supportLink').click();
+            }
+        });
+    </script>
+
+    <style>
+        .modal .modal-MandatorySurveyLarge {
+            max-width: 85%;
+            width: 60%;
+            border-radius: 0px !important;
+            background-color: transparent;
+        }
+
+        .supportFormModal {
+            font-family: "intel-clear" !important;
+        }
+
+        .accountListItemText {
+            font-family: intel-clear;
+            font-size: 16px;
+            color: #0071c5;
+        }
+
+            .accountListItemText:hover {
+                color: #FFFFFF;
+                font-family: intel-clear;
+                font-size: 16px;
+            }
+
+        .accountMenuIcon, .accountMenuSubIcon {
+            fill: #0068b5;
+        }
+
+            .accountMenuIcon.open {
+                fill: #ffffff;
+            }
+
+        #accountList li:hover .accountMenuSubIcon {
+            fill: #ffffff;
+        }
+    </style>
+
+        <script type="text/javascript" src="https://www.intel.com/content/dam/www/global/wap/performance-config.js"></script>
+</head>
+<body id="mainBody" dir="ltr">
+    <header id="app-header" dir="ltr" v-cloak>
+        <b-navbar class="headerNav bg-dark navbar-dark d-flex">
+                <div class="leftLinks">
+                    <a class="header-icon intel-icon" href="/Dashboard"></a>
+                </div>
+                <div class="centerLinks">
+                    <a href="/Dashboard"> Software Advantage Program</a>
+                </div>
+            <div class="rightLinks d-lg-none">
+                <b-navbar-toggle v-b-toggle.collapse-menu class="custom-toggler-left"></b-navbar-toggle>
+            </div>
+            <div class="rightLinks d-none d-lg-flex">
+                    <ul class="navbar-nav">
+                        <a style="cursor:pointer; color: #0071c5; text-decoration: none;" href="/MicrosoftIdentity/Account/SignIn?redirectUri=%2FDashboard">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="15.992" height="19.009" viewBox="0 0 15.992 19.009">
+                                <rect style="fill: #0068b5;" width="2.018" height="1.978" transform="translate(0 17.022)" />
+                                <path style="fill: #0068b5;" d="M19.982,18.981a7.991,7.991,0,0,0-6.193-7.372,4.994,4.994,0,1,0-3.666,0A7.991,7.991,0,0,0,4,18.052H6a6.063,6.063,0,0,1,11.986.929H7v2H19.982v-2ZM8.994,6.934a3,3,0,1,1,3,3,3,3,0,0,1-3-3Z" transform="translate(-3.99 -1.969)" />
+                            </svg>
+                            &nbsp;
+                            Log In/Sign Up
+                        </a>
+                    </ul>
+
+                    <a style="text-decoration: none;" target="_blank" href="/Support">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20.627" height="15.494" viewBox="0 0 20.627 15.494">
+                            <g transform="translate(-2.09 -5)">
+                                <path style="fill: #0068b5;" d="M21.348,9.132a2.778,2.778,0,0,0-.062-.589l1.033-.589L21.286,6.167l-1.033.6a3.181,3.181,0,0,0-.981-.558V5H17.206V6.219a3.233,3.233,0,0,0-.961.568l-1.033-.62L14.18,7.954l1.033.62a2.985,2.985,0,0,0,0,1.105l-1.033.62,1.033,1.787,1.033-.62a3.233,3.233,0,0,0,.961.568v1.229h2.066V12.044a2.985,2.985,0,0,0,.981-.558l1.033.6L22.319,10.3,21.286,9.71a2.758,2.758,0,0,0,.062-.578Zm-3.1,1.033a1.046,1.046,0,1,0-.01,0Z" transform="translate(0.398 0)" />
+                                <path style="fill: #0068b5;" d="M18.7,15.757l-4.07-.527a1.921,1.921,0,0,0,.114-.537,2.489,2.489,0,0,0-.826-2.066L9.537,8.671A2.789,2.789,0,0,0,7.73,8H5.189v2.066H7.73a.692.692,0,0,1,.434.165L12.543,14.1a.392.392,0,0,1,.145.351.413.413,0,0,1-.207.331.444.444,0,0,1-.475,0l-3.357-2.3L7.482,14.2l3.367,2.283a2.376,2.376,0,0,0,1.136.392h0l6.435.93a.248.248,0,0,1,.227.248.269.269,0,0,1-.269.258H10.343L4.992,14.2H2.09v2.066H4.259l5.35,4.132h8.749a2.324,2.324,0,0,0,.331-4.627Z" transform="translate(0 0.099)" />
+                                <rect style="fill: #0068b5;" width="2.066" height="2.066" transform="translate(2.09 8.099)" />
+                            </g>
+                        </svg>
+                        &nbsp;
+                        Support
+                    </a>
+
+                    <a style="cursor:pointer; color: #0071c5;" onclick="toggleLanguages()">
+                        <svg class="languageIcon" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="20px" height="20px" viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve">
+                        <g>
+                        <defs>
+                        <rect id="SVGID_1_" width="20" height="20"></rect>
+                                </defs>
+                        <clipPath id="SVGID_2_">
+                        <use xlink:href="#SVGID_1_" overflow="visible"></use>
+                                </clipPath>
+                        <path clip-path="url(#SVGID_2_)" d="M9,1.25C4.727,1.25,1.25,4.726,1.25,9c0,4.273,3.477,7.75,7.75,7.75
+                                    c4.272,0,7.75-3.477,7.75-7.75C16.75,4.726,13.272,1.25,9,1.25 M15.205,8.25h-2.899c-0.084-2.035-0.507-3.843-1.135-5.112
+                                    C13.326,3.939,14.922,5.896,15.205,8.25 M2.795,9.75h2.899c0.084,2.035,0.507,3.843,1.136,5.111
+                                    C4.675,14.062,3.078,12.104,2.795,9.75 M5.694,8.25H2.795c0.283-2.355,1.88-4.311,4.035-5.112C6.201,4.407,5.778,6.215,5.694,8.25
+                                    M9,15.248c-0.424-0.103-1.653-1.896-1.806-5.498h3.612C10.653,13.352,9.424,15.146,9,15.248 M7.194,8.25
+                                    c0.154-3.621,1.394-5.415,1.792-5.5h0.007c0.418,0.085,1.66,1.879,1.813,5.5H7.194z M11.171,14.861
+                                    c0.628-1.269,1.051-3.076,1.135-5.111h2.899C14.922,12.104,13.326,14.061,11.171,14.861"></path>
+                            </g>
+                        </svg>
+                        English (English)
+                    </a>
+            </div>
+            <b-collapse is-nav id="collapse-menu" class="d-lg-none" style="z-index: 1; background-color: white;">
+                <ul class="nav navbar-nav">
+                    <li class="nav-item">
+                            <a class="nav-link" href="/MicrosoftIdentity/Account/SignIn?redirectUri=%2FDashboard">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="15.992" height="19.009" viewBox="0 0 15.992 19.009">
+                                    <rect style="fill: #0068b5;" width="2.018" height="1.978" transform="translate(0 17.022)" />
+                                    <path style="fill: #0068b5;" d="M19.982,18.981a7.991,7.991,0,0,0-6.193-7.372,4.994,4.994,0,1,0-3.666,0A7.991,7.991,0,0,0,4,18.052H6a6.063,6.063,0,0,1,11.986.929H7v2H19.982v-2ZM8.994,6.934a3,3,0,1,1,3,3,3,3,0,0,1-3-3Z" transform="translate(-3.99 -1.969)" />
+                                </svg>
+                                &nbsp;&nbsp;
+                                Log In/Sign Up
+                            </a>
+                    </li>
+                        <li class="nav-item">
+                            <b-navbar-toggle v-b-toggle.collapse-language-menu class="nav-link w-100" @click.native.stop=''>
+                                <svg class="languageIcon" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="20px" height="20px" viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve">
+                                <g>
+                                <defs>
+                                <rect id="SVGID_1_" width="20" height="20"></rect>
+                                    </defs>
+                                <clipPath id="SVGID_2_">
+                                <use xlink:href="#SVGID_1_" overflow="visible"></use>
+                                    </clipPath>
+                                <path clip-path="url(#SVGID_2_)" d="M9,1.25C4.727,1.25,1.25,4.726,1.25,9c0,4.273,3.477,7.75,7.75,7.75
+                                        c4.272,0,7.75-3.477,7.75-7.75C16.75,4.726,13.272,1.25,9,1.25 M15.205,8.25h-2.899c-0.084-2.035-0.507-3.843-1.135-5.112
+                                        C13.326,3.939,14.922,5.896,15.205,8.25 M2.795,9.75h2.899c0.084,2.035,0.507,3.843,1.136,5.111
+                                        C4.675,14.062,3.078,12.104,2.795,9.75 M5.694,8.25H2.795c0.283-2.355,1.88-4.311,4.035-5.112C6.201,4.407,5.778,6.215,5.694,8.25
+                                        M9,15.248c-0.424-0.103-1.653-1.896-1.806-5.498h3.612C10.653,13.352,9.424,15.146,9,15.248 M7.194,8.25
+                                        c0.154-3.621,1.394-5.415,1.792-5.5h0.007c0.418,0.085,1.66,1.879,1.813,5.5H7.194z M11.171,14.861
+                                        c0.628-1.269,1.051-3.076,1.135-5.111h2.899C14.922,12.104,13.326,14.061,11.171,14.861"></path>
+                                    </g>
+                                </svg>
+                                &nbsp;&nbsp;
+                                English (English)
+                            </b-navbar-toggle>
+                            <b-collapse is-nav id="collapse-language-menu">
+                                <form method="post" action="/Language/SetAsync">
+                                    <ul class=" = nav navbar-nav">
+                                                        <li class="nav-item">
+                                                                <a class="nav-link" href="" onclick="setSessionLanguage('6e59ae70-6f39-4315-b6fd-44c698b4ef60');return false;">
+                                                                    English (English)
+                                                                </a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                                <a class="nav-link" href="" onclick="setSessionLanguage('ac885f6f-5fbf-4820-93a1-136f47f443e2');return false;">
+                                                                    Arabic (Arab&#x161;tina)
+                                                                </a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                                <a class="nav-link" href="" onclick="setSessionLanguage('625b2c30-bc5e-4582-81e0-d41642f1cf2b');return false;">
+                                                                    Czech (&#x10C;e&#x161;tina)
+                                                                </a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                                <a class="nav-link" href="" onclick="setSessionLanguage('33f03a27-ac19-4f0d-98c7-8b391fb5befb');return false;">
+                                                                    Dutch (Nederlands)
+                                                                </a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                                <a class="nav-link" href="" onclick="setSessionLanguage('d0cd8c22-21a0-4fc4-9b88-ad13a655a004');return false;">
+                                                                    French (Fran&#xE7;ais)
+                                                                </a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                                <a class="nav-link" href="" onclick="setSessionLanguage('d06f8426-0e76-4138-aabb-5a46a4ef8b6c');return false;">
+                                                                    German (Deutsche)
+                                                                </a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                                <a class="nav-link" href="" onclick="setSessionLanguage('c999c195-703e-47ba-9a17-648e99f986b5');return false;">
+                                                                    Hungarian (Magyar)
+                                                                </a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                                <a class="nav-link" href="" onclick="setSessionLanguage('506ae8c8-eab2-4c92-ae23-d4a3b694d915');return false;">
+                                                                    Indonesian (Bahasa Indonesia)
+                                                                </a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                                <a class="nav-link" href="" onclick="setSessionLanguage('574f7c7e-8204-4d15-9f91-63879bd32d80');return false;">
+                                                                    Italian (Italiano)
+                                                                </a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                                <a class="nav-link" href="" onclick="setSessionLanguage('c760c3f5-ab07-438e-97c5-db49298949d6');return false;">
+                                                                    Japanese (&#x65E5;&#x672C;&#x8A9E;)
+                                                                </a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                                <a class="nav-link" href="" onclick="setSessionLanguage('ce681079-31f1-4585-9cc8-89d898f9c036');return false;">
+                                                                    Korean (&#xD55C;&#xAD6D;&#xC5B4;)
+                                                                </a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                                <a class="nav-link" href="" onclick="setSessionLanguage('0ff1782b-b4e2-4256-9022-f8817aa3f043');return false;">
+                                                                    Polish (Polski)
+                                                                </a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                                <a class="nav-link" href="" onclick="setSessionLanguage('77efd2fa-6c46-47d3-8d2f-b256607929df');return false;">
+                                                                    Portuguese (Portugu&#xEA;s)
+                                                                </a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                                <a class="nav-link" href="" onclick="setSessionLanguage('be2efb5a-cc9c-403a-94a0-07c8f0998c97');return false;">
+                                                                    Portuguese (BR) (Portugu&#xEA;s)
+                                                                </a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                                <a class="nav-link" href="" onclick="setSessionLanguage('ff9912db-3146-4585-ae70-f58faa8f66c1');return false;">
+                                                                    Romanian (Rom&#xE2;n&#x103;)
+                                                                </a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                                <a class="nav-link" href="" onclick="setSessionLanguage('6254abfc-c4df-43cb-8fbf-4eb0059d507a');return false;">
+                                                                    Russian (P&#x443;&#x441;&#x441;&#x43A;&#x438;&#x439;)
+                                                                </a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                                <a class="nav-link" href="" onclick="setSessionLanguage('cfa2b0e3-174d-435f-aa63-64470a5cb820');return false;">
+                                                                    Simplified Chinese (PRC) (&#x7B80;&#x4F53;&#x4E2D;&#x6587;)
+                                                                </a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                                <a class="nav-link" href="" onclick="setSessionLanguage('f45c0511-7ac1-4b91-a556-4bc16f6dfec5');return false;">
+                                                                    Spanish (ES) (Espa&#xF1;ol)
+                                                                </a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                                <a class="nav-link" href="" onclick="setSessionLanguage('93956ec7-59be-4ae3-83cd-5258eb0051ba');return false;">
+                                                                    Spanish (LA) (Espa&#xF1;ol)
+                                                                </a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                                <a class="nav-link" href="" onclick="setSessionLanguage('d7b504cb-293e-4c26-b71c-0124ee722685');return false;">
+                                                                    Thai (&#xE44;&#xE17;&#xE22;)
+                                                                </a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                                <a class="nav-link" href="" onclick="setSessionLanguage('1c0eafda-52e7-42ab-a65a-8fc8312febbd');return false;">
+                                                                    Traditional Chinese (TW) (&#x7E41;&#x9AD4;&#x4E2D;&#x6587;)
+                                                                </a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                                <a class="nav-link" href="" onclick="setSessionLanguage('b0efab62-6555-4e8a-9209-05a67657f069');return false;">
+                                                                    Turkish (T&#xFC;rk)
+                                                                </a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                                <a class="nav-link" href="" onclick="setSessionLanguage('8b987c96-3be5-4bdb-98c7-f2a02d65d05e');return false;">
+                                                                    Vietnamese (Ti&#x1EBF;ng Vi&#x1EC7;t)
+                                                                </a>
+                                                        </li>
+                                    </ul>
+                                <input name="__RequestVerificationToken" type="hidden" value="CfDJ8DR3Bwgqg4lAg9o5YQicRCVODu8XFwWFGxAJGfRqJUiDdAyQN19FYSUmZi-zphy4KtUpvJBNX_PXz_6VbpbVz2RB_GIzgrie0tJ4gOvaVg71Y2EFQsuUCFOcJiOoE685wBbXE2dT5E0CvS_72KJovqE" /></form>
+                            </b-collapse>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Support">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20.627" height="15.494" viewBox="0 0 20.627 15.494">
+                                    <g transform="translate(-2.09 -5)">
+                                        <path style="fill: #0068b5;" d="M21.348,9.132a2.778,2.778,0,0,0-.062-.589l1.033-.589L21.286,6.167l-1.033.6a3.181,3.181,0,0,0-.981-.558V5H17.206V6.219a3.233,3.233,0,0,0-.961.568l-1.033-.62L14.18,7.954l1.033.62a2.985,2.985,0,0,0,0,1.105l-1.033.62,1.033,1.787,1.033-.62a3.233,3.233,0,0,0,.961.568v1.229h2.066V12.044a2.985,2.985,0,0,0,.981-.558l1.033.6L22.319,10.3,21.286,9.71a2.758,2.758,0,0,0,.062-.578Zm-3.1,1.033a1.046,1.046,0,1,0-.01,0Z" transform="translate(0.398 0)" />
+                                        <path style="fill: #0068b5;" d="M18.7,15.757l-4.07-.527a1.921,1.921,0,0,0,.114-.537,2.489,2.489,0,0,0-.826-2.066L9.537,8.671A2.789,2.789,0,0,0,7.73,8H5.189v2.066H7.73a.692.692,0,0,1,.434.165L12.543,14.1a.392.392,0,0,1,.145.351.413.413,0,0,1-.207.331.444.444,0,0,1-.475,0l-3.357-2.3L7.482,14.2l3.367,2.283a2.376,2.376,0,0,0,1.136.392h0l6.435.93a.248.248,0,0,1,.227.248.269.269,0,0,1-.269.258H10.343L4.992,14.2H2.09v2.066H4.259l5.35,4.132h8.749a2.324,2.324,0,0,0,.331-4.627Z" transform="translate(0 0.099)" />
+                                        <rect style="fill: #0068b5;" width="2.066" height="2.066" transform="translate(2.09 8.099)" />
+                                    </g>
+                                </svg>
+                                &nbsp;&nbsp;
+                                Support
+                            </a>
+                        </li>
+                </ul>
+            </b-collapse>
+
+
+
+        </b-navbar>
+    </header>
+
+    <div id="modalContainer" class="supportFormModal">
+        <b-modal size="SupportLarge" v-model="showSupport" no-close-on-backdrop no-close-on-esc hide-header hide-footer v-cloak>
+            <div id="SubmitSupportTicketContent"></div>
+        </b-modal>
+        <b-modal v-model="showLoader" no-close-on-esc no-close-on-backdrop hide-header-close hide-footer v-cloak>
+    <div id="loadingSpinner" class="text-center">
+        <div class="spinner-grow spinner-grow text-primary" role="status">
+        </div>
+        <div class="spinner-grow text-primary" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+        <div class="spinner-grow spinner-grow text-primary" role="status">
+        </div>
+    </div>
+</b-modal>
+        <b-modal title="Ticket Submitted" @hide="HideSupportFormPage" v-model="showSupportConfirm" hide-footer v-cloak>
+            <div>Your request has been received. Please check your email for confirmation and ticket number. </div>
+        </b-modal>
+    </div>
+
+        <div dir="ltr" id="languageList" class="language-wrapper" style="width: 217.813px; right: 0px; display: none;">
+    <form class="sessionLanguageForm" method="post" action="/Language/SetAsync">
+        <ul style="margin-bottom: 0px;">
+                            <li>
+
+                                    <a href="" onclick="setSessionLanguage('6e59ae70-6f39-4315-b6fd-44c698b4ef60');return false;">English (English)</a>
+                            </li>
+                            <li>
+
+                                    <a href="" onclick="setSessionLanguage('ac885f6f-5fbf-4820-93a1-136f47f443e2');return false;">Arabic (Arab&#x161;tina)</a>
+                            </li>
+                            <li>
+
+                                    <a href="" onclick="setSessionLanguage('625b2c30-bc5e-4582-81e0-d41642f1cf2b');return false;">Czech (&#x10C;e&#x161;tina)</a>
+                            </li>
+                            <li>
+
+                                    <a href="" onclick="setSessionLanguage('33f03a27-ac19-4f0d-98c7-8b391fb5befb');return false;">Dutch (Nederlands)</a>
+                            </li>
+                            <li>
+
+                                    <a href="" onclick="setSessionLanguage('d0cd8c22-21a0-4fc4-9b88-ad13a655a004');return false;">French (Fran&#xE7;ais)</a>
+                            </li>
+                            <li>
+
+                                    <a href="" onclick="setSessionLanguage('d06f8426-0e76-4138-aabb-5a46a4ef8b6c');return false;">German (Deutsche)</a>
+                            </li>
+                            <li>
+
+                                    <a href="" onclick="setSessionLanguage('c999c195-703e-47ba-9a17-648e99f986b5');return false;">Hungarian (Magyar)</a>
+                            </li>
+                            <li>
+
+                                    <a href="" onclick="setSessionLanguage('506ae8c8-eab2-4c92-ae23-d4a3b694d915');return false;">Indonesian (Bahasa Indonesia)</a>
+                            </li>
+                            <li>
+
+                                    <a href="" onclick="setSessionLanguage('574f7c7e-8204-4d15-9f91-63879bd32d80');return false;">Italian (Italiano)</a>
+                            </li>
+                            <li>
+
+                                    <a href="" onclick="setSessionLanguage('c760c3f5-ab07-438e-97c5-db49298949d6');return false;">Japanese (&#x65E5;&#x672C;&#x8A9E;)</a>
+                            </li>
+                            <li>
+
+                                    <a href="" onclick="setSessionLanguage('ce681079-31f1-4585-9cc8-89d898f9c036');return false;">Korean (&#xD55C;&#xAD6D;&#xC5B4;)</a>
+                            </li>
+                            <li>
+
+                                    <a href="" onclick="setSessionLanguage('0ff1782b-b4e2-4256-9022-f8817aa3f043');return false;">Polish (Polski)</a>
+                            </li>
+                            <li>
+
+                                    <a href="" onclick="setSessionLanguage('77efd2fa-6c46-47d3-8d2f-b256607929df');return false;">Portuguese (Portugu&#xEA;s)</a>
+                            </li>
+                            <li>
+
+                                    <a href="" onclick="setSessionLanguage('be2efb5a-cc9c-403a-94a0-07c8f0998c97');return false;">Portuguese (BR) (Portugu&#xEA;s)</a>
+                            </li>
+                            <li>
+
+                                    <a href="" onclick="setSessionLanguage('ff9912db-3146-4585-ae70-f58faa8f66c1');return false;">Romanian (Rom&#xE2;n&#x103;)</a>
+                            </li>
+                            <li>
+
+                                    <a href="" onclick="setSessionLanguage('6254abfc-c4df-43cb-8fbf-4eb0059d507a');return false;">Russian (P&#x443;&#x441;&#x441;&#x43A;&#x438;&#x439;)</a>
+                            </li>
+                            <li>
+
+                                    <a href="" onclick="setSessionLanguage('cfa2b0e3-174d-435f-aa63-64470a5cb820');return false;">Simplified Chinese (PRC) (&#x7B80;&#x4F53;&#x4E2D;&#x6587;)</a>
+                            </li>
+                            <li>
+
+                                    <a href="" onclick="setSessionLanguage('f45c0511-7ac1-4b91-a556-4bc16f6dfec5');return false;">Spanish (ES) (Espa&#xF1;ol)</a>
+                            </li>
+                            <li>
+
+                                    <a href="" onclick="setSessionLanguage('93956ec7-59be-4ae3-83cd-5258eb0051ba');return false;">Spanish (LA) (Espa&#xF1;ol)</a>
+                            </li>
+                            <li>
+
+                                    <a href="" onclick="setSessionLanguage('d7b504cb-293e-4c26-b71c-0124ee722685');return false;">Thai (&#xE44;&#xE17;&#xE22;)</a>
+                            </li>
+                            <li>
+
+                                    <a href="" onclick="setSessionLanguage('1c0eafda-52e7-42ab-a65a-8fc8312febbd');return false;">Traditional Chinese (TW) (&#x7E41;&#x9AD4;&#x4E2D;&#x6587;)</a>
+                            </li>
+                            <li>
+
+                                    <a href="" onclick="setSessionLanguage('b0efab62-6555-4e8a-9209-05a67657f069');return false;">Turkish (T&#xFC;rk)</a>
+                            </li>
+                            <li>
+
+                                    <a href="" onclick="setSessionLanguage('8b987c96-3be5-4bdb-98c7-f2a02d65d05e');return false;">Vietnamese (Ti&#x1EBF;ng Vi&#x1EC7;t)</a>
+                            </li>
+        </ul>
+    <input name="__RequestVerificationToken" type="hidden" value="CfDJ8DR3Bwgqg4lAg9o5YQicRCVODu8XFwWFGxAJGfRqJUiDdAyQN19FYSUmZi-zphy4KtUpvJBNX_PXz_6VbpbVz2RB_GIzgrie0tJ4gOvaVg71Y2EFQsuUCFOcJiOoE685wBbXE2dT5E0CvS_72KJovqE" /></form>
+</div>
+
+    <main id="mainRedemptionContainer" class="container">
+        
+
+<div>
+    <div id="divHomePageBannersOuterContainer">
+        
+
+    <div class="divHomePageBannerInnerContainer">
+            <div class="divHomePageBanner" style="background-image: url('https://intelredemptionstorage.blob.core.windows.net/assets/Home_Slide_2_638996986077495708.png');">
+                
+
+<div class="divHomePageBannerContent">
+    <div class="divHomePageBannerTitle">
+        Unleash the power of Intel®
+    </div>
+    <div class="divHomePageBannerBody">
+        <p><span style="white-space: pre-wrap;">Welcome to the Intel</span>®<span style="white-space: pre-wrap;"> Software Advantage Program! Sign in or create an account now.</span></p>
+    </div>
+</div>
+            </div>
+    </div>
+    <div class="divHomePageBannerInnerContainer">
+            <div class="divHomePageBanner" style="background-image: url('https://intelredemptionstorage.blob.core.windows.net/assets/Home_Slide_1_638996985579959240.png');">
+                
+
+<div class="divHomePageBannerContent">
+    <div class="divHomePageBannerTitle">
+        Unleash the power of Intel®
+    </div>
+    <div class="divHomePageBannerBody">
+        <p><span style="white-space: pre-wrap;">Welcome to the Intel</span>®<span style="white-space: pre-wrap;"> Software Advantage Program! Sign in or create an account now.</span></p>
+    </div>
+</div>
+            </div>
+    </div>
+<span id="btnPrev" dir="ltr" class="btnBannerNavigation">
+    <span class="btnArrow">
+        ❮
+    </span>
+</span>
+<span id="btnNext" dir="ltr" class="btnBannerNavigation">
+    <span class="btnArrow">
+        ❯
+    </span>
+</span>
+    </div>
+
+        <div id="belowRotator">
+                <a id="linkGetStarted" href="/MicrosoftIdentity/Account/SignIn?redirectUri=%2FDashboard">
+                    <span>Log-in or create a new account to unlock your promotional offer.</span>
+                </a>
+                <a id="btnGetStarted" href="/MicrosoftIdentity/Account/SignIn?redirectUri=%2FDashboard">
+                    <span>Get Started</span> &nbsp;&nbsp;
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="15.895" viewBox="0 0 20 15.895">
+                        <path style="fill: #ffffff;" d="M22.82,15.869a1.013,1.013,0,0,1,0,.657.528.528,0,0,1-.219.274l-7.01,7.01a.751.751,0,0,1-1.232.027.751.751,0,0,1,.027-1.232l5.477-5.532H3.751a.876.876,0,1,1,0-1.752H19.864L14.387,9.79a.751.751,0,0,1-.027-1.232.751.751,0,0,1,1.232.027L22.6,15.6A.528.528,0,0,1,22.82,15.869Z" transform="translate(-2.875 -8.25)" />
+                    </svg>
+                </a>
+        </div>
+    <div id="divFeaturettesContainer" class="container-fluid">
+        
+
+<div id="divFeaturettes" class="row flex-column flex-md-row">
+        <div class="col-12 col-md-6 col-xl-4 divFeaturette">
+            
+
+<a href="/Promo/springgaming2026" >
+    <div class="divFeaturetteMediaOuterContainer">
+        <div class="divFeaturetteMediaInnerContainer">
+                        <img class="imgFeaturetteMedia image" src="https://intelredemptionstorage.blob.core.windows.net/assets/Intel_Spring_Bundle_Featurette_Banner_639132418319471034.png" />
+        </div>
+    </div>
+    <div class="divFeaturetteContentOuterContainer">
+        <div class="divFeaturetteContentInnerContainer">
+            <div id="divFeaturetteType">
+                <span>Promotion</span>
+            </div>
+            <div class="divFeaturetteTitle">
+                <span>Built for the Knight</span>
+            </div>
+            <div class="divFeaturetteTitleDescription">
+                <p>Get <b>LEGO® Batman™: Legacy of the Dark Knight</b> with purchase of qualifying Intel® Core™ Ultra products.</p><p>Offer ends July 31, 2026.</p>
+            </div>
+        </div>
+    </div>
+</a>
+
+        </div>
+        <div class="col-12 col-md-6 col-xl-4 divFeaturette">
+            
+
+<a href="https://www.softwareoffer.intel.com/offer/26Q1-01/learnmore?r=1" target=&#x27;_blank&#x27;>
+    <div class="divFeaturetteMediaOuterContainer">
+        <div class="divFeaturetteMediaInnerContainer">
+                        <img class="imgFeaturetteMedia image" src="https://intelredemptionstorage.blob.core.windows.net/assets/Featurette_Banner_26Q201_639033242897256272.png" />
+        </div>
+    </div>
+    <div class="divFeaturetteContentOuterContainer">
+        <div class="divFeaturetteContentInnerContainer">
+            <div id="divFeaturetteType">
+                <span>Promotion</span>
+            </div>
+            <div class="divFeaturetteTitle">
+                <span>Create by day and game by night.</span>
+            </div>
+            <div class="divFeaturetteTitleDescription">
+                <p>Get access to Battlefield™ 6, Everwind, and an Adobe offer with purchase of qualifying Intel® Core™ Ultra X7 and X9 processor-based devices.</p><p>Offer ends July 31, 2026.</p>
+            </div>
+        </div>
+    </div>
+</a>
+
+        </div>
+        <div class="col-12 col-md-6 col-xl-4 divFeaturette">
+            
+
+<a href="/Promo/AIPC" >
+    <div class="divFeaturetteMediaOuterContainer">
+        <div class="divFeaturetteMediaInnerContainer">
+                        <img class="imgFeaturetteMedia image" src="https://intelredemptionstorage.blob.core.windows.net/assets/Intel_Core_Ultra_AI_Featurette_Banner_639160303405652867.png" />
+        </div>
+    </div>
+    <div class="divFeaturetteContentOuterContainer">
+        <div class="divFeaturetteContentInnerContainer">
+            <div id="divFeaturetteType">
+                <span>Promotion</span>
+            </div>
+            <div class="divFeaturetteTitle">
+                <span>Work smart and create bold.</span>
+            </div>
+            <div class="divFeaturetteTitleDescription">
+                <p>Unlock access to Adobe, Capture One and more with qualifying Intel® products.</p><p>Offer ends January 31, 2027.</p>
+            </div>
+        </div>
+    </div>
+</a>
+
+        </div>
+</div>
+
+    </div>
+</div>
+
+
+    </main>
+
+    <footer dir="ltr" id="app-footer">
+        <div class="footer d-flex flex-column flex-md-row">
+            
+
+<div class="footerLeft">
+    <a href="http://intel.com" target="_blank">
+        <svg xmlns="http://www.w3.org/2000/svg" width="77.417" height="30.022" viewBox="0 0 77.417 30.022">
+            <rect style="fill: #0068b5;" width="5.612" height="5.612" transform="translate(0 0.41)" />
+            <path d="M7.248,31.347V11.157H1.93v20.19Zm35.254.2V26.6a13.506,13.506,0,0,1-1.924-.123,2.212,2.212,0,0,1-1.248-.553,2.172,2.172,0,0,1-.553-1.207,12.412,12.412,0,0,1-.125-1.95V15.706H42.5V11.157h-3.85V3.292H33.334V22.808a17.381,17.381,0,0,0,.426,4.163,5.781,5.781,0,0,0,1.417,2.679,5.665,5.665,0,0,0,2.6,1.456,15.583,15.583,0,0,0,4.056.446Zm30.483-.2V1.735H67.668V31.347Zm-44.781-18.2a8.045,8.045,0,0,0-6.187-2.4,7.818,7.818,0,0,0-3.489.778,7.524,7.524,0,0,0-2.643,2.154l-.289.374,0-.336V11.157H10.35v20.19h5.287V20.591l0,.746c0-.123,0-.244.006-.363a6.061,6.061,0,0,1,1.4-4.187,4.588,4.588,0,0,1,3.376-1.435,4.3,4.3,0,0,1,3.48,1.4,5.939,5.939,0,0,1,1.157,3.87h0v.051h0V31.347h5.368V19.886A9.589,9.589,0,0,0,28.205,13.146ZM64.9,21.211a10.852,10.852,0,0,0-.767-4.083A10.485,10.485,0,0,0,61.987,13.8a9.785,9.785,0,0,0-3.29-2.24,10.839,10.839,0,0,0-4.224-.808,10.274,10.274,0,0,0-4.1.828A10.453,10.453,0,0,0,44.8,17.153a10.284,10.284,0,0,0-.827,4.1,10.761,10.761,0,0,0,.787,4.1,9.989,9.989,0,0,0,5.554,5.573,11.173,11.173,0,0,0,4.327.828,11.459,11.459,0,0,0,8.982-3.963l-3.828-2.916a7.026,7.026,0,0,1-5.114,2.256A6.1,6.1,0,0,1,51.006,26.1a5.126,5.126,0,0,1-1.918-2.8l-.053-.187H64.9ZM49.079,19.359c0-1.478,1.7-4.058,5.354-4.062s5.359,2.578,5.359,4.056Z" transform="translate(-1.783 -1.735)" />
+            <path d="M70.5,25.79a2,2,0,0,0-1.048-1.048,1.952,1.952,0,0,0-1.53,0,2.009,2.009,0,0,0-1.048,1.048,1.952,1.952,0,0,0,0,1.53,2.02,2.02,0,0,0,1.048,1.048,1.952,1.952,0,0,0,1.53,0A2.009,2.009,0,0,0,70.5,27.32a1.952,1.952,0,0,0,0-1.53Zm-.32,1.394a1.616,1.616,0,0,1-.862.864,1.628,1.628,0,0,1-1.26,0,1.623,1.623,0,0,1-.864-.864,1.628,1.628,0,0,1,0-1.26,1.616,1.616,0,0,1,.864-.862,1.628,1.628,0,0,1,1.26,0,1.609,1.609,0,0,1,.862.862,1.628,1.628,0,0,1,0,1.26Zm-1.122-.471a.636.636,0,0,0,.383-.174.6.6,0,0,0,.152-.445.641.641,0,0,0-.194-.5.874.874,0,0,0-.6-.175h-.868v2.25h.413v-.921h.3l.56.921h.435Zm-.223-.326c-.063.006-.127.008-.19.008h-.3v-.629h.3c.063,0,.127,0,.19.006a.54.54,0,0,1,.172.036.292.292,0,0,1,.124.1.343.343,0,0,1,0,.349.292.292,0,0,1-.124.1A.572.572,0,0,1,68.838,26.388Z" transform="translate(6.758 1.277)" />
+        </svg>
+    </a>
+    <span class="d-md-none footerCopyrightIntel">© Intel Corporation</span>
+</div>
+
+<span class="d-none d-md-inline">© Intel Corporation</span>
+
+<span class="footerSeparator d-none d-md-inline">|</span>
+
+<span class="footerLink">
+    <a href="https://www.intel.com/content/www/us/en/legal/terms-of-use.html" target="_blank">
+        Terms of Use
+    </a>
+</span>
+
+<span class="footerSeparator d-none d-md-inline">|</span>
+
+<span class="footerLink">
+    <a href="http://www.intel.com/content/www/us/en/legal/trademarks.html" target="_blank">
+        Trademarks
+    </a>
+</span>
+
+<span class="footerSeparator d-none d-md-inline">|</span>
+
+<span class="footerLink">
+    <a href="http://www.intel.com/content/www/us/en/privacy/intel-cookie-notice.html" target="_blank" data-cookie-notice="true">
+        Cookies
+    </a>
+</span>
+
+<span class="footerSeparator d-none d-md-inline">|</span>
+
+<span class="footerLink">
+    <a href="http://www.intel.com/content/www/us/en/privacy/intel-online-privacy-notice-summary.html" target="_blank">
+        Privacy
+    </a>
+</span>
+
+    <span class="footerSeparator d-none d-md-inline">|</span>
+    <span class="footerLink">
+        <a href="https://tgahelp.zendesk.com/hc/en-us" target="_blank">FAQs</a>
+    </span>
+<span class="footerLink">
+    <a data-wap_ref="dns" id="wap_dns" href="https://www.intel.com/content/www/us/en/privacy/intel-cookie-notice.html">
+        Your Privacy Choices
+    </a>
+</span>
+
+<span class="footerLink">
+    <a data-wap_ref="nac" id="wap_nac" href="https://www.intel.com/content/www/us/en/privacy/privacy-residents-certain-states.html">
+        Notice at Collection
+    </a>
+</span>
+
+<!-- Start of tgahelp Zendesk Widget script -->
+<script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=92dfce63-5b07-4731-99e1-b4db53f1ee19">
+</script>
+<script type="text/javascript">
+   window.zESettings = {
+    webWidget: {
+      chat: {
+        suppress: true
+      },
+      contactForm: {
+        suppress: true
+      }
+    }
+  };
+</script>
+<script type="text/javascript">
+  zE('webWidget', 'setLocale', 'en');
+</script>
+        </div>
+    </footer>
+
+    
+    
+        <script src="/js/vendors.min.js"></script>
+        <script src="/js/Layout.min.js"></script>
+        <script>
+            Vue.config.devtools = false;
+        </script>
+    
+
+    
+    <link rel="stylesheet" href="/css/home.min.css?v=4EVY24UHhJIYtY7n1aRb9gQ-2aZIQ2jM1RbhKKOxDZo" />
+    <script>
+        var bannersContainer, banners, firstBanner, lastBanner, activeBanner, classActive, intervalRotateMS, intervalFadeMS, rotatorInterval, selectorDiv;
+        var $banners, $firstBanner, $lastBanner, $btnBannerNavigation, $btnPrev, $btnNext, $activeBanner, $divFeaturetteTitleDescriptions, $divFeaturetteContentInnerContainers, $divFeaturetteContentOuterContainers;
+
+        $(document).ready(function () {
+            initVariables();
+            initRotator();
+            initFeaturettes(false);
+            initEventHandlers();
+        });
+
+        function initVariables() {
+            bannersContainer = '#divHomePageBannersOuterContainer';
+            banners = bannersContainer + ' > div';
+            firstBanner = banners + ':first';
+            lastBanner = banners + ':last';
+            activeBanner = banners + '.active';
+            classActive = 'active';
+            intervalRotateMS = 5000;
+            intervalFadeMS = 200;
+            selectorDiv = 'div';
+
+            $banners = $(banners);
+            $firstBanner = $(firstBanner);
+            $lastBanner = $(lastBanner);
+            $btnBannerNavigation = $('.btnBannerNavigation');
+            $btnPrev = $('#btnPrev');
+            $btnNext = $('#btnNext');
+            $divFeaturetteTitleDescriptions = $('.divFeaturetteTitleDescription');
+            $divFeaturetteContentInnerContainers = $('.divFeaturetteContentInnerContainer');
+            $divFeaturetteContentOuterContainers = $('.divFeaturetteContentOuterContainer');
+        }
+
+        function initFeaturettes(resize) {
+            var originalInnerContainerHeight = $divFeaturetteContentInnerContainers.first().height();
+            var innerContainerPaddingTop = parseInt($divFeaturetteContentInnerContainers.first().css('padding-top'));
+            var lowestDescriptionBottom = 0;
+            $divFeaturetteTitleDescriptions.each(function () {
+                var $this = $(this);
+                var thisBottom = $this.position().top + $this.height();
+                if (thisBottom > lowestDescriptionBottom) {
+                    lowestDescriptionBottom = thisBottom;
+                }
+            });
+            if (resize || lowestDescriptionBottom > originalInnerContainerHeight) {
+                var innerContainerHeightDifference = lowestDescriptionBottom - innerContainerPaddingTop - originalInnerContainerHeight; 
+                if (innerContainerHeightDifference != 0) {
+                    var height = originalInnerContainerHeight + innerContainerHeightDifference;
+                    $divFeaturetteContentInnerContainers.height(height);
+                    $divFeaturetteContentOuterContainers.outerHeight($divFeaturetteContentInnerContainers.first().outerHeight())
+                    $divFeaturetteContentOuterContainers.css('padding-bottom', 'unset');
+                }
+            }
+        }
+
+        function initEventHandlers() {
+            $(window).resize(onWindowResize);
+        }
+
+        function onWindowResize() {
+            initFeaturettes(true);
+        }
+
+        function initRotator() {
+            $banners.fadeOut(0);
+            $firstBanner.fadeIn(0).addClass(classActive);
+
+            if ($banners.length > 1) {
+                $btnBannerNavigation.show();
+                startRotator();
+                $btnPrev.click({ prev: true }, btnBannerNavigationClicked);
+                $btnNext.click({ prev: false }, btnBannerNavigationClicked);
+            } else {
+                $btnBannerNavigation.hide();
+            }
+        }
+
+        function btnBannerNavigationClicked(event) {
+            stopRotator();
+            rotateBanners(event.data.prev);
+            startRotator();
+        }
+
+        function startRotator() {
+            rotatorInterval = setInterval(rotateBanners, intervalRotateMS);
+        }
+
+        function rotateBanners(prev) {
+            $activeBanner = $(activeBanner);
+            var $nextBanner;
+            if (prev) {
+                $nextBanner = $activeBanner.prev(selectorDiv);
+                if ($nextBanner.length == 0) {
+                    $nextBanner = $lastBanner;
+                }
+            } else {
+                $nextBanner = $activeBanner.next(selectorDiv);
+                if ($nextBanner.length == 0) {
+                    $nextBanner = $firstBanner;
+                }
+            }
+            $activeBanner.fadeOut(intervalFadeMS).removeClass(classActive);
+            $nextBanner.fadeIn(intervalFadeMS).addClass(classActive);
+        }
+
+        function stopRotator() {
+            clearInterval(rotatorInterval);
+        }
+    </script>
+
+
+    <script type="text/javascript">
+    function setSessionLanguage(id) {
+        var requestVerificationToken = $('input[name="__RequestVerificationToken"]').val();
+        $.ajax({
+            type: 'post',
+            url: '/Language/Set',
+            data: { Id: id, __RequestVerificationToken: requestVerificationToken }
+        }).done(function (result) {
+            // do something with the result now
+            if (result === "Complete") {
+                window.location.reload();
+            } else {
+                alert(result.message);
+            }
+        }).fail(function (err) {
+           // In case of exception reloading the page 
+            window.location.reload();
+        });
+    }
+</script>
+
+        <script type="text/javascript">
+            //Configure TMS
+            var wapLocalCode = 'us-en'; //dynamically set per localized site, see mapping table for values
+            var wapSection = "softwareoffer"; //section, specific for each site
+            //Load TMS
+            (function () {
+                var host = (window.document.location.protocol == 'http:') ? "http://www.intel.com" : "https://www.intel.com";
+                var url = host + "/content/dam/www/global/wap/tms-loader.js"; //wap file url
+                var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true; po.src = url;
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+            })();
+        </script>
+
+</body>
+</html>

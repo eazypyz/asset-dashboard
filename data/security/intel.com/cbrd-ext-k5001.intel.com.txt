@@ -1,0 +1,361 @@
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <title>Login</title>
+    <link href="/style.asp" type="text/css" rel="STYLESHEET" charset="UTF-8">
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta http-equiv="pragma" content="no-cache">
+  <meta http-equiv="cache-control" content="no-cache">
+  <script src="prototype.js?ver=1.7.3" type="text/javascript" charset="UTF-8"></script>
+  <script src="erla.js?ver=2" type="text/javascript" charset="UTF-8"></script>
+
+
+  <meta http-equiv="Content-Script-Type" content="text/javascript">
+  <script type="text/javascript">
+var dotnetClient = 0;
+var standaloneClient = 0;
+var isJavascriptKvmClient = 1;
+var isJavascriptRscClient = 1
+  </script>
+    
+    <script type="text/javascript">
+      <!--
+      var logged_in = false;
+
+
+
+      function enableLiveConnect() {
+	  if (standaloneClient) {
+	      // the dpaBridge property is not yet initialized at onload; however, we perform some retries
+	      // in that case to prevent a waiting time of 2..3 seconds on first click to a target
+	      var retries = 10;
+	      var fn = function() {
+		  if (top.dpaBridge) {
+		      try {
+			  top.dpaBridge.init(false);
+			  top.dpaBridge.enableLiveConnect();
+		      } catch(ex) {
+			  //if (window.console && window.console.log) window.console.log(ex);
+		      }
+		  } else if (--retries > 0) {
+		      window.setTimeout(fn, 50);
+		  }
+	      };
+	      fn();
+	  } else {
+	      var dpaApplet = document.getElementById("dpaApplet");
+	      if (dpaApplet) {
+		  javaAppletOnLoad(dpaApplet, function() { dpaApplet.enableLiveConnect(); });
+	      }
+	  }
+      }
+
+      function updateSidebarScreen(content) {
+	  $('cron_favdevices').innerHTML = content;
+      }
+
+      var gtab_type = "" === "1" || "1" === "0" ? "smart" : "user";
+      function setTab( tab_type ) {
+	var table = '<table border="0" cellspacing="0" cellpadding="0" class="wdgt_fields_login">';
+	var topnav = document;
+	if( tab_type === "user" ) {
+	  table += '<tr><td class="wdgt_fieldname">Username:</td>';
+	  table += '<td class="wdgt_field"><input type="text" name="login" value="" maxlength="64" size="32" onkeydown="handleEnterKey(event);"></td></tr>';
+	  table += '<tr><td class="wdgt_fieldname">Password:</td>';
+	  table += '<td class="wdgt_field"><input type="password" name="password" value="" maxlength="64" size="32" autocomplete="off" onkeydown="handleEnterKey(event);"></td></tr>';
+
+	} else {
+	  table += '<tr><td class="wdgt_fieldname">PIN:</td>';
+	  table += '<td class="wdgt_field"><input type="password" name="PIN" value="" maxlength="64" size="32" onkeydown="handleEnterKey(event);"></td></tr>';
+
+	}
+	table += '</table>';
+	$('login_inputs').innerHTML = table;
+	gtab_type = tab_type;
+	if( tab_type === "user" ) {
+	  document.forms[0].login.focus();
+	  document.forms[0].action_login.disabled = false;
+	} else {
+	  document.forms[0].PIN.focus();
+
+	  document.forms[0].PIN.disabled = true;
+	  document.forms[0].action_login.disabled = true;
+
+	}
+      }
+
+      function enableLoginForm() {
+	  setTab( gtab_type );
+	  $('login_form').style.display = "block";
+	  resizeAuth();
+	  window.setTimeout(
+		function() {
+		    if( gtab_type === "user" )
+			document.forms[0].login.focus()
+		    else
+			document.forms[0].PIN.focus()
+		}, 100);
+      }
+
+      function loadFavDevPage() {
+	  if (top.container.document.URL.indexOf('favorite_devices.asp') == -1) {
+	      location.href = 'favorite_devices.asp';
+	  }
+      }
+
+      if (top.frames.length!=0)
+      top.location=self.document.location;
+
+      function resizeAuth() {
+	var max_container_height = top.innerHeight ? top.innerHeight : top.document.body.clientHeight;
+	if (max_container_height > 0) {
+	    top.document.getElementById("sidebar").height = max_container_height;
+	}
+	       if ($('login_form')) { //false when Manage of DPA is clicked
+	    if (document.body.clientWidth && document.body.clientHeight
+		    && $('login_form').offsetWidth && $('login_form').offsetHeight
+		    && $('sidebar').offsetWidth && $('topbar_container').offsetHeight) {
+
+		var sidebarWidth = $('td_container_sidebar').offsetWidth;
+		var bodyWidth = document.body.clientWidth - sidebarWidth;
+		var topbarHeight = $('secondheader').offsetHeight + $('topbar_container').offsetHeight;
+		var bodyHeight = document.body.clientHeight - topbarHeight;
+		var loginFromWidth = $('login_form').offsetWidth;
+		var loginFromHeight = $('login_form').offsetHeight;
+
+		if (bodyWidth > loginFromWidth) {
+		    var loginFormLeft = ((bodyWidth - loginFromWidth) / 2) + sidebarWidth;
+		    $('login_form').style.left = loginFormLeft + 5;
+		} else {
+		    $('login_form').style.left = sidebarWidth + 5;
+		}
+
+		if (bodyHeight > loginFromHeight) {
+		    var loginFormTop = ((bodyHeight - loginFromHeight) / 2) + topbarHeight;
+		    $('login_form').style.top = loginFormTop;
+		} else {
+		    var navTabHeight = $('nav_tabs_container').offsetHeight;
+		    $('login_form').style.top = topbarHeight + 5;
+		}
+	    } else {
+		$('login_form').style.top = '35%';
+		$('login_form').style.left = '45%';
+	    }
+	}
+
+      }
+
+    // -->
+    </script>
+    <script type="text/javascript">
+  single_size = 350;
+  double_size = 720;
+  site_min_width = 500;
+  IPV6_width = 275;
+</script>
+    
+    <link rel="SHORTCUT ICON" href="/favicon.ico?V2">
+      
+
+  <style id="antiClickjack">body{display:none !important;}</style>
+  <script type="text/javascript">
+   if (self === top) {
+       var antiClickjack = document.getElementById("antiClickjack");
+       antiClickjack.parentNode.removeChild(antiClickjack);
+   } else {
+       top.location = self.location;
+   }
+  </script> 
+
+</head>
+
+
+   <body onload="enableLoginForm();resizeAuth();enableLiveConnect();">
+
+
+  
+  
+
+  
+      <table border="0" cellspacing="0" cellpadding="0" width="100%">
+	<tr>
+	  <td id="sidebar" class="body_sidebar sidebar_border" valign="top">
+	<div id="td_container_sidebar">
+	  <div id="raritan_logo">
+	   <a href="javascript:window.location.href = window.location.href;" title="Home">
+	    <div class="raritan_logo_img_wrapper"><img class="raritan_logo_img" src="images/raritan_legrand_logo_hidpi.gif?3.8.0.5.3692" alt="Home" title="Home" border="0"/></div>
+		<div class="product_logo_img_wrapper"><img class="product_logo_img" src="images/product_logo_hidpi.gif?3.8.0.5.3692" alt="Home" title="Home" border="0" /></div>
+	   </a>
+	  </div>
+	</div>
+	  </td>
+	  <td valign="top" class="body_main">
+    <div id="topbar_container">
+      <!-- begin applet container -->
+      <div id="applet_container">
+	
+      </div>
+      <!-- end applet container -->
+      <!-- begin nav tabs -->
+      <div id="nav_tabs_container">
+	 <div id="nav_tabs">
+	 <table border="0" cellspacing="0" cellpadding="0"><tr>
+	   <td class="nav_tab_first"><div class="nav_tab_first"></div></td>
+	    <!-- Login -->
+	    
+	    <td class="nav_tab_start"><div id="start_Login" class="nav_tab_start"></div></td>
+	    
+	    
+	    
+	    
+	    <td id="middle_Login" class="nav_tab_middle"><div id="link_Login" class="nav_tab_link"><a href="/javascriptClient" target="_top">Login</a></div></td>
+	    
+	    <td class="nav_tab_end"><div id="end_Login" class="nav_tab_end"></div></td>
+	    
+
+	    <!-- Login with smart card -->
+	    
+	 </tr></table>
+	 </div>
+      </div>
+      <!-- end nav tabs -->
+	</div>
+<!-- end topbar container -->
+    <!-- breadcrumbs navigation  -->
+<!-- begin second header -->
+<div id="secondheader">
+  <!-- second logo -->
+  <div id="second_logo">
+    <!-- breadcrumbs navigation  -->
+    <div id="breadcrumbs_navigation">Login - cbrd-ext-k5001.intel.com</div>
+    <!-- log out -->
+  </div>
+</div>
+<table class="general_page" border="0" cellspacing="0" cellpadding="0"><tr><td>
+
+<div class="tmpl_encaps">
+<div class="tmpl_size">
+<script>
+document.write('<div id="mainScreen" class="favdev_main" ');
+document.write('style="width:'+double_size+'px;">'); 
+</script>
+ <table border="0" cellspacing="0" cellpadding="0" width="100%">
+  <!-- main part: Body cell -->
+  <tr>
+    <td>
+     <div class="login_page" id="login_form" style="display: none;">
+  
+  
+  
+  
+	<form action="/auth.asp?client=javascript" method="POST" autocomplete="off" onsubmit="return validate();">
+  
+  <input type="hidden" name="is_dotnet" value="0">
+  <input type="hidden" name="is_javafree" value="0">
+  <input type="hidden" name="is_standalone_client" value="0">
+  <input type="hidden" name="is_javascript_kvm_client" value="1">
+       <input type="hidden" name="is_javascript_rsc_client" value="1">
+	
+
+	
+	<table border="0" cellspacing="0" cellpadding="0" class="wdgt">
+  <!-- widget box Header -->
+  <tr>
+    <td class="wdgt_hdr_left"></td>
+    <td class="wdgt_header"> Login to cbrd-ext-k5001.intel.com </td>
+    <td class="wdgt_hdr_right"></td>
+  </tr>
+  <!-- widget box Spacer Row (should follow Header only) -->
+  <tr>
+    <td class="wdgt_vert_left"><div class="wdgt_vert_left"></div></td>
+    <td class="wdgt_spacer"><div class="wdgt_spacer"></div></td>
+    <td class="wdgt_vert_right"><div class="wdgt_vert_right"></div></td>
+  </tr>
+  <!-- widget box Content row -->
+  <tr>
+    <td class="wdgt_vert_left"></td>
+    <td class="wdgt_content">
+
+	  <div id="login_inputs"></div>
+	</td>
+    <td class="wdgt_vert_right"></td>
+  </tr>
+  <!-- widget box Divider row -->
+  <tr>
+    <td class="wdgt_dvdr_left"></td>
+    <td class="wdgt_dvdr_middle"></td>
+    <td class="wdgt_dvdr_right"></td>
+  </tr>
+  <!-- widget box Content row -->
+  <tr>
+    <td class="wdgt_vert_left"></td>
+    <td class="wdgt_content">
+
+	<div id="d_login_prog">
+	<input type="submit" class="button" name="action_login" id="action_login" value="Login" >
+    
+
+
+	</div>
+	
+	</td>
+    <td class="wdgt_vert_right"></td>
+  </tr>
+  <!-- widget box Footer -->
+  <tr>
+    <td class="wdgt_ftr_left"></td>
+    <td class="wdgt_ftr_middle"></td>
+    <td class="wdgt_ftr_right"></td>
+  </tr>
+</table>
+
+<div class="tmpl_end"><br></div>
+
+	<script type="text/javascript">
+	<!--
+	  var form_summited = false;
+	  function display_login_prog() {
+	    $('d_login_prog').innerHTML = "Login in Progress ...";
+	  }
+	  function handle_login_timeout() {
+	   $('d_login_prog').innerHTML = "Login Timeout, please try again.";
+	   top.location = self.location;
+	  }
+
+	  function validate() {
+	    if (form_summited) return false;
+	    form_summited = true;
+	    window.setTimeout(display_login_prog, 75);
+	    window.setTimeout(handle_login_timeout,130000);
+	    return true;
+	  }
+
+	  function handleEnterKey (event){
+	    if (event.keyCode == 13) {
+	      $("action_login").click();
+	      return false;
+	    }
+	  }
+	-->
+	</script>
+	</form>
+      </div>
+     </td>
+  </tr>
+</table>
+</div>
+</div>
+</div>	
+</td></tr></table>
+	  </td>
+	</tr>
+      </table>
+    <script type="text/javascript">
+      <!--
+      window.onresize = resizeAuth;
+      // -->
+    </script>
+    </body>
+</html>

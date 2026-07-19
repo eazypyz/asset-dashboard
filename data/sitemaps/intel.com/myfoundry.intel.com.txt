@@ -1,0 +1,46 @@
+<!doctype html><html lang="en"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta http-equiv="X-UA-Compatible" content="ie=edge"/><title>Intel Foundry</title><script type="text/javascript" src="/ruxitagentjs_ICA15789NPRTUVXfhqrux_10341260622154106.js" data-dtconfig="rid=RID_-1997824558|rpid=256561095|domain=intel.com|reportUrl=/rb_bf02941ctm|uam=1|app=62d20c9372d1cf2f|owasp=1|featureHash=ICA15789NPRTUVXfhqrux|rdnt=1|uxrgce=1|cuc=hr0i4o2d|mel=100000|expw=1|dpvc=1|md=mdcc1=a#name|lastModification=1784272748627|tp=500,50,0|srbbv=2|agentUri=/ruxitagentjs_ICA15789NPRTUVXfhqrux_10341260622154106.js" data-config='{"revision":1784272748627,"beaconUri":"/rb_bf02941ctm","agentUri":"/ruxitagentjs_ICA15789NPRTUVXfhqrux_10341260622154106.js","environmentId":"hr0i4o2d","modules":"ICA15789NPRTUVXfhqrux"}' data-envconfig='{"tracestateKeyPrefix":"2e010f54-1d36fec8"}' data-appconfig='{"app":"62d20c9372d1cf2f","enableMetadataCapturing":false}'></script><script src="https://cdn.jsdelivr.net/npm/regenerator-runtime@0.13.7/runtime.min.js"></script><meta http-equiv="Content-Security-Policy" content="default-src 'self' https: *.intel.com 'unsafe-inline'; style-src 'unsafe-inline' https: ; font-src 'self' data: https: *.intel.com; img-src 'self' data: https: *.intel.com"/><meta name="importmap-type" content="systemjs-importmap"/><script type="systemjs-importmap">{
+                "imports": {
+                    "react": "https://cdn.jsdelivr.net/npm/react@18.2.0/umd/react.production.min.js",
+                    "react-dom": "https://cdn.jsdelivr.net/npm/react-dom@18.2.0/umd/react-dom.production.min.js",
+                    "single-spa": "https://cdn.jsdelivr.net/npm/single-spa@5.9.0/lib/system/single-spa.min.js"
+                }
+            }</script><link rel="preload" href="https://cdn.jsdelivr.net/npm/single-spa@5.9.0/lib/system/single-spa.min.js" as="script"/><link rel="icon" href="/favicon.ico"/><script type="systemjs-importmap">{
+                "imports": {
+                    "@Intel/root-config": "https://myfoundry.intel.com/Intel-root-config.js",
+                    "@Intel/navbar": "https://myfoundry.intel.com/static/navbar/Intel-navbar.js",
+                    "@Intel/authReact": "https://myfoundry.intel.com/static/auth/Intel-authReact.js",
+                    "@Intel/qnr": "https://myfoundry.intel.com/static/qnr/Intel-qnr.js",
+                    "@Intel/shuttle-and-tapeout": "https://myfoundry.intel.com/static/sto/Intel-shuttle-and-tapeout.js",
+                    "@Intel/doccentral": "https://myfoundry.intel.com/static/doccentral/Intel-doccentral.js",
+                    "@Intel/lfu": "https://myfoundry.intel.com/static/lfu/Intel-lfu.js",
+                    "@Intel/ext-waiver": "https://myfoundry.intel.com/static/waiver/Intel-ext-waiver.js",
+                    "@Intel/content": "https://myfoundry.intel.com/static/content/Intel-content.js",
+                    "@Intel/itq": "https://myfoundry.intel.com/static/itq/Intel-itq.js",
+                    "@Intel/user-access-management": "https://myfoundry.intel.com/static/uam/Intel-user-access-management.js",
+                    "@Intel/dashboard": "https://myfoundry.intel.com/static/dashboard/Intel-dashboard.js",
+                    "@Intel/user-settings": "https://myfoundry.intel.com/static/user-settings/Intel-user-settings.js",
+                    "@Intel/search": "https://myfoundry.intel.com/static/search/Intel-search.js",
+                    "@Intel/memory-compiler": "https://myfoundry.intel.com/static/mcp/Intel-memory-compiler.js",
+                    "@Intel/ip-alliance": "https://myfoundry.intel.com/static/ip-alliance/Intel-ip-alliance.js",
+                    "@Intel/pcn": "https://myfoundry.intel.com/static/pcn/Intel-pcn.js"
+                }
+            }</script><script src="https://cdn.jsdelivr.net/npm/systemjs@6.8.3/dist/system.min.js"></script><script src="https://cdn.jsdelivr.net/npm/systemjs@6.8.3/dist/extras/amd.min.js"></script><!--[if le IE 9]>
+            <script
+                type="text/javascript"
+                src="https://www.intel.com/ighf/50recode.2/js/headerchooser.js"
+                async
+                defer
+            ></script>
+        <![endif]--><!--[if gt IE 9]><!--><script src="https://www.intel.com/ighf/50recode.2/js/headerchooser.js" async></script><!--<![endif]--><script>INTELNAV = window.INTELNAV || {};
+            INTELNAV.renderSettings = {
+                version: "2.0 - 10/02/2017 08:00:00",
+                textDirection: "ltr",
+                culture: "en_US",
+                OutputId: "default"
+            };</script></head><body><div id="recode50header" style="display: none"></div><noscript>You need to enable JavaScript to run this app.</noscript><script>System.import("@Intel/root-config");</script><div id="recode50footer" style="margin-top: 25px"></div><script>/*<![CDATA[*/
+            INTELNAV = window.INTELNAV || {};
+            INTELNAV.renderSettingsFooter = {
+                version: "2.0 - 03/12/2017 08:00:00",
+                OutputId: "gf_default"
+            };
+            /*]]>*/</script></body></html>

@@ -1,0 +1,99 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" >
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>Cvent - Error</title>
+		<meta content="noindex" name="robots" />
+		<meta content="Microsoft Visual Studio .NET 7.1" name="GENERATOR" />
+		<meta content="C#" name="CODE_LANGUAGE" />
+		<meta content="JavaScript" name="vs_defaultClientScript" />
+		<meta content="http://schemas.microsoft.com/intellisense/ie5" name="vs_targetSchema" />
+		<link rel="stylesheet" type="text/css" href="/g/StyleSheets/GUEST_WIN_IE.css" />
+        <style type="text/css">
+            body
+            {
+                margin: 0;
+                padding: 0;
+                font: 11px Verdana, Geneva, sans-serif;
+            }
+            #content
+            {
+                padding: 0 10px;
+            }
+            #container
+            {
+                background: url(/g/images/banner/image_tile.gif) repeat-y;
+                width: 732px;
+                margin: 30px auto 0 auto;
+            }
+            #top
+            {
+                height: 126px;
+                background: url(/g/images/banner/image_top.gif) no-repeat;
+            }
+            h3.action
+            {
+                font-size: 11px;
+                background: url(/g/images/banner/ARROW.png) 0 2px no-repeat;
+                padding-left: 10px;
+            }
+            #footer
+            {
+                height: 61px;
+            }
+            .info
+            {
+                font-size: 11px;
+            }
+        </style>
+        
+       <script id="jquery_js" type="text/javascript" src="/a/planner-side/jquery-1.12.4.noconflict.min.js"></script>
+       <script language="javascript" type="text/javascript" src="/events/JavaScriptLib/utility.js?version="></script>
+  
+	</head>
+	<body >
+		<form name="Form1" method="post" action="/events/EventInactive.aspx?e=tw=67-FD-27-35-39-80-66-D8-7F-D2-05-8E-45-89-1C-96&amp;e=c8d19e16-78b2-40b8-8b5b-28b43a445272&amp;tw=67-FD-27-35-39-80-66-D8-7F-D2-05-8E-45-89-1C-96" id="Form1">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="fcjrg0yyPgm7VqqPBTjcahKbAIvkAOQDgL5cAPlrVm6Nj54jyqWm80L1t2xy8KlGz31PgE+k/Xt6mbTdnM7+m5mJdOA=" />
+</div>
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="80443C91" />
+	<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+</div>
+		    <center>
+                <div id="container">
+                    <div id="top">
+                    </div>
+                    <div id="content">
+			            <table width="700" border="0" cellspacing="0" cellpadding="0">
+				            <tr>
+					            <td class="Spacer2">&nbsp;</td>
+				            </tr>
+				            <tr>
+					            <td class="FormErrTxt" style="text-align:left;font-weight:bold;font-size:10pt;" >
+						            <span id="lbl_message">This event cannot be located. To find an event, go to the search page listed below. If you cannot find the event, reply to the original email and request the event code or contact the event planner directly.</span>
+					            </td>
+				            </tr>
+				            <tr>
+					            <td class="Spacer1">&nbsp;</td>
+				            </tr>
+				            <tr>
+					            <td class="BodyText1">
+						             <span id="lbl_instruction">To locate an event, go to the</span>&nbsp;<a id="lnk_urllink" href="http://www.cvent.com/events/default.aspx?">Cvent search page</a>&nbsp;<span id="lbl_instruction_2"></span>
+					            </td>
+				            </tr>
+				            <tr>
+					            <td class="Spacer1">&nbsp;</td>
+				            </tr>
+			            </table>
+                    </div>
+                    <div id="footer">
+                        <img alt="" src='/g/images/banner/image_bottom.gif' width="732" height="61" />
+                    </div>
+                </div>
+            </center>
+		</form>
+	</body>
+</html>

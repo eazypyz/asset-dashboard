@@ -1,0 +1,192 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<meta name="_csrf_parameter" content="_csrf" /><meta name="_csrf_header" content="X-CSRF-TOKEN" /><meta name="_csrf" content="khVuzhjVfm7eC7UrMbloPEebdaeq_SjQ7Wfu_S4Zhvgp4d6t8SIP_inkHFjzP4EYUJRcWHGtWJ_Jzhv92AXeyEguts0Z1rue" />
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="/resources/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/v/dt/dt-2.0.0/r-3.0.0/datatables.min.css" integrity="sha384-WybcRsu0G+Vtb10gSjvQ9x1a9XCQHucofUwUoxn9iQMXGspJW2j0La+eLxWONcf7" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/css/bootstrap-select.min.css" integrity="sha384-2SvkxRa9G/GlZMyFexHk+WN9p0n2T+r38dvBmw5l2/J3gjUcxs9R1GwKs0seeSh3" crossorigin="anonymous">
+	
+<!--IGHF Header-->
+<!--GAATversion='50recode.2' date='10/02/2017 08:00:00' Version='2.0':CharacterEncoding:utf8--> 
+<div id="recode50header"></div>
+<script type="text/javascript">
+/*<![CDATA[*/
+INTELNAV = window.INTELNAV || {};INTELNAV.renderSettings={version:"2.0 - 10/02/2017 08:00:00",textDirection:"ltr",culture:"en_US",OutputId:"default"};
+/*]]>*/</script>
+<noscript><link rel="stylesheet" href="https://www.intel.com/ighf/50recode.2/css/ltr_nojsheader.css" type="text/css"><div id="smallfootprint-header"><a href="https://www.intel.com/content/www/us/en/homepage.html" class="gaat40-logo" title="Logo - Intel"></a><form method="get" id="user-bar-searchbox-form" name="user-bar-searchbox-form" action="https://www.intel.com/content/www/us/en/search.html"><input id="toplevelcategory" name="toplevelcategory" type="hidden" value="none" tabindex="0"><input id="query" name="query" type="hidden" value="" tabindex="0"><fieldset><legend></legend><label for="input-search">Search</label><input type="text" id="input-search" name="keyword" tabindex="0" autocomplete="off" /><input type="submit" id="input-submit" name="input-submit" value="Search" /></fieldset></form></div></noscript>
+<!--/IGHF Header-->
+
+	<title>Loading...</title>
+</head>
+<body class="eXalt">
+	
+	<script type="text/javascript">
+	  // Configure TMS settings
+	  window.wapProfile = 'profile-microsite'; // This is mapped by WAP authorize value
+	  window.wapLocalCode = 'us-en'; // Dynamically set per localized site, see mapping table for values
+	  window.wapSection = 'intel-xeon-advisor-tool'; // WAP team will give you a unique section for your site
+	  window.wapEnv = 'prod'; // environment to be use in Adobe Tags. 
+	  let wapSinglePage = false; // Include this variable only if your site is a single page application, such as one developed with the React framework
+	  // Load TMS
+	  (() => {
+	        let url = 'https://www.intel.com/content/dam/www/global/wap/main/wap-microsite.js';
+	        let po = document.createElement('script'); po.type = 'text/javascript'; po.async = true; po.src = url;
+	        let s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+	  }) ();	
+	</script>
+	
+<!--IGHF Header-->
+<!--GAATversion='50recode.2' date='10/02/2017 08:00:00' Version='2.0':CharacterEncoding:utf8--> 
+<div id="recode50header"></div>
+<script type="text/javascript">
+/*<![CDATA[*/
+INTELNAV = window.INTELNAV || {};INTELNAV.renderSettings={version:"2.0 - 10/02/2017 08:00:00",textDirection:"ltr",culture:"en_US",OutputId:"default"};
+/*]]>*/</script>
+<noscript><link rel="stylesheet" href="https://www.intel.com/ighf/50recode.2/css/ltr_nojsheader.css" type="text/css"><div id="smallfootprint-header"><a href="https://www.intel.com/content/www/us/en/homepage.html" class="gaat40-logo" title="Logo - Intel"></a><form method="get" id="user-bar-searchbox-form" name="user-bar-searchbox-form" action="https://www.intel.com/content/www/us/en/search.html"><input id="toplevelcategory" name="toplevelcategory" type="hidden" value="none" tabindex="0"><input id="query" name="query" type="hidden" value="" tabindex="0"><fieldset><legend></legend><label for="input-search">Search</label><input type="text" id="input-search" name="keyword" tabindex="0" autocomplete="off" /><input type="submit" id="input-submit" name="input-submit" value="Search" /></fieldset></form></div></noscript>
+<!--/IGHF Header-->
+
+	
+
+
+
+
+
+<nav id="head-nav" class="navbar navbar-expand-sm d-none">
+	<ul class="navbar-nav ml-auto" data-version="">
+		
+		
+			
+			
+				
+					<li class="nav-item"><a class="nav-link" href="/login">Sign In</a></li>
+					
+			
+		
+	</ul>
+</nav>
+<form id="logout-form" action="/logout" method="post">
+	<input type="hidden" name="_csrf" value="khVuzhjVfm7eC7UrMbloPEebdaeq_SjQ7Wfu_S4Zhvgp4d6t8SIP_inkHFjzP4EYUJRcWHGtWJ_Jzhv92AXeyEguts0Z1rue" />
+</form>
+
+
+
+	<div id="exo-container" class="exo-container"></div>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.7.1.slim.min.js" integrity="sha384-5AkRS45j4ukf+JbWAfHL8P4onPA9p0KwwP7pUdjSQA3ss9edbJUJc/XcYAiheSSz" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js" integrity="sha384-4D3G3GikQs6hLlLZGdz5wLFzuqE9v4yVGAcOH86y23JqBDPzj9viv0EqyfIa6YUL" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-2.0.0/r-3.0.0/datatables.min.js" integrity="sha384-sYGP/VSKkfcR++12YDvHbzvx890rDsKgEXu6kQ0Y0CN47ek5ZiIlldqOCIVE1kl2" crossorigin="anonymous"></script>
+    <!-- 
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2"></script>
+    -->
+    <script type="text/javascript" src="/resources/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/js/bootstrap-select.min.js" integrity="sha384-SfMwgGnc3UiUUZF50PsPetXLqH2HSl/FmkMW/Ja3N2WaJ/fHLbCHPUsXzzrM6aet" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="/resources/js/html2canvas.min.js"></script>
+    <script type="text/javascript" src="/resources/js/exodus2-lib.js"></script>
+    <script type="text/javascript">
+    	window.onload = function(){
+    	  $('#waitModal').modal({'backdrop' : false});
+    	};
+    
+        $(function () {
+          $('[data-toggle="popover"]').popover();
+        });
+        
+		let pageConfig = {};
+        pageConfig['exop'] = 'WkVLglTk2MBoT0C3Be25ftQH3b9FUm4gIO-mx4s3WtY5W0MKKK-v_UejbfX0PpcYVLVP4HWCHQgJsejRn1zgPXbtPiUbwBQtPELgJrFOgUt0DEnmiHpwrgWvDndN5E_EvZSPi_HHgF1BkhA5nSu8AGFE1R3_RkXLzinSt3FXegefyfnX5BKSPSAYtonpudUY6s2I3lCRbmbhP7SB3zZv0cNHjIkSj-U7qDUJgbEs1kX_uzFqpv7V5eS3DPvCvUjucpchxkXKvfRPPcPD4koKG7d8Qxg9XP_0F3PU_A4zfjiuQMPv5d7DB2t2WJR3DxiJnJKbOGzKY0vXJ_ucbJ64WEwSYLMAAxpZPo-FK0iWa3YtqJn0LGzX6Tr2AZNrZPR1IBCOmfDeMBQXAEnq0eyDxO7SHoKchXk9XEvNeIY0_0GZ5M5I2v2T8Mxrv6f-1OXom8rsMfK8Wp_raTCZLskbzCAB1bEhvm5HffjE6s8Axz04_Btl_3b8XsUKIbNLLBhIAo2MhIMM7Ja_cjwxVxC_0gJ6l1gYGA0EZn9vfGnVP1f9wyrbZSpOGKp-QqoUttw_79Ha0s7wmk-DowG4FcedSrrETDg5_DC9FnSuCnS3ZzY=';
+		window.exo.init(pageConfig);
+    </script>
+	<div class="modal" id="waitModal" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered modal-sm" role="document">
+			<div class="modal-content">
+				<div class="modal-body text-center">
+				 	<div class="text-center">Loading...</div>
+					<div id="spinner" class="text-center">
+						<div class="spinner-border text-secondary" style="width: 3rem; height: 3rem;" role="status">
+							<span class="sr-only">Loading...</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal" id="msgModal" tabindex="-1" role="dialog" aria-labelledby="msgModalTitle" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="msgModalTitle">Message</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div id="msgModalBody" class="modal-body"></div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal" id="saveBomModal" tabindex="-1" role="dialog" aria-labelledby="saveBomModalLabel" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="saveBomModalLabel">Please enter name</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<form>
+						<div class="form-group">
+							<label for="bom-name" class="col-form-label">Name:</label>
+							<input type="text" class="form-control" id="bom-name" name="bomname" data-minl=">=6">
+						</div>
+					</form>
+				</div>
+				<div class="modal-footer">
+					<button id="bom-cancel" type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+					<button id="bom-save" type="button" class="btn btn-primary">Save</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+
+
+
+
+
+
+
+<div class="container-fluid fixed-bottom" id="eXalt-footer">
+    <div class="row">
+		<div class="col-md-16" id="eXalt-footer-left">
+			<span>&copy;2007-2026 eXalt Solutions, Inc. All Rights Reserved</span>
+			<span style="margin-left:20px;"><a href="/doc/terms-of-use.html" target="_blank">Terms of Use</a></span>
+		</div>
+		<div class="col-md-8 text-right" id="eXalt-footer-right">
+			<span id="eXalt-footer-right-text"> <a href="https://www.exaltsolutions.com/"><img src="/resources/img/exalt_footer.png" alt="eXalt Solutions|KWaaS|Knowledge Work as a Service" style="width: 72px; height: 44px;"></a>
+			</span>
+		</div>
+    </div>
+</div>
+<!--IGHF Header-->
+<!--GAATversion='50recode.2' date='10/02/2017 08:00:00' Version='2.0':CharacterEncoding:utf8--> 
+<div id="recode50header"></div>
+<script type="text/javascript">
+/*<![CDATA[*/
+INTELNAV = window.INTELNAV || {};INTELNAV.renderSettings={version:"2.0 - 10/02/2017 08:00:00",textDirection:"ltr",culture:"en_US",OutputId:"default"};
+/*]]>*/</script>
+<noscript><link rel="stylesheet" href="https://www.intel.com/ighf/50recode.2/css/ltr_nojsheader.css" type="text/css"><div id="smallfootprint-header"><a href="https://www.intel.com/content/www/us/en/homepage.html" class="gaat40-logo" title="Logo - Intel"></a><form method="get" id="user-bar-searchbox-form" name="user-bar-searchbox-form" action="https://www.intel.com/content/www/us/en/search.html"><input id="toplevelcategory" name="toplevelcategory" type="hidden" value="none" tabindex="0"><input id="query" name="query" type="hidden" value="" tabindex="0"><fieldset><legend></legend><label for="input-search">Search</label><input type="text" id="input-search" name="keyword" tabindex="0" autocomplete="off" /><input type="submit" id="input-submit" name="input-submit" value="Search" /></fieldset></form></div></noscript>
+<!--/IGHF Header-->
+
+
+
+</body>
+</html>

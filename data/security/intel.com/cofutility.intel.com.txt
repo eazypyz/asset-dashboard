@@ -1,0 +1,487 @@
+<!DOCTYPE html><html><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"><title>Intel</title><link rel=icon type=image/png sizes=32x32 href=/favicon-32x32.png><link rel=icon type=image/png sizes=16x16 href=/favicon-16x16.png><link rel="shortcut icon" href=/favicon.ico><script>console.log(innerWidth)
+        if (innerWidth > 750) {
+            document.documentElement.style.fontSize = innerWidth / (innerWidth / 50) + 'px';
+            window.onresize = function() {
+                document.documentElement.style.fontSize = innerWidth / (innerWidth / 50) + 'px';
+            }
+        } else {
+            document.documentElement.style.fontSize = innerWidth / 7.5 + 'px';
+            window.onresize = function() {
+                document.documentElement.style.fontSize = innerWidth / 7.5 + 'px';
+            }
+        }
+        console.log(document.documentElement.style.fontSize)
+
+        var _hmt = _hmt || [];
+        var _paq = _paq || [];
+        window._paq = _paq;
+        window._hmt = _hmt; //</script><script src=https://www.intel.com/ighf/50recode.2/js/headerchooser.js async></script><script>const language = navigator.language;
+
+	let ighf_lang = "en_US";
+	let lang_code =  language.includes('zh') ? 'zh' : 'en';
+	
+	if (lang_code == 'zh') {
+		ighf_lang = 'zh_CN';
+	} else {
+		ighf_lang = 'en_US';
+	}
+	
+	window.INTELNAV = window.INTELNAV || {};
+	window.INTELNAV.renderSettings={version:"2.0 - 03/12/2017 08:00:00",textDirection:"ltr",culture:ighf_lang,OutputId:"default"};
+	window.INTELNAV.renderSettingsFooter={version:"2.0 - 03/12/2017 08:00:00",OutputId:"gf_default"};</script><meta name=ROBOTS content="NOINDEX, NOFOLLOW, NOSNIPPET, NOIMAGEINDEX"><link href=/css/chunk-01761f39.6fbdbf70.css rel=prefetch><link href=/css/chunk-01c4ad07.ba78727b.css rel=prefetch><link href=/css/chunk-023ac93f.082ce7f8.css rel=prefetch><link href=/css/chunk-0249b6bb.d243b297.css rel=prefetch><link href=/css/chunk-02c06c69.aeba2a76.css rel=prefetch><link href=/css/chunk-030d12e4.6f55653c.css rel=prefetch><link href=/css/chunk-032daae5.181488d0.css rel=prefetch><link href=/css/chunk-032f751b.a01f9159.css rel=prefetch><link href=/css/chunk-034db8d5.fa6844eb.css rel=prefetch><link href=/css/chunk-035e6c4b.3a2738b8.css rel=prefetch><link href=/css/chunk-03d4b892.b4461214.css rel=prefetch><link href=/css/chunk-04e680b7.2744d6f9.css rel=prefetch><link href=/css/chunk-04f0059d.115f4bc5.css rel=prefetch><link href=/css/chunk-057878e8.425962ce.css rel=prefetch><link href=/css/chunk-05b83db0.4921cbc3.css rel=prefetch><link href=/css/chunk-05db330a.6e130fe0.css rel=prefetch><link href=/css/chunk-064bc130.dc41526d.css rel=prefetch><link href=/css/chunk-07f71fe8.8c8a49b2.css rel=prefetch><link href=/css/chunk-0854cc53.bdfb8e3d.css rel=prefetch><link href=/css/chunk-08e2bbda.d223a5e2.css rel=prefetch><link href=/css/chunk-099543f1.13606437.css rel=prefetch><link href=/css/chunk-09fb46fb.bad7e796.css rel=prefetch><link href=/css/chunk-0ba0ea1a.38302644.css rel=prefetch><link href=/css/chunk-0c53029c.0490a810.css rel=prefetch><link href=/css/chunk-0c9b52ca.5a9437b4.css rel=prefetch><link href=/css/chunk-0cdb594c.90f4aaea.css rel=prefetch><link href=/css/chunk-0e9eeb77.b77b9af8.css rel=prefetch><link href=/css/chunk-0f5e9c02.f7c7f760.css rel=prefetch><link href=/css/chunk-100ca8f4.5ee66f7a.css rel=prefetch><link href=/css/chunk-1110574f.90af0e5a.css rel=prefetch><link href=/css/chunk-12cae1ea.da01598c.css rel=prefetch><link href=/css/chunk-1382e09c.b6e33e19.css rel=prefetch><link href=/css/chunk-13adbce6.a25daac4.css rel=prefetch><link href=/css/chunk-13dedbd0.8a5b23f1.css rel=prefetch><link href=/css/chunk-13f23fd4.a3efd1b0.css rel=prefetch><link href=/css/chunk-1481fcd7.d8b66ee2.css rel=prefetch><link href=/css/chunk-15362a5f.df3d14ad.css rel=prefetch><link href=/css/chunk-166b37cc.9b30c77b.css rel=prefetch><link href=/css/chunk-167e12c0.bc72ecce.css rel=prefetch><link href=/css/chunk-16ca4f2a.0e433876.css rel=prefetch><link href=/css/chunk-16d57bb8.44265f31.css rel=prefetch><link href=/css/chunk-1760d464.9adbeeae.css rel=prefetch><link href=/css/chunk-17a2c453.4921cbc3.css rel=prefetch><link href=/css/chunk-191d9927.c9b35808.css rel=prefetch><link href=/css/chunk-1a235da5.54429301.css rel=prefetch><link href=/css/chunk-1ad5d1ac.0e6ebbe6.css rel=prefetch><link href=/css/chunk-1c3fef8c.5f0b93a2.css rel=prefetch><link href=/css/chunk-1c5e708f.0ae4eeeb.css rel=prefetch><link href=/css/chunk-1c995f49.38f01e28.css rel=prefetch><link href=/css/chunk-1d2c3db1.d86ca1cb.css rel=prefetch><link href=/css/chunk-1e4aaf69.b863a113.css rel=prefetch><link href=/css/chunk-1e702b6a.8fd9463f.css rel=prefetch><link href=/css/chunk-1eb2d6a0.20ff9d49.css rel=prefetch><link href=/css/chunk-1ecc5e5e.af908557.css rel=prefetch><link href=/css/chunk-1f586b1c.29d56db2.css rel=prefetch><link href=/css/chunk-1fbb83bc.1d209629.css rel=prefetch><link href=/css/chunk-208236dc.0e433876.css rel=prefetch><link href=/css/chunk-21198b27.4921cbc3.css rel=prefetch><link href=/css/chunk-211ef9b3.ff51a64d.css rel=prefetch><link href=/css/chunk-218d6618.637c7544.css rel=prefetch><link href=/css/chunk-235fbf7f.53cc7d17.css rel=prefetch><link href=/css/chunk-24569070.7428ec47.css rel=prefetch><link href=/css/chunk-24f43bb0.5fd819b5.css rel=prefetch><link href=/css/chunk-25c911ea.34170dac.css rel=prefetch><link href=/css/chunk-26af8f9d.c0dd6ce7.css rel=prefetch><link href=/css/chunk-26f2f68a.b5e6baac.css rel=prefetch><link href=/css/chunk-27651e44.2d4b06ea.css rel=prefetch><link href=/css/chunk-27ca5d5a.0faa96e0.css rel=prefetch><link href=/css/chunk-2821a6d4.0b86287a.css rel=prefetch><link href=/css/chunk-28416502.d743b950.css rel=prefetch><link href=/css/chunk-286371db.150e9a08.css rel=prefetch><link href=/css/chunk-28b61d49.451dc3e5.css rel=prefetch><link href=/css/chunk-291008cd.bc670d6e.css rel=prefetch><link href=/css/chunk-2925ebca.291c6e02.css rel=prefetch><link href=/css/chunk-29552892.e5df584d.css rel=prefetch><link href=/css/chunk-2a88f6db.b4262d0d.css rel=prefetch><link href=/css/chunk-2acce798.acf29425.css rel=prefetch><link href=/css/chunk-2ad671f8.d60a1ca8.css rel=prefetch><link href=/css/chunk-2af2f032.b1db18cb.css rel=prefetch><link href=/css/chunk-2d1e894e.fb8c4879.css rel=prefetch><link href=/css/chunk-2dc30d3a.ad66fc8d.css rel=prefetch><link href=/css/chunk-2ebdd006.01dfd4fa.css rel=prefetch><link href=/css/chunk-302eda0c.562ae93f.css rel=prefetch><link href=/css/chunk-3094b320.b9bde00b.css rel=prefetch><link href=/css/chunk-31160f8e.700f4d96.css rel=prefetch><link href=/css/chunk-3120d001.8081c6d8.css rel=prefetch><link href=/css/chunk-3153041c.5068e14a.css rel=prefetch><link href=/css/chunk-335c6d2d.98cdf0fe.css rel=prefetch><link href=/css/chunk-3470bfe5.432b978d.css rel=prefetch><link href=/css/chunk-34ea9291.7f7e25b5.css rel=prefetch><link href=/css/chunk-34edaccc.99df94c3.css rel=prefetch><link href=/css/chunk-36423990.34e37987.css rel=prefetch><link href=/css/chunk-36d60829.2e9d8e98.css rel=prefetch><link href=/css/chunk-38387245.3afd8ac4.css rel=prefetch><link href=/css/chunk-383f110c.347286c7.css rel=prefetch><link href=/css/chunk-3940644e.0e433876.css rel=prefetch><link href=/css/chunk-394802fa.0e6d1522.css rel=prefetch><link href=/css/chunk-39cce060.acd7be23.css rel=prefetch><link href=/css/chunk-39d52536.19b74632.css rel=prefetch><link href=/css/chunk-3a1ceee5.89ed0879.css rel=prefetch><link href=/css/chunk-3a3c68f5.e77238fb.css rel=prefetch><link href=/css/chunk-3a3db20a.d7f4f3a6.css rel=prefetch><link href=/css/chunk-3b6a4038.1bdaa268.css rel=prefetch><link href=/css/chunk-3b7942c9.aa0fad36.css rel=prefetch><link href=/css/chunk-3b927d86.05d56fcf.css rel=prefetch><link href=/css/chunk-3bf542d7.c267b53d.css rel=prefetch><link href=/css/chunk-3de0c29c.515de857.css rel=prefetch><link href=/css/chunk-3fc372ed.987f36f4.css rel=prefetch><link href=/css/chunk-402fb4e5.afe318a0.css rel=prefetch><link href=/css/chunk-404cd7ec.25d98621.css rel=prefetch><link href=/css/chunk-4115799c.55573578.css rel=prefetch><link href=/css/chunk-423326b1.fb838973.css rel=prefetch><link href=/css/chunk-4369c5be.61aec296.css rel=prefetch><link href=/css/chunk-43a8a6c8.e3f8916c.css rel=prefetch><link href=/css/chunk-44accfff.a9e36583.css rel=prefetch><link href=/css/chunk-461c3666.dcc91ea7.css rel=prefetch><link href=/css/chunk-464365c2.c7171335.css rel=prefetch><link href=/css/chunk-48b6f22d.9c0a821a.css rel=prefetch><link href=/css/chunk-48d5033b.ced5b8f1.css rel=prefetch><link href=/css/chunk-4a4de0e4.38a94f0e.css rel=prefetch><link href=/css/chunk-4a567ae0.b9b69240.css rel=prefetch><link href=/css/chunk-4ac84ecc.b44190b5.css rel=prefetch><link href=/css/chunk-4b347f00.13349a73.css rel=prefetch><link href=/css/chunk-4b58b986.3001e34d.css rel=prefetch><link href=/css/chunk-4b9eb1f1.69fa92e2.css rel=prefetch><link href=/css/chunk-4bdd4323.5793c8b7.css rel=prefetch><link href=/css/chunk-4bf96302.1307e1fd.css rel=prefetch><link href=/css/chunk-4cfd9c10.f9efc1da.css rel=prefetch><link href=/css/chunk-4d6f1154.cddd7c50.css rel=prefetch><link href=/css/chunk-4dcdd324.24ff3fbb.css rel=prefetch><link href=/css/chunk-4e0a8428.8587c9d1.css rel=prefetch><link href=/css/chunk-4fd23757.f3a4bab3.css rel=prefetch><link href=/css/chunk-50988dde.b9591616.css rel=prefetch><link href=/css/chunk-51c97890.7ab0ffdd.css rel=prefetch><link href=/css/chunk-5299c9c0.4f5dd39f.css rel=prefetch><link href=/css/chunk-52e27da8.c856e811.css rel=prefetch><link href=/css/chunk-53256b81.5f752277.css rel=prefetch><link href=/css/chunk-534de5c4.47f2bc4d.css rel=prefetch><link href=/css/chunk-53d9f1ff.ea2b7561.css rel=prefetch><link href=/css/chunk-54eb326e.2e94116b.css rel=prefetch><link href=/css/chunk-55b02062.b394b3b9.css rel=prefetch><link href=/css/chunk-55d3623a.f414cc4b.css rel=prefetch><link href=/css/chunk-566f007d.a4dd21f0.css rel=prefetch><link href=/css/chunk-57174f62.f68438d8.css rel=prefetch><link href=/css/chunk-57741cb4.3effa13a.css rel=prefetch><link href=/css/chunk-57971fe8.ad1f72ad.css rel=prefetch><link href=/css/chunk-57d7785a.e5c0df41.css rel=prefetch><link href=/css/chunk-582867b8.5cf6b4d0.css rel=prefetch><link href=/css/chunk-59fc8086.0e433876.css rel=prefetch><link href=/css/chunk-5aaf523c.c8ae9105.css rel=prefetch><link href=/css/chunk-5b71d560.15825878.css rel=prefetch><link href=/css/chunk-5bfe20b4.f8726d23.css rel=prefetch><link href=/css/chunk-5c17241a.5dd9e4d9.css rel=prefetch><link href=/css/chunk-5c265a56.0c6c56b3.css rel=prefetch><link href=/css/chunk-5ced04a5.e2c7e976.css rel=prefetch><link href=/css/chunk-5d295c16.7f95d315.css rel=prefetch><link href=/css/chunk-5e5b2764.5820ca44.css rel=prefetch><link href=/css/chunk-5e6f8210.8e8111e9.css rel=prefetch><link href=/css/chunk-5f04554a.3a1177e5.css rel=prefetch><link href=/css/chunk-5f0ef445.962586a4.css rel=prefetch><link href=/css/chunk-5fb5f7b4.ff117ec9.css rel=prefetch><link href=/css/chunk-5fc33ab6.9d991773.css rel=prefetch><link href=/css/chunk-6025a6a1.287fa160.css rel=prefetch><link href=/css/chunk-6199bd90.dd3ba9fb.css rel=prefetch><link href=/css/chunk-62f58bc0.e53cc7c2.css rel=prefetch><link href=/css/chunk-6377ffff.c82f9dbd.css rel=prefetch><link href=/css/chunk-6432c0cf.0a933d97.css rel=prefetch><link href=/css/chunk-646df052.2e6d87f4.css rel=prefetch><link href=/css/chunk-653be16b.7ce6bbbf.css rel=prefetch><link href=/css/chunk-661b33ca.8fa7f970.css rel=prefetch><link href=/css/chunk-665282a6.fc51e249.css rel=prefetch><link href=/css/chunk-6675963e.2e1266bf.css rel=prefetch><link href=/css/chunk-6676b07c.06885327.css rel=prefetch><link href=/css/chunk-6754e185.61ae4d9b.css rel=prefetch><link href=/css/chunk-69bc2b1e.10cfaa69.css rel=prefetch><link href=/css/chunk-69c8119e.8509b9bb.css rel=prefetch><link href=/css/chunk-69f80156.4bf9489f.css rel=prefetch><link href=/css/chunk-6a2bc67e.f790c87f.css rel=prefetch><link href=/css/chunk-6a657f07.dda69901.css rel=prefetch><link href=/css/chunk-6abaa936.6f5d87a2.css rel=prefetch><link href=/css/chunk-6ae24c22.b7e296e1.css rel=prefetch><link href=/css/chunk-6bbcbc60.7b2db7ed.css rel=prefetch><link href=/css/chunk-6bf36696.8a2a1d39.css rel=prefetch><link href=/css/chunk-6d9488b5.219a2363.css rel=prefetch><link href=/css/chunk-6da103eb.046f7325.css rel=prefetch><link href=/css/chunk-6f2bc579.31fc3693.css rel=prefetch><link href=/css/chunk-6f339848.7a05fe51.css rel=prefetch><link href=/css/chunk-6f7b6600.3d934dd6.css rel=prefetch><link href=/css/chunk-7087786a.d06b7173.css rel=prefetch><link href=/css/chunk-714051dc.8d7b4680.css rel=prefetch><link href=/css/chunk-730e3d3c.0279792e.css rel=prefetch><link href=/css/chunk-7333f72e.030820b4.css rel=prefetch><link href=/css/chunk-73a95968.0afaccfb.css rel=prefetch><link href=/css/chunk-73bbafa5.32ad5eb4.css rel=prefetch><link href=/css/chunk-7568a95d.414daff9.css rel=prefetch><link href=/css/chunk-769b38aa.beb7e924.css rel=prefetch><link href=/css/chunk-78252ce0.b7e93a66.css rel=prefetch><link href=/css/chunk-787fa63b.4a01464b.css rel=prefetch><link href=/css/chunk-793524b2.e7c450a5.css rel=prefetch><link href=/css/chunk-793ee407.3d0a38de.css rel=prefetch><link href=/css/chunk-799df977.3813590e.css rel=prefetch><link href=/css/chunk-7a654b0e.59b09355.css rel=prefetch><link href=/css/chunk-7b2d5714.d8fa6716.css rel=prefetch><link href=/css/chunk-7b3fa8e2.90591f11.css rel=prefetch><link href=/css/chunk-7bdaf382.d3d1562f.css rel=prefetch><link href=/css/chunk-7bdf7224.37b7055e.css rel=prefetch><link href=/css/chunk-7c22dfbe.2e016e2a.css rel=prefetch><link href=/css/chunk-7d0c0a94.97bd926f.css rel=prefetch><link href=/css/chunk-7d25c019.753b261e.css rel=prefetch><link href=/css/chunk-7d5f5717.451802c2.css rel=prefetch><link href=/css/chunk-7dd20ef4.0767ac10.css rel=prefetch><link href=/css/chunk-7e0cac86.7ca9d7b1.css rel=prefetch><link href=/css/chunk-7e1ee5bc.b836554c.css rel=prefetch><link href=/css/chunk-7e6088a9.2ed1e7c6.css rel=prefetch><link href=/css/chunk-7ed236a1.2fa47f70.css rel=prefetch><link href=/css/chunk-7ef27652.362c3a4f.css rel=prefetch><link href=/css/chunk-7fb99558.e1a61078.css rel=prefetch><link href=/css/chunk-8149816a.19b72253.css rel=prefetch><link href=/css/chunk-8666628a.790cc93c.css rel=prefetch><link href=/css/chunk-878aeeba.115f7b85.css rel=prefetch><link href=/css/chunk-8798a1c4.c2f57804.css rel=prefetch><link href=/css/chunk-88b2eaea.c3d82d9c.css rel=prefetch><link href=/css/chunk-89d72976.ddd14cd4.css rel=prefetch><link href=/css/chunk-8adcf382.b0a987af.css rel=prefetch><link href=/css/chunk-8b29eefa.33fa7ffe.css rel=prefetch><link href=/css/chunk-8ca9da48.c1bfa786.css rel=prefetch><link href=/css/chunk-8e95965e.314c9a3c.css rel=prefetch><link href=/css/chunk-947fb282.7e378b5c.css rel=prefetch><link href=/css/chunk-9755a910.16e01f28.css rel=prefetch><link href=/css/chunk-99b1e1c0.bd142d46.css rel=prefetch><link href=/css/chunk-9fa5057e.9852de8f.css rel=prefetch><link href=/css/chunk-a11c5a40.38aacd54.css rel=prefetch><link href=/css/chunk-a1b5fd3a.deccfa7e.css rel=prefetch><link href=/css/chunk-a48c948a.709d69bb.css rel=prefetch><link href=/css/chunk-a7ef2f50.b76eb469.css rel=prefetch><link href=/css/chunk-a8119b6e.0e433876.css rel=prefetch><link href=/css/chunk-a8c7725c.10c2f6cc.css rel=prefetch><link href=/css/chunk-a8e454cc.a10b81f1.css rel=prefetch><link href=/css/chunk-ab08e2c4.ec57c272.css rel=prefetch><link href=/css/chunk-ad46cac4.68daa558.css rel=prefetch><link href=/css/chunk-aeac8db2.5a340364.css rel=prefetch><link href=/css/chunk-b20f1622.d7b8481a.css rel=prefetch><link href=/css/chunk-b52b95f0.3f5b962e.css rel=prefetch><link href=/css/chunk-b5eacba2.354c8bf1.css rel=prefetch><link href=/css/chunk-b8f7ccf6.b2f97a09.css rel=prefetch><link href=/css/chunk-ba787152.81bd13b2.css rel=prefetch><link href=/css/chunk-baa536e6.e1d275bf.css rel=prefetch><link href=/css/chunk-bbf47290.73bb804d.css rel=prefetch><link href=/css/chunk-bd08cada.3575bad3.css rel=prefetch><link href=/css/chunk-be69a2fe.f7e1605f.css rel=prefetch><link href=/css/chunk-beb1403c.550f93b7.css rel=prefetch><link href=/css/chunk-c70eeaac.ee7ece3f.css rel=prefetch><link href=/css/chunk-c90acc9e.173d84eb.css rel=prefetch><link href=/css/chunk-c9ececc8.420ac6b4.css rel=prefetch><link href=/css/chunk-caff9184.beb25ded.css rel=prefetch><link href=/css/chunk-cc022f0a.29cbd616.css rel=prefetch><link href=/css/chunk-ce56ce72.5b0f81ae.css rel=prefetch><link href=/css/chunk-ce93a7e4.eb8a5301.css rel=prefetch><link href=/css/chunk-cfeea470.84c79010.css rel=prefetch><link href=/css/chunk-d094e9da.82b68cf0.css rel=prefetch><link href=/css/chunk-d494afce.9305507a.css rel=prefetch><link href=/css/chunk-d8fd0746.12a7d651.css rel=prefetch><link href=/css/chunk-d99e84fa.9265af00.css rel=prefetch><link href=/css/chunk-da229c02.90a67f25.css rel=prefetch><link href=/css/chunk-da80c10c.b464985d.css rel=prefetch><link href=/css/chunk-db460b5a.84938274.css rel=prefetch><link href=/css/chunk-dbb14054.1ba5412a.css rel=prefetch><link href=/css/chunk-def12380.75c499ac.css rel=prefetch><link href=/css/chunk-df0b58cc.fb1538b4.css rel=prefetch><link href=/css/chunk-e5b5b8f8.cf829e78.css rel=prefetch><link href=/css/chunk-e88b32f0.0731eb23.css rel=prefetch><link href=/css/chunk-e8d23874.cc6dfcee.css rel=prefetch><link href=/css/chunk-ec5f3b78.5a5d18e5.css rel=prefetch><link href=/css/chunk-ed2d991a.d01959cc.css rel=prefetch><link href=/css/chunk-ee07c94c.0f7c9def.css rel=prefetch><link href=/css/chunk-ee57debc.c1edce62.css rel=prefetch><link href=/css/chunk-ee5a5a92.22b2b7af.css rel=prefetch><link href=/css/chunk-f2028222.eeedecc5.css rel=prefetch><link href=/css/chunk-f3034c7a.b8a4d3d6.css rel=prefetch><link href=/css/chunk-f5c5da78.8fbf2fb1.css rel=prefetch><link href=/css/chunk-fb992370.d453903c.css rel=prefetch><link href=/css/chunk-fc18434a.669c6462.css rel=prefetch><link href=/css/chunk-fd6b4e8a.c8536074.css rel=prefetch><link href=/css/chunk-fed64bdc.4ae62c5e.css rel=prefetch><link href=/css/chunk-ff847bca.5320ea9b.css rel=prefetch><link href=/css/npm.vant~253ae210.8347737f.css rel=prefetch><link href=/js/chunk-01761f39.76ba6ec4.js rel=prefetch><link href=/js/chunk-01c4ad07.2632b3ce.js rel=prefetch><link href=/js/chunk-023ac93f.273ae450.js rel=prefetch><link href=/js/chunk-0249b6bb.24e0c0ed.js rel=prefetch><link href=/js/chunk-02c06c69.5c2bd631.js rel=prefetch><link href=/js/chunk-030d12e4.a6df6d86.js rel=prefetch><link href=/js/chunk-032daae5.b9df219d.js rel=prefetch><link href=/js/chunk-032f751b.9a5cd727.js rel=prefetch><link href=/js/chunk-034db8d5.38acbe24.js rel=prefetch><link href=/js/chunk-035e6c4b.3844ab65.js rel=prefetch><link href=/js/chunk-03d4b892.46015fd3.js rel=prefetch><link href=/js/chunk-04e680b7.3cc6a060.js rel=prefetch><link href=/js/chunk-04f0059d.b35d384b.js rel=prefetch><link href=/js/chunk-057878e8.276824d1.js rel=prefetch><link href=/js/chunk-05b83db0.1e5df2d8.js rel=prefetch><link href=/js/chunk-05db330a.be7952df.js rel=prefetch><link href=/js/chunk-064bc130.329b23a0.js rel=prefetch><link href=/js/chunk-07f71fe8.9df55caf.js rel=prefetch><link href=/js/chunk-0854cc53.c3c944be.js rel=prefetch><link href=/js/chunk-08e2bbda.38ab673f.js rel=prefetch><link href=/js/chunk-099543f1.b1d36cce.js rel=prefetch><link href=/js/chunk-09fb46fb.12a3153b.js rel=prefetch><link href=/js/chunk-0ba0ea1a.ff24153c.js rel=prefetch><link href=/js/chunk-0c53029c.01875a2a.js rel=prefetch><link href=/js/chunk-0c9b52ca.e4246a06.js rel=prefetch><link href=/js/chunk-0cdb594c.c3b13065.js rel=prefetch><link href=/js/chunk-0e9eeb77.67cbdf79.js rel=prefetch><link href=/js/chunk-0f5e9c02.3effb51d.js rel=prefetch><link href=/js/chunk-100ca8f4.29c5ba1c.js rel=prefetch><link href=/js/chunk-1110574f.0e1d54e2.js rel=prefetch><link href=/js/chunk-12cae1ea.03fb55f7.js rel=prefetch><link href=/js/chunk-1382e09c.11d0e31e.js rel=prefetch><link href=/js/chunk-13adbce6.35c66c23.js rel=prefetch><link href=/js/chunk-13dedbd0.f403070e.js rel=prefetch><link href=/js/chunk-13f23fd4.a54b23a3.js rel=prefetch><link href=/js/chunk-1481fcd7.309e1582.js rel=prefetch><link href=/js/chunk-15362a5f.e60315f1.js rel=prefetch><link href=/js/chunk-166b37cc.2059e891.js rel=prefetch><link href=/js/chunk-167e12c0.c357c6bb.js rel=prefetch><link href=/js/chunk-16ca4f2a.f2cd85c6.js rel=prefetch><link href=/js/chunk-16d57bb8.2d82aa83.js rel=prefetch><link href=/js/chunk-1760d464.0924d099.js rel=prefetch><link href=/js/chunk-17a2c453.983dc55f.js rel=prefetch><link href=/js/chunk-191d9927.83b727d5.js rel=prefetch><link href=/js/chunk-1a235da5.fc74161a.js rel=prefetch><link href=/js/chunk-1ad5d1ac.cf6648b9.js rel=prefetch><link href=/js/chunk-1c3fef8c.41b3955b.js rel=prefetch><link href=/js/chunk-1c5e708f.158a45bb.js rel=prefetch><link href=/js/chunk-1c995f49.d48f4d6f.js rel=prefetch><link href=/js/chunk-1d2c3db1.1d2aec78.js rel=prefetch><link href=/js/chunk-1e4aaf69.fbbb9e35.js rel=prefetch><link href=/js/chunk-1e702b6a.826c8bff.js rel=prefetch><link href=/js/chunk-1eb2d6a0.310e46a4.js rel=prefetch><link href=/js/chunk-1ecc5e5e.fef2a337.js rel=prefetch><link href=/js/chunk-1f586b1c.1fddc7e3.js rel=prefetch><link href=/js/chunk-1fbb83bc.5a3138b6.js rel=prefetch><link href=/js/chunk-208236dc.b5a1ec64.js rel=prefetch><link href=/js/chunk-21198b27.53df0e89.js rel=prefetch><link href=/js/chunk-211ef9b3.a2480a37.js rel=prefetch><link href=/js/chunk-218d6618.9841ed7c.js rel=prefetch><link href=/js/chunk-235fbf7f.651a4521.js rel=prefetch><link href=/js/chunk-24569070.33f44e9c.js rel=prefetch><link href=/js/chunk-24f43bb0.8dcf9fa3.js rel=prefetch><link href=/js/chunk-25c911ea.be1c1aae.js rel=prefetch><link href=/js/chunk-26af8f9d.4b241fa4.js rel=prefetch><link href=/js/chunk-26f2f68a.91b0d286.js rel=prefetch><link href=/js/chunk-27651e44.942d1f44.js rel=prefetch><link href=/js/chunk-27ca5d5a.824b093a.js rel=prefetch><link href=/js/chunk-2821a6d4.b31f0903.js rel=prefetch><link href=/js/chunk-28416502.bbceba92.js rel=prefetch><link href=/js/chunk-286371db.3efcf12f.js rel=prefetch><link href=/js/chunk-28b61d49.a3f14ed4.js rel=prefetch><link href=/js/chunk-291008cd.b8821358.js rel=prefetch><link href=/js/chunk-2925ebca.cd867f22.js rel=prefetch><link href=/js/chunk-29552892.48f2afa0.js rel=prefetch><link href=/js/chunk-2a88f6db.4a9c71eb.js rel=prefetch><link href=/js/chunk-2acce798.257ec58c.js rel=prefetch><link href=/js/chunk-2ad671f8.6a9d1c0e.js rel=prefetch><link href=/js/chunk-2af2f032.b3ee0325.js rel=prefetch><link href=/js/chunk-2d0ba339.b5331915.js rel=prefetch><link href=/js/chunk-2d0bda33.c6b353e0.js rel=prefetch><link href=/js/chunk-2d0be333.28176cbb.js rel=prefetch><link href=/js/chunk-2d0c7e71.71f9e3b9.js rel=prefetch><link href=/js/chunk-2d1e894e.cfeee6d6.js rel=prefetch><link href=/js/chunk-2d210fd8.be496815.js rel=prefetch><link href=/js/chunk-2d21b2d5.320009b0.js rel=prefetch><link href=/js/chunk-2d21b8ca.d14cc250.js rel=prefetch><link href=/js/chunk-2d21e787.1ae17c57.js rel=prefetch><link href=/js/chunk-2d229a31.89842eb5.js rel=prefetch><link href=/js/chunk-2dc30d3a.7000188c.js rel=prefetch><link href=/js/chunk-2ebdd006.7c346ce9.js rel=prefetch><link href=/js/chunk-302eda0c.e26f0ce4.js rel=prefetch><link href=/js/chunk-3094b320.0cf63170.js rel=prefetch><link href=/js/chunk-31160f8e.c8e26a78.js rel=prefetch><link href=/js/chunk-3120d001.cbc61617.js rel=prefetch><link href=/js/chunk-3153041c.1dff5032.js rel=prefetch><link href=/js/chunk-335c6d2d.21c6f6cf.js rel=prefetch><link href=/js/chunk-3470bfe5.fb7edcfa.js rel=prefetch><link href=/js/chunk-34ea9291.716c4e20.js rel=prefetch><link href=/js/chunk-34edaccc.be6f04e9.js rel=prefetch><link href=/js/chunk-36423990.70ea56bd.js rel=prefetch><link href=/js/chunk-36d60829.4d444655.js rel=prefetch><link href=/js/chunk-38387245.613ca3c9.js rel=prefetch><link href=/js/chunk-383f110c.83c951f0.js rel=prefetch><link href=/js/chunk-3940644e.1ba23ee5.js rel=prefetch><link href=/js/chunk-394802fa.e80ddea5.js rel=prefetch><link href=/js/chunk-39cce060.81090a8d.js rel=prefetch><link href=/js/chunk-39d52536.03e61134.js rel=prefetch><link href=/js/chunk-3a1ceee5.1e998f88.js rel=prefetch><link href=/js/chunk-3a3c68f5.f6dbb307.js rel=prefetch><link href=/js/chunk-3a3db20a.ea41b658.js rel=prefetch><link href=/js/chunk-3b6a4038.33f71ad0.js rel=prefetch><link href=/js/chunk-3b7942c9.07900acf.js rel=prefetch><link href=/js/chunk-3b927d86.cefbefd3.js rel=prefetch><link href=/js/chunk-3bf542d7.e01197ee.js rel=prefetch><link href=/js/chunk-3de0c29c.b0156cda.js rel=prefetch><link href=/js/chunk-3fc372ed.333bbca1.js rel=prefetch><link href=/js/chunk-402fb4e5.32dce197.js rel=prefetch><link href=/js/chunk-404cd7ec.51d34262.js rel=prefetch><link href=/js/chunk-4115799c.4b2bb634.js rel=prefetch><link href=/js/chunk-423326b1.d48e6321.js rel=prefetch><link href=/js/chunk-4369c5be.77ec2b33.js rel=prefetch><link href=/js/chunk-43a8a6c8.08bf792c.js rel=prefetch><link href=/js/chunk-44accfff.9d6789a7.js rel=prefetch><link href=/js/chunk-461c3666.10ad07ca.js rel=prefetch><link href=/js/chunk-464365c2.2b05c591.js rel=prefetch><link href=/js/chunk-48b6f22d.ce1a8049.js rel=prefetch><link href=/js/chunk-48d5033b.37792417.js rel=prefetch><link href=/js/chunk-4a4de0e4.f699b383.js rel=prefetch><link href=/js/chunk-4a567ae0.7036d87e.js rel=prefetch><link href=/js/chunk-4ac84ecc.a9b6cbdb.js rel=prefetch><link href=/js/chunk-4b347f00.e64bc20a.js rel=prefetch><link href=/js/chunk-4b58b986.0190632d.js rel=prefetch><link href=/js/chunk-4b9eb1f1.83f917a6.js rel=prefetch><link href=/js/chunk-4bdd4323.ae067c67.js rel=prefetch><link href=/js/chunk-4bf96302.d09de56f.js rel=prefetch><link href=/js/chunk-4cfd9c10.c947955b.js rel=prefetch><link href=/js/chunk-4d6f1154.d6ffb7b8.js rel=prefetch><link href=/js/chunk-4dcdd324.92c8a64a.js rel=prefetch><link href=/js/chunk-4e0a8428.d23baac7.js rel=prefetch><link href=/js/chunk-4fd23757.1fe40d2c.js rel=prefetch><link href=/js/chunk-50988dde.021d3b4e.js rel=prefetch><link href=/js/chunk-51c97890.faa46a6a.js rel=prefetch><link href=/js/chunk-5299c9c0.09e12707.js rel=prefetch><link href=/js/chunk-52e27da8.bba6c540.js rel=prefetch><link href=/js/chunk-53256b81.ec715a07.js rel=prefetch><link href=/js/chunk-534de5c4.5389b890.js rel=prefetch><link href=/js/chunk-53d9f1ff.8e009bf9.js rel=prefetch><link href=/js/chunk-54eb326e.b4bc88e6.js rel=prefetch><link href=/js/chunk-55b02062.9c4e24fc.js rel=prefetch><link href=/js/chunk-55d3623a.a712aa84.js rel=prefetch><link href=/js/chunk-566f007d.178a63c2.js rel=prefetch><link href=/js/chunk-57174f62.04eedc28.js rel=prefetch><link href=/js/chunk-57741cb4.d5ab047e.js rel=prefetch><link href=/js/chunk-57971fe8.cf4e0076.js rel=prefetch><link href=/js/chunk-57d7785a.76bbbfb6.js rel=prefetch><link href=/js/chunk-582867b8.732e8342.js rel=prefetch><link href=/js/chunk-59fc8086.71af4bfa.js rel=prefetch><link href=/js/chunk-5aaf523c.3f009fcc.js rel=prefetch><link href=/js/chunk-5b71d560.95e6b0ca.js rel=prefetch><link href=/js/chunk-5bfe20b4.b075ae67.js rel=prefetch><link href=/js/chunk-5c17241a.1667686c.js rel=prefetch><link href=/js/chunk-5c265a56.e0cf27eb.js rel=prefetch><link href=/js/chunk-5ced04a5.c8504480.js rel=prefetch><link href=/js/chunk-5d295c16.a1f65a6c.js rel=prefetch><link href=/js/chunk-5e5b2764.f2e08c86.js rel=prefetch><link href=/js/chunk-5e6f8210.723f2a69.js rel=prefetch><link href=/js/chunk-5f04554a.f2cc8604.js rel=prefetch><link href=/js/chunk-5f0ef445.7d40dfa9.js rel=prefetch><link href=/js/chunk-5fb5f7b4.83d8d0a6.js rel=prefetch><link href=/js/chunk-5fc33ab6.9cb9e78a.js rel=prefetch><link href=/js/chunk-6025a6a1.2b58c331.js rel=prefetch><link href=/js/chunk-6199bd90.01b09871.js rel=prefetch><link href=/js/chunk-62f58bc0.02fbde33.js rel=prefetch><link href=/js/chunk-6377ffff.0682adbd.js rel=prefetch><link href=/js/chunk-6432c0cf.3dc1d7be.js rel=prefetch><link href=/js/chunk-646df052.489e887f.js rel=prefetch><link href=/js/chunk-653be16b.71ac7d24.js rel=prefetch><link href=/js/chunk-661b33ca.16b73f34.js rel=prefetch><link href=/js/chunk-665282a6.3a736f52.js rel=prefetch><link href=/js/chunk-6675963e.3f06f309.js rel=prefetch><link href=/js/chunk-6676b07c.a0b28fce.js rel=prefetch><link href=/js/chunk-6692839e.fcd96daf.js rel=prefetch><link href=/js/chunk-6754e185.7a142b73.js rel=prefetch><link href=/js/chunk-69bc2b1e.ff636082.js rel=prefetch><link href=/js/chunk-69c8119e.466c47ec.js rel=prefetch><link href=/js/chunk-69f80156.80f6232a.js rel=prefetch><link href=/js/chunk-6a2bc67e.20f42ef3.js rel=prefetch><link href=/js/chunk-6a657f07.522d8c4e.js rel=prefetch><link href=/js/chunk-6abaa936.b5d986e6.js rel=prefetch><link href=/js/chunk-6ae24c22.46bbcb2d.js rel=prefetch><link href=/js/chunk-6bbcbc60.b3d2d5b6.js rel=prefetch><link href=/js/chunk-6bf36696.a7f01dd5.js rel=prefetch><link href=/js/chunk-6d9488b5.2c3e96e2.js rel=prefetch><link href=/js/chunk-6da103eb.2d7b85c8.js rel=prefetch><link href=/js/chunk-6f2bc579.6b876bf1.js rel=prefetch><link href=/js/chunk-6f339848.53e71dd2.js rel=prefetch><link href=/js/chunk-6f7b6600.fd0037d1.js rel=prefetch><link href=/js/chunk-7087786a.2c8a9752.js rel=prefetch><link href=/js/chunk-714051dc.d0cd5df1.js rel=prefetch><link href=/js/chunk-730e3d3c.5514e455.js rel=prefetch><link href=/js/chunk-7333f72e.e96bf338.js rel=prefetch><link href=/js/chunk-73a95968.5df5f79e.js rel=prefetch><link href=/js/chunk-73bbafa5.0b78423e.js rel=prefetch><link href=/js/chunk-7568a95d.3611c25e.js rel=prefetch><link href=/js/chunk-767644ea.14cd3995.js rel=prefetch><link href=/js/chunk-76768794.0abcb779.js rel=prefetch><link href=/js/chunk-7676e059.a57c7945.js rel=prefetch><link href=/js/chunk-7677005d.44bd9254.js rel=prefetch><link href=/js/chunk-768a4910.aafb344f.js rel=prefetch><link href=/js/chunk-768b4258.4b42e63d.js rel=prefetch><link href=/js/chunk-769b38aa.57126ca0.js rel=prefetch><link href=/js/chunk-78252ce0.9f4a7c80.js rel=prefetch><link href=/js/chunk-787fa63b.65440cca.js rel=prefetch><link href=/js/chunk-793524b2.ada7cb62.js rel=prefetch><link href=/js/chunk-793ee407.2229e03e.js rel=prefetch><link href=/js/chunk-799df977.a3065b8f.js rel=prefetch><link href=/js/chunk-7a654b0e.91b72fd2.js rel=prefetch><link href=/js/chunk-7b2d5714.5cc1f629.js rel=prefetch><link href=/js/chunk-7b3fa8e2.d6c2ee22.js rel=prefetch><link href=/js/chunk-7bdaf382.a68f9851.js rel=prefetch><link href=/js/chunk-7bdf7224.41ae1336.js rel=prefetch><link href=/js/chunk-7c22dfbe.177f1daa.js rel=prefetch><link href=/js/chunk-7d0c0a94.a26b1808.js rel=prefetch><link href=/js/chunk-7d25c019.e3601cda.js rel=prefetch><link href=/js/chunk-7d5f5717.2d72274f.js rel=prefetch><link href=/js/chunk-7dd20ef4.334d87bf.js rel=prefetch><link href=/js/chunk-7e0cac86.e007502c.js rel=prefetch><link href=/js/chunk-7e1ee5bc.bb9ad3d4.js rel=prefetch><link href=/js/chunk-7e6088a9.185c288d.js rel=prefetch><link href=/js/chunk-7ed236a1.998a5fdb.js rel=prefetch><link href=/js/chunk-7ef27652.28a26d75.js rel=prefetch><link href=/js/chunk-7fb99558.87f4d81c.js rel=prefetch><link href=/js/chunk-8149816a.b3e16a75.js rel=prefetch><link href=/js/chunk-8666628a.99c07a2f.js rel=prefetch><link href=/js/chunk-878aeeba.b970f9e0.js rel=prefetch><link href=/js/chunk-8798a1c4.82b83ddc.js rel=prefetch><link href=/js/chunk-88b2eaea.4d161b74.js rel=prefetch><link href=/js/chunk-89d72976.01737782.js rel=prefetch><link href=/js/chunk-8adcf382.9f4a94a2.js rel=prefetch><link href=/js/chunk-8b29eefa.ca41679d.js rel=prefetch><link href=/js/chunk-8ca9da48.c7cef663.js rel=prefetch><link href=/js/chunk-8e95965e.730f3d60.js rel=prefetch><link href=/js/chunk-947fb282.6ebf547d.js rel=prefetch><link href=/js/chunk-9755a910.b4e0e1dc.js rel=prefetch><link href=/js/chunk-99b1e1c0.820e0f13.js rel=prefetch><link href=/js/chunk-9fa5057e.a8f2926b.js rel=prefetch><link href=/js/chunk-a11c5a40.a8e5b5fe.js rel=prefetch><link href=/js/chunk-a1b5fd3a.188cfaf1.js rel=prefetch><link href=/js/chunk-a48c948a.fe31ec33.js rel=prefetch><link href=/js/chunk-a7ef2f50.07a9dd81.js rel=prefetch><link href=/js/chunk-a8119b6e.3d260b8a.js rel=prefetch><link href=/js/chunk-a8c7725c.e3d07079.js rel=prefetch><link href=/js/chunk-a8e454cc.68599750.js rel=prefetch><link href=/js/chunk-ab08e2c4.8fb5d276.js rel=prefetch><link href=/js/chunk-ad46cac4.9c823379.js rel=prefetch><link href=/js/chunk-aeac8db2.52347219.js rel=prefetch><link href=/js/chunk-b20f1622.ab1afcf9.js rel=prefetch><link href=/js/chunk-b52b95f0.fbaa093b.js rel=prefetch><link href=/js/chunk-b5eacba2.b5c96da8.js rel=prefetch><link href=/js/chunk-b8f7ccf6.9181c42d.js rel=prefetch><link href=/js/chunk-ba787152.5b4b34e2.js rel=prefetch><link href=/js/chunk-baa536e6.06342fbb.js rel=prefetch><link href=/js/chunk-bbf47290.606a58cb.js rel=prefetch><link href=/js/chunk-bd08cada.91645fbd.js rel=prefetch><link href=/js/chunk-be69a2fe.5359a043.js rel=prefetch><link href=/js/chunk-beb1403c.63296300.js rel=prefetch><link href=/js/chunk-c70eeaac.51eeb1ea.js rel=prefetch><link href=/js/chunk-c90acc9e.706db07f.js rel=prefetch><link href=/js/chunk-c9a58aa8.e222aa46.js rel=prefetch><link href=/js/chunk-c9ececc8.8d39cd37.js rel=prefetch><link href=/js/chunk-caff9184.ef4e0533.js rel=prefetch><link href=/js/chunk-cc022f0a.10fc2a21.js rel=prefetch><link href=/js/chunk-ce56ce72.6d73ad3e.js rel=prefetch><link href=/js/chunk-ce93a7e4.2978c1d7.js rel=prefetch><link href=/js/chunk-cfeea470.2ec58d65.js rel=prefetch><link href=/js/chunk-d094e9da.473f0d92.js rel=prefetch><link href=/js/chunk-d494afce.08ca821a.js rel=prefetch><link href=/js/chunk-d8fd0746.59b65a70.js rel=prefetch><link href=/js/chunk-d99e84fa.d7e6f8dc.js rel=prefetch><link href=/js/chunk-da229c02.4eaec812.js rel=prefetch><link href=/js/chunk-da80c10c.f1f7e8b6.js rel=prefetch><link href=/js/chunk-db460b5a.6f2e5c81.js rel=prefetch><link href=/js/chunk-dbb14054.9dd893fe.js rel=prefetch><link href=/js/chunk-def12380.13564436.js rel=prefetch><link href=/js/chunk-df0b58cc.fe0f8c97.js rel=prefetch><link href=/js/chunk-e5b5b8f8.97ab37e7.js rel=prefetch><link href=/js/chunk-e88b32f0.8e76f020.js rel=prefetch><link href=/js/chunk-e8d23874.d3570c47.js rel=prefetch><link href=/js/chunk-ec5f3b78.01225dc5.js rel=prefetch><link href=/js/chunk-ed2d991a.acbd4850.js rel=prefetch><link href=/js/chunk-ee07c94c.eaba1f79.js rel=prefetch><link href=/js/chunk-ee57debc.e7de5d39.js rel=prefetch><link href=/js/chunk-ee5a5a92.53a0e07b.js rel=prefetch><link href=/js/chunk-f2028222.c75b9426.js rel=prefetch><link href=/js/chunk-f3034c7a.5f2227e2.js rel=prefetch><link href=/js/chunk-f5c5da78.406868ac.js rel=prefetch><link href=/js/chunk-fb992370.226154e4.js rel=prefetch><link href=/js/chunk-fc18434a.1be1452c.js rel=prefetch><link href=/js/chunk-fd6b4e8a.46100ae8.js rel=prefetch><link href=/js/chunk-fed64bdc.c10e1a61.js rel=prefetch><link href=/js/chunk-ff847bca.1f87463b.js rel=prefetch><link href=/js/npm.buffer~7e5e8261.28c83df0.js rel=prefetch><link href=/js/npm.clipboard~16c382c5.210d30f3.js rel=prefetch><link href=/js/npm.dynamsoft-camera-enhancer~b32b2330.a114dfbd.js rel=prefetch><link href=/js/npm.dynamsoft-capture-vision-router~8206fe7e.15584238.js rel=prefetch><link href=/js/npm.html2canvas~cbc997cd.cdc7f8b8.js rel=prefetch><link href=/js/npm.lodash~77bf5e45.ce7818ca.js rel=prefetch><link href=/js/npm.qrcodejs2~ff5c4196.69747809.js rel=prefetch><link href=/js/npm.qs~bc261e74.08dc144d.js rel=prefetch><link href=/js/npm.vant~253ae210.cec24f84.js rel=prefetch><link href=/js/npm.vue-awesome-swiper~637a41ef.ff9fab91.js rel=prefetch><link href=/js/npm.vue-calendar-component~f04ac3fb.8b1190f3.js rel=prefetch><link href=/css/app~3d9b8e9e.a7824362.css rel=preload as=style><link href=/css/app~d0ae3f07.e84a239f.css rel=preload as=style><link href=/css/chunk-vendors~253ae210.b57e4bfb.css rel=preload as=style><link href=/css/npm.mint-ui~4c1875d9.ba5f61ac.css rel=preload as=style><link href=/js/app~3d9b8e9e.8c1b8a80.js rel=preload as=script><link href=/js/app~d0ae3f07.39efdbc6.js rel=preload as=script><link href=/js/chunk-vendors~253ae210.8f834482.js rel=preload as=script><link href=/js/npm.axios~e4173fa2.639448ce.js rel=preload as=script><link href=/js/npm.core-js~5c956a7a.c918e689.js rel=preload as=script><link href=/js/npm.mint-ui~4c1875d9.5eb09d61.js rel=preload as=script><link href=/js/npm.regenerator-runtime~ccfd30e1.61d13572.js rel=preload as=script><link href=/js/npm.vue-router~b1f96ece.e4a4eb35.js rel=preload as=script><link href=/js/npm.vuex~87de5440.09eb5079.js rel=preload as=script><link href=/js/npm.vue~253ae210.e294cafb.js rel=preload as=script><link href=/js/npm.weixin-js-sdk~f5f978ce.a1aff528.js rel=preload as=script><link href=/css/npm.mint-ui~4c1875d9.ba5f61ac.css rel=stylesheet><link href=/css/chunk-vendors~253ae210.b57e4bfb.css rel=stylesheet><link href=/css/app~d0ae3f07.e84a239f.css rel=stylesheet><link href=/css/app~3d9b8e9e.a7824362.css rel=stylesheet></head><body><div id=recode50header class=no-animate></div><div id=app></div><script>const isDevMode = window.location.search.includes('dev_mode=1');
+if (isDevMode) {
+  const elm = document.createElement('SCRIPT');
+  elm.src = '/static/js/vconsole.min.js';
+  elm.onload = () => {
+    window.vConsole = new window.VConsole();
+  };
+  document.body.append(elm);
+}
+// 禁止页面旋转
+function forbidRotateScreen() {
+  if (window.orientation !== undefined) {
+    // 如果设备支持屏幕旋转
+    if (window.orientation === 90 || window.orientation === -90) {
+      // 如果屏幕处于横屏状态
+      window.orientation = 0;
+      // 将屏幕方向设置为竖屏
+    }
+    window.addEventListener('orientationchange', function () {
+      if (window.orientation === 90 || window.orientation === -90) {
+        window.orientation = 0;
+      }
+    });
+  }
+}
+forbidRotateScreen();
+
+function goto(id) {
+    document.querySelector(id).scrollIntoView({
+      behavior: 'smooth'
+    });
+}</script><style>#webZone a {
+    color: #0054AE;
+    vertical-align: baseline;
+  }
+
+  #webZone .more {
+    font-size: 0.24rem;
+  }
+
+#webZone .bd2 {
+    display: flex;
+    padding-bottom: 0.32rem;
+    border-bottom: 0.01rem solid #cccccc;
+    margin: 0.32rem 0;
+  }
+
+#webZone .left img {
+    width: 2.8rem;
+    height: 1.6rem;
+    opacity: 0.9;
+    border-radius: 0.08rem;
+  }
+
+#webZone .right {
+    margin-left: 0.16rem;
+  }
+
+#webZone .right .title {
+    font-size: 0.28rem;
+    font-weight: 500;
+    margin-bottom: 0.12rem;
+  }
+
+#webZone .right .desc {
+    font-size: 0.24rem;
+    color: #525252;
+  }
+
+#webZone .right .button {
+    margin: 0.24rem 0 0 0;
+    color: #ffffff;
+    background: #0054AE;
+    border-radius: 0.72rem;
+    font-size: 0.24rem;
+    padding: 0.06rem 0.24rem;
+    width: 1.2rem;
+    height: 0.4rem;
+    line-height: 0.4rem;
+  }
+
+#webZone .box {
+    background: #ffffff;
+    padding: 0.32rem 0.32rem 0.32rem;
+  }
+
+  #webZone .box .hd-title span{
+    display:inline-block;line-height:0.64rem;
+    margin-left:0.1rem;
+  }
+  #webZone .box .hd-title img{
+  width:0.6rem;height:0.64rem;
+    display:inline-block;vertical-align:middle
+  }
+
+#webZone .hui {
+    width: 100%;
+    background: #f5f5f5;
+    height: 0.16rem;
+    max-height: 0.16rem;
+  }
+
+#webZone .box .hd {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0.4rem;
+    margin: 0.3rem 0 0.24rem 0;
+    background: url("/static/images/icon-hd.png") #fff 0rem 0rem no-repeat;
+    background-size:contain;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.32rem;
+    line-height: 0.30rem;
+    color: #262626;
+  }
+
+#webZone .box .hd2 {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0.4rem;
+  margin: 0 0 0.24rem;
+  background: url("/static/images/icon--16.png") #fff 0rem 0rem no-repeat;
+  background-size: contain;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.32rem;
+  line-height: 0.4rem;
+  height: 0.4rem;
+  color: #262626;
+}
+#webZone .box .hd2 h5{
+    line-height: 0.4rem;
+  }
+
+#webZone .box .hd div {
+    font-weight: 400;
+    text-align: right;
+    font-size: 0.26rem;
+    padding-right: 0.32rem;
+    color: #0054AE;
+  }
+
+#webZone .box .bd {
+    font-weight: 400;
+    font-size: 0.28rem;
+    line-height: 0.4rem;
+    color: #525252;
+    margin-top:0.4rem;
+  }
+
+#webZone .box .bd img {
+    width: 6.86rem;
+    border-radius: 0.16rem;
+    margin: 0rem 0 0.22rem;
+  }
+
+#webZone .button {
+      display: block;
+      text-align: center;
+      margin-top: 0.32rem;
+      height: 0.72rem;
+      line-height: 0.72rem;
+      border: 0.01rem solid #0054AE;
+      border-radius: 0.16rem;
+      font-weight: 400;
+      font-size: 0.24rem;
+      color: #0054AE;
+      background: #f5f5f5;
+  }
+
+#webZone .box .bd h3 {
+    font-size: 0.28rem;
+    color: #262626;
+    margin: 0.16rem 0 0.08rem;
+    padding-left: 0.4rem;
+    margin: 0 0 0.24rem;
+    background: url("/static/images/h3.png") #fff 0rem 0rem no-repeat;
+    background-size:contain;
+  }
+
+#webZone .box .bd p {
+    margin-bottom: 0.24rem;
+  }
+
+#webZone .box2 {
+    background: #FFFFFF;
+    border-radius: 0.16rem;
+    margin: 0.32rem;
+    padding: 0.24rem;
+    font-size: 0.26rem;
+    color: #525252;
+  }
+
+#webZone .box2 .hd {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 0.01rem solid #cccccc;
+    margin-bottom: 0.24rem;
+    height:1rem;
+  }
+
+#webZone .box2 .hd h2 {
+    display: flex;
+    align-items: center;
+    font-size: 0.3rem;
+    font-weight: 500;
+    color:#262626;
+  }
+
+#webZone .box2 .hd h2 img {
+    width: 0.8rem;
+    height: 0.8rem;
+    margin-right: 0.24rem;
+  }
+
+#webZone .box2 .hd div:after {
+    font-weight: 400;
+    text-align: right;
+    font-size: 0.26rem;
+    padding-right: 0.32rem;
+    color: #0054AE;
+    content: " >";
+  }
+
+#webZone .box2 .hd div a {
+    color: #0054AE;
+    vertical-align: baseline;
+  }
+
+#webZone .box2 .bd {
+    color: #525252;
+    font-size:0.26rem;
+    font-weight:400;
+    line-height:0.4rem;
+  }
+
+  #webZone .icon1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 0.3rem;
+}
+    #webZone .icon1 li {
+        border-radius: 3rem;
+        background: rgba(0, 84, 174, 0.12);
+        padding: 0.05rem 0.3rem;
+        margin-right: 0.2rem;
+        font-size: 0.24rem;
+}
+    #webZone .icon1 li a {
+            color: #262626;
+        }
+
+    #webZone .icon1 li  .on {
+            color: #0054AE;
+        }
+
+
+    #webZone .bd3 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+    #webZone .bd3 a {
+        display: block;
+        width: 3.3rem;
+        height: 1.4rem;
+        margin-bottom: 0.24rem;
+        background-image: url("https://partnersocialtest.intel.cn/files/test/upload_image/febf4d_1706360672363_001.png");
+        background-repeat: no-repeat;
+        background-origin: 0 0;
+        background-size: contain;
+        color: #ffffff;
+        font-size: 0.24rem;
+}
+    #webZone .bd3 a  .title {
+            margin-top: 0.35rem;
+            margin-left: 1.15rem;
+        }
+
+#webZone .demo6 {
+    margin-top: 0 !important;
+}
+    #webZone .demo6 .list {
+        overflow: hidden;
+        padding-top: 0;
+}
+    #webZone .demo6 .list  .one {
+            display: block;
+            background-color: #fff;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.16);
+            padding: 0.3rem 0;
+}
+    #webZone .demo6 .list  .one dl dt {
+                    width: 2.8rem;
+                    height: 1.6rem;
+                    float: left;
+      position: relative;
+    }
+    #webZone .box .bd dt img {
+                        width: 100%;
+                        height: 100%;
+                        opacity: 0.9;
+                        border-radius: 5px;
+}
+#webZone .box .bd dt .mark {
+        position: absolute;
+        width: 0.68rem !important;
+        height: 0.68rem !important;
+        top: 30%;
+        left: 40%;
+      }
+#webZone .box .demo6  dd {
+                    width: auto;
+                    height: 1.5rem;
+                    margin-left: 2.95rem;
+                    display: flex;
+                    flex-direction: column;
+}
+    #webZone .demo6 .list  .one dl .title {
+                        color: rgb(29, 33, 41);
+                        font-size:0.28rem;
+                        display: -webkit-box;
+                        -webkit-box-orient: vertical;
+                        -webkit-line-clamp: 2;
+                        /* overflow: hidden; */
+                        line-height: 1.2;
+                        margin-bottom: 0.1rem;
+                        font-weight: bold;
+                    }
+
+    #webZone .demo6 .list  .one dl  .bottom {
+                        font-size: 12px;
+                        color: #4E5969;
+                        line-height: 19px;
+                        display: -webkit-box;
+                        -webkit-box-orient: vertical;
+                        -webkit-line-clamp: 2;
+                        height: 30px;
+                        overflow: hidden;
+                        padding-bottom: 0.2rem;
+                    }
+
+    #webZone .demo6 .list:last-child .one {
+            border-bottom: none;
+        }
+
+
+    #webZone .demo6  .title {
+        color: #000;
+        line-height: 1rem;
+        font-size: 0.3rem;
+        font-weight: bold;
+    }
+
+    #webZone .demo6  .li-bottom {
+        margin-top: 0.3rem;
+        display: flex;
+        justify-content: space-between;
+        color: rgb(134, 144, 156);
+        font-size: 12px;
+        font-weight: 400;
+    }
+    #webZone .demo6  .li-bottom  span {
+            border: 0.5px solid #00C7FD;
+            border-radius: 4px;
+            padding: 3px 10px 3px 10px;
+            margin-right: 0.15rem;
+            margin-bottom: 1px;
+            height: 12px;
+            color: #0054AE;
+        }
+
+/* PC端适配 */
+  @media (min-width: 768px) {
+  #webZone,.pcStyle,.iconBox,.Webpage,.text_area {
+  width:768px;
+	margin:0 auto;
+  }
+  #webZone .box .bd img {
+    width:738px;
+  }
+  .iconBox .icon4 {
+        width: auto;
+    }
+
+    .iconBox .icon4 .mian {
+        width: 20%;
+    }
+
+    #webZone .bd3 {justify-content: start;}
+
+    #webZone .bd3 a {
+            margin-right: 0.12rem;
+        }
+
+    /* #webZone .box {
+        width: 768px;
+        margin: 0 auto;
+    } */
+}
+/* Marketplace Offering */
+  .offering2023 .hd2{
+    padding-left:0.4rem;
+    margin:0rem 0 0.24rem;
+      background:url("/static/images/icon-hd.png") #fff 0rem 0.06rem no-repeat;
+      background-size:0.25rem;
+      font-style: normal;
+      font-weight: 700;
+      font-size:0.3rem;
+      line-height:0.32rem;
+      color: #262626;
+  }
+  .offering2023 .hd{
+      background:url("/static/images/offering2023.png") #ffffff 0.32rem 0rem no-repeat;
+      background-size:6.84rem; 
+      color:#ffffff;
+      height:0.48rem;
+      padding:0.04rem 0.7rem;
+      font-size:0.28rem;
+      font-weight:500;
+      margin:0.48rem 0 0rem;
+  }
+  .offering2023 .bd{
+    padding:0.34rem 0.32rem 0;
+    font-size:0.26rem;
+  }
+  .offering2023 li{    
+    line-height:0.4rem;
+  } 
+  .offering2023 li:before {
+    content: "";
+    display: inline-block;
+    width: 0.05rem;
+    height:0.05rem;
+    background-color: #262626;
+    border-radius: 50%;
+    margin-right:0.1rem;
+    margin-bottom:0.1rem;
+  }
+  .offering2023 th{
+      background:#0054AE;
+      color:#ffffff;
+      font-size:0.28rem;
+      font-weight:500;
+      height:0.68rem;
+   }
+  .offering2023 .line{
+    border-collapse:collapse;
+    border-spacing:0;
+    border:1px solid #0054AE;
+  }
+  .offering2023 .line td{
+      border:1px solid #0054AE;
+      padding:0.32rem 0.24rem;
+  }</style><script src=/js/npm.vue~253ae210.e294cafb.js></script><script src=/js/npm.core-js~5c956a7a.c918e689.js></script><script src=/js/npm.mint-ui~4c1875d9.5eb09d61.js></script><script src=/js/npm.axios~e4173fa2.639448ce.js></script><script src=/js/npm.regenerator-runtime~ccfd30e1.61d13572.js></script><script src=/js/npm.vue-router~b1f96ece.e4a4eb35.js></script><script src=/js/npm.vuex~87de5440.09eb5079.js></script><script src=/js/npm.weixin-js-sdk~f5f978ce.a1aff528.js></script><script src=/js/chunk-vendors~253ae210.8f834482.js></script><script src=/js/app~d0ae3f07.39efdbc6.js></script><script src=/js/app~3d9b8e9e.8c1b8a80.js></script></body></html>

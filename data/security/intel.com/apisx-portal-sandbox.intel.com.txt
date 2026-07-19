@@ -1,0 +1,51 @@
+<!DOCTYPE html><html><head><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <meta charset="utf-8">
+
+  <!-- Ensure mobile displays do not scale down content -->
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <!-- Default to blank favicon. Overwritten by real favicon if present -->
+  <link id="favicon" rel="icon" href="data:;base64,iVBORw0KGgo=">
+
+  <title></title>
+  <base href="/">
+  <style type="text/css">@font-face{font-family:'Material Icons';font-style:normal;font-weight:400;src:url(https://fonts.gstatic.com/s/materialicons/v145/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ.woff2) format('woff2');}.material-icons{font-family:'Material Icons';font-weight:normal;font-style:normal;font-size:24px;line-height:1;letter-spacing:normal;text-transform:none;display:inline-block;white-space:nowrap;word-wrap:normal;direction:ltr;-webkit-font-feature-settings:'liga';-webkit-font-smoothing:antialiased;}</style>
+
+  <script>
+    function noop() {}
+
+    /**
+     * Creates, kicks off, and returns an HTTP GET request
+     * @param url where to send the request
+     * @param onCompletion callback to execute when the request is complete. defaults to no-op
+     * @return {XMLHttpRequest}
+     */
+    function getRequest(url, onCompletion) {
+      onCompletion = onCompletion || noop;
+
+      var req = new XMLHttpRequest();
+      req.open('GET', url);
+      req.onreadystatechange = function () {
+        if (req.readyState === XMLHttpRequest.DONE) {
+          onCompletion(req);
+        }
+      };
+      req.send();
+      return req;
+    }
+
+    getRequest('/siteid', function (req) {
+      var siteId = req.responseText;
+      var baseUrl = '/portals/api/sites/' + siteId + '/liveportal/';
+      window.preloadRequests = {
+        SITE_MAP: getRequest(baseUrl + 'sitemap'),
+        MENUS: getRequest(baseUrl + 'menus'),
+      };
+    });
+  </script>
+</head>
+<body>
+<app></app>
+<script src="/js/runtime.205118eaef2c4563.js" type="module"></script><script src="/js/polyfills.717e942693a49474.js" type="module"></script><script src="/js/main.a8a561a6a9692098.js" type="module"></script>
+
+</body></html>

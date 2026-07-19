@@ -1,0 +1,9 @@
+User-agent: Googlebot
+Allow: *
+
+User-agent: Twitterbot
+Disallow: /wp-content
+
+User-agent: OmtrBot/1.0
+Allow: *
+
