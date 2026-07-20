@@ -1,0 +1,14 @@
+# *
+User-agent: *
+Allow: /
+Disallow: /auth/*
+Disallow: /login
+Disallow: /chakra
+Disallow: /sprite
+Disallow: /account/*
+
+# Host
+Host: https://explorer-sepolia.inkonchain.com
+
+# Sitemaps
+Sitemap: https://explorer-sepolia.inkonchain.com/sitemap.xml

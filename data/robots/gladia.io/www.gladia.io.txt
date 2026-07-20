@@ -1,0 +1,34 @@
+# General rules for all bots
+User-agent: *
+Disallow: /search
+Disallow: /?*
+Disallow: /sign-up
+Disallow: /login
+
+# Specific rules for AI Crawlers
+User-agent: GPTBot
+Allow: /blog/
+Allow: /docs/
+Allow: /competitors/
+Allow: /content/
+Allow: /meeting-assistant-market-map
+Allow: /transcript-quality
+Allow: /solaria-3
+Allow: /use-cases/
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: CCBot
+Disallow: /
+
+# Host and Sitemap
+Host: https://www.gladia.io
+Sitemap: https://www.gladia.io/sitemap.xml
+Sitemap: https://www.gladia.io/sitemap-vercel.xml

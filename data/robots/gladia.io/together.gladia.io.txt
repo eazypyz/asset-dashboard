@@ -1,0 +1,12 @@
+User-agent: Twitterbot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: *
+Disallow: /auth/*
+Disallow: /

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- TODO(SEC-Finding-401): style-src 'unsafe-inline' should be replaced with nonce-based CSP. See modal_controller/app.py CSP comment for details. -->
+    <!-- ADR-004: keep this CSP in sync with _CSP in modal_controller/app.py.
+         connect-src pins specific wss:// origins (terminal on acn.ovh, streaming/voice
+         on the gladia hosts) instead of the old broad `ws: wss:` wildcard which allowed
+         data exfiltration to ANY WebSocket host if an XSS/dependency compromise occurred.
+         ws://localhost is dev-only (vite HMR). frame-src/frame-ancestors 'none' added for
+         clickjacking defense-in-depth (real framing protection is the CloudFront
+         ResponseHeadersPolicy — frame-ancestors is spec-ignored in a <meta> tag). -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; connect-src 'self' https://*.amazonaws.com https://*.modal.run https://api.github.com https://*.gladia.io https://*.adh.gladia.io https://acn.ovh https://*.acn.ovh https://*.io.cloud.ovh.net wss://*.gladia.io wss://*.adh.gladia.io wss://acn.ovh wss://*.acn.ovh ws://localhost:* ws://127.0.0.1:*; img-src 'self' data: https:; media-src 'self' blob: https:; frame-src 'none'; object-src 'none'; base-uri 'self'; frame-ancestors 'none'; form-action 'self';">
+    <title>ADH Workbook</title>
+    <style>
+      *, *::before, *::after {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+      }
+    </style>
+    <!-- TODO: Add nonce attribute or externalize when CSP is implemented -->
+    <script src="/theme-init.js"></script>
+    <script type="module" crossorigin src="/assets/index-CTY4ID4N.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/table-5bIibJFO.js">
+    <link rel="modulepreload" crossorigin href="/assets/vendor-BdhSbxmc.js">
+    <link rel="stylesheet" crossorigin href="/assets/index-CED-O4ma.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>

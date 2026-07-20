@@ -1,0 +1,197 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><meta name="color-scheme" content="dark"/><title>Gladia</title><link rel="icon" type="image/svg+xml" href="/favicon.svg"/><link rel="alternate icon" type="image/png" href="/favicons/android-chrome-192x192.png"/><link rel="apple-touch-icon" href="/favicons/apple-touch-icon.png"/><link rel="manifest" href="/site.webmanifest" crossorigin="use-credentials"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous"/><link rel="modulepreload" href="/assets/entry.client-D5SpC4W9.js" nonce="784a7f9bb1da5e7edab5b00682de8da8"/><link rel="modulepreload" href="/assets/jsx-runtime-D_zvdyIk.js" nonce="784a7f9bb1da5e7edab5b00682de8da8"/><link rel="modulepreload" href="/assets/chunk-6CSD65Y2-BP5VS2hN.js" nonce="784a7f9bb1da5e7edab5b00682de8da8"/><link rel="modulepreload" href="/assets/en-D6VdEITp.js" nonce="784a7f9bb1da5e7edab5b00682de8da8"/><link rel="modulepreload" href="/assets/index-CBoJQWs5.js" nonce="784a7f9bb1da5e7edab5b00682de8da8"/><link rel="modulepreload" href="/assets/index-lx6n1eAY.js" nonce="784a7f9bb1da5e7edab5b00682de8da8"/><link rel="modulepreload" href="/assets/i18n-CTZZB27y.js" nonce="784a7f9bb1da5e7edab5b00682de8da8"/><link rel="modulepreload" href="/assets/util-x7g5cCpw.js" nonce="784a7f9bb1da5e7edab5b00682de8da8"/><link rel="modulepreload" href="/assets/preload-helper-BlTxHScW.js" nonce="784a7f9bb1da5e7edab5b00682de8da8"/><link rel="modulepreload" href="/assets/root-BZd-wA3l.js" nonce="784a7f9bb1da5e7edab5b00682de8da8"/><link rel="modulepreload" href="/assets/root-DJXkKcHh.js" nonce="784a7f9bb1da5e7edab5b00682de8da8"/><link rel="modulepreload" href="/assets/schemas-D5cmvACT.js" nonce="784a7f9bb1da5e7edab5b00682de8da8"/><link rel="modulepreload" href="/assets/gtm-B1AYrgLh.js" nonce="784a7f9bb1da5e7edab5b00682de8da8"/><link rel="modulepreload" href="/assets/Alert-CKj1Uebi.js" nonce="784a7f9bb1da5e7edab5b00682de8da8"/><link rel="modulepreload" href="/assets/GeneralErrorBoundary-BtkU-8q3.js" nonce="784a7f9bb1da5e7edab5b00682de8da8"/><link rel="modulepreload" href="/assets/catchall-M-gOT8AO.js" nonce="784a7f9bb1da5e7edab5b00682de8da8"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&amp;display=swap"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&amp;display=swap"/><link rel="stylesheet" href="/assets/tailwind-7M98netD.css"/><script nonce="784a7f9bb1da5e7edab5b00682de8da8">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-N7XJQJG');</script></head><body><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N7XJQJG" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><div class="flex flex-col items-center justify-center h-screen"><h1 class="text-4xl font-bold mb-4">404 - Page Not Found</h1><p class="text-lg">The page you are looking for does not exist.</p></div><script nonce="784a7f9bb1da5e7edab5b00682de8da8">window.ENV = {"MODE":"production","APP_BASE_URL":"https://app.gladia.io","GA_USER_ID":null,"GOOGLE_TAG_MANAGER_ID":"GTM-N7XJQJG"}</script><script nonce="784a7f9bb1da5e7edab5b00682de8da8">((storageKey2, restoreKey) => {
+    if (!window.history.state || !window.history.state.key) {
+      let key = Math.random().toString(32).slice(2);
+      window.history.replaceState({ key }, "");
+    }
+    try {
+      let positions = JSON.parse(sessionStorage.getItem(storageKey2) || "{}");
+      let storedY = positions[restoreKey || window.history.state.key];
+      if (typeof storedY === "number") {
+        window.scrollTo(0, storedY);
+      }
+    } catch (error) {
+      console.error(error);
+      sessionStorage.removeItem(storageKey2);
+    }
+  })("react-router-scroll-positions", null)</script><script nonce="784a7f9bb1da5e7edab5b00682de8da8">window.__reactRouterContext = {"basename":"/","future":{"unstable_optimizeDeps":false,"v8_passThroughRequests":false,"v8_trailingSlashAwareDataRequests":false,"unstable_previewServerPrerendering":false,"v8_middleware":true,"v8_splitRouteModules":false,"v8_viteEnvironmentApi":false},"routeDiscovery":{"mode":"lazy","manifestPath":"/__manifest"},"ssr":true,"isSpaMode":false};window.__reactRouterContext.stream = new ReadableStream({start(controller){window.__reactRouterContext.streamController = controller;}}).pipeThrough(new TextEncoderStream());</script><script nonce="784a7f9bb1da5e7edab5b00682de8da8" type="module" async="">;
+import * as route0 from "/assets/root-BZd-wA3l.js";
+import * as route1 from "/assets/catchall-M-gOT8AO.js";
+  window.__reactRouterManifest = {
+  "entry": {
+    "module": "/assets/entry.client-D5SpC4W9.js",
+    "imports": [
+      "/assets/jsx-runtime-D_zvdyIk.js",
+      "/assets/chunk-6CSD65Y2-BP5VS2hN.js",
+      "/assets/en-D6VdEITp.js",
+      "/assets/index-CBoJQWs5.js",
+      "/assets/index-lx6n1eAY.js",
+      "/assets/i18n-CTZZB27y.js",
+      "/assets/util-x7g5cCpw.js",
+      "/assets/preload-helper-BlTxHScW.js"
+    ],
+    "css": []
+  },
+  "routes": {
+    "root": {
+      "id": "root",
+      "path": "",
+      "hasAction": true,
+      "hasLoader": true,
+      "hasClientAction": false,
+      "hasClientLoader": false,
+      "hasClientMiddleware": false,
+      "hasDefaultExport": true,
+      "hasErrorBoundary": true,
+      "module": "/assets/root-BZd-wA3l.js",
+      "imports": [
+        "/assets/jsx-runtime-D_zvdyIk.js",
+        "/assets/chunk-6CSD65Y2-BP5VS2hN.js",
+        "/assets/en-D6VdEITp.js",
+        "/assets/index-CBoJQWs5.js",
+        "/assets/index-lx6n1eAY.js",
+        "/assets/i18n-CTZZB27y.js",
+        "/assets/util-x7g5cCpw.js",
+        "/assets/preload-helper-BlTxHScW.js",
+        "/assets/root-DJXkKcHh.js",
+        "/assets/schemas-D5cmvACT.js",
+        "/assets/gtm-B1AYrgLh.js",
+        "/assets/Alert-CKj1Uebi.js",
+        "/assets/GeneralErrorBoundary-BtkU-8q3.js"
+      ],
+      "css": []
+    },
+    "catchall": {
+      "id": "catchall",
+      "parentId": "root",
+      "path": "*",
+      "hasAction": false,
+      "hasLoader": true,
+      "hasClientAction": false,
+      "hasClientLoader": false,
+      "hasClientMiddleware": false,
+      "hasDefaultExport": true,
+      "hasErrorBoundary": false,
+      "module": "/assets/catchall-M-gOT8AO.js",
+      "imports": [
+        "/assets/chunk-6CSD65Y2-BP5VS2hN.js",
+        "/assets/jsx-runtime-D_zvdyIk.js"
+      ],
+      "css": []
+    },
+    "routes/app/layout": {
+      "id": "routes/app/layout",
+      "parentId": "root",
+      "hasAction": false,
+      "hasLoader": true,
+      "hasClientAction": false,
+      "hasClientLoader": false,
+      "hasClientMiddleware": false,
+      "hasDefaultExport": true,
+      "hasErrorBoundary": true,
+      "module": "/assets/layout-DrcZC1YR.js",
+      "imports": [
+        "/assets/layout-B2czZep7.js",
+        "/assets/en-D6VdEITp.js",
+        "/assets/chunk-6CSD65Y2-BP5VS2hN.js",
+        "/assets/util-x7g5cCpw.js",
+        "/assets/jsx-runtime-D_zvdyIk.js",
+        "/assets/Alert-CKj1Uebi.js",
+        "/assets/schemas-D5cmvACT.js",
+        "/assets/ZeroDataRetentionBanner-C1Ailoos.js",
+        "/assets/index-lx6n1eAY.js",
+        "/assets/Modal-BIAzLACI.js",
+        "/assets/Dialog-C8DpLK1G.js",
+        "/assets/RSPContexts-CqNUl-mp.js",
+        "/assets/Field-BAWnnHL4.js",
+        "/assets/Badge-DRgtH5a_.js",
+        "/assets/SelectionIndicator-CqNFu1oq.js",
+        "/assets/useEvent-Fcy8XuJL.js",
+        "/assets/VisuallyHidden-DnBW1u3l.js",
+        "/assets/index-CBoJQWs5.js",
+        "/assets/Brand-CD3SMA1B.js",
+        "/assets/Menu-DLfbxBpq.js",
+        "/assets/Popover-BgjRfoHr.js",
+        "/assets/Checkbox-sKgokri0.js",
+        "/assets/useToggle-DF9kTvaH.js",
+        "/assets/useToggleState-B3v7nPkW.js",
+        "/assets/Layout--oXyhDpr.js",
+        "/assets/root-DJXkKcHh.js",
+        "/assets/i18n-CTZZB27y.js",
+        "/assets/preload-helper-BlTxHScW.js",
+        "/assets/gtm-B1AYrgLh.js",
+        "/assets/GeneralErrorBoundary-BtkU-8q3.js"
+      ],
+      "css": []
+    },
+    "routes/app/home": {
+      "id": "routes/app/home",
+      "parentId": "routes/app/layout",
+      "index": true,
+      "hasAction": false,
+      "hasLoader": true,
+      "hasClientAction": false,
+      "hasClientLoader": false,
+      "hasClientMiddleware": false,
+      "hasDefaultExport": true,
+      "hasErrorBoundary": true,
+      "module": "/assets/home-CWFL7nz5.js",
+      "imports": [
+        "/assets/en-D6VdEITp.js",
+        "/assets/chunk-6CSD65Y2-BP5VS2hN.js",
+        "/assets/jsx-runtime-D_zvdyIk.js",
+        "/assets/index-lx6n1eAY.js",
+        "/assets/Layout--oXyhDpr.js",
+        "/assets/Card-D5-bAi9t.js",
+        "/assets/Alert-CKj1Uebi.js",
+        "/assets/apikeys-CaptP8CW.js",
+        "/assets/GeneralErrorBoundary-BtkU-8q3.js",
+        "/assets/FormError-BcAtYS6g.js",
+        "/assets/index-CBoJQWs5.js",
+        "/assets/layout-B2czZep7.js",
+        "/assets/helpers-C08uFHaQ.js",
+        "/assets/util-x7g5cCpw.js",
+        "/assets/schemas-D5cmvACT.js",
+        "/assets/Header-CjzhaBGk.js",
+        "/assets/Table-C8cbf964.js",
+        "/assets/RSPContexts-CqNUl-mp.js",
+        "/assets/Dialog-C8DpLK1G.js",
+        "/assets/Field-BAWnnHL4.js",
+        "/assets/Badge-DRgtH5a_.js",
+        "/assets/SelectionIndicator-CqNFu1oq.js",
+        "/assets/useEvent-Fcy8XuJL.js",
+        "/assets/VisuallyHidden-DnBW1u3l.js",
+        "/assets/DragAndDrop-DFgcjzvC.js",
+        "/assets/useUpdateEffect-DO3Q1HAt.js",
+        "/assets/useHasTabbableChild-BR7HbN2N.js",
+        "/assets/Modal-BIAzLACI.js",
+        "/assets/Dialog-bo9xfGRd.js",
+        "/assets/Heading-CZOnukLR.js",
+        "/assets/TextField-DDV6OjIG.js",
+        "/assets/useTextField-ZGz5z96h.js",
+        "/assets/useField-DJSi0tSz.js",
+        "/assets/parse-B2SftgGB.js",
+        "/assets/ZeroDataRetentionBanner-C1Ailoos.js",
+        "/assets/Brand-CD3SMA1B.js",
+        "/assets/Menu-DLfbxBpq.js",
+        "/assets/Popover-BgjRfoHr.js",
+        "/assets/Checkbox-sKgokri0.js",
+        "/assets/useToggle-DF9kTvaH.js",
+        "/assets/useToggleState-B3v7nPkW.js",
+        "/assets/root-DJXkKcHh.js",
+        "/assets/i18n-CTZZB27y.js",
+        "/assets/preload-helper-BlTxHScW.js",
+        "/assets/gtm-B1AYrgLh.js"
+      ],
+      "css": []
+    }
+  },
+  "url": "/assets/manifest-9365fa8a.js",
+  "version": "9365fa8a"
+};
+  window.__reactRouterRouteModules = {"root":route0,"catchall":route1};
+
+import("/assets/entry.client-D5SpC4W9.js");</script><!--$--><script nonce="784a7f9bb1da5e7edab5b00682de8da8">window.__reactRouterContext.streamController.enqueue("[{\"_1\":2,\"_3\":-5,\"_4\":-5},\"loaderData\",{\"_5\":6,\"_7\":-5},\"actionData\",\"errors\",\"root\",{\"_8\":9,\"_10\":11,\"_12\":-7},\"catchall\",\"userPrefs\",{\"_20\":21,\"_22\":23,\"_24\":25},\"ENV\",{\"_13\":14,\"_15\":16,\"_17\":-5,\"_18\":19},\"signupSteps\",\"MODE\",\"production\",\"APP_BASE_URL\",\"https://app.gladia.io\",\"GA_USER_ID\",\"GOOGLE_TAG_MANAGER_ID\",\"GTM-N7XJQJG\",\"theme\",\"dark\",\"locale\",\"en\",\"sidebar\",\"expanded\"]\n");</script><!--$--><script nonce="784a7f9bb1da5e7edab5b00682de8da8">window.__reactRouterContext.streamController.close();</script><!--/$--><!--/$--></body></html>
