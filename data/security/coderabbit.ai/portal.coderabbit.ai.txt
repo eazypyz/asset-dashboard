@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+
+<html lang="en" translate="no">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" id="favicon" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="google" content="notranslate">
+    <title>Pylon</title>
+    <style type="text/css">
+      @layer theme, base, components, nexus, utilities;
+    </style>
+    <script type="module" crossorigin src="/assets/portal-BIUCBv1j.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/rolldown-runtime-DCA9ua_S.js">
+    <link rel="modulepreload" crossorigin href="/assets/__vite-browser-external-L9GiQr-n.js">
+    <link rel="modulepreload" crossorigin href="/assets/vendor-core-BXw3hO_K.js">
+    <link rel="modulepreload" crossorigin href="/assets/components-bgWykBbF.js">
+    <link rel="modulepreload" crossorigin href="/assets/src-0DMrTGKE.js">
+    <link rel="modulepreload" crossorigin href="/assets/with-selector-RafTo1d9.js">
+    <link rel="modulepreload" crossorigin href="/assets/react-redux-LqqJekFB.js">
+    <link rel="modulepreload" crossorigin href="/assets/region-constants-SzrkdKGY.js">
+    <link rel="modulepreload" crossorigin href="/assets/constants-CdEBMuyJ.js">
+    <link rel="modulepreload" crossorigin href="/assets/urls-DUyKj-3k.js">
+    <link rel="modulepreload" crossorigin href="/assets/route-pattern-BfqUlX4f.js">
+    <link rel="modulepreload" crossorigin href="/assets/useRouter-CnZwBhMO.js">
+    <link rel="modulepreload" crossorigin href="/assets/logging-Wvq4MSMJ.js">
+    <link rel="modulepreload" crossorigin href="/assets/headers-PMbD8ajh.js">
+    <link rel="modulepreload" crossorigin href="/assets/fetch-with-span-Cj6oZSTL.js">
+    <link rel="modulepreload" crossorigin href="/assets/redux-toolkit.modern-DNdtEyA4.js">
+    <link rel="modulepreload" crossorigin href="/assets/custom-fields-slice-BpWokR0S.js">
+    <link rel="modulepreload" crossorigin href="/assets/filters-CFuzv-1d.js">
+    <link rel="modulepreload" crossorigin href="/assets/types-19YxQqlA.js">
+    <link rel="modulepreload" crossorigin href="/assets/issues-D4XTQL_c.js">
+    <link rel="modulepreload" crossorigin href="/assets/appTypeIcon-CETLifJe.js">
+    <link rel="modulepreload" crossorigin href="/assets/IntegrationSettingsContext-JsyuZYfp.js">
+    <link rel="modulepreload" crossorigin href="/assets/is-enum-Cl_GbPb3.js">
+    <link rel="modulepreload" crossorigin href="/assets/event-log-CJKKQ0sk.js">
+    <link rel="modulepreload" crossorigin href="/assets/ai-agents-Ccblm_X2.js">
+    <link rel="modulepreload" crossorigin href="/assets/strings-BDVtwKTG.js">
+    <link rel="modulepreload" crossorigin href="/assets/graphql-DKhDyGn3.js">
+    <link rel="modulepreload" crossorigin href="/assets/tags-CMe9X3Rk.js">
+    <link rel="modulepreload" crossorigin href="/assets/filter-options-Cmd1WD_a.js">
+    <link rel="modulepreload" crossorigin href="/assets/account-desired-fields-slice-CCmxv05H.js">
+    <link rel="modulepreload" crossorigin href="/assets/accounts-slice-CdmXdHbm.js">
+    <link rel="modulepreload" crossorigin href="/assets/command-menu-slice-DmK45h1Y.js">
+    <link rel="modulepreload" crossorigin href="/assets/color-CZv7Qosw.js">
+    <link rel="modulepreload" crossorigin href="/assets/feature-request-statuses-slice-nE0Vni09.js">
+    <link rel="modulepreload" crossorigin href="/assets/issue-desired-fields-slice-DVkuCnf5.js">
+    <link rel="modulepreload" crossorigin href="/assets/issue-sidebar-config-slice-D65njugc.js">
+    <link rel="modulepreload" crossorigin href="/assets/issue-statuses-slice-DQ3Pk6ee.js">
+    <link rel="modulepreload" crossorigin href="/assets/runtime-BDvQupB5.js">
+    <link rel="modulepreload" crossorigin href="/assets/time-constants-Ty8HIdsT.js">
+    <link rel="modulepreload" crossorigin href="/assets/views-BRXvytbf.js">
+    <link rel="modulepreload" crossorigin href="/assets/custom-fields-Dw2j5L6v.js">
+    <link rel="modulepreload" crossorigin href="/assets/useSelector-DnZvgYwm.js">
+    <link rel="modulepreload" crossorigin href="/assets/filter-operations-AY0jdRTD.js">
+    <link rel="modulepreload" crossorigin href="/assets/CustomFieldsContext-B5FQxLTc.js">
+    <link rel="modulepreload" crossorigin href="/assets/custom-field-filter-options-HUyZnIEK.js">
+    <link rel="modulepreload" crossorigin href="/assets/category-COlX1vC9.js">
+    <link rel="modulepreload" crossorigin href="/assets/snowflake-BFvw10P-.js">
+    <link rel="modulepreload" crossorigin href="/assets/logo-Csdylf56.js">
+    <link rel="modulepreload" crossorigin href="/assets/appids-CKkjIegg.js">
+    <link rel="modulepreload" crossorigin href="/assets/integrations-B9ay4FoH.js">
+    <link rel="modulepreload" crossorigin href="/assets/issues-Bpp1m4Qb.js">
+    <link rel="modulepreload" crossorigin href="/assets/sorting-B4Tglzb7.js">
+    <link rel="modulepreload" crossorigin href="/assets/issues-layout-slice-DsM0JIcv.js">
+    <link rel="modulepreload" crossorigin href="/assets/select-all-keys-DzD62945.js">
+    <link rel="modulepreload" crossorigin href="/assets/issues-slice-CxHKxbqe.js">
+    <link rel="modulepreload" crossorigin href="/assets/issues-view-slice-B7CqL5kz.js">
+    <link rel="modulepreload" crossorigin href="/assets/kb-comments-slice-SmvsTDKc.js">
+    <link rel="modulepreload" crossorigin href="/assets/macros-slice-ClVIktCN.js">
+    <link rel="modulepreload" crossorigin href="/assets/project-templates-slice-DwPS6353.js">
+    <link rel="modulepreload" crossorigin href="/assets/users-BfTdNIsV.js">
+    <link rel="modulepreload" crossorigin href="/assets/status-modal-slice-DpbK98iP.js">
+    <link rel="modulepreload" crossorigin href="/assets/columns-BOYt-4ht.js">
+    <link rel="modulepreload" crossorigin href="/assets/sorting-DWstqfHU.js">
+    <link rel="modulepreload" crossorigin href="/assets/tasks-layout-slice-BnxX1PvC.js">
+    <link rel="modulepreload" crossorigin href="/assets/tasks-slice-D_4P5pVB.js">
+    <link rel="modulepreload" crossorigin href="/assets/user-preferences-slice-CkYTmmWb.js">
+    <link rel="modulepreload" crossorigin href="/assets/users-slice-CwCoTyz_.js">
+    <link rel="modulepreload" crossorigin href="/assets/useLocalStorage-CXQuB-0b.js">
+    <link rel="modulepreload" crossorigin href="/assets/usePortalOrg-Csi_8MmJ.js">
+    <link rel="modulepreload" crossorigin href="/assets/KnowledgeBaseContext-Bye4mG3D.js">
+    <link rel="modulepreload" crossorigin href="/assets/useTheme-CWpKy_y_.js">
+    <link rel="modulepreload" crossorigin href="/assets/cn-_h8QvKuj.js">
+    <link rel="modulepreload" crossorigin href="/assets/FeatureFlagContext-mDwCstHo.js">
+    <link rel="modulepreload" crossorigin href="/assets/ColorInjector-CUUZ_J-1.js">
+    <link rel="modulepreload" crossorigin href="/assets/icon-N04XSTht.js">
+    <link rel="modulepreload" crossorigin href="/assets/DemoOrgContext-CbxLdAxA.js">
+    <link rel="modulepreload" crossorigin href="/assets/NotificationContext-Bgzlb3Mn.js">
+    <link rel="modulepreload" crossorigin href="/assets/useIntersectionObserver-8eel6nl5.js">
+    <link rel="modulepreload" crossorigin href="/assets/utils-B3CTFPk-.js">
+    <link rel="modulepreload" crossorigin href="/assets/Dialog-LLkFF02B.js">
+    <link rel="modulepreload" crossorigin href="/assets/LoadingSpinner-B8Z0xGty.js">
+    <link rel="modulepreload" crossorigin href="/assets/LegacyLoadingSpinner-DsQenRH7.js">
+    <link rel="modulepreload" crossorigin href="/assets/uuid-BaeEF35T.js">
+    <link rel="modulepreload" crossorigin href="/assets/chatwidget-DhZ6b-MZ.js">
+    <link rel="modulepreload" crossorigin href="/assets/I18nProvider-BnoCJl7T.js">
+    <link rel="modulepreload" crossorigin href="/assets/printer-Bo2xOTmI.js">
+    <link rel="modulepreload" crossorigin href="/assets/parser-BSGCiX7t.js">
+    <link rel="modulepreload" crossorigin href="/assets/esm-CyVlvhnY.js">
+    <link rel="modulepreload" crossorigin href="/assets/http-status-BYJTkF3F.js">
+    <link rel="modulepreload" crossorigin href="/assets/vendor-floating-ui-Dm8oeRqo.js">
+    <link rel="modulepreload" crossorigin href="/assets/Button-CKq8r5pS.js">
+    <link rel="modulepreload" crossorigin href="/assets/type-guards-5Y3NWOhm.js">
+    <link rel="modulepreload" crossorigin href="/assets/Button-CrfqIdNa.js">
+    <link rel="modulepreload" crossorigin href="/assets/useLogout-I-H7vIt6.js">
+    <link rel="modulepreload" crossorigin href="/assets/logo_purple-r9Rjden2.js">
+    <link rel="modulepreload" crossorigin href="/assets/LegacyButton-BUamM0cB.js">
+    <link rel="modulepreload" crossorigin href="/assets/SemanticHTML-DlaKDnzD.js">
+    <link rel="modulepreload" crossorigin href="/assets/Typography-NHmlGDDx.js">
+    <link rel="modulepreload" crossorigin href="/assets/impersonation-K-Ry55Rs.js">
+    <link rel="modulepreload" crossorigin href="/assets/Link-Bm6YaOPw.js">
+    <link rel="modulepreload" crossorigin href="/assets/ErrorPage-DRox8rsf.js">
+    <link rel="modulepreload" crossorigin href="/assets/connectivity-store-SZuw3AZm.js">
+    <link rel="modulepreload" crossorigin href="/assets/useIsClientOnline-BDrttq4M.js">
+    <link rel="modulepreload" crossorigin href="/assets/utils-BD0snOgk.js">
+    <link rel="modulepreload" crossorigin href="/assets/removable-2wUi6j2q.js">
+    <link rel="modulepreload" crossorigin href="/assets/query-key-WWQ6ny8v.js">
+    <link rel="modulepreload" crossorigin href="/assets/useBaseQuery-DUKX_IVj.js">
+    <link rel="modulepreload" crossorigin href="/assets/mutation-CApIMVxr.js">
+    <link rel="modulepreload" crossorigin href="/assets/toast-notifications-kD8f_VAw.js">
+    <link rel="modulepreload" crossorigin href="/assets/dist-BrSMIkrz.js">
+    <link rel="modulepreload" crossorigin href="/assets/gql-urls-Bb8Hr50v.js">
+    <link rel="modulepreload" crossorigin href="/assets/RequestContext-CGuVIg4a.js">
+    <link rel="modulepreload" crossorigin href="/assets/query-constants-BFnBzG1R.js">
+    <link rel="modulepreload" crossorigin href="/assets/client-error-CORgh0AS.js">
+    <link rel="modulepreload" crossorigin href="/assets/QueryClientContext-cbHEWz6k.js">
+    <link rel="modulepreload" crossorigin href="/assets/MultiAuthGraphQLContext-BZRh9Aju.js">
+    <link rel="modulepreload" crossorigin href="/assets/PublicGraphQLContext-CVvyOCmE.js">
+    <link rel="modulepreload" crossorigin href="/assets/index.min-YCBaYYEZ.js">
+    <link rel="modulepreload" crossorigin href="/assets/mutation-tracker-CYmLUuGu.js">
+    <link rel="modulepreload" crossorigin href="/assets/useMutation-CZTy-TH9.js">
+    <link rel="modulepreload" crossorigin href="/assets/query-entity-cache-Qjnyqeow.js">
+    <link rel="modulepreload" crossorigin href="/assets/query-document-registry-Ct6uPMT5.js">
+    <link rel="modulepreload" crossorigin href="/assets/useGraphQL-BiI6B2lh.js">
+    <link rel="modulepreload" crossorigin href="/assets/useDispatch-DCTqf4c7.js">
+    <link rel="modulepreload" crossorigin href="/assets/memory-monitor-YfQ1Wr_k.js">
+    <link rel="modulepreload" crossorigin href="/assets/KeyboardShortcutProvider-Q0i-a9I2.js">
+    <link rel="modulepreload" crossorigin href="/assets/BrandButton-DsiFB2X0.js">
+    <link rel="modulepreload" crossorigin href="/assets/useGraphQLFetch-CcKGI67t.js">
+    <link rel="modulepreload" crossorigin href="/assets/useDocumentTitle-BEuy4Poa.js">
+    <link rel="modulepreload" crossorigin href="/assets/useFirstPartyAuth-BWt1wjEf.js">
+    <link rel="modulepreload" crossorigin href="/assets/buildSubdomainPortalUrl-DI2mBNe7.js">
+    <link rel="modulepreload" crossorigin href="/assets/PortalUserCapabilitiesContext-C-n5rZ--.js">
+    <link rel="modulepreload" crossorigin href="/assets/PortalUserContext-C2jHjJHZ.js">
+    <link rel="modulepreload" crossorigin href="/assets/custom-domain-ef1GQioh.js">
+    <link rel="modulepreload" crossorigin href="/assets/PortalOrgProvider-DeJPJZ1Y.js">
+    <link rel="modulepreload" crossorigin href="/assets/public-locale-utils-Ci-rPP8b.js">
+    <link rel="modulepreload" crossorigin href="/assets/PylonLogo-CojMFvDU.js">
+    <link rel="modulepreload" crossorigin href="/assets/PoweredByPylon-hTWi-jvZ.js">
+    <link rel="modulepreload" crossorigin href="/assets/GetPortalSwitchableAccountsQuery.graphql-D-9O-jXU.js">
+    <link rel="modulepreload" crossorigin href="/assets/SwitchPortalAccountMutation.graphql-C5s6pcEF.js">
+    <link rel="stylesheet" crossorigin href="/assets/src-CWGEOhzf.css">
+    <link rel="stylesheet" crossorigin href="/assets/icon-3SXT5inS.css">
+    <link rel="stylesheet" crossorigin href="/assets/Dialog-B4hJ3jYd.css">
+    <link rel="stylesheet" crossorigin href="/assets/LoadingSpinner-C5Vkl3a9.css">
+    <link rel="stylesheet" crossorigin href="/assets/I18nProvider-C3rDG_pi.css">
+    <link rel="stylesheet" crossorigin href="/assets/Button-K7NjkV5p.css">
+    <link rel="stylesheet" crossorigin href="/assets/Typography-DVUSr34c.css">
+    <link rel="stylesheet" crossorigin href="/assets/Link-CQmyxD-q.css">
+    <link rel="stylesheet" crossorigin href="/assets/highlightjs-DHaA2Zyb.css">
+    <link rel="stylesheet" crossorigin href="/assets/index-9pSWwbJy.css">
+  <script>window.__PORTAL_DATA__ = {"region":"us"};</script></head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
+

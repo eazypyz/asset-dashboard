@@ -1,0 +1,44 @@
+User-agent: Googlebot
+	Disallow: /%7B%7Blink
+	Disallow: /%7B%7Btag_link
+	Disallow: /%7B%7Bcategory_link
+	Disallow: /{{link
+	Disallow: /{{tag_link
+	Disallow: /{{category_link
+		
+User-agent: Googlebot-Image
+	Disallow: /%7B%7Blink
+	Disallow: /%7B%7Btag_link
+	Disallow: /%7B%7Bcategory_link
+	Disallow: /{{link
+	Disallow: /{{tag_link
+	Disallow: /{{category_link
+
+User-agent: AdsBot-Google
+	Disallow: /%7B%7Blink
+	Disallow: /%7B%7Btag_link
+	Disallow: /%7B%7Bcategory_link
+	Disallow: /{{link
+	Disallow: /{{tag_link
+	Disallow: /{{category_link
+
+User-agent: Googlebot-Video
+	Disallow: /%7B%7Blink
+	Disallow: /%7B%7Btag_link
+	Disallow: /%7B%7Bcategory_link
+	Disallow: /{{link
+	Disallow: /{{tag_link
+	Disallow: /{{category_link
+		
+User-agent: Googlebot-News
+	Disallow: /%7B%7Blink
+	Disallow: /%7B%7Btag_link
+	Disallow: /%7B%7Bcategory_link
+	Disallow: /{{link
+	Disallow: /{{tag_link
+	Disallow: /{{category_link
+
+
+User-agent: *
+
+Sitemap: https://blog.nubank.com.br/sitemap.xml

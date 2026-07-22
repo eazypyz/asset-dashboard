@@ -1,0 +1,1680 @@
+{
+  "domain": "coderabbit.ai",
+  "last_update": "2026-07-22T05:03:03.624Z",
+  "stats": {
+    "total": 98,
+    "dns_resolved": 83,
+    "alive": 76,
+    "has_robots": 27,
+    "has_security": 17,
+    "has_sitemap": 21
+  },
+  "subdomains": [
+    {
+      "host": "accounts.coderabbit.ai",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-22T05:03:03.570Z",
+      "last_seen": "2026-07-22T05:03:03.570Z"
+    },
+    {
+      "host": "agent-dev.coderabbit.ai",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-22T05:03:03.570Z",
+      "last_seen": "2026-07-22T05:03:03.570Z"
+    },
+    {
+      "host": "agent.coderabbit.ai",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "361bec5022ccdb0d37ed462aca38a2f28b1a07e09d964cb6206687b170162adb",
+      "security_hash": "361bec5022ccdb0d37ed462aca38a2f28b1a07e09d964cb6206687b170162adb",
+      "sitemap_hash": "361bec5022ccdb0d37ed462aca38a2f28b1a07e09d964cb6206687b170162adb",
+      "first_seen": "2026-07-22T05:03:03.570Z",
+      "last_seen": "2026-07-22T05:03:03.570Z"
+    },
+    {
+      "host": "api-dev.coderabbit.ai",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-22T05:03:03.570Z",
+      "last_seen": "2026-07-22T05:03:03.570Z"
+    },
+    {
+      "host": "api-dev2.coderabbit.ai",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-22T05:03:03.570Z",
+      "last_seen": "2026-07-22T05:03:03.570Z"
+    },
+    {
+      "host": "api-dev3.coderabbit.ai",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-22T05:03:03.570Z",
+      "last_seen": "2026-07-22T05:03:03.570Z"
+    },
+    {
+      "host": "api-dev4.coderabbit.ai",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-22T05:03:03.570Z",
+      "last_seen": "2026-07-22T05:03:03.570Z"
+    },
+    {
+      "host": "api-qapt.coderabbit.ai",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-22T05:03:03.570Z",
+      "last_seen": "2026-07-22T05:03:03.570Z"
+    },
+    {
+      "host": "api-qawolf.coderabbit.ai",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 503,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-22T05:03:03.570Z",
+      "last_seen": "2026-07-22T05:03:03.570Z"
+    },
+    {
+      "host": "api.agent.coderabbit.ai",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-22T05:03:03.570Z",
+      "last_seen": "2026-07-22T05:03:03.570Z"
+    },
+    {
+      "host": "api.coderabbit.ai",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-22T05:03:03.570Z",
+      "last_seen": "2026-07-22T05:03:03.570Z"
+    },
+    {
+      "host": "api.eu.coderabbit.ai",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-22T05:03:03.570Z",
+      "last_seen": "2026-07-22T05:03:03.570Z"
+    },
+    {
+      "host": "app-dev.coderabbit.ai",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-22T05:03:03.570Z",
+      "last_seen": "2026-07-22T05:03:03.570Z"
+    },
+    {
+      "host": "app-dev2.coderabbit.ai",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-22T05:03:03.570Z",
+      "last_seen": "2026-07-22T05:03:03.570Z"
+    },
+    {
+      "host": "app-dev3.coderabbit.ai",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-22T05:03:03.570Z",
+      "last_seen": "2026-07-22T05:03:03.570Z"
+    },
+    {
+      "host": "app-dev4.coderabbit.ai",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-22T05:03:03.570Z",
+      "last_seen": "2026-07-22T05:03:03.570Z"
+    },
+    {
+      "host": "app-qapt.coderabbit.ai",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-22T05:03:03.570Z",
+      "last_seen": "2026-07-22T05:03:03.570Z"
+    },
+    {
+      "host": "app-qawolf.coderabbit.ai",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-22T05:03:03.570Z",
+      "last_seen": "2026-07-22T05:03:03.570Z"
+    },
+    {
+      "host": "app.coderabbit.ai",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-22T05:03:03.570Z",
+      "last_seen": "2026-07-22T05:03:03.570Z"
+    },
+    {
+      "host": "app.eu.coderabbit.ai",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-22T05:03:03.570Z",
+      "last_seen": "2026-07-22T05:03:03.570Z"
+    },
+    {
+      "host": "atlantis.coderabbit.ai",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "75850cc144c0ef0e8649aacbb010b22016c300c334a856d438134b5fe2a7601d",
+      "security_hash": "c453f0af86276dd5d556a0f652fc80feefa10233dea584f6d64bb049953d0cba",
+      "sitemap_hash": "b8b6a1f971eee970e0b26b5b31d6c17e9b1c023f024ff212ba065b0f00bae168",
+      "first_seen": "2026-07-22T05:03:03.570Z",
+      "last_seen": "2026-07-22T05:03:03.570Z"
+    },
+    {
+      "host": "autodiscover.coderabbit.ai",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-22T05:03:03.570Z",
+      "last_seen": "2026-07-22T05:03:03.570Z"
+    },
+    {
+      "host": "azure-devops.coderabbit.ai",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-22T05:03:03.570Z",
+      "last_seen": "2026-07-22T05:03:03.570Z"
+    },
+    {
+      "host": "benefits.coderabbit.ai",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "fafe60bf01534d3f8df677a6d4de8343db9b5b59f2bd6d8c7c3aaf477b4dac89",
+      "security_hash": "f4ddfe4b62f40b8723b70a02d76a285cbdb3733426ef9753151bdf10fd8b75fc",
+      "sitemap_hash": "12cf79cb7a8f3d0793a7a27235474bb0311df66afb44f6f0a76a5b138a6ba355",
+      "first_seen": "2026-07-22T05:03:03.570Z",
+      "last_seen": "2026-07-22T05:03:03.570Z"
+    },
+    {
+      "host": "bitbucket-dev.coderabbit.ai",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-22T05:03:03.570Z",
+      "last_seen": "2026-07-22T05:03:03.570Z"
+    },
+    {
+      "host": "bitbucket.coderabbit.ai",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "security_hash": "37e390bbedf6a1ed36256cbb6f2c0da9dfe4486c943c3665142d13b0849f387a",
+      "sitemap_hash": "3d165b5bbeb456df3126eb8496bb2d11bd22bc6d70aa8837450851eb0149db41",
+      "first_seen": "2026-07-22T05:03:03.570Z",
+      "last_seen": "2026-07-22T05:03:03.570Z"
+    },
+    {
+      "host": "blog.coderabbit.ai",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "a290b67cdc6102787fd899465501e58e4411dc15ada2368ed8fad9825714e1f4",
+      "security_hash": "a290b67cdc6102787fd899465501e58e4411dc15ada2368ed8fad9825714e1f4",
+      "sitemap_hash": "a290b67cdc6102787fd899465501e58e4411dc15ada2368ed8fad9825714e1f4",
+      "first_seen": "2026-07-22T05:03:03.570Z",
+      "last_seen": "2026-07-22T05:03:03.570Z"
+    },
+    {
+      "host": "blog1.coderabbit.ai",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-22T05:03:03.570Z",
+      "last_seen": "2026-07-22T05:03:03.570Z"
+    },
+    {
+      "host": "cancel.coderabbit.ai",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-22T05:03:03.570Z",
+      "last_seen": "2026-07-22T05:03:03.570Z"
+    },
+    {
+      "host": "changelog.coderabbit.ai",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "be97559636c44d48f3932078d2e5545784a3a9669121e3d006fcd109f73f02c6",
+      "security_hash": "be97559636c44d48f3932078d2e5545784a3a9669121e3d006fcd109f73f02c6",
+      "sitemap_hash": "be97559636c44d48f3932078d2e5545784a3a9669121e3d006fcd109f73f02c6",
+      "first_seen": "2026-07-22T05:03:03.570Z",
+      "last_seen": "2026-07-22T05:03:03.570Z"
+    },
+    {
+      "host": "clerk.coderabbit.ai",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 405,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-22T05:03:03.570Z",
+      "last_seen": "2026-07-22T05:03:03.570Z"
+    },
+    {
+      "host": "cli.coderabbit.ai",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-22T05:03:03.570Z",
+      "last_seen": "2026-07-22T05:03:03.570Z"
+    },
+    {
+      "host": "cli.eu.coderabbit.ai",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-22T05:03:03.570Z",
+      "last_seen": "2026-07-22T05:03:03.570Z"
+    },
+    {
+      "host": "content.coderabbit.ai",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "776784fa8a189e126672136a49fe1a1adfb50788f7d62b52f50ec198bb7f17d0",
+      "security_hash": "6306fa5b7efcd307b22639958005234232395f5d1561a87540552abbc2813431",
+      "sitemap_hash": "62e9b5c9de77269d0afd6f247b81423a1bf48654ffa05dd49a24620d48839a13",
+      "first_seen": "2026-07-22T05:03:03.570Z",
+      "last_seen": "2026-07-22T05:03:03.570Z"
+    },
+    {
+      "host": "customertrust.coderabbit.ai",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-22T05:03:03.570Z",
+      "last_seen": "2026-07-22T05:03:03.570Z"
+    },
+    {
+      "host": "design.coderabbit.ai",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-22T05:03:03.570Z",
+      "last_seen": "2026-07-22T05:03:03.570Z"
+    },
+    {
+      "host": "dev.coderabbit.ai",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 401,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-22T05:03:03.570Z",
+      "last_seen": "2026-07-22T05:03:03.570Z"
+    },
+    {
+      "host": "docs.coderabbit.ai",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": true,
+      "robots_hash": "42964705521da80177012a01d8ac178d132521c54a8ca6b06b9abb570e16bf88",
+      "security_hash": "",
+      "sitemap_hash": "e6a3a2d832c6d8b64c0a3ecf7bea09b455f47184e5831b045cd993319ffe8258",
+      "first_seen": "2026-07-22T05:03:03.570Z",
+      "last_seen": "2026-07-22T05:03:03.570Z"
+    },
+    {
+      "host": "email.coderabbit.ai",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-22T05:03:03.570Z",
+      "last_seen": "2026-07-22T05:03:03.570Z"
+    },
+    {
+      "host": "events.coderabbit.ai",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-22T05:03:03.570Z",
+      "last_seen": "2026-07-22T05:03:03.570Z"
+    },
+    {
+      "host": "foresight.coderabbit.ai",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 401,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-22T05:03:03.570Z",
+      "last_seen": "2026-07-22T05:03:03.570Z"
+    },
+    {
+      "host": "gerrit-1.coderabbit.ai",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "084034788a445e3f7ad4dd335966d104d85997dd403c53e7d6021924ffa7bdfb",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-22T05:03:03.570Z",
+      "last_seen": "2026-07-22T05:03:03.570Z"
+    },
+    {
+      "host": "gerrit-2.coderabbit.ai",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "084034788a445e3f7ad4dd335966d104d85997dd403c53e7d6021924ffa7bdfb",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-22T05:03:03.570Z",
+      "last_seen": "2026-07-22T05:03:03.570Z"
+    },
+    {
+      "host": "github-enterprise.coderabbit.ai",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-22T05:03:03.570Z",
+      "last_seen": "2026-07-22T05:03:03.570Z"
+    },
+    {
+      "host": "github-qa.coderabbit.ai",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "dac9e13b3abef94a51e1f3515fb2383bdd9f16040520f8b7868d6bc6d20eb4b7",
+      "security_hash": "27f7f0b1ce3f4c2689db3b74808fd3facd836a6428208dc55c0be52efbb419e1",
+      "sitemap_hash": "1d10b3b4815e3326f94c4cd7b9a47d66da557379124f100fc54fa0dea92cfd8e",
+      "first_seen": "2026-07-22T05:03:03.570Z",
+      "last_seen": "2026-07-22T05:03:03.570Z"
+    },
+    {
+      "host": "github-sso.coderabbit.ai",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "dac9e13b3abef94a51e1f3515fb2383bdd9f16040520f8b7868d6bc6d20eb4b7",
+      "security_hash": "e383c52ea23fa9735ef81edb853ca87d0263af473b0eecbf113f697170e80ff8",
+      "sitemap_hash": "6cee3ff0065da32b0d61fc20d8852590fa0bf9a42352ead1a004699056088e3f",
+      "first_seen": "2026-07-22T05:03:03.570Z",
+      "last_seen": "2026-07-22T05:03:03.570Z"
+    },
+    {
+      "host": "github-test.coderabbit.ai",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "dac9e13b3abef94a51e1f3515fb2383bdd9f16040520f8b7868d6bc6d20eb4b7",
+      "security_hash": "1c1bab3a28bf39fafa2645d5f6c42eeef3889c886c6922946ad148fce3addbe4",
+      "sitemap_hash": "03cf41d52ae6437054d1b3363f094a867158961aa220da5fb3e430c0eeb82ac7",
+      "first_seen": "2026-07-22T05:03:03.570Z",
+      "last_seen": "2026-07-22T05:03:03.570Z"
+    },
+    {
+      "host": "github.coderabbit.ai",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-22T05:03:03.570Z",
+      "last_seen": "2026-07-22T05:03:03.570Z"
+    },
+    {
+      "host": "gitlab-1.coderabbit.ai",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-22T05:03:03.570Z",
+      "last_seen": "2026-07-22T05:03:03.570Z"
+    },
+    {
+      "host": "gitlab-15-11-13.coderabbit.ai",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-22T05:03:03.570Z",
+      "last_seen": "2026-07-22T05:03:03.570Z"
+    },
+    {
+      "host": "gitlab-16-10-4-ee.coderabbit.ai",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-22T05:03:03.570Z",
+      "last_seen": "2026-07-22T05:03:03.570Z"
+    },
+    {
+      "host": "gitlab-16-10-4.coderabbit.ai",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-22T05:03:03.570Z",
+      "last_seen": "2026-07-22T05:03:03.570Z"
+    },
+    {
+      "host": "gitlab-demo.coderabbit.ai",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "9e1e837e03b726eedb04c30b565e69068ccbb96c4d12c7c090d9affcf54f5eb0",
+      "security_hash": "e4917172366c844c2af25734acd5a61a0f19ca94df56a68a2f2c91439cea9fbd",
+      "sitemap_hash": "d1e1d16afdd287ae9bc8a0b3b9a2cd6f37077b129ad95f73ddb5c4f509fd1f7f",
+      "first_seen": "2026-07-22T05:03:03.570Z",
+      "last_seen": "2026-07-22T05:03:03.570Z"
+    },
+    {
+      "host": "gitlab-ee-16-10-4.coderabbit.ai",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-22T05:03:03.570Z",
+      "last_seen": "2026-07-22T05:03:03.570Z"
+    },
+    {
+      "host": "gitlab-sso.coderabbit.ai",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "9e1e837e03b726eedb04c30b565e69068ccbb96c4d12c7c090d9affcf54f5eb0",
+      "security_hash": "917b35b4815129c7f78afcfba661120979d94a44bad6be7a015a971fa7f5f1a4",
+      "sitemap_hash": "38efdc26e951b61e41ec2be3622e75d8800d9575f2abe3cb3b7a2bf6b02bc2d2",
+      "first_seen": "2026-07-22T05:03:03.570Z",
+      "last_seen": "2026-07-22T05:03:03.570Z"
+    },
+    {
+      "host": "gitlab-test-nat.coderabbit.ai",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-22T05:03:03.570Z",
+      "last_seen": "2026-07-22T05:03:03.570Z"
+    },
+    {
+      "host": "gitlab-test.coderabbit.ai",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "9e1e837e03b726eedb04c30b565e69068ccbb96c4d12c7c090d9affcf54f5eb0",
+      "security_hash": "041726d5ad4c49369a72a62d2af28496adc0195dde66a7590ab9a8ed9c53a08e",
+      "sitemap_hash": "de6a107a32089c72f50fa1d56daa764a9412c45458c5989bdf769d0245fda26e",
+      "first_seen": "2026-07-22T05:03:03.570Z",
+      "last_seen": "2026-07-22T05:03:03.570Z"
+    },
+    {
+      "host": "gitlab-test1.coderabbit.ai",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-22T05:03:03.570Z",
+      "last_seen": "2026-07-22T05:03:03.570Z"
+    },
+    {
+      "host": "gitlab.coderabbit.ai",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-22T05:03:03.570Z",
+      "last_seen": "2026-07-22T05:03:03.570Z"
+    },
+    {
+      "host": "grafana-dev.coderabbit.ai",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-22T05:03:03.570Z",
+      "last_seen": "2026-07-22T05:03:03.570Z"
+    },
+    {
+      "host": "grafana-prod.coderabbit.ai",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-22T05:03:03.570Z",
+      "last_seen": "2026-07-22T05:03:03.570Z"
+    },
+    {
+      "host": "grafana.coderabbit.ai",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-22T05:03:03.570Z",
+      "last_seen": "2026-07-22T05:03:03.570Z"
+    },
+    {
+      "host": "helix-swarm.coderabbit.ai",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 401,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-22T05:03:03.570Z",
+      "last_seen": "2026-07-22T05:03:03.570Z"
+    },
+    {
+      "host": "ide.coderabbit.ai",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-22T05:03:03.570Z",
+      "last_seen": "2026-07-22T05:03:03.570Z"
+    },
+    {
+      "host": "ide.eu.coderabbit.ai",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-22T05:03:03.570Z",
+      "last_seen": "2026-07-22T05:03:03.570Z"
+    },
+    {
+      "host": "jira-dc.coderabbit.ai",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 502,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-22T05:03:03.570Z",
+      "last_seen": "2026-07-22T05:03:03.570Z"
+    },
+    {
+      "host": "k.coderabbit.ai",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "1558ea69c16973ee9c515cc69cb8f05fdc31978a599e58895154693418010355",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-22T05:03:03.570Z",
+      "last_seen": "2026-07-22T05:03:03.570Z"
+    },
+    {
+      "host": "kb.coderabbit.ai",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": true,
+      "robots_hash": "40ab117a92654c18f21559acf66d7362fa37f681dfbbc026afd95f53085c794c",
+      "security_hash": "",
+      "sitemap_hash": "598237f981ddd6eceee996c30fa89fc3f8c1c969cfd9e0bb2362b086d7667ecd",
+      "first_seen": "2026-07-22T05:03:03.570Z",
+      "last_seen": "2026-07-22T05:03:03.570Z"
+    },
+    {
+      "host": "landing.coderabbit.ai",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-22T05:03:03.570Z",
+      "last_seen": "2026-07-22T05:03:03.570Z"
+    },
+    {
+      "host": "lyncdiscover.coderabbit.ai",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-22T05:03:03.570Z",
+      "last_seen": "2026-07-22T05:03:03.570Z"
+    },
+    {
+      "host": "meetings.coderabbit.ai",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-22T05:03:03.570Z",
+      "last_seen": "2026-07-22T05:03:03.570Z"
+    },
+    {
+      "host": "msoid.coderabbit.ai",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-22T05:03:03.570Z",
+      "last_seen": "2026-07-22T05:03:03.570Z"
+    },
+    {
+      "host": "partners.coderabbit.ai",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-22T05:03:03.570Z",
+      "last_seen": "2026-07-22T05:03:03.570Z"
+    },
+    {
+      "host": "perforce.coderabbit.ai",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 523,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-22T05:03:03.570Z",
+      "last_seen": "2026-07-22T05:03:03.570Z"
+    },
+    {
+      "host": "pm-bounces.coderabbit.ai",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-22T05:03:03.570Z",
+      "last_seen": "2026-07-22T05:03:03.570Z"
+    },
+    {
+      "host": "portal.coderabbit.ai",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "efdb5938a9736727f5cce2b60355588e4fa541d19d022d222d8a09b8efd5dcce",
+      "security_hash": "a6f5c1a6b5fce589f5d9af9bbfa07d5d0bd57b71d9f16f170887a8fd5af01c95",
+      "sitemap_hash": "a6f5c1a6b5fce589f5d9af9bbfa07d5d0bd57b71d9f16f170887a8fd5af01c95",
+      "first_seen": "2026-07-22T05:03:03.570Z",
+      "last_seen": "2026-07-22T05:03:03.570Z"
+    },
+    {
+      "host": "preview.t.coderabbit.ai",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-22T05:03:03.570Z",
+      "last_seen": "2026-07-22T05:03:03.570Z"
+    },
+    {
+      "host": "resources.coderabbit.ai",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "641324d1103df0e15f27d9dc8bb126ce4c7a0f5c079f3843d8f731aa0949a4bd",
+      "security_hash": "641324d1103df0e15f27d9dc8bb126ce4c7a0f5c079f3843d8f731aa0949a4bd",
+      "sitemap_hash": "57eb29304cd456e42b93ca8f41bc391d4b70410f0917905a56d82b58ed9f606a",
+      "first_seen": "2026-07-22T05:03:03.570Z",
+      "last_seen": "2026-07-22T05:03:03.570Z"
+    },
+    {
+      "host": "sales.coderabbit.ai",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-22T05:03:03.570Z",
+      "last_seen": "2026-07-22T05:03:03.570Z"
+    },
+    {
+      "host": "sh.coderabbit.ai",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-22T05:03:03.570Z",
+      "last_seen": "2026-07-22T05:03:03.570Z"
+    },
+    {
+      "host": "shop.coderabbit.ai",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": true,
+      "robots_hash": "fecf74629dbbecd321abcecfc75a9ff3ae3c643d1e564ad5da1aa17881da6682",
+      "security_hash": "",
+      "sitemap_hash": "5173fe26cfef4a809cbe9565ef57fb16d74d80ddcc1d35faf29c93eb22bf9772",
+      "first_seen": "2026-07-22T05:03:03.570Z",
+      "last_seen": "2026-07-22T05:03:03.570Z"
+    },
+    {
+      "host": "sip.coderabbit.ai",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-22T05:03:03.570Z",
+      "last_seen": "2026-07-22T05:03:03.570Z"
+    },
+    {
+      "host": "sst.coderabbit.ai",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 400,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "a9ec7c3abb7d3d3d6dd305e8d49646ac1f1a4d9e5ae539d151e9306749baf9a2",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-22T05:03:03.570Z",
+      "last_seen": "2026-07-22T05:03:03.570Z"
+    },
+    {
+      "host": "staging.coderabbit.ai",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-22T05:03:03.570Z",
+      "last_seen": "2026-07-22T05:03:03.570Z"
+    },
+    {
+      "host": "status.coderabbit.ai",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-22T05:03:03.570Z",
+      "last_seen": "2026-07-22T05:03:03.570Z"
+    },
+    {
+      "host": "status.test.coderabbit.ai",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-22T05:03:03.570Z",
+      "last_seen": "2026-07-22T05:03:03.570Z"
+    },
+    {
+      "host": "sts.coderabbit.ai",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-22T05:03:03.570Z",
+      "last_seen": "2026-07-22T05:03:03.570Z"
+    },
+    {
+      "host": "support.coderabbit.ai",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": true,
+      "robots_hash": "ea8e85a2b5420fc4539c4997c85a6821500c4e4a4ebb410b0c926f648fddb5ce",
+      "security_hash": "",
+      "sitemap_hash": "c8555d47073ea3edfb6cb02b443c1d60fab2f436a46cef49b8bcd3ec8da1191a",
+      "first_seen": "2026-07-22T05:03:03.570Z",
+      "last_seen": "2026-07-22T05:03:03.570Z"
+    },
+    {
+      "host": "t.coderabbit.ai",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 400,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "a9ec7c3abb7d3d3d6dd305e8d49646ac1f1a4d9e5ae539d151e9306749baf9a2",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-22T05:03:03.570Z",
+      "last_seen": "2026-07-22T05:03:03.570Z"
+    },
+    {
+      "host": "tos.coderabbit.ai",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-22T05:03:03.570Z",
+      "last_seen": "2026-07-22T05:03:03.570Z"
+    },
+    {
+      "host": "trust.coderabbit.ai",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "0391bb86596777fd8d4552e64dbc7da6ded303cdeccfaeaecf9f942177777e74",
+      "security_hash": "0391bb86596777fd8d4552e64dbc7da6ded303cdeccfaeaecf9f942177777e74",
+      "sitemap_hash": "0391bb86596777fd8d4552e64dbc7da6ded303cdeccfaeaecf9f942177777e74",
+      "first_seen": "2026-07-22T05:03:03.570Z",
+      "last_seen": "2026-07-22T05:03:03.570Z"
+    },
+    {
+      "host": "tunnel-dev.coderabbit.ai",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-22T05:03:03.570Z",
+      "last_seen": "2026-07-22T05:03:03.570Z"
+    },
+    {
+      "host": "tunnel-dev2.coderabbit.ai",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-22T05:03:03.570Z",
+      "last_seen": "2026-07-22T05:03:03.570Z"
+    },
+    {
+      "host": "tunnel.coderabbit.ai",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-22T05:03:03.570Z",
+      "last_seen": "2026-07-22T05:03:03.570Z"
+    },
+    {
+      "host": "url4892.coderabbit.ai",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-22T05:03:03.570Z",
+      "last_seen": "2026-07-22T05:03:03.570Z"
+    },
+    {
+      "host": "vdp.coderabbit.ai",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-22T05:03:03.570Z",
+      "last_seen": "2026-07-22T05:03:03.570Z"
+    },
+    {
+      "host": "watchtower.coderabbit.ai",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 401,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-22T05:03:03.570Z",
+      "last_seen": "2026-07-22T05:03:03.570Z"
+    },
+    {
+      "host": "www.coderabbit.ai",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "16e3e2ddfee821bdaaa7b405c0ab63acfbb29480398ed587e464d41c043ec2ae",
+      "security_hash": "a634f52b989bc52a1a5d7a87ab74e785871db0d15a09bc576c2bb02babbc8d67",
+      "sitemap_hash": "c773094049dae52d7ae255112c19efca70f0c1d285558a0dbdef8fac247d54b9",
+      "first_seen": "2026-07-22T05:03:03.570Z",
+      "last_seen": "2026-07-22T05:03:03.570Z"
+    }
+  ]
+}

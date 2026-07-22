@@ -1,0 +1,21 @@
+Sitemap: https://building.nubank.com.br/sitemap.xml
+Sitemap: https://building.nubank.com.br/news-sitemap.xml
+# START YOAST BLOCK
+# ---------------------------
+# Disallow Crawling of Certain WordPress Directories
+User-agent: *
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+Disallow: /wp-content/plugins/
+Disallow: /wp-content/themes/
+
+# Disallow Crawling of Specific WordPress Files
+Disallow: /wp-login.php
+Disallow: /wp-config.php
+
+# Disallow Crawling of URLs with Query Parameters
+Disallow: /*?id=
+
+Sitemap: https://building.nubank.com.br/sitemap_index.xml
+# ---------------------------
+# END YOAST BLOCK

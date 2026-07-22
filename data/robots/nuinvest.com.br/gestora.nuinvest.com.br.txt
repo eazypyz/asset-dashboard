@@ -1,0 +1,21 @@
+User-agent: *
+User-Agent: Googlebot
+User-Agent: GoogleOther
+User-Agent: Bingbot
+User-Agent: Googlebot-Mobile
+
+Allow: /
+
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+Disallow: /wp-content/
+
+# Allow access to theme files, which include critical JS and CSS
+
+Allow: /wp-content/themes/mziq_nu-asset_v2/
+Allow: /wp-content/uploads/*.jpg
+Allow: /wp-content/uploads/*.jpeg
+Allow: /wp-content/uploads/*.png
+Allow: /wp-content/uploads/*.gif
+
+Sitemap: https://www.nuasset.nu/sitemap_index.xml
