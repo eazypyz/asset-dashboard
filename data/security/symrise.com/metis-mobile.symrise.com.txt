@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Metis Mobile</title>
+  <base href="/" />
+  <meta name="color-scheme" content="light dark" />
+  <meta name="viewport"
+    content="viewport-fit=cover, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="format-detection" content="telephone=no" />
+  <meta name="msapplication-tap-highlight" content="no" />
+  <meta name="theme-color" content="#1976d2">
+
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="shortcut icon" href="assets/icon/favicon.png" type="image/png" />
+  <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png" />
+  <link rel="apple-touch-icon" sizes="57x57" href="assets/icons/apple-touch-icon-57x57.png" />
+  <link rel="apple-touch-icon" sizes="72x72" href="assets/icons/apple-touch-icon-72x72.png" />
+  <link rel="apple-touch-icon" sizes="76x76" href="assets/icons/apple-touch-icon-76x76.png" />
+  <link rel="apple-touch-icon" sizes="114x114" href="assets/icons/apple-touch-icon-114x114.png" />
+  <link rel="apple-touch-icon" sizes="120x120" href="assets/icons/apple-touch-icon-120x120.png" />
+  <link rel="apple-touch-icon" sizes="144x144" href="assets/icons/apple-touch-icon-144x144.png" />
+  <link rel="apple-touch-icon" sizes="152x152" href="assets/icons/apple-touch-icon-152x152.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon-180x180.png" />
+  <link rel="mobile-web-app-title" href="Metis" />
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-status-bar-style" content="default">
+<link rel="stylesheet" href="styles.8f9e5bbe0ec85b2a6837.css"></head>
+
+<body>
+  <app-mobile-root></app-mobile-root>
+  <!-- <script src="/__/firebase/7.14.3/firebase-app.js"></script>
+  <script src="/__/firebase/init.js"></script> -->
+  <noscript>Please enable JavaScript to continue using this application.</noscript>
+<script src="runtime-es2015.3d6c501da6749ca65376.js" type="module"></script><script src="runtime-es5.3d6c501da6749ca65376.js" nomodule defer></script><script src="polyfills-es5.6d1ba74ebaa2f796272f.js" nomodule defer></script><script src="polyfills-es2015.8e4f3629a1d59b9fc6fd.js" type="module"></script><script src="main-es2015.6646d80e76a7115cfe29.js" type="module"></script><script src="main-es5.6646d80e76a7115cfe29.js" nomodule defer></script></body>
+
+</html>

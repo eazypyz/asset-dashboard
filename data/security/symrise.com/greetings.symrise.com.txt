@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Symrise | Greetings</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon; charset=binary">
+    <link href="resources/styles/fonts.css" rel="stylesheet">
+    <link href="resources/styles/new.styles.css" rel="stylesheet">
+    <!--<meta http-equiv="refresh" content="100;url=https://donationprojects.symrise.com/en.html" />-->
+	<meta http-equiv="refresh" content="2; URL=https://greetings.symrise.com">
+</head>
+<body class="en">
+<div id="pageWraper">
+	<div id="header">
+		<div class="slogan"><img src="resources/images/symrise_slogan.png" width="103" height="32" alt="always" /></div>
+		<div class="logo"><a href="https://www.symrise.com"><img src="resources/images/symrise_logo.png" width="220" height="53" alt="Symrise" /></a></div>
+		<div class="clear"><!-- --></div>
+	</div>
+    <div class="error" style="text-align: center; font-size: 60px; padding-top: 100px;">
+
+        Error 404 - Page not found
+
+    </div>
+	 <div class="footer">
+                <a href="https://www.symrise.com/imprint/" target="_blank">Imprint</a>
+                <a href="https://www.symrise.com/privacy-policy/" target="_blank">Privacy policy</a>
+                <a href="https://www.symrise.com/cookie-policy/" target="_blank" >Cookie Policy</a>
+                <a id="managecookiesettings" href="/">Manage Cookie Setting</a>
+            </div>
+        </div>
+        <div id="cookie-box">
+            <p>
+                We use performance-based Cookies to learn more about the use of this website.
+                This enables us to improve and maintain the functionality and performance of our website.
+                For more information about the cookies of Google Analytics & Google Tag Manager
+                (Cookies _ga, _gid, _gat_UA-xxxxxxxx-xx, _gat_UA-xxxxxxxx-x) that are used in this subdomain environment,
+                please visit our <a href="https://www.symrise.com/cookie-policy/" target="_blank">Cookie Policy</a>.
+                By clicking "Accept", you allow Symrise to use these Cookies and agree that the information collected
+                about you may be transferred outside the European Economic Area as described in our
+                <a href="https://www.symrise.com/privacy-policy/" target="_blank">Privacy Policy</a>, in particular to the US.
+            </p>
+            <button id="nocookiesplease" class="btn nocookies">Decline</button>
+            <button id="acceptcookies" class="btn">Accept</button>
+        </div>
+        <script src="resources/scripts/jquery-3.3.1.min.js"></script>
+        <script src="resources/scripts/app2.js"></script>
+        <script src="resources/scripts/cookiebanner.js"></script>
+    </body>
+</html>

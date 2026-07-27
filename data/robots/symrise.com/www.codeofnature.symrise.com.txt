@@ -1,0 +1,927 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="no-js">
+<head>
+
+<meta charset="utf-8">
+<!-- 
+	This website is powered by TYPO3 - inspiring people to share!
+	TYPO3 is a free open source Content Management Framework initially created by Kasper Skaarhoj and licensed under GNU/GPL.
+	TYPO3 is copyright 1998-2023 of Kasper Skaarhoj. Extensions are copyright of their respective owners.
+	Information and contribution at https://typo3.org/
+-->
+
+<!-- CookieBot -->
+<script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="c7a3195f-159e-4954-8ed8-a62c86aa2fba" data-blockingmode="auto" type="text/javascript"></script>
+<!-- END CookieBot -->
+<!-- Google Tag Manager -->
+    <script type="text/plain" data-cookieconsent="statistics"> (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-WSZGG8L');</script>
+<!-- End Google Tag Manager -->
+
+<link rel="shortcut icon" href="typo3conf/ext/codeofnature_symrise_com_base/Resources/Public/Images/icons/favicon.png" type="image/png">
+
+<meta name="generator" content="TYPO3 CMS">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="robots" content="index,follow">
+<meta name="google" content="notranslate">
+<meta name="apple-mobile-web-app-capable" content="no">
+<meta name="twitter:site" content="@SymriseAG">
+<meta name="twitter:card" content="summary_large_image">
+<meta property="og:title" content="code of nature™">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://codeofnature.symrise.com/">
+<meta property="og:site_name" content="codeofnature.symrise.com">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+<meta property="og:image" content="https://codeofnature.symrise.com/fileadmin/CoN_new/CoN_key_visual_1400px.jpg">
+<meta property="og:description" content="Delivering the authentic taste of nature. This is how code of nature™ makes a difference.">
+<meta name="description" content="Delivering the authentic taste of nature. This is how code of nature™ makes a difference.">
+
+
+<link rel="stylesheet" type="text/css" href="typo3temp/assets/css/d42b6e1bdf.css?1619440542" media="all">
+<link rel="stylesheet" type="text/css" href="typo3conf/ext/dm_signup_form/Resources/Public/Css/form.css?1635494282" media="all">
+<link rel="stylesheet" type="text/css" href="typo3conf/ext/codeofnature_symrise_com_base/Resources/Public/Css/marketo.css?1693387400" media="all">
+<link rel="stylesheet" type="text/css" href="typo3conf/ext/codeofnature_symrise_com_base/Resources/Public/Css/styles.css?1693387400" media="all">
+<link rel="stylesheet" type="text/css" href="typo3conf/ext/codeofnature_symrise_com_base/Resources/Public/Css/cookie-banner.css?1693387400" media="all">
+<link rel="stylesheet" type="text/css" href="typo3conf/ext/simple_surveys/Resources/Public/Css/symrise_style.min.css?1626077924" media="all">
+<script src="typo3temp/assets/compressed/merged-87fbb295f1f0e9736a0499544b41eb72-4033f17cd2502d8e9114b556710f6a9e.js?1693387407" type="text/javascript"></script>
+<script src="typo3temp/assets/compressed/merged-d394e028472e256481410c7ac9ede2f4-66dcb56c0aeefa52411c8dbcfb8769f3.js?1630567844" type="text/javascript"></script>
+<title>code of nature™ - Symrise</title>
+
+<link href="index.html" rel="canonical" /><link rel="alternate" href="de/index.html" hreflang="de" /><link rel="alternate" href="index.html" hreflang="en" /><link rel="alternate" href="index.html" hreflang="x-default" /><meta http-equiv="X-UA-Compatible" content="IE=edge">		<link rel="apple-touch-icon" sizes="180x180" href="typo3conf/ext/codeofnature_symrise_com_base/Resources/Public/Images/icons/apple_touch_icon.png">
+		<link rel="shortcut icon" sizes="196x196" href="typo3conf/ext/codeofnature_symrise_com_base/Resources/Public/Images/icons/favicon_Code_of_nature_196x196.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="typo3conf/ext/codeofnature_symrise_com_base/Resources/Public/Images/icons/favicon_Code_of_nature_32x32.png">
+		<link rel="icon" type="image/png" sizes="128x128" href="typo3conf/ext/codeofnature_symrise_com_base/Resources/Public/Images/icons/favicon_Code_of_nature_128x128.png">
+		<link rel="icon" type="image/png" sizes="152x152" href="typo3conf/ext/codeofnature_symrise_com_base/Resources/Public/Images/icons/favicon_Code_of_nature_152x152.png">
+		<link rel="icon" type="image/png" sizes="167x167" href="typo3conf/ext/codeofnature_symrise_com_base/Resources/Public/Images/icons/favicon_Code_of_nature_167x167.png">
+		<link rel="icon" type="image/png" sizes="180x180" href="typo3conf/ext/codeofnature_symrise_com_base/Resources/Public/Images/icons/favicon_Code_of_nature_180x180.png">
+		<link rel="icon" type="image/png" sizes="192x192" href="typo3conf/ext/codeofnature_symrise_com_base/Resources/Public/Images/icons/favicon_Code_of_nature_192x192.png">
+		<link rel="icon" type="image/png" sizes="196x196" href="typo3conf/ext/codeofnature_symrise_com_base/Resources/Public/Images/icons/favicon_Code_of_nature_196x196.png">
+
+		<meta name="msapplication-TileColor" content="#FFFFFF">
+		<meta name="msapplication-TileImage" content="/typo3conf/ext/codeofnature_symrise_com_base/Resources/Public/Images/icons/favicon_Code_of_nature_144x144.png">
+	<script id="dacs" src="https://download.digiaccess.org/digiaccess" defer></script>	
+</head>
+<body class="cookiebox-top page-home theme-lp-code-of-nature  ">
+
+
+<div class="wrapper">
+    <header id="header" class="section">
+        <a href="index.html" class="icon-home">code of nature™</a>
+        
+
+    <div class="lp-code-of-nature-lang-chooser padding-left">
+        
+            <a href="index.html" class="lang-flag">
+                
+                        <span class="lang-flag-text">EN</span>
+                        <span class="lang-flag-icon en"></span>
+                    
+            </a>
+        
+            <a href="de/index.html" class="lang-flag">
+                
+                        <span class="lang-flag-text">DE</span>
+                        <span class="lang-flag-icon de"></span>
+                    
+            </a>
+        
+            <a href="ja/index.html" class="lang-flag">
+                
+                        <span class="lang-flag-text">JP</span>
+                        <span class="lang-flag-icon jp"></span>
+                    
+            </a>
+        
+            <a href="es/index.html" class="lang-flag">
+                
+                        <span class="lang-flag-text">ES</span>
+                        <span class="lang-flag-icon es"></span>
+                    
+            </a>
+        
+            <a href="pt/index.html" class="lang-flag">
+                
+                        <span class="lang-flag-text">PT</span>
+                        <span class="lang-flag-icon br"></span>
+                    
+            </a>
+        
+            <a href="cn/index.html" class="lang-flag">
+                
+                        <span class="lang-flag-text">CN</span>
+                        <span class="lang-flag-icon cn"></span>
+                    
+            </a>
+        
+            <a href="fr/index.html" class="lang-flag">
+                
+                        <span class="lang-flag-text">FR</span>
+                        <span class="lang-flag-icon fr"></span>
+                    
+            </a>
+        
+    </div>
+
+
+
+        <a href="de/cookie-richtlinie/index.html" class="logo" title="symrise.com" target="_blank">
+            <img src="typo3conf/ext/codeofnature_symrise_com_base/Resources/Public/Images/symrise_logo.svg">
+        </a>
+    </header>
+
+    <aside id="top-zone">
+        
+                
+                        <div class="img-wrap">                <img src="typo3conf/ext/codeofnature_symrise_com_base/Resources/Public/Images/blank.gif"  class="lazyload" title="code of nature™" data-src="/fileadmin/CoN_new/CoN_key_visual_1400px.jpg" data-biggest="/fileadmin/CoN_new/CoN_key_visual_1400px.jpg" data-bigger="/fileadmin/CoN_new/CoN_key_visual_1400px.jpg" data-large="/fileadmin/CoN_new/CoN_key_visual_1400px.jpg" data-medium="/fileadmin/_processed_/4/6/csm_CoN_key_visual_1400px_94249a1ce9.jpg" data-small="/fileadmin/_processed_/4/6/csm_CoN_key_visual_1400px_c8cad4dc67.jpg" data-smallest="/fileadmin/_processed_/4/6/csm_CoN_key_visual_1400px_67c4473994.jpg" alt="" />
+                <noscript>
+                <img src="fileadmin/CoN_new/CoN_key_visual_1400px.jpg" alt=""/>
+                </noscript></div><div id="popup-expanded-video" class="mfp-hide">
+                            <figure>
+                                <div class="video-wrap">
+                                    <iframe src="index.html" frameborder="0"></iframe>
+                                </div>
+                                <figcaption>
+                                    <div class="inner">
+                                        <h3></h3>
+                                        <p></p>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                            <button type="button" class="close-popup-btn">Close video</button>
+                        </div>
+                    
+            
+        <div class="section title"><h1>code of nature™</h1></div>
+    </aside>
+
+    
+    <div id="toolbar">
+        
+
+
+
+        
+
+
+
+        
+<div class="social-top">
+    <h6>Share</h6>
+    
+    <a href="https://www.facebook.com/sharer/sharer.php?u=https://codeofnature.symrise.com/" target="_blank" class="link-facebook"><i class="icon-facebook"></i></a>
+    <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://codeofnature.symrise.com/" target="_blank" class="link-in"><i class="icon-linkedin"></i></a>
+    <a href="http://www.twitter.com/share?text=&url=https://codeofnature.symrise.com/" target="_blank" class="link-tw"><i class="icon-twitter"></i></a>
+    <a href="https://www.xing-share.com/app/share?url=https://codeofnature.symrise.com/" target="_blank" class="link-xing"><i class="icon-xing"></i></a>
+    <a href="https://www.symrise.com/newsroom/press-releases/rss.xml" target="_blank" class="link-rss"><i class="fas fa-rss"></i></a>
+</div>
+
+
+    </div>
+
+    <div id="content" class="section col1-layout">
+        
+    <!--TYPO3SEARCH_begin-->
+    <section id="col-main" class="content">
+        <div class=" anchor " data-id="delivering-the-best-from-nature" id="c454"><div class="col2-set set-60x40 padding-left" data-id="grid-2-cols" id="c2"><div class="col-1">
+<div id="c1"
+                
+                        class="small-bottom-margin"
+                    
+            ><header><h2>
+                Delivering the best from nature
+            </h2></header><div class="text"><p>Symrise is supporting its customers in mastering their challenges related to naturalness in food and beverages. To do so, it uses its unique natural solution platform code of nature™ and combines the best of nature and the best of science. With the four pillars of this holistic approach, Symrise is decoding consumer trends. It connects these insights and regulatory consultancy capabilities with its long-standing scientific heritage to develop natural solutions for taste, nutrition and health that consumers love.</p></div></div>
+
+
+<div class="text"><h4 class="text-center">Did you know...</h4></div>
+
+<div class="grid-items" data-id="key-facts" id="c451">
+
+
+    <div class="item">
+        
+                <div class="img-wrap"><img src="fileadmin/CoN_new/SYM_Symojis-Onion-c_100px.png" width="100" height="100" alt="" /></div>
+            
+        
+            <p>… that the explicit use of the word ‘natural’ can make a difference in driving preference, especially if linked to the core ingredient (e.g. ‘natural onion extract’ versus ‘onion extract‘)?</p>
+        
+        
+    </div>
+
+    <div class="item">
+        
+                <div class="img-wrap"><img src="fileadmin/CoN_new/SYM_Symojis-Label-c_100px.png" width="100" height="100" alt="" /></div>
+            
+        
+            <p>…that most consumers accept long ingredient lists as long as they can understand it?</p>
+        
+        
+    </div>
+
+    <div class="item">
+        
+                <div class="img-wrap"><img src="fileadmin/CoN_new/SYM_Symojis-Pot-c_100px.png" width="100" height="100" alt="" /></div>
+            
+        
+            <p>…that for culinary products a familiar and common preparation method (e.g. roasted, cooked and dried) can positively impact the naturalness perception?</p>
+        
+        
+    </div>
+
+
+
+</div></div><div class="col-2">
+<div id="side-nav-wrapper"><div id="side-nav"><div class="overlay"></div><div class="bar"><div class="indicator"></div></div><div class="labels"><i data-id="delivering-the-best-from-nature"
+                                       data-text="Delivering the best from nature"></i><i data-id="evolving-consumer-needs-"
+                                       data-text="Evolving consumer needs "></i><i data-id="decoding-the-demands-and-desires-of-consumers-"
+                                       data-text="Decoding the demands and desires of consumers "></i><i data-id="discovering-how-symrise-can-help-its-customers-"
+                                       data-text="Discovering how Symrise can help its customers "></i></div></div></div>
+
+</div></div></div><div class="box-img-bg full-width" data-id="" id="c22"><div class="img-wrap">                <img src="typo3conf/ext/codeofnature_symrise_com_base/Resources/Public/Images/blank.gif"  class="lazyload" data-src="/fileadmin/CoN_new/20190328_STK_strawberries_ChildrenInField_1705px.jpg" data-biggest="/fileadmin/CoN_new/20190328_STK_strawberries_ChildrenInField_1705px.jpg" data-bigger="/fileadmin/CoN_new/20190328_STK_strawberries_ChildrenInField_1705px.jpg" data-large="/fileadmin/_processed_/e/4/csm_20190328_STK_strawberries_ChildrenInField_1705px_814e0d18b2.jpg" data-medium="/fileadmin/_processed_/e/4/csm_20190328_STK_strawberries_ChildrenInField_1705px_7c1b01e98f.jpg" data-small="/fileadmin/_processed_/e/4/csm_20190328_STK_strawberries_ChildrenInField_1705px_c703434f01.jpg" data-smallest="/fileadmin/_processed_/e/4/csm_20190328_STK_strawberries_ChildrenInField_1705px_2efe602922.jpg" alt="" />
+                <noscript>
+                <img src="fileadmin/CoN_new/20190328_STK_strawberries_ChildrenInField_1705px.jpg" alt=""/>
+                </noscript></div>
+<div class="ce-textpic ce-center ce-above"><div class="ce-bodytext"><h2>The four pillars of code of nature™</h2><p>The holistic code of nature™ approach harnesses four pillars: acting consumer-driven, using the best naturals and applied science, while offering regulatory guidance. </p></div></div>
+
+</div><div class=" colored-box" data-id="grey-wrapper" id="c481">
+<div id="c482"
+                
+                        class="extra-bottom-margin"
+                    
+            ><div class="text"><h3 class="text-center">Discover the fours pillars under code of nature™</h3></div></div>
+
+<div class="tabs-carousel show-counter padding-right" data-id="carousel" id="c476"data-per-page="3"><div class="tab-titles"><a href="javascript:void(0);">CONSUMER-DRIVEN</a><a href="javascript:void(0);">BEST NATURALS</a><a href="javascript:void(0);">APPLIED SCIENCE</a><a href="javascript:void(0);">REGULATORY GUIDANCE</a></div><div class="tab-panes "><div class="item">
+<div class="ce-textpic ce-left ce-intext ce-v-center"><div class="ce-gallery"
+         data-ce-columns="1" data-ce-images="1"><div class="ce-row"><div class="ce-column"><figure class="image"><img src="typo3conf/ext/codeofnature_symrise_com_base/Resources/Public/Images/blank.gif"  class="lazyload" alt="a man and a women cooking with fresh vegetables" title="Consumer-driven" data-src="/fileadmin/CoN_new/Consumer-driven_600px.jpg" data-biggest="/fileadmin/CoN_new/Consumer-driven_600px.jpg" data-bigger="/fileadmin/CoN_new/Consumer-driven_600px.jpg" data-large="/fileadmin/CoN_new/Consumer-driven_600px.jpg" data-medium="/fileadmin/CoN_new/Consumer-driven_600px.jpg" data-small="/fileadmin/CoN_new/Consumer-driven_600px.jpg" data-smallest="/fileadmin/_processed_/b/1/csm_Consumer-driven_600px_229ae080bc.jpg" alt="" /><noscript><img src="fileadmin/CoN_new/Consumer-driven_600px.jpg" alt=""/></noscript></figure></div></div></div><div class="ce-bodytext"><p>Acting <strong>consumer-driven</strong> means decoding consumer trends and developing natural product solutions that consumers love. Extensive investigation feeds Symrise’s deep understanding of what drives food choice. Over the past few years, Symrise has worked with more than 25,000 consumers globally and investigated their attitudes, perceptions and preferences. By using these insights on a daily basis in development projects, Symrise helps to deliver what consumers want.</p></div></div>
+
+</div><div class="item">
+<div class="ce-textpic ce-left ce-intext ce-v-center"><div class="ce-gallery"
+         data-ce-columns="1" data-ce-images="1"><div class="ce-row"><div class="ce-column"><figure class="image"><img src="typo3conf/ext/codeofnature_symrise_com_base/Resources/Public/Images/blank.gif"  class="lazyload" alt="vanilla fruits in 2 hands" title=" Best-Naturals" data-src="/fileadmin/CoN_new/Best-Naturals_600px.jpg" data-biggest="/fileadmin/CoN_new/Best-Naturals_600px.jpg" data-bigger="/fileadmin/CoN_new/Best-Naturals_600px.jpg" data-large="/fileadmin/CoN_new/Best-Naturals_600px.jpg" data-medium="/fileadmin/CoN_new/Best-Naturals_600px.jpg" data-small="/fileadmin/CoN_new/Best-Naturals_600px.jpg" data-smallest="/fileadmin/_processed_/3/8/csm_Best-Naturals_600px_bffd77543b.jpg" alt="" /><noscript><img src="fileadmin/CoN_new/Best-Naturals_600px.jpg" alt=""/></noscript></figure></div></div></div><div class="ce-bodytext"><p><strong>Best naturals</strong> is about using the best natural raw materials based on Symrise’s strong in-house agronomy expertise and a responsible and sustainable sourcing approach. This presents one way that makes Symrise different: it directly connects with fields and farmers and builds long-term partnerships based on mutual respect. This helps local communities and creates value for all stakeholders.</p></div></div>
+
+</div><div class="item">
+<div class="ce-textpic ce-left ce-intext ce-v-center"><div class="ce-gallery"
+         data-ce-columns="1" data-ce-images="1"><div class="ce-row"><div class="ce-column"><figure class="image"><img src="typo3conf/ext/codeofnature_symrise_com_base/Resources/Public/Images/blank.gif"  class="lazyload" alt="organic natural flavor" title="Applied-Science" data-src="/fileadmin/CoN_new/Applied-Science_600px.jpg" data-biggest="/fileadmin/CoN_new/Applied-Science_600px.jpg" data-bigger="/fileadmin/CoN_new/Applied-Science_600px.jpg" data-large="/fileadmin/CoN_new/Applied-Science_600px.jpg" data-medium="/fileadmin/CoN_new/Applied-Science_600px.jpg" data-small="/fileadmin/CoN_new/Applied-Science_600px.jpg" data-smallest="/fileadmin/_processed_/7/3/csm_Applied-Science_600px_dc63b2a750.jpg" alt="" /><noscript><img src="fileadmin/CoN_new/Applied-Science_600px.jpg" alt=""/></noscript></figure></div></div></div><div class="ce-bodytext"><p><strong>Applied science</strong> means using proprietary technologies and gentle preparation methods to&nbsp;develop&nbsp;natural solutions&nbsp;with&nbsp;signature flavor profiles and&nbsp;health actives with science-driven proven efficacy.</p></div></div>
+
+</div><div class="item">
+<div class="ce-textpic ce-left ce-intext ce-v-center"><div class="ce-gallery"
+         data-ce-columns="1" data-ce-images="1"><div class="ce-row"><div class="ce-column"><figure class="image"><img src="typo3conf/ext/codeofnature_symrise_com_base/Resources/Public/Images/blank.gif"  class="lazyload" alt="organic food flavoring" title="Regulatory-guidance" data-src="/fileadmin/CoN_new/Regulatory-guidance_600px.jpg" data-biggest="/fileadmin/CoN_new/Regulatory-guidance_600px.jpg" data-bigger="/fileadmin/CoN_new/Regulatory-guidance_600px.jpg" data-large="/fileadmin/CoN_new/Regulatory-guidance_600px.jpg" data-medium="/fileadmin/CoN_new/Regulatory-guidance_600px.jpg" data-small="/fileadmin/CoN_new/Regulatory-guidance_600px.jpg" data-smallest="/fileadmin/_processed_/9/c/csm_Regulatory-guidance_600px_65e5705b32.jpg" alt="" /><noscript><img src="fileadmin/CoN_new/Regulatory-guidance_600px.jpg" alt=""/></noscript></figure></div></div></div><div class="ce-bodytext"><p><strong>Regulatory guidance</strong> helps manufacturers to navigate the complex and changing regulatory landscape. Forward-thinking advice from a trusted partner can ensure regulatory compliance and help create labels that consumers understand and trust.</p></div></div>
+
+</div></div></div></div><div class="" data-id="feeling-curious-to-learn-more" id="c497"><div class=" small-bottom-margin" data-id="" id="c510">
+<div id="c453"
+                
+                        class="padding-sides"
+                    
+            ><header><h3>
+                Are you curious to learn more about how our natural solution platform amplifies the best from nature?
+            </h3></header></div>
+
+</div><div class="video-box play-center padding-sides" data-id="video" id="c455"><figure class="video"><div class="video-embed-image">
+                                            <a href="https://www.youtube.com/watch?v=Td3-33t1AxU" target="_blank">
+                                                                <img src="typo3conf/ext/codeofnature_symrise_com_base/Resources/Public/Images/blank.gif"  class="lazyload" data-src="/fileadmin/CoN_new/220829_code_of_nature_video_1096x611.jpg" data-biggest="/fileadmin/CoN_new/220829_code_of_nature_video_1096x611.jpg" data-bigger="/fileadmin/CoN_new/220829_code_of_nature_video_1096x611.jpg" data-large="/fileadmin/CoN_new/220829_code_of_nature_video_1096x611.jpg" data-medium="/fileadmin/_processed_/a/6/csm_220829_code_of_nature_video_1096x611_6e24dc02b1.jpg" data-small="/fileadmin/_processed_/a/6/csm_220829_code_of_nature_video_1096x611_55d5ef5772.jpg" data-smallest="/fileadmin/_processed_/a/6/csm_220829_code_of_nature_video_1096x611_1a99acef1e.jpg" alt="" />
+                <noscript>
+                <img src="fileadmin/CoN_new/220829_code_of_nature_video_1096x611.jpg" alt=""/>
+                </noscript>
+                                            </a>
+                                        </div><figcaption class="image-caption"></figcaption></figure></div></div><div class=" anchor " data-id="evolving-consumer-needs-" id="c456"><div class="box-img-bg full-width" data-id="superbreak" id="c457"><div class="img-wrap">                <img src="typo3conf/ext/codeofnature_symrise_com_base/Resources/Public/Images/blank.gif"  class="lazyload" data-src="/fileadmin/CoN_new/superbreak_1820px.jpg" data-biggest="/fileadmin/CoN_new/superbreak_1820px.jpg" data-bigger="/fileadmin/CoN_new/superbreak_1820px.jpg" data-large="/fileadmin/_processed_/c/3/csm_superbreak_1820px_f8a0930721.jpg" data-medium="/fileadmin/_processed_/c/3/csm_superbreak_1820px_21e0e981e2.jpg" data-small="/fileadmin/_processed_/c/3/csm_superbreak_1820px_7233c7d041.jpg" data-smallest="/fileadmin/_processed_/c/3/csm_superbreak_1820px_b213e93918.jpg" alt="" />
+                <noscript>
+                <img src="fileadmin/CoN_new/superbreak_1820px.jpg" alt=""/>
+                </noscript></div>
+<div class="ce-textpic ce-center ce-above"><div class="ce-bodytext"><h2>Evolving consumer needs — forming a true global movement</h2><p>Today’s consumers across all countries and categories are getting more health conscious. They want to know what the food they eat contains, how farmers grow it and how it impacts the planet. The growing awareness for trust and traceability in the food chain has resulted in an increased demand for food closest to its natural state. Consumers look for food and drinks with ingredients they know from their kitchens and they feel familiar with. They want the taste of garden-fresh tomatoes or the taste of a lemonade just like freshly squeezed.</p></div></div>
+
+</div>
+<div id="c460"
+                
+                        class="padding-left"
+                    
+            ><header><h3>
+                In a rapidly changing world consumers look for assurance and transparency.
+            </h3></header><div class="text"><p>Especially the COVID-19 global pandemic has amplified this trend even further, bolstering the natural food movement.</p><p>&nbsp;</p></div></div>
+
+<div class=" padding-right" data-id="pad-right" id="c511">
+<div id="c461"
+                
+                        class="small-bottom-margin"
+                    
+            ><div class="ce-textpic ce-left ce-intext ce-v-center"><div class="ce-gallery"
+         data-ce-columns="1" data-ce-images="1"><div class="ce-row"><div class="ce-column"><figure class="image"><img src="typo3conf/ext/codeofnature_symrise_com_base/Resources/Public/Images/blank.gif"  class="lazyload" alt="Delivering the authentic taste of nature" data-src="/fileadmin/CoN_new/20210405_SYM_COR_Corporate_image__2__607px.jpg" data-biggest="/fileadmin/CoN_new/20210405_SYM_COR_Corporate_image__2__607px.jpg" data-bigger="/fileadmin/CoN_new/20210405_SYM_COR_Corporate_image__2__607px.jpg" data-large="/fileadmin/CoN_new/20210405_SYM_COR_Corporate_image__2__607px.jpg" data-medium="/fileadmin/CoN_new/20210405_SYM_COR_Corporate_image__2__607px.jpg" data-small="/fileadmin/CoN_new/20210405_SYM_COR_Corporate_image__2__607px.jpg" data-smallest="/fileadmin/_processed_/c/6/csm_20210405_SYM_COR_Corporate_image__2__607px_a6220a902a.jpg" alt="" /><noscript><img src="fileadmin/CoN_new/20210405_SYM_COR_Corporate_image__2__607px.jpg" alt=""/></noscript></figure></div></div></div><div class="ce-bodytext"><p>Consumers want assurance that producers have minimally processed their food, that it contains natural ingredients and that it will benefit them. They know that their food choices impact their health and they are also getting more and more aware of how their behavior and their choices can influence the environment.</p></div></div></div>
+
+</div>
+<div id="c462"
+                
+                        class="padding-sides"
+                    
+            ><div class="ce-textpic ce-right ce-intext ce-v-center"><div class="ce-gallery"
+         data-ce-columns="1" data-ce-images="1"><div class="ce-row"><div class="ce-column"><figure class="image"><img src="typo3conf/ext/codeofnature_symrise_com_base/Resources/Public/Images/blank.gif"  class="lazyload" alt="code of nature" data-src="/fileadmin/CoN_new/20180808_STK_SYM_FLA__10__644px.jpg" data-biggest="/fileadmin/CoN_new/20180808_STK_SYM_FLA__10__644px.jpg" data-bigger="/fileadmin/CoN_new/20180808_STK_SYM_FLA__10__644px.jpg" data-large="/fileadmin/CoN_new/20180808_STK_SYM_FLA__10__644px.jpg" data-medium="/fileadmin/CoN_new/20180808_STK_SYM_FLA__10__644px.jpg" data-small="/fileadmin/CoN_new/20180808_STK_SYM_FLA__10__644px.jpg" data-smallest="/fileadmin/_processed_/4/b/csm_20180808_STK_SYM_FLA__10__644px_5143cfe360.jpg" alt="" /><noscript><img src="fileadmin/CoN_new/20180808_STK_SYM_FLA__10__644px.jpg" alt=""/></noscript></figure></div></div></div><div class="ce-bodytext"><p>As a result, consumers want products from farmers that care about sustainable agricultural practices. Animal welfare also plays a decisive role for many consumers and, finally, they are looking for healthy and nutritious products delivering great taste experiences and wellbeing.</p></div></div></div>
+
+<div class="col2-set colored-box padding-sides" data-id="" id="c464"><div class="col-1">
+<div class="text"></div>
+
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" lang="en">
+
+<div class="tx-simplesurvey  none" id="c491">
+    
+    <div class="tx-simplesurvey-barsurvey active" data-survey-uid="491"
+         data-vote-token="c5c778d96758cb89275dc706d17a9652">
+        <h2>What have you been paying more attention to since the outbreak of the Covid-19 pandemic?</h2>
+        
+            <p class="subheader">How have your eating and buying habits changed since the beginning of the Covid-19 pandemic?</p>
+            <p class="thank-you-notice">
+                <a href="javascript:window.location.reload();"
+                   title="Vote again">
+                    Thank you for participating!
+                </a>
+            </p>
+        
+
+        
+            
+                <button class="survey-option" data-option-uid="1">
+                    <span class="option-fill" style="width: 0;"></span>
+                    <span class="option-icon"
+                          style="/*noinspection CssUnknownTarget*/background-image: url('index.html');">&nbsp;</span>
+                    <span class="option-label">Eating in a healthier way</span>
+                    <span class="option-percentage"></span>
+                </button>
+            
+                <button class="survey-option" data-option-uid="2">
+                    <span class="option-fill" style="width: 0;"></span>
+                    <span class="option-icon"
+                          style="/*noinspection CssUnknownTarget*/background-image: url('index.html');">&nbsp;</span>
+                    <span class="option-label">Looking for more natural products</span>
+                    <span class="option-percentage"></span>
+                </button>
+            
+                <button class="survey-option" data-option-uid="3">
+                    <span class="option-fill" style="width: 0;"></span>
+                    <span class="option-icon"
+                          style="/*noinspection CssUnknownTarget*/background-image: url('index.html');">&nbsp;</span>
+                    <span class="option-label">Buying products from local companies</span>
+                    <span class="option-percentage"></span>
+                </button>
+            
+                <button class="survey-option" data-option-uid="4">
+                    <span class="option-fill" style="width: 0;"></span>
+                    <span class="option-icon"
+                          style="/*noinspection CssUnknownTarget*/background-image: url('index.html');">&nbsp;</span>
+                    <span class="option-label">More cooking at home</span>
+                    <span class="option-percentage"></span>
+                </button>
+            
+                <button class="survey-option" data-option-uid="5">
+                    <span class="option-fill" style="width: 0;"></span>
+                    <span class="option-icon"
+                          style="/*noinspection CssUnknownTarget*/background-image: url('index.html');">&nbsp;</span>
+                    <span class="option-label">My habits did not change</span>
+                    <span class="option-percentage"></span>
+                </button>
+            
+        
+        <p class="total-votes">
+            In total %s votes
+        </p>
+    </div>
+
+</div>
+</html></div><div class="col-2">
+<div class="ce-image ce-center ce-above"><div class="ce-gallery"
+         data-ce-columns="1" data-ce-images="1"><div class="ce-outer"><div class="ce-inner"><div class="ce-row"><div class="ce-column"><figure class="image"><img src="typo3conf/ext/codeofnature_symrise_com_base/Resources/Public/Images/blank.gif"  class="lazyload" alt="natural ingredients" data-src="/fileadmin/CoN_new/20210405_SYM_COR_Corporate_image__33__644px.jpg" data-biggest="/fileadmin/CoN_new/20210405_SYM_COR_Corporate_image__33__644px.jpg" data-bigger="/fileadmin/CoN_new/20210405_SYM_COR_Corporate_image__33__644px.jpg" data-large="/fileadmin/CoN_new/20210405_SYM_COR_Corporate_image__33__644px.jpg" data-medium="/fileadmin/CoN_new/20210405_SYM_COR_Corporate_image__33__644px.jpg" data-small="/fileadmin/CoN_new/20210405_SYM_COR_Corporate_image__33__644px.jpg" data-smallest="/fileadmin/_processed_/3/5/csm_20210405_SYM_COR_Corporate_image__33__644px_65f5be224c.jpg" alt="" /><noscript><img src="fileadmin/CoN_new/20210405_SYM_COR_Corporate_image__33__644px.jpg" alt=""/></noscript></figure></div></div></div></div></div></div>
+
+</div></div></div><div class=" anchor " data-id="decoding-the-demands-and-desires-of-consumers-" id="c466">
+<div id="c468"
+                
+                        class="padding-left"
+                    
+            ><header><h2>
+                Manufacturers need to decode these demands and desires of consumers
+            </h2></header><div class="text"><p>These rapid changes within the world of naturalness and the aforementioned consumer needs pose both significant challenges and opportunities for the food and beverage industry. To stay relevant, companies should offer products that consumers recognize and accept as truly natural — and they have to adapt quickly.</p><p>By listening to consumers and adapting to their behavior, agile manufacturers can combine innovation and sustainability to make the entire production process better for everyone from start to finish.</p><p>Nature means variety. It is evolving, ever changing, hard to predict, with crops and harvest depending on the weather, soil and so much more. At the same time, consumers expect a very specific taste and visual appearance. We consider it key to offer products that reflect the boundless variety of nature and to address the versatile consumer needs and requirements with consistent quality that consumers love.</p><p>&nbsp;</p></div></div>
+
+
+<div class="text"><h4 class="text-center">Did you know...</h4></div>
+
+<div class="grid-items padding-sides" data-id="key-facts-" id="c470">
+
+
+    <div class="item">
+        
+                <div class="img-wrap"><img src="fileadmin/CoN_new/SYM_Symojis-Drink-c_100px.png" width="100" height="100" alt="" /></div>
+            
+        
+            <p>… that, among the different categories, beverage offers more potential to leverage naturalness as a purchase driver, especially in flavored water, with huge opportunities in China, Japan, Australia and Thailand? </p>
+        
+        
+    </div>
+
+    <div class="item">
+        
+                <div class="img-wrap"><img src="fileadmin/CoN_new/SYM_Symojis-Soup-c100px.png" width="100" height="100" alt="" /></div>
+            
+        
+            <p>… that, in the Unites States consumers value naturalness the most in the following segments: yogurt (68%), followed by soups/broths (55%) and flavored water (50%)? </p>
+        
+        
+    </div>
+
+    <div class="item">
+        
+                <div class="img-wrap"><img src="fileadmin/CoN_new/SYM_Symojis-Box-Of-Beer-c_100px.png" width="100" height="100" alt="" /></div>
+            
+        
+            <p>… that, in European beverage segment (lemonade, flavored beer and liqueur) words like ‘oil’, ‘powder’ and ‘distillate’ can decrease the perception of naturalness? </p>
+        
+        
+    </div>
+
+    <div class="item">
+        
+                <div class="img-wrap"><img src="fileadmin/CoN_new/SYM_Symojis-Tongue-c_100px.png" width="100" height="100" alt="" /></div>
+            
+        
+            <p>… that, in Latin America the taste direction influences the naturalness perception of a product and, that which taste direction people associate with naturalness varies from category to category and can also vary from country to country? </p>
+        
+        
+    </div>
+
+
+
+</div></div><div class=" anchor " data-id="discovering-how-symrise-can-help-its-customers-" id="c471"><div class="blockquote bg-con-green" data-id="quote" id="c472"><blockquote><q>We are helping manufacturers to meet the challenge of changing consumer needs </q><cite></b></cite></blockquote></div><div class="col2-set set-60x40" data-id="" id="c473"><div class="col-1">
+<div id="c474"
+                
+                        class="padding-left"
+                    
+            ><div class="text"><p>As one of the founders of the taste industry with nearly 150 years of expertise, Symrise combines technology with respect for nature. This forms the foundation of code of nature™.<br> With code of nature™, Symrise has created a natural solution platform that unlocks and amplifies the best from nature. A commitment to signature solutions for taste, nutrition and health – made with the best of nature.</p><p>The all-encompassing approach connects the market and consumer needs with all facets of Symrise’s long-standing expertise and heritage to develop natural, authentic solutions for sustainable growth.</p><p>With code of nature™, Symrise responds to all these challenges. By using natural, sustainably and responsibly sourced ingredients to develop stable solutions Symrise supports its customers in delivering natural products with a consistent great taste and quality consumers are looking for.</p></div></div>
+
+</div><div class="col-2"><div class="box-cta bg-img fig-bottom bg-white" data-id="curious-about-asian-pacific-consumer-insights" id="c422"><img src="typo3conf/ext/codeofnature_symrise_com_base/Resources/Public/Images/blank.gif"  class="lazyload" data-src="/fileadmin/code_of_nature_extern/APAC_corner.jpg" data-biggest="/fileadmin/code_of_nature_extern/APAC_corner.jpg" data-bigger="/fileadmin/code_of_nature_extern/APAC_corner.jpg" data-large="/fileadmin/code_of_nature_extern/APAC_corner.jpg" data-medium="/fileadmin/code_of_nature_extern/APAC_corner.jpg" data-small="/fileadmin/code_of_nature_extern/APAC_corner.jpg" data-smallest="/fileadmin/_processed_/b/a/csm_APAC_corner_995aafb26f.jpg" alt="" />
+                <noscript>
+                <img src="fileadmin/code_of_nature_extern/APAC_corner.jpg" alt=""/>
+                </noscript><a href="https://go.symrise.com/FlavoredWater1289.html" target="_blank" class="no-text">More</a><div class="box-text">
+
+    
+            
+                
+
+    
+            <h3>
+                Curious about Asian Pacific consumer insights?
+            </h3>
+        
+
+
+
+            
+        
+
+
+<p><a href="https://go.symrise.com/FlavoredWater1289.html" target="_blank" class="lnk-download">Download</a></p></div></div><div class="box-cta bg-img fig-bottom" data-id="symrise-botanical-essentials--crafted-taste--infused-by-nature!-" id="c423"><img src="typo3conf/ext/codeofnature_symrise_com_base/Resources/Public/Images/blank.gif"  class="lazyload" data-src="/fileadmin/code_of_nature_extern/BOTANICALS_HD_L450.jpg" data-biggest="/fileadmin/code_of_nature_extern/BOTANICALS_HD_L450.jpg" data-bigger="/fileadmin/code_of_nature_extern/BOTANICALS_HD_L450.jpg" data-large="/fileadmin/code_of_nature_extern/BOTANICALS_HD_L450.jpg" data-medium="/fileadmin/code_of_nature_extern/BOTANICALS_HD_L450.jpg" data-small="/fileadmin/code_of_nature_extern/BOTANICALS_HD_L450.jpg" data-smallest="/fileadmin/code_of_nature_extern/BOTANICALS_HD_L450.jpg" alt="" />
+                <noscript>
+                <img src="fileadmin/code_of_nature_extern/BOTANICALS_HD_L450.jpg" alt=""/>
+                </noscript><div class="box-text">
+
+    
+            
+                
+
+    
+            <h3>
+                Symrise Botanical Essentials® - crafted taste – infused by nature! 
+            </h3>
+        
+
+
+
+            
+        
+
+
+<p><a href="fileadmin/code_of_nature_extern/con_teaser_botanicals_essential_180719.pdf" class="lnk-download" target="_blank">Download</a></p></div></div><div class="box-cta bg-img fig-bottom" data-id="symrise-fruity-essentials---crafted-fruit-taste--straight-from-nature!-" id="c424"><img src="typo3conf/ext/codeofnature_symrise_com_base/Resources/Public/Images/blank.gif"  class="lazyload" data-src="/fileadmin/code_of_nature_extern/FRUITY_ESSENTIALS_HD_L450.jpg" data-biggest="/fileadmin/code_of_nature_extern/FRUITY_ESSENTIALS_HD_L450.jpg" data-bigger="/fileadmin/code_of_nature_extern/FRUITY_ESSENTIALS_HD_L450.jpg" data-large="/fileadmin/code_of_nature_extern/FRUITY_ESSENTIALS_HD_L450.jpg" data-medium="/fileadmin/code_of_nature_extern/FRUITY_ESSENTIALS_HD_L450.jpg" data-small="/fileadmin/code_of_nature_extern/FRUITY_ESSENTIALS_HD_L450.jpg" data-smallest="/fileadmin/code_of_nature_extern/FRUITY_ESSENTIALS_HD_L450.jpg" alt="" />
+                <noscript>
+                <img src="fileadmin/code_of_nature_extern/FRUITY_ESSENTIALS_HD_L450.jpg" alt=""/>
+                </noscript><div class="box-text">
+
+    
+            
+                
+
+    
+            <h3>
+                Symrise Fruity Essentials ® - crafted fruit taste – straight from nature! 
+            </h3>
+        
+
+
+
+            
+        
+
+
+<p><a href="fileadmin/code_of_nature_extern/con_teaser_fruity_essential_180719.pdf" class="lnk-download" target="_blank">Download</a></p></div></div><div class="box-cta bg-img fig-bottom" data-id="turn-change-into-opportunities-with-natural-x-flavorings--learn-more-about-the-new-european-organic-regulation" id="c430"><img src="typo3conf/ext/codeofnature_symrise_com_base/Resources/Public/Images/blank.gif"  class="lazyload" data-src="/fileadmin/code_of_nature_extern/Cross_Category_Header_Image_v2_450.jpg" data-biggest="/fileadmin/code_of_nature_extern/Cross_Category_Header_Image_v2_450.jpg" data-bigger="/fileadmin/code_of_nature_extern/Cross_Category_Header_Image_v2_450.jpg" data-large="/fileadmin/code_of_nature_extern/Cross_Category_Header_Image_v2_450.jpg" data-medium="/fileadmin/code_of_nature_extern/Cross_Category_Header_Image_v2_450.jpg" data-small="/fileadmin/code_of_nature_extern/Cross_Category_Header_Image_v2_450.jpg" data-smallest="/fileadmin/code_of_nature_extern/Cross_Category_Header_Image_v2_450.jpg" alt="" />
+                <noscript>
+                <img src="fileadmin/code_of_nature_extern/Cross_Category_Header_Image_v2_450.jpg" alt=""/>
+                </noscript><a href="https://go.symrise.com/NaturalXFlavorings1288.html" target="_blank" class="read-more">More</a><div class="box-text">
+
+    
+            
+                
+
+    
+            <h3>
+                Turn change into opportunities with Natural X flavorings - learn more about the new European Organic regulation
+            </h3>
+        
+
+
+
+            
+        
+
+
+<p><a href="https://go.symrise.com/NaturalXFlavorings1288.html" target="_blank" class="lnk-download">Download</a></p></div></div></div></div><div class=" colored-box padding-sides" data-id="m20--video--with-colored-bg" id="c883"><div class="video-box play-center" data-id="" id="c885"><figure class="video"><div class="video-embed-image">
+                                            <a href="https://www.youtube.com/watch?v=OGHY9vSHEL0" target="_blank">
+                                                                <img src="typo3conf/ext/codeofnature_symrise_com_base/Resources/Public/Images/blank.gif"  class="lazyload" data-src="/fileadmin/code_of_nature/230314_Video_Authentic_Vegetables.jpg" data-biggest="/fileadmin/code_of_nature/230314_Video_Authentic_Vegetables.jpg" data-bigger="/fileadmin/code_of_nature/230314_Video_Authentic_Vegetables.jpg" data-large="/fileadmin/code_of_nature/230314_Video_Authentic_Vegetables.jpg" data-medium="/fileadmin/_processed_/7/3/csm_230314_Video_Authentic_Vegetables_12b942a67f.jpg" data-small="/fileadmin/_processed_/7/3/csm_230314_Video_Authentic_Vegetables_901e59038f.jpg" data-smallest="/fileadmin/_processed_/7/3/csm_230314_Video_Authentic_Vegetables_c7619be214.jpg" alt="" />
+                <noscript>
+                <img src="fileadmin/code_of_nature/230314_Video_Authentic_Vegetables.jpg" alt=""/>
+                </noscript>
+                                            </a>
+                                        </div><figcaption class="image-caption"></figcaption></figure></div></div>
+<div id="c483"
+                
+                        class="padding-left"
+                    
+            ><header><h3>
+                Would you like to learn more about our all-encompassing approach to naturalness?
+            </h3></header><div class="text"><h3>Discover how Symrise crafts inspiring solutions for its customers and consumers and how the four code of nature™ pillars contribute to that. </h3></div></div>
+
+<div class="col2-set set-60x40 extra-bottom-margin" data-id="big-marg" id="c484"><div class="col-1"></div><div class="col-2"></div></div><div class="col2-set colored-box padding-sides" data-id="colored" id="c26"><div class="col-1"><div class="boxtobooklet" data-id="box-to-booklet-1" id="c494">
+
+
+<div class="boxtobooklet" style="background: url(fileadmin/_processed_/9/f/csm_20180723_SYM_NUT_beetroot_sliced_600px_785563a47f.jpg) no-repeat; background-size: cover;">
+    <a href="https://go.symrise.com/WhitepaperCodeofnature1333.html" target="_blank">
+    <div class="boxoverlay">
+        <img class="pdfpreview" src="fileadmin/CoN_new/220829_code_of_nature_TM_White_Paper.jpg" width="191" height="270" alt="code o nature™ White Paper" title="code o nature™ White Paper" />
+        <div class="description">
+            Read more about the Symrise natural solution platform code of nature™<br />
+
+        </div>
+    </div>
+    </a>
+</div>
+
+</div>
+<div class="text"><p><a href="https://go.symrise.com/WhitepaperCodeofnature1333.html" target="_blank" class="lnk-download">YOU CAN DOWNLOAD THE WHITE PAPER HERE</a></p></div>
+
+</div><div class="col-2"><div class="boxtobooklet" data-id="box-to-booklet-2" id="c495">
+
+
+<div class="boxtobooklet" style="background: url(fileadmin/_processed_/b/2/csm_20190926_STK_Citrus__11__600px_091135f3e0.jpg) no-repeat; background-size: cover;">
+    <a href="https://go.symrise.com/CaseStudiesCodeOfNature1287.html" target="_blank">
+    <div class="boxoverlay">
+        <img class="pdfpreview" src="fileadmin/CoN_new/220829_code_of_nature_TM_Case_Studies.jpg" width="190" height="270" alt="code o nature™ Case Studies" title="code o nature™ Case Studies" />
+        <div class="description">
+            Read more about how Symrise crafts inspiring solutions for its customers and consumers<br />
+
+        </div>
+    </div>
+    </a>
+</div>
+
+</div>
+<div class="text"><p><a href="https://go.symrise.com/CaseStudiesCodeOfNature1287.html" target="_blank" class="lnk-download">YOU CAN DOWNLOAD THE CASE STUDIES HERE</a></p></div>
+
+</div></div></div><div class="contact-block no-margin" data-id="contact" id="c329">
+
+
+<h2>Contact</h2>
+<h3></h3>
+
+    
+        <div class="contact-person">
+            
+            
+                <h4>Would you like to learn more? </h4>
+            
+            
+                <p class="position">Contact us to discover how Symrise can help you to develop natural taste, nutrition and health solutions consumers love.</p>
+            
+            
+            
+                <br/>
+                <a href="mailto:codeofnature@symrise.com" class="btn btn-mail">
+                    
+                            Email us
+                        
+                </a>
+            
+        </div>
+    
+
+
+
+</div><div class=" colored-box no-margin" data-id="grey" id="c488">
+<div id="c489"
+                
+                        class="small-bottom-margin"
+                    
+            ><div class="text"><h3 class="text-center">always inspiring more...</h3></div></div>
+
+<div class="col4-set" data-id="" id="c487"><div class="col-1"><div class="box-cta bg-img fig-middle" data-id="diana-food-portfolio" id="c490"><img src="typo3conf/ext/codeofnature_symrise_com_base/Resources/Public/Images/blank.gif"  class="lazyload" data-src="/fileadmin/CoN_new/220829_AIM_diana_food_424x424.jpg" data-biggest="/fileadmin/CoN_new/220829_AIM_diana_food_424x424.jpg" data-bigger="/fileadmin/CoN_new/220829_AIM_diana_food_424x424.jpg" data-large="/fileadmin/CoN_new/220829_AIM_diana_food_424x424.jpg" data-medium="/fileadmin/CoN_new/220829_AIM_diana_food_424x424.jpg" data-small="/fileadmin/CoN_new/220829_AIM_diana_food_424x424.jpg" data-smallest="/fileadmin/CoN_new/220829_AIM_diana_food_424x424.jpg" alt="" />
+                <noscript>
+                <img src="fileadmin/CoN_new/220829_AIM_diana_food_424x424.jpg" alt=""/>
+                </noscript><a href="https://www.diana-food.com/our-natural-ingredients/" target="_blank" class="read-more-white">Learn more...</a><div class="box-text">
+
+    
+            <h2>
+                diana food™ portfolio
+            </h2>
+        
+
+
+</div></div></div><div class="col-2"><div class="box-cta bg-img fig-middle" data-id="vanilla" id="c492"><img src="typo3conf/ext/codeofnature_symrise_com_base/Resources/Public/Images/blank.gif"  class="lazyload" data-src="/fileadmin/CoN_new/20170313_SYM_Vanilla_Madagascar_424px.jpg" data-biggest="/fileadmin/CoN_new/20170313_SYM_Vanilla_Madagascar_424px.jpg" data-bigger="/fileadmin/CoN_new/20170313_SYM_Vanilla_Madagascar_424px.jpg" data-large="/fileadmin/CoN_new/20170313_SYM_Vanilla_Madagascar_424px.jpg" data-medium="/fileadmin/CoN_new/20170313_SYM_Vanilla_Madagascar_424px.jpg" data-small="/fileadmin/CoN_new/20170313_SYM_Vanilla_Madagascar_424px.jpg" data-smallest="/fileadmin/CoN_new/20170313_SYM_Vanilla_Madagascar_424px.jpg" alt="" />
+                <noscript>
+                <img src="fileadmin/CoN_new/20170313_SYM_Vanilla_Madagascar_424px.jpg" alt=""/>
+                </noscript><a href="https://vanilla.symrise.com/" target="_blank" class="read-more-white">Learn more...</a><div class="box-text">
+
+    
+            
+        
+
+
+<h2>Vanilla -&nbsp;A global favorite</h2></div></div></div><div class="col-3"><div class="box-cta bg-img fig-middle" data-id="con" id="c493"><img src="typo3conf/ext/codeofnature_symrise_com_base/Resources/Public/Images/blank.gif"  class="lazyload" data-src="/fileadmin/CoN_new/code_of_nature_naturalness_teaser.jpg" data-biggest="/fileadmin/CoN_new/code_of_nature_naturalness_teaser.jpg" data-bigger="/fileadmin/CoN_new/code_of_nature_naturalness_teaser.jpg" data-large="/fileadmin/CoN_new/code_of_nature_naturalness_teaser.jpg" data-medium="/fileadmin/CoN_new/code_of_nature_naturalness_teaser.jpg" data-small="/fileadmin/CoN_new/code_of_nature_naturalness_teaser.jpg" data-smallest="/fileadmin/_processed_/1/c/csm_code_of_nature_naturalness_teaser_3a992c0f7f.jpg" alt="" />
+                <noscript>
+                <img src="fileadmin/CoN_new/code_of_nature_naturalness_teaser.jpg" alt=""/>
+                </noscript><a href="https://www.symrise.com/our-stories/code-of-nature/" class="read-more-white">Learn more...</a><div class="box-text">
+
+    
+            
+        
+
+
+<h2>Embracing Naturalness in a changing world</h2></div></div></div><div class="col-4"><div class="box-cta bg-img fig-middle" data-id="idf-portfolio" id="c876"><img src="typo3conf/ext/codeofnature_symrise_com_base/Resources/Public/Images/blank.gif"  class="lazyload" data-src="/fileadmin/CoN_new/IDF_teaser_311px.jpg" data-biggest="/fileadmin/CoN_new/IDF_teaser_311px.jpg" data-bigger="/fileadmin/CoN_new/IDF_teaser_311px.jpg" data-large="/fileadmin/CoN_new/IDF_teaser_311px.jpg" data-medium="/fileadmin/CoN_new/IDF_teaser_311px.jpg" data-small="/fileadmin/CoN_new/IDF_teaser_311px.jpg" data-smallest="/fileadmin/CoN_new/IDF_teaser_311px.jpg" alt="" />
+                <noscript>
+                <img src="fileadmin/CoN_new/IDF_teaser_311px.jpg" alt=""/>
+                </noscript><a href="https://idf.com/" target="_blank" class="read-more-white">Learn more...</a><div class="box-text">
+
+    
+            
+        
+
+
+<h2>IDF<sup>®</sup> portfolio</h2></div></div></div></div></div>
+    </section>
+    <!--TYPO3SEARCH_end-->
+
+    </div>
+    <div id="footer" class="section">
+        
+<div class="top">
+    <dl>
+        
+            <dt>
+                Coming up next...
+            </dt>
+            <dd>
+                
+            </dd>
+        
+    </dl>
+    
+    <dl>
+        <dt>
+            Follow us
+        </dt>
+        <dd class="box-social">
+            <div class="social">
+                
+                    <div class="socialLinksPopup">
+                        <i class="icon-linkedin"></i>
+                        <div class="socialLinksPopupText">
+                            <a href="https://www.linkedin.com/company/symrise" target="_blank" class="link-in">Symrise AG</a><br />
+                            <a href="https://www.linkedin.com/showcase/symrise-flavors-na" target="_blank" class="link-in">Symrise Flavor NA</a><br />
+                            <a href="https://www.linkedin.com/showcase/symrise-flavor-apac" target="_blank" class="link-in">Symrise Flavor APAC</a><br />
+                            <a href="https://www.linkedin.com/showcase/symrise-flavor-latam" target="_blank" class="link-in">Symrise Flavor LATAM</a><br />
+                            <a href="https://www.linkedin.com/showcase/symrise-cosmetic-ingredients" target="_blank" class="link-in">Symrise Cosmetic Ingredients</a><br />
+                        </div>
+                    </div>
+                
+                
+                    <div class="socialLinksPopup">
+                        <i class="icon-instagram"></i>
+                        <div class="socialLinksPopupText">
+                            <a href="https://www.instagram.com/symriseag/" target="_blank" class="link-instagram">@symriseag</a><br />
+                            <a href="https://www.instagram.com/symriseflavorna/" target="_blank" class="link-instagram">@symriseflavorna</a><br />
+                            <a href="https://www.instagram.com/finefragrancestories_bysymrise/" target="_blank" class="link-instagram">@finefragrancestories_bysymrise</a><br />
+                            <a href="https://www.instagram.com/symrise.ci/" target="_blank" class="link-instagram">@symrise.ci</a><br />
+                        </div>
+                    </div>
+                
+                
+                    <a href="https://www.facebook.com/symriseag-287940405085613" target="_blank" class="link-fb">
+                        <i class="icon-facebook"></i>
+                    </a>
+                
+                
+                    <a href="https://www.youtube.com/channel/UC9wCSoDKTC-IZS54xDm2xEg" target="_blank" class="link-youtube">
+                        <i class="icon-youtube"></i>
+                    </a>
+                
+                
+                    <a href="https://twitter.com/SymriseAG" target="_blank" class="link-tw">
+                        <i class="icon-twitter"></i>
+                    </a>
+                
+                
+                    <a href="https://www.xing.com/companies/symrise" target="_blank" class="link-xing">
+                        <i class="icon-xing"></i>
+                    </a>
+                
+            </div>
+        </dd>
+    </dl>
+</div>
+<div class="bottom">
+    <p class="copyright">©
+        Symrise All rights reserved
+        2024
+    </p>
+    
+        <ul>
+            
+                
+
+        <li>
+    
+
+
+        <a href="https://symrise.com/imprint/" target="">Imprint</a>
+    
+
+
+
+
+                </li>
+            
+                
+
+        <li>
+    
+
+
+        
+                <a title="Terms &amp; Conditions" href="terms-conditions/index.html">Terms &amp; Conditions</a>
+            
+    
+
+
+
+
+                </li>
+            
+                
+
+        <li>
+    
+
+
+        <a href="https://symrise.com/privacy-policy/" target="_blank">Privacy Policy</a>
+    
+
+
+
+
+                </li>
+            
+                
+
+        <li>
+    
+
+
+        
+                <a title="Cookie Policy" target="_blank" href="cookie-policy/index.html">
+                    Cookie Policy
+                </a>
+            
+    
+
+
+
+
+                </li>
+            
+            <li><!-- „OneTrust Cookie-Einstellungen“ – Schaltfläche – Anfang -->
+            <!-- Spracheinstellung erfolgt über OneTrust Vorlage -->
+            <a href="javascript: CookieConsent.renew()">Manage Cookie Settings</a>
+            <!-- „OneTrust Cookie-Einstellungen“ – Schaltfläche – Ende --></li>
+        </ul>
+    
+</div>
+
+
+    </div>
+    
+</div>
+
+
+<script src="typo3temp/assets/compressed/merged-2c70a736e6d63c1f87fb2f132523e7bd-7cea77327cd15fb19b2d18299e81291f.js?1693387407" type="text/javascript"></script>
+
+
+
+  <div id="marketoModal" class="modal">
+   <div class="modal-content">
+    <span id="marketoModalClose" class="modalclose">&times;</span>
+    <span id="answeredMarketoModalClose" class="modalclose" style="display: none;">&times;</span>
+    <div id="modalIntro" class="modal-intro">
+      <h3>Curious to learn more about the world of Symrise solutions?</h3>
+      
+    </div>
+    <div class="thankUtxt" style="display: none;">
+      <h3>Thank You!</h3>
+      For security reasons we have sent an email to the address you provided.<br />
+      Simply click on the link in the email to confirm your subscription.<br />
+      If you don’t receive the email, please check your spam folder.
+    </div>
+        
+<div id="sapModalForm" class="sapCpBody sapform" data-form-id="1040">
+        <script src="typo3conf/ext/codeofnature_symrise_com_base/Resources/Public/Js/sapContentPage.js"></script>
+    <link rel="stylesheet" type="text/css" href="typo3conf/ext/codeofnature_symrise_com_base/Resources/Public/Css/sapContentPage.css">
+    <link rel="stylesheet" type="text/css" href="typo3conf/ext/codeofnature_symrise_com_base/Resources/Public/Css/sapContentPage_overrides.css">
+
+
+<form id="application-MarketingContent-manage-component---ObjectView--DesignView--ContentPage" data-sap-cp-key="A881D23BF8BD02580B473FBE44F83A587D581726" class="sapCpContentPage sapCRLPage sapCpContentPageLoading" data-sap-cp-lpkey="" data-sap-cp-prefill-data="true" data-sap-cp-progres-enabled="false" data-sap-cp-version="24.0.14"><div id="application-MarketingContent-manage-component---ObjectView--DesignView--ContentPage-0L" data-sap-cp-key="6F9AB6F098B23FBB19D82C714657DAB0ED48CDD1" class="sapCpLayout sapCRLLayout sapCRLLayoutVertical"><div id="application-MarketingContent-manage-component---ObjectView--DesignView--ContentPage-0L-0W" data-sap-cp-key="DAE5EF3F9B3FE2C1F9B01846042FCC3D3DF69BF9" class="sapCpWidget sapCRLWidget salutation sapCpInputWidget sapCpContactAttribute-TITLE" data-sap-cp-wprogres-enabled="false"><div class="sapCpWidgetContent sapCpWidgetContentLeft sapCRLWidgetContent sapCRLWidgetContentLeft" style="width:20%"><label id="__label24" class="sapCpLabel" for="__down6">Salutation</label></div><div class="sapCpWidgetContent sapCpWidgetContentRight sapCRLWidgetContent sapCRLWidgetContentRight" style="padding-left:20%"><select id="__down6" class="sapCpDropDown sapCpDropDownPlaceholder"><option label="Salutation" value="" selected="selected">Salutation</option><option label="Mr." value="0002">Mr.</option><option label="Ms." value="0001">Ms.</option><option label="Other" value="0005">Other</option></select></div><div class="sapCpWidgetFixContent sapCRLWidgetFixContent"></div></div><div id="application-MarketingContent-manage-component---ObjectView--DesignView--ContentPage-0L-1W" data-sap-cp-key="2E0C8314FEE8EB137794686CC97D6FE60CD819E7" class="sapCpWidget sapCRLWidget firstname sapCpInputWidget sapCpWidgetMandatory sapCpContactAttribute-NAME_FIRST" data-sap-cp-wprogres-enabled="false"><div class="sapCpWidgetContent sapCpWidgetContentLeft sapCRLWidgetContent sapCRLWidgetContentLeft" style="width:20%"><label id="__label25" class="sapCpLabel sapCpLabelRequired" for="__input15">First Name</label></div><div class="sapCpWidgetContent sapCpWidgetContentRight sapCRLWidgetContent sapCRLWidgetContentRight" style="padding-left:20%"><input id="__input15" class="sapCpInput" type="text" placeholder="First Name *" required="required" maxlength="40"></div><div class="sapCpWidgetFixContent sapCRLWidgetFixContent"></div></div><div id="application-MarketingContent-manage-component---ObjectView--DesignView--ContentPage-0L-2W" data-sap-cp-key="72CD3006BB91FB2AC7909EC3F39CB972F10526B1" class="sapCpWidget sapCRLWidget lastname sapCpInputWidget sapCpWidgetMandatory sapCpContactAttribute-NAME_LAST" data-sap-cp-wprogres-enabled="false"><div class="sapCpWidgetContent sapCpWidgetContentLeft sapCRLWidgetContent sapCRLWidgetContentLeft" style="width:20%"><label id="__label26" class="sapCpLabel sapCpLabelRequired" for="__input16">Last Name</label></div><div class="sapCpWidgetContent sapCpWidgetContentRight sapCRLWidgetContent sapCRLWidgetContentRight" style="padding-left:20%"><input id="__input16" class="sapCpInput" type="text" placeholder="Last Name *" required="required" maxlength="40"></div><div class="sapCpWidgetFixContent sapCRLWidgetFixContent"></div></div><div id="application-MarketingContent-manage-component---ObjectView--DesignView--ContentPage-0L-3W" data-sap-cp-key="921988B0E20600870BD4D3FD1FDF0FD145205AAF" class="sapCpWidget sapCRLWidget jobtitle sapCpInputWidget sapCpContactAttribute-PAFKT" data-sap-cp-wprogres-enabled="false"><div class="sapCpWidgetContent sapCpWidgetContentLeft sapCRLWidgetContent sapCRLWidgetContentLeft" style="width:20%"><label id="__label27" class="sapCpLabel" for="__down7">Job Title</label></div><div class="sapCpWidgetContent sapCpWidgetContentRight sapCRLWidgetContent sapCRLWidgetContentRight" style="padding-left:20%"><select id="__down7" class="sapCpDropDown sapCpDropDownPlaceholder"><option label="Job Title" value="" selected="selected">Job Title</option><option label="Audit Manager" value="20">Audit Manager</option><option label="Brand Manager" value="30">Brand Manager</option><option label="Business Manager" value="18">Business Manager</option><option label="Business Support" value="B4">Business Support</option><option label="Buyer" value="38">Buyer</option><option label="Category Manager" value="32">Category Manager</option><option label="Chemists" value="48">Chemists</option><option label="Consultant" value="28">Consultant</option><option label="Consumer Research" value="Z9">Consumer Research</option><option label="Cost Accounting Manager" value="19">Cost Accounting Manager</option><option label="Distributor" value="14">Distributor</option><option label="Engineer" value="24">Engineer</option><option label="Evaluator" value="Z1">Evaluator</option><option label="Executive Board" value="01">Executive Board</option><option label="Exports" value="34">Exports</option><option label="Finance" value="Z5">Finance</option><option label="Financial Account Manager" value="09">Financial Account Manager</option><option label="Flavorist" value="Z3">Flavorist</option><option label="Formula Management" value="Z4">Formula Management</option><option label="Head of Personnel" value="04">Head of Personnel</option><option label="Imports" value="35">Imports</option><option label="Innovation" value="A7">Innovation</option><option label="International Trade Manager" value="26">International Trade Manager</option><option label="IT Manager" value="08">IT Manager</option><option label="Lab Coordinator" value="A5">Lab Coordinator</option><option label="Legal" value="Z6">Legal</option><option label="Logistics" value="33">Logistics</option><option label="Logistics Manager" value="27">Logistics Manager</option><option label="Management" value="A8">Management</option><option label="Marketing" value="Z7">Marketing</option><option label="Marketing Manager" value="10">Marketing Manager</option><option label="Microbiologist" value="49">Microbiologist</option><option label="New Business Development" value="B3">New Business Development</option><option label="Operations" value="36">Operations</option><option label="Operations Manager" value="23">Operations Manager</option><option label="Packaging Design" value="Z8">Packaging Design</option><option label="Perfumer" value="Z2">Perfumer</option><option label="Personal Assistant" value="07">Personal Assistant</option><option label="Planner" value="37">Planner</option><option label="Process Engineer" value="A4">Process Engineer</option><option label="Product Developer" value="31">Product Developer</option><option label="Product Innovation" value="A2">Product Innovation</option><option label="Production Manager" value="06">Production Manager</option><option label="Project Coordinator" value="42">Project Coordinator</option><option label="Project Leader / Manager" value="41">Project Leader / Manager</option><option label="Purchasing Manager" value="02">Purchasing Manager</option><option label="Purchasing Specialist" value="25">Purchasing Specialist</option><option label="Quality Assurance" value="44">Quality Assurance</option><option label="Quality Control" value="43">Quality Control</option><option label="Quality Officer" value="05">Quality Officer</option><option label="R&amp;D Coordinators" value="46">R&amp;D Coordinators</option><option label="Regulatory" value="A9">Regulatory</option><option label="Research &amp; Development Manager" value="11">Research &amp; Development Manager</option><option label="Researcher" value="47">Researcher</option><option label="Safety" value="B1">Safety</option><option label="Sales Account Representative" value="16">Sales Account Representative</option><option label="Sales Administration Manager" value="17">Sales Administration Manager</option><option label="Sales Manager" value="03">Sales Manager</option><option label="Sales Representative" value="15">Sales Representative</option><option label="Scientists" value="45">Scientists</option><option label="Service Support Manager" value="13">Service Support Manager</option><option label="Stability" value="A6">Stability</option><option label="Statistician" value="22">Statistician</option><option label="Strategic Purchasing" value="39">Strategic Purchasing</option><option label="Supervisor" value="12">Supervisor</option><option label="Tax Manager" value="21">Tax Manager</option><option label="Technical Insights" value="A1">Technical Insights</option><option label="Technicians" value="A3">Technicians</option><option label="Toxicology" value="B2">Toxicology</option></select></div><div class="sapCpWidgetFixContent sapCRLWidgetFixContent"></div></div><div id="application-MarketingContent-manage-component---ObjectView--DesignView--ContentPage-0L-4W" data-sap-cp-key="61A6109AFAA8AEA07A1332D885B6B675F71DF9E6" class="sapCpWidget sapCRLWidget emailaddress sapCpInputWidget sapCpWidgetMandatory sapCpContactAttribute-SMTP_ADDR" data-sap-cp-wprogres-enabled="false"><div class="sapCpWidgetContent sapCpWidgetContentLeft sapCRLWidgetContent sapCRLWidgetContentLeft" style="width:20%"><label id="__label28" class="sapCpLabel sapCpLabelRequired" for="__input18">Email Address</label></div><div class="sapCpWidgetContent sapCpWidgetContentRight sapCRLWidgetContent sapCRLWidgetContentRight" style="padding-left:20%"><input id="__input18" class="sapCpInput" type="email" placeholder="Email Address *" required="required" maxlength="241" data-sap-cp-validationmessage="Email address should have @ and a period. For example: user@example.com"></div><div class="sapCpWidgetFixContent sapCRLWidgetFixContent"></div></div><div id="application-MarketingContent-manage-component---ObjectView--DesignView--ContentPage-0L-5W" data-sap-cp-key="01BEB33E2FA167C7D4A19AC2BB594B8D74CF7030" class="sapCpWidget sapCRLWidget company sapCpInputWidget sapCpWidgetMandatory sapCpContactAttribute-COMPANY_NAME" data-sap-cp-wprogres-enabled="false"><div class="sapCpWidgetContent sapCpWidgetContentLeft sapCRLWidgetContent sapCRLWidgetContentLeft" style="width:20%"><label id="__label29" class="sapCpLabel sapCpLabelRequired" for="__input19">Company</label></div><div class="sapCpWidgetContent sapCpWidgetContentRight sapCRLWidgetContent sapCRLWidgetContentRight" style="padding-left:20%"><input id="__input19" class="sapCpInput" type="text" placeholder="Company *" required="required" maxlength="40"></div><div class="sapCpWidgetFixContent sapCRLWidgetFixContent"></div></div><div id="application-MarketingContent-manage-component---ObjectView--DesignView--ContentPage-0L-6W" data-sap-cp-key="842C24356391C36E0F4F35D72F5BC2D21864672E" class="sapCpWidget sapCRLWidget country sapCpInputWidget sapCpWidgetMandatory sapCpContactAttribute-COUNTRY" data-sap-cp-wprogres-enabled="false"><div class="sapCpWidgetContent sapCpWidgetContentLeft sapCRLWidgetContent sapCRLWidgetContentLeft" style="width:20%"><label id="__label30" class="sapCpLabel sapCpLabelRequired" for="__down8">Country</label></div><div class="sapCpWidgetContent sapCpWidgetContentRight sapCRLWidgetContent sapCRLWidgetContentRight" style="padding-left:20%"><select id="__down8" class="sapCpDropDown sapCpDropDownPlaceholder" required="required"><option label="Country *" value="" selected="selected" disabled="disabled" hidden="hidden">Country *</option><option label="Afghanistan" value="AF">Afghanistan</option><option label="Aland Islands" value="AX">Aland Islands</option><option label="Albania" value="AL">Albania</option><option label="Algeria" value="DZ">Algeria</option><option label="Amer.Virgin Is." value="VI">Amer.Virgin Is.</option><option label="Andorra" value="AD">Andorra</option><option label="Angola" value="AO">Angola</option><option label="Anguilla" value="AI">Anguilla</option><option label="Antarctica" value="AQ">Antarctica</option><option label="Antigua/Barbuda" value="AG">Antigua/Barbuda</option><option label="Argentina" value="AR">Argentina</option><option label="Armenia" value="AM">Armenia</option><option label="Aruba" value="AW">Aruba</option><option label="Australia" value="AU">Australia</option><option label="Austria" value="AT">Austria</option><option label="Azerbaijan" value="AZ">Azerbaijan</option><option label="Bahamas" value="BS">Bahamas</option><option label="Bahrain" value="BH">Bahrain</option><option label="Bangladesh" value="BD">Bangladesh</option><option label="Barbados" value="BB">Barbados</option><option label="Belarus" value="BY">Belarus</option><option label="Belgium" value="BE">Belgium</option><option label="Belize" value="BZ">Belize</option><option label="Benin" value="BJ">Benin</option><option label="Bermuda" value="BM">Bermuda</option><option label="Bhutan" value="BT">Bhutan</option><option label="Bolivia" value="BO">Bolivia</option><option label="Bonaire, Saba" value="BQ">Bonaire, Saba</option><option label="Bosnia-Herz." value="BA">Bosnia-Herz.</option><option label="Botswana" value="BW">Botswana</option><option label="Bouvet Islands" value="BV">Bouvet Islands</option><option label="Brazil" value="BR">Brazil</option><option label="Brit.Ind.Oc.Ter" value="IO">Brit.Ind.Oc.Ter</option><option label="Brit.Virgin Is." value="VG">Brit.Virgin Is.</option><option label="Brunei Daruss." value="BN">Brunei Daruss.</option><option label="Bulgaria" value="BG">Bulgaria</option><option label="Burkina Faso" value="BF">Burkina Faso</option><option label="Burundi" value="BI">Burundi</option><option label="Cabo Verde" value="CV">Cabo Verde</option><option label="Cambodia" value="KH">Cambodia</option><option label="Cameroon" value="CM">Cameroon</option><option label="Canada" value="CA">Canada</option><option label="CAR" value="CF">CAR</option><option label="Cayman Islands" value="KY">Cayman Islands</option><option label="Chad" value="TD">Chad</option><option label="Chile" value="CL">Chile</option><option label="China" value="CN">China</option><option label="Christmas Islnd" value="CX">Christmas Islnd</option><option label="Cocos Islands" value="CC">Cocos Islands</option><option label="Colombia" value="CO">Colombia</option><option label="Comoros" value="KM">Comoros</option><option label="Cook Islands" value="CK">Cook Islands</option><option label="Costa Rica" value="CR">Costa Rica</option><option label="Cote d'Ivoire" value="CI">Cote d'Ivoire</option><option label="Croatia" value="HR">Croatia</option><option label="Cuba" value="CU">Cuba</option><option label="Curaçao" value="CW">Curaçao</option><option label="Cyprus" value="CY">Cyprus</option><option label="Czech Republic" value="CZ">Czech Republic</option><option label="Dem. Rep. Congo" value="CD">Dem. Rep. Congo</option><option label="Denmark" value="DK">Denmark</option><option label="Djibouti" value="DJ">Djibouti</option><option label="Dominica" value="DM">Dominica</option><option label="Dominican Rep." value="DO">Dominican Rep.</option><option label="Ecuador" value="EC">Ecuador</option><option label="Egypt" value="EG">Egypt</option><option label="El Salvador" value="SV">El Salvador</option><option label="Equatorial Guin" value="GQ">Equatorial Guin</option><option label="Eritrea" value="ER">Eritrea</option><option label="Estonia" value="EE">Estonia</option><option label="Eswatini" value="SZ">Eswatini</option><option label="Ethiopia" value="ET">Ethiopia</option><option label="Falkland Islnds" value="FK">Falkland Islnds</option><option label="Faroe Islands" value="FO">Faroe Islands</option><option label="Fiji" value="FJ">Fiji</option><option label="Finland" value="FI">Finland</option><option label="France" value="FR">France</option><option label="Frenc.Polynesia" value="PF">Frenc.Polynesia</option><option label="French Guayana" value="GF">French Guayana</option><option label="French S.Territ" value="TF">French S.Territ</option><option label="Gabon" value="GA">Gabon</option><option label="Gambia" value="GM">Gambia</option><option label="Georgia" value="GE">Georgia</option><option label="Germany" value="DE">Germany</option><option label="Ghana" value="GH">Ghana</option><option label="Gibraltar" value="GI">Gibraltar</option><option label="Greece" value="GR">Greece</option><option label="Greenland" value="GL">Greenland</option><option label="Grenada" value="GD">Grenada</option><option label="Guadeloupe" value="GP">Guadeloupe</option><option label="Guam" value="GU">Guam</option><option label="Guatemala" value="GT">Guatemala</option><option label="Guernsey" value="GG">Guernsey</option><option label="Guinea" value="GN">Guinea</option><option label="Guinea-Bissau" value="GW">Guinea-Bissau</option><option label="Guyana" value="GY">Guyana</option><option label="Haiti" value="HT">Haiti</option><option label="Heard/McDon.Isl" value="HM">Heard/McDon.Isl</option><option label="Honduras" value="HN">Honduras</option><option label="Hong Kong" value="HK">Hong Kong</option><option label="Hungary" value="HU">Hungary</option><option label="Iceland" value="IS">Iceland</option><option label="India" value="IN">India</option><option label="Indonesia" value="ID">Indonesia</option><option label="Iran" value="IR">Iran</option><option label="Iraq" value="IQ">Iraq</option><option label="Ireland" value="IE">Ireland</option><option label="Isle of Man" value="IM">Isle of Man</option><option label="Israel" value="IL">Israel</option><option label="Italy" value="IT">Italy</option><option label="Jamaica" value="JM">Jamaica</option><option label="Japan" value="JP">Japan</option><option label="Jersey" value="JE">Jersey</option><option label="Jordan" value="JO">Jordan</option><option label="Kazakhstan" value="KZ">Kazakhstan</option><option label="Kenya" value="KE">Kenya</option><option label="Kiribati" value="KI">Kiribati</option><option label="Kuwait" value="KW">Kuwait</option><option label="Kyrgyzstan" value="KG">Kyrgyzstan</option><option label="Laos" value="LA">Laos</option><option label="Latvia" value="LV">Latvia</option><option label="Lebanon" value="LB">Lebanon</option><option label="Lesotho" value="LS">Lesotho</option><option label="Liberia" value="LR">Liberia</option><option label="Libya" value="LY">Libya</option><option label="Liechtenstein" value="LI">Liechtenstein</option><option label="Lithuania" value="LT">Lithuania</option><option label="Luxembourg" value="LU">Luxembourg</option><option label="Macao" value="MO">Macao</option><option label="Madagascar" value="MG">Madagascar</option><option label="Malawi" value="MW">Malawi</option><option label="Malaysia" value="MY">Malaysia</option><option label="Maldives" value="MV">Maldives</option><option label="Mali" value="ML">Mali</option><option label="Malta" value="MT">Malta</option><option label="Marshall Islnds" value="MH">Marshall Islnds</option><option label="Martinique" value="MQ">Martinique</option><option label="Mauretania" value="MR">Mauretania</option><option label="Mauritius" value="MU">Mauritius</option><option label="Mayotte" value="YT">Mayotte</option><option label="Mexico" value="MX">Mexico</option><option label="Micronesia" value="FM">Micronesia</option><option label="Minor Outl.Isl." value="UM">Minor Outl.Isl.</option><option label="Moldova" value="MD">Moldova</option><option label="Monaco" value="MC">Monaco</option><option label="Mongolia" value="MN">Mongolia</option><option label="Montenegro" value="ME">Montenegro</option><option label="Montserrat" value="MS">Montserrat</option><option label="Morocco" value="MA">Morocco</option><option label="Mozambique" value="MZ">Mozambique</option><option label="Myanmar" value="MM">Myanmar</option><option label="N.Mariana Islnd" value="MP">N.Mariana Islnd</option><option label="Namibia" value="NA">Namibia</option><option label="Nauru" value="NR">Nauru</option><option label="Nepal" value="NP">Nepal</option><option label="Netherlands" value="NL">Netherlands</option><option label="New Caledonia" value="NC">New Caledonia</option><option label="New Zealand" value="NZ">New Zealand</option><option label="Nicaragua" value="NI">Nicaragua</option><option label="Niger" value="NE">Niger</option><option label="Nigeria" value="NG">Nigeria</option><option label="Niue" value="NU">Niue</option><option label="Norfolk Islands" value="NF">Norfolk Islands</option><option label="North Korea" value="KP">North Korea</option><option label="North Macedonia" value="MK">North Macedonia</option><option label="Norway" value="NO">Norway</option><option label="Oman" value="OM">Oman</option><option label="Pakistan" value="PK">Pakistan</option><option label="Palau" value="PW">Palau</option><option label="Palestine" value="PS">Palestine</option><option label="Panama" value="PA">Panama</option><option label="Pap. New Guinea" value="PG">Pap. New Guinea</option><option label="Paraguay" value="PY">Paraguay</option><option label="Peru" value="PE">Peru</option><option label="Philippines" value="PH">Philippines</option><option label="Pitcairn Islnds" value="PN">Pitcairn Islnds</option><option label="Poland" value="PL">Poland</option><option label="Portugal" value="PT">Portugal</option><option label="Puerto Rico" value="PR">Puerto Rico</option><option label="Qatar" value="QA">Qatar</option><option label="Rep.of Congo" value="CG">Rep.of Congo</option><option label="Reunion" value="RE">Reunion</option><option label="Romania" value="RO">Romania</option><option label="Russian Fed." value="RU">Russian Fed.</option><option label="Rwanda" value="RW">Rwanda</option><option label="S. Sandwich Ins" value="GS">S. Sandwich Ins</option><option label="S.Tome,Principe" value="ST">S.Tome,Principe</option><option label="Saint Helena" value="SH">Saint Helena</option><option label="Saint Martin" value="MF">Saint Martin</option><option label="Samoa" value="WS">Samoa</option><option label="Samoa, America" value="AS">Samoa, America</option><option label="San Marino" value="SM">San Marino</option><option label="Saudi Arabia" value="SA">Saudi Arabia</option><option label="Senegal" value="SN">Senegal</option><option label="Serbia" value="RS">Serbia</option><option label="Seychelles" value="SC">Seychelles</option><option label="Sierra Leone" value="SL">Sierra Leone</option><option label="Singapore" value="SG">Singapore</option><option label="Sint Maarten" value="SX">Sint Maarten</option><option label="Slovakia" value="SK">Slovakia</option><option label="Slovenia" value="SI">Slovenia</option><option label="Solomon Islands" value="SB">Solomon Islands</option><option label="Somalia" value="SO">Somalia</option><option label="South Africa" value="ZA">South Africa</option><option label="South Korea" value="KR">South Korea</option><option label="South Sudan" value="SS">South Sudan</option><option label="Spain" value="ES">Spain</option><option label="Sri Lanka" value="LK">Sri Lanka</option><option label="St Barthelemy" value="BL">St Barthelemy</option><option label="St Kitts&amp;Nevis" value="KN">St Kitts&amp;Nevis</option><option label="St. Lucia" value="LC">St. Lucia</option><option label="St. Vincent" value="VC">St. Vincent</option><option label="St.Pier,Miquel." value="PM">St.Pier,Miquel.</option><option label="Sudan" value="SD">Sudan</option><option label="Suriname" value="SR">Suriname</option><option label="Svalbard" value="SJ">Svalbard</option><option label="Sweden" value="SE">Sweden</option><option label="Switzerland" value="CH">Switzerland</option><option label="Syria" value="SY">Syria</option><option label="Taiwan" value="TW">Taiwan</option><option label="Tajikistan" value="TJ">Tajikistan</option><option label="Tanzania" value="TZ">Tanzania</option><option label="Thailand" value="TH">Thailand</option><option label="Timor-Leste" value="TL">Timor-Leste</option><option label="Togo" value="TG">Togo</option><option label="Tokelau Islands" value="TK">Tokelau Islands</option><option label="Tonga" value="TO">Tonga</option><option label="Trinidad,Tobago" value="TT">Trinidad,Tobago</option><option label="Tunisia" value="TN">Tunisia</option><option label="Türkiye" value="TR">Türkiye</option><option label="Turkmenistan" value="TM">Turkmenistan</option><option label="Turksh Caicosin" value="TC">Turksh Caicosin</option><option label="Tuvalu" value="TV">Tuvalu</option><option label="Uganda" value="UG">Uganda</option><option label="Ukraine" value="UA">Ukraine</option><option label="United Kingdom" value="GB">United Kingdom</option><option label="Uruguay" value="UY">Uruguay</option><option label="USA" value="US">USA</option><option label="Utd.Arab Emir." value="AE">Utd.Arab Emir.</option><option label="Uzbekistan" value="UZ">Uzbekistan</option><option label="Vanuatu" value="VU">Vanuatu</option><option label="Vatican City" value="VA">Vatican City</option><option label="Venezuela" value="VE">Venezuela</option><option label="Vietnam" value="VN">Vietnam</option><option label="Wallis,Futuna" value="WF">Wallis,Futuna</option><option label="West Sahara" value="EH">West Sahara</option><option label="Yemen" value="YE">Yemen</option><option label="Zambia" value="ZM">Zambia</option><option label="Zimbabwe" value="ZW">Zimbabwe</option></select></div><div class="sapCpWidgetFixContent sapCRLWidgetFixContent"></div></div><div id="application-MarketingContent-manage-component---ObjectView--DesignView--ContentPage-0L-7W" data-sap-cp-key="19343F6701C03BF8F55390AF42814526BE316900" class="sapCpWidget sapCRLWidget sapCpTextWidget" data-sap-cp-wprogres-enabled="false"><div class="sapCpWidgetContentNoIndent sapCRLWidgetContentNoIndent"><p><span style="text-decoration: underline"><a title="Privacy Policy" href="https://www.symrise.com/privacy-policy/#c29314" target="_blank" rel="noopener">Privacy Policy</a></span></p></div></div><div id="application-MarketingContent-manage-component---ObjectView--DesignView--ContentPage-0L-8W" data-sap-cp-key="AAEB10408012E89C080F18058A4A55C09857C970" class="sapCpWidget sapCRLWidget salpermission sapCpCheckBoxWidget sapCpCheckBoxElementWidget sapCpWidgetMandatory" data-sap-cp-wprogres-enabled="false"><div class="sapCpWidgetContent sapCpWidgetContentLeft sapCRLWidgetContent sapCRLWidgetContentLeft" style="width:20%"></div><div class="sapCpWidgetContent sapCpWidgetContentRight sapCRLWidgetContent sapCRLWidgetContentRight" style="padding-left:20%"><div id="__box6" class="sapCpCheckBox"><input type="checkbox" required="required"></div><label id="__label31" class="sapCpLabel sapCpLabelRequiredBefore sapCpLabelRequired">I have read the Privacy Policy and I am aware that I can revoke my given consent at any time.</label></div><div class="sapCpWidgetFixContent sapCRLWidgetFixContent"></div></div><div id="application-MarketingContent-manage-component---ObjectView--DesignView--ContentPage-0L-9W" data-sap-cp-key="51D0355EE1165E4E9FFC986BB6EA52BC645673E2" class="sapCpWidget sapCRLWidget sapCpCheckBoxWidget sapCpCheckBoxElementWidget sapCpWidgetMandatory" data-sap-cp-wprogres-enabled="false"><div class="sapCpWidgetContent sapCpWidgetContentLeft sapCRLWidgetContent sapCRLWidgetContentLeft" style="width:20%"></div><div class="sapCpWidgetContent sapCpWidgetContentRight sapCRLWidgetContent sapCRLWidgetContentRight" style="padding-left:20%"><div id="__box7" class="sapCpCheckBox"><input type="checkbox" required="required"></div><label id="__label32" class="sapCpLabel sapCpLabelRequiredBefore sapCpLabelRequired">I consent to subscribe to Symrise Food and Beverage communications for ongoing information on industry trends, product innovation, news and events.</label></div><div class="sapCpWidgetFixContent sapCRLWidgetFixContent"></div></div><div id="application-MarketingContent-manage-component---ObjectView--DesignView--ContentPage-0L-10W" data-sap-cp-key="A965AD63AC49C164252B9656F46256EB752BA3E4" class="sapCpWidget sapCRLWidget subbutton sapCpButtonWidget" data-sap-cp-follow-up-action="02" data-sap-cp-wprogres-enabled="false"><div class="sapCpWidgetContent sapCpWidgetContentLeft sapCRLWidgetContent sapCRLWidgetContentLeft" style="width:20%"></div><div class="sapCpWidgetContent sapCpWidgetContentRight sapCRLWidgetContent sapCRLWidgetContentRight" style="padding-left:20%"><button id="__button98" class="sapCpButton" type="button">SUBSCRIBE</button><span id="__text126" class="sapCpText sapCpButtonWidgetExtraText sapCpMissingMandatoryFieldText sapCpMissingMandatoryFieldLabel">Fill in all fields correctly.</span><span id="__text127" class="sapCpText sapCpButtonWidgetExtraText sapCpErrorMessageText">A technical error occurred.</span><span id="__text128" class="sapCpText sapCpButtonWidgetExtraText sapCpSuccessMessageText sapCpSuccessMessageLabel">Thank you for your submission.</span></div><div class="sapCpWidgetFixContent sapCRLWidgetFixContent"></div></div></div></form>
+
+</div>
+
+    <script type="text/plain" data-cookieconsent="required"> 
+        const formEl = document.getElementById('application-MarketingContent-manage-component---ObjectView--DesignView--ContentPage');
+        const loadingEl = formEl.querySelector('.loading');
+        const intro = document.getElementById('modalIntro');
+        const closeModal = document.getElementById('marketoModalClose');
+        const closeModalAfterAnswered = document.getElementById('answeredMarketoModalClose');
+        const thankUtext = document.querySelector('.thankUtxt');
+
+
+        const options = {
+  rootMargin: '0px',
+  threshold: 1.0
+};
+        
+const observer = new IntersectionObserver((entries, observer) => {
+  entries.forEach(entry => {
+    if(entry.intersectionRatio > 0) {
+        formSendSuccessfully();
+       } else {
+         console.log('invisible');
+       }
+  });
+}, options);
+const element = document.querySelector('#__text128');
+observer.observe(element);
+
+        function formSendSuccessfully(){
+          
+          //console.log('it is visible');
+            
+            //alert('SAP form in Modal submitted!');
+        
+            //set the cookie
+            let marketoAnsweredExpirationDate = new Date();
+            marketoAnsweredExpirationDate.setTime(marketoAnsweredExpirationDate.getTime() + 24 * 365 * 60 * 60 * 1000);
+            
+            $.cookie.raw = true;
+            //$.cookie('submittedMarketingSubscriptionForm_'+1040, false, {path: '/', expires: marketoAnsweredExpirationDate});
+            $.cookie('submittedMarketingSubscriptionForm', false, {path: '/', expires: marketoAnsweredExpirationDate});
+            $.cookie.raw = false;
+            
+            //display thank U
+            formEl.style.display = "none";
+            closeModal.style.display = "none";
+            intro.style.display = "none";
+            closeModalAfterAnswered.style.display = "block";
+            thankUtext.style.display = "block";
+        
+            closeModalAfterAnswered.onclick = function() {
+                marketoModal.style.display = "none";
+                document.body.style.overflow = "auto"; // main content SCROLL if modal is open
+                document.body.style.height = "auto"; // main content SCROLL if modal is open
+            }
+          
+        }
+    </script>
+    </div>
+</div>
+
+
+<!-- Matomo -->
+<script>
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://matomo.symrise.com/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '3']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
+</body>
+</html>

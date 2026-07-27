@@ -1,0 +1,15 @@
+# T3 10.4
+User-agent: *
+Disallow: /typo3/
+Disallow: /*?type=*
+Disallow: /*?*&type=*
+Disallow: */1500/*
+Disallow: /go-symrise-com-files/
+Disallow: /fileadmin/diana_food/SMC_downloads/
+Disallow: /fileadmin/diana_food/4_Brochures_Files/
+Disallow: /fileadmin/symrise/e-learning/
+Disallow: /fileadmin/symrise/hr/
+Disallow: /fileadmin/symrise/Corporate/core_values
+Disallow: /fileadmin/symrise/Corporate/Code_of_Conduct
+Disallow: /securedl
+

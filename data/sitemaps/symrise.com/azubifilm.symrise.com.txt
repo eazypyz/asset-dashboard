@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head> 
+  <meta charset="utf-8"> 
+  <title></title> 
+     
+
+  <base href="/"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+  <link rel="icon" type="image/x-icon" href="favicon.ico"> 
+  <link rel="stylesheet" href="css/styles.css">
+ 	
+</head>
+ <body>
+      
+  <app-shop></app-shop> 
+  <div id="oci-form-container"></div> 
+  <noscript> 
+   <div class="container"> 
+    <div class="row"> 
+     <div class="col-xs-12"> 
+      <div class="jumbotron"> 
+       <h1>Javascript is disabled.</h1> 
+       <p>Please activate Javascript to use view this shop.</p> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </noscript> 
+  <script type="text/javascript" src="js/config.js"></script> 
+  <script type="text/javascript" src="js/application.js?v=1"></script>   
+ </body>
+</html>

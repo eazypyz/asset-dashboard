@@ -1,0 +1,167 @@
+{
+  "domain": "diana-food.com",
+  "last_update": "2026-07-27T14:58:51.581Z",
+  "stats": {
+    "total": 9,
+    "dns_resolved": 8,
+    "alive": 4,
+    "has_robots": 3,
+    "has_security": 2,
+    "has_sitemap": 2
+  },
+  "subdomains": [
+    {
+      "host": "autodiscover.diana-food.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-27T14:58:51.579Z",
+      "last_seen": "2026-07-27T14:58:51.579Z"
+    },
+    {
+      "host": "dev.diana-food.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 401,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-27T14:58:51.579Z",
+      "last_seen": "2026-07-27T14:58:51.579Z"
+    },
+    {
+      "host": "diana-food.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "e713bade95abaebbc59d6ecf6932ec7ef64f2d8b56215a9123a391a46b269367",
+      "security_hash": "cb829c953bc901f735a147151871dc9fab9498923e33d15ab7db7ff3398d8e28",
+      "sitemap_hash": "40f0b7894d3757f445b34ac6cdd57b8ee1bd38f6c2584ace35432917b8d1aa31",
+      "first_seen": "2026-07-27T14:58:51.579Z",
+      "last_seen": "2026-07-27T14:58:51.579Z"
+    },
+    {
+      "host": "dianaconnect.diana-food.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-27T14:58:51.579Z",
+      "last_seen": "2026-07-27T14:58:51.579Z"
+    },
+    {
+      "host": "localhost.diana-food.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-27T14:58:51.579Z",
+      "last_seen": "2026-07-27T14:58:51.579Z"
+    },
+    {
+      "host": "ssl.diana-food.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-27T14:58:51.579Z",
+      "last_seen": "2026-07-27T14:58:51.579Z"
+    },
+    {
+      "host": "update.diana-food.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-27T14:58:51.579Z",
+      "last_seen": "2026-07-27T14:58:51.579Z"
+    },
+    {
+      "host": "webmecanik.diana-food.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "d7c5e08fd6dc489a8ea1f5f9d0fbeda7194db06ea808822456247ab5c39fb3f7",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-27T14:58:51.579Z",
+      "last_seen": "2026-07-27T14:58:51.579Z"
+    },
+    {
+      "host": "www.diana-food.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "e713bade95abaebbc59d6ecf6932ec7ef64f2d8b56215a9123a391a46b269367",
+      "security_hash": "cb829c953bc901f735a147151871dc9fab9498923e33d15ab7db7ff3398d8e28",
+      "sitemap_hash": "b2c781c537bc6225d6dcc30accfecc97efa71c0e15daf46790837feb1a5e666e",
+      "first_seen": "2026-07-27T14:58:51.579Z",
+      "last_seen": "2026-07-27T14:58:51.579Z"
+    }
+  ]
+}
