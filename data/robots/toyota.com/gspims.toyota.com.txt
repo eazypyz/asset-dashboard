@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <title>GSPIMS</title>
+    <base href="/">
+
+    <meta charset="utf-8">
+    <meta name="description" content="G-SPIMS built in Angular 7 and Angular Material">
+    <meta name="keywords" content="G-SPIMS, Toyota">
+    <meta name="author" content="gspims">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link href="assets/icons/meteocons/style.css" rel="stylesheet">
+    <!--<link href="assets/icons/material-icons/outline/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli:300,400,600,700" rel="stylesheet">-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900" rel="stylesheet">
+
+    <!-- GSPIMS Splash Screen CSS -->
+    <style type="text/css">
+        #gspims-splash-screen {
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: #fff;
+            z-index: 99999;
+            pointer-events: none;
+        }
+
+        #gspims-splash-screen .center {
+            display: block;
+            width: 100%;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        #gspims-splash-screen .logo {
+            width: 128px;
+            margin: 0 auto;
+        }
+
+        #gspims-splash-screen .logo img {
+            filter: drop-shadow(0px 10px 6px rgba(0, 0, 0, 0.2))
+        }
+
+        #gspims-splash-screen .spinner-wrapper {
+            display: block;
+            position: relative;
+            width: 100%;
+            min-height: 100px;
+            height: 100px;
+        }
+
+        #gspims-splash-screen .spinner-wrapper .spinner {
+            position: absolute;
+            overflow: hidden;
+            left: 50%;
+            margin-left: -50px;
+            animation: outer-rotate 2.91667s linear infinite;
+        }
+
+        #gspims-splash-screen .spinner-wrapper .spinner .inner {
+            width: 100px;
+            height: 100px;
+            position: relative;
+            animation: sporadic-rotate 5.25s cubic-bezier(0.35, 0, 0.25, 1) infinite;
+        }
+
+        #gspims-splash-screen .spinner-wrapper .spinner .inner .gap {
+            position: absolute;
+            left: 49px;
+            right: 49px;
+            top: 0;
+            bottom: 0;
+            border-top: 10px solid;
+            box-sizing: border-box;
+        }
+
+        #gspims-splash-screen .spinner-wrapper .spinner .inner .left,
+        #gspims-splash-screen .spinner-wrapper .spinner .inner .right {
+            position: absolute;
+            top: 0;
+            height: 100px;
+            width: 50px;
+            overflow: hidden;
+        }
+
+        #gspims-splash-screen .spinner-wrapper .spinner .inner .left .half-circle,
+        #gspims-splash-screen .spinner-wrapper .spinner .inner .right .half-circle {
+            position: absolute;
+            top: 0;
+            width: 100px;
+            height: 100px;
+            box-sizing: border-box;
+            border: 10px solid #4285F4;
+            border-bottom-color: transparent;
+            border-radius: 50%;
+        }
+
+        #gspims-splash-screen .spinner-wrapper .spinner .inner .left {
+            left: 0;
+        }
+
+        #gspims-splash-screen .spinner-wrapper .spinner .inner .left .half-circle {
+            left: 0;
+            border-right-color: transparent;
+            animation: left-wobble 1.3125s cubic-bezier(0.35, 0, 0.25, 1) infinite;
+            -webkit-animation: left-wobble 1.3125s cubic-bezier(0.35, 0, 0.25, 1) infinite;
+        }
+
+        #gspims-splash-screen .spinner-wrapper .spinner .inner .right {
+            right: 0;
+        }
+
+        #gspims-splash-screen .spinner-wrapper .spinner .inner .right .half-circle {
+            right: 0;
+            border-left-color: transparent;
+            animation: right-wobble 1.3125s cubic-bezier(0.35, 0, 0.25, 1) infinite;
+            -webkit-animation: right-wobble 1.3125s cubic-bezier(0.35, 0, 0.25, 1) infinite;
+        }
+
+        @keyframes outer-rotate {
+            0% {
+                transform: rotate(0deg) scale(0.5);
+            }
+
+            100% {
+                transform: rotate(360deg) scale(0.5);
+            }
+        }
+
+        @keyframes left-wobble {
+
+            0%,
+            100% {
+                transform: rotate(130deg);
+            }
+
+            50% {
+                transform: rotate(-5deg);
+            }
+        }
+
+        @keyframes right-wobble {
+
+            0%,
+            100% {
+                transform: rotate(-130deg);
+            }
+
+            50% {
+                transform: rotate(5deg);
+            }
+        }
+
+        @keyframes sporadic-rotate {
+            12.5% {
+                transform: rotate(135deg);
+            }
+
+            25% {
+                transform: rotate(270deg);
+            }
+
+            37.5% {
+                transform: rotate(405deg);
+            }
+
+            50% {
+                transform: rotate(540deg);
+            }
+
+            62.5% {
+                transform: rotate(675deg);
+            }
+
+            75% {
+                transform: rotate(810deg);
+            }
+
+            87.5% {
+                transform: rotate(945deg);
+            }
+
+            100% {
+                transform: rotate(1080deg);
+            }
+        }
+    </style>
+    <!-- / GSPIMS Splash Screen CSS -->
+<link rel="stylesheet" href="styles.e6c79d077c306140892e.css"></head>
+
+<body>
+
+    <!-- GSPIMS Splash Screen -->
+    <gspims-splash-screen id="gspims-splash-screen">
+
+        <div class="center">
+
+            <div class="logo">
+                <img width="128" src="assets/images/logos/toyota.svg">
+            </div>
+
+            <!-- Material Design Spinner -->
+            <div class="spinner-wrapper">
+                <div class="spinner">
+                    <div class="inner">
+                        <div class="gap"></div>
+                        <div class="left">
+                            <div class="half-circle"></div>
+                        </div>
+                        <div class="right">
+                            <div class="half-circle"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- / Material Design Spinner -->
+
+        </div>
+
+    </gspims-splash-screen>
+    <!-- / GSPIMS Splash Screen -->
+
+    <app-component></app-component>
+    <!-- <script src="assets/js/acctoolbar.js"></script> -->
+    <script>
+        /* window.onload = function () {
+            setTimeout(() => {
+                if (document.getElementById('gspims-init-access-tool')) {
+                    window.gspimsAccessTool = new GSPIMSAccessTool({
+                        link: '#',
+                        contact: 'mailto:mitch.moccia@toyota.com',
+                        buttonPosition: 'right',
+                        forceLang: 'en'
+                    });
+                }
+            }, 500);
+
+        } */
+
+        /* window.onload = function () {
+            window.gspimsAccessTool = new GSPIMSAccessTool({
+                link: '#',
+                contact: 'mailto:mitch.moccia@toyota.com',
+                buttonPosition: 'right',
+                forceLang: 'en'
+            });
+        } */
+    
+    </script>
+<script type="text/javascript" src="runtime.be560b98267c5dcc4612.js"></script><script type="text/javascript" src="polyfills.6e3b856d9b0a09b3e33f.js"></script><script type="text/javascript" src="main.ff3f6c628075be42785d.js"></script></body>
+
+</html>

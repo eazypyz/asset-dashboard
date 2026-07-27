@@ -1,0 +1,7 @@
+# Robots.txt for Astra
+User-agent: *
+Allow: /
+Disallow: /Drafts/
+Disallow: /Sandbox/
+
+Sitemap: https://astra.com/sitemap.xml

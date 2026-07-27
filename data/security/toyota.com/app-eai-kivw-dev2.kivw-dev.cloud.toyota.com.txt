@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en" translate="no">
+  <head>
+    <base href="/" />
+    <meta charset="utf-8" />
+    <link rel="icon" href="./favicon.ico" />
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="title" property="og:title" content="KURA AI Knowledge Vault" />
+    <meta name="author" content="Toyota" />
+    <meta name="description" property="og:description" content="Keeping Knowledge Alive, One Generation at a Time" />
+    <meta name="website:name" content="KURA AI Knowledge Vault" />
+    <meta name="website:description" content="Keeping Knowledge Alive, One Generation at a Time" />
+    <meta name="website:environment" content="prod" />
+    <meta name="project:base_domain_name" content="kivw-dev.cloud.toyota.com" />
+    <meta name="project:app_host_name" content="app-eai-kivw-dev2" />
+    <meta name="project:api_host_name" content="api-eai-kivw-dev2" />
+    <meta name="project:deploy_env_name" content="prod" />
+    <meta name="project:name" content="KURA AI Knowledge Vault" />
+    <meta name="project:slogan" content="Keeping Knowledge Alive, One Generation at a Time" />
+    <meta name="project:company" content="Toyota" />
+    <meta name="project:version" content="1.0.72-dev2-build" />
+    <meta name="project:app_id" content="kivw" />
+    <meta name="project:app_suite_id" content="eai" />
+    <meta name="project:azure_tenant_id" content="8c642d1d-d709-47b0-ab10-080af10798fb" />
+    <meta name="project:azure_app_id" content="addc00d8-4c60-4c02-8239-764506856dd9" />
+    <meta name="project:debug_enabled" content="no" />
+    <meta property="og:image" content="/assets/images/banner.jpg" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="1280" />
+    <meta property="og:image:height" content="720" />
+    <link rel="apple-touch-icon" href="./logo192.png" />
+    <link rel="manifest" href="./manifest.json" />
+    <link rel="stylesheet" href="./fonts/fonts.css" />
+    <title>KURA AI Knowledge Vault</title>
+    <style>
+      @keyframes spin {
+        from {
+          transform: translate(-50%, -50%) rotate(0deg);
+        }
+        to {
+          transform: translate(-50%, -50%) rotate(360deg);
+        }
+      }
+      #preloader {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        gap: 1em;
+        transform: translate(-50%, -50%);
+      }
+      #preloader_loader_img {
+        width: 6em;
+        animation: spin 6s linear infinite;
+      }
+      #preloader_logo_img {
+        width: 12em;
+      }
+      #preloader_text {
+        color: white;
+        align-self: center;
+      }
+      #root {
+        display: none;
+      }
+    </style>
+    <script type="module" crossorigin src="/assets/index-Bx_P996G.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-BboZrUG_.css">
+  </head>
+
+  <body style="background-color: #0f141a">
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+
+    <div id="preloader">
+      <div id="preloader_loader_img">
+        <img src="./images/loader.svg" alt="Loading..." />
+      </div>
+      <div id="preloader_logo_img">
+        <img src="./images/logo.svg" alt="Logo" />
+      </div>
+      <div id="preloader_text">
+        <p>Loading Application</p>
+      </div>
+    </div>
+
+    <div id="root"></div>
+
+    <script>
+      const global = globalThis;
+      window.addEventListener('load', () => {
+        document.getElementById('preloader').style.display = 'none';
+        document.getElementById('root').style.display = 'block';
+      });
+    </script>
+  </body>
+</html>

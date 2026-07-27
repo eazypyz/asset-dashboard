@@ -1,0 +1,25 @@
+<!doctype html />
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>BPAKS</title>
+        <base href="/">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+        <!-- <link rel="apple-touch-icon-precomposed" sizes="57x57" href="apple-icon-57x57-precomposed.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="apple-icon-72x72-precomposed.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="apple-icon-114x114-precomposed.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="apple-icon-144x144-precomposed.png" /> -->
+    <link rel="stylesheet" href="styles.6ea3a4ac8ffc062c.css"></head>
+    <body>
+        <app-root>
+            <div class="spinner">
+                <div class="bounce1"></div>
+                <div class="bounce2"></div>
+                <div class="bounce3"></div>
+            </div>
+        </app-root>
+        <app-redirect></app-redirect>
+    <script src="runtime.7d48574b0ad9c9f2.js" type="module"></script><script src="polyfills.145ea0cd7ddf9252.js" type="module"></script><script src="scripts.55d107963f1eb367.js" defer></script><script src="main.b09907364fa3b464.js" type="module"></script></body>
+</html>

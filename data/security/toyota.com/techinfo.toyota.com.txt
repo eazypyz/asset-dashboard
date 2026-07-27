@@ -1,0 +1,3498 @@
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!--DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"-->
+
+
+
+
+
+
+
+<html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<head>
+        
+        
+        
+        <title>TIS</title>
+        
+        
+
+
+
+<title>Techinfo prelogin desktop</title><link rel="stylesheet" type="text/css" href="/techInfoPortal/framework/skins/t3/css/all-t3.css"><link rel="stylesheet" type="text/css" href="/techInfoPortal/resources/css/non-portal-body.css"><script src="/techInfoPortal/framework/skins/t3/js/all-t3.js" type="text/javascript"></script><script src="/techInfoPortal/framework/skins/default/js/portal.js" type="text/javascript"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	</head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+#userAgreementPopupContent{
+position: absolute;
+float: right;
+background-color: #ffffff;
+left: 25%;
+top: 15%;
+border: 1px solid black;
+font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+float:left;
+width: 45%;
+height: 55%;
+overflow:hidden;
+z-index:1002;
+}
+#userAgreementPopupMask{
+display:none;
+position:fixed;
+top:0;
+left:0;
+width:100%;
+height:100%;
+z-index:1001;
+background:#999;
+opacity:0.70;
+filter:alpha(opacity=65);
+}
+</style>
+
+
+
+<input type="hidden" id="submitWarningLogoutUrl" value="/t3Portal/resources/jsp/tessSignoff.jsp?action=logout" />
+
+<input type="hidden" id="submitTermsOfuseServletUrl"
+	value="/t3Portal/termsOfUseServlet" />
+
+<input type="hidden" id="loginStatusValue"/>
+
+
+	
+
+	<body
+		
+		class="bea-portal-body"
+		
+        
+
+              onload="initSkin();"
+        
+
+        
+        
+         onhelp="return false;">
+		<script type="text/javascript">
+    
+var ewdver3Enabled = 'true';
+</script>
+		
+		
+		<script type="text/javascript"
+			src="/techInfoPortal/staticcontent/js/t3StaticContentCommon.js"></script>
+		<div id="managedserver" style="display: none">ms1</div>
+		
+		
+		
+		
+		<div class="bea-portal-body-content">
+			
+			<DIV ID="jstl_calendarDiv"
+				STYLE="position: absolute; visibility: hidden; background-color: white; layer-background-color: white;"></DIV>
+
+			
+			
+			<script type="text/javascript">
+
+
+        document.onkeydown = function ( evt )
+        {
+            if (evt == null) evt = event;
+            if(evt.keyCode == 112)
+            {
+                t3popup_help();
+                if (evt.preventDefault) evt.preventDefault();
+                return false;
+            }
+        }
+
+        function checkAgreementAcceptanceStatus()
+        {
+        	
+		
+        	
+        	var agreementAccepatanceStatus = 'null';
+        	
+        	var agreementLoginStatus = 'null';
+        	
+
+			var isTechinfoSite = 'true';
+			var isTisExternalSite = 'false';
+			var isNaTisSite = 'false';
+			var contextPathVal = '/techInfoPortal';
+	
+			if((('true' == isTechinfoSite  && '/techInfoPortal' == contextPathVal) || 'true' == isTisExternalSite  || 'true' == isNaTisSite )
+						&& null == agreementAccepatanceStatus || 'null' ==agreementAccepatanceStatus )
+			{
+				var termsOfuseServletURL = document.getElementById("submitTermsOfuseServletUrl").value;
+
+				new AJAXRequest("GET", termsOfuseServletURL , "bogusData", true, 'handleTermsOfUseResponse');  
+			}
+			else
+			{
+   		    	 loadTermsOfUse(agreementAccepatanceStatus,agreementLoginStatus);
+			}
+
+        }
+        
+        function handleTermsOfUseResponse(AJAX) {
+
+   		 if (AJAX.readyState == 4) {
+   			 
+   		     if (AJAX.status == 200) {
+   		    	
+   		    	 
+   		    	var respText =AJAX.responseText;
+   		    	
+   		    	if('true' == respText)
+   		    	{
+   	   		    	
+   	   		    	loadTermsOfUse(respText,'');
+   		    		
+   		    	}
+   		    	else
+   		    	{
+   	   		    	var agreementAccepatanceStatus = respText.split(",");
+   	   		    	
+   	   		    	loadTermsOfUse(agreementAccepatanceStatus[0],agreementAccepatanceStatus[1]);
+   		    	}
+	
+				}
+   		 	}
+        }
+
+		function loadTermsOfUse(agreementAccepatanceStatus,loginStatus)
+		{
+			
+			var isTechinfoSite = 'true';
+			var isTisExternalSite = 'false';
+			var isNaTisSite = 'false';
+			var contextPathVal = '/techInfoPortal';
+			
+			if((('true' == isTechinfoSite  && '/techInfoPortal' == contextPathVal)  || 'true' == isTisExternalSite  || 'true' == isNaTisSite )
+					&&  null != agreementAccepatanceStatus && '' != agreementAccepatanceStatus
+    				&& (false == agreementAccepatanceStatus || 'false' == agreementAccepatanceStatus))
+    			{
+
+    				showAgreementWarning(loginStatus);
+    			}
+    			else
+    			{
+    				showInboxWarning();
+    			}
+		}
+		
+        //R7.0.1 Enhancement:11980 - Start
+        function showInboxWarning()
+        {
+            try
+            {
+                showWarning();
+            }
+            catch (e)
+            {
+            }
+        }
+
+		function showAgreementWarning(loginStatus)
+            {
+    			var mask = document.getElementById('userAgreementPopupMask');
+    			mask.style.display = 'block';
+    			var content = document.getElementById('userAgreementPopupContent');
+    			content.style.display = 'block';
+    			
+	    		document.getElementById("loginStatusValue").value = loginStatus;
+    		}
+        
+    		function hideLegalTermsPopWin(){
+    			var mask = document.getElementById('userAgreementPopupMask');
+				mask.style.display = 'none';
+				var content = document.getElementById('userAgreementPopupContent');
+				content.style.display = 'none';
+    		}
+
+    </script>
+
+
+
+
+<script>
+
+</script>
+
+
+
+
+
+
+
+    
+    <div
+        
+        class="bea-portal-body-header"
+        
+    >
+
+
+<table border="0" cellpadding="0" cellspacing="0" style="width:100%; height:29px;" class="bea-portal-body-header-table">
+<tr>
+    <td style="width:10px; height:29px; background:url(/techInfoPortal/resources/images/globals/header/tis.headerbar.bg.jpg)"><img alt="" src="/techInfoPortal/resources/images/utils/clear.gif" style="width:10px; height:1px;"></td>
+    <td style="height:29px; background:url(/techInfoPortal/resources/images/globals/header/tis.headerbar.bg.jpg)"><img alt="" src="/techInfoPortal/resources/images/globals/header/tis.headerbar.left.jpg" style="height:29px;"></td>
+    <td style="width:100%; height:29px; background:url(/techInfoPortal/resources/images/globals/header/tis.headerbar.bg.jpg)" >&nbsp;</td>
+    <td style="height:29px; background:url(/techInfoPortal/resources/images/globals/header/tis.headerbar.bg.jpg)"><img alt="" src="/techInfoPortal/resources/images/globals/header/tis.headerbar.right.jpg" style="height:29px;"></td>
+</tr>
+</table>
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+
+
+<div class="bea-portal-theme-details">
+
+
+
+
+
+
+
+    
+    <div
+        
+        class="bea-portal-book-nonradiotab-page"
+        
+    >
+        
+        
+        <div
+            class="bea-portal-book-singlenostyle-primary-content"
+            
+        >
+
+
+
+
+<div class="bea-portal-theme-details">
+
+
+</div>
+
+
+
+
+
+
+
+    
+    <div
+        
+        class="bea-portal-book-primary-page"
+        
+    >
+
+
+
+
+
+
+
+
+    
+    <table
+        
+        class="bea-portal-layout-grid"
+        
+        cellspacing="0"
+
+    >
+    
+        <tr>
+    
+            
+            <td class="bea-portal-layout-placeholder-container" style="width:null;">
+                <!--render:writeAttribute name="width" value="null"/>-->
+                
+
+
+
+<div
+        
+        class="bea-portal-layout-placeholder"
+        
+>
+
+
+
+
+
+
+
+
+    
+    <table
+        
+        class="bea-portal-layout-flow"
+        style="width:'null;" cellspacing="0">
+        <tr>
+    
+            
+            <td class="bea-portal-layout-placeholder-container" style="width:100%;">
+                <!--render:writeAttribute name="width" value="100%"/-->
+            
+
+
+
+<div
+        
+        class="bea-portal-layout-placeholder"
+        
+>
+
+
+
+
+
+
+
+    
+    <div
+        
+        class="bea-portal-book-singlenostyle"
+        
+    >
+        
+        
+        <div
+            class="bea-portal-book-singlenostyle-content"
+            
+        >
+
+
+
+
+
+
+
+
+
+    
+    <div
+        
+        class="bea-portal-book-page"
+        
+    >
+
+
+
+
+
+
+
+
+    
+    <table
+        
+        class="bea-portal-layout-grid"
+        
+        cellspacing="0"
+
+    >
+    
+        <tr>
+    
+            
+            <td class="bea-portal-layout-placeholder-container" style="width:null;">
+                <!--render:writeAttribute name="width" value="null"/>-->
+                
+
+
+
+<div
+        
+        class="bea-portal-layout-placeholder"
+        
+>
+
+
+
+
+
+
+
+
+    
+    <table
+        
+        class="bea-portal-layout-flow"
+        style="width:'null;" cellspacing="0">
+        <tr>
+    
+            
+            <td class="bea-portal-layout-placeholder-container" style="width:100%;">
+                <!--render:writeAttribute name="width" value="100%"/-->
+            
+
+
+
+<div
+        
+        class="bea-portal-layout-placeholder"
+        
+>
+
+
+
+
+
+
+
+    
+    <div
+        
+        class="bea-portal-book-techinfo-login"
+        
+    >
+        
+        
+        <div
+            class="bea-portal-book-techinfo-login-content"
+            
+        >
+
+
+
+
+<div class="bea-portal-theme-blank">
+
+
+
+
+
+
+
+    
+    <div
+        
+        class="bea-portal-book-page"
+        
+    >
+
+
+
+
+
+
+
+
+    
+    <table
+        
+        class="bea-portal-layout-grid"
+        
+        cellspacing="0"
+
+    >
+    
+        <tr>
+    
+            
+            <td class="bea-portal-layout-placeholder-container" style="width:30%;">
+                <!--render:writeAttribute name="width" value="30%"/>-->
+                
+
+
+
+<div
+        
+        class="bea-portal-layout-placeholder"
+        
+>
+
+
+
+
+
+
+
+
+    
+    <table
+        
+        class="bea-portal-layout-flow"
+        style="width:'null;" cellspacing="0">
+        <tr>
+    
+            
+            <td class="bea-portal-layout-placeholder-container" style="width:100%;">
+                <!--render:writeAttribute name="width" value="100%"/-->
+            
+
+
+
+<div
+        
+        class="bea-portal-layout-placeholder"
+        
+>
+
+
+
+
+
+
+    
+    <div
+        
+        class="bea-portal-blank-window"
+        
+        width="100%"
+    >
+        
+        
+        <div class="bea-portal-blank-window-content">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html>
+<head>
+<title>Login</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <meta http-equiv="Expires" content="-1">
+    <meta http-equiv="Cache-control" content="no-cache">
+    <meta http-equiv="Pragma" content="no-cache">
+    <script type="text/javascript" src="/techInfoPortal/framework/skins/t3/js/all-t3.js"></script>
+	<script type="text/javascript">
+	var passwordExpired = "";
+    var currentTime = new Date();
+    function cookiesClearAjax() {
+        var xmlhttp;
+		var responseText = "";
+        //alert('start -- ');
+        var url="/techInfoPortal/login/techinfoCookiesClear.jsp?"+ "ran="+"0.03657866579221347";
+        var http_request = new XMLHttpRequest();
+		try {
+			// Opera 8.0+, Firefox, Chrome, Safari
+			http_request = new XMLHttpRequest();
+		} catch (e) {
+			// Internet Explorer Browsers
+			try {
+				http_request = new ActiveXObject("Msxml2.XMLHTTP");
+			} catch (e) {
+				try {
+					http_request = new ActiveXObject("Microsoft.XMLHTTP");
+				} catch (e) {
+					// Something went wrong
+					alert("Your browser broke!");
+					return false;
+				}
+			}
+		}
+        http_request.open("GET", url, false);
+		http_request.send(null);
+		if (http_request.readyState == 4) {
+    			if (http_request.status == 200) {
+					responseText = http_request.responseText;					
+				}
+
+    	}    
+    }
+
+     
+    
+	
+    function createCookie(name,value,days)
+    {
+        if (days) {
+            var date = new Date();
+            date.setTime(date.getTime()+(days*24*60*60*1000));
+            var expires = "; expires="+date.toGMTString();
+        } else {
+            var expires = "";
+        }
+        var ck = name+"="+value+expires+"; path=/";
+        document.cookie = ck;
+    }
+
+    function eraseCookie(name)
+    {
+        createCookie(name,"",-1);
+    }
+
+
+    function submitForm(form) {
+        updateUsernameCookie();
+        submitExternalLoginForm(form);
+    }
+
+
+    function checkReturn(evt, form) {
+		var keyPressed = evt.keyCode;
+		if (keyPressed == null)
+			keyPressed = evt.which;
+        if (keyPressed == 13) {
+            document.getElementById('externalloginsubmit').focus();
+            updateUsernameCookie();
+            submitExternalLoginForm(form);
+        }
+    }
+
+    function submitExternalLoginForm(form)
+    {
+    	// Cookie detection
+       
+        document.cookie = "COOKIECHECK=cookies_enabled; path=/";
+        if(document.cookie.indexOf("COOKIECHECK=cookies_enabled") < 0)
+        {
+                    alert("Cookies disabled. The site requires Cookies to be enabled.");
+                    return false;
+        }
+      
+    	    	
+        var validateErrorReason = '';
+        document.cookie='TECHINFOLOGINFORMRESET=NO';
+        // Validate USERID
+        validationObject = new Object();
+        validationObject.required = true;
+        validationObject.label = 'externalLoginForm.label.userid';
+        validationObject.value = document.externalLoginForm.username.value;
+        if(!validateWithHighlight(validationObject))
+        validateErrorReason += 'External User Name';
+
+        // Validate PASSWORD
+        validationObject = new Object();
+        validationObject.required = true;
+        validationObject.label = 'externalLoginForm.label.password';
+        validationObject.value = document.externalLoginForm.password.value;
+        if(!validateWithHighlight(validationObject))
+        validateErrorReason += 'External Password';
+
+        var errorData = document.getElementById('externalLoginForm.errorData');
+        //NTS-611 Implementing login changes in TIS
+        var url = "https://ep.fram.idm.toyota.com/openam/json/realms/root/realms/dealerdaily/authenticate?authIndexType=service";
+        var userName = document.getElementById("username").value;
+		var password = document.getElementById("password").value;
+		var applicationUri =  "/t3Portal";
+		var authIndexValue = "Techinfo";
+        if(!(validateErrorReason == ''))
+        {
+            errorData.innerHTML = "Email ID and/or Password field(s) can not be blank. Please correct the highlighted error(s) before proceeding.";
+            document.getElementById('externalLoginForm.cookieErrorData').style.display = 'none';
+        } else {
+        	errorData.innerHTML = '';
+        	getTechinfoUserStatus(url,authIndexValue,userName,password,applicationUri,authIndexValue);
+           /*  var actionJsp = "/techInfoPortal/ajax/getPasswordExpiryDate.jsp?userName="+document.externalLoginForm.username.value+"&"+"ran="+"0.6658920159562891";
+    		var http_request = new XMLHttpRequest();
+    		try {
+    			// Opera 8.0+, Firefox, Chrome, Safari
+    			http_request = new XMLHttpRequest();
+    		} catch (e) {
+    			// Internet Explorer Browsers
+    			try {
+    				http_request = new ActiveXObject("Msxml2.XMLHTTP");
+    			} catch (e) {
+    				try {
+    					http_request = new ActiveXObject("Microsoft.XMLHTTP");
+    				} catch (e) {
+    					// Something went wrong
+    					alert("Your browser broke!");
+    					return false;
+    				}
+    			}
+    		}
+    		http_request.open("GET", actionJsp, false);
+    		http_request.send('');
+    		if (http_request.readyState == 4) {
+    			if (http_request.status == 200) {
+    				passwordExpired = http_request.responseText;
+    				if(passwordExpired!=null && (passwordExpired.indexOf("true")>=0)){
+    	            	window.location = "https://techinfobeta.snapon.com/TIS/Login.aspx?update_type=password_expired";
+    	            	return false;
+    	            }
+    	            else{
+    		            //form.externalloginsubmit.disabled = true;
+    		            loginStatus = 'true';
+    		            ajaxCallAuthentication();
+    	            }
+    			}
+    		}
+     */    }
+    }
+	
+    function readCookie(name) {
+            var nameEQ = name + "=";
+            var ca = document.cookie.split(';');
+            for(var i=0;i < ca.length;i++) {
+                var c = ca[i];
+                while (c.charAt(0)==' ') c = c.substring(1,c.length);
+                if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+            }
+            return null;
+        }
+    function updateUsernameCookie()
+    {
+        var rem = document.getElementById('rememberMe');
+        var usr = document.externalLoginForm.username.value;
+
+        if(rem.checked==true){
+            createCookie('TIUSERNAME',usr,'15');
+        }else{
+            eraseCookie('TIUSERNAME');
+        }
+    }
+    function populateFromCookie()
+    {
+        var usr = readCookie('TIUSERNAME');
+        if(usr!=null && usr!="")
+        {
+            document.getElementById('rememberMe').checked=true;
+            document.externalLoginForm.username.value=usr;
+        }
+    }
+
+	function checkSubmit(e) {
+		if (e && e.keyCode == 13) {
+			document.getElementById('externalloginsubmit').focus();
+			//submitForm(document.forms["externalLoginForm"]);
+			//document.forms["externalLoginForm"].submit();
+			return false;
+		}
+	}
+	</script>
+</head>
+<body>
+	<form onKeyPress="return checkSubmit(event)" NAME="externalLoginForm" action="https://ep.fram.idm.toyota.com/openam/json/realms/root/realms/dealerdaily/authenticate?authIndexType=service" METHOD="post" id="externalLoginForm">
+	<table cellspacing="0" cellpadding="0" border="0">
+		<tr>
+            <td colspan="2"/>
+			<td class="center-align"><span class="boldfont">Subscriber Login</span></td>
+            <td/>
+        </tr>
+        <tr><td>&nbsp;</td></tr>
+        <tr>
+            <td colspan="4" id="externalLoginForm.errorData" class="portlet-msg-error"></td>
+        </tr>
+        <tr>
+            <td colspan="4">
+            <div id="externalLoginForm.cookieErrorData" >
+            <table>
+
+            </table>
+            </div>
+            </td>
+        </tr>
+		<tr><!-- USER NAME-->
+			<td>&nbsp;</td>
+			<td id="externalLoginForm.label.userid" class="right-align" style="white-space:nowrap;">Email ID:</td>
+			<td><input type="text" tabindex="1" name="username" id="username" onkeypress="return checkReturn(event, this.form);"></td>
+			<td style="white-space:nowrap; width:100%;" class="left-align">
+                <input type="checkbox" tabindex="3" name="rem" id="rememberMe" onkeypress="return checkReturn(event, this.form);">
+                <!-- PST-1021 changes -->
+                <a HREF="#" onClick="staticContentPopupNewWin('/techInfoPortal/staticcontent/en/techinfo/html/prelogin/prelogin.rememberme.html','Remember Me','width=430,height=240,scrollbars=yes,resizable=yes,left=100,top=100');"> 
+                    Remember Me
+                </a>
+            </td>
+		</tr>
+		<tr><!-- PASSWORD-->
+			<td >&nbsp;</td>
+			<td id="externalLoginForm.label.password" class="right-align">Password:</td>
+			<td ><input type="password" tabindex="2" name="password" id="password" onkeypress="return checkReturn(event, this.form);"></td>
+			<td ></td>
+		</tr>
+		<tr><!-- CLEAR and SUBMIT-->
+			<td colspan="2"><br>&nbsp;</td>
+			<td class="right-align" style="white-space:nowrap;">
+            
+            <input type="image" id="externalloginclear" tabindex="4" src="/techInfoPortal/resources/images/clear_button_arial_sub.gif" onclick="this.form.reset();document.getElementById('externalLoginForm.errorData').innerHTML='';document.getElementById('externalLoginForm.cookieErrorData').innerHTML=''; document.cookie='TECHINFOLOGINFORMRESET=YES';return false;"/>
+            
+            <input type="image" id="externalloginsubmit" tabindex="5" src="/techInfoPortal/resources/images/login_button_arial_sub.gif" onclick="submitForm(this.form);return false;"/>
+            </td>
+			<td>
+                <!-- PST-1021 changes -->                
+                <a HREF="#" onClick="staticContentPopupNewWin('/techInfoPortal/staticcontent/en/techinfo/html/prelogin/prelogin.ssllock.html','Secure Login','width=430,height=240,scrollbars=yes,resizable=yes,left=100,top=100');">
+                    <img alt="" src="/techInfoPortal/resources/images/lock.gif" style="vertical-align:bottom; border:0;" hspace="2">
+                </a>
+            </td>
+		</tr>
+        <tr><td style="height:10px;"><input name="request_id" type="hidden" value="null"></td></tr>
+        <tr>
+        <td colspan="4" class="center-align">          
+            Forgot <a href="/techInfoPortal/ManageAccounts?urlKey=ForgetPassword">Password</a>?
+        </td>
+        </tr>
+	</table>
+    </form>
+    <script type="text/javascript">
+
+        var targetValue = 'null';
+        var tiAuthenticateCookieVal = 'null';
+        var resetCookie;
+        if (tiAuthenticateCookieVal != null &&
+                (tiAuthenticateCookieVal == 'ATTEMPT' ||
+                tiAuthenticateCookieVal == 'REJECT'))
+            resetCookie = false;
+        else
+            resetCookie = true;
+
+        if (resetCookie)
+        {
+            if (targetValue != null) {
+                if (document.cookie.indexOf('TITARGET') > -1) {
+                    eraseCookie('TITARGET');
+                }
+                createCookie('TITARGET',targetValue,10);
+            }
+        }
+        populateFromCookie();
+        eraseCookie('TIAUTHENTICATION');
+    </script>
+	<!-- TESS Migration - RD2 - end -->
+	<script type="text/javascript">
+		/* NTS-652 Adding Error Message when user Login Failed in Techinfo - Starts */
+	    function displayTechinfoErrorMsg(failureMsg){
+	    	var errorData = document.getElementById('externalLoginForm.errorData');
+	    	if(!failureMsg.includes('PASSWORD EXPIRES') && !failureMsg.includes('User subscription is expired') && !failureMsg.includes('User does not exist') && !failureMsg.includes("Authentication Failed: Username/Password is incorrect")){
+	    	    getUserStatus();
+	    	}
+	    	if(errorData.innerHTML === "") {
+		    	if(failureMsg === "Authorization Failed: You are not authorized"){
+		 			errorData.innerHTML = 'You are not authorized to view this page';	
+				}
+		 		else if(failureMsg === "Authentication Failed: Username/Password is incorrect"){
+		 			errorData.innerHTML = 'You have entered an Invalid Email ID/Password. Please check the data you have entered and try again.';
+		 			//activeUser();
+		 		}
+		 		else if(failureMsg === "Authentication Failed: Too many login failure attempts, User account has been locked"){
+		 			errorData.innerHTML = 'Your account has now been locked. Please use the "forgot password" link under the Subscriber login to reset your password and unlock your account.';	
+		 		}
+		 		else if(failureMsg === "User password expired"){
+		 			window.location = "https://techinfobeta.snapon.com/TIS/Login.aspx?update_type=password_expired";	
+		 		} else {
+		 			errorData.innerHTML = failureMsg;
+		 		}
+	    	}
+	    	
+	    }
+	    /* NTS-652 Adding Error Message when user Login Failed in Techinfo - Ends */
+
+	    function getTechinfoUserStatus(url,authIndexValue,userName,password,applicationUri,authIndexValue){
+         			var actionJsp = "/techInfoPortal/ajax/getTechinfoUserStatus.jsp";
+         			var userCN = document.getElementById("username").value;
+         			 var xmlRequest = false;
+         			if (window.XMLHttpRequest) {
+         				xmlRequest = new XMLHttpRequest();
+         				if (xmlRequest.overrideMimeType) {
+         					xmlRequest.overrideMimeType('text/xml');
+         				}
+         			} else if (window.ActiveXObject) {
+         				xmlRequest = new ActiveXObject("Microsoft.XMLHTTP");
+         			}
+         			xmlRequest.open("POST", actionJsp, false);
+         			xmlRequest.setRequestHeader("username", userCN);
+         			xmlRequest.send('');
+            		if (xmlRequest.readyState == 4) {
+            			if (xmlRequest.status == 200) {
+            			 	var responseData = eval("(" + xmlRequest.responseText + ")");
+                            var status = responseData.status;
+            				if (status === "Y") {
+                                ajaxCallAuthentication(url,authIndexValue,userName,password,applicationUri,authIndexValue); //NTS-652 Added Ajax call to perform the authentication
+                            }else if(status === "N"){
+                                displayTechinfoErrorMsg("User subscription is expired or inactive. Existing users click 'My Account' to upgrade/extend/renew subscription. New users click activation link sent via email.");
+                            }else{
+                                displayTechinfoErrorMsg("User does not exist. Please click 'Subscribe' to purchase a subscription and login.");
+                            }
+            			}
+            		}
+         		}
+ 		
+ 		/*   NTS-675-start*/
+ 		function getUserStatus(){
+ 			var errorData = document.getElementById('externalLoginForm.errorData'); 
+ 			var actionJsp = "/techInfoPortal/ajax/getUserStatus.jsp";
+ 			var userCN = document.getElementById("username").value;
+ 			 var xmlRequest = false;
+ 			if (window.XMLHttpRequest) {
+ 				xmlRequest = new XMLHttpRequest();
+
+ 				if (xmlRequest.overrideMimeType) {
+ 					xmlRequest.overrideMimeType('text/xml');
+ 				}
+ 			} else if (window.ActiveXObject) {
+ 				xmlRequest = new ActiveXObject("Microsoft.XMLHTTP");
+ 			}
+ 			xmlRequest.open("POST", actionJsp, false);
+ 			xmlRequest.setRequestHeader("username", userCN);
+ 			xmlRequest.send('');
+    		if (xmlRequest.readyState == 4) {
+    			if (xmlRequest.status == 200) {
+    			 	var responseData = eval("(" + xmlRequest.responseText + ")");
+                    var status = responseData.status;	
+    				if(status === "PENDING_ACTIVATION"){
+		 				errorData.innerHTML = "Please check all steps are performed in your end to access application";	
+					}
+			 		else if(status === "Disabled"){
+			 			errorData.innerHTML = "Please verify your end the entered user is having valid subscription";
+			 		}
+			 		else if(status === "EXCEPTION"){
+			 			errorData.innerHTML = "Failed to process the authentication request, Please raise an incident to resolve your issue";	
+			 		} else {
+			 			errorData.innerHTML = "";
+			 		}
+    			}
+    		} 
+ 		}
+ 		
+ 		/*   NTS-675-end*/
+ 	
+ 		//cookiesClearAjax();
+ 		
+ 		/*Check for cookies --Start */  
+ 		window.onload = function() {
+ 			enableOrDisableSubmit();
+ 			document.cookie = "COOKIECHECK=cookies_enabled; path=/";
+ 			if (document.cookie.indexOf("COOKIECHECK=cookies_enabled") < 0) {
+ 				alert("This site requires cookies to be enabled");
+ 			}
+ 		}
+ 		/*Check for cookies --End */
+ 	</script>
+ 	
+ 	
+ 	<!-- TESS Migration - RD2 - end -->   
+</body>
+</html>
+
+
+
+
+
+
+        </div>
+        
+    </div>
+
+    
+
+
+
+
+
+</div>
+</td>
+            
+    
+        </tr>
+    </table>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</td>
+            
+    
+            
+            <td class="bea-portal-layout-placeholder-container" style="width:70%;">
+                <!--render:writeAttribute name="width" value="70%"/>-->
+                
+
+
+
+<div
+        
+        class="bea-portal-layout-placeholder"
+        
+>
+
+
+
+
+
+
+
+
+    
+    <table
+        
+        class="bea-portal-layout-flow"
+        style="width:'null;" cellspacing="0">
+        <tr>
+    
+            
+            <td class="bea-portal-layout-placeholder-container" style="width:100%;">
+                <!--render:writeAttribute name="width" value="100%"/-->
+            
+
+
+
+<div
+        
+        class="bea-portal-layout-placeholder"
+        
+>
+
+
+
+
+
+
+    
+    <div
+        
+        class="bea-portal-blank-window"
+        
+        width="100%"
+    >
+        
+        
+        <div class="bea-portal-blank-window-content">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+//Links to Document view Servlet
+function t3link(pageLabel, anchor) {
+    var uri = "https://techinfo.toyota.com:443/techInfoPortal/appmanager/t3/ti;TISESSIONID=Lr9lqm2CwDtbLPkjG1b1QcwDSS5cpp0lpGbGm5XhR8dg99QVt2jn!-1785687963?_pageLabel=_LABEL_&_nfpb=true";
+    uri = uri.replace("_LABEL_",pageLabel);
+    if (anchor != null) uri += "#" + anchor;
+    document.location = uri;
+}
+
+//Links to Software download Servlet
+function t3linkSoftware(uri, name, version, date) {
+    var url = "https://techinfo.toyota.com/techInfoPortal/software_URI_?softwareName=_NAME_&softwareVersion=_VERSION_&softwareReleaseDate=_DATE_";
+
+    url = url.replace("_URI_",uri);
+
+    if(version != null) {
+        url = url.replace("_VERSION_",version);
+    } else {
+        url = url.replace("_VERSION_","");
+    }
+    if(name != null) {
+        url = url.replace("_NAME_",name);
+    } else {
+        url = url.replace("_NAME_","");
+    }
+    if(date != null) {
+        url = url.replace("_DATE_",date);
+    } else {
+        url = url.replace("_DATE_","");
+    }
+
+    //Need to work around IE "feature" that mangles file names ending with .exe or .dll
+    //(See article KB221805 on Microsoft support site)
+    if (uri.substring(uri.length-4) == '.exe') {
+        url += '&ext=.exe';
+    }
+    if (uri.substring(uri.length-4) == '.dll') {
+        url += '&ext=.dll';
+    }
+
+    document.location = url;
+}
+
+  /* Release 17.04 -T300020307 Defect Fixes Starts */
+function tcilinkSoftware(uri, name, version, date) {
+    var url = "https://techinfo.toyota.com/techInfoPortal/software_URI_?softwareName=_NAME_&softwareVersion=_VERSION_&softwareReleaseDate=_DATE_";
+
+    url = url.replace("_URI_",uri);
+
+    if(version != null) {
+        url = url.replace("_VERSION_",version);
+    } else {
+        url = url.replace("_VERSION_","");
+    }
+    if(name != null) {
+        url = url.replace("_NAME_",name);
+    } else {
+        url = url.replace("_NAME_","");
+    }
+    if(date != null) {
+        url = url.replace("_DATE_",date);
+    } else {
+        url = url.replace("_DATE_","");
+    }
+
+    //Need to work around IE "feature" that mangles file names ending with .exe or .dll
+    //(See article KB221805 on Microsoft support site)
+    if (uri.substring(uri.length-4) == '.exe') {
+        url += '&ext=.exe';
+    }
+    if (uri.substring(uri.length-4) == '.dll') {
+        url += '&ext=.dll';
+    }
+    
+    if(url!=null)
+    	{
+    	url+= '&tciContent=tciContent';
+    	}
+
+    document.location = url;
+}
+/* Release 17.04 -T300020307 Defect Fixes Ends */
+
+//Links to Document view Servlet
+function t3popup_staticcontent(contentURI, title, isDivisionSpecific, target, features, windowTitle) {
+    var uri = "https://techinfo.toyota.com:443/techInfoPortal/portlets/content/generic/StaticContent/StaticContent.portlet;TISESSIONID=Lr9lqm2CwDtbLPkjG1b1QcwDSS5cpp0lpGbGm5XhR8dg99QVt2jn!-1785687963?_pageLabel=ti_home_login_page";
+    var t3Index = uri.indexOf(";T3SESSIONID=");
+    if(t3Index>0)
+        uri = uri.substring(0, t3Index);
+   
+    //ForgeRock Changes Adding logic to avoid two question mark in uri :: NTS - 681 : Starts
+    if(uri.indexOf("?") > -1) {
+		uri += "&_portlet.skeleton=details";
+	} else {
+		uri += "?_portlet.skeleton=details";
+	}
+	
+	//ForgeRock Changes Adding logic to avoid two question mark in uri :: NTS - 681 : Ends
+    uri += "&_portlet.skeletonPath=/framework/skeletons/t3";
+    uri += "&_portlet.skin=details";
+    uri += "&_portlet.skinPath=/framework/skins/t3";
+
+    uri += "&ContentURI=" + contentURI;
+    uri += "&title=" + title;
+    if (isDivisionSpecific != null && isDivisionSpecific != '') uri += "&isDivisionSpecific=" + isDivisionSpecific;
+    if (windowTitle != null && windowTitle != '') uri += "&WindowTitle=" + windowTitle;
+    if (target == null) target = '';
+    if (features == null) features = "width=640,height=480,scrollbars=yes,menubar=no,resizable=yes";
+    window.open(uri,target,features);
+}
+
+
+function t3popup_prelogin_staticcontent(contentURI, title, isDivisionSpecific, target, features, windowTitle) {
+    var uri = "/techInfoPortal"+"/appmanager/t3/staticcontent?_nfpb=true&_pageLabel=techinfoPreLogin_staticcontent";
+    var t3Index = uri.indexOf(";T3SESSIONID=");
+    if(t3Index>0)
+        uri = uri.substring(0, t3Index);
+
+    //uri += "?_portlet.skeleton=details";
+  //  uri += "&_portlet.skeletonPath=/framework/skeletons/t3";
+    //uri += "&_portlet.skin=details";
+   // uri += "&_portlet.skinPath=/framework/skins/t3";
+
+    //uri + = "https://techinfo.qa2ddc.toyota.com/techInfoPortal/appmanager/t3/staticcontent?";
+
+    uri += "&ContentURI=" + contentURI;
+    uri += "&title=" + title;
+    if (isDivisionSpecific != null && isDivisionSpecific != '') uri += "&isDivisionSpecific=" + isDivisionSpecific;
+    if (windowTitle != null && windowTitle != '') uri += "&WindowTitle=" + windowTitle;
+    if (target == null) target = '';
+    if (features == null) features = "width=640,height=480,scrollbars=yes,menubar=no,resizable=yes";
+    window.open(uri,target,features);
+}
+
+//Links to dynamic portlet in a popup
+function t3popup_dynamic(portletTitle, features) {
+    var uri = '';
+    if(portletTitle == 'Software Feedback')
+    {
+        uri = "https://techinfo.toyota.com:443/techInfoPortal/portlets/tis/feedback/software/SoftwareFeedbackController.portlet;TISESSIONID=Lr9lqm2CwDtbLPkjG1b1QcwDSS5cpp0lpGbGm5XhR8dg99QVt2jn!-1785687963?_portlet.title=Software+%2F+Diagnostic+Feedback&_portlet.skeleton=details&_portlet.skeletonPath=%2Fframework%2Fskeletons%2Ft3&_portlet.skin=details&_portlet.skinPath=%2Fframework%2Fskins%2Ft3&_pageLabel=ti_home_login_page";
+    }
+    else if(portletTitle == 'Additional Technical Training Resources')
+    {
+
+    	 uri = "https://techinfo.toyota.com:443/techInfoPortal/portlets/tis/document/searchUplift/form/searchForm/addedFeaturedContent/AddedFeaturedContent.portlet;TISESSIONID=Lr9lqm2CwDtbLPkjG1b1QcwDSS5cpp0lpGbGm5XhR8dg99QVt2jn!-1785687963?_portlet.title=Additional+Technical+Training+Resources&_portlet.skeleton=details&_portlet.skeletonPath=%2Fframework%2Fskeletons%2Ft3&_portlet.skin=details&_portlet.skinPath=%2Fframework%2Fskins%2Ft3&_pageLabel=ti_home_login_page";
+    }
+    if (features == null) features = "width=640,height=480,scrollbars=yes,menubar=no,resizable=yes";
+    window.open(uri,'',features);
+}
+
+//Close popup window and redirect user to
+//a page in portal by clicking
+//a link in the popup window
+function t3popup_redirect(pageLabel)
+{
+    var uri = "/techInfoPortal"+"/appmanager/t3/ti"+"?_nfpb=true&_pageLabel="+pageLabel;
+    if (window.opener == null) {
+        window.location.href = uri;
+    } else {
+        window.opener.location.href = uri;
+        window.close();
+    }
+}
+
+//Links to static content in Document view
+function t3link_staticcontent(contentURI, title, isDivisionSpecific) {
+    var uri = "https://techinfo.toyota.com:443/techInfoPortal/portlets/content/generic/StaticContent/StaticContent.portlet?_pageLabel=ti_home_login_page";
+	//ForgeRock Changes Adding logic to avoid two question mark in uri :: NTS - 681 : Starts
+	if(uri.indexOf("?") > -1) {
+		uri += "&_portlet.skeleton=details";
+	} else {
+		uri += "?_portlet.skeleton=details";
+	}
+    //ForgeRock Changes Adding logic to avoid two question mark in uri :: NTS - 681 : Ends
+    uri += "&_portlet.skeletonPath=/framework/skeletons/t3";
+    uri += "&_portlet.skin=details";
+    uri += "&_portlet.skinPath=/framework/skins/t3";
+
+    uri += "&ContentURI=" + contentURI;
+    uri += "&title=" + title;
+    if (isDivisionSpecific != null && isDivisionSpecific != '') uri += "&isDivisionSpecific=" + isDivisionSpecific;
+    document.location = uri;
+}
+
+//Links to SnapOn page
+function t3linkSnapOn(pageLabel, srcUrl) {
+    var uri = "https://techinfo.toyota.com:443/techInfoPortal/appmanager/t3/ti;TISESSIONID=Lr9lqm2CwDtbLPkjG1b1QcwDSS5cpp0lpGbGm5XhR8dg99QVt2jn!-1785687963?_pageLabel=_LABEL_&_nfpb=true";
+    uri = uri.replace("_LABEL_",pageLabel);
+    uri += "&SourceUrl=" + srcUrl;
+    document.location = uri;
+}
+
+function t3_rssfeedReaders_popup() {
+	//alert('t3_rssfeedReaders_popup');
+    var uri = '';
+        uri = "https://techinfo.toyota.com:443/techInfoPortal/portlets/content/home/rssfeed/RssFeedSubscription.portlet;TISESSIONID=Lr9lqm2CwDtbLPkjG1b1QcwDSS5cpp0lpGbGm5XhR8dg99QVt2jn!-1785687963?_portlet.title=Select+Your+RSS+Reader&_portlet.skeleton=details&_portlet.skeletonPath=%2Fframework%2Fskeletons%2Ft3&_portlet.skin=details&_portlet.skinPath=%2Fframework%2Fskins%2Ft3&_pageLabel=ti_home_login_page";
+    var features = "width=450,height=170,left=400,top=400,scrollbars=no,menubar=no,resizable=no";
+    //alert("URL "+uri);
+    window.open(uri,'',features);
+    //alert('window '+window.opener)
+    
+}
+
+function t3_rssfeedURL_popup(id) {
+	window.close();
+    var uri = '';
+    if(id =="en")
+    	{
+        uri = "https://techinfo.toyota.com:443/techInfoPortal/portlets/content/home/rssfeed/RssFeedCopyURL.portlet;TISESSIONID=Lr9lqm2CwDtbLPkjG1b1QcwDSS5cpp0lpGbGm5XhR8dg99QVt2jn!-1785687963?_portlet.title=RSS+Feed&_portlet.skeleton=details&_portlet.skeletonPath=%2Fframework%2Fskeletons%2Ft3&_portlet.skin=details&_portlet.skinPath=%2Fframework%2Fskins%2Ft3&_pageLabel=ti_home_login_page";
+    	}
+    else if(id =="fr")
+    	{
+    	uri = "https://techinfo.toyota.com:443/techInfoPortal/portlets/content/home/rssfeed/RssFeedCopyURL.portlet;TISESSIONID=Lr9lqm2CwDtbLPkjG1b1QcwDSS5cpp0lpGbGm5XhR8dg99QVt2jn!-1785687963?_portlet.title=Fil+RSS&_portlet.skeleton=details&_portlet.skeletonPath=%2Fframework%2Fskeletons%2Ft3&_portlet.skin=details&_portlet.skinPath=%2Fframework%2Fskins%2Ft3&_pageLabel=ti_home_login_page";
+    	}
+    else
+    	{
+    	uri = "https://techinfo.toyota.com:443/techInfoPortal/portlets/content/home/rssfeed/RssFeedCopyURL.portlet;TISESSIONID=Lr9lqm2CwDtbLPkjG1b1QcwDSS5cpp0lpGbGm5XhR8dg99QVt2jn!-1785687963?_portlet.title=RSS+Alimentar&_portlet.skeleton=details&_portlet.skeletonPath=%2Fframework%2Fskeletons%2Ft3&_portlet.skin=details&_portlet.skinPath=%2Fframework%2Fskins%2Ft3&_pageLabel=ti_home_login_page";
+    	}
+    var features = "width=650,height=140,left=350,top=400,scrollbars=no,menubar=no,resizable=no";
+    window.open(uri,'',features);
+}
+
+function t3_open_rssFeedURL()
+{
+	window.close();
+	
+	window.open("https://techinfo.toyota.com/techInfoPortalnull");
+}
+
+function t3_subscribe_rssfeed_google()
+{
+	window.close();
+	
+	var googleRssFeedURLWindow = "http://www.google.com/ig/add?feedurl="+"https://techinfo.toyota.com/techInfoPortalnull";
+	window.open(googleRssFeedURLWindow);
+}
+
+function t3_subscribe_rssfeed_outlook()
+{
+	window.close();
+	
+	var outlookRssFeedURLWindow = "outlookfeed://"+"techinfo.toyota.com/techInfoPortalnull" ;
+	window.open(outlookRssFeedURLWindow);
+}
+</script>
+
+
+
+
+
+
+<!-- Static Content here -->
+
+﻿<html>
+	<head>
+		<link  href="/../../../Documentum/Checkout/techInfoPortal/staticcontent/css/common/tinfosnapcustom.css" rel="stylesheet" type="text/css"/>
+		<script language="JavaScript1.2" type="text/javascript" SRC="/techInfoPortal/staticcontent/js/t3StaticContentCommon.js"></script>
+		<title>Account Options</title>
+		<style type="text/css">
+.auto-style2 {
+	text-align: center;
+}
+</style>
+	</head>
+
+<body>
+<TABLE class=sc_noborder>
+  <TBODY>
+    <TR>
+      <TD class=auto-style2 width="34%"><STRONG>First Time User and Need a New Account?</STRONG></TD>
+      <TD class=auto-style2
+                              width="33%"><STRONG>Returning User and Renewing or Extending your Account</STRONG></TD>
+      <TD class=auto-style2
+                              width="33%"><STRONG>TIS Featured Information</STRONG></TD>
+    </TR>
+  <TR>
+      <TD class=auto-style2 width="34%"><a href="/techInfoPortal/ManageAccounts?urlKey=Register"><IMG height=23 src="/techInfoPortal/staticcontent/en/techinfo/html/prelogin/images/subscribe_button_arial.gif" width=80 border=0></A></TD>
+      <TD class=auto-style2 width="33%"><a href="/techInfoPortal/ManageAccounts?urlKey=ManageAccount"><IMG height=23 src="/techInfoPortal/staticcontent/en/techinfo/html/prelogin/images/myAccount_button_arial.gif" width=80 border=0></A></TD>
+      <TD rowspan="2"class=auto-style2 width="33%">Access to vehicle security information is provided for security professionals registered with the NASTF Vehicle Security Professional Registry. For more information <a HREF="javascript:staticContentPopupNewWin('https://wp.nastf.org/?page_id=3628', 'NewWin', 'width=800,height=600,scrollbars=yes,resizable=yes,left=0,top=0,toolbar=yes');">click here</a>.<br><!--<a HREF="javascript:staticContentPopupNewWin('/techInfoPortal/staticcontent/en/techinfo/html/prelogin/tis2/tinfomod/index.htm', 'NewWin', 'width=1024,height=650,scrollbars=yes,resizable=yes,left=0,top=0,toolbar=yes');">Click here</a> for a tutorial on our Technical Information System.<br>--> </TD>
+    </TR>
+    <TR>
+      <TD class=auto-style2 width="34%">Clicking 'Subscribe' will take you to a payment website hosted by a Toyota third party vendor.  Please refer to the specific privacy and security policies of this third-party hosted website for information regarding the privacy and data security of your activities on this payment website.</TD>      
+      <TD width="33%" valign="top" class=auto-style2>Click the button above to manage your current or expired TIS account.</TD>
+       <!--<TD class=sc_leftborderb width="33%" valign="center">Access to vehicle security information is provided for security professionals registered with the NASTF Vehicle Security Professional Registry. For more information <a HREF="javascript:staticContentPopupNewWin('https://www.nastf.org/i4a/pages/index.cfm?pageid=3532', 'NewWin', 'width=800,height=600,scrollbars=yes,resizable=yes,left=0,top=0,toolbar=yes');">click here</a>.<br></TD> -->
+<div id="USA">
+
+    
+    </TBODY>
+    </table>
+    
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+        </div>
+        
+    </div>
+
+    
+
+
+
+
+
+</div>
+</td>
+            
+    
+        </tr>
+    </table>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</td>
+            
+    
+        </tr>
+    
+    </table>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+
+
+</div>
+
+
+
+
+
+
+
+        </div>
+        
+    </div>
+    
+
+
+
+
+
+</div>
+</td>
+            
+                  </tr>
+                    <tr>
+    
+            
+            <td class="bea-portal-layout-placeholder-container" style="width:100%;">
+                <!--render:writeAttribute name="width" value="100%"/-->
+            
+
+
+
+<div
+        
+        class="bea-portal-layout-placeholder"
+        
+>
+
+
+
+
+
+
+
+    
+    <div
+        
+        class="bea-portal-book-singlenostyle"
+        
+    >
+        
+        
+        <div
+            class="bea-portal-book-singlenostyle-content"
+            
+        >
+
+
+
+
+
+
+
+
+
+    
+    <div
+        
+        class="bea-portal-book-page"
+        
+    >
+
+
+
+
+
+
+
+
+    
+    <table
+        
+        class="bea-portal-layout-grid"
+        
+        cellspacing="0"
+
+    >
+    
+        <tr>
+    
+            
+            <td class="bea-portal-layout-placeholder-container" style="width:50%;">
+                <!--render:writeAttribute name="width" value="50%"/>-->
+                
+
+
+
+<div
+        
+        class="bea-portal-layout-placeholder"
+        
+>
+
+
+
+
+
+
+
+
+    
+    <table
+        
+        class="bea-portal-layout-flow"
+        style="width:'null;" cellspacing="0">
+        <tr>
+    
+            
+            <td class="bea-portal-layout-placeholder-container" style="width:100%;">
+                <!--render:writeAttribute name="width" value="100%"/-->
+            
+
+
+
+<div
+        
+        class="bea-portal-layout-placeholder"
+        
+>
+
+
+
+
+
+
+
+    
+    <div
+        
+        class="bea-portal-book-singlenostyle"
+        
+    >
+        
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    <div class="bea-portal-ie-table-buffer-div" style="margin:0px 0px 0px 0px;">
+    <!-- table.bea-portal-details-window-titlebar-container -->
+        <table style="padding:0px 0px 0px 1px;" cellpadding="0" cellspacing="0" class="bea-portal-details-window-titlebar-container singleLevelMenuTableLayout"  border="0">
+            <tr>
+
+    
+       
+       
+    
+                    
+                                       
+                    
+                        <td style="width:180px;" class="bea-portal-book-tis4-menu-single-item-active singleLevelMenuFouractive"
+                        
+						>
+                       
+                    
+                            What Is TIS?
+                        
+                    </td>
+                                      
+                  
+                    
+
+                    
+
+
+                    <td style="width:180px;" class="bea-portal-book-tis4-menu-single-item singleLevelMenuFourbackground">
+                       
+                    
+                        <a href="https://techinfo.toyota.com:443/techInfoPortal/appmanager/t3/ti;TISESSIONID=Lr9lqm2CwDtbLPkjG1b1QcwDSS5cpp0lpGbGm5XhR8dg99QVt2jn!-1785687963?_nfpb=true&_pageLabel=ti_home_search_docs_page">Manuals</a>
+                    
+                    
+                    </td>
+                    
+
+                    
+
+ <td class="left"></td>
+
+                    
+
+
+                    <td style="width:180px;" class="bea-portal-book-tis4-menu-single-item singleLevelMenuFourbackground">
+                       
+                    
+                        <a href="https://techinfo.toyota.com:443/techInfoPortal/appmanager/t3/ti;TISESSIONID=Lr9lqm2CwDtbLPkjG1b1QcwDSS5cpp0lpGbGm5XhR8dg99QVt2jn!-1785687963?_nfpb=true&_pageLabel=P800145021544253371383">Keycode Check</a>
+                    
+                    
+                    </td>
+                    
+
+                    
+
+ <td class="left"></td>
+
+                    
+
+
+                    <td style="width:180px;" class="bea-portal-book-tis4-menu-single-item singleLevelMenuFourbackground">
+                       
+                    
+                        <a href="https://techinfo.toyota.com:443/techInfoPortal/appmanager/t3/ti;TISESSIONID=Lr9lqm2CwDtbLPkjG1b1QcwDSS5cpp0lpGbGm5XhR8dg99QVt2jn!-1785687963?_nfpb=true&_pageLabel=P2400180251679201249191">Emergency Response</a>
+                    
+                    
+ <!--                    <td class="divider"> -->
+                    
+                    </td>
+                    
+		<td class="Calidivider"></td>
+        <!--td class="bea-portal-details-window-titlebar-title" style="text-align:right !important;width:70%;"></td-->
+    <td class="singleLevel-window-background"></td>
+
+           <td class="right"></td>
+       
+        
+            </tr>
+
+        </table>
+    </div>
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+        <div
+            class="bea-portal-book-singlenostyle-content"
+            
+        >
+
+
+
+
+
+
+
+
+
+    
+    <div
+        
+        class="bea-portal-book-page"
+        
+    >
+
+
+
+
+
+
+
+
+    
+    <table
+        
+        class="bea-portal-layout-grid"
+        
+        cellspacing="0"
+
+    >
+    
+        <tr>
+    
+            
+            <td class="bea-portal-layout-placeholder-container" style="width:null;">
+                <!--render:writeAttribute name="width" value="null"/>-->
+                
+
+
+
+<div
+        
+        class="bea-portal-layout-placeholder"
+        
+>
+
+
+
+
+
+
+
+
+    
+    <table
+        
+        class="bea-portal-layout-flow"
+        style="width:'null;" cellspacing="0">
+        <tr>
+    
+            
+            <td class="bea-portal-layout-placeholder-container" style="width:100%;">
+                <!--render:writeAttribute name="width" value="100%"/-->
+            
+
+
+
+<div
+        
+        class="bea-portal-layout-placeholder"
+        
+>
+
+
+<div class="bea-portal-theme-techinfosearchbottom">
+
+
+
+
+
+
+    
+    <div
+        
+        class="bea-portal-details-techinfo-window"
+        
+        width="100%"
+    >
+        
+        
+        <div class="bea-portal-details-window-content no-top-border ">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+//Links to Document view Servlet
+function t3link(pageLabel, anchor) {
+    var uri = "https://techinfo.toyota.com:443/techInfoPortal/appmanager/t3/ti;TISESSIONID=Lr9lqm2CwDtbLPkjG1b1QcwDSS5cpp0lpGbGm5XhR8dg99QVt2jn!-1785687963?_pageLabel=_LABEL_&_nfpb=true";
+    uri = uri.replace("_LABEL_",pageLabel);
+    if (anchor != null) uri += "#" + anchor;
+    document.location = uri;
+}
+
+//Links to Software download Servlet
+function t3linkSoftware(uri, name, version, date) {
+    var url = "https://techinfo.toyota.com/techInfoPortal/software_URI_?softwareName=_NAME_&softwareVersion=_VERSION_&softwareReleaseDate=_DATE_";
+
+    url = url.replace("_URI_",uri);
+
+    if(version != null) {
+        url = url.replace("_VERSION_",version);
+    } else {
+        url = url.replace("_VERSION_","");
+    }
+    if(name != null) {
+        url = url.replace("_NAME_",name);
+    } else {
+        url = url.replace("_NAME_","");
+    }
+    if(date != null) {
+        url = url.replace("_DATE_",date);
+    } else {
+        url = url.replace("_DATE_","");
+    }
+
+    //Need to work around IE "feature" that mangles file names ending with .exe or .dll
+    //(See article KB221805 on Microsoft support site)
+    if (uri.substring(uri.length-4) == '.exe') {
+        url += '&ext=.exe';
+    }
+    if (uri.substring(uri.length-4) == '.dll') {
+        url += '&ext=.dll';
+    }
+
+    document.location = url;
+}
+
+  /* Release 17.04 -T300020307 Defect Fixes Starts */
+function tcilinkSoftware(uri, name, version, date) {
+    var url = "https://techinfo.toyota.com/techInfoPortal/software_URI_?softwareName=_NAME_&softwareVersion=_VERSION_&softwareReleaseDate=_DATE_";
+
+    url = url.replace("_URI_",uri);
+
+    if(version != null) {
+        url = url.replace("_VERSION_",version);
+    } else {
+        url = url.replace("_VERSION_","");
+    }
+    if(name != null) {
+        url = url.replace("_NAME_",name);
+    } else {
+        url = url.replace("_NAME_","");
+    }
+    if(date != null) {
+        url = url.replace("_DATE_",date);
+    } else {
+        url = url.replace("_DATE_","");
+    }
+
+    //Need to work around IE "feature" that mangles file names ending with .exe or .dll
+    //(See article KB221805 on Microsoft support site)
+    if (uri.substring(uri.length-4) == '.exe') {
+        url += '&ext=.exe';
+    }
+    if (uri.substring(uri.length-4) == '.dll') {
+        url += '&ext=.dll';
+    }
+    
+    if(url!=null)
+    	{
+    	url+= '&tciContent=tciContent';
+    	}
+
+    document.location = url;
+}
+/* Release 17.04 -T300020307 Defect Fixes Ends */
+
+//Links to Document view Servlet
+function t3popup_staticcontent(contentURI, title, isDivisionSpecific, target, features, windowTitle) {
+    var uri = "https://techinfo.toyota.com:443/techInfoPortal/portlets/content/generic/StaticContent/StaticContent.portlet;TISESSIONID=Lr9lqm2CwDtbLPkjG1b1QcwDSS5cpp0lpGbGm5XhR8dg99QVt2jn!-1785687963?_pageLabel=ti_home_what_is_tis_page";
+    var t3Index = uri.indexOf(";T3SESSIONID=");
+    if(t3Index>0)
+        uri = uri.substring(0, t3Index);
+   
+    //ForgeRock Changes Adding logic to avoid two question mark in uri :: NTS - 681 : Starts
+    if(uri.indexOf("?") > -1) {
+		uri += "&_portlet.skeleton=details";
+	} else {
+		uri += "?_portlet.skeleton=details";
+	}
+	
+	//ForgeRock Changes Adding logic to avoid two question mark in uri :: NTS - 681 : Ends
+    uri += "&_portlet.skeletonPath=/framework/skeletons/t3";
+    uri += "&_portlet.skin=details";
+    uri += "&_portlet.skinPath=/framework/skins/t3";
+
+    uri += "&ContentURI=" + contentURI;
+    uri += "&title=" + title;
+    if (isDivisionSpecific != null && isDivisionSpecific != '') uri += "&isDivisionSpecific=" + isDivisionSpecific;
+    if (windowTitle != null && windowTitle != '') uri += "&WindowTitle=" + windowTitle;
+    if (target == null) target = '';
+    if (features == null) features = "width=640,height=480,scrollbars=yes,menubar=no,resizable=yes";
+    window.open(uri,target,features);
+}
+
+
+function t3popup_prelogin_staticcontent(contentURI, title, isDivisionSpecific, target, features, windowTitle) {
+    var uri = "/techInfoPortal"+"/appmanager/t3/staticcontent?_nfpb=true&_pageLabel=techinfoPreLogin_staticcontent";
+    var t3Index = uri.indexOf(";T3SESSIONID=");
+    if(t3Index>0)
+        uri = uri.substring(0, t3Index);
+
+    //uri += "?_portlet.skeleton=details";
+  //  uri += "&_portlet.skeletonPath=/framework/skeletons/t3";
+    //uri += "&_portlet.skin=details";
+   // uri += "&_portlet.skinPath=/framework/skins/t3";
+
+    //uri + = "https://techinfo.qa2ddc.toyota.com/techInfoPortal/appmanager/t3/staticcontent?";
+
+    uri += "&ContentURI=" + contentURI;
+    uri += "&title=" + title;
+    if (isDivisionSpecific != null && isDivisionSpecific != '') uri += "&isDivisionSpecific=" + isDivisionSpecific;
+    if (windowTitle != null && windowTitle != '') uri += "&WindowTitle=" + windowTitle;
+    if (target == null) target = '';
+    if (features == null) features = "width=640,height=480,scrollbars=yes,menubar=no,resizable=yes";
+    window.open(uri,target,features);
+}
+
+//Links to dynamic portlet in a popup
+function t3popup_dynamic(portletTitle, features) {
+    var uri = '';
+    if(portletTitle == 'Software Feedback')
+    {
+        uri = "https://techinfo.toyota.com:443/techInfoPortal/portlets/tis/feedback/software/SoftwareFeedbackController.portlet;TISESSIONID=Lr9lqm2CwDtbLPkjG1b1QcwDSS5cpp0lpGbGm5XhR8dg99QVt2jn!-1785687963?_portlet.title=Software+%2F+Diagnostic+Feedback&_portlet.skeleton=details&_portlet.skeletonPath=%2Fframework%2Fskeletons%2Ft3&_portlet.skin=details&_portlet.skinPath=%2Fframework%2Fskins%2Ft3&_pageLabel=ti_home_what_is_tis_page";
+    }
+    else if(portletTitle == 'Additional Technical Training Resources')
+    {
+
+    	 uri = "https://techinfo.toyota.com:443/techInfoPortal/portlets/tis/document/searchUplift/form/searchForm/addedFeaturedContent/AddedFeaturedContent.portlet;TISESSIONID=Lr9lqm2CwDtbLPkjG1b1QcwDSS5cpp0lpGbGm5XhR8dg99QVt2jn!-1785687963?_portlet.title=Additional+Technical+Training+Resources&_portlet.skeleton=details&_portlet.skeletonPath=%2Fframework%2Fskeletons%2Ft3&_portlet.skin=details&_portlet.skinPath=%2Fframework%2Fskins%2Ft3&_pageLabel=ti_home_what_is_tis_page";
+    }
+    if (features == null) features = "width=640,height=480,scrollbars=yes,menubar=no,resizable=yes";
+    window.open(uri,'',features);
+}
+
+//Close popup window and redirect user to
+//a page in portal by clicking
+//a link in the popup window
+function t3popup_redirect(pageLabel)
+{
+    var uri = "/techInfoPortal"+"/appmanager/t3/ti"+"?_nfpb=true&_pageLabel="+pageLabel;
+    if (window.opener == null) {
+        window.location.href = uri;
+    } else {
+        window.opener.location.href = uri;
+        window.close();
+    }
+}
+
+//Links to static content in Document view
+function t3link_staticcontent(contentURI, title, isDivisionSpecific) {
+    var uri = "https://techinfo.toyota.com:443/techInfoPortal/portlets/content/generic/StaticContent/StaticContent.portlet?_pageLabel=ti_home_what_is_tis_page";
+	//ForgeRock Changes Adding logic to avoid two question mark in uri :: NTS - 681 : Starts
+	if(uri.indexOf("?") > -1) {
+		uri += "&_portlet.skeleton=details";
+	} else {
+		uri += "?_portlet.skeleton=details";
+	}
+    //ForgeRock Changes Adding logic to avoid two question mark in uri :: NTS - 681 : Ends
+    uri += "&_portlet.skeletonPath=/framework/skeletons/t3";
+    uri += "&_portlet.skin=details";
+    uri += "&_portlet.skinPath=/framework/skins/t3";
+
+    uri += "&ContentURI=" + contentURI;
+    uri += "&title=" + title;
+    if (isDivisionSpecific != null && isDivisionSpecific != '') uri += "&isDivisionSpecific=" + isDivisionSpecific;
+    document.location = uri;
+}
+
+//Links to SnapOn page
+function t3linkSnapOn(pageLabel, srcUrl) {
+    var uri = "https://techinfo.toyota.com:443/techInfoPortal/appmanager/t3/ti;TISESSIONID=Lr9lqm2CwDtbLPkjG1b1QcwDSS5cpp0lpGbGm5XhR8dg99QVt2jn!-1785687963?_pageLabel=_LABEL_&_nfpb=true";
+    uri = uri.replace("_LABEL_",pageLabel);
+    uri += "&SourceUrl=" + srcUrl;
+    document.location = uri;
+}
+
+function t3_rssfeedReaders_popup() {
+	//alert('t3_rssfeedReaders_popup');
+    var uri = '';
+        uri = "https://techinfo.toyota.com:443/techInfoPortal/portlets/content/home/rssfeed/RssFeedSubscription.portlet;TISESSIONID=Lr9lqm2CwDtbLPkjG1b1QcwDSS5cpp0lpGbGm5XhR8dg99QVt2jn!-1785687963?_portlet.title=Select+Your+RSS+Reader&_portlet.skeleton=details&_portlet.skeletonPath=%2Fframework%2Fskeletons%2Ft3&_portlet.skin=details&_portlet.skinPath=%2Fframework%2Fskins%2Ft3&_pageLabel=ti_home_what_is_tis_page";
+    var features = "width=450,height=170,left=400,top=400,scrollbars=no,menubar=no,resizable=no";
+    //alert("URL "+uri);
+    window.open(uri,'',features);
+    //alert('window '+window.opener)
+    
+}
+
+function t3_rssfeedURL_popup(id) {
+	window.close();
+    var uri = '';
+    if(id =="en")
+    	{
+        uri = "https://techinfo.toyota.com:443/techInfoPortal/portlets/content/home/rssfeed/RssFeedCopyURL.portlet;TISESSIONID=Lr9lqm2CwDtbLPkjG1b1QcwDSS5cpp0lpGbGm5XhR8dg99QVt2jn!-1785687963?_portlet.title=RSS+Feed&_portlet.skeleton=details&_portlet.skeletonPath=%2Fframework%2Fskeletons%2Ft3&_portlet.skin=details&_portlet.skinPath=%2Fframework%2Fskins%2Ft3&_pageLabel=ti_home_what_is_tis_page";
+    	}
+    else if(id =="fr")
+    	{
+    	uri = "https://techinfo.toyota.com:443/techInfoPortal/portlets/content/home/rssfeed/RssFeedCopyURL.portlet;TISESSIONID=Lr9lqm2CwDtbLPkjG1b1QcwDSS5cpp0lpGbGm5XhR8dg99QVt2jn!-1785687963?_portlet.title=Fil+RSS&_portlet.skeleton=details&_portlet.skeletonPath=%2Fframework%2Fskeletons%2Ft3&_portlet.skin=details&_portlet.skinPath=%2Fframework%2Fskins%2Ft3&_pageLabel=ti_home_what_is_tis_page";
+    	}
+    else
+    	{
+    	uri = "https://techinfo.toyota.com:443/techInfoPortal/portlets/content/home/rssfeed/RssFeedCopyURL.portlet;TISESSIONID=Lr9lqm2CwDtbLPkjG1b1QcwDSS5cpp0lpGbGm5XhR8dg99QVt2jn!-1785687963?_portlet.title=RSS+Alimentar&_portlet.skeleton=details&_portlet.skeletonPath=%2Fframework%2Fskeletons%2Ft3&_portlet.skin=details&_portlet.skinPath=%2Fframework%2Fskins%2Ft3&_pageLabel=ti_home_what_is_tis_page";
+    	}
+    var features = "width=650,height=140,left=350,top=400,scrollbars=no,menubar=no,resizable=no";
+    window.open(uri,'',features);
+}
+
+function t3_open_rssFeedURL()
+{
+	window.close();
+	
+	window.open("https://techinfo.toyota.com/techInfoPortalnull");
+}
+
+function t3_subscribe_rssfeed_google()
+{
+	window.close();
+	
+	var googleRssFeedURLWindow = "http://www.google.com/ig/add?feedurl="+"https://techinfo.toyota.com/techInfoPortalnull";
+	window.open(googleRssFeedURLWindow);
+}
+
+function t3_subscribe_rssfeed_outlook()
+{
+	window.close();
+	
+	var outlookRssFeedURLWindow = "outlookfeed://"+"techinfo.toyota.com/techInfoPortalnull" ;
+	window.open(outlookRssFeedURLWindow);
+}
+</script>
+
+
+
+
+
+
+<!-- Static Content here -->
+
+<html>
+	<head>
+
+		<script language="JavaScript1.2" type="text/javascript" SRC="/techInfoPortal/staticcontent/js/t3StaticContentCommon.js"></script>
+		<title>What Is TIS</title>
+	</head>
+	<body>
+		<table cellspacing="0" cellpadding=0>
+			<tr>
+				<td colspan=2>
+				  <p><!--<strong><font color="red">Techinfo is currently experiencing intermittent operation.
+Please contact the customer support line (1-877-762-7666) if you are unable to login or create a new account.
+				</font></strong> <br><br> -->The Technical Information System or TIS is your service support source for all Toyota produced vehicles
+				marketed in North America. TIS includes
+				all of the vital information you'll need to effectively service most <b>1990
+				and later</b> Toyota products.<br><br>
+                <strong>Emergency Responder and Dismantler Information is available <a href="https://techinfo.toyota.com/techInfoPortal/appmanager/t3/ti?_nfpb=true&_pageLabel=ti_home_search_docs_page">HERE</a> free of charge.</strong>  Select the Manuals tab above to view available Emergency Response Guides, Dismantling Guides and Owner’s Manuals.<br><br>
+                TIS is available in three different levels. The table below summarizes the features of each subscription level.
+			    </p>
+                <CENTER>
+                  <TABLE class=scontent cellSpacing=0 cellPadding=3 width="85%" border=1>
+                    <TBODY>
+                    <TR>
+                      <TD align=middle bgColor=#999999><div align="center"><strong>Subscription Level Features</strong></div></TD>
+                      <TD align=middle bgColor=#999999><div align="center"><strong>Standard</strong></div></TD>
+                      <TD align=middle bgColor=#999999><div align="center"><strong>Professional<br>Diagnostic</strong></div></TD>
+                      <TD align=middle bgColor=#999999><div align="center"><strong>Security<br>Professional</strong></div></TD>
+                      <TD align=middle bgColor=#999999><div align="center"><strong>Keycode</strong></div></TD></TR>
+                    <TR>
+                      <TD align=middle bgColor=#cccccc><div align="center"><strong>TIS Library</strong></div></TD>
+                      <TD align=middle bgColor=#cccccc><div align="center">&nbsp;</div></TD>
+                      <TD align=middle bgColor=#cccccc><div align="center">&nbsp;</div></TD>
+                      <TD align=middle bgColor=#cccccc><div align="center">&nbsp;</div></TD>
+                      <TD align=middle bgColor=#cccccc><div align="center">&nbsp;</div></TD>
+                    </TR>
+                    <TR>
+                      <TD align=middle><div align="center">Service Bulletins</div></TD>
+                      <TD align=middle><div align="center"><img src="/techInfoPortal/staticcontent/en/techinfo/html/prelogin/images/bluesquare.gif" width="10" height="10" border="0"></div></TD>
+                      <TD align=middle><div align="center"><img src="/techInfoPortal/staticcontent/en/techinfo/html/prelogin/images/bluesquare.gif" width="10" height="10" border="0"></div></TD>
+                      <TD 
+                    align=middle><div align="center"><img src="/techInfoPortal/staticcontent/en/techinfo/html/prelogin/images/bluesquare.gif" width="10" height="10" border="0"></div></TD>
+                    <TD align=middle>&nbsp;</TD></TR>
+                    <TR>
+                      <TD align=middle><div align="center">Repair Manuals</div></TD>
+                      <TD align=middle><div align="center">
+                      <div align="center"><img src="/techInfoPortal/staticcontent/en/techinfo/html/prelogin/images/bluesquare.gif" width="10" height="10" border="0"></div></TD>
+                      <TD align=middle><div align="center">
+                      <div align="center"><img src="/techInfoPortal/staticcontent/en/techinfo/html/prelogin/images/bluesquare.gif" width="10" height="10" border="0"></div></TD>
+                      <TD 
+                    align=middle><div align="center"><img src="/techInfoPortal/staticcontent/en/techinfo/html/prelogin/images/bluesquare.gif" width="10" height="10" border="0"></div></TD>
+                    <TD align=middle>&nbsp;</TD>
+                    </TR>
+                    <TR>
+                      <TD align=middle><div align="center">Wiring Diagrams</div></TD>
+                      <TD align=middle><div align="center"><img src="/techInfoPortal/staticcontent/en/techinfo/html/prelogin/images/bluesquare.gif" width="10" height="10" border="0"></div></TD>
+                      <TD align=middle><div align="center"><img src="/techInfoPortal/staticcontent/en/techinfo/html/prelogin/images/bluesquare.gif" width="10" height="10" border="0"></div></TD>
+                      <TD align=middle><div align="center"><img src="/techInfoPortal/staticcontent/en/techinfo/html/prelogin/images/bluesquare.gif" width="10" height="10" border="0"></div></TD>
+                    <TD align=middle>&nbsp;</TD>
+                    </TR>
+                    <TR>
+                      <TD align=middle><div align="center">Technical Training</div></TD>
+                      <TD align=middle><div align="center"><img src="/techInfoPortal/staticcontent/en/techinfo/html/prelogin/images/bluesquare.gif" width="10" height="10" border="0"></div></TD>
+                      <TD align=middle><div align="center"><img src="/techInfoPortal/staticcontent/en/techinfo/html/prelogin/images/bluesquare.gif" width="10" height="10" border="0"></div></TD>
+                      <TD align=middle><div align="center"><img src="/techInfoPortal/staticcontent/en/techinfo/html/prelogin/images/bluesquare.gif" width="10" height="10" border="0"></div></TD>
+                    <TD align=middle>&nbsp;</TD></TR>
+                    <TR>
+                      <TD align=middle><div align="center">Other Technical Information</div></TD>
+                      <TD align=middle><div align="center"><img src="/techInfoPortal/staticcontent/en/techinfo/html/prelogin/images/bluesquare.gif" width="10" height="10" border="0"></div></TD>
+                      <TD align=middle><div align="center"><img src="/techInfoPortal/staticcontent/en/techinfo/html/prelogin/images/bluesquare.gif" width="10" height="10" border="0"></div></TD>
+                      <TD align=middle><div align="center"><img src="/techInfoPortal/staticcontent/en/techinfo/html/prelogin/images/bluesquare.gif" width="10" height="10" border="0"></div></TD>
+                    <TD align=middle>&nbsp;</TD></TR>
+                    <TR>
+                      <TD align=middle bgColor=#cccccc><div align="center"><strong>Diagnostics / Reprogramming</strong></div></TD>
+                      <TD align=middle bgColor=#cccccc><div align="center">&nbsp;</div></TD>
+                      <TD align=middle bgColor=#cccccc><div align="center">&nbsp;</div></TD>
+                      <TD align=middle bgColor=#cccccc><div align="center">&nbsp;</div></TD>
+                      <TD align=middle bgColor=#cccccc><div align="center">&nbsp;</div></TD>
+                    </TR>
+                    <TR>
+                      <TD align=middle><div align="center">Techstream Scantool Software</div></TD>
+                      <TD align=middle>&nbsp;</TD>
+                      <TD align=middle><div align="center"><img src="/techInfoPortal/staticcontent/en/techinfo/html/prelogin/images/bluesquare.gif" width="10" height="10" border="0"></div></TD>
+                      <TD align=middle><div align="center"><img src="/techInfoPortal/staticcontent/en/techinfo/html/prelogin/images/bluesquare.gif" width="10" height="10" border="0"></div></TD>
+                    <TD align=middle>&nbsp;</TD>
+                    </TR>
+                    <TR>
+                      <TD align=middle><div align="center">ECU Calibrations</div></TD>
+                      <TD align=middle>&nbsp;</TD>
+                      <TD align=middle><div align="center"><img src="/techInfoPortal/staticcontent/en/techinfo/html/prelogin/images/bluesquare.gif" width="10" height="10" border="0"></div></TD>
+                      <TD align=middle><div align="center"><img src="/techInfoPortal/staticcontent/en/techinfo/html/prelogin/images/bluesquare.gif" width="10" height="10" border="0"></div></TD>
+                    <TD align=middle>&nbsp;</TD>
+                    </TR>
+                     <TR>
+                      <TD align=middle><div align="center">Identifix Direct-Hit</div></TD>
+                      <TD align=middle>&nbsp;</TD>
+                      <TD align=middle><div align="center"><img src="/techInfoPortal/staticcontent/en/techinfo/html/prelogin/images/bluesquare.gif" width="10" height="10" border="0"></div></TD>
+                      <TD align=middle><div align="center"><img src="/techInfoPortal/staticcontent/en/techinfo/html/prelogin/images/bluesquare.gif" width="10" height="10" border="0"></div></TD>
+                    <TD align=middle>&nbsp;</TD>
+                    </TR>
+                    <TR>
+                      <TD align=middle bgColor=#cccccc><div align="center"><strong>Security</strong><br>(U.S. and Mexico VINs only)</div></TD>
+                      <TD align=middle bgColor=#cccccc>&nbsp;</TD>
+                      <TD align=middle bgColor=#cccccc>&nbsp;</TD>
+                      <TD align=middle bgColor=#cccccc>&nbsp;</TD>
+                      <TD align=middle bgColor=#cccccc>&nbsp;</TD>
+                    </TR>
+                    <TR>
+                      <TD align=middle><div align="center">Key Codes</div></TD>
+                      <TD align=middle>&nbsp;</TD>
+                      <TD align=middle>&nbsp;</TD>
+                      <TD align=middle><div align="center"><img src="/techInfoPortal/staticcontent/en/techinfo/html/prelogin/images/bluesquare.gif" width="10" height="10" border="0"></div></TD>
+                    <TD align=middle><div align="center"><img src="/techInfoPortal/staticcontent/en/techinfo/html/prelogin/images/bluesquare.gif" width="10" height="10" border="0"></div></TD>
+                    </TR>
+                    <TR>
+                      <TD align=middle><div align="center">Immobilizer / Smart Reset</div></TD>
+                      <TD align=middle>&nbsp;</TD>
+                      <TD align=middle>&nbsp;</TD>
+                      <TD align=middle><div align="center"><img src="/techInfoPortal/staticcontent/en/techinfo/html/prelogin/images/bluesquare.gif" width="10" height="10" border="0"></div></TD>
+                      <TD align=middle>&nbsp;</TD></TR></TBODY></TABLE>
+					</center>
+			  </tr>
+              
+              
+			<tr>
+				<td colspan=2 align=right>
+				<a HREF="javascript:t3link('ti_whats_tis')">
+				<br>&gt;&gt;Learn More</a><br>
+				</td>
+			</tr>
+			<tr>
+				<td colspan=2><br>
+				Beyond service information, several additional resources are available to assist in the swift and
+				accurate service of Toyota, Scion, and Lexus vehicles. Follow the links below for more details.
+				</td>
+			</tr>
+			<tr>
+				<td colspan=2 align=right>
+				<a HREF="/techInfoPortal/staticcontent/en/techinfo/html/prelogin/prelogin.sst.html" TARGET="NewWin" onClick="staticContentPopupNewWin('/techInfoPortal/staticcontent/en/techinfo/html/prelogin/prelogin.sst.html','NewWin','width=1024,height=768,scrollbars=yes,resizable=yes,left=0,top=0,toolbar=yes');">
+				<br>&gt;&gt;Special Service Tools</a>
+				</td>
+			</tr>
+				<tr>
+				<td colspan=2 align=right>
+				 <a HREF="javascript:t3link('ti_tech_training')">
+				&gt;&gt;Technical Training &amp; Printed Materials</a>
+                               </td>
+			</tr>
+
+				<tr>
+				<td colspan=2 align=right>
+			        <a HREF="/techInfoPortal/staticcontent/en/techinfo/html/prelogin/erg/index.html" TARGET="NewWin" onClick="staticContentPopupNewWin('/techInfoPortal/staticcontent/en/techinfo/html/prelogin/erg/index.html','NewWin','width=1024,height=768,scrollbars=yes,resizable=yes,left=0,top=0,toolbar=yes');">&gt;&gt;Emergency Response Presentation</a>
+			     </td>
+			</tr>
+            <tr>
+            	<td colspan=2 align=right>
+                <a HREF="/techInfoPortal/staticcontent/en/techinfo/html/prelogin/erg/Toyota_ERG_printout.pdf" TARGET="NewWin" onClick="staticContentPopupNewWin('/techInfoPortal/staticcontent/en/techinfo/html/prelogin/erg/Toyota_ERG_printout.pdf','NewWin','width=1024,height=768,scrollbars=yes,resizable=yes,left=0,top=0,toolbar=yes');">
+				&gt;&gt;Emergency Response Presentation PDF Printout</a>
+                </td>
+            </tr>
+		</table>
+	</body>
+</html>
+
+
+
+
+
+
+
+
+        </div>
+        
+    <table style="width:100%; height:8px;" border="0" cellpadding="0" cellspacing="0">
+        <tr style="width:100%; height:8px; white-space:nowrap;">
+            <td style="width:6px; height:8px; white-space:nowrap" class="bea-portal-details-window-content-bottom-left"><img alt="" src="/techInfoPortal/framework/skins/t3/details/images/tab.bar.bot.left.wht2gry.gif" style="width:6px; height:8px;" class="block" /></td>
+            <td style="width:100%; height:8px; background:url(/techInfoPortal/framework/skins/t3/details/images/tab.bar.bot.bg.wht2gry.png); white-space:nowrap" class="bea-portal-details-window-content-bottom"><img alt="" src="/techInfoPortal/resources/images/utils/clear.png" style="width:6px; height:8px;" class="block" /></td>
+            <td style="width:6px; height:8px; white-space:nowrap" class="bea-portal-details-window-content-bottom-right"><img alt="" src="/techInfoPortal/framework/skins/t3/details/images/tab.bar.bot.right.wht2gry.gif" style="width:6px; height:8px;" class="block" /></td>
+        </tr>
+    </table>
+    </div>
+
+    
+
+
+</div>
+
+
+
+
+</div>
+</td>
+            
+    
+        </tr>
+    </table>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</td>
+            
+    
+        </tr>
+    
+    </table>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+
+
+
+
+
+
+
+        </div>
+        
+    </div>
+    
+
+
+
+
+
+</div>
+</td>
+            
+    
+        </tr>
+    </table>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</td>
+            
+    
+            
+            <td class="bea-portal-layout-placeholder-container" style="width:50%;">
+                <!--render:writeAttribute name="width" value="50%"/>-->
+                
+
+
+
+<div
+        
+        class="bea-portal-layout-placeholder"
+        
+>
+
+
+
+
+
+
+
+
+    
+    <table
+        
+        class="bea-portal-layout-flow"
+        style="width:'null;" cellspacing="0">
+        <tr>
+    
+            
+            <td class="bea-portal-layout-placeholder-container" style="width:100%;">
+                <!--render:writeAttribute name="width" value="100%"/-->
+            
+
+
+
+<div
+        
+        class="bea-portal-layout-placeholder"
+        
+>
+
+
+
+
+
+
+    
+    <div
+        
+        class="bea-portal-details-window"
+        
+        width="100%"
+    >
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    <div
+        
+        class="bea-portal-window-details-titlebar"
+        
+    >
+        <div class="bea-portal-ie-table-buffer-div">
+            <table class="bea-portal-details-window-titlebar-container" border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td class="left"><!--img alt="" src="/techInfoPortal/framework/skins/t3/details/images/tab.bar.top.left.wht2gry.gif" style="width:6px; height:26px;" class="block" /--></td>
+
+                    <td class="bea-portal-details-window-titlebar-title">Professional Resources</td>
+                    <td class="bea-portal-details-window-titlebar-title-results"><div id="results-div-4242"></div></td>
+                    <td class="bea-portal-details-window-titlebar-buttons">&nbsp;
+                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    
+                    </td>
+                    <td class="right"><!--img alt="" src="/techInfoPortal/framework/skins/t3/details/images/tab.bar.top.right.wht2gry.gif" style="width:6px; height:26px;" class="block" /--></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    
+
+
+        
+        <div class="bea-portal-details-window-content">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+//Links to Document view Servlet
+function t3link(pageLabel, anchor) {
+    var uri = "https://techinfo.toyota.com:443/techInfoPortal/appmanager/t3/ti;TISESSIONID=Lr9lqm2CwDtbLPkjG1b1QcwDSS5cpp0lpGbGm5XhR8dg99QVt2jn!-1785687963?_pageLabel=_LABEL_&_nfpb=true";
+    uri = uri.replace("_LABEL_",pageLabel);
+    if (anchor != null) uri += "#" + anchor;
+    document.location = uri;
+}
+
+//Links to Software download Servlet
+function t3linkSoftware(uri, name, version, date) {
+    var url = "https://techinfo.toyota.com/techInfoPortal/software_URI_?softwareName=_NAME_&softwareVersion=_VERSION_&softwareReleaseDate=_DATE_";
+
+    url = url.replace("_URI_",uri);
+
+    if(version != null) {
+        url = url.replace("_VERSION_",version);
+    } else {
+        url = url.replace("_VERSION_","");
+    }
+    if(name != null) {
+        url = url.replace("_NAME_",name);
+    } else {
+        url = url.replace("_NAME_","");
+    }
+    if(date != null) {
+        url = url.replace("_DATE_",date);
+    } else {
+        url = url.replace("_DATE_","");
+    }
+
+    //Need to work around IE "feature" that mangles file names ending with .exe or .dll
+    //(See article KB221805 on Microsoft support site)
+    if (uri.substring(uri.length-4) == '.exe') {
+        url += '&ext=.exe';
+    }
+    if (uri.substring(uri.length-4) == '.dll') {
+        url += '&ext=.dll';
+    }
+
+    document.location = url;
+}
+
+  /* Release 17.04 -T300020307 Defect Fixes Starts */
+function tcilinkSoftware(uri, name, version, date) {
+    var url = "https://techinfo.toyota.com/techInfoPortal/software_URI_?softwareName=_NAME_&softwareVersion=_VERSION_&softwareReleaseDate=_DATE_";
+
+    url = url.replace("_URI_",uri);
+
+    if(version != null) {
+        url = url.replace("_VERSION_",version);
+    } else {
+        url = url.replace("_VERSION_","");
+    }
+    if(name != null) {
+        url = url.replace("_NAME_",name);
+    } else {
+        url = url.replace("_NAME_","");
+    }
+    if(date != null) {
+        url = url.replace("_DATE_",date);
+    } else {
+        url = url.replace("_DATE_","");
+    }
+
+    //Need to work around IE "feature" that mangles file names ending with .exe or .dll
+    //(See article KB221805 on Microsoft support site)
+    if (uri.substring(uri.length-4) == '.exe') {
+        url += '&ext=.exe';
+    }
+    if (uri.substring(uri.length-4) == '.dll') {
+        url += '&ext=.dll';
+    }
+    
+    if(url!=null)
+    	{
+    	url+= '&tciContent=tciContent';
+    	}
+
+    document.location = url;
+}
+/* Release 17.04 -T300020307 Defect Fixes Ends */
+
+//Links to Document view Servlet
+function t3popup_staticcontent(contentURI, title, isDivisionSpecific, target, features, windowTitle) {
+    var uri = "https://techinfo.toyota.com:443/techInfoPortal/portlets/content/generic/StaticContent/StaticContent.portlet;TISESSIONID=Lr9lqm2CwDtbLPkjG1b1QcwDSS5cpp0lpGbGm5XhR8dg99QVt2jn!-1785687963?_pageLabel=ti_home_content_page";
+    var t3Index = uri.indexOf(";T3SESSIONID=");
+    if(t3Index>0)
+        uri = uri.substring(0, t3Index);
+   
+    //ForgeRock Changes Adding logic to avoid two question mark in uri :: NTS - 681 : Starts
+    if(uri.indexOf("?") > -1) {
+		uri += "&_portlet.skeleton=details";
+	} else {
+		uri += "?_portlet.skeleton=details";
+	}
+	
+	//ForgeRock Changes Adding logic to avoid two question mark in uri :: NTS - 681 : Ends
+    uri += "&_portlet.skeletonPath=/framework/skeletons/t3";
+    uri += "&_portlet.skin=details";
+    uri += "&_portlet.skinPath=/framework/skins/t3";
+
+    uri += "&ContentURI=" + contentURI;
+    uri += "&title=" + title;
+    if (isDivisionSpecific != null && isDivisionSpecific != '') uri += "&isDivisionSpecific=" + isDivisionSpecific;
+    if (windowTitle != null && windowTitle != '') uri += "&WindowTitle=" + windowTitle;
+    if (target == null) target = '';
+    if (features == null) features = "width=640,height=480,scrollbars=yes,menubar=no,resizable=yes";
+    window.open(uri,target,features);
+}
+
+
+function t3popup_prelogin_staticcontent(contentURI, title, isDivisionSpecific, target, features, windowTitle) {
+    var uri = "/techInfoPortal"+"/appmanager/t3/staticcontent?_nfpb=true&_pageLabel=techinfoPreLogin_staticcontent";
+    var t3Index = uri.indexOf(";T3SESSIONID=");
+    if(t3Index>0)
+        uri = uri.substring(0, t3Index);
+
+    //uri += "?_portlet.skeleton=details";
+  //  uri += "&_portlet.skeletonPath=/framework/skeletons/t3";
+    //uri += "&_portlet.skin=details";
+   // uri += "&_portlet.skinPath=/framework/skins/t3";
+
+    //uri + = "https://techinfo.qa2ddc.toyota.com/techInfoPortal/appmanager/t3/staticcontent?";
+
+    uri += "&ContentURI=" + contentURI;
+    uri += "&title=" + title;
+    if (isDivisionSpecific != null && isDivisionSpecific != '') uri += "&isDivisionSpecific=" + isDivisionSpecific;
+    if (windowTitle != null && windowTitle != '') uri += "&WindowTitle=" + windowTitle;
+    if (target == null) target = '';
+    if (features == null) features = "width=640,height=480,scrollbars=yes,menubar=no,resizable=yes";
+    window.open(uri,target,features);
+}
+
+//Links to dynamic portlet in a popup
+function t3popup_dynamic(portletTitle, features) {
+    var uri = '';
+    if(portletTitle == 'Software Feedback')
+    {
+        uri = "https://techinfo.toyota.com:443/techInfoPortal/portlets/tis/feedback/software/SoftwareFeedbackController.portlet;TISESSIONID=Lr9lqm2CwDtbLPkjG1b1QcwDSS5cpp0lpGbGm5XhR8dg99QVt2jn!-1785687963?_portlet.title=Software+%2F+Diagnostic+Feedback&_portlet.skeleton=details&_portlet.skeletonPath=%2Fframework%2Fskeletons%2Ft3&_portlet.skin=details&_portlet.skinPath=%2Fframework%2Fskins%2Ft3&_pageLabel=ti_home_content_page";
+    }
+    else if(portletTitle == 'Additional Technical Training Resources')
+    {
+
+    	 uri = "https://techinfo.toyota.com:443/techInfoPortal/portlets/tis/document/searchUplift/form/searchForm/addedFeaturedContent/AddedFeaturedContent.portlet;TISESSIONID=Lr9lqm2CwDtbLPkjG1b1QcwDSS5cpp0lpGbGm5XhR8dg99QVt2jn!-1785687963?_portlet.title=Additional+Technical+Training+Resources&_portlet.skeleton=details&_portlet.skeletonPath=%2Fframework%2Fskeletons%2Ft3&_portlet.skin=details&_portlet.skinPath=%2Fframework%2Fskins%2Ft3&_pageLabel=ti_home_content_page";
+    }
+    if (features == null) features = "width=640,height=480,scrollbars=yes,menubar=no,resizable=yes";
+    window.open(uri,'',features);
+}
+
+//Close popup window and redirect user to
+//a page in portal by clicking
+//a link in the popup window
+function t3popup_redirect(pageLabel)
+{
+    var uri = "/techInfoPortal"+"/appmanager/t3/ti"+"?_nfpb=true&_pageLabel="+pageLabel;
+    if (window.opener == null) {
+        window.location.href = uri;
+    } else {
+        window.opener.location.href = uri;
+        window.close();
+    }
+}
+
+//Links to static content in Document view
+function t3link_staticcontent(contentURI, title, isDivisionSpecific) {
+    var uri = "https://techinfo.toyota.com:443/techInfoPortal/portlets/content/generic/StaticContent/StaticContent.portlet?_pageLabel=ti_home_content_page";
+	//ForgeRock Changes Adding logic to avoid two question mark in uri :: NTS - 681 : Starts
+	if(uri.indexOf("?") > -1) {
+		uri += "&_portlet.skeleton=details";
+	} else {
+		uri += "?_portlet.skeleton=details";
+	}
+    //ForgeRock Changes Adding logic to avoid two question mark in uri :: NTS - 681 : Ends
+    uri += "&_portlet.skeletonPath=/framework/skeletons/t3";
+    uri += "&_portlet.skin=details";
+    uri += "&_portlet.skinPath=/framework/skins/t3";
+
+    uri += "&ContentURI=" + contentURI;
+    uri += "&title=" + title;
+    if (isDivisionSpecific != null && isDivisionSpecific != '') uri += "&isDivisionSpecific=" + isDivisionSpecific;
+    document.location = uri;
+}
+
+//Links to SnapOn page
+function t3linkSnapOn(pageLabel, srcUrl) {
+    var uri = "https://techinfo.toyota.com:443/techInfoPortal/appmanager/t3/ti;TISESSIONID=Lr9lqm2CwDtbLPkjG1b1QcwDSS5cpp0lpGbGm5XhR8dg99QVt2jn!-1785687963?_pageLabel=_LABEL_&_nfpb=true";
+    uri = uri.replace("_LABEL_",pageLabel);
+    uri += "&SourceUrl=" + srcUrl;
+    document.location = uri;
+}
+
+function t3_rssfeedReaders_popup() {
+	//alert('t3_rssfeedReaders_popup');
+    var uri = '';
+        uri = "https://techinfo.toyota.com:443/techInfoPortal/portlets/content/home/rssfeed/RssFeedSubscription.portlet;TISESSIONID=Lr9lqm2CwDtbLPkjG1b1QcwDSS5cpp0lpGbGm5XhR8dg99QVt2jn!-1785687963?_portlet.title=Select+Your+RSS+Reader&_portlet.skeleton=details&_portlet.skeletonPath=%2Fframework%2Fskeletons%2Ft3&_portlet.skin=details&_portlet.skinPath=%2Fframework%2Fskins%2Ft3&_pageLabel=ti_home_content_page";
+    var features = "width=450,height=170,left=400,top=400,scrollbars=no,menubar=no,resizable=no";
+    //alert("URL "+uri);
+    window.open(uri,'',features);
+    //alert('window '+window.opener)
+    
+}
+
+function t3_rssfeedURL_popup(id) {
+	window.close();
+    var uri = '';
+    if(id =="en")
+    	{
+        uri = "https://techinfo.toyota.com:443/techInfoPortal/portlets/content/home/rssfeed/RssFeedCopyURL.portlet;TISESSIONID=Lr9lqm2CwDtbLPkjG1b1QcwDSS5cpp0lpGbGm5XhR8dg99QVt2jn!-1785687963?_portlet.title=RSS+Feed&_portlet.skeleton=details&_portlet.skeletonPath=%2Fframework%2Fskeletons%2Ft3&_portlet.skin=details&_portlet.skinPath=%2Fframework%2Fskins%2Ft3&_pageLabel=ti_home_content_page";
+    	}
+    else if(id =="fr")
+    	{
+    	uri = "https://techinfo.toyota.com:443/techInfoPortal/portlets/content/home/rssfeed/RssFeedCopyURL.portlet;TISESSIONID=Lr9lqm2CwDtbLPkjG1b1QcwDSS5cpp0lpGbGm5XhR8dg99QVt2jn!-1785687963?_portlet.title=Fil+RSS&_portlet.skeleton=details&_portlet.skeletonPath=%2Fframework%2Fskeletons%2Ft3&_portlet.skin=details&_portlet.skinPath=%2Fframework%2Fskins%2Ft3&_pageLabel=ti_home_content_page";
+    	}
+    else
+    	{
+    	uri = "https://techinfo.toyota.com:443/techInfoPortal/portlets/content/home/rssfeed/RssFeedCopyURL.portlet;TISESSIONID=Lr9lqm2CwDtbLPkjG1b1QcwDSS5cpp0lpGbGm5XhR8dg99QVt2jn!-1785687963?_portlet.title=RSS+Alimentar&_portlet.skeleton=details&_portlet.skeletonPath=%2Fframework%2Fskeletons%2Ft3&_portlet.skin=details&_portlet.skinPath=%2Fframework%2Fskins%2Ft3&_pageLabel=ti_home_content_page";
+    	}
+    var features = "width=650,height=140,left=350,top=400,scrollbars=no,menubar=no,resizable=no";
+    window.open(uri,'',features);
+}
+
+function t3_open_rssFeedURL()
+{
+	window.close();
+	
+	window.open("https://techinfo.toyota.com/techInfoPortalnull");
+}
+
+function t3_subscribe_rssfeed_google()
+{
+	window.close();
+	
+	var googleRssFeedURLWindow = "http://www.google.com/ig/add?feedurl="+"https://techinfo.toyota.com/techInfoPortalnull";
+	window.open(googleRssFeedURLWindow);
+}
+
+function t3_subscribe_rssfeed_outlook()
+{
+	window.close();
+	
+	var outlookRssFeedURLWindow = "outlookfeed://"+"techinfo.toyota.com/techInfoPortalnull" ;
+	window.open(outlookRssFeedURLWindow);
+}
+</script>
+
+
+
+
+
+
+<!-- Static Content here -->
+
+<html>
+	<head>
+
+		<script language="JavaScript1.2" type="text/javascript" SRC="/techInfoPortal/staticcontent/js/t3StaticContentCommon.js"></script>
+		<title>Service, Parts & Accessories</title>
+	</head>
+	<body>
+    <div style="background-color:#FFFFFF; display:">
+      <div align="right">
+        <input type="radio" name="group1" style="vertical-align: middle;" value="USA" checked onClick="changeCountry(this.value);">
+        <img src="/techInfoPortal/staticcontent/en/techinfo/html/prelogin/images/USAflag.jpg" alt="USAflag" width="50" height="26" border="0" align="absmiddle">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="radio" name="group1" style="vertical-align: middle;" value="Canada" onClick="changeCountry(this.value);"><img src="/techInfoPortal/staticcontent/en/techinfo/html/prelogin/images/CANADAflag.jpg" alt="CANADAflag" width="50" height="25" border="0" align="absmiddle"></div>
+    </div>
+    <br><br>
+    <!--Start of USA Page-->
+    <div id="USA">
+    <table style="border:2px solid; border-color:#F00" cellpadding="8">
+    <tr>
+    <td>
+    <strong>Safety Recall and Service Campaign Information</strong>
+    <br>
+    Get information on open safety recalls and service campaigns released since 1999 for Toyota, Lexus and Scion vehicles intended for sale or sold in the U.S., U.S. Territories, and Mexico using our quick and easy recall and campaign lookup:
+    </td>
+    </tr>
+    <tr>
+    <td align="right"><a HREF="http://www.toyota.com/recall" TARGET="NewWin" onClick="staticContentPopupNewWin('http://www.toyota.com/recall','NewWin','width=800,height=800,scrollbars=yes,resizable=yes,left=10,top=0');">&gt;&gt;Lookup Safety Recalls &amp; Service Campaigns by VIN</a>
+    </td>
+    </tr>
+    </table>
+    <br><br>
+    <table>
+	<tr>
+    <td><a HREF="javascript:t3link('ti_ts_lite')">
+	<img src="/techInfoPortal/staticcontent/en/techinfo/html/prelogin/images/tslkit.jpg" alt="TIS techstream" width="457" height="103" border="0"></a></td>  
+	</tr>
+</table>
+		<table cellspacing="0" cellpadding=0 border="0">
+	      <tr>
+	        <td width="799" rowspan="4">
+            <strong>Factory Service Information and Diagnostics for your shop!</strong>
+            <br>Need an inexpensive solution for diagnosing &amp; repairing Toyota, Scion, and Lexus vehicles?<br>
+            The NEW Techstream Lite Kit allows you to use your own PC with Techstream Software.</td>
+		     
+		<tr>
+		  <td colspan=4 align=right>&nbsp;</td>
+		  </tr>
+		  <td colspan=4>&nbsp;</td>
+		  </tr>
+		<tr>
+		  <td colspan=4>&nbsp;</td>
+		  </tr>
+		<tr>
+		  <td colspan=4 align="right"><br><a HREF="javascript:t3link('ti_ts_lite')">
+				&gt;&gt;Learn More About Techstream Lite</a></td>
+		  </tr>
+		<tr>
+		  <td colspan=4 align="right"><a HREF="javascript:t3link('ti_vehicle_reprog')">
+				&gt;&gt;Scantools &amp; Vehicle Reprogramming</a></td>
+		  </tr>
+		<tr>
+		  <td colspan=4 align="left"><br><br></td>
+		  </tr>
+		<tr>
+		  <td colspan=4 align="left">Find a Dealership near you for a full selection of Genuine Parts and Accessories.</td>
+		  </tr>
+		<tr>
+			<td colspan=4 align="center"><br>
+			<center>
+			<map name="logomap">
+			<area shape="RECT" coords="138,21,138,21">
+		<!--	<area alt="Scion Accessories" coords="112,0,170,49" HREF="http://www.scion.com/find_dealer.html#" TARGET="NewWin" onClick="staticContentPopupNewWin('http://www.scion.com/find_dealer.html#','NewWin','width=800,height=600,scrollbars=yes,resizable=yes,left=10,top=0');"> -->
+			<area alt="Lexus Service" coords="56,0,109,50" HREF="http://www.lexus.com/dealers/" TARGET="LexusNewWin" onClick="staticContentPopupNewWin('http://www.lexus.com/dealers/','LexusNewWin','width=990,height=600,scrollbars=yes,resizable=yes,left=10,top=0');">
+			<!--<area alt="Toyota Service, Parts & Accessories" coords="0,0,58,49" HREF="http://www.toyota.com/dealers" TARGET="ToyotaNewWin" onClick="staticContentPopupNewWin('http://www.toyota.com/dealers/','ToyotaNewWin','width=990,height=600,scrollbars=yes,resizable=yes,left=10,top=0');"> -->
+			<area alt="Toyota Service, Parts & Accessories" coords="0,0,55,50" HREF="https://techinfo.toyota.com/techInfoPortal/staticcontent/en/techinfo/html/prelogin/prelogin.toydealerservice.html" TARGET="NewWin" onClick="staticContentPopupNewWin('https://techinfo.toyota.com/techInfoPortal/staticcontent/en/techinfo/html/prelogin/prelogin.toydealerservice.html','NewWin','width=430,height=240,scrollbars=yes,resizable=yes,left=100,top=100');">
+
+
+			</map><img src="/techInfoPortal/staticcontent/en/techinfo/html/prelogin/images/logos.jpg" width="109" height="50" border="0" usemap="#logomap">
+			</center><br>
+			</td>
+		</tr>
+        <tr>
+		 <td colspan=4>
+		        Learn all about factory authorized parts and repair at Toyota's new Wholesale Parts website. Or use the locator form to find a STAR (Support To Automotive Repair) Dealer.</td>
+		 </tr>
+         <tr>
+		 <td colspan=4 align="right"><br>
+		        <a HREF="http://www.toyotapartsandservice.com" TARGET="NewWin" onClick="staticContentPopupNewWin('http://www.toyotapartsandservice.com','NewWin','width=800,height=600,scrollbars=yes,resizable=yes,left=10,top=0');">
+		        &gt;&gt;Wholesale Parts</a>
+		 </td>
+        </tr>
+		 <tr>
+		 <td colspan=4 align="right">
+		        <a HREF="http://www.toyotapartsandservice.com/dealer-locator" TARGET="NewWin" onClick="staticContentPopupNewWin('http://www.toyotapartsandservice.com/dealer-locator','NewWin','width=800,height=600,scrollbars=yes,resizable=yes,left=10,top=0');">
+                        &gt;&gt;Star Dealers</a>
+			</td>
+        </tr>
+		</table>
+        </div>
+        <!--End of USA Page-->
+        
+        <!--Start of CANADA Page-->
+        <div id="Canada" style="display:none">
+        <table style="border:2px solid; border-color:#F00" cellpadding="8">
+    <tr>
+    <td>
+    <strong>Safety Recall and Service Campaign Information</strong>
+    <br>
+    Get information on open safety recalls and service campaigns for Toyota, Lexus and Scion vehicles intended for sale or sold in Canada using our quick and easy recall and campaign lookup:
+    </td>
+    </tr>
+    <tr>
+    <td align="right"><a HREF="http://www.toyota.ca/recall" TARGET="NewWin" onClick="staticContentPopupNewWin('http://www.toyota.ca/recall','NewWin','width=800,height=800,scrollbars=yes,resizable=yes,left=10,top=0');">&gt;&gt;Lookup Toyota and Scion Safety Recalls &amp; Service Campaigns by VIN</a><br>
+    <a HREF="http://www.lexus.ca/recall" TARGET="NewWin" onClick="staticContentPopupNewWin('http://www.lexus.ca/recall','NewWin','width=800,height=800,scrollbars=yes,resizable=yes,left=10,top=0');">&gt;&gt;Lookup Lexus Safety Recalls &amp; Service Campaigns by VIN</a>
+    </td>
+    </tr>
+    </table>
+    <br><br>
+        <table>
+       <tr>
+	        <td width="799" rowspan="4">
+            <strong>TIS for Canada</strong>
+            <br>
+            All Canadian service and repair content is now available. Please select the "Welcome from Toyota Canada" link below to see a full list of supported content.<br></td>		     
+	<tr>
+		  <td colspan=4 align=right>&nbsp;</td>
+		  </tr>
+		  <td colspan=4>&nbsp;</td>
+		  </tr>
+		<tr>
+		  <td colspan=4>&nbsp;</td>
+		  </tr>
+		<tr>
+		  <td colspan=4 align="right"><br><a HREF="/techInfoPortal/staticcontent/en/techinfo/html/prelogin/docs/canadacontents_en.pdf" TARGET="NewWin" onClick="staticContentPopupNewWin('','NewWin','width=800,height=768,scrollbars=yes,resizable=yes,left=100,top=0,toolbar=yes');">&gt;&gt;Welcome from Toyota Canada</a></td>
+		  </tr>
+		<tr>
+		   <td colspan=4 align="right"><a HREF="/techInfoPortal/staticcontent/en/techinfo/html/prelogin/docs/canadacontents_fr.pdf" TARGET="NewWin" 					onClick="staticContentPopupNewWin('','NewWin','width=800,height=768,scrollbars=yes,resizable=yes,left=100,top=0,toolbar=yes');">&gt;&gt;Instructions sur l'abonnement au TIS</a></td>
+    </tr>
+    <tr>
+		  <td colspan=4 align="left"><br><br></td>
+	</tr>
+	<tr>
+    <td><a HREF="javascript:t3link('ti_ts_lite')"><img src="/techInfoPortal/staticcontent/en/techinfo/html/prelogin/images/tslkit_small.gif" alt="TIS techstream" width="457" height="125" border="0"></a></td>  
+	</tr>
+</table>
+		<table cellspacing="0" cellpadding=0 border="0">
+	      <tr>
+	        <td width="799" rowspan="4">
+            <strong>Factory Service Information and Diagnostics for your shop!</strong>
+            <br>Need an inexpensive solution for diagnosing &amp; repairing Toyota, Scion, and Lexus vehicles?<br>
+            The NEW Techstream Lite Kit allows you to use your own PC with Techstream Software.</td>
+		<tr>
+		  <td colspan=4 align=right>&nbsp;</td>
+		  </tr>
+		  <td colspan=4>&nbsp;</td>
+		  </tr>
+		<tr>
+		  <td colspan=4>&nbsp;</td>
+		  </tr>
+		<tr>
+		  <td colspan=4 align="right"><br><a HREF="javascript:t3link('ti_ts_lite')">
+				&gt;&gt;Learn More About Techstream Lite</a></td>
+		  </tr>
+		<tr>
+		  <td colspan=4 align="right"><a HREF="javascript:t3link('ti_vehicle_reprog')">
+				&gt;&gt;Scantools &amp; Vehicle Reprogramming</a></td>
+		  </tr>
+		</table>
+        </div>
+        <!--End of CANADA Page-->
+	</body>
+</html>
+
+
+
+
+
+
+
+
+        </div>
+        
+    <table style="width:100%; height:8px;" border="0" cellpadding="0" cellspacing="0">
+        <tr style="width:100%; height:8px; white-space:nowrap;">
+            <td style="width:6px; height:8px; white-space:nowrap" class="bea-portal-details-window-content-bottom-left"><img alt="" src="/techInfoPortal/framework/skins/t3/details/images/tab.bar.bot.left.wht2gry.gif" style="width:6px; height:8px;" class="block" /></td>
+            <td style="width:100%; height:8px; background:url(/techInfoPortal/framework/skins/t3/details/images/tab.bar.bot.bg.wht2gry.png); white-space:nowrap" class="bea-portal-details-window-content-bottom"><img alt="" src="/techInfoPortal/resources/images/utils/clear.png" style="width:6px; height:8px;" class="block" /></td>
+            <td style="width:6px; height:8px; white-space:nowrap" class="bea-portal-details-window-content-bottom-right"><img alt="" src="/techInfoPortal/framework/skins/t3/details/images/tab.bar.bot.right.wht2gry.gif" style="width:6px; height:8px;" class="block" /></td>
+        </tr>
+    </table>
+    </div>
+
+    
+
+
+
+
+
+</div>
+</td>
+            
+    
+        </tr>
+    </table>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</td>
+            
+    
+        </tr>
+    
+    </table>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+
+
+
+
+
+
+
+        </div>
+        
+    </div>
+    
+
+
+
+
+
+</div>
+</td>
+            
+    
+        </tr>
+    </table>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</td>
+            
+    
+        </tr>
+    
+    </table>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+
+
+<div class="bea-portal-theme-blank">
+
+
+</div>
+
+
+
+
+
+
+
+        </div>
+        
+    </div>
+    
+
+
+
+
+
+</div>
+</td>
+            
+    
+        </tr>
+    </table>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</td>
+            
+    
+        </tr>
+    
+    </table>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+
+
+
+
+
+
+
+        </div>
+        
+    </div>
+    
+
+
+
+</div>
+
+
+
+
+
+
+
+
+    
+    <div
+        
+        class="bea-portal-body-footer"
+        
+    >
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+       
+       <script language="JavaScript" type="text/javascript" src="/techInfoPortal/resources/jsp/webtrends/s_code1.js"></script>
+       <!-- Changes done by Karthika for AppD UXM implementation- starts  -->
+<script type="text/javascript">
+    (function() {
+    	var siteinfoVar="TECHINFO_EXTERNAL";
+       
+      	if(siteinfoVar == "T3_INTERNAL"){
+				window['adrum-start-time'] = new Date().getTime();
+				(function(config){
+				    config.appKey = 'AD-AAB-AAU-NFV';
+				    config.adrumExtUrlHttp = 'http://cdn.appdynamics.com';
+				    config.adrumExtUrlHttps = 'https://cdn.appdynamics.com';
+				    config.beaconUrlHttp = 'http://col.eum-appdynamics.com';
+				    config.beaconUrlHttps = 'https://col.eum-appdynamics.com';
+				    config.xd = {enable : false};
+				})(window['adrum-config'] || (window['adrum-config'] = {}));
+				if ('https:' === document.location.protocol) {
+				    document.write(unescape('%3Cscript')
+				 + " src='https://cdn.appdynamics.com/adrum/adrum-4.5.13.2640.js' "
+				 + " type='text/javascript' charset='UTF-8'" 
+				 + unescape('%3E%3C/script%3E'));
+				} else {
+				    document.write(unescape('%3Cscript')
+				 + " src='http://cdn.appdynamics.com/adrum/adrum-4.5.13.2640.js' "
+				 + " type='text/javascript' charset='UTF-8'" 
+				 + unescape('%3E%3C/script%3E'));
+				}
+
+      	}else if(siteinfoVar == "TIS_EXTERNAL"){
+      			window['adrum-start-time'] = new Date().getTime();
+				(function(config){
+				    config.appKey = 'AD-AAB-AAU-NJU';
+				    config.adrumExtUrlHttp = 'http://cdn.appdynamics.com';
+				    config.adrumExtUrlHttps = 'https://cdn.appdynamics.com';
+				    config.beaconUrlHttp = 'http://col.eum-appdynamics.com';
+				    config.beaconUrlHttps = 'https://col.eum-appdynamics.com';
+				    config.xd = {enable : false};
+				})(window['adrum-config'] || (window['adrum-config'] = {}));
+				if ('https:' === document.location.protocol) {
+				    document.write(unescape('%3Cscript')
+				 + " src='https://cdn.appdynamics.com/adrum/adrum-4.5.13.2640.js' "
+				 + " type='text/javascript' charset='UTF-8'" 
+				 + unescape('%3E%3C/script%3E'));
+				} else {
+				    document.write(unescape('%3Cscript')
+				 + " src='http://cdn.appdynamics.com/adrum/adrum-4.5.13.2640.js' "
+				 + " type='text/javascript' charset='UTF-8'" 
+				 + unescape('%3E%3C/script%3E'));
+				}
+      	}
+      	else{
+      		window['adrum-start-time'] = new Date().getTime();
+			(function(config){
+			    config.appKey = 'AD-AAB-AAU-NKZ';
+			    config.adrumExtUrlHttp = 'http://cdn.appdynamics.com';
+			    config.adrumExtUrlHttps = 'https://cdn.appdynamics.com';
+			    config.beaconUrlHttp = 'http://col.eum-appdynamics.com';
+			    config.beaconUrlHttps = 'https://col.eum-appdynamics.com';
+			    config.xd = {enable : false};
+			})(window['adrum-config'] || (window['adrum-config'] = {}));
+			if ('https:' === document.location.protocol) {
+			    document.write(unescape('%3Cscript')
+			 + " src='https://cdn.appdynamics.com/adrum/adrum-4.5.13.2640.js' "
+			 + " type='text/javascript' charset='UTF-8'" 
+			 + unescape('%3E%3C/script%3E'));
+			} else {
+			    document.write(unescape('%3Cscript')
+			 + " src='http://cdn.appdynamics.com/adrum/adrum-4.5.13.2640.js' "
+			 + " type='text/javascript' charset='UTF-8'" 
+			 + unescape('%3E%3C/script%3E'));
+			}
+      	}
+    })();
+</script>
+<!-- Changes done by Karthika for AppD UXM implementation- ends  -->  
+       
+<script language="JavaScript" type="text/javascript"><!--
+/* You may give each page an identifying name, server, and channel on
+the next lines. */
+s.visitorID=""
+s.pageName=""
+s.server=""
+s.channel=""
+s.pageType=""
+s.prop1=""
+s.prop2=""
+s.prop3=""
+s.prop4=""
+s.prop5=""
+/* Conversion Variables */
+s.events=""
+s.eVar1=""
+s.eVar2=""
+s.eVar3=""
+s.eVar4=""
+s.eVar5=""
+/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+var s_code=s.t();if(s_code)document.write(s_code)//--></script>
+<script language="JavaScript" type="text/javascript"><!--
+if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-')
+//--></script><noscript>
+
+<img src="http://metrics.toyota.com/b/ss/tmstpappprod/1/JS-1.3--NS/0"
+height="1" width="1" border="0" alt="" /></noscript><!--/DO NOT REMOVE/-->
+<!-- End Adobe Analytics code -->
+
+
+<table border="0" cellpadding="0" cellspacing="0" style="width:100%; height:18px; background:url(/techInfoPortal/resources/images/globals/footer/footerbar.sm.bg.gif)" class="bea-portal-body-footer-table">
+  <tr style="white-space:nowrap; width:100%; height:18px;">
+    <td class="left-align" style="width:100%; height:18px; vertical-align: middle; white-space:nowrap;">
+        Toyota Motor Sales, Inc.
+    </td>
+    <td class="left-align" style="width:100%; height:18px; vertical-align:top; white-space:nowrap;"><img alt="" src="/techInfoPortal/resources/images/utils/clear.png" style="width:100%; height:18px;" class="block"></td>
+    <td class="right-align" style="white-space:nowrap; width:100%; height:18px; vertical-align: middle;">
+        <a href="https://techinfo.toyota.com:443/techInfoPortal/appmanager/t3/ti;TISESSIONID=Lr9lqm2CwDtbLPkjG1b1QcwDSS5cpp0lpGbGm5XhR8dg99QVt2jn!-1785687963?_nfpb=true&_pageLabel=ti_home_page">Home</a>&nbsp; |
+        <a href="https://techinfo.toyota.com:443/techInfoPortal/appmanager/t3/ti;TISESSIONID=Lr9lqm2CwDtbLPkjG1b1QcwDSS5cpp0lpGbGm5XhR8dg99QVt2jn!-1785687963?_nfpb=true&_pageLabel=ti_contact_us">Contact Us</a>&nbsp; |
+        <a href="https://techinfo.toyota.com:443/techInfoPortal/appmanager/t3/ti;TISESSIONID=Lr9lqm2CwDtbLPkjG1b1QcwDSS5cpp0lpGbGm5XhR8dg99QVt2jn!-1785687963?_nfpb=true&_pageLabel=ti_faq_page">FAQ</a>&nbsp; |
+        <a href="https://techinfo.toyota.com:443/techInfoPortal/appmanager/t3/ti;TISESSIONID=Lr9lqm2CwDtbLPkjG1b1QcwDSS5cpp0lpGbGm5XhR8dg99QVt2jn!-1785687963?_nfpb=true&_pageLabel=ti_sys_req_page">System Requirements</a>&nbsp; |
+        <a href="https://techinfo.toyota.com:443/techInfoPortal/appmanager/t3/ti;TISESSIONID=Lr9lqm2CwDtbLPkjG1b1QcwDSS5cpp0lpGbGm5XhR8dg99QVt2jn!-1785687963?_nfpb=true&_pageLabel=ti_links">Toyota & Industry Links</a>&nbsp; |
+        <a href="https://techinfo.toyota.com:443/techInfoPortal/appmanager/t3/ti;TISESSIONID=Lr9lqm2CwDtbLPkjG1b1QcwDSS5cpp0lpGbGm5XhR8dg99QVt2jn!-1785687963?_nfpb=true&_pageLabel=t3_payments">Payments and Refunds</a>&nbsp; |
+        <!-- added for privacy policy changes -->
+        <a href="https://techinfo.toyota.com:443/techInfoPortal/appmanager/t3/ti;TISESSIONID=Lr9lqm2CwDtbLPkjG1b1QcwDSS5cpp0lpGbGm5XhR8dg99QVt2jn!-1785687963?_nfpb=true&_pageLabel=t3_privacy">Privacy Policy</a>&nbsp; |
+        <!-- added for privacy policy changes -->
+        <a href="https://techinfo.toyota.com:443/techInfoPortal/appmanager/t3/ti;TISESSIONID=Lr9lqm2CwDtbLPkjG1b1QcwDSS5cpp0lpGbGm5XhR8dg99QVt2jn!-1785687963?_nfpb=true&_pageLabel=ti_legal">Terms of Use</a>&nbsp;&nbsp;&nbsp;
+    </td>
+  </tr>
+</table>
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+#userAgreementPopupContent{
+position: absolute;
+float: right;
+background-color: #ffffff;
+left: 25%;
+top: 15%;
+border: 1px solid black;
+font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+float:left;
+width: 45%;
+height: 55%;
+overflow:hidden;
+z-index:1002;
+}
+#userAgreementPopupMask{
+display:none;
+position:fixed;
+top:0;
+left:0;
+width:100%;
+height:100%;
+z-index:1001;
+background:#999;
+opacity:0.70;
+filter:alpha(opacity=65);
+}
+</style>
+
+
+
+<input type="hidden" id="submitWarningLogoutUrl" value="/t3Portal/resources/jsp/tessSignoff.jsp?action=logout" />
+
+<input type="hidden" id="submitTermsOfuseServletUrl"
+	value="/t3Portal/termsOfUseServlet" />
+
+<input type="hidden" id="loginStatusValue"/>
+
+
+
+	</div>
+	
+	</body>
+	
+
+
+
+<script>
+
+</script>
+
+
+
+</html>
+
+
+
+
+
+
+
+

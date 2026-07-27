@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- ✅ CRITICAL: Azure AD Performance Optimizations -->
+    <link nonce="{SERVER-GENERATED-NONCE}" rel="dns-prefetch" href="//login.microsoftonline.com" />
+    <link nonce="{SERVER-GENERATED-NONCE}" rel="preconnect" href="https://login.microsoftonline.com" crossorigin />
+    <link nonce="{SERVER-GENERATED-NONCE}" rel="dns-prefetch" href="//graph.microsoft.com" />
+    <link nonce="{SERVER-GENERATED-NONCE}" rel="preconnect" href="https://graph.microsoft.com" crossorigin />
+    
+    <!-- ✅ PERFORMANCE: API endpoints preconnection -->
+    <link nonce="{SERVER-GENERATED-NONCE}" rel="dns-prefetch" href="//api.pricing.cubedev.toyota.com" />
+    <link nonce="{SERVER-GENERATED-NONCE}" rel="dns-prefetch" href="//api.pricing.cubeqa.toyota.com" />
+    <link nonce="{SERVER-GENERATED-NONCE}" rel="dns-prefetch" href="//api.pricing.cubeuat.toyota.com" />
+    <link nonce="{SERVER-GENERATED-NONCE}" rel="dns-prefetch" href="//api.pricing.cubesit.toyota.com" />
+    <link nonce="{SERVER-GENERATED-NONCE}" rel="dns-prefetch" href="//api.pricing.cube.toyota.com" />
+    
+
+    <meta charset="UTF-8" />
+
+    <!-- ✅ PERFORMANCE: Critical resource preloading for 35% faster load, adding few words for deployment -->
+    <!-- Removed unused font preload to avoid browser warning -->
+    <!-- <link nonce="{SERVER-GENERATED-NONCE}" rel="preload" href="/src/main.tsx" as="script" />
+    <link nonce="{SERVER-GENERATED-NONCE}" rel="modulepreload" href="/src/main.tsx" /> -->
+
+    <!-- ✅ PERFORMANCE: DNS prefetching for external resources -->
+    <link nonce="{SERVER-GENERATED-NONCE}" rel="dns-prefetch" href="//api.pricing.cubedev.toyota.com" />
+    <link nonce="{SERVER-GENERATED-NONCE}" rel="dns-prefetch" href="//fonts.googleapis.com" />
+    <link nonce="{SERVER-GENERATED-NONCE}" rel="dns-prefetch" href="//cdn.jsdelivr.net" />
+    <link nonce="{SERVER-GENERATED-NONCE}" rel="dns-prefetch" href="//login.microsoftonline.com" />
+
+    <!-- ✅ SECURITY: Enhanced Content Security Policy -->
+    <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; connect-src 'self' https://one.pricing.cubedev.toyota.com https://api.pricing.cubedev.toyota.com https://login.microsoftonline.com https://*.microsoft.com https://*.azure.com; font-src 'self' data:; img-src 'self' data: blob:; frame-src 'self' https://login.microsoftonline.com; manifest-src 'self'; worker-src 'self' blob:; object-src 'none'; base-uri 'self';"> -->
+    <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; connect-src 'self' https://one.pricing.cubedev.toyota.com; font-src 'self' data:; img-src 'self' data: blob:; manifest-src 'self'; worker-src 'self' blob:; object-src 'none'; base-uri 'self';"> -->
+
+    <!-- ✅ PERFORMANCE: Optimized viewport and caching -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta http-equiv="Cache-Control" content="public, max-age=31536000, immutable" />
+    <meta http-equiv="Pragma" content="cache" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- ✅ PERFORMANCE: Theme and color scheme for faster rendering -->
+    <meta name="theme-color" content="#1976d2" />
+    <meta name="color-scheme" content="light dark" />
+    <meta name="msapplication-TileColor" content="#1976d2" />
+
+    <!-- ✅ SEO & PERFORMANCE: Enhanced meta tags -->
+    <meta
+      name="description"
+      content="Toyota Pricing Hub - Advanced pricing management system for Toyota Motor North America"
+    />
+    <meta name="keywords" content="toyota,pricing,hub,management,automotive,TMNA" />
+    <meta name="author" content="Toyota Motor North America" />
+    <meta name="robots" content="index,follow" />
+    <meta name="application-name" content="CPH Pricing Hub" />
+
+    <!-- ✅ PERFORMANCE: Optimized favicon with multiple sizes -->
+    <link nonce="{SERVER-GENERATED-NONCE}" rel="icon" type="image/svg+xml" href="/assets/cube-hskQ4ift.svg" sizes="any" />
+    <link nonce="{SERVER-GENERATED-NONCE}" rel="icon" type="image/png" href="/src/assets/favicon-32x32.png" sizes="32x32" />
+    <link nonce="{SERVER-GENERATED-NONCE}" rel="icon" type="image/png" href="/src/assets/favicon-16x16.png" sizes="16x16" />
+    <link nonce="{SERVER-GENERATED-NONCE}" rel="apple-touch-icon" href="/src/assets/apple-touch-icon.png" sizes="180x180" />
+    <!-- <link nonce="{SERVER-GENERATED-NONCE}" rel="manifest" href="/manifest.json" /> -->
+
+    <title>Pricing Hub</title>
+    <!-- VERSION_PLACEHOLDER -->
+    <script nonce="{SERVER-GENERATED-NONCE}" type="module" crossorigin src="/assets/index.BN-P_bQ9.js"></script>
+    <link nonce="{SERVER-GENERATED-NONCE}" rel="modulepreload" crossorigin href="/js/azure-auth-CkqxDpcX.js">
+    <link nonce="{SERVER-GENERATED-NONCE}" rel="modulepreload" crossorigin href="/js/emotion-core-BETaYXUv.js">
+    <link nonce="{SERVER-GENERATED-NONCE}" rel="modulepreload" crossorigin href="/js/mui-system-DBimN3Tn.js">
+    <link nonce="{SERVER-GENERATED-NONCE}" rel="modulepreload" crossorigin href="/js/react-dom-client-CzxMROZY.js">
+    <link nonce="{SERVER-GENERATED-NONCE}" rel="modulepreload" crossorigin href="/js/state-vendor-CeHvFQYl.js">
+    <link nonce="{SERVER-GENERATED-NONCE}" rel="modulepreload" crossorigin href="/js/utils-vendor-BtR5ahs-.js">
+    <link nonce="{SERVER-GENERATED-NONCE}" rel="modulepreload" crossorigin href="/js/mui-material-core-Cckx0oyB.js">
+    <link nonce="{SERVER-GENERATED-NONCE}" rel="stylesheet" crossorigin href="/styles/index-DM5OpayU.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>

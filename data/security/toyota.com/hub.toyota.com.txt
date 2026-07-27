@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+	<html lang="en-US">
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Log In &lsaquo; TCUV &#8212; WordPress</title>
+	    <style type="text/css">
+        #login h1 a, .login h1 a {
+ 		background-image: url('/wp-content/uploads/tcuv_hub_logo_header.png');
+		height:65px;
+		width:320px;
+		background-size: 320px 65px;
+		background-repeat: no-repeat;
+        	padding-bottom: 30px;
+        }
+    </style>
+<meta name='robots' content='noindex, nofollow, noarchive' />
+<script id="jquery-core-js" src="https://hub.toyota.com/wp-includes/js/jquery/jquery.min.js"></script>
+<script id="jquery-migrate-js" src="https://hub.toyota.com/wp-includes/js/jquery/jquery-migrate.min.js"></script>
+<script id="wordfence-ls-login-js-extra">
+var WFLS_LOGIN_TRANSLATIONS = {"Message to Support":"Message to Support","Send":"Send","An error was encountered while trying to send the message. Please try again.":"An error was encountered while trying to send the message. Please try again.","\u003Cstrong\u003EERROR\u003C/strong\u003E: An error was encountered while trying to send the message. Please try again.":"\u003Cstrong\u003EERROR\u003C/strong\u003E: An error was encountered while trying to send the message. Please try again.","Login failed with status code 403. Please contact the site administrator.":"Login failed with status code 403. Please contact the site administrator.","\u003Cstrong\u003EERROR\u003C/strong\u003E: Login failed with status code 403. Please contact the site administrator.":"\u003Cstrong\u003EERROR\u003C/strong\u003E: Login failed with status code 403. Please contact the site administrator.","Login failed with status code 503. Please contact the site administrator.":"Login failed with status code 503. Please contact the site administrator.","\u003Cstrong\u003EERROR\u003C/strong\u003E: Login failed with status code 503. Please contact the site administrator.":"\u003Cstrong\u003EERROR\u003C/strong\u003E: Login failed with status code 503. Please contact the site administrator.","Wordfence 2FA Code":"Wordfence 2FA Code","Remember for 30 days":"Remember for 30 days","Log In":"Log In","\u003Cstrong\u003EERROR\u003C/strong\u003E: An error was encountered while trying to authenticate. Please try again.":"\u003Cstrong\u003EERROR\u003C/strong\u003E: An error was encountered while trying to authenticate. Please try again.","The Wordfence 2FA Code can be found within the authenticator app you used when first activating two-factor authentication. You may also use one of your recovery codes.":"The Wordfence 2FA Code can be found within the authenticator app you used when first activating two-factor authentication. You may also use one of your recovery codes."};
+var WFLSVars = {"ajaxurl":"/wp-admin/admin-ajax.php","nonce":"797f8454d5","recaptchasitekey":"","useCAPTCHA":"","allowremember":"","verification":null};
+//# sourceURL=wordfence-ls-login-js-extra
+</script>
+<script id="wordfence-ls-login-js" src="https://hub.toyota.com/wp-content/plugins/wordfence/modules/login-security/js/login.1778685035.js"></script>
+<link rel='stylesheet' id='dashicons-css' href='https://hub.toyota.com/wp-includes/css/dashicons.min.css' media='all' />
+<link rel='stylesheet' id='buttons-css' href='https://hub.toyota.com/wp-includes/css/buttons.min.css' media='all' />
+<link rel='stylesheet' id='forms-css' href='https://hub.toyota.com/wp-admin/css/forms.min.css' media='all' />
+<link rel='stylesheet' id='l10n-css' href='https://hub.toyota.com/wp-admin/css/l10n.min.css' media='all' />
+<link rel='stylesheet' id='wp-base-styles-css' href='https://hub.toyota.com/wp-includes/css/dist/base-styles/admin-schemes.min.css' media='all' />
+<link rel='stylesheet' id='login-css' href='https://hub.toyota.com/wp-admin/css/login.min.css' media='all' />
+<link rel='stylesheet' id='wordfence-ls-login-css' href='https://hub.toyota.com/wp-content/plugins/wordfence/modules/login-security/css/login.1778685035.css' media='all' />
+	<meta name='referrer' content='strict-origin-when-cross-origin' />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		</head>
+	<body class="login no-js login-action-login wp-core-ui admin-color-modern locale-en-us">
+	<script>
+document.body.className = document.body.className.replace('no-js','js');
+</script>
+
+				<h1 class="screen-reader-text">Log In</h1>
+			<div id="login">
+		<h1 role="presentation" class="wp-login-logo"><a href="https://wordpress.org/">Powered by WordPress</a></h1>
+	
+		<form name="loginform" id="loginform" action="https://hub.toyota.com/wp-login.php" method="post">
+			<p>
+				<label for="user_login">Username or Email Address</label>
+				<input type="text" name="log" id="user_login" class="input ltr" value="" size="20" autocapitalize="off" autocomplete="username" required="required" />
+			</p>
+
+			<div class="user-pass-wrap">
+				<label for="user_pass">Password</label>
+				<div class="wp-pwd">
+					<input type="password" name="pwd" id="user_pass" class="input password-input ltr" value="" size="20" autocomplete="current-password" spellcheck="false" required="required" />
+					<button type="button" class="button button-secondary wp-hide-pw hide-if-no-js" data-toggle="0" aria-label="Show password">
+						<span class="dashicons dashicons-visibility" aria-hidden="true"></span>
+					</button>
+				</div>
+			</div>
+			Access Unauthorized.</br><br/>Please log into Dealer Daily to gain access to the TCUV Hub. The link can be found in the Used dropdown.<br/><br/>If you have difficulties logging into Dealer Daily, please contact the Dealer Daily Administrator.<br/><br/>If you were previously on this site, please try closing your browser window and logging in again.<br/><br/><input type="hidden" id="login_csrf" name="login_csrf" value="b8b31bd8eb" /><input type="hidden" name="_wp_http_referer" value="/wp-login.php?redirect_to=https%3A%2F%2Fhub.toyota.com%2F.well-known%2Fsecurity.txt" /><script>
+				jQuery(document).ready(function () {
+					jQuery("#loginform").append(`<div class="sso-buttons-below" style="padding-top: 35px;"></div>`);
+					var $element = jQuery("#user_login");
+					jQuery(`<div class="sso-buttons-above" style="padding-top: 15px;"></div>`).insertBefore(jQuery("label[for='"+$element.attr('id')+"']"));
+				});
+		</script>			<p class="forgetmenot"><input name="rememberme" type="checkbox" id="rememberme" value="forever"  /> <label for="rememberme">Remember Me</label></p>
+			<p class="submit">
+				<input type="submit" name="wp-submit" id="wp-submit" class="button button-primary button-large" value="Log In" />
+									<input type="hidden" name="redirect_to" value="https://hub.toyota.com/.well-known/security.txt" />
+									<input type="hidden" name="testcookie" value="1" />
+			</p>
+		</form>
+
+					<p id="nav">
+				<a class="wp-login-lost-password" href="https://hub.toyota.com/wp-login.php?action=lostpassword">Lost your password?</a>			</p>
+			<script>
+function wp_attempt_focus() {setTimeout( function() {try {d = document.getElementById( "user_login" );d.focus(); d.select();} catch( er ) {}}, 200);}
+wp_attempt_focus();
+if ( typeof wpOnload === 'function' ) { wpOnload() }
+</script>
+		<p id="backtoblog">
+			<a href="https://hub.toyota.com/">&larr; Go to TCUV</a>		</p>
+			</div>
+				<div class="language-switcher">
+				<form id="language-switcher" method="get">
+
+					<label for="language-switcher-locales">
+						<span class="dashicons dashicons-translation" aria-hidden="true"></span>
+						<span class="screen-reader-text">
+							Language						</span>
+					</label>
+
+					<select name="wp_lang" id="language-switcher-locales"><option value="en_US" lang="en" data-installed="1">English (United States)</option>
+<option value="da_DK" lang="da" data-installed="1">Dansk</option>
+<option value="de_DE" lang="de" data-installed="1">Deutsch</option>
+<option value="es_ES" lang="es" data-installed="1">Español</option>
+<option value="fr_FR" lang="fr" data-installed="1">Français</option>
+<option value="it_IT" lang="it" data-installed="1">Italiano</option>
+<option value="ja" lang="ja" data-installed="1">日本語</option>
+<option value="nl_NL" lang="nl" data-installed="1">Nederlands</option>
+<option value="pl_PL" lang="pl" data-installed="1">Polski</option>
+<option value="ru_RU" lang="ru" data-installed="1">Русский</option>
+<option value="tr_TR" lang="tr" data-installed="1">Türkçe</option>
+<option value="zh_CN" lang="zh" data-installed="1">简体中文</option>
+<option value="zh_TW" lang="zh" data-installed="1">繁體中文</option></select>
+					
+											<input type="hidden" name="redirect_to" value="https://hub.toyota.com/.well-known/security.txt" />
+					
+					
+						<input type="submit" class="button" value="Change">
+
+					</form>
+				</div>
+			
+				<script>
+			
+			jQuery('label[for="user_pass"]').show();
+			jQuery('#user_pass').show();
+			jQuery('div#login p#nav').show();
+			
+			jQuery('#user_pass').val("");
+			
+			</script>
+			<script id="clipboard-js" src="https://hub.toyota.com/wp-includes/js/clipboard.min.js"></script>
+<script id="zxcvbn-async-js-extra">
+var _zxcvbnSettings = {"src":"https://hub.toyota.com/wp-includes/js/zxcvbn.min.js"};
+//# sourceURL=zxcvbn-async-js-extra
+</script>
+<script id="zxcvbn-async-js" src="https://hub.toyota.com/wp-includes/js/zxcvbn-async.min.js"></script>
+<script id="wp-hooks-js" src="https://hub.toyota.com/wp-includes/js/dist/hooks.min.js"></script>
+<script id="wp-i18n-js" src="https://hub.toyota.com/wp-includes/js/dist/i18n.min.js"></script>
+<script id="wp-i18n-js-after">
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+//# sourceURL=wp-i18n-js-after
+</script>
+<script id="password-strength-meter-js-extra">
+var pwsL10n = {"unknown":"Password strength unknown","short":"Very weak","bad":"Weak","good":"Medium","strong":"Strong","mismatch":"Mismatch"};
+//# sourceURL=password-strength-meter-js-extra
+</script>
+<script id="password-strength-meter-js" src="https://hub.toyota.com/wp-admin/js/password-strength-meter.min.js"></script>
+<script id="underscore-js" src="https://hub.toyota.com/wp-includes/js/underscore.min.js"></script>
+<script id="wp-util-js-extra">
+var _wpUtilSettings = {"ajax":{"url":"/wp-admin/admin-ajax.php"}};
+//# sourceURL=wp-util-js-extra
+</script>
+<script id="wp-util-js" src="https://hub.toyota.com/wp-includes/js/wp-util.min.js"></script>
+<script id="wp-dom-ready-js" src="https://hub.toyota.com/wp-includes/js/dist/dom-ready.min.js"></script>
+<script id="wp-a11y-js" src="https://hub.toyota.com/wp-includes/js/dist/a11y.min.js"></script>
+<script id="user-profile-js-extra">
+var userProfileL10n = {"user_id":"0","nonce":"9a677c346e"};
+//# sourceURL=user-profile-js-extra
+</script>
+<script id="user-profile-js" src="https://hub.toyota.com/wp-admin/js/user-profile.min.js"></script>
+	</body>
+	</html>
+	
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/?utm_source=w3tc&utm_medium=footer_comment&utm_campaign=free_plugin
+
+Object Caching 46/48 objects using Redis
+Page Caching using Redis (Requested URI contains query) 
+
+Served from: hub.toyota.com @ 2026-07-27 06:09:24 by W3 Total Cache
+-->

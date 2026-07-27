@@ -1,0 +1,11 @@
+<!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Transitional//EN' 'http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd'><html xmlns='http://www.w3.org/1999/xhtml' xml:lang='en' lang='en'><head><meta http-equiv='content-type' content='text/html; charset=utf-8' /><title>POST data</title><script>    function setRequestPathCookies() {        var requestPath = window.location.pathname+window.location.search+window.location.hash;       document.cookie = "saml_request_path="+encodeURIComponent(requestPath)+";path=/;";   }</script></head><body onload='setRequestPathCookies(); document.forms[0].submit();'><noscript><p><strong>Note:</strong> Since your browser does not support JavaScript, you must press the button below once to proceed.</p></noscript><form method='post' action='https://login.microsoftonline.com/8c642d1d-d709-47b0-ab10-080af10798fb/saml2'><input type='hidden' name='SAMLRequest' value='PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+PHNh
+bWxwOkF1dGhuUmVxdWVzdCB4bWxuczpzYW1scD0idXJuOm9hc2lzOm5hbWVzOnRjOlNBTUw6Mi4w
+OnByb3RvY29sIiBEZXN0aW5hdGlvbj0iaHR0cHM6Ly9sb2dpbi5taWNyb3NvZnRvbmxpbmUuY29t
+LzhjNjQyZDFkLWQ3MDktNDdiMC1hYjEwLTA4MGFmMTA3OThmYi9zYW1sMiIgSUQ9Il81YTcxZmNm
+OS04ZjZhLTRmMTYtOTE1Yi05YmRmZjE4Yjg4ZDciIElzc3VlSW5zdGFudD0iMjAyNi0wNy0yN1Qw
+NjoxMDoyM1oiIFByb3RvY29sQmluZGluZz0idXJuOm9hc2lzOm5hbWVzOnRjOlNBTUw6Mi4wOmJp
+bmRpbmdzOkhUVFAtUE9TVCIgVmVyc2lvbj0iMi4wIj48c2FtbDpJc3N1ZXIgeG1sbnM6c2FtbD0i
+dXJuOm9hc2lzOm5hbWVzOnRjOlNBTUw6Mi4wOmFzc2VydGlvbiI+aHR0cHM6Ly9zdGFnZS1hZW0u
+YXV0aG9yLnRveW90YS5jb208L3NhbWw6SXNzdWVyPjxzYW1scDpOYW1lSURQb2xpY3kgQWxsb3dD
+cmVhdGU9InRydWUiIEZvcm1hdD0idXJuOm9hc2lzOm5hbWVzOnRjOlNBTUw6MS4xOm5hbWVpZC1m
+b3JtYXQ6ZW1haWxBZGRyZXNzIi8+PC9zYW1scDpBdXRoblJlcXVlc3Q+' /><noscript><input type='submit' value='Submit' /></noscript></form></body></html>

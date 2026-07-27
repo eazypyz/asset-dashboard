@@ -1,0 +1,77 @@
+<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="X-UA-Compatible" content="ie=edge"><title>Cube Role Management</title><meta http-equiv="Content-Security-Policy" content="default-src 'self' https: localhost:*; img-src 'self' data: https: localhost:*; script-src 'unsafe-inline' 'unsafe-eval' https: localhost:*; connect-src https: localhost:* ws://localhost:*; style-src 'unsafe-inline' https:; object-src 'none';"><meta name="importmap-type" content="systemjs-importmap"/><link rel="icon" type="image/png" href="assets/CubeLogo_old.svg"><style>body {
+      margin: 0 !important;
+      padding-right: 0 !important;
+      color: rgb(0, 0, 0);
+      font-family: "Toyota Type";
+      font-weight: 400;
+      font-size: 1rem;
+      line-height: 1.5;
+      background-color: rgb(248, 248, 249);
+    }
+    nav .css-103q87b { box-sizing: border-box; background-color: #000; }
+    nav .css-fr22hd { box-sizing: border-box; }
+    div.MuiMenu-root hr { border: none !important; }
+    div.MuiMenu-root li { padding: 6px 16px !important; margin: 0px !important; }</style><script>const host = window.location.host;
+    let rootURL = "";
+    let rootAppURL = "";
+    let childURL = "";
+
+      if (host === "one.rolemgmt.cubedev.toyota.com") {
+        rootURL    = "https://one.rolemgmt.cubedev.toyota.com/crm-root-config.js";
+        rootAppURL = "https://one.rolemgmt.cubedev.toyota.com/crm-rootapp.js";
+        childURL   = "https://rolemgmt.cubedev.toyota.com/crm-rlmngt.js";
+      } else if (host === "one.rolemgmt.cubeqa.toyota.com") {
+        rootURL    = "https://one.rolemgmt.cubeqa.toyota.com/crm-root-config.js";
+        rootAppURL = "https://one.rolemgmt.cubeqa.toyota.com/crm-rootapp.js";
+        childURL   = "https://rolemgmt.cubeqa.toyota.com/crm-rlmngt.js";
+      } else if (host === "one.rolemgmt.cubeuat.toyota.com") {
+        rootURL    = "https://one.rolemgmt.cubeuat.toyota.com/crm-root-config.js";
+        rootAppURL = "https://one.rolemgmt.cubeuat.toyota.com/crm-rootapp.js";
+        childURL   = "https://rolemgmt.cubeuat.toyota.com/crm-rlmngt.js";
+      } else if (host === "one.rolemgmt.cubesit.toyota.com") {
+        rootURL    = "https://one.rolemgmt.cubesit.toyota.com/crm-root-config.js";
+        rootAppURL = "https://one.rolemgmt.cubesit.toyota.com/crm-rootapp.js";
+        childURL   = "https://rolemgmt.cubesit.toyota.com/crm-rlmngt.js";
+      } else if (host === "one.rolemgmt.cube.toyota.com") {
+        rootURL    = "https://one.rolemgmt.cube.toyota.com/crm-root-config.js";
+        rootAppURL = "https://one.rolemgmt.cube.toyota.com/crm-rootapp.js";
+        childURL   = "https://mfe.rolemgmt.cube.toyota.com/crm-rlmngt.js";
+      } else {
+        // local development
+        rootURL    = "https://localhost:3000/crm-root-config.js";
+        rootAppURL = "https://localhost:3000/crm-rootapp.js";
+        childURL   = "https://localhost:3001/crm-rlmngt.js";
+      }
+
+      // STEP 3: Write the import map as a STATIC inline script tag
+      // It must exist in the DOM BEFORE SystemJS is loaded so it is processed immediately.
+      document.write(
+        '<script type="systemjs-importmap">' +
+        JSON.stringify({
+          imports: {
+            "react":               "https://ga.system.jspm.io/npm:react@19.1.0/index.js",
+            "react-dom":           "https://ga.system.jspm.io/npm:react-dom@19.1.0/index.js",
+            "react-dom/client":    "https://ga.system.jspm.io/npm:react-dom@19.1.0/client.js",
+            "react-dom/server":    "https://ga.system.jspm.io/npm:react-dom@19.1.0/server.js",
+            "react/jsx-runtime":   "https://ga.system.jspm.io/npm:react@19.1.0/jsx-runtime.js",
+            "react/jsx-dev-runtime": "https://ga.system.jspm.io/npm:react@19.1.0/jsx-dev-runtime.js",
+            "scheduler":           "https://ga.system.jspm.io/npm:scheduler@0.25.0/index.js",
+            // scheduler/tracing removed — React 19 dropped this module
+            "single-spa":          "https://cdn.jsdelivr.net/npm/single-spa@6.0.3/lib/es5/system/single-spa.min.js",
+            "single-spa-react":    "https://cdn.jsdelivr.net/npm/single-spa-react@6.0.1/lib/system/single-spa-react.js",
+            "single-spa-layout":   "https://cdn.jsdelivr.net/npm/single-spa-layout@1.6.0/dist/system/single-spa-layout.min.js",
+            "@crm/root-config":    rootURL,
+            "@crm/rootapp":        rootAppURL,
+            "@crm/crm-rlmngt":     childURL
+          }
+        }) +
+        '<\/script>'
+      );</script><script src="https://cdn.jsdelivr.net/npm/systemjs@6.8.3/dist/system.min.js"></script><script src="https://cdn.jsdelivr.net/npm/systemjs@6.8.3/dist/extras/amd.min.js"></script><script src="https://cdn.jsdelivr.net/npm/systemjs@6.8.3/dist/extras/named-exports.min.js"></script><script src="https://cdn.jsdelivr.net/npm/systemjs@6.8.3/dist/extras/named-register.min.js"></script></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id="app-loading" style="display:flex;align-items:center;justify-content:center;height:100vh;font-family:sans-serif;font-size:16px;color:#555;">Loading…</div><script>System.import('@crm/root-config')
+      .then(function () {
+        var el = document.getElementById('app-loading');
+        if (el) el.style.display = 'none';
+      })
+      .catch(function (err) {
+        var el = document.getElementById('app-loading');
+        if (el) el.textContent = 'Failed to load application: ' + err.message;
+      });</script><import-map-overrides-full show-when-local-storage="devtools" dev-libs></import-map-overrides-full></body></html>

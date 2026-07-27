@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><title>Validator</title>
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" href="/icon.png">
+<link rel="apple-touch-icon" href="/apple-icon.png">
+<script>
+(function(){
+  var p=window.location.pathname.replace(/\/+$/,'');
+  // If the request is for a static asset (JS, CSS, map, woff2, etc.), do NOT
+  // redirect — the file genuinely doesn't exist. This prevents CloudFront's
+  // custom error response from serving HTML as JavaScript/CSS, which would
+  // cause silent parse failures and blank pages.
+  if(/\.(js|css|map|woff2?|ttf|eot|svg|png|jpg|jpeg|gif|ico|json|txt)$/i.test(p)){
+    document.title='404';
+    document.body.innerHTML='<pre>404 Not Found</pre>';
+    return;
+  }
+  var s=p.split('/').filter(Boolean);
+  // Top-level route allow-list. MUST stay in sync with the directories
+  // under `src/app/`. We don't read Next's static-export manifest at
+  // runtime because this fallback is the FIRST thing CloudFront serves
+  // on a cold 404, before any bundle JS loads.
+  var r=["404","admin","audit","coverage","dashboard","execution","feature","help","home","notifications","suites","test-suite"];
+
+  // ── Redirect-loop guard ─────────────────────────────────────────────
+  // A missing nested page (e.g. a deploy that hasn't shipped /admin/ai-cost
+  // yet) used to spin FOREVER on the dark "Loading…": the redirect bounced
+  // /admin/ai-cost → /admin/ai-cost/ → (still no file) → fallback again, and
+  // the old sessionStorage guard does NOT persist inside the cross-origin
+  // iframe shell, so it never tripped. We now carry a hop counter in the URL
+  // (`_fbr`) which survives any storage partitioning — after 2 bounces we
+  // show a real, actionable "page not found" instead of an infinite spinner.
+  var sp=new URLSearchParams(window.location.search);
+  var hops=parseInt(sp.get('_fbr')||'0',10);if(!(hops>=0)){hops=0;}
+  var loopFlag='_fallback_redirect_'+p;
+  var ssHit=false;try{ssHit=!!sessionStorage.getItem(loopFlag);}catch(e){}
+
+  function notFound(){
+    try{sessionStorage.removeItem(loopFlag);}catch(e){}
+    document.title='Page not found';
+    document.body.innerHTML=''
+      +'<div style="display:flex;flex-direction:column;align-items:center;justify-content:center;height:100vh;margin:0;background:#0f172a;color:#cbd5e1;font-family:system-ui,-apple-system,sans-serif;gap:14px;padding:24px;box-sizing:border-box;text-align:center">'
+      +'<div style="font-size:18px;font-weight:600;color:#e2e8f0">This page isn’t available yet</div>'
+      +'<div style="font-size:13px;color:#94a3b8;max-width:520px;line-height:1.6">There’s no page deployed for <code style="color:#c7d2fe;background:#1e293b;padding:1px 6px;border-radius:4px">'+p+'</code>. This usually means a recent build hasn’t shipped this page to the CDN yet — a re-deploy + cache invalidation resolves it.</div>'
+      +'<a href="/dashboard/" style="color:#818cf8;font-size:13px;text-decoration:none;border:1px solid #334155;border-radius:8px;padding:9px 16px;margin-top:4px">← Go to dashboard</a>'
+      +'</div>';
+  }
+
+  // Either guard tripping → stop bouncing, show the real error.
+  if(hops>=2||ssHit){notFound();return;}
+  try{sessionStorage.setItem(loopFlag,'1');}catch(e){}
+
+  var prefix=(s.length>0&&r.indexOf(s[0])!==-1)?s[0]:null;
+
+  // Unknown top-level prefix → land cleanly on the /home launchpad (the home
+  // screen). We deliberately DON'T hash-encode the original path here: the
+  // prefix is unknown, so `#<path>` is a dead route that HashRouteResolver
+  // would faithfully restore — re-triggering this very fallback. We DO carry
+  // the hop counter, because the home itself can 404 on a stale/mid-migration
+  // deploy; without `_fbr` the bounce /home → fallback → /home → … spins
+  // FOREVER on "Loading…". With it, a genuinely-missing home terminates at
+  // the notFound guard above with an actionable message.
+  if(prefix===null){
+    sp.set('_fbr',String(hops+1));
+    window.location.replace('/home/?'+sp.toString());
+    return;
+  }
+
+  // Carry the incremented hop counter onto the redirect target so a genuinely
+  // missing file terminates at the guard above instead of looping.
+  sp.set('_fbr',String(hops+1));
+  var search='?'+sp.toString();
+
+  // Single-segment known route (e.g. /audit, /admin) → direct.
+  if(s.length<=1){
+    window.location.replace('/'+prefix+'/'+search+window.location.hash);
+    return;
+  }
+
+  // Query-param ID routes: these pages carry their dynamic id in `?id=`, NOT
+  // as a path segment (NAV_ROUTES — a path segment forces an RSC fetch that
+  // doesn't exist in the static export). A raw path-segment deep-link/bookmark
+  // (/suites/folder/<id>, /test-suite/<id>, /feature/<id>) therefore has no
+  // static file and used to bounce to a black "Loading…" → "not available".
+  // Rewrite it onto the pre-rendered route BASE with the id moved to ?id= so
+  // the page resolves. NOTE: `execution` is deliberately EXCLUDED — it has a
+  // real nested static route (/execution/runs-dashboard) that must not be
+  // mistaken for an id; its detail view is reached via ?id= query already.
+  var idRoutes={'suites/folder':'/suites/folder/','test-suite':'/test-suite/','feature':'/feature/','coverage':'/coverage/'};
+  var joined=s.join('/');
+  for(var base in idRoutes){
+    if(joined.indexOf(base+'/')===0){
+      var rest=joined.slice(base.length+1).split('/');
+      var id=rest[0];
+      if(id){
+        sp.set('id',decodeURIComponent(id));
+        // /feature/<featureId>/<testScenarioId> carries a SECOND id segment.
+        // Preserve it as ?scenarioId= so the feature catch-all route
+        // (FeatureParamsRouter reads searchParams.get('scenarioId')) opens the
+        // scenario directly instead of dropping it (the deep-link black-screen
+        // bug). Other id routes only have the single ?id= segment.
+        if(base==='feature'&&rest[1]){
+          sp.set('scenarioId',decodeURIComponent(rest[1]));
+        }
+        window.location.replace(idRoutes[base]+'?'+sp.toString()+window.location.hash);
+        return;
+      }
+    }
+  }
+
+  // Nested route under a known prefix. Every section ships nested static
+  // files (`out/<prefix>/<sub>/index.html` — e.g. admin/ai-cost,
+  // execution/runs-dashboard, dashboard/folder), so redirect DIRECTLY to the
+  // nested index. CloudFront serves it natively and the page loads in place,
+  // preserving the query string + hash.
+  window.location.replace('/'+s.join('/')+'/'+search+window.location.hash);
+})();
+</script>
+</head><body><div style="display:flex;align-items:center;justify-content:center;height:100vh;background:#0f172a"><div style="color:#94a3b8;font-size:14px;font-family:system-ui,-apple-system,sans-serif">Loading…</div></div></body></html>

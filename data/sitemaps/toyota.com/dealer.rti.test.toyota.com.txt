@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" data-critters-container>
+  <head><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script>
+      // redirect RTI to DD365 Platorm
+      if(window.location.host.indexOf('.rti') > -1){
+        switch(window.location.host){
+          case 'dealer.rti.dev.toyota.com':
+            window.location.href = 'https://dev.dealer.toyota.com/inventory/summary';
+            break;
+          case 'dealer.rti.test.toyota.com':
+            window.location.href = 'https://test.dealer.toyota.com/inventory/summary';
+            break;
+          case 'dealer.rti.qa.toyota.com':
+            window.location.href = 'https://qa.dealer.toyota.com/inventory/summary';
+            break;
+          case 'dealer.rti.stage.toyota.com':
+            window.location.href = 'https://stage.dealer.toyota.com/inventory/summary';
+            break;
+        }
+      }
+    </script>
+    <meta charset="utf-8">
+    <title>Dealer Daily</title>
+    <base href="/">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="msapplication-TileColor" content="#cc0000">
+    <meta name="theme-color" content="#ffffff">
+    <style>@font-face{font-family:'Material Icons';font-style:normal;font-weight:400;src:url(https://fonts.gstatic.com/s/materialicons/v145/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2) format('woff2');}.material-icons{font-family:'Material Icons';font-weight:normal;font-style:normal;font-size:24px;line-height:1;letter-spacing:normal;text-transform:none;display:inline-block;white-space:nowrap;word-wrap:normal;direction:ltr;-webkit-font-feature-settings:'liga';-webkit-font-smoothing:antialiased;}</style>
+
+    <link rel="icon" type="image/x-icon" href="dd-asset/icons/favicons/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="dd-asset/icons/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="dd-asset/icons/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="dd-asset/icons/favicons/favicon-16x16.png">
+    <link rel="manifest" href="dd-asset/icons/favicons/site.webmanifest">
+    <link rel="mask-icon" href="dd-asset/icons/favicons/safari-pinned-tab.svg" color="#cc0000">
+  </head>
+  <body>
+    <dd-local-app></dd-local-app>
+  <script src="scripts.17171fef517fbc39.js" defer></script><script src="main.7a9bba39d292a71e.js" type="module"></script></body>
+</html>

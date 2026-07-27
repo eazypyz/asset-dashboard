@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=9,chrome=1" />
+    <!--CSS files -->
+        <link href="/Content/Internal/CSS/Brand/dd_login_toyota.css" rel="stylesheet" type="text/css"/>
+        <link href="/Content/Internal/CSS/Brand/dd_toyota.css" rel="stylesheet" type="text/css"/>
+
+    <link rel="shortcut icon" href="/Content/Internal/images/dealerdaily.ico" />
+    <link rel="stylesheet" type="text/css" href="/Content/Internal/CSS/dd_login.css" />
+    <title>Dealer Daily Login</title>
+</head>
+<body>
+    <div class="center dd-Login">
+        <div id="Login">
+            <div class="dd-lft-mar-20">
+                <div id="dd-Logo">
+                    <div class="dd-LoginError">
+                    </div>
+                </div>
+                <div class="dd-LoginBox dd-lft-flt" style="padding-top:150px;">
+                    <div class="container-left">
+                        <div class="dd-ErrorImageContainer">
+                            <div class="dd-page-error-icon" />
+                        </div>
+                    </div>
+                    <div class="container-left" style="width:350px;padding-top:25px;">
+                    <div class="dd-Logindetails-Errorpage" style="width:800px;  font-size: 14px !important;">
+                        An unexpected exception occurred while processing your request. Please contact the Dealer Daily support desk at (877) 353-2459, (877) DL-DAILY (US)  or (01800) 276-9633, (01800) APOYO-DD (Mexico) to create a problem ticket. Error code: 404
+                        </div>
+                            <div style="font-size: 20px; width: 350px; padding-top: 25px;">
+                                <a href="https://cpssologin-dc2.stg.toyota.com/oam/server/logout?end_url=https://dealerdailyfr.qa.toyota.com" class="dd-underlinelink dd-logout">Logout</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,1210 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html>
+<head>
+<title>Login</title>
+<meta content="IE=edge" http-equiv="X-UA-Compatible">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Expires" content="-1">
+<meta http-equiv="Cache-control" content="no-cache">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" /> 
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+//Links to Document view Servlet
+function t3link(pageLabel, anchor) {
+    var uri = "https://one.tis.toyota.com:443/techInfoPortal/loginpage/customLogin.jsp;TISESSIONID=nmY7qm2Q8S6zGTzGQzW0DJ7TXzLy17fxLLwHLQPyVvHWZVGZ7nvs!1790559655?_pageLabel=_LABEL_&_nfpb=true";
+    uri = uri.replace("_LABEL_",pageLabel);
+    if (anchor != null) uri += "#" + anchor;
+    document.location = uri;
+}
+
+//Links to Software download Servlet
+function t3linkSoftware(uri, name, version, date) {
+    var url = "https://one.tis.toyota.com/techInfoPortal/software_URI_?softwareName=_NAME_&softwareVersion=_VERSION_&softwareReleaseDate=_DATE_";
+
+    url = url.replace("_URI_",uri);
+
+    if(version != null) {
+        url = url.replace("_VERSION_",version);
+    } else {
+        url = url.replace("_VERSION_","");
+    }
+    if(name != null) {
+        url = url.replace("_NAME_",name);
+    } else {
+        url = url.replace("_NAME_","");
+    }
+    if(date != null) {
+        url = url.replace("_DATE_",date);
+    } else {
+        url = url.replace("_DATE_","");
+    }
+
+    //Need to work around IE "feature" that mangles file names ending with .exe or .dll
+    //(See article KB221805 on Microsoft support site)
+    if (uri.substring(uri.length-4) == '.exe') {
+        url += '&ext=.exe';
+    }
+    if (uri.substring(uri.length-4) == '.dll') {
+        url += '&ext=.dll';
+    }
+
+    document.location = url;
+}
+
+  /* Release 17.04 -T300020307 Defect Fixes Starts */
+function tcilinkSoftware(uri, name, version, date) {
+    var url = "https://one.tis.toyota.com/techInfoPortal/software_URI_?softwareName=_NAME_&softwareVersion=_VERSION_&softwareReleaseDate=_DATE_";
+
+    url = url.replace("_URI_",uri);
+
+    if(version != null) {
+        url = url.replace("_VERSION_",version);
+    } else {
+        url = url.replace("_VERSION_","");
+    }
+    if(name != null) {
+        url = url.replace("_NAME_",name);
+    } else {
+        url = url.replace("_NAME_","");
+    }
+    if(date != null) {
+        url = url.replace("_DATE_",date);
+    } else {
+        url = url.replace("_DATE_","");
+    }
+
+    //Need to work around IE "feature" that mangles file names ending with .exe or .dll
+    //(See article KB221805 on Microsoft support site)
+    if (uri.substring(uri.length-4) == '.exe') {
+        url += '&ext=.exe';
+    }
+    if (uri.substring(uri.length-4) == '.dll') {
+        url += '&ext=.dll';
+    }
+    
+    if(url!=null)
+    	{
+    	url+= '&tciContent=tciContent';
+    	}
+
+    document.location = url;
+}
+/* Release 17.04 -T300020307 Defect Fixes Ends */
+
+//Links to Document view Servlet
+function t3popup_staticcontent(contentURI, title, isDivisionSpecific, target, features, windowTitle) {
+    var uri = "https://one.tis.toyota.com:443/techInfoPortal/portlets/content/generic/StaticContent/StaticContent.portlet;TISESSIONID=nmY7qm2Q8S6zGTzGQzW0DJ7TXzLy17fxLLwHLQPyVvHWZVGZ7nvs!1790559655";
+    var t3Index = uri.indexOf(";T3SESSIONID=");
+    if(t3Index>0)
+        uri = uri.substring(0, t3Index);
+   
+    //ForgeRock Changes Adding logic to avoid two question mark in uri :: NTS - 681 : Starts
+    if(uri.indexOf("?") > -1) {
+		uri += "&_portlet.skeleton=details";
+	} else {
+		uri += "?_portlet.skeleton=details";
+	}
+	
+	//ForgeRock Changes Adding logic to avoid two question mark in uri :: NTS - 681 : Ends
+    uri += "&_portlet.skeletonPath=/framework/skeletons/t3";
+    uri += "&_portlet.skin=details";
+    uri += "&_portlet.skinPath=/framework/skins/t3";
+
+    uri += "&ContentURI=" + contentURI;
+    uri += "&title=" + title;
+    if (isDivisionSpecific != null && isDivisionSpecific != '') uri += "&isDivisionSpecific=" + isDivisionSpecific;
+    if (windowTitle != null && windowTitle != '') uri += "&WindowTitle=" + windowTitle;
+    if (target == null) target = '';
+    if (features == null) features = "width=640,height=480,scrollbars=yes,menubar=no,resizable=yes";
+    window.open(uri,target,features);
+}
+
+
+function t3popup_prelogin_staticcontent(contentURI, title, isDivisionSpecific, target, features, windowTitle) {
+    var uri = "/techInfoPortal"+"/appmanager/t3/staticcontent?_nfpb=true&_pageLabel=techinfoPreLogin_staticcontent";
+    var t3Index = uri.indexOf(";T3SESSIONID=");
+    if(t3Index>0)
+        uri = uri.substring(0, t3Index);
+
+    //uri += "?_portlet.skeleton=details";
+  //  uri += "&_portlet.skeletonPath=/framework/skeletons/t3";
+    //uri += "&_portlet.skin=details";
+   // uri += "&_portlet.skinPath=/framework/skins/t3";
+
+    //uri + = "https://techinfo.qa2ddc.toyota.com/techInfoPortal/appmanager/t3/staticcontent?";
+
+    uri += "&ContentURI=" + contentURI;
+    uri += "&title=" + title;
+    if (isDivisionSpecific != null && isDivisionSpecific != '') uri += "&isDivisionSpecific=" + isDivisionSpecific;
+    if (windowTitle != null && windowTitle != '') uri += "&WindowTitle=" + windowTitle;
+    if (target == null) target = '';
+    if (features == null) features = "width=640,height=480,scrollbars=yes,menubar=no,resizable=yes";
+    window.open(uri,target,features);
+}
+
+//Links to dynamic portlet in a popup
+function t3popup_dynamic(portletTitle, features) {
+    var uri = '';
+    if(portletTitle == 'Software Feedback')
+    {
+        uri = "https://one.tis.toyota.com:443/techInfoPortal/portlets/tis/feedback/software/SoftwareFeedbackController.portlet;TISESSIONID=nmY7qm2Q8S6zGTzGQzW0DJ7TXzLy17fxLLwHLQPyVvHWZVGZ7nvs!1790559655?_portlet.title=Software+%2F+Diagnostic+Feedback&_portlet.skeleton=details&_portlet.skeletonPath=%2Fframework%2Fskeletons%2Ft3&_portlet.skin=details&_portlet.skinPath=%2Fframework%2Fskins%2Ft3";
+    }
+    else if(portletTitle == 'Additional Technical Training Resources')
+    {
+
+    	 uri = "https://one.tis.toyota.com:443/techInfoPortal/portlets/tis/document/searchUplift/form/searchForm/addedFeaturedContent/AddedFeaturedContent.portlet;TISESSIONID=nmY7qm2Q8S6zGTzGQzW0DJ7TXzLy17fxLLwHLQPyVvHWZVGZ7nvs!1790559655?_portlet.title=Additional+Technical+Training+Resources&_portlet.skeleton=details&_portlet.skeletonPath=%2Fframework%2Fskeletons%2Ft3&_portlet.skin=details&_portlet.skinPath=%2Fframework%2Fskins%2Ft3";
+    }
+    if (features == null) features = "width=640,height=480,scrollbars=yes,menubar=no,resizable=yes";
+    window.open(uri,'',features);
+}
+
+//Close popup window and redirect user to
+//a page in portal by clicking
+//a link in the popup window
+function t3popup_redirect(pageLabel)
+{
+    var uri = "/techInfoPortal"+"/appmanager/t3/int"+"?_nfpb=true&_pageLabel="+pageLabel;
+    if (window.opener == null) {
+        window.location.href = uri;
+    } else {
+        window.opener.location.href = uri;
+        window.close();
+    }
+}
+
+//Links to static content in Document view
+function t3link_staticcontent(contentURI, title, isDivisionSpecific) {
+    var uri = "https://one.tis.toyota.com:443/techInfoPortal/portlets/content/generic/StaticContent/StaticContent.portlet";
+	//ForgeRock Changes Adding logic to avoid two question mark in uri :: NTS - 681 : Starts
+	if(uri.indexOf("?") > -1) {
+		uri += "&_portlet.skeleton=details";
+	} else {
+		uri += "?_portlet.skeleton=details";
+	}
+    //ForgeRock Changes Adding logic to avoid two question mark in uri :: NTS - 681 : Ends
+    uri += "&_portlet.skeletonPath=/framework/skeletons/t3";
+    uri += "&_portlet.skin=details";
+    uri += "&_portlet.skinPath=/framework/skins/t3";
+
+    uri += "&ContentURI=" + contentURI;
+    uri += "&title=" + title;
+    if (isDivisionSpecific != null && isDivisionSpecific != '') uri += "&isDivisionSpecific=" + isDivisionSpecific;
+    document.location = uri;
+}
+
+//Links to SnapOn page
+function t3linkSnapOn(pageLabel, srcUrl) {
+    var uri = "https://one.tis.toyota.com:443/techInfoPortal/loginpage/customLogin.jsp;TISESSIONID=nmY7qm2Q8S6zGTzGQzW0DJ7TXzLy17fxLLwHLQPyVvHWZVGZ7nvs!1790559655?_pageLabel=_LABEL_&_nfpb=true";
+    uri = uri.replace("_LABEL_",pageLabel);
+    uri += "&SourceUrl=" + srcUrl;
+    document.location = uri;
+}
+
+function t3_rssfeedReaders_popup() {
+	//alert('t3_rssfeedReaders_popup');
+    var uri = '';
+        uri = "https://one.tis.toyota.com:443/techInfoPortal/portlets/content/home/rssfeed/RssFeedSubscription.portlet;TISESSIONID=nmY7qm2Q8S6zGTzGQzW0DJ7TXzLy17fxLLwHLQPyVvHWZVGZ7nvs!1790559655?_portlet.title=Select+Your+RSS+Reader&_portlet.skeleton=details&_portlet.skeletonPath=%2Fframework%2Fskeletons%2Ft3&_portlet.skin=details&_portlet.skinPath=%2Fframework%2Fskins%2Ft3";
+    var features = "width=450,height=170,left=400,top=400,scrollbars=no,menubar=no,resizable=no";
+    //alert("URL "+uri);
+    window.open(uri,'',features);
+    //alert('window '+window.opener)
+    
+}
+
+function t3_rssfeedURL_popup(id) {
+	window.close();
+    var uri = '';
+    if(id =="en")
+    	{
+        uri = "https://one.tis.toyota.com:443/techInfoPortal/portlets/content/home/rssfeed/RssFeedCopyURL.portlet;TISESSIONID=nmY7qm2Q8S6zGTzGQzW0DJ7TXzLy17fxLLwHLQPyVvHWZVGZ7nvs!1790559655?_portlet.title=RSS+Feed&_portlet.skeleton=details&_portlet.skeletonPath=%2Fframework%2Fskeletons%2Ft3&_portlet.skin=details&_portlet.skinPath=%2Fframework%2Fskins%2Ft3";
+    	}
+    else if(id =="fr")
+    	{
+    	uri = "https://one.tis.toyota.com:443/techInfoPortal/portlets/content/home/rssfeed/RssFeedCopyURL.portlet;TISESSIONID=nmY7qm2Q8S6zGTzGQzW0DJ7TXzLy17fxLLwHLQPyVvHWZVGZ7nvs!1790559655?_portlet.title=Fil+RSS&_portlet.skeleton=details&_portlet.skeletonPath=%2Fframework%2Fskeletons%2Ft3&_portlet.skin=details&_portlet.skinPath=%2Fframework%2Fskins%2Ft3";
+    	}
+    else
+    	{
+    	uri = "https://one.tis.toyota.com:443/techInfoPortal/portlets/content/home/rssfeed/RssFeedCopyURL.portlet;TISESSIONID=nmY7qm2Q8S6zGTzGQzW0DJ7TXzLy17fxLLwHLQPyVvHWZVGZ7nvs!1790559655?_portlet.title=RSS+Alimentar&_portlet.skeleton=details&_portlet.skeletonPath=%2Fframework%2Fskeletons%2Ft3&_portlet.skin=details&_portlet.skinPath=%2Fframework%2Fskins%2Ft3";
+    	}
+    var features = "width=650,height=140,left=350,top=400,scrollbars=no,menubar=no,resizable=no";
+    window.open(uri,'',features);
+}
+
+function t3_open_rssFeedURL()
+{
+	window.close();
+	
+	window.open("https://one.tis.toyota.com/techInfoPortalnull");
+}
+
+function t3_subscribe_rssfeed_google()
+{
+	window.close();
+	
+	var googleRssFeedURLWindow = "http://www.google.com/ig/add?feedurl="+"https://one.tis.toyota.com/techInfoPortalnull";
+	window.open(googleRssFeedURLWindow);
+}
+
+function t3_subscribe_rssfeed_outlook()
+{
+	window.close();
+	
+	var outlookRssFeedURLWindow = "outlookfeed://"+"one.tis.toyota.com/techInfoPortalnull" ;
+	window.open(outlookRssFeedURLWindow);
+}
+</script>
+<link rel="stylesheet" type="text/css" href="/techInfoPortal/resources/css/login.css" />
+ <script type="text/javascript" src="/techInfoPortal/framework/skins/t3/js/all-t3.js"></script>
+<script type="text/javascript">
+	var flowForValidation = "proceed";
+	
+	var cookieName = "rem_me_cookie_tis";
+	var cookieNameForChangeDealer = "rem_me_cookie_tisChangeDealer";
+	var serverNameLang = "TIS";
+	var authIndexValue = "TIS";
+	var applicationUri = "/t3Portal";
+	var techinfoAppName = "Techinfo";
+	
+	function createCookie(cname, cvalue, expirySeconds) {
+		var d = new Date();
+		d.setTime(d.getTime() + (expirySeconds * 1000));
+		var expires = "expires=" + d.toGMTString();
+		document.cookie = cname + "=" + cvalue + "; " + expires;
+	}
+	
+	function deleteCookie(name) {
+		createCookie(name, "", -1);
+	}
+	
+	function getCookie(cname) {
+		var name = cname + "=";
+		var ca = document.cookie.split(';');
+		for ( var i = 0; i < ca.length; i++) {
+			var c = ca[i];
+			while (c.charAt(0) == ' ')
+				c = c.substring(1);
+			if (c.indexOf(name) == 0) {
+				return c.substring(name.length, c.length);
+			}
+		}
+		return "";
+	}
+	
+	function disableSubmitButton()
+	{
+		document.getElementById('submit').disabled = true;
+		document.getElementById('submit').className = 'login-submit-disable';
+	}
+       
+</script>
+</head>
+<body style="align: center" onload=enableOrDisableSubmit()>
+
+<div class="image-form-div" id="image-form-div">
+	<table width=100% height=450px id="table_background" style="background-size: 100%;">
+	<tr>
+	<td width=68% align="center"></td>
+	<td width=30% align="center">
+	<div id="form-div" style ="display:none;width:300px;height:400px; border:1px solid; background-image: url('/techInfoPortal/resources/images/plain.jpg') ;background-repeat: repeat-y;background-repeat: repeat;" >
+		
+		<form NAME="loginForm" action="https://ep.fram.idm.toyota.com/openam/json/realms/root/realms/dealerdaily/authenticate" onsubmit="disableSubmitButton()"  method="post" id="loginForm" >
+		<table class="formTable" style="border-bottom:1px solid;">
+			<tr>
+				<td colspan="3" align="center"><input type="hidden" id="chng" value="en"></td>
+			</tr>	
+			<tr id="tableLangTRId">
+				<td colspan="3" align="center">
+					<table id="tableLangId">
+						<tr align="center" >
+							<td align="center" colspan="3"> <span>Select Language</span>
+							</td>
+						</tr>
+						<tr align="center">
+						<!-- PST-4523 TIS pre-login terms of use Header changes - starts -->
+							<td align="center" style="padding-right: 10px;"><input type="radio" name="languageId" value="en" id="engId" onclick="changeLanguage()" > English </input> </td>
+							<td align="center" style="padding-right: 10px;"><input type="radio" name="languageId" value="fr" id="frId" onclick="changeLanguage()" > Français  </input></td> 
+							<td align="center" style="padding-right: 10px;"><input type="radio" name="languageId" value="es" id="esId" onclick="changeLanguage()" > Español </input></td>
+						<!-- PST-4523 TIS pre-login terms of use Header changes - starts -->
+						</tr>
+					</table>
+				</td>
+			</tr>	
+			<tr style="height:25px" >
+				<td style="width:25px;"></td>
+				<td style="text-align:center;"><span>Select User Type</span></td>
+				<td style="width:25px"></td>
+			</tr>	
+			<tr style="height:25px">
+				<td style="width:25px;"></td>
+				<td align="center" style="height:22px;" class="form-td-pad-select">
+				<select id="userType" tabindex="1" onchange="selectUserType(this)">
+				</select>
+		    	</td>
+		    	<td style="width:25px"></td>
+			</tr>
+			<tr style="height:25px" >
+				<td style="width:25px;"></td>
+				<td style="text-align:center;"><div id="areaText"> </div></td>
+				<td style="width:25px"></td>
+			</tr>	
+			<tr style="height:22px">
+				<td style="width:25px;"></td>
+				<td align="center" style="height:22px;" class="form-td-pad-select">
+				<select id="userRegion" tabindex="2" onchange="selectUserRegion(this)" style="display:none">
+				</select>
+		    	</td>
+		    	<td style="width:25px"></td>
+			</tr>
+			<tr style="height:35px">
+				<td style="width:25px; padding-left: 5px" id="usernameText" ></td>
+				<td align=center style="height:32px;"><input type="text" tabindex="3" name="X-OpenAM-Username" id="username" required onKeyup="enableOrDisableSubmit()" style="display:none"/></td>
+				<td style="width:25px"></td>
+			</tr>
+			<tr style="height:35px"> 
+				<td style="width:25px; padding-left: 5px" id="passwordText"></td>
+				<td align=center style="height:32px;"><input type="password" tabindex="4" name="X-OpenAM-Password" id="password"  required onKeyup="enableOrDisableSubmit()"  style="display:none"/></td>
+				<td style="width:25px"></td>				
+			</tr>		
+			<tr style="height:20px">
+				<td style="width:25px;"></td>
+				<td align="left" class="form-td-pad-more" style="padding-left:50px; padding-bottom:5px;"><input type="checkbox" tabindex="5" name="rememberMe" id="rememberMe""/><span id="rememberMeCheckBox">Remember my choice</span></td>
+				<td style="width:25px"></td>	
+			</tr>
+			</table>
+			<div class="error-message-div" style="text-align: center;height:45px;padding:0.5px" id="errorData" style="height:45px"></div>
+			<table class="formTable">
+			<tr style="height:20px">
+				<td style="width:25px"></td>
+				<td align="left" class="form-td-pad-more"><div style="padding-left:50px" ><input type="checkbox" tabindex="6" name="terms" id="terms" onclick="enableOrDisableSubmit()"/><span>I have read and accepted</span></div>			
+				<div style="padding-left:78px ;padding-bottom:10px;">
+				<!-- PST-1021 changes -->
+				<!-- PST-4524 TIS pre-login terms of use Link changes - starts -->
+				<a tabindex="7" HREF="#" onClick="window.open('/techInfoPortal/staticcontent/en/techinfo/html/prelogin/footer.legalstuff.html', 'Terms Of Use', 'width=1200,height=600,scrollbars=yes,resizable=yes,left=10,top=10');">Terms of Use</a></div></td>
+				<!-- PST-4524 TIS pre-login terms of use Link changes - ends -->
+				<td style="width:25px"></td>											
+			</tr>
+			<tr style="height:32px">
+				<td style="width:25px"></td>
+				<td align=center style="height:32px;padding-left:30px ;">
+				<input type="button" tabindex="8" name ="submit" class="login-submit-disable" id="submit" value="Login" onclick="onClickProceed('login')" style="padding-left: 5px;width: 150px; height:32px;display:none;">
+				<input type="button" tabindex="9" name ="submit" class="login-submit-disable" id="proceed" value="Proceed"  onclick="onClickProceed('proceed')" style="width: 150px; height:32px; "></td>
+				<td style="width:25px"></td>
+			</tr>
+			<tr style="height:5px">
+				<td style="width:25px"></td>
+				<td></td>
+				<td style="width:25px"></td>
+			</tr>	
+		</table>
+		<input name="Accept-API-Version" type="hidden" value="resource=2.0, protocol=1.0">
+		<input name="X-Requested-With" type="hidden" value="X-FR-TMNA-Rest-API">
+                <input name="request_url" id="request_url" type="hidden">
+		</form>
+	</div>
+	<div id="notAuthorized-div" style="display:none;border:1px solid; background-image: url('/techInfoPortal/resources/images/plain.jpg');background-repeat: repeat;">You are not authorized to view this page</div>
+	<div id="pleaseWait-div" style="border:1px solid; background-image: url('/techInfoPortal/resources/images/plain.jpg');background-repeat: repeat;">Loading, Please wait...</div>
+	
+	</td>
+	<td width=2%></td>
+</tr>
+</table>
+</div>
+<div class="footer-div" id="footerDiv"></div>
+<div style="display: none">
+	<iframe  name='iFrameForCookieClear' id="iFrameForCookieClear">
+	</iframe>
+</div>
+
+<div id="managedserver" style="display: none">ms6</div>	
+</body>
+<script type="text/javascript">
+
+	requestIdUpdate();      
+	
+	function requestIdUpdate() {
+		var decodeURL = "https://one.tis.toyota.com:443/robots.txt";
+	    var urlValue = decodeURIComponent(decodeURI(decodeURL));
+	    if(urlValue.indexOf("/serviceLane/mobile") !== -1){
+            urlValue = urlValue.replace("/serviceLane/mobile", "/serviceLane/");
+            window.location.replace(urlValue);
+        }
+	    //security vulnerability fix starts 
+	    var securityFixEnableFlag = "Y";
+	    
+	    if (securityFixEnableFlag=="Y"){	    
+		    var pattern = new RegExp(/[!#$*();|]/); //unacceptable chars
+		    var acceptablepattern = new RegExp(/^(http|https):\/\/(\w+:{0,1}\w*)?(\S+)(:[0-9]+)?(\/|\/([\w#!:.?+=&%!\-\/\']))?/);
+		    
+		    if((pattern.test(urlValue)) || !(acceptablepattern.test(urlValue)))
+	    	{
+	    		urlValue = "/techInfoPortal"+"/resources/jsp/t3error.jsp";
+	    		document.getElementById('request_url').value = urlValue;
+				window.location.href = urlValue;	
+	    	}
+		    else{
+	    		 document.getElementById('request_url').value = urlValue;
+	    		 setTimeout(function(){ refreshURL(); }, 840000);
+		    }
+		    //security vulnerability fix ends
+	    }
+	    else{
+		    document.getElementById('request_url').value = urlValue;
+		    setTimeout(function(){ refreshURL(); }, 840000);
+	    }
+	}
+	
+	function refreshURL() {
+	    var url = document.getElementById('request_url').value;
+	    window.location.href = url;
+	}
+	
+	function onCustomFocus(cntrl,value)
+	{
+		var temp = cntrl.value;
+		if(temp =='User ID'||temp =='Password')
+			cntrl.value = "";
+	}
+
+	function onCustomKeyDown(cntrl,value)
+	{	
+	    if(cntrl.value== value)
+	    {
+	       cntrl.value = '';
+	    }
+	} 
+	
+	function onCustomKeyUpSecond(cntrl,value)
+	{	
+		if(cntrl.value.length > 0 && cntrl.value!= value)
+	    {
+	       cntrl.style.color     = 'black';
+	    }
+	}
+	
+	function onCustomBlur(cntrl,value)
+	{
+	    if (cntrl.value == '') 
+	    {
+	       cntrl.style.color     = 'gray';
+	       cntrl.value           = value;                         
+	    }
+	}
+
+	if("TIS"=="T3"){
+		footerDiv.innerHTML = "This is a secure site, limited to authorized Toyota and Lexus personnel only. </br>If you already have credentials, please login. Otherwise, you may contact your local helpdesk.";
+		document.getElementById("table_background").style.backgroundImage = "url('/techInfoPortal/resources/images/t3Login.png')";
+	}	
+	else {
+		footerDiv.innerHTML = "This is a secure site, limited to authorized Toyota and Lexus dealers only. If you already have credentials, please login. ";
+		if("en"=="en"){
+			document.getElementById("table_background").style.backgroundImage = "url('/techInfoPortal/resources/images/tisLogin.png')";
+		} else if("en"=="fr"){
+			document.getElementById("table_background").style.backgroundImage = "url('/techInfoPortal/resources/images/tisLoginFrench.jpg')";
+		} else if("en"=="es"){
+			document.getElementById("table_background").style.backgroundImage = "url('/techInfoPortal/resources/images/tisLoginSpanish.jpg')";
+		} 
+		
+	}
+
+	function enableOrDisableSubmit() {
+        // Cookie detection
+        var reqid = document.getElementById('request_url').value;
+        document.cookie = "COOKIECHECK=cookies_enabled; path=/";
+        if(document.cookie.indexOf("COOKIECHECK=cookies_enabled") < 0)
+        {
+			alert("Cookies disabled. The site requires Cookies to be enabled.");
+			return false;
+        }
+        if (reqid==null || reqid=="")
+        {
+			alert("You have come directly to the login page. Please access the application instead.");
+			return false;
+        }
+
+	
+		var terms = document.getElementById("terms");
+		var cansubmit = true;
+		var userTypeSelected = document.getElementById("userType").value;
+		var userRegionSelected = document.getElementById("userRegion").value;
+		if(flowForValidation=="login"){		
+			var username = document.getElementById("username");
+			var password = document.getElementById("password");
+			
+			if (!(username.value.length > 0 && username.value!='User ID' && password.value.length > 0 && password.value!='Password' && terms.checked == true))
+				cansubmit = false;
+	
+			if (cansubmit){
+				document.getElementById('submit').disabled = false;
+				document.getElementById('submit').className = 'login-submit-enable';
+			}
+			else {
+				document.getElementById('submit').disabled = true;
+				document.getElementById('submit').className = 'login-submit-disable';
+			}
+		}
+		else { 
+			if (terms.checked == true){	
+				if((checkTwoStepFlow(userTypeSelected)==true && (userRegionSelected!=null && userRegionSelected!="none" && userRegionSelected!=""))){	
+					document.getElementById('proceed').disabled = false;
+					document.getElementById('proceed').className = 'login-submit-enable';
+				}
+				else if((checkTwoStepFlow(userTypeSelected)==false && (userRegionSelected!=null && userTypeSelected!="none" && userRegionSelected!=""))){				
+					document.getElementById('proceed').disabled = false;
+					document.getElementById('proceed').className = 'login-submit-enable';
+				}
+				else if((checkTwoStepFlow(userTypeSelected)==true && (userRegionSelected==null||userRegionSelected=="none" || userRegionSelected==""))){					
+					document.getElementById('proceed').disabled = true;
+					document.getElementById('proceed').className = 'login-submit-disable';
+				}
+				else if((checkTwoStepFlow(userTypeSelected)==false && (userRegionSelected==null||userTypeSelected=="none" || userRegionSelected==""))){
+					document.getElementById('proceed').disabled = true;
+					document.getElementById('proceed').className = 'login-submit-disable';
+				}
+			}
+			else {
+					document.getElementById('proceed').disabled = true;
+					document.getElementById('proceed').className = 'login-submit-disable';
+			}
+		}
+	}	
+	
+		function onClickProceed(flow){
+		
+		var reqid = document.getElementById('request_url').value;
+        document.cookie = "COOKIECHECK=cookies_enabled; path=/";
+        errorData.innerHTML = '';
+        if(document.cookie.indexOf("COOKIECHECK=cookies_enabled") < 0)
+        {
+			alert("Cookies disabled. The site requires Cookies to be enabled.");
+			return false;
+        }
+        if (reqid==null || reqid=="")
+        {
+			alert("You have come directly to the login page. Please access the application instead.");
+			return false;
+        }
+        //NTS-611 Implementing login changes in TIS
+        var url = "https://ep.fram.idm.toyota.com/openam/json/realms/root/realms/dealerdaily/authenticate?authIndexType=service";
+        var userName = document.getElementById("username").value;
+		var password = document.getElementById("password").value;
+		
+		var rememberMe = document.getElementById('rememberMe');
+		var userTypeSelected = document.getElementById('userType').value;
+		var userRegionSelected = document.getElementById('userRegion').value;
+		var userFromForm = document.loginForm.username.value;
+		var cookieValue;
+		var organizationURL="";
+		var rememberMeChecked = rememberMe.checked;
+		if(flow == "login"){
+			cookieValue = userTypeSelected+","+userRegionSelected+",login,"+checkTwoStepFlow(userTypeSelected)+","+userFromForm+','+rememberMeChecked;
+		}
+		else{
+			cookieValue = userTypeSelected+","+userRegionSelected+",proceed,"+checkTwoStepFlow(userTypeSelected)+","+userFromForm+','+rememberMeChecked;				
+		}
+		if (rememberMe.checked == true) {
+			createCookie(cookieName, cookieValue, "259200");	
+			createCookie(cookieNameForChangeDealer, cookieValue, "259200");		
+		}
+		else {
+			createCookie(cookieNameForChangeDealer, cookieValue, "259200");
+			rememberMe.checked = false;
+			deleteCookie(cookieName);
+		}
+		 
+		if(flow == "login"){
+			var failureMsg = ajaxCallAuthentication(url,authIndexValue,userName,password,applicationUri,techinfoAppName); //NTS-611 Added Ajax call to perform the authentication
+			
+		}
+
+		
+		setTimeout(function(){ 
+			if(flow == "proceed"){
+				//PST-363 - TCI URL Encoding issue
+				//var requestURL = "https://one.tis.toyota.com:443/robots.txt";
+				var requestURL = "https%3A%2F%2Fone.tis.toyota.com%3A443%2Frobots.txt";
+				var enableAzureLoginPilot =  [ true ];
+				if(userTypeSelected=="tema"||userRegionSelected=="tema"){
+		       		organizationURL = "https://login.microsoftonline.com/8c642d1d-d709-47b0-ab10-080af10798fb/saml2?SAMLRequest=jZFNa8JAEIb%2fSti72VU3NC5JIH6BYKFo7aG3IRkxsB%2fpzkZqf31XxVOheB3mnZnnmYLA6F7VQzjZHX4NSCH5NtpSyQZvlQPqSFkwSCo0al%2b%2fbtUkFcpggBYCsGSzLNk6l8s8z%2bt6OpdyMZ7nUk5fslqu8slYLGcrlnygp87ZksVwzBANuLEUwIZYEhM5ErORkO8iU2KmxlkqM%2fF57XsDou6MJTuCJmRJTYQ%2bxEkLZ2kw6Pfoz12Dh922ZKcQelKcY58ePZi0a00a3MUFSBtnVDyKux4jDH%2bk%2bZWj1h0QbxE0%2bhY6feHUs7sEdbPzv4reu%2bAap1mydr7Bm8nHvVVxQ%2fXPKIUHGqueAIGfwSO0cXlb8PuSquB%2fn1n9Ag%3d%3d&RelayState=" ;
+		       		organizationURL = organizationURL + requestURL;
+		       	}
+		       	else if(enableAzureLoginPilot && (userTypeSelected=="tms"||userRegionSelected=="tms")){
+                    organizationURL = "https://login.microsoftonline.com/8c642d1d-d709-47b0-ab10-080af10798fb/saml2?SAMLRequest=jZFNa8JAEIb%2fSti72VU3NC5JIH6BYKFo7aG3IRkxsB%2fpzkZqf31XxVOheB3mnZnnmYLA6F7VQzjZHX4NSCH5NtpSyQZvlQPqSFkwSCo0al%2b%2fbtUkFcpggBYCsGSzLNk6l8s8z%2bt6OpdyMZ7nUk5fslqu8slYLGcrlnygp87ZksVwzBANuLEUwIZYEhM5ErORkO8iU2KmxlkqM%2fF57XsDou6MJTuCJmRJTYQ%2bxEkLZ2kw6Pfoz12Dh922ZKcQelKcY58ePZi0a00a3MUFSBtnVDyKux4jDH%2bk%2bZWj1h0QbxE0%2bhY6feHUs7sEdbPzv4reu%2bAap1mydr7Bm8nHvVVxQ%2fXPKIUHGqueAIGfwSO0cXlb8PuSquB%2fn1n9Ag%3d%3d&RelayState=" ;
+                    organizationURL = organizationURL + requestURL;
+                }
+		       	else if(userTypeSelected=="setCorp"||userRegionSelected=="setCorp"){
+		       		organizationURL = "https://setfederationgateway.jmfamily.com/Saml20/IdpInitiated?Realm=https%3A%2F%2Fep.fram.idm.toyota.com%2Fset&RelayState=" ;
+		       		organizationURL = organizationURL + requestURL;
+		       	}
+		       	else if(userTypeSelected=="setDealer"||userRegionSelected=="setDealer"){
+		       		organizationURL = "https://setfederationgateway.jmfamily.com/Saml20/IdpInitiated?Realm=https%3A%2F%2Fep.fram.idm.toyota.com%2Fset&RelayState=" ;
+		       		organizationURL = organizationURL + requestURL;
+		       	}
+		       	else if(userTypeSelected=="gstCorp"||userRegionSelected=="gstCorp"){
+		       		organizationURL = "https://idp.gstoyota.com/tmna-forgerock?RelayState=" ;
+		       		organizationURL = organizationURL + requestURL;
+		       	}
+		       	else if(userTypeSelected=="gstDealer"||userRegionSelected=="gstDealer"){
+		       		organizationURL = "https://idp.gstoyota.com/tmna-forgerock?RelayState=" ;
+		       		organizationURL = organizationURL + requestURL;
+		       	}
+		       	else if(userTypeSelected=="tci"||userRegionSelected=="tci"){
+		       		organizationURL = "https://ep.fram.idm.toyota.com/openam/spssoinit?metaAlias=/dealerdaily/sp6&idpEntityID=http://www.okta.com/exk8uh1ulgM5xChQw697&realm=/dealerdaily&RelayState=" ;
+		       		organizationURL = organizationURL + requestURL;
+		       	}
+		       	else if(userTypeSelected=="71"||userRegionSelected=="71" || userTypeSelected== "72" || userRegionSelected=="72"){
+		       		organizationURL = "https://ep.fram.idm.toyota.com/openam/spssoinit?metaAlias=/dealerdaily/sp7&idpEntityID=http://www.okta.com/exknkswc4c090DySc697&realm=/dealerdaily&RelayState=" ;
+		       		organizationURL = organizationURL + "https://one.tis.toyota.com:443/robots.txt";
+		       	}
+		       	else{
+		       		organizationURL = "#";
+		       	}
+				window.location = organizationURL;
+				
+				
+			}
+		}, 2000);
+		
+	}
+	/* NTS-652 Adding Error Message when user Login Failed in TIS - Starts */
+	function displayErrorMsg(failureMsg) {
+
+		if(!failureMsg.indexOf('PASSWORD EXPIRES') !== -1){
+		    document.getElementById('password').value = '';
+		}
+		enableOrDisableSubmit();
+		var returnUrl = "https%3A%2F%2Fone.tis.toyota.com%3A443%2Frobots.txt";
+		if(failureMsg=="Authentication Failed: Username/Password is incorrect"){
+			errorData.innerHTML = "The User ID and/or password do not match our records. Account will be locked after 5 invalid attempts.";
+		} else if(failureMsg=="Authentication Failed: Too many login failure attempts, User account has been locked") {
+			errorData.innerHTML = "Your account has been locked. Please try again after 30 minutes.";
+		} else if(failureMsg == "User password expired"){
+ 			window.location = "https://ep.frig.idm.toyota.com/PasswordReset#/PasswordReset&returnurl=" + returnUrl;	
+ 		} else if(failureMsg == "User password Change Required") {
+ 			window.location = "https://ep.frig.idm.toyota.com/PasswordReset#/PasswordReset&returnurl=" + returnUrl;
+ 		} else {
+			errorData.innerHTML = failureMsg;
+		}
+			
+	}
+	/* NTS-652 Adding Error Message when user Login Failed in TIS - ENds */
+	function enableCheckBox(){
+		document.getElementById("terms").checked = true;
+	}
+	
+	function enableRememberMe(){
+		document.getElementById("rememberMe").checked = true;
+	}
+
+	var userID = "null";
+	var regionCode = "null";
+	var valueFromCookie;
+	if(userID!=null && userID.length>0 && userID!="null"){
+		valueFromCookie = getCookie(cookieNameForChangeDealer);
+	}
+	else{
+		valueFromCookie = getCookie(cookieName);
+	}
+	
+	var cookieArray = valueFromCookie.split(",");
+	var userTypeSelectedFromCookie = cookieArray[0];
+	var userRegionSelectedFromCookie = cookieArray[1];
+	var flowFromCookie = cookieArray[2];
+	var twoStepFlow = cookieArray[3];
+	var userNameFromCookie = cookieArray[4];
+	var rememberMeCookie = cookieArray[5];
+	
+	if(userID!=null && userID.length>0 && userID!="null"){
+		rememberMeCookie = null;
+	}
+
+	if(userNameFromCookie!=null){
+		document.loginForm.username.value =userNameFromCookie;
+	}
+
+	if(userID!=null && userID.length>0 && userID!="null"){
+		document.loginForm.username.value =userID;	
+		if(regionCode!=null && regionCode.length>0 && regionCode!="null"){
+			userRegionSelectedFromCookie = regionCode;
+		}
+	}
+
+	var userTypeInnerText;
+	var userTypeValue;
+	if("TIS"=="T3"){
+		userTypeInnerText = [ "-Please select-","TMS Users","Toyota Affiliate Users","Toyota Business Partner Users" ];
+		userTypeValue  =  [ "none","tms","affiliate","businessPartner" ];
+	}
+	else{
+		userTypeInnerText = [ "-Please select-","Toyota Dealership Users","Lexus Dealership Users","TTEN Users","Toyota Business Partner Users","Toyota Affiliate Users","TMS Users" ];
+		userTypeValue  =  [ "none","toyotaDealerUser","lexusDealerUser","tten","businessPartner","affiliate","tms" ];
+	}
+	
+	var userTypeSelectedIndex;
+	var select = document.getElementById('userType');
+	for (var i = 0; i<userTypeInnerText.length; i++){	
+		var userTypeOption = document.createElement('option');
+		userTypeOption.value = userTypeValue[i];
+		userTypeOption.innerHTML = userTypeInnerText[i];
+		select.appendChild(userTypeOption);
+		if(userTypeSelectedFromCookie!=null){			
+			if(userTypeOption.value==userTypeSelectedFromCookie){
+				userTypeSelectedIndex = i;
+				enableCheckBox();
+				if(rememberMeCookie!=null && rememberMeCookie!=undefined){
+					enableRememberMe();
+				}
+			}
+		}
+	}
+	document.getElementById('userType').selectedIndex = userTypeSelectedIndex;
+	if(flowFromCookie!=null){
+		flowForValidation = flowFromCookie;
+		if (flowForValidation == "login") {
+			enableDisableForLogin(true);
+			footerChange(userTypeSelectedFromCookie);	
+		} else{
+			enableDisableForProceed();
+			footerChange(userTypeSelectedFromCookie);
+		}
+	}	
+	if(twoStepFlow!=null && twoStepFlow=="true"){	
+		populateUserRegion(userTypeSelectedFromCookie, "fromCookie");
+		document.getElementById("userRegion").style.display = 'block';
+		setAreaText(userTypeSelectedFromCookie);
+	}
+	var enableAzureLoginPilot =  [ true ];
+	if(enableAzureLoginPilot && userTypeSelectedFromCookie == "tms"){
+        document.getElementById("userRegion").style.display = 'none';
+    }
+	enableOrDisableSubmit();
+	
+	
+
+	function footerChange(userTypeSelected){
+	
+		if("TIS"=="T3"){
+			if(flowForValidation=="login"){
+				/* Password URL change Defect fix R18.01 - Starts */
+				if(userTypeSelected=="tms"){
+					footerDiv.innerHTML = "This is a secure site, limited to authorized Toyota and Lexus personnel only. </br>If you already have credentials, please login. Otherwise, you may contact your local helpdesk.</br> For password assistance please <a href='https://account.toyota.com'>click here.</a>";
+				} else {
+					footerDiv.innerHTML = "This is a secure site, limited to authorized Toyota and Lexus personnel only. </br>If you already have credentials, please login. Otherwise, you may contact your local helpdesk.</br> For password assistance please <a href='https://password.toyota.com'>click here.</a>";
+				}
+				/* Password URL change Defect fix R18.01 - Starts */
+			}
+			else{
+				footerDiv.innerHTML = "This is a secure site, limited to authorized Toyota and Lexus personnel only. </br>If you already have credentials, please login. Otherwise, you may contact your local helpdesk.";
+			}				
+		}
+		else{
+			
+			if(flowForValidation=="login"){
+				if(userTypeSelected=="tten"){
+					var valueFrm='This is a secure site for authorized T-TEN and AYES Users. To reset a forgotten password, please click on this link <a href="https://ep.frig.idm.toyota.com/PasswordReset#/PasswordReset">https://ep.frig.idm.toyota.com/PasswordReset#/PasswordReset</a>. If you are experiencing TIS login or technical issues, please contact the Dealer Application Support Group at (877) 353-2459 (5:30am-5pm CST).';
+					footerDiv.innerHTML =valueFrm;								
+				}else{
+					footerDiv.innerHTML = "This is a secure site, limited to authorized Toyota and Lexus dealers only. If  you already have Dealer Daily credentials, please login. Otherwise, contact your Dealer Daily administrator to obtain your credentials to resolve password issues.  For Dealer technical issues, please contact the Dealer Application Support Group at (877) 353-2459 (5:30am-5pm CST), for TMNA internal issues, please call the IS Service Desk (877) 471-2255 (All hours).";
+				}
+			}
+			else if(flowForValidation=="proceed") {
+				if(userTypeSelected=="gstDealer"||userTypeSelected=="gstCorp"){
+					footerDiv.innerHTML = "This is a secure site, limited to authorized Toyota and Lexus dealers only. If you already have credentials, please login.</br>Gulf States Toyota Dealers may contact (800) 933-3416 for support.";	
+				}
+				else if(userTypeSelected=="setDealer"||userTypeSelected=="setCorp"){
+					footerDiv.innerHTML = "This is a secure site, limited to authorized Toyota and Lexus dealers only. If you already have credentials, please login.</br>Southeast Toyota Dealers may contact (800) 982-6057 for support.";	
+				}
+				else if(userTypeSelected=="tema"){
+					footerDiv.innerHTML = "This is a secure site, limited to authorized Toyota and Lexus dealers only. If you already have credentials, please login. Otherwise, you may contact your system administrator";	
+				}
+				else if(userTypeSelected=="tci"){
+					footerDiv.innerHTML = "This is a secure site, limited to authorized Toyota and Lexus dealers only. If you already have credentials, please login.</br>Toyota Canada Inc. dealers may contact (888) 598-1111 or (416) 438-1179 for support.";	
+				}
+				else if(userTypeSelected=="71"){
+					footerDiv.innerHTML = "This is a secure site, limited to authorized Toyota and Lexus dealers only. If you already have credentials, please login.</br>Toyota Canada Inc. dealers may contact (888) 598-1111 or (416) 438-1179 for support.";	
+				}
+				else if(userTypeSelected=="72"){
+					footerDiv.innerHTML = "This is a secure site, limited to authorized Toyota and Lexus dealers only. If you already have credentials, please login.</br>Toyota Canada Inc. dealers may contact (888) 598-1111 or (416) 438-1179 for support.";	
+				}
+				else{
+					footerDiv.innerHTML = "This is a secure site, limited to authorized Toyota and Lexus dealers only. If you already have credentials, please login. ";
+				}
+			}	
+			else{
+				footerDiv.innerHTML = "This is a secure site, limited to authorized Toyota and Lexus dealers only. If you already have credentials, please login. ";
+			}			
+		}
+	}
+
+	function checkTwoStepFlow(userTypeSelected){
+		var twoStepFlowArray;
+		if("TIS"=="T3"){
+			twoStepFlowArray =  [ "affiliate","businessPartner" ];
+		}
+		else{
+			twoStepFlowArray =  [ "affiliate","businessPartner","toyotaDealerUser","lexusDealerUser" ];
+		}
+		var twoStepFlow=false;
+		for(var i = 0; i < twoStepFlowArray.length; i++){			
+			if(userTypeSelected==twoStepFlowArray[i]){
+				twoStepFlow=true;
+		    	break;
+		    }
+		}
+		return twoStepFlow;
+	}
+	function checkFlow(userTypeSelected){
+		var userTypeLoginFlowArray;
+		if("TIS"=="T3"){
+			userTypeLoginFlowArray =  [ "tmc","servco","guam","saipan","americanSamoa","brazil","argentina","europe","australia" ];
+		}
+		else {
+			userTypeLoginFlowArray =  [ "tten","tmc","supplier","fleet","30","31","32","33","34","39","10","11","12","13","15","16","17","19","21","22","23","29","75","76","77","78","80","82","83","85","86","servco","brazil","argentina","europe","australia" ];
+		}
+		var flow="proceed";
+		for(var i = 0; i < userTypeLoginFlowArray.length; i++){			
+			if(userTypeSelected==userTypeLoginFlowArray[i]){
+				flow="login";
+				flowForValidation = "login";
+		    	break;
+		    }
+		}
+		return flow;		
+	}
+	
+	function selectUserType(userTypeSelected){
+		flowForValidation = "proceed";
+		errorData.innerHTML = '';
+		var twoStepFlow = checkTwoStepFlow(userTypeSelected.value);
+		if (twoStepFlow==false){
+			var flow = checkFlow(userTypeSelected.value);		
+			if (flow == "login") {
+				flowForValidation = "login";
+				enableDisableForLogin(true);
+				footerChange(userTypeSelected.value);	
+			} else{
+				enableDisableForProceed();
+			}
+		}
+		else{
+			enableDisableForProceed();
+		}
+		enableOrDisableSubmit();
+		var enableAzureLoginPilot =  [ true ];
+		if(userTypeSelected.value=="none" || (enableAzureLoginPilot && userTypeSelected.value=="tms")){
+			document.getElementById("userRegion").style.display = 'none';
+		}
+		setAreaText(userTypeSelected.value);
+		populateUserRegion(userTypeSelected.value, "fromSelect");
+		footerChange(userTypeSelected.value);
+	}
+	
+	function setAreaText(userTypeSelected){
+		var areaTextDiv = document.getElementById("areaText");
+		if(userTypeSelected=="none"){
+			areaTextDiv.innerHTML = "";
+		}
+		else if(userTypeSelected=="toyotaDealerUser"){
+			areaTextDiv.innerHTML = "Select Region Code";
+		}
+		else if(userTypeSelected=="lexusDealerUser"){
+			areaTextDiv.innerHTML = "Select Area Code";
+		}
+		else{
+			areaTextDiv.innerHTML = "";
+		}
+	}
+	
+	function populateUserRegion(userTypeSelected, from){
+		document.getElementById("userRegion").innerHTML = "";
+		var userRegionInnerText;
+		var userRegionValue;
+		
+		if("TIS"=="T3"){
+			if(userTypeSelected=="tms"){
+				userRegionInnerText = [ "-Please select-" ];
+				userRegionValue  =  [ "none" ];
+			}
+			else if(userTypeSelected=="affiliate"){
+				userRegionInnerText = [ "-Please select-","TEMA","TCI","TMC","Servco","Guam","Saipan","American Samoa","Brazil","Argentina","Europe","Australia" ];
+				userRegionValue  =  [ "none","tema","tci","tmc","servco","guam","saipan","americanSamoa","brazil","argentina","europe","australia" ];
+			}
+			else {
+				userRegionInnerText = [ "-Please select-","SET","GST" ];
+				userRegionValue  =  [ "none","setCorp","gstCorp" ];
+			}
+		}
+		else{
+			if(userTypeSelected=="tms"||userTypeSelected.value=="tten"){
+				userRegionInnerText = [ "-Please select-" ];
+				userRegionValue  =  [ "none" ];
+			}
+			else if(userTypeSelected=="affiliate"){
+				userRegionInnerText = [ "-Please select-","TEMA","TCI","TMC","Servco","Brazil","Argentina","Europe","Australia" ];
+				userRegionValue  =  [ "none","tema","tci","tmc","servco","brazil","argentina","europe","australia" ];
+			}
+			else if(userTypeSelected=="toyotaDealerUser"){
+				userRegionInnerText = [ "-Please select-","10 - Toyota Headquarters","11 - Los Angeles","12 - San Francisco","13 - Portland","15 - Denver","16 - New York","17 - Boston","19 - Toyota 190th","21 - Chicago","22 - Cincinnati","23 - Kansas City","29 - Toyota Industrial Equip","50 - Southeast Toyota","60 - Gulf States Toyota","71 - Toyota Canada","75 - Servco","76 - Guam","77 - Saipan","78 - American Samoa","80 - Cen. Atlantic Toyota","82 - Toyota De Puerto Rico","83 - TMS De Mexico" ];
+				userRegionValue  =  [ "none","10","11","12","13","15","16","17","19","21","22","23","29","setDealer","gstDealer","71","75","76","77","78","80","82","83" ];
+			}
+			else if(userTypeSelected=="lexusDealerUser"){
+				userRegionInnerText = [ "-Please select-","30 - Lexus Headquarters","31 - Western","32 - Central","33 - Eastern","34 - Southern","39 - Lexus 390th","72 - Lexus Canada","85 - Toyota De Puerto Rico","86 - Servco" ];
+				userRegionValue  =  [ "none","30","31","32","33","34","39","72","85","86" ];
+			}
+			else {
+				userRegionInnerText = [ "-Please select-","SET","GST","Supplier","Fleet" ];
+				userRegionValue  =  [ "none","setDealer","gstDealer","supplier","fleet" ];
+			}
+
+		}
+		var userRegionSelectedIndex;
+		var select = document.getElementById('userRegion');
+		for (var j = 0; j<userRegionInnerText.length; j++){
+			var userRegionOption = document.createElement('option');
+			userRegionOption.value = userRegionValue[j];
+			userRegionOption.innerHTML = userRegionInnerText[j];			
+			select.appendChild(userRegionOption);	
+			if(userRegionSelectedFromCookie!=null && from=="fromCookie"){
+				if(userRegionOption.value==userRegionSelectedFromCookie){
+					userRegionSelectedIndex = j;
+					document.getElementById("userRegion").style.display = 'block';					
+				}				
+			}
+		}
+		document.getElementById('userRegion').selectedIndex = userRegionSelectedIndex;
+	}
+	
+	function selectUserRegion(userRegionSelected){
+		flowForValidation = "proceed";
+		var flow = checkFlow(userRegionSelected.value);
+		if (flow == "login") {		
+			flowForValidation = "login";
+			enableDisableForLogin(false);
+		} else{
+			enableDisableForProceed();
+		}
+		enableOrDisableSubmit();
+		var enableAzureLoginPilot =  [ true ];
+		if(document.getElementById('userType').value=="none" || (enableAzureLoginPilot && document.getElementById('userType').value=="tms")){
+			document.getElementById("userRegion").style.display = 'none';
+		}
+		footerChange(userRegionSelected.value);
+	}
+	
+	function enableDisableForLogin(disableRegionDropDown){
+		if(disableRegionDropDown){
+			document.getElementById("userRegion").style.display = 'none';
+		}
+		document.getElementById("username").style.display = 'block';
+		document.getElementById("usernameText").innerHTML = "User ID";
+		document.getElementById("password").style.display = 'block';
+		document.getElementById("passwordText").innerHTML = "Password";
+		document.getElementById("submit").style.display = 'block';
+		document.getElementById("proceed").style.display = 'none';
+		rememberMeCheckBox.innerHTML = "Remember me";
+
+	}
+	function enableDisableForProceed(){
+		document.getElementById("userRegion").style.display = 'block';
+		document.getElementById("username").style.display = 'none';
+		document.getElementById("usernameText").innerHTML = '';
+		document.getElementById("password").style.display = 'none';
+		document.getElementById("passwordText").innerHTML = '';
+	   	document.getElementById("submit").style.display = 'none';
+	   	document.getElementById("proceed").style.display = 'block';
+	   	rememberMeCheckBox.innerHTML = "Remember my choice";  
+	}
+   
+    
+	
+	
+	
+	/*Check for cookies --Start */  
+	window.onload = function() {
+		enableOrDisableSubmit();
+		cookieCreateCheck();
+		
+		document.cookie = "COOKIECHECK=cookies_enabled; path=/";
+		if (document.cookie.indexOf("COOKIECHECK=cookies_enabled") < 0) {
+			alert("This site requires cookies to be enabled");
+		}
+		
+	}
+	
+
+    function cookieCreateCheck() {
+      
+    	var tessURL = "https://one.tis.toyota.com:443/robots.txt";  
+    	//security vulnerability fix starts    	 
+    	var pattern = new RegExp(/[!#$*();|]/); //unacceptable chars
+    	var acceptablepattern = new RegExp(/^(http|https):\/\/(\w+:{0,1}\w*)?(\S+)(:[0-9]+)?(\/|\/([\w#!:.?+=&%!\-\/\']))?/);
+    	var securityFixEnableFlag = "Y"; 
+    	if((securityFixEnableFlag=='Y')&&((pattern.test(tessURL)) || !(acceptablepattern.test(tessURL))))
+    	{
+    		var urlValue = "/techInfoPortal"+"/resources/jsp/t3error.jsp";    	
+			window.location.href = urlValue;
+			
+			//security vulnerability fix ends	
+    	}
+    	else{
+    		
+		var urlValue = decodeURIComponent(decodeURIComponent(tessURL));      
+		
+		
+    	var vinSearchUrl ="https://one.tis.toyota.com/t3Portal/scantool?l=vinSearch";
+    	
+		if (urlValue != null && urlValue.indexOf("refresh") < 0) {	
+    		if(urlValue.indexOf("?") < 0) {
+    		  urlValue = urlValue + "?" + "refresh=true"; 
+    		} else {
+    		  urlValue = urlValue + "&" + "refresh=true";
+    		}
+
+    		if(urlValue.indexOf("calibrationValidationCheck") > 0)
+    		{
+    			var vin =urlValue.split("calibrationValidationCheck")[1];
+    			 urlValue = vinSearchUrl + "&vin="+vin;
+    		}
+    			//alert(urlValue);
+    		if(urlValue.indexOf("tis_ecu_mac,") > 0)
+    		{
+    			var ecuMacKeyUrl ="https://one.tis.toyota.com/t3Portal/scantool?l=tis_ecu_mac&ecuMacKeyAuth=true&ecuMacId=";
+    			var ecuMacKeyId =urlValue.split(",")[1];
+    			 urlValue = ecuMacKeyUrl+ecuMacKeyId;
+    		}
+    		
+    		if(urlValue.indexOf("tis_search_blank_ecu,") > 0)
+    		{
+    			var blankEcuUrl ="https://one.tis.toyota.com/t3Portal/scantool?l=tis_search_blank_ecu&blankEcuAuth=true&blankEcuId=";
+    			var blankEcuId =urlValue.split(",")[1];
+    			 urlValue = blankEcuUrl+blankEcuId;
+    		}
+    		if(urlValue.indexOf("tis_update_blank_ecu,") > 0)
+    		{
+    			var blankEcuUrl ="https://one.tis.toyota.com/t3Portal/scantool?l=tis_update_blank_ecu&blankEcuAuth=true&blankEcuId=";
+    			var blankEcuId =urlValue.split(",")[1];
+    			 urlValue = blankEcuUrl+blankEcuId;
+    		}
+    		
+    		if(urlValue.indexOf("tis_ecu_repro,") > 0)
+    		{
+    			var ecuReproUrl ="https://one.tis.toyota.com/t3Portal/scantool?l=tis_ecu_repro&ecuMacReproAuth=true&ecuReproId=";
+    			var ecuReproId =urlValue.split(",")[1];
+    			 urlValue = ecuReproUrl+ecuReproId;
+    		}
+    		if(urlValue.indexOf('t3.tms.toyota') >=0 || 
+    				urlValue.indexOf('one.tis.toyota') >=0  || 
+    				urlValue.indexOf('techinfo.toyota') >=0)
+    		{
+    			window.location.href = urlValue;
+    		}
+    		else
+    		{
+    			urlValue = "/techInfoPortal"+"/resources/jsp/t3error.jsp";
+    			window.location.href = urlValue;
+    		}
+    		
+    	} 
+		else {
+    		document.getElementById("pleaseWait-div").style.display = 'none';	
+        	document.getElementById("form-div").style.display = 'block';
+    	}
+    	}
+		
+	}
+	
+	
+	/*Check for cookies --End */
+	
+	//Language change -starts
+	var lang="en";
+    var name="rem_me_lang_tis";
+    var value;
+    function changeLanguage(){
+    	if(document.getElementById('engId').checked)
+    		{
+    		lang="en";
+    		value=lang;
+    		createCookieTis(name,value,"259200");
+			
+    		}
+    	else if(document.getElementById('frId').checked)
+    		{
+    		lang="fr";
+    		value=lang;
+    		createCookieTis(name,value,"259200"); 
+			
+    		}
+    	else if(document.getElementById('esId').checked)
+		{
+		lang="es";
+		value=lang;
+		createCookieTis(name,value,"259200"); 
+			
+		}
+    	window.location.reload(true);
+    }
+    function createCookieTis(cname, cvalue, expirySeconds) {
+		var d = new Date();
+		d.setTime(d.getTime() + (expirySeconds * 1000));
+		var expires = "expires=" + d.toGMTString();
+		document.cookie = cname + "=" + cvalue + "; " + expires + ";path=/";
+	}
+    if(document.getElementById('chng').value=="en")
+    	{
+    	document.getElementById('engId').checked="true";
+    	}
+    else if(document.getElementById('chng').value=="fr")
+    	{
+    	document.getElementById('frId').checked="true";
+    	}
+    else if(document.getElementById('chng').value=="es")
+	{
+	document.getElementById('esId').checked="true";
+	}
+    
+	if(serverNameLang == "TIS"){
+		document.getElementById("tableLangId").style.display = '';
+		document.getElementById("tableLangTRId").style.height = '25px';
+	}else{
+		document.getElementById("tableLangId").style.display = 'none';
+		document.getElementById("tableLangTRId").style.height = '0px';
+	}
+	//Language change -ends
+	
+enableOrDisableSubmit();
+onCustomKeyUpSecond(document.getElementById("username"),'User ID');
+onCustomKeyUpSecond(document.getElementById("password"),'Password');
+
+</script>
+</html>

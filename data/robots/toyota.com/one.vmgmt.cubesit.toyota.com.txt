@@ -1,0 +1,43 @@
+<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="X-UA-Compatible" content="ie=edge"><title>Toyota Cube</title><link rel="icon" href="/favicon.ico"/><script src="https://cdn.jsdelivr.net/npm/regenerator-runtime@0.13.7/runtime.min.js"></script><meta http-equiv="Content-Security-Policy" content="default-src 'self' https: localhost:*; img-src 'self' data: https: localhost:*; script-src 'unsafe-inline' 'unsafe-eval' https: localhost:*; connect-src https: localhost:* ws://localhost:*; style-src 'unsafe-inline' https:; object-src 'none';"><meta name="importmap-type" content="systemjs-importmap"/><script type="systemjs-importmap">{
+      "imports": {
+        "single-spa": "https://cdn.jsdelivr.net/npm/single-spa@5.9.0/lib/system/single-spa.min.js",
+        "react": "https://cdn.jsdelivr.net/npm/react@18.3.1/umd/react.production.min.js",
+        "react-dom": "https://cdn.jsdelivr.net/npm/react-dom@18.3.1/umd/react-dom.production.min.js"
+      }
+    }</script><link rel="preload" href="https://cdn.jsdelivr.net/npm/single-spa@5.9.0/lib/system/single-spa.min.js" as="script"><script type="systemjs-importmap">{
+  "imports": {
+    "react": "https://cdn.jsdelivr.net/npm/react@18.3.1/umd/react.production.min.js",
+    "react-dom": "https://cdn.jsdelivr.net/npm/react-dom@18.3.1/umd/react-dom.production.min.js",
+    "@scft/root-config": "/scft-root-config.js",
+
+    "@scft/vmgt-dev": "https://mfe.vmgmt.cubedev.toyota.com/scft-vmgt.js",
+    "@scft/vmnt-dev": "https://one.vehmgmtdev.toyota.com/veh-maint-mfe/earmark-marketrep/scft-vmnt.js",
+    "@scft/vmnt-mva-dev": "https://one.vehmgmtdev.toyota.com/veh-maint-mfe/mva/scft-vmnt-mva.js",
+    "@scft/hold-management-dev": "https://one.hmdev.toyota.com/chm-dev-mfe/scft-hold-management.js",
+    "@scft/cstr-dev": "https://mfe.saleslens.cubedev.toyota.com/scft-cstr.js",
+
+    "@scft/vmgt-qa": "https://mfe.one.vmgmt.cubeqa.toyota.com/scft-vmgt.js",
+    "@scft/vmnt-qa": "https://one.vm.cubeqa.toyota.com/earmark-marketrep/scft-vmnt.js",
+    "@scft/vmnt-mva-qa": "https://one.vm.cubeqa.toyota.com/mva/scft-vmnt-mva.js",
+    "@scft/hold-management-qa": "https://one.hm.cubeqa.toyota.com/scft-hold-management.js",
+    "@scft/cstr-qa": "https://mfe.saleslens.cubeqa.toyota.com/scft-cstr.js",
+
+    "@scft/vmgt-sit": "https://mfe.vmgmt.cubesit.toyota.com/scft-vmgt.js",
+    "@scft/vmnt-sit": "https://one.vm.cubesit.toyota.com/scft-vmnt.js",
+    "@scft/vmnt-mva-sit": "https://one.vm.cubesit.toyota.com/mva/scft-vmnt-mva.js",
+    "@scft/hold-management-sit": "https://mfe.hm.cubesit.toyota.com/scft-hold-management.js",
+    "@scft/cstr-sit": "https://mfe.saleslens.cubesit.toyota.com/scft-cstr.js",
+
+    "@scft/vmgt-uat": "https://mfe.vmgmt.cubeuat.toyota.com/scft-vmgt.js",
+    "@scft/vmnt-uat": "https://one.vm.cubeuat.toyota.com/scft-vmnt.js",
+    "@scft/vmnt-mva-uat": "https://one.vm.cubeuat.toyota.com/mva/scft-vmnt-mva.js",
+    "@scft/hold-management-uat": "https://mfe.hm.cubeuat.toyota.com/scft-hold-management.js",
+    "@scft/cstr-uat": "https://mfe.saleslens.cubeuat.toyota.com/scft-cstr.js",
+
+    "@scft/vmgt-prod": "https://mfe.vmgmt.cube.toyota.com/scft-vmgt.js",
+    "@scft/vmnt-prod": "https://mfe.vm.cube.toyota.com/scft-vmnt.js",
+    "@scft/vmnt-mva-prod": "https://mfe.vm.cube.toyota.com/mva/scft-vmnt-mva.js",
+    "@scft/hold-management-prod": "https://mfe.hm.cube.toyota.com/scft-hold-management.js",
+    "@scft/cstr-prod": "https://mfe.saleslens.cube.toyota.com/scft-cstr.js"
+  }
+}</script><script src="https://cdn.jsdelivr.net/npm/import-map-overrides@2.2.0/dist/import-map-overrides.js"></script><script src="https://cdn.jsdelivr.net/npm/systemjs@6.8.3/dist/system.min.js"></script><script src="https://cdn.jsdelivr.net/npm/systemjs@6.8.3/dist/extras/amd.min.js"></script></head><body><noscript>You need to enable JavaScript to run this app.</noscript><script>System.import('@scft/root-config');</script><import-map-overrides-full show-when-local-storage="devtools" dev-libs></import-map-overrides-full></body></html>

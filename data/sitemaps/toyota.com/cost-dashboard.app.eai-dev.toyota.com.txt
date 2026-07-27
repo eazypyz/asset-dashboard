@@ -1,0 +1,420 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Login | Toyota Enterprise AI</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3Crect%20width='64'%20height='64'%20rx='12'%20fill='%23bd0014'/%3E%3Cpath%20fill='white'%20d='M22%2028v-7a10%2010%200%200%201%2020%200v7h3a3%203%200%200%201%203%203v18a3%203%200%200%201-3%203H19a3%203%200%200%201-3-3V31a3%203%200%200%201%203-3h3Zm6%200h8v-7a4%204%200%200%200-8%200v7Z'/%3E%3C/svg%3E">
+  <style>
+  :root {
+    --background: #f9f9f9;
+    --surface: #ffffff;
+    --surface-low: #f3f3f3;
+    --surface-container: #eeeeee;
+    --surface-high: #e8e8e8;
+    --surface-hero: #e2e2e2;
+    --on-surface: #1a1c1c;
+    --on-muted: #5d5e60;
+    --on-soft: #737679;
+    --outline: #e9bcb7;
+    --outline-strong: #936e6a;
+    --primary: #bd0014;
+    --primary-bright: #eb0a1e;
+    --primary-dark: #93000d;
+    --error: #ba1a1a;
+    --error-bg: #ffdad6;
+    --ok: #1f8f4a;
+  }
+
+  * { box-sizing: border-box; }
+
+  html { min-height: 100%; background: var(--background); }
+
+  body {
+    min-height: 100vh;
+    margin: 0;
+    color: var(--on-surface);
+    background: var(--background);
+    font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    letter-spacing: 0;
+  }
+
+  button, input { font: inherit; }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .auth-shell {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: var(--background);
+  }
+
+  .topbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 20;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 16px;
+    background: rgba(249, 249, 249, 0.96);
+    border-bottom: 1px solid var(--outline);
+    backdrop-filter: blur(16px);
+  }
+
+  .login-logo {
+    width: 256px;
+    height: 256px;
+    display: block;
+    object-fit: contain;
+    margin: 0 auto 32px;
+  }
+
+  .brand {
+    color: var(--primary);
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 800;
+    white-space: nowrap;
+  }
+
+  .page {
+    flex: 1;
+    display: flex;
+    min-height: 100vh;
+    padding-top: 48px;
+    padding-bottom: 38px;
+  }
+
+  .login-panel {
+    position: relative;
+    z-index: 2;
+    width: min(100%, 407px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 38px 47px 48px;
+    background: var(--background);
+  }
+
+  .form-stack {
+    width: min(100%, 313px);
+  }
+
+  .login-panel .form-stack {
+    transform: translateY(23px);
+  }
+
+  .eyebrow {
+    margin: 0 0 8px;
+    color: var(--primary);
+    font-size: 11px;
+    line-height: 1;
+    font-weight: 800;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+
+  h1 {
+    margin: 0;
+    font-size: 28px;
+    line-height: 1.18;
+    font-weight: 800;
+    letter-spacing: 0;
+  }
+
+  .meta {
+    margin: 8px 0 0;
+    color: var(--on-muted);
+    font-size: 13px;
+    line-height: 1.5;
+  }
+
+  .form {
+    margin-top: 26px;
+    display: grid;
+    gap: 24px;
+  }
+
+  .field-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+  }
+
+  label {
+    display: block;
+    color: #5e3f3b;
+    font-size: 12px;
+    line-height: 1;
+    font-weight: 800;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+
+  .password-field {
+    position: relative;
+    margin-top: 8px;
+  }
+
+  input[type=password] {
+    width: 100%;
+    height: 39px;
+    padding: 0 14px;
+    color: var(--on-surface);
+    background: var(--surface);
+    border: 1px solid var(--on-soft);
+    border-radius: 0;
+    outline: 0;
+    font-size: 14px;
+    line-height: 1.5;
+    transition: border-color 140ms ease, box-shadow 140ms ease, background-color 140ms ease;
+  }
+
+  input[type=password]:focus {
+    border-color: var(--primary);
+    border-bottom-width: 2px;
+    box-shadow: 0 0 0 3px rgba(189, 0, 20, 0.12);
+  }
+
+  .submit-button,
+  .secondary-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    min-height: 40px;
+    border-radius: 0;
+    border: 0;
+    font-size: 16px;
+    line-height: 1.4;
+    font-weight: 800;
+    cursor: pointer;
+    transition: transform 140ms ease, opacity 140ms ease, background-color 140ms ease;
+  }
+
+  .submit-button {
+    width: 100%;
+    color: #ffffff;
+    background: var(--primary);
+  }
+
+  .submit-button:hover { opacity: 0.9; }
+  .submit-button:active { transform: scale(0.98); }
+
+  .secondary-button {
+    min-height: 40px;
+    padding: 0 16px;
+    color: var(--on-surface);
+    background: transparent;
+    border: 1px solid var(--outline-strong);
+  }
+
+  .err {
+    margin-top: 8px;
+    padding: 10px 12px;
+    color: var(--primary-dark);
+    background: var(--error-bg);
+    border-left: 4px solid var(--error);
+    font-size: 14px;
+    line-height: 1.45;
+  }
+
+  .status-row {
+    margin-top: 25px;
+    padding-top: 20px;
+    border-top: 1px solid var(--outline);
+    display: grid;
+    gap: 16px;
+  }
+
+  .system-status,
+  .signed-in-note {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--on-muted);
+    font-size: 10px;
+    line-height: 1.2;
+    font-weight: 600;
+  }
+
+  .status-dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 999px;
+    background: #5bd884;
+    box-shadow: none;
+  }
+
+  .hero {
+    position: relative;
+    flex: 1;
+    min-width: 0;
+    overflow: hidden;
+    background: var(--surface-hero);
+  }
+
+  .hero img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    filter: grayscale(20%);
+    opacity: 0.68;
+  }
+
+  .hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    background:
+      linear-gradient(90deg, rgba(249, 249, 249, 1) 0%, rgba(249, 249, 249, 0.78) 28%, rgba(249, 249, 249, 0.22) 100%),
+      radial-gradient(circle at 28% 47%, rgba(255, 255, 255, 0.84), rgba(255, 255, 255, 0) 44%);
+  }
+
+  .footer {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 20;
+    min-height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 9px 20px;
+    color: var(--on-muted);
+    background: rgba(243, 243, 243, 0.96);
+    border-top: 1px solid var(--outline);
+    backdrop-filter: blur(16px);
+    font-size: 10px;
+    line-height: 1.2;
+    font-weight: 600;
+  }
+
+  .center-page {
+    flex: 1;
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    padding: 96px 24px 80px;
+    background:
+      linear-gradient(90deg, rgba(249, 249, 249, 1) 0%, rgba(249, 249, 249, 0.82) 48%, rgba(249, 249, 249, 0.36) 100%),
+      url(https://lh3.googleusercontent.com/aida-public/AB6AXuCAIQgvV2_Tp3XeQMjfwjaPkbD4g1ECKTLVHOVPWJm3YItZ5QkonD8xCrUP_AuPXZDqRDHn74dCIffwLacAltfQ6UwsHWGM-UEgmVLvjEwU_3LVT9r-nM3SrCBo8uLuywEE5ZtFYqF-TeGlIq5Br7Y9A5y66dtp9a2WNtqw5uIiZEyEpRPZ29AuSjt0LMIlnRDMcjuTY3IcKCfKF9X2XN58Kz_D6q1gYe64MBnsi_vPVSaGwkJBZ7fZ4gUKQYmqE3XlkCbd3e3Aij2r) center / cover no-repeat;
+  }
+
+  .center-card {
+    width: min(100%, 440px);
+    padding: 32px;
+    background: rgba(249, 249, 249, 0.88);
+    border-left: 4px solid var(--primary);
+    box-shadow: 0 24px 60px rgba(26, 28, 28, 0.14);
+    backdrop-filter: blur(18px);
+  }
+
+  .center-card form { margin-top: 24px; }
+
+  .ok {
+    margin-top: 24px;
+    color: var(--on-muted);
+    font-size: 12px;
+    font-weight: 700;
+  }
+
+  @media (max-width: 900px) {
+    .page {
+      display: block;
+      padding-bottom: 76px;
+      background:
+        linear-gradient(90deg, rgba(249, 249, 249, 1) 0%, rgba(249, 249, 249, 0.86) 58%, rgba(249, 249, 249, 0.56) 100%),
+        url(https://lh3.googleusercontent.com/aida-public/AB6AXuCAIQgvV2_Tp3XeQMjfwjaPkbD4g1ECKTLVHOVPWJm3YItZ5QkonD8xCrUP_AuPXZDqRDHn74dCIffwLacAltfQ6UwsHWGM-UEgmVLvjEwU_3LVT9r-nM3SrCBo8uLuywEE5ZtFYqF-TeGlIq5Br7Y9A5y66dtp9a2WNtqw5uIiZEyEpRPZ29AuSjt0LMIlnRDMcjuTY3IcKCfKF9X2XN58Kz_D6q1gYe64MBnsi_vPVSaGwkJBZ7fZ4gUKQYmqE3XlkCbd3e3Aij2r) center / cover no-repeat;
+    }
+
+    .login-panel {
+        width: 100%;
+        min-height: calc(100vh - 140px);
+        padding: 38px 24px 48px;
+      background: rgba(249, 249, 249, 0.86);
+      backdrop-filter: blur(6px);
+    }
+
+    .login-panel .form-stack {
+      transform: translateY(0);
+    }
+
+    .hero { display: none; }
+
+    .footer {
+      align-items: flex-start;
+      flex-direction: column;
+      gap: 8px;
+    }
+  }
+
+  @media (max-width: 560px) {
+    .brand { font-size: 18px; }
+    .login-logo {
+      width: 180px;
+      height: 180px;
+      margin-bottom: 28px;
+    }
+    .login-panel { padding: 32px 24px; }
+    h1 { font-size: 28px; }
+  }
+</style>
+</head>
+<body>
+  <div class="auth-shell">
+    <header class="topbar">
+      <div class="brand">Toyota Enterprise AI</div>
+    </header>
+    <main class="page">
+      <section class="login-panel" aria-label="Sign in">
+        <div class="form-stack">
+          <img class="login-logo" src="/assets/header-logo.png" alt="Enterprise AI and Product Research">
+          <h1>Cost dashboard</h1>
+
+          <form class="form" method="post" action="/login">
+            <input type="hidden" name="return" value="https://cost-dashboard.app.eai-dev.toyota.com/sitemap.xml">
+            <div>
+              <div class="field-row">
+                <label for="password">Password</label>
+              </div>
+              <div class="password-field">
+                <input id="password" name="password" type="password" placeholder="&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;" required autocomplete="current-password">
+              </div>
+              
+            </div>
+            <button class="submit-button" type="submit">Sign In <span aria-hidden="true">&rarr;</span></button>
+          </form>
+
+          <div class="status-row">
+            <div class="system-status"><span class="status-dot" aria-hidden="true"></span> System Status: Operational</div>
+            
+          </div>
+        </div>
+      </section>
+      <section class="hero" aria-hidden="true">
+        <img alt="" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCAIQgvV2_Tp3XeQMjfwjaPkbD4g1ECKTLVHOVPWJm3YItZ5QkonD8xCrUP_AuPXZDqRDHn74dCIffwLacAltfQ6UwsHWGM-UEgmVLvjEwU_3LVT9r-nM3SrCBo8uLuywEE5ZtFYqF-TeGlIq5Br7Y9A5y66dtp9a2WNtqw5uIiZEyEpRPZ29AuSjt0LMIlnRDMcjuTY3IcKCfKF9X2XN58Kz_D6q1gYe64MBnsi_vPVSaGwkJBZ7fZ4gUKQYmqE3XlkCbd3e3Aij2r">
+      </section>
+    </main>
+    <footer class="footer">
+      <span>Toyota Motor North America</span>
+      <span>&copy; 2024 Toyota Motor North America. All rights reserved.</span>
+    </footer>
+  </div>
+</body>
+</html>

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Toyota Mobility Center</title>
+
+        <link rel="preload" as="style" href="https://toyotamobility.toyota.com/build/assets/app-C0IEmn8p.css" /><link rel="modulepreload" as="script" href="https://toyotamobility.toyota.com/build/assets/app-BiWOIoRc.js" /><link rel="stylesheet" href="https://toyotamobility.toyota.com/build/assets/app-C0IEmn8p.css" /><script type="module" src="https://toyotamobility.toyota.com/build/assets/app-BiWOIoRc.js"></script>
+        <link rel="icon" type="image/x-icon" href="/favicon.ico">
+
+        
+    </head>
+    <body class="antialiased bg-gray-100">
+        <!-- Header includes navigation, auth, etc -->
+        <header class="header">
+    <!-- Authentication Nav -->
+    <div class='text-right py-2 pr-8 bg-gray-100'>
+    <a href="https://toyotamobility.toyota.com/login">Login</a>
+</div>    
+
+    
+    <div class='bg-white border-b shadow-md shadow-gray-200/40'>
+
+        <div class='p-4 inline-block'>
+            <img src="/img/toyota-logo.png" class="max-h-10 lg:max-h-20 inline-block" />
+        </div>
+    
+        <input class="mobile-menu-toggle" type="checkbox" id="mobile-menu-toggle" />
+        <label class="mobile-menu-button p-8" for="mobile-menu-toggle">
+            <span class="mobile-menu-button-hamburger"></span>
+        </label>
+    
+        <nav class='navigation'>
+    <ul class='menu'>
+     
+        <li class=" lg:bg-white">
+            <a href="https://toyotamobility.toyota.com" class=' border-b border-red-600 ' >
+                Home
+            </a>
+        </li>
+     
+        <li class=" lg:bg-white">
+            <a href="https://toyotamobility.toyota.com/referrals" class='' >
+                Referral Program
+            </a>
+        </li>
+     
+        <li class=" lg:bg-white">
+            <a href="https://toyotamobility.toyota.com/solutions" class=''  target="_blank" >
+                Solutions
+            </a>
+        </li>
+     
+        <li class=" lg:bg-white">
+            <a href="https://toyotamobility.toyota.com/assistance" class=''  target="_blank" >
+                Financial Assistance
+            </a>
+        </li>
+     
+        <li class=" lg:bg-white">
+            <a href="https://toyotamobility.toyota.com/training" class='' >
+                Training Materials
+            </a>
+        </li>
+     
+        <li class=" lg:bg-white">
+            <a href="https://toyotamobility.toyota.com/faq" class='' >
+                FAQ
+            </a>
+        </li>
+        </ul>
+</nav>
+    </div>
+
+</header>
+
+        <!-- Main content -->
+        <div class="container mx-auto bg-white rounded-b shadow-inner">
+            <div class="hero-container">
+        <div class="hero-image-sm">
+            <img src="https://toyotamobility.toyota.com/img/MobilityBackwall_lo@sm.jpg" loading="lazy" alt="" class='w-full p-0 m-0'>
+        </div>
+        <div class="hero-image-md">
+            <img src="https://toyotamobility.toyota.com/img/MobilityBackwall_lo.jpg" loading="lazy" alt="" class='w-full p-0 m-0'>
+        </div>
+        <div class="hero-image-lg">
+            <img src="https://toyotamobility.toyota.com/img/MobilityBackwall_lo@lg.jpg" loading="lazy" alt="" class='w-full p-0 m-0'>
+        </div>
+    </div>
+    
+    <div class='pt-8 lg:pt-10 p-8'>
+        <h1 class="text-4xl font-semibold text-center">Mobility For All</h1>
+        <hr class="w-1/3 lg:w-1/5 text-center m-auto border-red-500 mt-4 mb-8 lg:mb-12">
+        <div class="content">
+            
+    
+    <div class='content-copy'>
+        <p class='mb-8'>
+            The mission of Toyota Mobility is to provide solutions that serve the mobility needs of our customers to enhance one's quality of life.
+        </p>
+    
+        <p class='mb-8'>
+            Toyota has taken part in the mobility community since 2001 with the introduction of the Tundra pickup with a wheelchair lift and continues 
+            today with an expanded vehicle lineup equipped with mobility assistance products. We've partnered with the leading Mobility conversion 
+            companies to provide wheelchair accessible solutions: BraunAbility and Vantage Mobility International (VMI) are the only Toyota Authorized 
+            high-quality van conversion companies providing scooter lifts and other assistive products including lift-up seat applications for our most 
+            popular passenger vehicles.
+        </p>
+
+        <p>
+            Our goal at Toyota is to provide a broad selection of the best mobility solutions on the market to our Customers.
+        </p>
+    </div>
+
+    <div class="mt-16 leading-relaxed">
+        <div class="flex flex-wrap text-center">
+            <div class='w-full lg:w-1/2 lg:border-r border-red-400 py-4 lg:px-16'>
+                <h2 class="text-xl font-semibold mb-8">
+                    Wheelchair Accessible Referral Program
+                </h2>
+
+                <p class="mb-4 text-justify lg:text-center">
+                    A prospect entered into the system will be automatically contacted
+                    by their preferred conversion dealer for a special needs evaluation.
+                </p>
+                <p class="mb-4 text-justify lg:text-center">
+                    Upon delivery of your prospect's new vehicle, your dealership will be
+                    compensated for your referral.  Check with your dealership management
+                    for compensation specifics.
+                </p>
+                <p class="mb-8 text-justify lg:text-center">
+                    Questions about a new or existing referral?  Visit the <a href="https://toyotamobility.toyota.com/faq ">Referral 
+                    Program FAQ page</a> for answers to common questions or check in with your 
+                    <a href="https://toyotamobility.toyota.com/training/file/Mobility_Champions.pdf" target="_blank">Regional Mobility Champion</a>.
+                </p>
+
+                <ul class='list-style-none space-x-4 lg:space-x-16 w-full'>
+                    <li class="inline">
+                        <a href="https://toyotamobility.toyota.com/referrals/new" class='text-red-600 hover:underline uppercase font-semibold'>New Referral</a>
+                    </li>
+                                    </ul>
+            </div>
+            <div class='w-full lg:w-1/2 py-4 lg:px-16 lg:mt-0 mt-8'>
+                <h2 class="text-xl font-semibold mb-8 lg:min-h-[3em] xl:min-h-[1.5em] min-h-[1em]">
+                    Needs Assessment
+                </h2>
+
+                <p class="mb-4 text-justify lg:text-center">
+                    If you are recently disabled or unsure of the specific adaptive equipment required to meet your needs,
+                    Toyota recommends that you consult with <a href="https://toyotamobility.toyota.com/links/drs" target="_blank">Driving Rehabilitation Specialist</a>.
+                </p>
+                <p class="mb-8 text-justify lg:text-center">
+                    If you need to asset which adaptive equipment you require, please see the assement guide below
+                </p>
+
+                <p>
+                    <a class="text-red-600 uppercase hover:underline font-semibold" href="https://toyotamobility.toyota.com/needsAssessment" target="_blank">Needs Assessment</a>
+                </p>
+            </div>
+        </div>
+    </div>
+        </div>        
+    </div>
+        </div>
+
+        <!-- Footer used for post-eval scripts and fine print -->
+        <div>
+                    </div>
+
+            </body>
+</html>

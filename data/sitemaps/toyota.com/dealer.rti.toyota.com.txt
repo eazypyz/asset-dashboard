@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>Dealer Daily</title>
+    <base href="/"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="msapplication-TileColor" content="#cc0000"/>
+    <meta name="theme-color" content="#ffffff"/>
+
+    <script>
+        function getNewHost(host){
+            switch(host){
+                case 'dealer.rti.dev.toyota.com':
+                    return 'dealer.dev.toyota.com';
+                case 'dealer.rti.test.toyota.com':
+                    return 'dealer.test.toyota.com';
+                case 'dealer.rti.qa.toyota.com':
+                    return 'dealer.qa.toyota.com';
+                case 'dealer.rti.stage.toyota.com':
+                    return 'dealer.stage.toyota.com';
+                case 'dealer.rti.toyota.com':
+                    return 'dealer.toyota.com';
+            }
+        }
+
+        function redirect(){
+            let host = window.location.host;
+            let path = window.location.pathname;
+
+            let newHost = getNewHost(host);
+            if(newHost !== 'dealer.toyota.com') { fedUrl = stageFedUrl; }
+            window.location.href=`https://${newHost}${path}`;
+        }
+
+        redirect();
+    </script>
+
+</head>
+<body>
+</body>
+</html>

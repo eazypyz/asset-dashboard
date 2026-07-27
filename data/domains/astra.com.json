@@ -1,0 +1,711 @@
+{
+  "domain": "astra.com",
+  "last_update": "2026-07-27T06:14:35.028Z",
+  "stats": {
+    "total": 40,
+    "dns_resolved": 21,
+    "alive": 11,
+    "has_robots": 8,
+    "has_security": 5,
+    "has_sitemap": 8
+  },
+  "subdomains": [
+    {
+      "host": "ad.astra.com",
+      "source": [
+        "crtsh",
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-27T06:14:35.019Z",
+      "last_seen": "2026-07-27T06:14:35.019Z"
+    },
+    {
+      "host": "astra-iac.bowtie.astra.com",
+      "source": [
+        "crtsh",
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "0e5ef8d8fe2d06bdf2085b7d93143ba0970bccbc2d7b2c86f845cb348cebaedc",
+      "security_hash": "0e5ef8d8fe2d06bdf2085b7d93143ba0970bccbc2d7b2c86f845cb348cebaedc",
+      "sitemap_hash": "0e5ef8d8fe2d06bdf2085b7d93143ba0970bccbc2d7b2c86f845cb348cebaedc",
+      "first_seen": "2026-07-27T06:14:35.019Z",
+      "last_seen": "2026-07-27T06:14:35.019Z"
+    },
+    {
+      "host": "astra.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": true,
+      "robots_hash": "7efd0cb3dbd0f0b8b9b5cd3fdfbbc05373675e1422064ae58782b8dd29e6778e",
+      "security_hash": "",
+      "sitemap_hash": "3c24a76447b0e347a6fa7d105af29c1b320a1d6302f220154d02a31a5ceab06a",
+      "first_seen": "2026-07-27T06:14:35.019Z",
+      "last_seen": "2026-07-27T06:14:35.019Z"
+    },
+    {
+      "host": "autodiscover.astra.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 405,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "7e3d15072743a9fc179c4c3f50eebf4b62672cce80b8d6da7c63dcb626d75d71",
+      "security_hash": "c78426f800aaa55a083898419f2c914e5113bde5a1261ab58d75cb7cc0a80ad8",
+      "sitemap_hash": "4dafafa3e4914e61932ab900ba2544d510d3150fc08f2258c6c3ce0efbddb7f2",
+      "first_seen": "2026-07-27T06:14:35.019Z",
+      "last_seen": "2026-07-27T06:14:35.019Z"
+    },
+    {
+      "host": "bridge.astra.com",
+      "source": [
+        "crtsh",
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-27T06:14:35.019Z",
+      "last_seen": "2026-07-27T06:14:35.019Z"
+    },
+    {
+      "host": "chat.astra.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-27T06:14:35.019Z",
+      "last_seen": "2026-07-27T06:14:35.019Z"
+    },
+    {
+      "host": "contracts.astra.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-27T06:14:35.019Z",
+      "last_seen": "2026-07-27T06:14:35.019Z"
+    },
+    {
+      "host": "docs.astra.com",
+      "source": [
+        "crtsh",
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "331ea9090db0c9f6f597bd9840fd5b171830f6e0b3ba1cb24dfa91f0c95aedc1",
+      "security_hash": "6b3da89922d333d106b84fefeebd7b16bfebf4cfbd7bef37fa10a47c471ae64c",
+      "sitemap_hash": "6b3da89922d333d106b84fefeebd7b16bfebf4cfbd7bef37fa10a47c471ae64c",
+      "first_seen": "2026-07-27T06:14:35.019Z",
+      "last_seen": "2026-07-27T06:14:35.019Z"
+    },
+    {
+      "host": "enterpriseenrollment.astra.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 405,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-27T06:14:35.019Z",
+      "last_seen": "2026-07-27T06:14:35.019Z"
+    },
+    {
+      "host": "enterpriseregistration.astra.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-27T06:14:35.019Z",
+      "last_seen": "2026-07-27T06:14:35.019Z"
+    },
+    {
+      "host": "farpoint.ad.astra.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-27T06:14:35.019Z",
+      "last_seen": "2026-07-27T06:14:35.019Z"
+    },
+    {
+      "host": "gatekeeper.astra.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-27T06:14:35.019Z",
+      "last_seen": "2026-07-27T06:14:35.019Z"
+    },
+    {
+      "host": "igw-se.astra.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-27T06:14:35.019Z",
+      "last_seen": "2026-07-27T06:14:35.019Z"
+    },
+    {
+      "host": "igw-us.astra.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-27T06:14:35.019Z",
+      "last_seen": "2026-07-27T06:14:35.019Z"
+    },
+    {
+      "host": "integrator.odoo.ad.astra.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-27T06:14:35.019Z",
+      "last_seen": "2026-07-27T06:14:35.019Z"
+    },
+    {
+      "host": "investor.astra.com",
+      "source": [
+        "crtsh",
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "5d54e26a369ac4ead73a1c49b01a045b8e837189f174735473f6f41cf1778aff",
+      "security_hash": "5d54e26a369ac4ead73a1c49b01a045b8e837189f174735473f6f41cf1778aff",
+      "sitemap_hash": "5d54e26a369ac4ead73a1c49b01a045b8e837189f174735473f6f41cf1778aff",
+      "first_seen": "2026-07-27T06:14:35.019Z",
+      "last_seen": "2026-07-27T06:14:35.019Z"
+    },
+    {
+      "host": "ivpn.astra.com",
+      "source": [
+        "crtsh",
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-27T06:14:35.019Z",
+      "last_seen": "2026-07-27T06:14:35.019Z"
+    },
+    {
+      "host": "odoo.ad.astra.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-27T06:14:35.019Z",
+      "last_seen": "2026-07-27T06:14:35.019Z"
+    },
+    {
+      "host": "one.astra.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-27T06:14:35.019Z",
+      "last_seen": "2026-07-27T06:14:35.019Z"
+    },
+    {
+      "host": "op-scim.ad.astra.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-27T06:14:35.019Z",
+      "last_seen": "2026-07-27T06:14:35.019Z"
+    },
+    {
+      "host": "prefect-staging.ad.astra.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-27T06:14:35.019Z",
+      "last_seen": "2026-07-27T06:14:35.019Z"
+    },
+    {
+      "host": "prefect.ad.astra.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-27T06:14:35.019Z",
+      "last_seen": "2026-07-27T06:14:35.019Z"
+    },
+    {
+      "host": "shop.astra.com",
+      "source": [
+        "crtsh",
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": true,
+      "robots_hash": "f61dc908245b5421a2789eeb339a3fc99bb70cd01c1ec1ec7c73a1d81b4898d5",
+      "security_hash": "",
+      "sitemap_hash": "a03e1f570c0927e55083e4246fcfbd2c7e8a77d48280cdeccaf7be90027dd965",
+      "first_seen": "2026-07-27T06:14:35.019Z",
+      "last_seen": "2026-07-27T06:14:35.019Z"
+    },
+    {
+      "host": "staging-origin.astra.com",
+      "source": [
+        "crtsh",
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-27T06:14:35.019Z",
+      "last_seen": "2026-07-27T06:14:35.019Z"
+    },
+    {
+      "host": "staging.astra.com",
+      "source": [
+        "crtsh",
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-27T06:14:35.019Z",
+      "last_seen": "2026-07-27T06:14:35.019Z"
+    },
+    {
+      "host": "tf.ad.astra.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-27T06:14:35.019Z",
+      "last_seen": "2026-07-27T06:14:35.019Z"
+    },
+    {
+      "host": "unifi.astra.com",
+      "source": [
+        "crtsh",
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-27T06:14:35.019Z",
+      "last_seen": "2026-07-27T06:14:35.019Z"
+    },
+    {
+      "host": "vpn.astra.com",
+      "source": [
+        "crtsh",
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-27T06:14:35.019Z",
+      "last_seen": "2026-07-27T06:14:35.019Z"
+    },
+    {
+      "host": "vpn2.astra.com",
+      "source": [
+        "crtsh",
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-27T06:14:35.019Z",
+      "last_seen": "2026-07-27T06:14:35.019Z"
+    },
+    {
+      "host": "vpnd.astra.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-27T06:14:35.019Z",
+      "last_seen": "2026-07-27T06:14:35.019Z"
+    },
+    {
+      "host": "wp.astra.com",
+      "source": [
+        "crtsh",
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-27T06:14:35.019Z",
+      "last_seen": "2026-07-27T06:14:35.019Z"
+    },
+    {
+      "host": "www-origin.astra.com",
+      "source": [
+        "crtsh",
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-27T06:14:35.019Z",
+      "last_seen": "2026-07-27T06:14:35.019Z"
+    },
+    {
+      "host": "www.astra.com",
+      "source": [
+        "crtsh",
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": true,
+      "robots_hash": "7efd0cb3dbd0f0b8b9b5cd3fdfbbc05373675e1422064ae58782b8dd29e6778e",
+      "security_hash": "",
+      "sitemap_hash": "3c24a76447b0e347a6fa7d105af29c1b320a1d6302f220154d02a31a5ceab06a",
+      "first_seen": "2026-07-27T06:14:35.019Z",
+      "last_seen": "2026-07-27T06:14:35.019Z"
+    },
+    {
+      "host": "www.docs.astra.com",
+      "source": [
+        "crtsh",
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "331ea9090db0c9f6f597bd9840fd5b171830f6e0b3ba1cb24dfa91f0c95aedc1",
+      "security_hash": "6b3da89922d333d106b84fefeebd7b16bfebf4cfbd7bef37fa10a47c471ae64c",
+      "sitemap_hash": "6b3da89922d333d106b84fefeebd7b16bfebf4cfbd7bef37fa10a47c471ae64c",
+      "first_seen": "2026-07-27T06:14:35.019Z",
+      "last_seen": "2026-07-27T06:14:35.019Z"
+    },
+    {
+      "host": "www.ivpn.astra.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-27T06:14:35.019Z",
+      "last_seen": "2026-07-27T06:14:35.019Z"
+    },
+    {
+      "host": "www.staging.astra.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-27T06:14:35.019Z",
+      "last_seen": "2026-07-27T06:14:35.019Z"
+    },
+    {
+      "host": "www.vpn.astra.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-27T06:14:35.019Z",
+      "last_seen": "2026-07-27T06:14:35.019Z"
+    },
+    {
+      "host": "www.vpn2.astra.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-27T06:14:35.019Z",
+      "last_seen": "2026-07-27T06:14:35.019Z"
+    },
+    {
+      "host": "www.wp.astra.com",
+      "source": [
+        "crtsh",
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-27T06:14:35.019Z",
+      "last_seen": "2026-07-27T06:14:35.019Z"
+    },
+    {
+      "host": "xn--v-4lb.astra.com",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-07-27T06:14:35.019Z",
+      "last_seen": "2026-07-27T06:14:35.019Z"
+    }
+  ]
+}
