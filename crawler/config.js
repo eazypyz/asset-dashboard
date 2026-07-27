@@ -17,9 +17,9 @@ export const config = {
     .filter(Boolean)
     .concat([
       // ← Add your domains here
-      "nubank.com.br",
-      "nuinvest.com.br",
-      "coderabbit.ai"
+      "toyota.com",
+      "astra.com",
+      "jobstreet.com"
     ])
     .filter((v, i, a) => a.indexOf(v) === i), // deduplicate
 
