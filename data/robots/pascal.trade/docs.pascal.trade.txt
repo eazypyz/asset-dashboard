@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# The docs site is static, so advertise the checked-in sitemap directly.
+Sitemap: https://docs.pascal.trade/sitemap.xml

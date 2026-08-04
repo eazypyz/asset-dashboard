@@ -1,0 +1,225 @@
+{
+  "domain": "pascal.trade",
+  "last_update": "2026-08-04T06:00:21.810Z",
+  "stats": {
+    "total": 12,
+    "dns_resolved": 12,
+    "alive": 12,
+    "has_robots": 10,
+    "has_security": 3,
+    "has_sitemap": 6
+  },
+  "subdomains": [
+    {
+      "host": "app.pascal.trade",
+      "source": [
+        "crtsh",
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "ff5439fab79e689feeca65a45d5d5c3e226af58c96a32dd5dd704c3f53bc5fe3",
+      "security_hash": "ff5439fab79e689feeca65a45d5d5c3e226af58c96a32dd5dd704c3f53bc5fe3",
+      "sitemap_hash": "ff5439fab79e689feeca65a45d5d5c3e226af58c96a32dd5dd704c3f53bc5fe3",
+      "first_seen": "2026-08-04T06:00:21.806Z",
+      "last_seen": "2026-08-04T06:00:21.806Z"
+    },
+    {
+      "host": "canary.pascal.trade",
+      "source": [
+        "crtsh",
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "a8cbdb061a7ee6601c56546c8f3b78d647e914643918b9bfbc8efacaa927d03f",
+      "security_hash": "a8cbdb061a7ee6601c56546c8f3b78d647e914643918b9bfbc8efacaa927d03f",
+      "sitemap_hash": "a8cbdb061a7ee6601c56546c8f3b78d647e914643918b9bfbc8efacaa927d03f",
+      "first_seen": "2026-08-04T06:00:21.806Z",
+      "last_seen": "2026-08-04T06:00:21.806Z"
+    },
+    {
+      "host": "data.canary.pascal.trade",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "842b34303164ead41bccb7c05d1707422e98d108753b397b6dcc19683eb02101",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T06:00:21.806Z",
+      "last_seen": "2026-08-04T06:00:21.806Z"
+    },
+    {
+      "host": "data.staging.pascal.trade",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "842b34303164ead41bccb7c05d1707422e98d108753b397b6dcc19683eb02101",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T06:00:21.806Z",
+      "last_seen": "2026-08-04T06:00:21.806Z"
+    },
+    {
+      "host": "docs.pascal.trade",
+      "source": [
+        "crtsh",
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": true,
+      "robots_hash": "34aafb9883b67a6951f51a9419e108451662bd8e9ad0f2f6ac10d47ec47c9e1d",
+      "security_hash": "",
+      "sitemap_hash": "0b21bca4783d1cf4837602da1f1ceecab4b63d1438db7214ab4cd0a6870c80c3",
+      "first_seen": "2026-08-04T06:00:21.806Z",
+      "last_seen": "2026-08-04T06:00:21.806Z"
+    },
+    {
+      "host": "explorer.canary.pascal.trade",
+      "source": [
+        "crtsh",
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T06:00:21.806Z",
+      "last_seen": "2026-08-04T06:00:21.806Z"
+    },
+    {
+      "host": "otc.pascal.trade",
+      "source": [
+        "crtsh",
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T06:00:21.806Z",
+      "last_seen": "2026-08-04T06:00:21.806Z"
+    },
+    {
+      "host": "pascal.trade",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": true,
+      "robots_hash": "842b34303164ead41bccb7c05d1707422e98d108753b397b6dcc19683eb02101",
+      "security_hash": "",
+      "sitemap_hash": "f2718eeec1f0648611b460ef39dc5a29573d1a2327001d1d1710298ecd6d5047",
+      "first_seen": "2026-08-04T06:00:21.806Z",
+      "last_seen": "2026-08-04T06:00:21.806Z"
+    },
+    {
+      "host": "staging.pascal.trade",
+      "source": [
+        "crtsh",
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "a8cbdb061a7ee6601c56546c8f3b78d647e914643918b9bfbc8efacaa927d03f",
+      "security_hash": "a8cbdb061a7ee6601c56546c8f3b78d647e914643918b9bfbc8efacaa927d03f",
+      "sitemap_hash": "a8cbdb061a7ee6601c56546c8f3b78d647e914643918b9bfbc8efacaa927d03f",
+      "first_seen": "2026-08-04T06:00:21.806Z",
+      "last_seen": "2026-08-04T06:00:21.806Z"
+    },
+    {
+      "host": "trade.pascal.trade",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "842b34303164ead41bccb7c05d1707422e98d108753b397b6dcc19683eb02101",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T06:00:21.806Z",
+      "last_seen": "2026-08-04T06:00:21.806Z"
+    },
+    {
+      "host": "trade.staging.pascal.trade",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "842b34303164ead41bccb7c05d1707422e98d108753b397b6dcc19683eb02101",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T06:00:21.806Z",
+      "last_seen": "2026-08-04T06:00:21.806Z"
+    },
+    {
+      "host": "www.pascal.trade",
+      "source": [
+        "crtsh",
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": true,
+      "robots_hash": "dfe170d144fb5b03b84a36bfba2a2c444d72b9e943b7e315f075dd75ab241c17",
+      "security_hash": "",
+      "sitemap_hash": "f2718eeec1f0648611b460ef39dc5a29573d1a2327001d1d1710298ecd6d5047",
+      "first_seen": "2026-08-04T06:00:21.806Z",
+      "last_seen": "2026-08-04T06:00:21.806Z"
+    }
+  ]
+}

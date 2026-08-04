@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MoonPay Dashboard</title>
+    <script type="module" crossorigin src="/assets/index-Dyg17hJC.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/rolldown-runtime-CNC7AqOf.js">
+    <link rel="modulepreload" crossorigin href="/assets/exports-CwxfZBOn.js">
+    <link rel="modulepreload" crossorigin href="/assets/utils-DRdhRP-U.js">
+    <link rel="modulepreload" crossorigin href="/assets/createLucideIcon-Dq2HbUQW.js">
+    <link rel="modulepreload" crossorigin href="/assets/routes-DOgSyzZ7.js">
+    <link rel="modulepreload" crossorigin href="/assets/preload-helper-Czpn1I53.js">
+    <link rel="modulepreload" crossorigin href="/assets/chunk-KS7C4IRE-jOKmdR_b.js">
+    <link rel="modulepreload" crossorigin href="/assets/dist-C98RKlnQ.js">
+    <link rel="modulepreload" crossorigin href="/assets/dist-DLh16i5j.js">
+    <link rel="modulepreload" crossorigin href="/assets/button-CiP9yCkY.js">
+    <link rel="modulepreload" crossorigin href="/assets/errorPage-Cb0mf-qW.js">
+    <link rel="modulepreload" crossorigin href="/assets/navigation-CqfuUJll.js">
+    <link rel="modulepreload" crossorigin href="/assets/react-dom-kId5SfiA.js">
+    <link rel="modulepreload" crossorigin href="/assets/okta-react.esm-DIPD-zhe.js">
+    <link rel="modulepreload" crossorigin href="/assets/loader-circle-ajG9NZ7T.js">
+    <link rel="modulepreload" crossorigin href="/assets/themeProvider-Y-EfHlDs.js">
+    <link rel="modulepreload" crossorigin href="/assets/testModeProvider-Dy6S5xu9.js">
+    <link rel="modulepreload" crossorigin href="/assets/tslib.es6-B7sDhdds.js">
+    <link rel="modulepreload" crossorigin href="/assets/types-DZZDXBef.js">
+    <link rel="modulepreload" crossorigin href="/assets/core-CrCaE_he.js">
+    <link rel="modulepreload" crossorigin href="/assets/useQuery-DGD36KRN.js">
+    <link rel="modulepreload" crossorigin href="/assets/hooks-Ckj36Aru.js">
+    <link rel="modulepreload" crossorigin href="/assets/useAuthInfo-NLWdzYsf.js">
+    <link rel="modulepreload" crossorigin href="/assets/useAnalytics-B7lgu5Bn.js">
+    <link rel="modulepreload" crossorigin href="/assets/middleware-pxGdcdol.js">
+    <link rel="modulepreload" crossorigin href="/assets/helpers-Dfaq6qKi.js">
+    <link rel="modulepreload" crossorigin href="/assets/callback-CFIOA0pT.js">
+    <link rel="modulepreload" crossorigin href="/assets/load-script-Dke02svV.js">
+    <link rel="modulepreload" crossorigin href="/assets/p-while-n6hT29Kv.js">
+    <link rel="modulepreload" crossorigin href="/assets/gracefulDecodeURIComponent-Cjfhr3Sm.js">
+    <link rel="modulepreload" crossorigin href="/assets/analytics-Bn9U-h2f.js">
+    <link rel="modulepreload" crossorigin href="/assets/x-BM339m-R.js">
+    <link rel="modulepreload" crossorigin href="/assets/dist-DP-78QaS.js">
+    <link rel="modulepreload" crossorigin href="/assets/dist-Co2WxiIA.js">
+    <link rel="modulepreload" crossorigin href="/assets/dist-COysNlnj.js">
+    <link rel="modulepreload" crossorigin href="/assets/dist-DYznUase.js">
+    <link rel="modulepreload" crossorigin href="/assets/dist-C3Mi5Jzn.js">
+    <link rel="modulepreload" crossorigin href="/assets/dist-c0lL8Ljw.js">
+    <link rel="modulepreload" crossorigin href="/assets/toast-BzBlV62F.js">
+    <link rel="modulepreload" crossorigin href="/assets/useToast-DJV2XQpo.js">
+    <link rel="modulepreload" crossorigin href="/assets/lodash-CIQhZrem.js">
+    <link rel="modulepreload" crossorigin href="/assets/createClient-DOutAJO9.js">
+    <link rel="modulepreload" crossorigin href="/assets/useCustomApolloClient-HrtqbP3r.js">
+    <link rel="modulepreload" crossorigin href="/assets/esm-C1FHbofw.js">
+    <link rel="modulepreload" crossorigin href="/assets/prop-types-BehTLZwu.js">
+    <link rel="modulepreload" crossorigin href="/assets/Helmet-BXsQtgE3.js">
+    <link rel="stylesheet" crossorigin href="/assets/index-D5Lx_ILO.css">
+  </head>
+  <body>
+    <div id="root"></div>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-03GCKRNK0F"></script>
+    <script>
+      if (window.location.pathname !== '/reset_password' 
+          && window.location.pathname !== '/reset' 
+          && window.location.pathname !== '/set_new_password' 
+          && window.location.pathname !== '/reset_2fa'
+      ) {
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+          dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'G-03GCKRNK0F');
+      }
+    </script>
+  </body>
+</html>

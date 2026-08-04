@@ -1,0 +1,476 @@
+{
+  "domain": "mint.io",
+  "last_update": "2026-08-04T06:01:09.961Z",
+  "stats": {
+    "total": 26,
+    "dns_resolved": 23,
+    "alive": 22,
+    "has_robots": 5,
+    "has_security": 4,
+    "has_sitemap": 6
+  },
+  "subdomains": [
+    {
+      "host": "admin.mint.io",
+      "source": [
+        "crtsh",
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T06:01:09.956Z",
+      "last_seen": "2026-08-04T06:01:09.956Z"
+    },
+    {
+      "host": "alertmanager.mint.io",
+      "source": [
+        "crtsh",
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T06:01:09.956Z",
+      "last_seen": "2026-08-04T06:01:09.956Z"
+    },
+    {
+      "host": "api.mint.io",
+      "source": [
+        "crtsh",
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T06:01:09.956Z",
+      "last_seen": "2026-08-04T06:01:09.956Z"
+    },
+    {
+      "host": "autodiscover.mint.io",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T06:01:09.956Z",
+      "last_seen": "2026-08-04T06:01:09.956Z"
+    },
+    {
+      "host": "beta.mint.io",
+      "source": [
+        "crtsh",
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T06:01:09.956Z",
+      "last_seen": "2026-08-04T06:01:09.956Z"
+    },
+    {
+      "host": "blitz.mint.io",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T06:01:09.956Z",
+      "last_seen": "2026-08-04T06:01:09.956Z"
+    },
+    {
+      "host": "brand.mint.io",
+      "source": [
+        "crtsh",
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": true,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "67dc927e39838a667f0cfe0c4c1d8588022f9987cf5504c5699f7cec2410007d",
+      "first_seen": "2026-08-04T06:01:09.956Z",
+      "last_seen": "2026-08-04T06:01:09.956Z"
+    },
+    {
+      "host": "cdn.mint.io",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T06:01:09.956Z",
+      "last_seen": "2026-08-04T06:01:09.956Z"
+    },
+    {
+      "host": "clients.mint.io",
+      "source": [
+        "crtsh",
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T06:01:09.956Z",
+      "last_seen": "2026-08-04T06:01:09.956Z"
+    },
+    {
+      "host": "data.mint.io",
+      "source": [
+        "crtsh",
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 401,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T06:01:09.956Z",
+      "last_seen": "2026-08-04T06:01:09.956Z"
+    },
+    {
+      "host": "email.mint.io",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T06:01:09.956Z",
+      "last_seen": "2026-08-04T06:01:09.956Z"
+    },
+    {
+      "host": "gamer.mint.io",
+      "source": [
+        "crtsh",
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "7fa9c70cb25337762c9b53e572eef3b4718983e517cc913c3722b8cbb26408c1",
+      "security_hash": "d16183b26a8aa4cb565da81424ddc352ef9717801ac3e808808dceaa3a4b37d6",
+      "sitemap_hash": "3cb070af7ae39394144e851ee89f43d2f2550b88244072e6e8cf865935da882e",
+      "first_seen": "2026-08-04T06:01:09.956Z",
+      "last_seen": "2026-08-04T06:01:09.956Z"
+    },
+    {
+      "host": "get.mint.io",
+      "source": [
+        "crtsh",
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "234722bc4f65132f4ba9ac966ccb20c5c9020fadb71d4c5b45cae5e709d3d0c0",
+      "security_hash": "234722bc4f65132f4ba9ac966ccb20c5c9020fadb71d4c5b45cae5e709d3d0c0",
+      "sitemap_hash": "234722bc4f65132f4ba9ac966ccb20c5c9020fadb71d4c5b45cae5e709d3d0c0",
+      "first_seen": "2026-08-04T06:01:09.956Z",
+      "last_seen": "2026-08-04T06:01:09.956Z"
+    },
+    {
+      "host": "gql.mint.io",
+      "source": [
+        "crtsh",
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 502,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T06:01:09.956Z",
+      "last_seen": "2026-08-04T06:01:09.956Z"
+    },
+    {
+      "host": "grafana.mint.io",
+      "source": [
+        "crtsh"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T06:01:09.956Z",
+      "last_seen": "2026-08-04T06:01:09.956Z"
+    },
+    {
+      "host": "help.mint.io",
+      "source": [
+        "crtsh",
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": true,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "bd4da8c5a61b567fcf5974d43d1710495874c45cf38736179f9df3afe4d4dad1",
+      "first_seen": "2026-08-04T06:01:09.956Z",
+      "last_seen": "2026-08-04T06:01:09.956Z"
+    },
+    {
+      "host": "img.mint.io",
+      "source": [
+        "crtsh",
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T06:01:09.956Z",
+      "last_seen": "2026-08-04T06:01:09.956Z"
+    },
+    {
+      "host": "invest.mint.io",
+      "source": [
+        "crtsh",
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T06:01:09.956Z",
+      "last_seen": "2026-08-04T06:01:09.956Z"
+    },
+    {
+      "host": "mint-api-2.mint.io",
+      "source": [
+        "crtsh",
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T06:01:09.956Z",
+      "last_seen": "2026-08-04T06:01:09.956Z"
+    },
+    {
+      "host": "mint-api.mint.io",
+      "source": [
+        "crtsh",
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T06:01:09.956Z",
+      "last_seen": "2026-08-04T06:01:09.956Z"
+    },
+    {
+      "host": "mint.io",
+      "source": [
+        "crtsh"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "1156af2ed6fa314a1efc61cbc2172c6c102c4dac0de6cc9f2c1b115283559bb7",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T06:01:09.956Z",
+      "last_seen": "2026-08-04T06:01:09.956Z"
+    },
+    {
+      "host": "payer.mint.io",
+      "source": [
+        "crtsh",
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 502,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T06:01:09.956Z",
+      "last_seen": "2026-08-04T06:01:09.956Z"
+    },
+    {
+      "host": "prometheus.mint.io",
+      "source": [
+        "crtsh",
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T06:01:09.956Z",
+      "last_seen": "2026-08-04T06:01:09.956Z"
+    },
+    {
+      "host": "tgma.mint.io",
+      "source": [
+        "crtsh",
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "cdc37741d6476db05393e58c29e434f30fecb544ee84f3d5f9ffd244512904bc",
+      "security_hash": "f303c3d21cf39f51b8d0aa119c093d149f74cdeb23749da58f75ba48d13bfc23",
+      "sitemap_hash": "d03ac98b0e7a9d358fdb1523fcc4bf98e6bee5e1e080644cc5576fd0786ec493",
+      "first_seen": "2026-08-04T06:01:09.956Z",
+      "last_seen": "2026-08-04T06:01:09.956Z"
+    },
+    {
+      "host": "uptime.mint.io",
+      "source": [
+        "crtsh",
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "security_hash": "97a99fe3c5c5048235e34adb1f67ba9322c111c574d9ed2d61d46b276dae67ad",
+      "sitemap_hash": "97a99fe3c5c5048235e34adb1f67ba9322c111c574d9ed2d61d46b276dae67ad",
+      "first_seen": "2026-08-04T06:01:09.956Z",
+      "last_seen": "2026-08-04T06:01:09.956Z"
+    },
+    {
+      "host": "www.mint.io",
+      "source": [
+        "crtsh",
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T06:01:09.956Z",
+      "last_seen": "2026-08-04T06:01:09.956Z"
+    }
+  ]
+}

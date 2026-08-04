@@ -1,0 +1,9 @@
+# HI, HOOMAN!!
+
+# Disallow all
+User-agent: *
+Disallow: /
+
+# Exception for link preview generation
+User-agent: facebookexternalhit
+Allow: /

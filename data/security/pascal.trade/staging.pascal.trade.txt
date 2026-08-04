@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/pascalFavicon.svg" />
+    <!-- Home-screen icon (no service worker): iOS reads apple-touch-icon (PNG,
+         opaque); Android reads the manifest icons. theme-color is mode-aware. -->
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <meta name="apple-mobile-web-app-title" content="Pascal" />
+    <meta
+      name="theme-color"
+      media="(prefers-color-scheme: light)"
+      content="#f5efe6"
+    />
+    <meta
+      name="theme-color"
+      media="(prefers-color-scheme: dark)"
+      content="#221f1d"
+    />
+    <!-- Warm DNS/TCP/TLS to the prod API hosts before the first (latency-sensitive)
+         order. crossorigin is required so the socket is reused for our CORS fetches. -->
+    <link rel="preconnect" href="https://trade.pascal.trade" crossorigin />
+    <link rel="preconnect" href="https://data.pascal.trade" crossorigin />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, interactive-widget=resizes-content"
+    />
+    <link
+      rel="help"
+      href="https://docs.pascal.trade/"
+      title="Pascal API documentation"
+    />
+    <link
+      rel="help"
+      href="https://docs.pascal.trade/llms.txt"
+      type="text/markdown"
+      title="Pascal LLM-readable API documentation"
+    />
+    <link
+      rel="help"
+      href="https://docs.pascal.trade/llms/api.txt"
+      type="text/markdown"
+      title="Pascal REST and WebSocket API reference"
+    />
+    <meta
+      name="pascal:data-api"
+      content="Pascal market pages are JavaScript-rendered. Extract the marketSymbol query parameter as MARKET_SYMBOL. For GET-only access to live markets, fetch https://data.pascal.trade/api/v1/markets and filter data[] by symbol. For exact lookup including resolved markets, POST {&quot;symbols&quot;:[&quot;MARKET_SYMBOL&quot;],&quot;events&quot;:[],&quot;games&quot;:[]} to https://data.pascal.trade/api/v1/markets/search. Responses include market metadata, mark_price, and rules_url. For order book data, GET https://data.pascal.trade/api/v1/books?symbols=MARKET_SYMBOL."
+    />
+    <!-- Everything between the og:meta markers is swapped per-route for link
+         scrapers by src/functions/shareHtml.ts (bots only — see the
+         UA-conditioned rewrite in vercel.routes.ts). Keep route-agnostic tags outside
+         the block — except the constants ogBlock() re-emits (site_name, type,
+         image dims, twitter card/site), which must stay hand-synced with that
+         function. -->
+    <!-- og:meta:start -->
+    <title>Pascal | Prediction Markets for Traders</title>
+    <link rel="canonical" href="https://app.pascal.trade" />
+    <meta
+      name="description"
+      content="Trade prediction markets on Pascal. Connect a Solana wallet, deposit USDC, and trade on the order book."
+    />
+    <meta property="og:title" content="Pascal | Prediction Markets for Traders" />
+    <meta
+      property="og:description"
+      content="Trade prediction markets on Pascal. Connect a Solana wallet, deposit USDC, and trade on the order book."
+    />
+    <meta property="og:url" content="https://app.pascal.trade" />
+    <meta property="og:site_name" content="Pascal" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://app.pascal.trade/og.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="622" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@pascaldottrade" />
+    <meta name="twitter:title" content="Pascal | Prediction Markets for Traders" />
+    <meta
+      name="twitter:description"
+      content="Trade prediction markets on Pascal. Connect a Solana wallet, deposit USDC, and trade on the order book."
+    />
+    <meta name="twitter:image" content="https://app.pascal.trade/og.jpg" />
+    <!-- og:meta:end -->
+    <script type="module" crossorigin src="/assets/index.D11tO6LV.js?dpl=dpl_8GKKYUciQwMhGCWUUy61EaoDxS1n"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index.CjI9nPmw.css?dpl=dpl_8GKKYUciQwMhGCWUUy61EaoDxS1n">
+  </head>
+  <body>
+    <div id="root"></div>
+    <noscript>
+      <main>
+        <h1>Pascal market data API</h1>
+        <p>
+          Pascal market pages are JavaScript-rendered. Public market data is
+          available through the Pascal REST and WebSocket APIs.
+        </p>
+        <p>
+          For a trade URL with a <code>marketSymbol</code> query parameter, use
+          that value anywhere this page says <code>MARKET_SYMBOL</code>.
+        </p>
+        <ul>
+          <li>
+            API docs:
+            <a href="https://docs.pascal.trade/">https://docs.pascal.trade/</a>
+          </li>
+          <li>
+            LLM-readable docs:
+            <a href="https://docs.pascal.trade/llms.txt"
+              >https://docs.pascal.trade/llms.txt</a
+            >
+          </li>
+          <li>
+            REST and WebSocket reference:
+            <a href="https://docs.pascal.trade/llms/api.txt"
+              >https://docs.pascal.trade/llms/api.txt</a
+            >
+          </li>
+          <li>
+            Live market metadata, mark price, and rules URL with GET-only
+            access:
+            <a href="https://data.pascal.trade/api/v1/markets"
+              >https://data.pascal.trade/api/v1/markets</a
+            >, then filter the response <code>data</code> array for
+            <code>symbol == "MARKET_SYMBOL"</code>.
+          </li>
+          <li>
+            Exact market lookup, including resolved markets:
+            <code>POST https://data.pascal.trade/api/v1/markets/search</code>
+            with
+            <code
+              >{"symbols":["MARKET_SYMBOL"],"events":[],"games":[]}</code
+            >.
+          </li>
+          <li>
+            Order book:
+            <a href="https://data.pascal.trade/api/v1/books?symbols=MARKET_SYMBOL"
+              >https://data.pascal.trade/api/v1/books?symbols=MARKET_SYMBOL</a
+            >
+          </li>
+        </ul>
+      </main>
+    </noscript>
+  </body>
+</html>

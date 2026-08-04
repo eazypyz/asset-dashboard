@@ -1,0 +1,958 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+    
+  <url>
+    <loc>https://dev.moonpay.com/api-reference/platform/documentation/using-the-api</loc>
+    <lastmod>2026-07-28T11:41:33.156Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/api-reference/platform/endpoints/assets/list</loc>
+    <lastmod>2026-07-31T15:27:21.406Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/api-reference/platform/endpoints/customers/export</loc>
+    <lastmod>2026-07-27T12:23:47.130Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/api-reference/platform/endpoints/customers/get</loc>
+    <lastmod>2026-07-27T12:23:47.101Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/api-reference/platform/endpoints/customers/get-upload-url</loc>
+    <lastmod>2026-07-27T12:23:47.129Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/api-reference/platform/endpoints/customers/submit-files</loc>
+    <lastmod>2026-07-27T12:23:47.100Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/api-reference/platform/endpoints/customers/submit-kyc</loc>
+    <lastmod>2026-07-27T12:23:47.099Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/api-reference/platform/endpoints/payment-methods/delete</loc>
+    <lastmod>2026-07-27T12:23:47.099Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/api-reference/platform/endpoints/payment-methods/list</loc>
+    <lastmod>2026-07-27T12:23:47.101Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/api-reference/platform/endpoints/quotes/get</loc>
+    <lastmod>2026-07-31T15:27:21.378Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/api-reference/platform/endpoints/sessions/create</loc>
+    <lastmod>2026-07-27T12:23:47.096Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/api-reference/platform/endpoints/sessions/revoke</loc>
+    <lastmod>2026-07-27T12:23:47.113Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/api-reference/platform/endpoints/transactions/get</loc>
+    <lastmod>2026-07-27T12:23:47.098Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/api-reference/platform/endpoints/transactions/list</loc>
+    <lastmod>2026-07-27T12:23:47.097Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/api-reference/platform/objects-and-types/asset</loc>
+    <lastmod>2026-07-31T15:27:21.379Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/api-reference/platform/objects-and-types/customer</loc>
+    <lastmod>2026-07-17T15:13:26.642Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/api-reference/platform/objects-and-types/customer-export</loc>
+    <lastmod>2026-07-17T15:13:26.679Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/api-reference/platform/objects-and-types/fees</loc>
+    <lastmod>2026-07-31T15:27:21.376Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/api-reference/platform/objects-and-types/payment-method</loc>
+    <lastmod>2026-05-05T15:14:20.802Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/api-reference/platform/objects-and-types/quote</loc>
+    <lastmod>2026-07-31T15:27:21.374Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/api-reference/platform/objects-and-types/transaction</loc>
+    <lastmod>2026-05-05T15:14:20.795Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/api-reference/platform/objects-and-types/wallet</loc>
+    <lastmod>2026-05-05T15:14:20.796Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/api-reference/widget/cancelselltransaction</loc>
+    <lastmod>2026-07-08T16:04:24.444Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/api-reference/widget/errors</loc>
+    <lastmod>2026-07-23T14:32:12.643Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/api-reference/widget/getbuyquote</loc>
+    <lastmod>2026-05-05T15:14:20.831Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/api-reference/widget/getbuytransaction</loc>
+    <lastmod>2026-05-05T15:14:20.834Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/api-reference/widget/getbuytransactionbyexternalid</loc>
+    <lastmod>2026-05-05T15:14:20.835Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/api-reference/widget/getbuytransactions</loc>
+    <lastmod>2026-05-05T15:14:20.829Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/api-reference/widget/getcountries</loc>
+    <lastmod>2026-07-23T13:16:10.852Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/api-reference/widget/getcurrencies</loc>
+    <lastmod>2026-05-05T15:14:20.836Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/api-reference/widget/getcurrencylimits</loc>
+    <lastmod>2026-05-05T15:14:20.832Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/api-reference/widget/getcustomer</loc>
+    <lastmod>2026-05-05T15:14:20.833Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/api-reference/widget/getcustomerbyexternalid</loc>
+    <lastmod>2026-05-05T15:14:20.859Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/api-reference/widget/getdefitoken</loc>
+    <lastmod>2026-05-05T15:14:20.861Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/api-reference/widget/getdefitokens</loc>
+    <lastmod>2026-05-05T15:14:20.858Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/api-reference/widget/getipaddress</loc>
+    <lastmod>2026-05-05T15:14:20.862Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/api-reference/widget/getnetworkfees</loc>
+    <lastmod>2026-05-05T15:14:20.857Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/api-reference/widget/getofframptransaction</loc>
+    <lastmod>2026-08-03T18:14:38.681Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/api-reference/widget/getofframptransactions</loc>
+    <lastmod>2026-08-03T18:14:38.679Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/api-reference/widget/getonramptransaction</loc>
+    <lastmod>2026-08-03T18:14:38.646Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/api-reference/widget/getonramptransactions</loc>
+    <lastmod>2026-08-03T18:14:38.647Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/api-reference/widget/getsellquote</loc>
+    <lastmod>2026-05-05T15:14:20.861Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/api-reference/widget/getselltransaction</loc>
+    <lastmod>2026-08-03T18:14:38.682Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/api-reference/widget/getselltransactionbyexternalid</loc>
+    <lastmod>2026-05-05T15:14:20.887Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/api-reference/widget/getselltransactions</loc>
+    <lastmod>2026-06-04T18:35:47.800Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/api-reference/widget/getvirtualaccounts</loc>
+    <lastmod>2026-08-03T18:14:38.680Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/api-reference/widget/listpaymentmethods</loc>
+    <lastmod>2026-08-03T18:14:38.680Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/api-reference/widget/overview</loc>
+    <lastmod>2026-07-23T14:32:12.649Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/api-reference/widget/updateonrampvirtualaccount</loc>
+    <lastmod>2026-08-03T18:14:38.646Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/api-reference/widget/using-the-api</loc>
+    <lastmod>2026-07-23T14:33:58.812Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/api-reference/widget/webhooks/cancelselltransactionbyexternalid</loc>
+    <lastmod>2026-07-08T16:04:24.442Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/api-reference/widget/webhooks/identity-check-updated</loc>
+    <lastmod>2026-07-17T14:45:31.353Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/api-reference/widget/webhooks/overview</loc>
+    <lastmod>2026-08-03T18:14:38.621Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/api-reference/widget/webhooks/sell-transaction-created</loc>
+    <lastmod>2026-07-17T14:45:31.378Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/api-reference/widget/webhooks/sell-transaction-failed</loc>
+    <lastmod>2026-07-17T14:45:31.377Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/api-reference/widget/webhooks/sell-transaction-requote-required</loc>
+    <lastmod>2026-07-17T14:45:31.353Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/api-reference/widget/webhooks/sell-transaction-updated</loc>
+    <lastmod>2026-07-17T14:45:31.374Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/api-reference/widget/webhooks/signature</loc>
+    <lastmod>2026-08-03T18:14:38.620Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/api-reference/widget/webhooks/transaction-created</loc>
+    <lastmod>2026-07-17T14:45:31.285Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/api-reference/widget/webhooks/transaction-failed</loc>
+    <lastmod>2026-07-17T14:45:31.277Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/api-reference/widget/webhooks/transaction-updated</loc>
+    <lastmod>2026-07-17T14:45:31.274Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/api-reference/widget/webhooks/virtual-account-status-updated</loc>
+    <lastmod>2026-07-17T14:45:31.277Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/api-reference/widget/webhooks/virtual-account-transaction-status-updated</loc>
+    <lastmod>2026-07-17T14:45:31.274Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/platform/changelog</loc>
+    <lastmod>2026-08-03T18:14:38.624Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/platform/frames/add-card</loc>
+    <lastmod>2026-07-31T09:59:02.174Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/platform/frames/apple-pay</loc>
+    <lastmod>2026-07-31T09:59:02.176Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/platform/frames/auth</loc>
+    <lastmod>2026-07-21T18:05:24.447Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/platform/frames/buy</loc>
+    <lastmod>2026-07-31T09:59:02.175Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/platform/frames/buy-button</loc>
+    <lastmod>2026-07-31T09:59:02.175Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/platform/frames/challenge</loc>
+    <lastmod>2026-06-19T14:13:33.678Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/platform/frames/check</loc>
+    <lastmod>2026-07-31T15:27:19.100Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/platform/frames/connect</loc>
+    <lastmod>2026-07-31T15:27:19.113Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/platform/frames/google-pay</loc>
+    <lastmod>2026-07-31T09:59:02.171Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/platform/frames/overview</loc>
+    <lastmod>2026-05-08T17:59:09.116Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/platform/frames/reset</loc>
+    <lastmod>2026-07-31T09:59:02.169Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/platform/frames/widget</loc>
+    <lastmod>2026-07-31T09:59:02.165Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/platform/guides/api-and-sdk-credentials</loc>
+    <lastmod>2026-07-27T12:23:47.033Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/platform/guides/connect-a-customer</loc>
+    <lastmod>2026-07-28T16:42:12.253Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/platform/guides/customer-api</loc>
+    <lastmod>2026-07-28T16:42:12.255Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/platform/guides/export-customer-data</loc>
+    <lastmod>2026-07-17T15:13:26.573Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/platform/guides/guest-checkout</loc>
+    <lastmod>2026-07-28T16:42:12.254Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/platform/guides/handling-challenges</loc>
+    <lastmod>2026-07-31T09:59:02.170Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/platform/guides/kyc-data-requirements</loc>
+    <lastmod>2026-08-03T18:14:38.623Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/platform/guides/manual-integration/android</loc>
+    <lastmod>2026-08-03T09:53:21.285Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/platform/guides/manual-integration/flutter</loc>
+    <lastmod>2026-08-03T09:53:21.276Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/platform/guides/manual-integration/ios</loc>
+    <lastmod>2026-08-03T09:53:21.279Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/platform/guides/manual-integration/overview</loc>
+    <lastmod>2026-06-13T17:20:29.252Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/platform/guides/manual-integration/react-native</loc>
+    <lastmod>2026-08-03T09:53:21.280Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/platform/guides/manual-integration/web</loc>
+    <lastmod>2026-08-03T09:53:21.277Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/platform/guides/onboarding-paths</loc>
+    <lastmod>2026-07-13T21:43:55.039Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/platform/guides/openapi-codegen</loc>
+    <lastmod>2026-05-08T17:59:17.037Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/platform/guides/pay-with-apple-pay</loc>
+    <lastmod>2026-08-03T17:31:42.974Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/platform/guides/pay-with-buy-button</loc>
+    <lastmod>2026-08-03T17:31:42.971Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/platform/guides/pay-with-card</loc>
+    <lastmod>2026-08-03T17:31:42.984Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/platform/guides/pay-with-google-pay</loc>
+    <lastmod>2026-08-03T17:31:42.982Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/platform/guides/pay-with-widget</loc>
+    <lastmod>2026-08-03T17:31:42.973Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/platform/guides/payment-methods</loc>
+    <lastmod>2026-07-28T16:42:12.255Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/platform/guides/presentation-and-appearance</loc>
+    <lastmod>2026-07-31T09:59:02.172Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/platform/guides/terms-acceptance</loc>
+    <lastmod>2026-07-21T18:05:24.445Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/platform/guides/verification-tiers</loc>
+    <lastmod>2026-08-03T18:14:38.618Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/platform/overview/core-concepts</loc>
+    <lastmod>2026-08-03T18:14:38.061Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/platform/overview/going-live</loc>
+    <lastmod>2026-08-03T17:31:41.373Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/platform/overview/introduction</loc>
+    <lastmod>2026-07-28T16:42:11.388Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/platform/overview/requirements</loc>
+    <lastmod>2026-07-27T12:23:45.774Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/platform/overview/test-mode</loc>
+    <lastmod>2026-07-31T09:59:02.166Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/platform/overview/using-agents</loc>
+    <lastmod>2026-05-05T15:14:28.094Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/platform/sdk-reference/overview</loc>
+    <lastmod>2026-06-13T17:20:29.723Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/platform/sdk-reference/react-native/components/moonpay-add-card</loc>
+    <lastmod>2026-06-12T14:41:26.183Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/platform/sdk-reference/react-native/components/moonpay-apple-pay-button</loc>
+    <lastmod>2026-07-16T11:24:39.512Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/platform/sdk-reference/react-native/components/moonpay-auth</loc>
+    <lastmod>2026-07-13T21:43:57.665Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/platform/sdk-reference/react-native/components/moonpay-buy-button</loc>
+    <lastmod>2026-07-16T11:24:39.513Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/platform/sdk-reference/react-native/components/moonpay-buy-frame</loc>
+    <lastmod>2026-06-12T14:41:26.181Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/platform/sdk-reference/react-native/components/moonpay-challenge</loc>
+    <lastmod>2026-06-12T14:41:26.178Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/platform/sdk-reference/react-native/components/moonpay-connect</loc>
+    <lastmod>2026-06-12T14:41:26.182Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/platform/sdk-reference/react-native/components/moonpay-connection-check</loc>
+    <lastmod>2026-07-13T21:43:57.703Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/platform/sdk-reference/react-native/components/moonpay-connection-reset</loc>
+    <lastmod>2026-06-12T14:41:26.180Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/platform/sdk-reference/react-native/components/moonpay-google-pay-button</loc>
+    <lastmod>2026-07-16T11:24:39.508Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/platform/sdk-reference/react-native/components/moonpay-widget</loc>
+    <lastmod>2026-07-24T14:08:22.690Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/platform/sdk-reference/react-native/components/overview</loc>
+    <lastmod>2026-06-12T14:41:26.217Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/platform/sdk-reference/react-native/connect</loc>
+    <lastmod>2026-06-12T14:41:26.205Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/platform/sdk-reference/react-native/delete-payment-method</loc>
+    <lastmod>2026-06-02T08:54:50.392Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/platform/sdk-reference/react-native/get-connection</loc>
+    <lastmod>2026-07-21T18:05:23.581Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/platform/sdk-reference/react-native/get-payment-methods</loc>
+    <lastmod>2026-07-24T14:08:22.687Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/platform/sdk-reference/react-native/get-quote</loc>
+    <lastmod>2026-07-24T14:08:22.695Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/platform/sdk-reference/react-native/get-transaction</loc>
+    <lastmod>2026-07-15T13:41:08.696Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/platform/sdk-reference/react-native/list-transactions</loc>
+    <lastmod>2026-05-29T11:17:51.185Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/platform/sdk-reference/react-native/overview</loc>
+    <lastmod>2026-07-23T08:46:50.021Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/platform/sdk-reference/react-native/provider</loc>
+    <lastmod>2026-07-23T08:46:50.025Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/platform/sdk-reference/react-native/reset-connection</loc>
+    <lastmod>2026-06-02T08:54:50.397Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/platform/sdk-reference/react-native/setup-add-card</loc>
+    <lastmod>2026-06-12T14:41:26.215Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/platform/sdk-reference/react-native/setup-auth</loc>
+    <lastmod>2026-07-13T21:43:57.787Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/platform/sdk-reference/react-native/setup-buy</loc>
+    <lastmod>2026-06-12T14:26:15.900Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/platform/sdk-reference/react-native/setup-challenge</loc>
+    <lastmod>2026-07-13T21:43:58.075Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/platform/sdk-reference/react-native/setup-widget</loc>
+    <lastmod>2026-07-24T14:08:22.689Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/platform/sdk-reference/react-native/use-moonpay</loc>
+    <lastmod>2026-07-23T08:46:50.024Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/platform/sdk-reference/web/connect</loc>
+    <lastmod>2026-06-12T14:26:15.893Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/platform/sdk-reference/web/create-client</loc>
+    <lastmod>2026-06-12T14:26:15.895Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/platform/sdk-reference/web/delete-payment-method</loc>
+    <lastmod>2026-05-28T08:19:33.463Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/platform/sdk-reference/web/get-connection</loc>
+    <lastmod>2026-07-21T18:05:23.580Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/platform/sdk-reference/web/get-payment-methods</loc>
+    <lastmod>2026-07-24T14:08:22.690Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/platform/sdk-reference/web/get-quote</loc>
+    <lastmod>2026-07-24T14:08:22.689Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/platform/sdk-reference/web/get-transaction</loc>
+    <lastmod>2026-05-28T08:19:33.464Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/platform/sdk-reference/web/identity</loc>
+    <lastmod>2026-07-13T21:43:58.264Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/platform/sdk-reference/web/list-transactions</loc>
+    <lastmod>2026-05-28T08:19:33.460Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/platform/sdk-reference/web/overview</loc>
+    <lastmod>2026-06-13T17:20:30.223Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/platform/sdk-reference/web/reset-connection</loc>
+    <lastmod>2026-05-28T08:19:33.500Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/platform/sdk-reference/web/setup-add-card</loc>
+    <lastmod>2026-06-12T14:26:15.930Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/platform/sdk-reference/web/setup-apple-pay</loc>
+    <lastmod>2026-07-16T11:24:39.510Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/platform/sdk-reference/web/setup-auth</loc>
+    <lastmod>2026-07-13T21:43:58.289Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/platform/sdk-reference/web/setup-buy</loc>
+    <lastmod>2026-06-12T14:26:15.959Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/platform/sdk-reference/web/setup-buy-button</loc>
+    <lastmod>2026-07-16T11:24:39.508Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/platform/sdk-reference/web/setup-challenge</loc>
+    <lastmod>2026-07-13T21:43:58.288Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/platform/sdk-reference/web/setup-google-pay</loc>
+    <lastmod>2026-07-16T11:24:39.506Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/platform/sdk-reference/web/setup-widget</loc>
+    <lastmod>2026-07-24T14:08:22.688Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/widget/faqs</loc>
+    <lastmod>2026-08-03T18:14:37.105Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/widget/mobile-payments</loc>
+    <lastmod>2026-07-29T13:25:16.208Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/widget/off-ramp/architecture</loc>
+    <lastmod>2026-06-09T21:36:45.988Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/widget/off-ramp/customization/appearance</loc>
+    <lastmod>2026-06-09T21:36:45.990Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/widget/off-ramp/customization/parameters</loc>
+    <lastmod>2026-07-24T09:02:07.297Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/widget/off-ramp/customization/requote-webhooks</loc>
+    <lastmod>2026-07-23T14:37:20.093Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/widget/off-ramp/customization/url-signing</loc>
+    <lastmod>2026-07-24T10:59:35.791Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/widget/off-ramp/design-guide</loc>
+    <lastmod>2026-07-17T14:45:29.591Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/widget/off-ramp/integration-methods/sdks/event-properties</loc>
+    <lastmod>2026-06-08T22:06:05.385Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/widget/off-ramp/integration-methods/sdks/events</loc>
+    <lastmod>2026-06-08T22:06:05.391Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/widget/off-ramp/integration-methods/sdks/node</loc>
+    <lastmod>2026-06-08T22:06:05.389Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/widget/off-ramp/integration-methods/sdks/overview</loc>
+    <lastmod>2026-06-08T22:06:05.383Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/widget/off-ramp/integration-methods/sdks/react</loc>
+    <lastmod>2026-06-09T21:36:49.832Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/widget/off-ramp/integration-methods/sdks/react-native</loc>
+    <lastmod>2026-06-08T22:06:07.231Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/widget/off-ramp/integration-methods/sdks/web</loc>
+    <lastmod>2026-06-09T21:36:49.835Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/widget/off-ramp/integration-methods/url</loc>
+    <lastmod>2026-07-24T10:59:35.793Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/widget/off-ramp/overview</loc>
+    <lastmod>2026-07-24T09:02:07.296Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/widget/off-ramp/quickstart</loc>
+    <lastmod>2026-06-18T13:44:05.383Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/widget/on-ramp/architecture</loc>
+    <lastmod>2026-06-09T21:36:49.833Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/widget/on-ramp/customization/appearance</loc>
+    <lastmod>2026-06-10T00:59:36.010Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/widget/on-ramp/customization/ip-matching</loc>
+    <lastmod>2026-07-29T13:25:16.209Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/widget/on-ramp/customization/parameters</loc>
+    <lastmod>2026-07-24T09:02:07.299Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/widget/on-ramp/customization/url-signing</loc>
+    <lastmod>2026-07-24T10:59:35.762Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/widget/on-ramp/design-guide</loc>
+    <lastmod>2026-07-17T14:45:29.584Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/widget/on-ramp/integration-methods/sdks/event-properties</loc>
+    <lastmod>2026-06-08T22:06:08.636Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/widget/on-ramp/integration-methods/sdks/events</loc>
+    <lastmod>2026-06-08T22:06:08.638Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/widget/on-ramp/integration-methods/sdks/node</loc>
+    <lastmod>2026-06-08T22:06:08.639Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/widget/on-ramp/integration-methods/sdks/overview</loc>
+    <lastmod>2026-06-08T22:06:08.633Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/widget/on-ramp/integration-methods/sdks/react</loc>
+    <lastmod>2026-06-09T21:36:52.047Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/widget/on-ramp/integration-methods/sdks/react-native</loc>
+    <lastmod>2026-06-08T22:06:08.634Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/widget/on-ramp/integration-methods/sdks/web</loc>
+    <lastmod>2026-06-09T21:36:52.045Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/widget/on-ramp/integration-methods/url</loc>
+    <lastmod>2026-07-24T10:59:35.761Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/widget/on-ramp/overview</loc>
+    <lastmod>2026-06-09T21:36:52.053Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/widget/on-ramp/quickstart</loc>
+    <lastmod>2026-06-18T13:44:05.388Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/widget/overview</loc>
+    <lastmod>2026-06-15T21:29:27.595Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/widget/sandbox-testing</loc>
+    <lastmod>2026-07-29T14:19:44.204Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dev.moonpay.com/widget/sustainability-transparency</loc>
+    <lastmod>2026-07-17T14:11:10.185Z</lastmod>
+  </url>
+</urlset>

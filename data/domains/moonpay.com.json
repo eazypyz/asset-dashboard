@@ -1,0 +1,3006 @@
+{
+  "domain": "moonpay.com",
+  "last_update": "2026-08-04T05:59:05.532Z",
+  "stats": {
+    "total": 176,
+    "dns_resolved": 101,
+    "alive": 99,
+    "has_robots": 49,
+    "has_security": 93,
+    "has_sitemap": 36
+  },
+  "subdomains": [
+    {
+      "host": "access.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "account-sandbox.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "d9ba3da6e982ad2908463c43cd5465f0c93f5b5be1420a0956395978e43c2922",
+      "security_hash": "a8d9bec47e8143b5fb047cc205be90441c1a2297e3dc82da7b814ae74a1bf198",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "account.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "d9ba3da6e982ad2908463c43cd5465f0c93f5b5be1420a0956395978e43c2922",
+      "security_hash": "a8d9bec47e8143b5fb047cc205be90441c1a2297e3dc82da7b814ae74a1bf198",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "agents.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "a8d9bec47e8143b5fb047cc205be90441c1a2297e3dc82da7b814ae74a1bf198",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "al-go.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "api-eu-west3.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "a8d9bec47e8143b5fb047cc205be90441c1a2297e3dc82da7b814ae74a1bf198",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "api-lb.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "a8d9bec47e8143b5fb047cc205be90441c1a2297e3dc82da7b814ae74a1bf198",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "api-staging.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "api.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "efdb5938a9736727f5cce2b60355588e4fa541d19d022d222d8a09b8efd5dcce",
+      "security_hash": "a8d9bec47e8143b5fb047cc205be90441c1a2297e3dc82da7b814ae74a1bf198",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "app-sandbox.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "331ea9090db0c9f6f597bd9840fd5b171830f6e0b3ba1cb24dfa91f0c95aedc1",
+      "security_hash": "a8d9bec47e8143b5fb047cc205be90441c1a2297e3dc82da7b814ae74a1bf198",
+      "sitemap_hash": "6e0a6d981bb9273f7d44bafcfd48bf0bcde77a8fd0b174fee024b5afd9921555",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "app.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "c3b1f1fad06fbd5ba5502c415f217e7caa34b1fd6ba1d6ec799016a5004081e5",
+      "security_hash": "a8d9bec47e8143b5fb047cc205be90441c1a2297e3dc82da7b814ae74a1bf198",
+      "sitemap_hash": "6e0a6d981bb9273f7d44bafcfd48bf0bcde77a8fd0b174fee024b5afd9921555",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "ar-go.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "auth-sdk-demo.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "auth.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "autoconfig.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "autodiscover.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "balance-ledger-api-eu-west1.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "a8d9bec47e8143b5fb047cc205be90441c1a2297e3dc82da7b814ae74a1bf198",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "balance-ledger-api-eu-west3.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "a8d9bec47e8143b5fb047cc205be90441c1a2297e3dc82da7b814ae74a1bf198",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "balance-ledger-api.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "a8d9bec47e8143b5fb047cc205be90441c1a2297e3dc82da7b814ae74a1bf198",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "bayc.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "61877d06c3ec7325b576fb65b9b1f410d5c38f3e50e21f147e3207261559d98b",
+      "security_hash": "a8d9bec47e8143b5fb047cc205be90441c1a2297e3dc82da7b814ae74a1bf198",
+      "sitemap_hash": "61877d06c3ec7325b576fb65b9b1f410d5c38f3e50e21f147e3207261559d98b",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "blocks.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "c3b1f1fad06fbd5ba5502c415f217e7caa34b1fd6ba1d6ec799016a5004081e5",
+      "security_hash": "a8d9bec47e8143b5fb047cc205be90441c1a2297e3dc82da7b814ae74a1bf198",
+      "sitemap_hash": "c3b1f1fad06fbd5ba5502c415f217e7caa34b1fd6ba1d6ec799016a5004081e5",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "buy-sandbox-tmp.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "buy-sandbox.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "331ea9090db0c9f6f597bd9840fd5b171830f6e0b3ba1cb24dfa91f0c95aedc1",
+      "security_hash": "a8d9bec47e8143b5fb047cc205be90441c1a2297e3dc82da7b814ae74a1bf198",
+      "sitemap_hash": "6e0a6d981bb9273f7d44bafcfd48bf0bcde77a8fd0b174fee024b5afd9921555",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "buy-staging.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "331ea9090db0c9f6f597bd9840fd5b171830f6e0b3ba1cb24dfa91f0c95aedc1",
+      "security_hash": "a8d9bec47e8143b5fb047cc205be90441c1a2297e3dc82da7b814ae74a1bf198",
+      "sitemap_hash": "6e0a6d981bb9273f7d44bafcfd48bf0bcde77a8fd0b174fee024b5afd9921555",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "buy-test.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "331ea9090db0c9f6f597bd9840fd5b171830f6e0b3ba1cb24dfa91f0c95aedc1",
+      "security_hash": "a8d9bec47e8143b5fb047cc205be90441c1a2297e3dc82da7b814ae74a1bf198",
+      "sitemap_hash": "53f019983965b517ef64f11f7bf776e0ef762231167fb353dccdfdb581c1fd9b",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "buy-tmp-tiago.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "buy-tmp.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "buy.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "331ea9090db0c9f6f597bd9840fd5b171830f6e0b3ba1cb24dfa91f0c95aedc1",
+      "security_hash": "a8d9bec47e8143b5fb047cc205be90441c1a2297e3dc82da7b814ae74a1bf198",
+      "sitemap_hash": "6e0a6d981bb9273f7d44bafcfd48bf0bcde77a8fd0b174fee024b5afd9921555",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "bz432.mail.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "changelog.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "a8d9bec47e8143b5fb047cc205be90441c1a2297e3dc82da7b814ae74a1bf198",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "christiesarttech2024.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "1ab891b0708c709654628810303ee9c92c4fb40b8090bd8e28a5e0ab0a1ae2f9",
+      "security_hash": "a8d9bec47e8143b5fb047cc205be90441c1a2297e3dc82da7b814ae74a1bf198",
+      "sitemap_hash": "1ab891b0708c709654628810303ee9c92c4fb40b8090bd8e28a5e0ab0a1ae2f9",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "cko-webhook-data-infra.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "claim.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "a8d9bec47e8143b5fb047cc205be90441c1a2297e3dc82da7b814ae74a1bf198",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "clicks.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "0f230582d72fef1d9a0eee00314e25c5b163e2406fd87cdba17eefeb578041b5",
+      "security_hash": "a8d9bec47e8143b5fb047cc205be90441c1a2297e3dc82da7b814ae74a1bf198",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "commerce.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "be2cca8ca02df1fde110f895416b9f44d64a5479ce568f8659272897ecbfe2a6",
+      "security_hash": "be2cca8ca02df1fde110f895416b9f44d64a5479ce568f8659272897ecbfe2a6",
+      "sitemap_hash": "be2cca8ca02df1fde110f895416b9f44d64a5479ce568f8659272897ecbfe2a6",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "concierge.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "61877d06c3ec7325b576fb65b9b1f410d5c38f3e50e21f147e3207261559d98b",
+      "security_hash": "a8d9bec47e8143b5fb047cc205be90441c1a2297e3dc82da7b814ae74a1bf198",
+      "sitemap_hash": "61877d06c3ec7325b576fb65b9b1f410d5c38f3e50e21f147e3207261559d98b",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "consumer-api-sandbox.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "740d719eba7d39060c13295a0eb40667669a7dbb9d1317acf483692a40cafa60",
+      "security_hash": "a8d9bec47e8143b5fb047cc205be90441c1a2297e3dc82da7b814ae74a1bf198",
+      "sitemap_hash": "740d719eba7d39060c13295a0eb40667669a7dbb9d1317acf483692a40cafa60",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "consumer-api.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "740d719eba7d39060c13295a0eb40667669a7dbb9d1317acf483692a40cafa60",
+      "security_hash": "a8d9bec47e8143b5fb047cc205be90441c1a2297e3dc82da7b814ae74a1bf198",
+      "sitemap_hash": "740d719eba7d39060c13295a0eb40667669a7dbb9d1317acf483692a40cafa60",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "consumer-core-api.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "efdb5938a9736727f5cce2b60355588e4fa541d19d022d222d8a09b8efd5dcce",
+      "security_hash": "a8d9bec47e8143b5fb047cc205be90441c1a2297e3dc82da7b814ae74a1bf198",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "cpanel.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "crypto-api-eu-west1.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "a8d9bec47e8143b5fb047cc205be90441c1a2297e3dc82da7b814ae74a1bf198",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "crypto-api-eu-west3.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "a8d9bec47e8143b5fb047cc205be90441c1a2297e3dc82da7b814ae74a1bf198",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "crypto-api-staging.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "crypto-api.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "a8d9bec47e8143b5fb047cc205be90441c1a2297e3dc82da7b814ae74a1bf198",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "customer-support-api.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "dashboard-old.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "dashboard-test.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "dashboard.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "a87f50cf3c79e81a745d07dace16e7bb11bf6536959cd00beb4af797256d5ab7",
+      "security_hash": "a8d9bec47e8143b5fb047cc205be90441c1a2297e3dc82da7b814ae74a1bf198",
+      "sitemap_hash": "a87f50cf3c79e81a745d07dace16e7bb11bf6536959cd00beb4af797256d5ab7",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "demo.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "dev-grafana-data.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "dev.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": true,
+      "robots_hash": "1252913da61ca1b065fd081b7d1945d9818d06c0b699ac2164d13046377f92b8",
+      "security_hash": "",
+      "sitemap_hash": "a04452dfa4d5ed4babf11788dff2a50a16b1a2a2c4452c127a2762bf06db10b5",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "dev.support.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "developer.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "devsandbox.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "discover.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "19063e3d02f86c19198c1e0d091d0ae8e0163e4093f5a3b1e117530224baabaf",
+      "security_hash": "a8d9bec47e8143b5fb047cc205be90441c1a2297e3dc82da7b814ae74a1bf198",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "discovery.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "docs.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "c4c43d70423d2bdc1f52c1209dc3c43ee466d710ea30089348c53574be7ee766",
+      "security_hash": "a8d9bec47e8143b5fb047cc205be90441c1a2297e3dc82da7b814ae74a1bf198",
+      "sitemap_hash": "c4c43d70423d2bdc1f52c1209dc3c43ee466d710ea30089348c53574be7ee766",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "donations.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "a8d9bec47e8143b5fb047cc205be90441c1a2297e3dc82da7b814ae74a1bf198",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "email.gh-mail.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "enterprise.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "enterpriseenrollment.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "error.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "ethpass-api-eu-west3.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "a8d9bec47e8143b5fb047cc205be90441c1a2297e3dc82da7b814ae74a1bf198",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "ethpass-api.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "a8d9bec47e8143b5fb047cc205be90441c1a2297e3dc82da7b814ae74a1bf198",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "ethpass.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "example-web3-auth-v2.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "example-web3-auth.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "fintech-api-staging.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "fp.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "a8d9bec47e8143b5fb047cc205be90441c1a2297e3dc82da7b814ae74a1bf198",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "frames.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "c3b1f1fad06fbd5ba5502c415f217e7caa34b1fd6ba1d6ec799016a5004081e5",
+      "security_hash": "a8d9bec47e8143b5fb047cc205be90441c1a2297e3dc82da7b814ae74a1bf198",
+      "sitemap_hash": "c3b1f1fad06fbd5ba5502c415f217e7caa34b1fd6ba1d6ec799016a5004081e5",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "get.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "a8d9bec47e8143b5fb047cc205be90441c1a2297e3dc82da7b814ae74a1bf198",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "go.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "a8d9bec47e8143b5fb047cc205be90441c1a2297e3dc82da7b814ae74a1bf198",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "grafana-data.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "grafana.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "handsonweb3.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "61877d06c3ec7325b576fb65b9b1f410d5c38f3e50e21f147e3207261559d98b",
+      "security_hash": "a8d9bec47e8143b5fb047cc205be90441c1a2297e3dc82da7b814ae74a1bf198",
+      "sitemap_hash": "61877d06c3ec7325b576fb65b9b1f410d5c38f3e50e21f147e3207261559d98b",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "help.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "ee6024d57f04af945983c24186162533d46e9e3b19afadcad9d2670003bcb52e",
+      "security_hash": "3e1a59756e72cad9d3cc75d083c5ae8f0c9b9086b577fd3b1eee7208f70b7c08",
+      "sitemap_hash": "1716a17bedc5add6216199a794c9dceb8a0f731f0ea7627875ddb0fbf0387fac",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "hypermint.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "iiipoints.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "ionut.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "landpoc.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "lb-hypermint.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "ledger-eu-west1.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "a8d9bec47e8143b5fb047cc205be90441c1a2297e3dc82da7b814ae74a1bf198",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "ledger-eu-west3.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "a8d9bec47e8143b5fb047cc205be90441c1a2297e3dc82da7b814ae74a1bf198",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "ledger-sell.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "cdc9064b889faf70d38c41ff1de9ee0d8cae9e849865c95a711ea485298f36d5",
+      "security_hash": "a8d9bec47e8143b5fb047cc205be90441c1a2297e3dc82da7b814ae74a1bf198",
+      "sitemap_hash": "cdc9064b889faf70d38c41ff1de9ee0d8cae9e849865c95a711ea485298f36d5",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "ledger.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 500,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "a8d9bec47e8143b5fb047cc205be90441c1a2297e3dc82da7b814ae74a1bf198",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "live.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "6f90237c25d7faa8395f280b79a7cf5f2947c3af8447ef16841e39308b46bf64",
+      "security_hash": "a8d9bec47e8143b5fb047cc205be90441c1a2297e3dc82da7b814ae74a1bf198",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "login.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "loki.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "mail.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "memberships.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "mobilecoin-mainnet-mirror.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "mobilecoin-mainnet.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "mobilecoin-testnet-mirror.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "mobilecoin-testnet.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "moonlanding.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "a8d9bec47e8143b5fb047cc205be90441c1a2297e3dc82da7b814ae74a1bf198",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "moonpay-account-new.preview.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "moonpay-maintenance-page.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "a8d9bec47e8143b5fb047cc205be90441c1a2297e3dc82da7b814ae74a1bf198",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "mp-account.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "mp-iframe.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "nft.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "ns1.yellow-fellow.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "ns2.yellow-fellow.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "331ea9090db0c9f6f597bd9840fd5b171830f6e0b3ba1cb24dfa91f0c95aedc1",
+      "security_hash": "6b3da89922d333d106b84fefeebd7b16bfebf4cfbd7bef37fa10a47c471ae64c",
+      "sitemap_hash": "6b3da89922d333d106b84fefeebd7b16bfebf4cfbd7bef37fa10a47c471ae64c",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "on-chain-activity-listener-eu-west1.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "a8d9bec47e8143b5fb047cc205be90441c1a2297e3dc82da7b814ae74a1bf198",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "on-chain-activity-listener-eu-west3.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "a8d9bec47e8143b5fb047cc205be90441c1a2297e3dc82da7b814ae74a1bf198",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "on-chain-activity-listener.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "a8d9bec47e8143b5fb047cc205be90441c1a2297e3dc82da7b814ae74a1bf198",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "otel-collector-eu-west1.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "a8d9bec47e8143b5fb047cc205be90441c1a2297e3dc82da7b814ae74a1bf198",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "otel-collector-eu-west3.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "a8d9bec47e8143b5fb047cc205be90441c1a2297e3dc82da7b814ae74a1bf198",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "otel-collector.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "otherlifesupport.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "a8d9bec47e8143b5fb047cc205be90441c1a2297e3dc82da7b814ae74a1bf198",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "page.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "parinpfp.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "partner-dashboard-api-eu-west1.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "a8d9bec47e8143b5fb047cc205be90441c1a2297e3dc82da7b814ae74a1bf198",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "partner-dashboard-api-eu-west3.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "a8d9bec47e8143b5fb047cc205be90441c1a2297e3dc82da7b814ae74a1bf198",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "partner-dashboard-api-v2-eu-west1.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "a8d9bec47e8143b5fb047cc205be90441c1a2297e3dc82da7b814ae74a1bf198",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "partner-dashboard-api-v2-eu-west3.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "a8d9bec47e8143b5fb047cc205be90441c1a2297e3dc82da7b814ae74a1bf198",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "partner-dashboard-api-v2.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 401,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "efdb5938a9736727f5cce2b60355588e4fa541d19d022d222d8a09b8efd5dcce",
+      "security_hash": "a8d9bec47e8143b5fb047cc205be90441c1a2297e3dc82da7b814ae74a1bf198",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "partner-dashboard-api.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 401,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "efdb5938a9736727f5cce2b60355588e4fa541d19d022d222d8a09b8efd5dcce",
+      "security_hash": "a8d9bec47e8143b5fb047cc205be90441c1a2297e3dc82da7b814ae74a1bf198",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "payload-marketing.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "payments-api.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "payops-troubleshooting-portal.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "platform-docs.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "platform-partner-demo.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "platform.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "c3b1f1fad06fbd5ba5502c415f217e7caa34b1fd6ba1d6ec799016a5004081e5",
+      "security_hash": "a8d9bec47e8143b5fb047cc205be90441c1a2297e3dc82da7b814ae74a1bf198",
+      "sitemap_hash": "c3b1f1fad06fbd5ba5502c415f217e7caa34b1fd6ba1d6ec799016a5004081e5",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "plex.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "61877d06c3ec7325b576fb65b9b1f410d5c38f3e50e21f147e3207261559d98b",
+      "security_hash": "a8d9bec47e8143b5fb047cc205be90441c1a2297e3dc82da7b814ae74a1bf198",
+      "sitemap_hash": "61877d06c3ec7325b576fb65b9b1f410d5c38f3e50e21f147e3207261559d98b",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "portal.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "a8d9bec47e8143b5fb047cc205be90441c1a2297e3dc82da7b814ae74a1bf198",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "previews.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "8aaae77d8209d253ad268053872fd1daeadffa5d58df7a9d121ad74ff8bedbc4",
+      "security_hash": "a8d9bec47e8143b5fb047cc205be90441c1a2297e3dc82da7b814ae74a1bf198",
+      "sitemap_hash": "8aaae77d8209d253ad268053872fd1daeadffa5d58df7a9d121ad74ff8bedbc4",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "privacy.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "70ed7ead8ee9b08197cd4f6d635524bc01266fc8699e500e61d7ee0064a09842",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "private-api-eu-west1.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "a8d9bec47e8143b5fb047cc205be90441c1a2297e3dc82da7b814ae74a1bf198",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "private-api-eu-west3.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "a8d9bec47e8143b5fb047cc205be90441c1a2297e3dc82da7b814ae74a1bf198",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "private-api-gcp.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "private-api.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 401,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "efdb5938a9736727f5cce2b60355588e4fa541d19d022d222d8a09b8efd5dcce",
+      "security_hash": "a8d9bec47e8143b5fb047cc205be90441c1a2297e3dc82da7b814ae74a1bf198",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "prod-grafana-data.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "prod.mobile-api.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "public-api-gcp.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "qr.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "reportapi.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "a8d9bec47e8143b5fb047cc205be90441c1a2297e3dc82da7b814ae74a1bf198",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "request-headers-lb.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "request-headers-no-proxy.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "request-headers.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "scim.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "seaport-352.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "61877d06c3ec7325b576fb65b9b1f410d5c38f3e50e21f147e3207261559d98b",
+      "security_hash": "61877d06c3ec7325b576fb65b9b1f410d5c38f3e50e21f147e3207261559d98b",
+      "sitemap_hash": "61877d06c3ec7325b576fb65b9b1f410d5c38f3e50e21f147e3207261559d98b",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "security.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "0081c60eeeaa7aa023e9a666948eb37a35c8b615c71d4ee69ac8657b192ee840",
+      "security_hash": "0081c60eeeaa7aa023e9a666948eb37a35c8b615c71d4ee69ac8657b192ee840",
+      "sitemap_hash": "0081c60eeeaa7aa023e9a666948eb37a35c8b615c71d4ee69ac8657b192ee840",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "sell-sandbox-tmp.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "sell-sandbox.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "331ea9090db0c9f6f597bd9840fd5b171830f6e0b3ba1cb24dfa91f0c95aedc1",
+      "security_hash": "a8d9bec47e8143b5fb047cc205be90441c1a2297e3dc82da7b814ae74a1bf198",
+      "sitemap_hash": "6e0a6d981bb9273f7d44bafcfd48bf0bcde77a8fd0b174fee024b5afd9921555",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "sell-staging.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "331ea9090db0c9f6f597bd9840fd5b171830f6e0b3ba1cb24dfa91f0c95aedc1",
+      "security_hash": "a8d9bec47e8143b5fb047cc205be90441c1a2297e3dc82da7b814ae74a1bf198",
+      "sitemap_hash": "6e0a6d981bb9273f7d44bafcfd48bf0bcde77a8fd0b174fee024b5afd9921555",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "sell-test.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "331ea9090db0c9f6f597bd9840fd5b171830f6e0b3ba1cb24dfa91f0c95aedc1",
+      "security_hash": "a8d9bec47e8143b5fb047cc205be90441c1a2297e3dc82da7b814ae74a1bf198",
+      "sitemap_hash": "53f019983965b517ef64f11f7bf776e0ef762231167fb353dccdfdb581c1fd9b",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "sell-tmp.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "sell.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "331ea9090db0c9f6f597bd9840fd5b171830f6e0b3ba1cb24dfa91f0c95aedc1",
+      "security_hash": "a8d9bec47e8143b5fb047cc205be90441c1a2297e3dc82da7b814ae74a1bf198",
+      "sitemap_hash": "6e0a6d981bb9273f7d44bafcfd48bf0bcde77a8fd0b174fee024b5afd9921555",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "staging-wallet-api.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "staging.mobile-api.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "static.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "a8d9bec47e8143b5fb047cc205be90441c1a2297e3dc82da7b814ae74a1bf198",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "status.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "5a0024467fe2c0539394b9fff28b0c20a7998f79f2eabd656a276f27c39e1aba",
+      "security_hash": "717894f81698c9f99f97b7ba38553619381173bc07ce17fa9afbd7533c4096e9",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "support-sandbox.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "support.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "4e8bbe72a41b63a028e7433782431259a9e01758a4aeadd52c7cd797ee1e5ff9",
+      "security_hash": "a8d9bec47e8143b5fb047cc205be90441c1a2297e3dc82da7b814ae74a1bf198",
+      "sitemap_hash": "5c1a7bdc4ec9fb07673e9be177753ed7a293ea610ff8ef113eea9f18c8bf8ba3",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "test-sre.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "test.mobile-api.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "testselfie.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "trk-euc1.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 400,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "a8d9bec47e8143b5fb047cc205be90441c1a2297e3dc82da7b814ae74a1bf198",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "trk-euw1.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 400,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "a8d9bec47e8143b5fb047cc205be90441c1a2297e3dc82da7b814ae74a1bf198",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "trk-euw2.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 400,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "a8d9bec47e8143b5fb047cc205be90441c1a2297e3dc82da7b814ae74a1bf198",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "vercel-testing.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "wallet-api.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "740d719eba7d39060c13295a0eb40667669a7dbb9d1317acf483692a40cafa60",
+      "security_hash": "a8d9bec47e8143b5fb047cc205be90441c1a2297e3dc82da7b814ae74a1bf198",
+      "sitemap_hash": "740d719eba7d39060c13295a0eb40667669a7dbb9d1317acf483692a40cafa60",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "wallet-connect.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "61877d06c3ec7325b576fb65b9b1f410d5c38f3e50e21f147e3207261559d98b",
+      "security_hash": "61877d06c3ec7325b576fb65b9b1f410d5c38f3e50e21f147e3207261559d98b",
+      "sitemap_hash": "61877d06c3ec7325b576fb65b9b1f410d5c38f3e50e21f147e3207261559d98b",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "wallet.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "8874e3bd808576414e34bfe65713047bc220ae411594b0402bd113dc910969b5",
+      "security_hash": "a8d9bec47e8143b5fb047cc205be90441c1a2297e3dc82da7b814ae74a1bf198",
+      "sitemap_hash": "8874e3bd808576414e34bfe65713047bc220ae411594b0402bd113dc910969b5",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "wallets-api-eu-west1.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "a8d9bec47e8143b5fb047cc205be90441c1a2297e3dc82da7b814ae74a1bf198",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "wallets-api-eu-west3.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 403,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "a8d9bec47e8143b5fb047cc205be90441c1a2297e3dc82da7b814ae74a1bf198",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "wallets-api.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 404,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "a8d9bec47e8143b5fb047cc205be90441c1a2297e3dc82da7b814ae74a1bf198",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "web3-v2.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "web3.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "1a4bf62085318e2d78adef2b78d186b554abc5e3aeb827f91fbc1d51e97b82e5",
+      "security_hash": "a8d9bec47e8143b5fb047cc205be90441c1a2297e3dc82da7b814ae74a1bf198",
+      "sitemap_hash": "1a4bf62085318e2d78adef2b78d186b554abc5e3aeb827f91fbc1d51e97b82e5",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "webdisk.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "webmail.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": false,
+      "alive": false,
+      "status": null,
+      "robots": false,
+      "security_txt": false,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "www.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "19063e3d02f86c19198c1e0d091d0ae8e0163e4093f5a3b1e117530224baabaf",
+      "security_hash": "a8d9bec47e8143b5fb047cc205be90441c1a2297e3dc82da7b814ae74a1bf198",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "x-iframe.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "a8d9bec47e8143b5fb047cc205be90441c1a2297e3dc82da7b814ae74a1bf198",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "xapp-sell.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "a8d9bec47e8143b5fb047cc205be90441c1a2297e3dc82da7b814ae74a1bf198",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "xapp.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": false,
+      "security_txt": true,
+      "sitemap": false,
+      "robots_hash": "",
+      "security_hash": "a8d9bec47e8143b5fb047cc205be90441c1a2297e3dc82da7b814ae74a1bf198",
+      "sitemap_hash": "",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    },
+    {
+      "host": "yellow-fellow.moonpay.com",
+      "source": [
+        "securitytrails"
+      ],
+      "dns": true,
+      "alive": true,
+      "status": 200,
+      "robots": true,
+      "security_txt": true,
+      "sitemap": true,
+      "robots_hash": "331ea9090db0c9f6f597bd9840fd5b171830f6e0b3ba1cb24dfa91f0c95aedc1",
+      "security_hash": "6b3da89922d333d106b84fefeebd7b16bfebf4cfbd7bef37fa10a47c471ae64c",
+      "sitemap_hash": "6b3da89922d333d106b84fefeebd7b16bfebf4cfbd7bef37fa10a47c471ae64c",
+      "first_seen": "2026-08-04T05:59:05.484Z",
+      "last_seen": "2026-08-04T05:59:05.484Z"
+    }
+  ]
+}
