@@ -17,11 +17,9 @@ export const config = {
     .filter(Boolean)
     .concat([
       // ← Add your domains here
-      "symrise.com",
-      "diana-food.com",
-      "symotion.com",
-      "tesium.com",
-      "giraffefoods.com"
+      "moonpay.com",
+      "pascal.trade",
+      "mint.io"
     ])
     .filter((v, i, a) => a.indexOf(v) === i), // deduplicate
 
