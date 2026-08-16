@@ -2,7 +2,7 @@
 import fetch from "node-fetch";
 import { ProviderInterface } from "./provider_interface.js";
 
-const CRTSH_URL = "https://crt.sh/?q=%25.{domain}&output=json";
+const CRTSH_URL = "https://crt.name/v1/search?apex={domain}";
 const TIMEOUT_MS = 30_000;
 const MAX_RETRIES = 4;
 const RETRY_DELAYS = [3_000, 8_000, 15_000, 30_000]; // backoff bertahap
