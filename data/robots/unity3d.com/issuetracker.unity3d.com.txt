@@ -1,0 +1,38 @@
+User-Agent: AhrefsBot
+Disallow: /
+
+User-Agent: BLEXBot
+Disallow: /
+
+User-Agent: Bytespider
+Disallow: /
+
+User-Agent: CCBot
+Disallow: /
+
+User-Agent: DataForSeoBot
+Disallow: /
+
+User-Agent: DotBot
+Disallow: /
+
+User-Agent: GPTBot
+Disallow: /
+
+User-Agent: MJ12bot
+Disallow: /
+
+User-Agent: PetalBot
+Disallow: /
+
+User-Agent: SemrushBot
+Disallow: /
+
+User-Agent: YisouSpider
+Disallow: /
+
+User-Agent: *
+Allow: /
+Crawl-delay: 10
+
+Sitemap: https://issuetracker.unity.com/sitemap.xml
