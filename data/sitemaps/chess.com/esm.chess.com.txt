@@ -1,4 +1,0 @@
-/* esm.sh - sitemap.xml@1.0.0 */
-import "/node/fs.mjs";
-export * from "/sitemap.xml@1.0.0/esnext/sitemap.xml.mjs";
-export { default } from "/sitemap.xml@1.0.0/esnext/sitemap.xml.mjs";
