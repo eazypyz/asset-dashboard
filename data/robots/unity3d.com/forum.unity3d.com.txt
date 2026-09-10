@@ -1,0 +1,930 @@
+# See https://datatracker.ietf.org/doc/rfc9309 for documentation on how to use the robots.txt file
+# Google uses the same format as the standard above. More info at https://developers.google.com/search/docs/crawling-indexing/robots/robots_txt
+
+#
+User-agent: Discourse.org Server Monitor
+Disallow: /admin/
+Disallow: /auth/
+Disallow: /assets/js/browser-update*.js
+Disallow: /email/
+Disallow: /session
+Disallow: /user-api-key
+Disallow: /*?api_key*
+Disallow: /*?*api_key*
+Disallow: /badges
+Disallow: /my
+Disallow: /search
+Disallow: /tag/*/l
+Disallow: /g
+Disallow: /t/*/*.rss
+Disallow: /c/*.rss
+
+
+User-agent: Unity Redirector Service
+Disallow: /admin/
+Disallow: /auth/
+Disallow: /assets/js/browser-update*.js
+Disallow: /email/
+Disallow: /session
+Disallow: /user-api-key
+Disallow: /*?api_key*
+Disallow: /*?*api_key*
+Disallow: /badges
+Disallow: /my
+Disallow: /search
+Disallow: /tag/*/l
+Disallow: /g
+Disallow: /t/*/*.rss
+Disallow: /c/*.rss
+
+
+User-agent: DiscussionsDashboard
+Disallow: /admin/
+Disallow: /auth/
+Disallow: /assets/js/browser-update*.js
+Disallow: /email/
+Disallow: /session
+Disallow: /user-api-key
+Disallow: /*?api_key*
+Disallow: /*?*api_key*
+Disallow: /badges
+Disallow: /my
+Disallow: /search
+Disallow: /tag/*/l
+Disallow: /g
+Disallow: /t/*/*.rss
+Disallow: /c/*.rss
+
+
+User-agent: Coveo
+Disallow: /admin/
+Disallow: /auth/
+Disallow: /assets/js/browser-update*.js
+Disallow: /email/
+Disallow: /session
+Disallow: /user-api-key
+Disallow: /*?api_key*
+Disallow: /*?*api_key*
+Disallow: /badges
+Disallow: /my
+Disallow: /search
+Disallow: /tag/*/l
+Disallow: /g
+Disallow: /t/*/*.rss
+Disallow: /c/*.rss
+
+
+User-agent: @gormus/discourse-bulk-actions
+Disallow: /admin/
+Disallow: /auth/
+Disallow: /assets/js/browser-update*.js
+Disallow: /email/
+Disallow: /session
+Disallow: /user-api-key
+Disallow: /*?api_key*
+Disallow: /*?*api_key*
+Disallow: /badges
+Disallow: /my
+Disallow: /search
+Disallow: /tag/*/l
+Disallow: /g
+Disallow: /t/*/*.rss
+Disallow: /c/*.rss
+
+
+User-agent: ahrefssiteaudit
+Disallow: /admin/
+Disallow: /auth/
+Disallow: /assets/js/browser-update*.js
+Disallow: /email/
+Disallow: /session
+Disallow: /user-api-key
+Disallow: /*?api_key*
+Disallow: /*?*api_key*
+Disallow: /badges
+Disallow: /my
+Disallow: /search
+Disallow: /tag/*/l
+Disallow: /g
+Disallow: /t/*/*.rss
+Disallow: /c/*.rss
+
+
+User-agent: applebot
+Disallow: /admin/
+Disallow: /auth/
+Disallow: /assets/js/browser-update*.js
+Disallow: /email/
+Disallow: /session
+Disallow: /user-api-key
+Disallow: /*?api_key*
+Disallow: /*?*api_key*
+Disallow: /badges
+Disallow: /my
+Disallow: /search
+Disallow: /tag/*/l
+Disallow: /g
+Disallow: /t/*/*.rss
+Disallow: /c/*.rss
+
+
+User-agent: applebot-extended
+Disallow: /admin/
+Disallow: /auth/
+Disallow: /assets/js/browser-update*.js
+Disallow: /email/
+Disallow: /session
+Disallow: /user-api-key
+Disallow: /*?api_key*
+Disallow: /*?*api_key*
+Disallow: /badges
+Disallow: /my
+Disallow: /search
+Disallow: /tag/*/l
+Disallow: /g
+Disallow: /t/*/*.rss
+Disallow: /c/*.rss
+
+
+User-agent: baiduspider
+Disallow: /admin/
+Disallow: /auth/
+Disallow: /assets/js/browser-update*.js
+Disallow: /email/
+Disallow: /session
+Disallow: /user-api-key
+Disallow: /*?api_key*
+Disallow: /*?*api_key*
+Disallow: /badges
+Disallow: /my
+Disallow: /search
+Disallow: /tag/*/l
+Disallow: /g
+Disallow: /t/*/*.rss
+Disallow: /c/*.rss
+
+
+User-agent: bingbot
+Disallow: /admin/
+Disallow: /auth/
+Disallow: /assets/js/browser-update*.js
+Disallow: /email/
+Disallow: /session
+Disallow: /user-api-key
+Disallow: /*?api_key*
+Disallow: /*?*api_key*
+Disallow: /badges
+Disallow: /my
+Disallow: /search
+Disallow: /tag/*/l
+Disallow: /g
+Disallow: /t/*/*.rss
+Disallow: /c/*.rss
+
+
+User-agent: ccbot
+Disallow: /admin/
+Disallow: /auth/
+Disallow: /assets/js/browser-update*.js
+Disallow: /email/
+Disallow: /session
+Disallow: /user-api-key
+Disallow: /*?api_key*
+Disallow: /*?*api_key*
+Disallow: /badges
+Disallow: /my
+Disallow: /search
+Disallow: /tag/*/l
+Disallow: /g
+Disallow: /t/*/*.rss
+Disallow: /c/*.rss
+
+
+User-agent: chatgpt-user
+Disallow: /admin/
+Disallow: /auth/
+Disallow: /assets/js/browser-update*.js
+Disallow: /email/
+Disallow: /session
+Disallow: /user-api-key
+Disallow: /*?api_key*
+Disallow: /*?*api_key*
+Disallow: /badges
+Disallow: /my
+Disallow: /search
+Disallow: /tag/*/l
+Disallow: /g
+Disallow: /t/*/*.rss
+Disallow: /c/*.rss
+
+
+User-agent: claude-searchbot
+Disallow: /admin/
+Disallow: /auth/
+Disallow: /assets/js/browser-update*.js
+Disallow: /email/
+Disallow: /session
+Disallow: /user-api-key
+Disallow: /*?api_key*
+Disallow: /*?*api_key*
+Disallow: /badges
+Disallow: /my
+Disallow: /search
+Disallow: /tag/*/l
+Disallow: /g
+Disallow: /t/*/*.rss
+Disallow: /c/*.rss
+
+
+User-agent: claude-user
+Disallow: /admin/
+Disallow: /auth/
+Disallow: /assets/js/browser-update*.js
+Disallow: /email/
+Disallow: /session
+Disallow: /user-api-key
+Disallow: /*?api_key*
+Disallow: /*?*api_key*
+Disallow: /badges
+Disallow: /my
+Disallow: /search
+Disallow: /tag/*/l
+Disallow: /g
+Disallow: /t/*/*.rss
+Disallow: /c/*.rss
+
+
+User-agent: coveo
+Disallow: /admin/
+Disallow: /auth/
+Disallow: /assets/js/browser-update*.js
+Disallow: /email/
+Disallow: /session
+Disallow: /user-api-key
+Disallow: /*?api_key*
+Disallow: /*?*api_key*
+Disallow: /badges
+Disallow: /my
+Disallow: /search
+Disallow: /tag/*/l
+Disallow: /g
+Disallow: /t/*/*.rss
+Disallow: /c/*.rss
+
+
+User-agent: discordbot
+Disallow: /admin/
+Disallow: /auth/
+Disallow: /assets/js/browser-update*.js
+Disallow: /email/
+Disallow: /session
+Disallow: /user-api-key
+Disallow: /*?api_key*
+Disallow: /*?*api_key*
+Disallow: /badges
+Disallow: /my
+Disallow: /search
+Disallow: /tag/*/l
+Disallow: /g
+Disallow: /t/*/*.rss
+Disallow: /c/*.rss
+
+
+User-agent: duckassistbot
+Disallow: /admin/
+Disallow: /auth/
+Disallow: /assets/js/browser-update*.js
+Disallow: /email/
+Disallow: /session
+Disallow: /user-api-key
+Disallow: /*?api_key*
+Disallow: /*?*api_key*
+Disallow: /badges
+Disallow: /my
+Disallow: /search
+Disallow: /tag/*/l
+Disallow: /g
+Disallow: /t/*/*.rss
+Disallow: /c/*.rss
+
+
+User-agent: duckduckbot
+Disallow: /admin/
+Disallow: /auth/
+Disallow: /assets/js/browser-update*.js
+Disallow: /email/
+Disallow: /session
+Disallow: /user-api-key
+Disallow: /*?api_key*
+Disallow: /*?*api_key*
+Disallow: /badges
+Disallow: /my
+Disallow: /search
+Disallow: /tag/*/l
+Disallow: /g
+Disallow: /t/*/*.rss
+Disallow: /c/*.rss
+
+
+User-agent: exabot
+Disallow: /admin/
+Disallow: /auth/
+Disallow: /assets/js/browser-update*.js
+Disallow: /email/
+Disallow: /session
+Disallow: /user-api-key
+Disallow: /*?api_key*
+Disallow: /*?*api_key*
+Disallow: /badges
+Disallow: /my
+Disallow: /search
+Disallow: /tag/*/l
+Disallow: /g
+Disallow: /t/*/*.rss
+Disallow: /c/*.rss
+
+
+User-agent: facebookexternalhit
+Disallow: /admin/
+Disallow: /auth/
+Disallow: /assets/js/browser-update*.js
+Disallow: /email/
+Disallow: /session
+Disallow: /user-api-key
+Disallow: /*?api_key*
+Disallow: /*?*api_key*
+Disallow: /badges
+Disallow: /my
+Disallow: /search
+Disallow: /tag/*/l
+Disallow: /g
+Disallow: /t/*/*.rss
+Disallow: /c/*.rss
+
+
+User-agent: google-cloudvertexbot
+Disallow: /admin/
+Disallow: /auth/
+Disallow: /assets/js/browser-update*.js
+Disallow: /email/
+Disallow: /session
+Disallow: /user-api-key
+Disallow: /*?api_key*
+Disallow: /*?*api_key*
+Disallow: /badges
+Disallow: /my
+Disallow: /search
+Disallow: /tag/*/l
+Disallow: /g
+Disallow: /t/*/*.rss
+Disallow: /c/*.rss
+
+
+User-agent: google-extended
+Disallow: /admin/
+Disallow: /auth/
+Disallow: /assets/js/browser-update*.js
+Disallow: /email/
+Disallow: /session
+Disallow: /user-api-key
+Disallow: /*?api_key*
+Disallow: /*?*api_key*
+Disallow: /badges
+Disallow: /my
+Disallow: /search
+Disallow: /tag/*/l
+Disallow: /g
+Disallow: /t/*/*.rss
+Disallow: /c/*.rss
+
+
+User-agent: google-inspectiontool
+Disallow: /admin/
+Disallow: /auth/
+Disallow: /assets/js/browser-update*.js
+Disallow: /email/
+Disallow: /session
+Disallow: /user-api-key
+Disallow: /*?api_key*
+Disallow: /*?*api_key*
+Disallow: /badges
+Disallow: /my
+Disallow: /search
+Disallow: /tag/*/l
+Disallow: /g
+Disallow: /t/*/*.rss
+Disallow: /c/*.rss
+
+
+User-agent: googlebot
+Disallow: /admin/
+Disallow: /auth/
+Disallow: /assets/js/browser-update*.js
+Disallow: /email/
+Disallow: /session
+Disallow: /user-api-key
+Disallow: /*?api_key*
+Disallow: /*?*api_key*
+Disallow: /badges
+Disallow: /my
+Disallow: /search
+Disallow: /tag/*/l
+Disallow: /g
+Disallow: /t/*/*.rss
+Disallow: /c/*.rss
+
+
+User-agent: googleother
+Disallow: /admin/
+Disallow: /auth/
+Disallow: /assets/js/browser-update*.js
+Disallow: /email/
+Disallow: /session
+Disallow: /user-api-key
+Disallow: /*?api_key*
+Disallow: /*?*api_key*
+Disallow: /badges
+Disallow: /my
+Disallow: /search
+Disallow: /tag/*/l
+Disallow: /g
+Disallow: /t/*/*.rss
+Disallow: /c/*.rss
+
+
+User-agent: iframely
+Disallow: /admin/
+Disallow: /auth/
+Disallow: /assets/js/browser-update*.js
+Disallow: /email/
+Disallow: /session
+Disallow: /user-api-key
+Disallow: /*?api_key*
+Disallow: /*?*api_key*
+Disallow: /badges
+Disallow: /my
+Disallow: /search
+Disallow: /tag/*/l
+Disallow: /g
+Disallow: /t/*/*.rss
+Disallow: /c/*.rss
+
+
+User-agent: levelaccess
+Disallow: /admin/
+Disallow: /auth/
+Disallow: /assets/js/browser-update*.js
+Disallow: /email/
+Disallow: /session
+Disallow: /user-api-key
+Disallow: /*?api_key*
+Disallow: /*?*api_key*
+Disallow: /badges
+Disallow: /my
+Disallow: /search
+Disallow: /tag/*/l
+Disallow: /g
+Disallow: /t/*/*.rss
+Disallow: /c/*.rss
+
+
+User-agent: linkedinbot
+Disallow: /admin/
+Disallow: /auth/
+Disallow: /assets/js/browser-update*.js
+Disallow: /email/
+Disallow: /session
+Disallow: /user-api-key
+Disallow: /*?api_key*
+Disallow: /*?*api_key*
+Disallow: /badges
+Disallow: /my
+Disallow: /search
+Disallow: /tag/*/l
+Disallow: /g
+Disallow: /t/*/*.rss
+Disallow: /c/*.rss
+
+
+User-agent: meltwaternews
+Disallow: /admin/
+Disallow: /auth/
+Disallow: /assets/js/browser-update*.js
+Disallow: /email/
+Disallow: /session
+Disallow: /user-api-key
+Disallow: /*?api_key*
+Disallow: /*?*api_key*
+Disallow: /badges
+Disallow: /my
+Disallow: /search
+Disallow: /tag/*/l
+Disallow: /g
+Disallow: /t/*/*.rss
+Disallow: /c/*.rss
+
+
+User-agent: meta-externalfetcher
+Disallow: /admin/
+Disallow: /auth/
+Disallow: /assets/js/browser-update*.js
+Disallow: /email/
+Disallow: /session
+Disallow: /user-api-key
+Disallow: /*?api_key*
+Disallow: /*?*api_key*
+Disallow: /badges
+Disallow: /my
+Disallow: /search
+Disallow: /tag/*/l
+Disallow: /g
+Disallow: /t/*/*.rss
+Disallow: /c/*.rss
+
+
+User-agent: mistralai-user
+Disallow: /admin/
+Disallow: /auth/
+Disallow: /assets/js/browser-update*.js
+Disallow: /email/
+Disallow: /session
+Disallow: /user-api-key
+Disallow: /*?api_key*
+Disallow: /*?*api_key*
+Disallow: /badges
+Disallow: /my
+Disallow: /search
+Disallow: /tag/*/l
+Disallow: /g
+Disallow: /t/*/*.rss
+Disallow: /c/*.rss
+
+
+User-agent: netnewswire
+Disallow: /admin/
+Disallow: /auth/
+Disallow: /assets/js/browser-update*.js
+Disallow: /email/
+Disallow: /session
+Disallow: /user-api-key
+Disallow: /*?api_key*
+Disallow: /*?*api_key*
+Disallow: /badges
+Disallow: /my
+Disallow: /search
+Disallow: /tag/*/l
+Disallow: /g
+Disallow: /t/*/*.rss
+Disallow: /c/*.rss
+
+
+User-agent: oai-adsbot
+Disallow: /admin/
+Disallow: /auth/
+Disallow: /assets/js/browser-update*.js
+Disallow: /email/
+Disallow: /session
+Disallow: /user-api-key
+Disallow: /*?api_key*
+Disallow: /*?*api_key*
+Disallow: /badges
+Disallow: /my
+Disallow: /search
+Disallow: /tag/*/l
+Disallow: /g
+Disallow: /t/*/*.rss
+Disallow: /c/*.rss
+
+
+User-agent: oai-searchbot
+Disallow: /admin/
+Disallow: /auth/
+Disallow: /assets/js/browser-update*.js
+Disallow: /email/
+Disallow: /session
+Disallow: /user-api-key
+Disallow: /*?api_key*
+Disallow: /*?*api_key*
+Disallow: /badges
+Disallow: /my
+Disallow: /search
+Disallow: /tag/*/l
+Disallow: /g
+Disallow: /t/*/*.rss
+Disallow: /c/*.rss
+
+
+User-agent: okhttp
+Disallow: /admin/
+Disallow: /auth/
+Disallow: /assets/js/browser-update*.js
+Disallow: /email/
+Disallow: /session
+Disallow: /user-api-key
+Disallow: /*?api_key*
+Disallow: /*?*api_key*
+Disallow: /badges
+Disallow: /my
+Disallow: /search
+Disallow: /tag/*/l
+Disallow: /g
+Disallow: /t/*/*.rss
+Disallow: /c/*.rss
+
+
+User-agent: perplexity-user
+Disallow: /admin/
+Disallow: /auth/
+Disallow: /assets/js/browser-update*.js
+Disallow: /email/
+Disallow: /session
+Disallow: /user-api-key
+Disallow: /*?api_key*
+Disallow: /*?*api_key*
+Disallow: /badges
+Disallow: /my
+Disallow: /search
+Disallow: /tag/*/l
+Disallow: /g
+Disallow: /t/*/*.rss
+Disallow: /c/*.rss
+
+
+User-agent: perplexitybot
+Disallow: /admin/
+Disallow: /auth/
+Disallow: /assets/js/browser-update*.js
+Disallow: /email/
+Disallow: /session
+Disallow: /user-api-key
+Disallow: /*?api_key*
+Disallow: /*?*api_key*
+Disallow: /badges
+Disallow: /my
+Disallow: /search
+Disallow: /tag/*/l
+Disallow: /g
+Disallow: /t/*/*.rss
+Disallow: /c/*.rss
+
+
+User-agent: pinterestbot
+Disallow: /admin/
+Disallow: /auth/
+Disallow: /assets/js/browser-update*.js
+Disallow: /email/
+Disallow: /session
+Disallow: /user-api-key
+Disallow: /*?api_key*
+Disallow: /*?*api_key*
+Disallow: /badges
+Disallow: /my
+Disallow: /search
+Disallow: /tag/*/l
+Disallow: /g
+Disallow: /t/*/*.rss
+Disallow: /c/*.rss
+
+
+User-agent: schema-markup-validator
+Disallow: /admin/
+Disallow: /auth/
+Disallow: /assets/js/browser-update*.js
+Disallow: /email/
+Disallow: /session
+Disallow: /user-api-key
+Disallow: /*?api_key*
+Disallow: /*?*api_key*
+Disallow: /badges
+Disallow: /my
+Disallow: /search
+Disallow: /tag/*/l
+Disallow: /g
+Disallow: /t/*/*.rss
+Disallow: /c/*.rss
+
+
+User-agent: slackbot
+Disallow: /admin/
+Disallow: /auth/
+Disallow: /assets/js/browser-update*.js
+Disallow: /email/
+Disallow: /session
+Disallow: /user-api-key
+Disallow: /*?api_key*
+Disallow: /*?*api_key*
+Disallow: /badges
+Disallow: /my
+Disallow: /search
+Disallow: /tag/*/l
+Disallow: /g
+Disallow: /t/*/*.rss
+Disallow: /c/*.rss
+
+
+User-agent: slurp
+Disallow: /admin/
+Disallow: /auth/
+Disallow: /assets/js/browser-update*.js
+Disallow: /email/
+Disallow: /session
+Disallow: /user-api-key
+Disallow: /*?api_key*
+Disallow: /*?*api_key*
+Disallow: /badges
+Disallow: /my
+Disallow: /search
+Disallow: /tag/*/l
+Disallow: /g
+Disallow: /t/*/*.rss
+Disallow: /c/*.rss
+
+
+User-agent: sogou
+Disallow: /admin/
+Disallow: /auth/
+Disallow: /assets/js/browser-update*.js
+Disallow: /email/
+Disallow: /session
+Disallow: /user-api-key
+Disallow: /*?api_key*
+Disallow: /*?*api_key*
+Disallow: /badges
+Disallow: /my
+Disallow: /search
+Disallow: /tag/*/l
+Disallow: /g
+Disallow: /t/*/*.rss
+Disallow: /c/*.rss
+
+
+User-agent: statuspal.io_monitor/1.5
+Disallow: /admin/
+Disallow: /auth/
+Disallow: /assets/js/browser-update*.js
+Disallow: /email/
+Disallow: /session
+Disallow: /user-api-key
+Disallow: /*?api_key*
+Disallow: /*?*api_key*
+Disallow: /badges
+Disallow: /my
+Disallow: /search
+Disallow: /tag/*/l
+Disallow: /g
+Disallow: /t/*/*.rss
+Disallow: /c/*.rss
+
+
+User-agent: swiftbot
+Disallow: /admin/
+Disallow: /auth/
+Disallow: /assets/js/browser-update*.js
+Disallow: /email/
+Disallow: /session
+Disallow: /user-api-key
+Disallow: /*?api_key*
+Disallow: /*?*api_key*
+Disallow: /badges
+Disallow: /my
+Disallow: /search
+Disallow: /tag/*/l
+Disallow: /g
+Disallow: /t/*/*.rss
+Disallow: /c/*.rss
+
+
+User-agent: telegrambot
+Disallow: /admin/
+Disallow: /auth/
+Disallow: /assets/js/browser-update*.js
+Disallow: /email/
+Disallow: /session
+Disallow: /user-api-key
+Disallow: /*?api_key*
+Disallow: /*?*api_key*
+Disallow: /badges
+Disallow: /my
+Disallow: /search
+Disallow: /tag/*/l
+Disallow: /g
+Disallow: /t/*/*.rss
+Disallow: /c/*.rss
+
+
+User-agent: twitterbot
+Disallow: /admin/
+Disallow: /auth/
+Disallow: /assets/js/browser-update*.js
+Disallow: /email/
+Disallow: /session
+Disallow: /user-api-key
+Disallow: /*?api_key*
+Disallow: /*?*api_key*
+Disallow: /badges
+Disallow: /my
+Disallow: /search
+Disallow: /tag/*/l
+Disallow: /g
+Disallow: /t/*/*.rss
+Disallow: /c/*.rss
+
+
+User-agent: whatsapp
+Disallow: /admin/
+Disallow: /auth/
+Disallow: /assets/js/browser-update*.js
+Disallow: /email/
+Disallow: /session
+Disallow: /user-api-key
+Disallow: /*?api_key*
+Disallow: /*?*api_key*
+Disallow: /badges
+Disallow: /my
+Disallow: /search
+Disallow: /tag/*/l
+Disallow: /g
+Disallow: /t/*/*.rss
+Disallow: /c/*.rss
+
+
+User-agent: yandexbot
+Disallow: /admin/
+Disallow: /auth/
+Disallow: /assets/js/browser-update*.js
+Disallow: /email/
+Disallow: /session
+Disallow: /user-api-key
+Disallow: /*?api_key*
+Disallow: /*?*api_key*
+Disallow: /badges
+Disallow: /my
+Disallow: /search
+Disallow: /tag/*/l
+Disallow: /g
+Disallow: /t/*/*.rss
+Disallow: /c/*.rss
+
+
+User-agent: gptbot
+Disallow: /admin/
+Disallow: /auth/
+Disallow: /assets/js/browser-update*.js
+Disallow: /email/
+Disallow: /session
+Disallow: /user-api-key
+Disallow: /*?api_key*
+Disallow: /*?*api_key*
+Disallow: /badges
+Disallow: /my
+Disallow: /search
+Disallow: /tag/*/l
+Disallow: /g
+Disallow: /t/*/*.rss
+Disallow: /c/*.rss
+
+
+User-agent: claudebot
+Disallow: /admin/
+Disallow: /auth/
+Disallow: /assets/js/browser-update*.js
+Disallow: /email/
+Disallow: /session
+Disallow: /user-api-key
+Disallow: /*?api_key*
+Disallow: /*?*api_key*
+Disallow: /badges
+Disallow: /my
+Disallow: /search
+Disallow: /tag/*/l
+Disallow: /g
+Disallow: /t/*/*.rss
+Disallow: /c/*.rss
+
+
+User-agent: amazonbot
+Disallow: /admin/
+Disallow: /auth/
+Disallow: /assets/js/browser-update*.js
+Disallow: /email/
+Disallow: /session
+Disallow: /user-api-key
+Disallow: /*?api_key*
+Disallow: /*?*api_key*
+Disallow: /badges
+Disallow: /my
+Disallow: /search
+Disallow: /tag/*/l
+Disallow: /g
+Disallow: /t/*/*.rss
+Disallow: /c/*.rss
+
+
+User-agent: *
+Disallow: /
+
+
+
+Sitemap: https://discussions.unity.com/sitemap.xml
+
+

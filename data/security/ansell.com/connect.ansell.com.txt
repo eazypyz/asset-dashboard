@@ -1,0 +1,486 @@
+<html lang="en">
+<head>
+<title>Not Found</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<script src="https://cdnna.webrtc.adobeconnect.com/static-assets/12.12.0d/common/scripts/showContent.js" charset="utf-8"></script><script src="https://cdnna.webrtc.adobeconnect.com/static-assets/12.12.0d/common/scripts/breezeUI.js" charset="utf-8"></script><script src="https://cdnna.webrtc.adobeconnect.com/static-assets/12.12.0d/common/scripts/s_code.js" charset="utf-8"></script><script type="text/javascript">
+            var AnalyticsConnectUtilObj;
+        </script><script type="text/javascript">
+				if (!Function.prototype.bind) {
+				  Function.prototype.bind = function(oThis) {
+					if (typeof this !== 'function') {
+					  // closest thing possible to the ECMAScript 5
+					  // internal IsCallable function
+					  throw new TypeError('Function.prototype.bind - what is trying to be bound is not callable');
+					}
+
+					var aArgs   = Array.prototype.slice.call(arguments, 1),
+						fToBind = this,
+						fNOP    = function() {},
+						fBound  = function() {
+						  return fToBind.apply(this instanceof fNOP && oThis
+								 ? this
+								 : oThis,
+								 aArgs.concat(Array.prototype.slice.call(arguments)));
+						};
+
+					fNOP.prototype = this.prototype;
+					fBound.prototype = new fNOP();
+
+					return fBound;
+				  };
+				}		 
+				
+                var AnalyticsConnectUtil = function()
+                  {
+                    this.initialized = false;
+                    this.sendInternalAnalyticsData = this.sendInternalAnalyticsData.bind(this);
+                  }
+
+                AnalyticsConnectUtil.prototype.initialize = function() {
+                    // Check Dependecies
+                    if(!this.iaCaller && InternalAnalyticsCaller && BrowserUtils && InternalAnalyticsFields && InternalAnalyticsFields) {
+                      this.iaCaller = new InternalAnalyticsCaller(window.location.protocol+"//"+window.location.host, true);
+                    }
+                    if(this.iaCaller && this.iaCaller.trackingState === 'ready')
+                      this.initialized = true;
+                }
+                  
+                AnalyticsConnectUtil.prototype.sendSwfLoad = function(swfName)
+                  {
+                      var analyticsData = {};
+                      if(swfName&& swfName != "")
+                        analyticsData[InternalAnalyticsFields.SWF_NAME] = swfName;
+                      this.sendInternalAnalyticsDataTimer(InternalAnalyticsFields.EVENT_CC_SWF_LOADED, analyticsData);
+                  }
+
+                AnalyticsConnectUtil.prototype.sendReportLoad = function(reportPath, navScoTypeAndIcon, reportName)
+                  {
+                      var analyticsData = {};
+                      if(reportPath && reportPath != "")
+                        analyticsData[InternalAnalyticsFields.REPORT_PATH] = reportPath;
+                      if(navScoTypeAndIcon && navScoTypeAndIcon != "")
+                        analyticsData[InternalAnalyticsFields.NAV_SCO_TYPE_AND_ICON] = navScoTypeAndIcon;
+                      if(reportName && reportName != "")
+                        analyticsData[InternalAnalyticsFields.REPORT_NAME] = reportName;
+                      this.sendInternalAnalyticsDataTimer(InternalAnalyticsFields.EVENT_CC_REPORT_LOADED, analyticsData);
+                  }
+
+
+                AnalyticsConnectUtil.prototype.sendInternalAnalyticsData = function(eventName, analyticsData, sleepTime, reTries)
+                  {
+                    if(!this.initialized) {
+                      this.initialize();
+                    }
+                    if(this.initialized) {
+                      this.iaCaller.sendInternalAnalyticsData(eventName, analyticsData);
+                    } else {
+                      if(reTries > 0) {
+                        this.sendInternalAnalyticsDataTimer(eventName, analyticsData, sleepTime, reTries-1)
+                      }
+                    }
+                  }
+
+
+                AnalyticsConnectUtil.prototype.sendInternalAnalyticsDataTimer = function(eventName, analyticsData, sleepTime, reTries)
+                  {
+					if(sleepTime == undefined)sleepTime=500;
+					if(reTries == undefined)sleepTime=20;					
+                    setTimeout(this.sendInternalAnalyticsData, sleepTime, eventName, analyticsData, Math.min(sleepTime*2, 10000), reTries)
+                  }
+
+                var AnalyticsConnectUtilObj = new AnalyticsConnectUtil();
+        </script><script src="https://cdnna.webrtc.adobeconnect.com/static-assets/12.12.0d/common/scripts/BrowserUtils.js" charset="utf-8"></script><script src="https://cdnna.webrtc.adobeconnect.com/static-assets/12.12.0d/common/scripts/analytics/IACaller.js" charset="utf-8"></script><script src="https://cdnna.webrtc.adobeconnect.com/static-assets/12.12.0d/common/scripts/analytics/IAFields.js" charset="utf-8"></script><script>
+          var days_of_month = [
+          "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31"
+                ];
+        
+
+          function roundedCorners()
+          {
+            var tables = document.getElementsByTagName("table");
+
+            // First locate all tables of class "contentTable"
+            for (var i = 0; i < tables.length; i++)
+            {
+               if (/\bcontentTable\b/.exec(tables[i].className))
+               {
+                    var content = tables[i];
+                    var rows = content.getElementsByTagName("tr");
+                    // make sure the first row is of type "contentHeader"
+                    if (/\bcontentHeader\b/.exec(rows[0].className))
+                    {
+                      var header = rows[0];
+                      var cols = header.getElementsByTagName("th");
+
+                      if (cols.length == 0)
+                        cols = header.getElementsByTagName("td");
+
+                      if (cols.length > 1)
+                      {
+                        var first = 0;
+                        var last = cols.length-1;
+
+                        cols[first].style.backgroundImage = "url(/common/images/globalnav/tl.gif)";
+                        cols[first].style.backgroundImage.marginTop = "0px";
+                        cols[first].style.backgroundRepeat = "no-repeat";
+                        cols[first].style.backgroundPosition = "left 0%";
+
+                        cols[last].style.backgroundImage = "url(/common/images/globalnav/tr.gif)";
+                        cols[last].style.backgroundRepeat = "no-repeat";
+                        cols[last].style.backgroundPosition = "right 0%";
+                      } else  {
+                        // XXX - need to find a way to handle single column tables
+                        cols[0].style.backgroundImage = "url(/common/images/globalnav/tl.gif)";
+                        cols[0].style.backgroundImage.marginTop = "0px";
+                        cols[0].style.backgroundRepeat = "no-repeat";
+                        cols[0].style.backgroundPosition = "left 0%";
+                      }
+                    }
+
+                    // Put a nice edge on the tables.
+					for (j=1;j<rows.length;j++) {
+						var row = rows[j];
+						var cols = row.getElementsByTagName("td");
+					  	if (cols.length >= 1)
+					  	{
+							var first = 0;
+							var last = cols.length-1;
+
+							cols[first].style.borderLeftColor = "#e4e4e4";
+							cols[first].style.borderLeftStyle = "solid";
+							cols[first].style.borderLeftWidth = "1px";
+
+							cols[last].style.borderRightColor = "#e4e4e4";
+							cols[last].style.borderRightStyle = "solid";
+							cols[last].style.borderRightWidth = "1px";
+					  	}
+					}
+                }
+            }
+          }
+
+
+            function initPage()
+            {
+
+               roundedCorners();
+               RoundedTop("li.tab2","transparent","#E4E4E4");
+               RoundedTop("li.tab2Sel","transparent","#A7ACB1");
+               if (document.contentForm!=null)
+               {
+                    var ele = document.contentForm.elements;
+                    for (i=0;i < ele.length;i++)
+                    {
+                        if (((ele[i].type=='text')||(ele[i].type=='file') || (ele[i].type=='textarea'))
+                        && (ele[i].disabled!=true) && (document.contentForm.elements[i].visible == true))
+                        {
+                          document.contentForm.elements[i].focus();
+                          break;
+                        }
+                    }
+                }
+               
+                var lFlag = window.sessionStorage.getItem('loginFlag');
+               	var gFlag = window.sessionStorage.getItem('guestFlag');
+               	var eFlag = window.sessionStorage.getItem('emailFlag');
+               	var pFlag = window.sessionStorage.getItem('passcodeFlag');
+               	var npFlag = window.sessionStorage.getItem('newPasswordFlag');
+               	var rpFlag = window.sessionStorage.getItem('recordingPasscodeFlag');
+                var loginUsername = window.sessionStorage.getItem('loginUsername');
+				var playTimeAfterReload = window.sessionStorage.getItem('playTimeAfterReload');
+
+
+               	var newClass = null;
+                var contentForm = document.contentForm;
+
+                var imageAlertElement = function() {
+                    var element = document.createElement('img');
+                    element.setAttribute("class", "image-alert");
+                    element.setAttribute("src", "/common/images/alert.svg");
+                    element.setAttribute("alt", "Error");
+                    return element;
+                }
+
+                function insertAfter(newElement,targetElement) {
+                    // target is what you want it to go after. Look for this elements parent.
+                    var parent = targetElement.parentNode;
+
+                    // if the parents lastchild is the targetElement...
+                    if (parent.lastChild == targetElement) {
+                        // add the newElement after the target element.
+                        parent.appendChild(newElement);
+                    } else {
+                        // else the target has siblings, insert the new element between the target and it's next sibling.
+                        parent.insertBefore(newElement, targetElement.nextSibling);
+                    }
+                }
+
+                // Added setTimeout because when "coral3-Textfield--quiet" class is added
+                // it doesn't remember that "is-invalid" class was added before it.
+
+               	setTimeout(function(){
+               	
+                    if (lFlag == 'true' && contentForm != undefined && document.contentForm.login !== undefined){
+                        if(loginUsername && loginUsername !== "null") {
+                            document.contentForm.login.value = loginUsername;
+                        }
+                        var newClass = document.contentForm.login.getAttribute("class") + " is-invalid";
+                        document.contentForm.login.setAttribute("class", newClass);
+
+                        insertAfter(imageAlertElement(), document.contentForm.login);
+                        document.contentForm.password.setAttribute("class", newClass);
+                        insertAfter(imageAlertElement(), document.contentForm.password);
+
+                        var passcodeElement = document.getElementById('meeting-passcode-reguser');
+                        if (passcodeElement) {
+                            insertAfter(imageAlertElement(), passcodeElement);
+                            passcodeElement.classList.add("is-invalid");
+                        }
+                    }
+                    else if (gFlag == 'true' && contentForm != undefined && document.contentForm.guestName !== undefined){
+                        document.contentForm.guestName.classList.add("is-invalid");
+                        insertAfter(imageAlertElement(), document.contentForm.guestName);
+                        document.contentForm.guestName.focus();
+                        var passcodeElement = document.getElementById('meeting-passcode-guest');
+                        if (passcodeElement) {
+                            insertAfter(imageAlertElement(), passcodeElement);
+                            passcodeElement.classList.add("is-invalid");
+                        }
+                    }
+                    else if (eFlag == 'true' && contentForm != undefined && document.contentForm.email !== undefined){
+                        if(loginUsername  && loginUsername !== "null" && !document.contentForm.email.value) {
+                            document.contentForm.email.value = loginUsername;
+                        }
+                        document.contentForm.email.classList.add("is-invalid");
+                        insertAfter(imageAlertElement(), document.contentForm.email);
+                        document.contentForm.email.focus();
+                    }
+                    else if (pFlag == 'true') {
+                        var element = document.getElementById("meeting-passcode");
+                        element.classList.add("is-invalid");
+                        insertAfter(imageAlertElement(), element);
+                        element.focus();
+                    }
+                    else if (npFlag == 'true' && contentForm && contentForm.password && contentForm["password-verify"] ) {
+                        insertAfter(imageAlertElement(), contentForm.password);
+                        contentForm.password.classList.add("is-invalid");
+                        insertAfter(imageAlertElement(), contentForm["password-verify"]);
+                        contentForm["password-verify"].classList.add("is-invalid");
+                    } else if ( rpFlag == 'true' && recordingPasscodeForm && recordingPasscodeForm['recording-passcode'] ) {
+                        insertAfter(imageAlertElement(), recordingPasscodeForm['recording-passcode']);
+                        recordingPasscodeForm['recording-passcode'].classList.add('is-invalid');
+                    }
+
+                    if ( document.contentForm && document.contentForm.login ) {
+                        
+                        if(loginUsername && loginUsername !== "null") {
+                            document.contentForm.login.value = loginUsername;
+                        }
+                        //do not focus on Username field if Account URL field is visible 
+                        if(document.contentForm.domain == null) {
+                            document.contentForm.login.focus();
+                        } 
+                    }
+                    if ( document.contentForm && document.contentForm.guestName ) {
+
+                        document.contentForm.guestName.focus();
+                    }
+                    if ( document.contentForm && document.contentForm.email ) {
+                        if(loginUsername && loginUsername !== "null" && !document.contentForm.email.value) {
+                            document.contentForm.email.value = loginUsername;
+                        }
+                        document.contentForm.email.focus();
+                    }
+
+                    window.sessionStorage.clear();
+                    if(loginUsername && loginUsername !== "null") {
+                        window.sessionStorage.setItem("loginUsername", loginUsername); // save username after page reload  
+                    }
+					if(playTimeAfterReload && playTimeAfterReload !== "null") {
+                        window.sessionStorage.setItem("playTimeAfterReload", playTimeAfterReload); // save recording play location after reload 
+                    }
+
+               	}, 100);
+            }
+
+
+
+            // these colors should match with the ones in breeze.css:button
+            function hover(b, over) {
+                if (over) {
+                    b.style.borderColor = "#aedf9a #94da78 #6ab94b #94da78";
+                } else {
+                   b.style.borderColor = "#c4cccc #acb5b5 #6f7777 #acb5b5";
+                }
+            }
+
+            /* For Our pages which have forms, this can be used to provide users with a Prompt if they navigate away from the page with a form that is not completely filled
+            */
+            var isDirty = false;
+
+            function setDirty(){
+              isDirty = true;
+              console.log("Setting Dirty");
+            }
+
+            function unsetDirty(){
+              isDirty = false;
+              console.log("Unset Dirty");
+            }
+
+            window.onbeforeunload = function(evt){
+              if(isDirty){
+                return "";
+              }
+            }
+        
+        </script>
+<link rel="stylesheet" href="https://cdnna.webrtc.adobeconnect.com/static-assets/12.12.0d/common/styles/globalnav.css">
+<link rel="stylesheet" href="https://cdnna.webrtc.adobeconnect.com/static-assets/12.12.0d/common/styles/breeze.css">
+<link rel="stylesheet" type="text/css" href="/_a1/webappBanner/custom/styles/banner_colors.css?ver=12.12.0">
+<link rel="stylesheet" type="text/css" href="/_a1/loginPage/custom/styles/login_colors.css?2026-09-10T05:22:38.417+00:00">
+<script></script><script>
+      function closeOrBack() {
+	if (window.opener != null) { 
+	  window.close(); } else { history.back(); 
+	}
+      }
+    </script>
+</head>
+<body class="loginClass" onLoad="
+        initPage();">
+<div id="pageContent-id" class="pageContent" style="width:100%">
+<form id="postNavLinksForm" name="postNavLinksForm" method="post" action="">
+</form>
+<script>
+			function doPostNavLink(path) {
+				var form = document.forms["postNavLinksForm"];
+				form.action = path;
+				form.submit();
+			}
+		</script>
+<div id="divBody">
+<script xmlns:urlenc="http://www.adobeconnect.com/xt/java/com.macromedia.airspeed.servlet.ui.XSLTEncoder">var isMobile = 'false';
+    	
+			
+	    	function showOpenAppNotification() {
+	    		if(isMobile == 'true') {
+		    		var mobileLoginPageOpenAppNotificationElement = document.getElementById("mobileLoginPageOpenAppNotification");	
+					if (mobileLoginPageOpenAppNotificationElement) {
+						var notificationHeight = mobileLoginPageOpenAppNotificationElement.clientHeight;
+						document.getElementById("mobileLoginContainer").style.backgroundPosition = "0 " + notificationHeight;
+						mobileLoginPageOpenAppNotificationElement.style.marginTop = "0";
+						mobileLoginPageOpenAppNotificationElement.style.visibility = "visible";
+						mobileLoginPageOpenAppNotificationElement.style.position = "relative";	
+					}
+	    		}
+	    	}	    	
+    	
+		
+		
+	</script><script src="https://cdnna.webrtc.adobeconnect.com/static-assets/12.12.0d/common/scripts/jQuery/js/minified/jquery-3.7.1.min.js" charset="utf-8"></script><script src="https://cdnna.webrtc.adobeconnect.com/static-assets/12.12.0d/common/scripts/coral_min.js" charset="utf-8"></script>
+<link rel="stylesheet" href="https://cdnna.webrtc.adobeconnect.com/static-assets/12.12.0d/common/styles/coral_min.css">
+<link rel="stylesheet" href="https://cdnna.webrtc.adobeconnect.com/static-assets/12.12.0d/common/styles/breeze_login.css">
+<style xmlns:urlenc="http://www.adobeconnect.com/xt/java/com.macromedia.airspeed.servlet.ui.XSLTEncoder">
+			/* Override margins for the system template */
+			.pageContent {margin: 0 0 0 0 !important;}    
+		</style>
+<div id="systemContainer" style="min-width:950px;width:expression(document.body.clientWidth < 950? '950px': '100%' );" xmlns:urlenc="http://www.adobeconnect.com/xt/java/com.macromedia.airspeed.servlet.ui.XSLTEncoder">
+<div id="loginBgColorX" class="login loginBGColor noScript">
+<div id="loginFormX" class="loginForm loginBGColor">
+<div class="main-login-form">
+<div class="login-page-header">
+<img src="https://cdnna.webrtc.adobeconnect.com/static-assets/12.12.0d/common/images/logos/connect_appicon.svg" alt="Adobe Connect Logo"></div>
+<hr class="horizontal-line">
+<div id="loginSection" class="loginField">
+<div id="formContainer" class="error-page-container">
+<h1 class="center">
+<title>Not Found</title>
+</h1>
+<div id="showLoginLogo" style="display: none;">
+</div>
+<img id="loginLogo" src="/_a1/loginPage/custom/images/logos/login_logo.svg?sco-id=" alt=""><div class="error-page-info text-info">The selected resource does not exist.<m id="error-assistance">
+    For further assistance, please check out the
+    <a href="/common/help/en/go/support.html">Adobe Connect support</a> page.
+  </m>
+</div>
+<div class="error-page-buttons">
+<a class="button" target="_self" onClick="javascript:closeOrBack()">OK</a>
+</div>
+</div>
+</div>
+</div>
+<div class="login-page-footer loginBGColor">
+<img src="https://cdnna.webrtc.adobeconnect.com/static-assets/12.12.0d/common/images/logos/adobe_logo.svg" alt="Adobe" height="20" style="margin-bottom:15px;padding-right:230px;display:block;"><span class="login-help"><a class="loginHelp" title="12.12.0" target="_blank" rel="noopener noreferrer" href="/common/help/en/go/login_ts.html">Help</a></span>
+<div class="copy-right">&copy; 2001-2026 Adobe. All Rights Reserved.</div>
+</div>
+</div>
+<div class="side-logo">
+<img id="loginSideLogo" src="/_a1/loginPage/custom/images/logos/login_side_logo_html.webp?sco-id=" alt=""></div>
+</div>
+</div>
+<script xmlns:urlenc="http://www.adobeconnect.com/xt/java/com.macromedia.airspeed.servlet.ui.XSLTEncoder">
+		  //Add background image url for side-logo
+		  var isMobile = false;
+		  var msidToken = "";
+		  var msidToken2 = window.location.search.indexOf("msid-token");
+		  if(msidToken2 != -1){
+			 msidToken = msidToken2;
+					
+		   }
+		  if(!isMobile && msidToken === ""){
+
+				var backgroundImageUrl = "";
+				var _loginSideLogo = document.getElementById('loginSideLogo');
+				if (_loginSideLogo) {
+					backgroundImageUrl = _loginSideLogo.src;
+				}
+		      //Set this url to css background-image of side-logo
+			  	var sideLogo = document.getElementsByClassName('side-logo')[0];
+				if(sideLogo) 
+					sideLogo.style.backgroundImage = "url(" + backgroundImageUrl+ ")";
+	      } else if (msidToken) {
+				var systemContainer = document.getElementById('systemContainer');
+				if (systemContainer) {
+					systemContainer.style.minWidth = 0;
+		  		}
+				var element = document.querySelector('.loginClass#systemContainer');
+				if (element) {
+					element.style.minWidth = 0;
+				}
+				var modeXmlElement = document.getElementsByClassname('mode-xml')[0];
+				if (modeXmlElement) {
+					modeXmlElement.style.width = 0;
+				}
+				var loginFormXEl = document.getElementById('loginFormX');
+				if (loginFormXEl) {
+					loginFormXEl.style.height = "auto";
+				}
+				var loginBgColorX = document.getElementById('loginBgColorX');
+				if (loginBgColorX) {
+					loginBgColorX.style.minHeight = 0;
+				}
+				var divBody = document.getElementById('divBody');
+				if (divBody) {
+					divBody.style.float = "none";
+				}
+		  }
+		</script>
+</div>
+</div>
+<div class="mode-xml" xmlns:urlenc="http://www.adobeconnect.com/xt/java/com.macromedia.airspeed.servlet.ui.XSLTEncoder">
+<script src="https://cdnna.webrtc.adobeconnect.com/static-assets/12.12.0d/common/scripts/analytics/launchIA.js" charset="utf-8"></script>
+</div>
+<script src="/common/scripts/JavaScriptServlet"></script><script>
+
+				var defaultLanguage = 'en'
+				var rootAppCsrfToken = '';
+				var isHtmlEnabled;
+				var pageKey;
+				var skuType;
+        window.commonCDN = 'https://cdnna.webrtc.adobeconnect.com/static-assets/12.12.0d';
+			</script>
+<link rel="stylesheet" href="https://cdnna.webrtc.adobeconnect.com/static-assets/12.12.0d/common/ccapps/root-react-app/css/client.f2a062921c0f29d8294b.css?ver=12.12.0">
+<script src="https://cdnna.webrtc.adobeconnect.com/static-assets/12.12.0d/common/ccapps/root-react-app/runtime~client.93fb55357cd04ca2f9ef.js?ver=12.12.0"></script><script src="https://cdnna.webrtc.adobeconnect.com/static-assets/12.12.0d/common/ccapps/root-react-app/vendors~client.51ccdba72469f0e865f5.js?ver=12.12.0"></script><script src="https://cdnna.webrtc.adobeconnect.com/static-assets/12.12.0d/common/ccapps/root-react-app/client.f2a062921c0f29d8294b.js?ver=12.12.0"></script>
+</body>
+</html>

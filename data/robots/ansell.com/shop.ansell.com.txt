@@ -1,0 +1,44 @@
+
+
+User-agent: *
+
+Allow: /
+
+Disallow: /*action=*
+Disallow: /*c=*
+Disallow: /*__hstc=*
+Disallow: /*id=*
+Disallow: /*key=*
+Disallow: /*nocache=*
+Disallow: /*pname=*
+Disallow: /*promocode*
+Disallow: /*range=*
+Disallow: /*sc=*
+Disallow: /*sort1=*
+Disallow: /*sort1desc=*
+
+User-agent: AdsBot-Google-Mobile-Apps
+
+Allow: /*?language=de&country=DE$
+
+User-agent: AdsBot-Google
+
+Allow: /*?language=de&country=DE$
+
+User-agent: AdsBot-Google-Mobile
+
+Allow: /*?language=de&country=DE$
+
+User-agent: Mediapartners-Google
+
+Allow: /*?language=de&country=DE$
+
+User-agent: Googlebot
+
+Allow: /
+
+User-agent: Googlebot-image
+
+Allow: /
+
+Sitemap: https://shop.ansell.com/services/apexrest/sitemap

@@ -1,0 +1,63 @@
+<html>
+<head>
+    <meta name="robots" content="noindex" />
+</head>
+<body>
+    
+
+<script type="text/javascript">
+
+    var redirectUrl = 'https://login.springcm.com/Login/DSLogin';
+    var useReturnUrl = 'True';
+
+    var w = topWindow();
+    var url = getRedirectUrl(redirectUrl, w, useReturnUrl);
+    w.location = url;
+
+
+    function getRedirectUrl(urlToRedirectTo, currentWindow, useReturnUrl) {
+        var redirectUrl = urlToRedirectTo;
+
+        if (useReturnUrl) {
+            if (urlToRedirectTo.indexOf('?') !== -1)
+                redirectUrl += '&';
+            else
+                redirectUrl += '?';
+
+            var returnUrl = currentWindow.location.pathname + currentWindow.location.search;
+
+            redirectUrl += 'ru=' + encodeURIComponent(returnUrl);
+        }
+
+        return redirectUrl;
+    };
+
+    var atlasTopWindow;
+
+    function topWindow() {
+        if (atlasTopWindow != null) return atlasTopWindow;
+
+        atlasTopWindow = window;
+        while (true) {
+            try {
+                // If we're at the outermost window, return it
+                if (atlasTopWindow === atlasTopWindow.parent) {
+                    return atlasTopWindow;
+                }
+
+                if (atlasTopWindow.parent.location.host != undefined) {
+                    atlasTopWindow = atlasTopWindow.parent;
+                } else {
+                    return atlasTopWindow;
+                }
+            } catch (e) {
+                return atlasTopWindow;
+            }
+        }
+    }
+
+
+</script>
+    
+</body>
+ </html>

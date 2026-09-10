@@ -1,0 +1,354 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html40/loose.dtd">
+
+<html>
+<head>
+  <title>        Cisco         Cloud Gateway   C300V (dh1324-esa1.iphmx.com) -         Welcome </title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="https://dh1324-esa1.iphmx.com/scfw/1y-16.5.0-780/yui/container/assets/container.css">
+<link rel="stylesheet" type="text/css" href="https://dh1324-esa1.iphmx.com/scfw/1y-16.5.0-780/yui/button/assets/skins/sam/button.css">
+<link rel="stylesheet" type="text/css" href="https://dh1324-esa1.iphmx.com/scfw/1y-16.5.0-780/yui/menu/assets/menu.css">
+<link rel="stylesheet" type="text/css" href="https://dh1324-esa1.iphmx.com/scfw/1y-16.5.0-780/yui/tabview/assets/tabview.css">
+<link rel="stylesheet" type="text/css" href="https://dh1324-esa1.iphmx.com/scfw/1y-16.5.0-780/yui/tabview/assets/border_tabs.css">
+<link rel="stylesheet" type="text/css" href="https://dh1324-esa1.iphmx.com/scfw/1y-16.5.0-780/yui/datatable/assets/datatable.css">
+<link rel="stylesheet" type="text/css" href="https://dh1324-esa1.iphmx.com/scfw/1y-16.5.0-780/yui/datatable/assets/datatable-core.css">
+<link rel="stylesheet" type="text/css" href="https://dh1324-esa1.iphmx.com/scfw/1y-16.5.0-780/yui/assets/skins/sam/editor.css">
+<link rel="stylesheet" type="text/css" href="https://dh1324-esa1.iphmx.com/scfw/1y-16.5.0-780/yui/calendar/assets/calendar.css">
+<link rel="stylesheet" type="text/css" href="https://dh1324-esa1.iphmx.com/scfw/1y-16.5.0-780/yui/assets/skins/sam/progressbar.css">
+
+<link rel="stylesheet" type="text/css" href="https://dh1324-esa1.iphmx.com/scfw/1y-16.5.0-780/skins/IP/tabview.css">
+
+<link rel="stylesheet" type="text/css" href="https://dh1324-esa1.iphmx.com/css" />
+<link rel="icon" href="https://dh1324-esa1.iphmx.com/scfw/1y-16.5.0-780/images/ironport_favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="https://dh1324-esa1.iphmx.com/scfw/1y-16.5.0-780/images/ironport_favicon.ico" type="image/x-icon" />
+
+<script src="https://dh1324-esa1.iphmx.com/scfw/1y-16.5.0-780/yui/yahoo-dom-event/yahoo-dom-event.js"></script>
+<script src="https://dh1324-esa1.iphmx.com/scfw/1y-16.5.0-780/yui/element/element-min.js"></script>
+<script src="https://dh1324-esa1.iphmx.com/scfw/1y-16.5.0-780/yui/connection/connection-min.js"></script>
+<script src="https://dh1324-esa1.iphmx.com/scfw/1y-16.5.0-780/yui/dragdrop/dragdrop-min.js"></script>
+<script src="https://dh1324-esa1.iphmx.com/scfw/1y-16.5.0-780/yui/animation/animation-min.js"></script>
+<script src="https://dh1324-esa1.iphmx.com/scfw/1y-16.5.0-780/yui/event-mouseenter/event-mouseenter-min.js"></script>
+<script src="https://dh1324-esa1.iphmx.com/scfw/1y-16.5.0-780/yui/slider/slider-min.js"></script>
+
+<script src="https://dh1324-esa1.iphmx.com/scfw/1y-16.5.0-780/yui/patch/container-min.js"></script>
+<script src="https://dh1324-esa1.iphmx.com/scfw/1y-16.5.0-780/yui/json/json-min.js"></script>
+<script src="https://dh1324-esa1.iphmx.com/scfw/1y-16.5.0-780/yui/datasource/datasource-min.js"></script>
+<script src="https://dh1324-esa1.iphmx.com/scfw/1y-16.5.0-780/yui/get/get-min.js"></script>
+<script src="https://dh1324-esa1.iphmx.com/scfw/1y-16.5.0-780/yui/cookie/cookie-min.js"></script>
+<script src="https://dh1324-esa1.iphmx.com/scfw/1y-16.5.0-780/yui/datatable/datatable-min.js"></script>
+
+<script src="https://dh1324-esa1.iphmx.com/scfw/1y-16.5.0-780/yui/menu/menu-min.js"></script>
+<script src="https://dh1324-esa1.iphmx.com/scfw/1y-16.5.0-780/yui/button/button-min.js"></script>
+<script src="https://dh1324-esa1.iphmx.com/scfw/1y-16.5.0-780/yui/tabview/tabview-debug.js"></script>
+<script src="https://dh1324-esa1.iphmx.com/scfw/1y-16.5.0-780/yui/logger/logger-min.js"></script>
+<script src="https://dh1324-esa1.iphmx.com/scfw/1y-16.5.0-780/yui/paginator/paginator-min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://dh1324-esa1.iphmx.com/scfw/1y-16.5.0-780/yui/paginator/assets/skins/sam/paginator.css">
+<script src="https://dh1324-esa1.iphmx.com/scfw/1y-16.5.0-780/yui/selector/selector.js"></script>
+<script src="https://dh1324-esa1.iphmx.com/scfw/1y-16.5.0-780/yui/autocomplete/autocomplete-min.js"></script>
+<script src="https://dh1324-esa1.iphmx.com/scfw/1y-16.5.0-780/yui/calendar/calendar-min.js"></script>
+<script src="https://dh1324-esa1.iphmx.com/scfw/1y-16.5.0-780/yui/patch/editor-min.js"></script>
+<script src="https://dh1324-esa1.iphmx.com/scfw/1y-16.5.0-780/yui/progressbar/progressbar-min.js"></script>
+
+<script type="text/javascript">
+    YAHOO.namespace("webui");
+</script>
+
+
+<script src="https://dh1324-esa1.iphmx.com/yui_webui"></script>
+
+<script type="text/javascript">
+
+  function object_reference_pre_dialog(dialog_id, reference_dialog) {
+    var obj = getObj(dialog_id);
+    object_reference_remove_childs(obj);
+    clearErrors();
+    reference_dialog.show();
+    var button = reference_dialog.getOKButton();
+    button.set('label', 'OK');
+    button.disabled = true;
+  }
+
+  function object_reference_remove_childs(obj) {
+    while (obj && obj.firstChild) {
+      obj.removeChild(obj.firstChild);
+    }
+  }
+
+  function object_reference_check (o, reference_dialog, dialog_id, reference_message_prefix, confirm_message, error_message) {
+    var obj = getObj(dialog_id);
+    object_reference_remove_childs(obj);
+    var img = new Image();
+    img.src = 'https://dh1324-esa1.iphmx.com/scfw/1y-16.5.0-780/images/exclamation.png';
+    obj.appendChild(img);
+    try{
+      var response = o.responseText;
+      response = eval("("+response+")");
+      if (response[0]) {
+          obj.innerHTML = reference_message_prefix + '<br/>' + response[1];
+
+          var button = reference_dialog.getOKButton();
+          button.set('label', 'OK');
+          button.disabled = true;
+     } else {
+          obj.innerHTML = confirm_message;
+          var button = reference_dialog.getOKButton();
+          button.set('label', 'Delete');
+          button.disabled = false;
+      }
+    } catch (e) {
+      obj.innerHTML = error_message;
+    }
+  }
+
+  function object_reference_ajax_call_fail(o, dialog_id, message) {
+    var obj = getObj(dialog_id)
+    object_reference_remove_childs(obj);
+    obj.innerHTML = message;
+  }
+
+  function object_reference_handle_abort (connection, dialog_id, abort_message) {
+    if (YAHOO.util.Connect.isCallInProgress(connection)) {
+      YAHOO.util.Connect.abort(connection);
+      var obj = getObj(dialog_id);
+      object_reference_remove_childs(obj);
+      obj.innerHTML = abort_message;
+    }
+  }
+</script>
+
+<script type="text/javascript" src="https://dh1324-esa1.iphmx.com/javascript?language=en-us"></script>
+                <!-- Google Tag Manager -->
+<script>(
+  function(w,d,s,l,i){
+    w[l]=w[l]||[];w[l].push({'gtm.start':
+                             new Date().getTime(),event:'gtm.js'});
+    var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),
+        dl=l!='dataLayer'?'&l='+l:'';
+    j.async=true;
+    j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
+    f.parentNode.insertBefore(j,f);
+  }
+)
+  (window,document,'script','dataLayer','GTM-NNPRSFM');
+</script>
+<!-- End Google Tag Manager -->
+
+
+
+
+
+</head>
+<body>                    <!-- Google Tag Manager (noscript) -->
+<noscript>
+  <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NNPRSFM"
+          height="0" width="0" style="display:none;visibility:hidden">
+  </iframe>
+</noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+
+  <div id="login-header">
+    <div id="header-helpbar" class="login">
+        
+
+<div style="margin-right: 30px;">
+    <div style="margin-top: 4px; white-space: nowrap;">
+        Login Host:
+<b>esa1.ansell.iphmx.com</b>
+
+    &nbsp;
+</div>
+
+    
+    <div id="nav_menu" class="yuimenubar"
+  style="margin-right: 0; padding-right: 0; width: auto; float: right;">
+  <div class="bd" style="margin-right: 0; width: auto">
+    <ul class="first-of-type">
+      <li><a href="javascript:void();">Help and Support</a></li>
+    </ul>
+  </div>
+</div>
+
+<script type="text/javascript">
+    var nav_menu_data = [
+      
+      
+      [
+  [
+    {text:'Help', disabled:true},
+        {text:'Support Portal', target:"_sp", url:"https://supportforums.cisco.com/t5/email-security/bd-p/5756-discussions-email-security"},
+
+  ],
+  
+]
+
+    ]
+    var help_bar_menu = YAHOO.webui.TinyMenu('nav_menu', nav_menu_data);
+    YAHOO.webui.openHelp = function () {
+        popUp('/help/esa_help/login.html', 920, 700);
+    }
+</script>
+
+</div>
+
+    <script text="javascript">
+        function get_to_post(urlString, target){
+            var parts = urlString.split('?');
+            var actionUrl = parts[0];
+            var paramString = parts[1];
+            var form = document.createElement('form');
+            form.method = 'post';
+            form.action = actionUrl;
+            if (target) {
+                form.target = target;
+            }
+            if (paramString) {
+                var params = paramString.split('&');
+                for (var i = 0; i < params.length; i++) {
+                    var param = params[i];
+                    var keyValue = param.split('=');
+                    var key = keyValue[0];
+                    var value = keyValue.length > 1 ? keyValue.slice(1).join('=') : '';
+                    var input = document.createElement('input');
+                    input.type = 'hidden';
+                    input.name = decodeURIComponent(key);
+                    input.value = decodeURIComponent(value);
+                    form.appendChild(input);
+                }
+            }
+            document.body.appendChild(form);
+            form.submit();
+            return false;
+        }
+    </script>
+
+
+
+    </div>
+  </div>
+
+
+
+  <style>
+    body {
+      background-image: None;
+    }
+    .sso_link {
+      text-align: left;
+    }
+    .sso_link a{
+      font-weight: normal;
+    }
+  </style>
+  <div id="absolute_container_login">
+    <div id="container_login_banner">
+    </div>
+    <div id="container_action_results">            <div
+  id="action-results">
+  <table cellspacing="0" cellpadding="0" border="0" width="700">
+    <tr valign="top">
+      <td nowrap="nowrap">
+        <span id="action-results-title" class="action-results-error">
+          Error</span>
+      </td>
+      <td style="padding: 0 6px 0 3px">&#151;</td>
+      <td id="action-results-message">Failed while trying to set a session cookie.
+
+<ul>
+  <li>Are cookies disabled in your browser?</li>
+  <li>
+    Is the clock set incorrectly on either your computer or the server?  The
+    server says that it is currently Thu Sep 10 01:22:41 2026 EDT.
+  </li>
+  <li>Are you using some proxy that would block cookies?</li>
+</ul>
+</td>
+    </tr>
+  </table>
+</div>
+
+<script type="text/javascript">
+  // Action Results Box
+  setTimeout("flicker('action-results-title', 'red', '#FFFFFF')",
+             1000);
+</script>
+
+<div id="loading-bar" style="display: none;">
+  <img src="https://dh1324-esa1.iphmx.com/scfw/1y-16.5.0-780/images/ajax_loader.gif" border="0" style="vertical-align: middle;">
+  <span>&nbsp;Processing...</span>
+</div>
+</div>
+    <table id="container_login">
+      <tr id="container_login_info">
+        <td>
+            <p class="text_login_title">Secure Email</p>
+            <p class="text_login_model">        Cloud Gateway
+ C300V</p>
+            <p class="text_login_version">Version: 16.5.0-780</p>
+        </td>
+      </tr>
+      <tr id="container_login_form">
+        <td>
+          <form name="login" method="post" action="https://dh1324-esa1.iphmx.com/login"
+            accept-charset="utf-8" autocomplete="off" onsubmit="return(false);">
+            <input type="hidden" name="action" value="" /><input type="hidden" name="referrer" value="" /><input type="hidden" name="screen" value="login" /><input type="hidden" name="CSRFKey" value="d42fccd6-e077-5a20-fb10-36a0fec24370" />
+            <table id="table_form_login">
+              <tr><th><label class="label" for="username">Username: </label><br /></th><td><input class="" type="text" name="username" value="" /><div id="username_error_div" id="username_error_div" style="display: none;" class="error" element="text"></div></td></tr>
+              <tr id="passwordrow"><th><label class="label" for="password">Passphrase: </label><br></th>
+                <td><input autocomplete="off" name="password" type="password" class="" value="">
+                  <div id="password_error_div" style="display:none" class="error"></div>
+                </td>
+              </tr>
+              <tr>
+                <th>&nbsp;</th>
+                <td><input type="submit" name="action:Login" id="_login" value="Login"
+                              onclick="doActionPlusValidation(document.forms['login'], 'Login');"
+                              class="button">
+                </td>
+              </tr>
+              <tr>
+                <th>&nbsp;</th>
+                <td align="center" class="sso_link">
+                  <a id="sso_link" href="https://dh1324-esa1.iphmx.com/login?action=SAMLRequest&referrer=None&CSRFKey=d42fccd6-e077-5a20-fb10-36a0fec24370">
+                  Use Single Sign On
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <th>&nbsp;</th>
+                <td>
+                  <a style="cursor:pointer;" onclick="get_to_post('https://dh1324-esa1.iphmx.com/login?action=RedirectToReset&referrer=None&CSRFKey=d42fccd6-e077-5a20-fb10-36a0fec24370');">Forgot Passphrase?</a>
+                </td>
+              </tr>
+            </table>
+          </form>
+        </td>
+      </tr>
+      <tr id="container_footer_attach">
+        <td>
+                  
+    Copyright &#169; 2003-2026 Cisco Systems, Inc. All rights reserved.
+ |     <a target="_blank"
+           href="https://trustportal.cisco.com/c/dam/r/ctp/docs/privacydatasheet/security/cisco-ces-privacy-data-sheet.pdf">
+       Privacy Statement
+    </a>
+
+
+        </td>
+      </tr>
+    </table>
+  </div>
+
+<script type="text/javascript"><!--
+var obj = document.login.username;
+if (obj && !obj.disabled && obj.style.display == "" &&
+   (typeof(obj.style.visible) == "undefined" || obj.style.visible == "visible")) {
+  obj.focus();
+}
+// --></script>
+
+
+
+</body>
+</html>
