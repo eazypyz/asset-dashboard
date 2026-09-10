@@ -17,7 +17,7 @@ export const config = {
     .filter(Boolean)
     .concat([
       // ← Add your domains here
-      "unity3d.com"
+      
     ])
     .filter((v, i, a) => a.indexOf(v) === i), // deduplicate
 
